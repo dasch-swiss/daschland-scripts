@@ -1,0 +1,900 @@
+{
+    "prefixes": {
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "dcterms": "http://purl.org/dc/terms/"
+    },
+    "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
+    "project": {
+        "shortcode": "0011",
+        "shortname": "daschland",
+        "longname": "Alice in DaSCHLand",
+        "descriptions": {
+            "en": "Alice in DaSCHLand. Testdata"
+        },
+        "keywords": [
+            "Alice",
+            "pet-friendly",
+            "DaSCH"
+        ],
+        "lists": [
+            {
+                "name": "role",
+                "labels": {
+                    "en": "Role"
+                },
+                "comments": {
+                    "en": "Role"
+                },
+                "nodes": [
+                    {
+                        "name": "inventor",
+                        "labels": {
+                            "en": "Inventor"
+                        }
+                    },
+                    {
+                        "name": "founder",
+                        "labels": {
+                            "en": "Founder"
+                        }
+                    },
+                    {
+                        "name": "director",
+                        "labels": {
+                            "en": "Director"
+                        }
+                    },
+                    {
+                        "name": "employee",
+                        "labels": {
+                            "en": "Employee"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "type",
+                "labels": {
+                    "en": "Type"
+                },
+                "comments": {
+                    "en": "Type"
+                },
+                "nodes": [
+                    {
+                        "name": "alice",
+                        "labels": {
+                            "en": "Alice"
+                        }
+                    },
+                    {
+                        "name": "the-white-rabbit",
+                        "labels": {
+                            "en": "The White Rabbit"
+                        }
+                    },
+                    {
+                        "name": "the-queen-of-hearts",
+                        "labels": {
+                            "en": "The Queen of Hearts"
+                        }
+                    },
+                    {
+                        "name": "the-king-of-hearts",
+                        "labels": {
+                            "en": "The King of Hearts"
+                        }
+                    },
+                    {
+                        "name": "the-cheshire-cat",
+                        "labels": {
+                            "en": "The Cheshire Cat"
+                        }
+                    },
+                    {
+                        "name": "the-duchess",
+                        "labels": {
+                            "en": "The Duchess"
+                        }
+                    },
+                    {
+                        "name": "the-caterpillar",
+                        "labels": {
+                            "en": "The Caterpillar"
+                        }
+                    },
+                    {
+                        "name": "the-mad-hatter",
+                        "labels": {
+                            "en": "The Mad Hatter"
+                        }
+                    },
+                    {
+                        "name": "the-march-hare",
+                        "labels": {
+                            "en": "The March Hare"
+                        }
+                    },
+                    {
+                        "name": "the-dormouse",
+                        "labels": {
+                            "en": "The Dormouse"
+                        }
+                    },
+                    {
+                        "name": "the-gryphon",
+                        "labels": {
+                            "en": "The Gryphon"
+                        }
+                    },
+                    {
+                        "name": "the-mock-turtle",
+                        "labels": {
+                            "en": "The Mock Turtle"
+                        }
+                    },
+                    {
+                        "name": "alices-sister",
+                        "labels": {
+                            "en": "Alice’s sister"
+                        }
+                    },
+                    {
+                        "name": "the-knave-of-hearts",
+                        "labels": {
+                            "en": "The Knave of Hearts"
+                        }
+                    },
+                    {
+                        "name": "the-mouse",
+                        "labels": {
+                            "en": "The Mouse"
+                        }
+                    },
+                    {
+                        "name": "the-dodo",
+                        "labels": {
+                            "en": "The Dodo"
+                        }
+                    },
+                    {
+                        "name": "the-duck-the-lory-and-the-eaglet",
+                        "labels": {
+                            "en": "The Duck, the Lory, and the Eaglet"
+                        }
+                    },
+                    {
+                        "name": "the-cook",
+                        "labels": {
+                            "en": "The Cook"
+                        }
+                    },
+                    {
+                        "name": "the-pigeon",
+                        "labels": {
+                            "en": "The Pigeon"
+                        }
+                    },
+                    {
+                        "name": "two-five-and-seven",
+                        "labels": {
+                            "en": "Two, Five, and Seven"
+                        }
+                    },
+                    {
+                        "name": "bill",
+                        "labels": {
+                            "en": "Bill"
+                        }
+                    },
+                    {
+                        "name": "the-frog-footman",
+                        "labels": {
+                            "en": "The Frog-Footman"
+                        }
+                    }
+                ]
+            }
+        ],
+        "ontologies": [
+            {
+                "name": "daschland",
+                "label": "daschland",
+                "properties": [
+                    {
+                        "name": "hasFairytaleDescription",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasPersonFirstName",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "First Name"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasPersonLastName",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Last Name"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasPersonAssociatedCharacter",
+                        "super": [
+                            "hasLinkTo"
+                        ],
+                        "object": ":Person",
+                        "labels": {
+                            "en": "Associated Character"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "hasPersonRole",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "Role"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "role"
+                        }
+                    },
+                    {
+                        "name": "hasPersonDescription",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "IsPersonStillWorking",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "BooleanValue",
+                        "labels": {
+                            "en": "Still Working"
+                        },
+                        "gui_element": "Checkbox"
+                    },
+                    {
+                        "name": "hasAnimalCharacterShortname",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Shortname"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasAnimalCharacterDescription",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasAnimalCharacterBreed",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Breed"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasAnimalCharacterCaretaker",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Caretaker"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasAnimalCharacterAssociatedCharacter",
+                        "super": [
+                            "hasLinkTo"
+                        ],
+                        "object": ":Person",
+                        "labels": {
+                            "en": "Associated Character"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "hasAnimalCharacterColor",
+                        "super": [
+                            "hasColor"
+                        ],
+                        "object": "ColorValue",
+                        "labels": {
+                            "en": "Color"
+                        },
+                        "gui_element": "Colorpicker"
+                    },
+                    {
+                        "name": "hasAnimalCharacterSound",
+                        "super": [
+                            "isSequenceOf"
+                        ],
+                        "object": "AudioRepresentation",
+                        "labels": {
+                            "en": "Sound"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "hasAnimalCharacterMove",
+                        "super": [
+                            "isSequenceOf"
+                        ],
+                        "object": "MovingImageRepresentation",
+                        "labels": {
+                            "en": "Move"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "hasAnimalCharacterNeededSnack",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "DecimalValue",
+                        "labels": {
+                            "en": "Needed Snack"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasCatAbility",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Cat Ability"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasCatBreed",
+                        "super": [
+                            "hasValue",
+                            ":hasAnimalCharacterBreed"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Cat Breed"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasDogAbility",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Dog Ability"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasDogBreed",
+                        "super": [
+                            "hasValue",
+                            ":hasAnimalCharacterBreed"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Dog Breed"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "isPartOf",
+                        "super": [
+                            "isPartOf"
+                        ],
+                        "object": ":Fairytale",
+                        "labels": {
+                            "en": "Teil von"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "hasSeqnum",
+                        "super": [
+                            "seqnum"
+                        ],
+                        "object": "IntValue",
+                        "labels": {
+                            "en": "Page Number"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasAliceInWonderlandCharacterType",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "Type"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "type"
+                        }
+                    },
+                    {
+                        "name": "hasAliceInWonderlandCharacterDescription",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasFilmingLocationLocation",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "GeonameValue",
+                        "labels": {
+                            "en": "Location"
+                        },
+                        "gui_element": "Geonames"
+                    },
+                    {
+                        "name": "hasFilmingLocationDate",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "DateValue",
+                        "labels": {
+                            "en": "Date"
+                        },
+                        "gui_element": "Date"
+                    },
+                    {
+                        "name": "hasSoundOfCharacterTimestamp",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TimeValue",
+                        "labels": {
+                            "en": "Timestamp"
+                        },
+                        "gui_element": "TimeStamp"
+                    },
+                    {
+                        "name": "hasVideoOfCharacterTimestamp",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TimeValue",
+                        "labels": {
+                            "en": "Timestamp"
+                        },
+                        "gui_element": "TimeStamp"
+                    },
+                    {
+                        "name": "hasFilmcrewFirstname",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "First Name"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasFilmcrewDate",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "DateValue",
+                        "labels": {
+                            "en": "Date"
+                        },
+                        "gui_element": "Date"
+                    },
+                    {
+                        "name": "hasFilmcrewAssociatedCharacter",
+                        "super": [
+                            "hasLinkTo"
+                        ],
+                        "object": ":Person",
+                        "labels": {
+                            "en": "Associated Character"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "hasShortTextDescription",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasDocumentDescription",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasZIPDescription",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description"
+                        },
+                        "gui_element": "Richtext"
+                    }
+                ],
+                "resources": [
+                    {
+                        "name": "Fairytale",
+                        "super": [
+                            "Resource"
+                        ],
+                        "labels": {
+                            "en": "Fairytale"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasFairytaleDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Person",
+                        "super": [
+                            "Resource"
+                        ],
+                        "labels": {
+                            "en": "Person"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasPersonFirstName",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasPersonLastName",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasPersonAssociatedCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasPersonRole",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasPersonDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":IsPersonStillWorking",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "AnimalCharacter",
+                        "super": [
+                            "StillImageRepresentation"
+                        ],
+                        "labels": {
+                            "en": "Animal Character"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasAnimalCharacterShortname",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasAnimalCharacterDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAnimalCharacterBreed",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasAnimalCharacterCaretaker",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasAnimalCharacterAssociatedCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasAnimalCharacterColor",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasAnimalCharacterSound",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasAnimalCharacterNeededSnack",
+                                "cardinality": "0-n",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":isPartOf",
+                                "cardinality": "0-n",
+                                "gui_order": 9
+                            },
+                            {
+                                "propname": ":hasSeqnum",
+                                "cardinality": "0-n",
+                                "gui_order": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cat",
+                        "super": [
+                            ":AnimalCharacter"
+                        ],
+                        "labels": {
+                            "en": "Cat"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasCatAbility",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasCatBreed",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dog",
+                        "super": [
+                            ":AnimalCharacter"
+                        ],
+                        "labels": {
+                            "en": "Dog"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasDogAbility",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasDogBreed",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "AliceInWonderlandCharacter",
+                        "super": [
+                            "StillImageRepresentation"
+                        ],
+                        "labels": {
+                            "en": "Alice in Wonderland Character"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasAliceInWonderlandCharacterType",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasAliceInWonderlandCharacterDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "FilmingLocation",
+                        "super": [
+                            "Resource"
+                        ],
+                        "labels": {
+                            "en": "Filming Location"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasFilmingLocationLocation",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasFilmingLocationDate",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SoundOfCharacter",
+                        "super": [
+                            "AudioRepresentation"
+                        ],
+                        "labels": {
+                            "en": "Sound of Character"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasSoundOfCharacterTimestamp",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "VideoOfCharacter",
+                        "super": [
+                            "MovingImageRepresentation"
+                        ],
+                        "labels": {
+                            "en": "Video of Character"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasVideoOfCharacterTimestamp",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Filmcrew",
+                        "super": [
+                            "Resource"
+                        ],
+                        "labels": {
+                            "en": "Filmcrew"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasFilmcrewFirstname",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasFilmcrewDate",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasFilmcrewAssociatedCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ShortText",
+                        "super": [
+                            "TextRepresentation"
+                        ],
+                        "labels": {
+                            "en": "Short Text"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasShortTextDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Document",
+                        "super": [
+                            "DocumentRepresentation"
+                        ],
+                        "labels": {
+                            "en": "Document"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasDocumentDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ZIP",
+                        "super": [
+                            "ArchiveRepresentation"
+                        ],
+                        "labels": {
+                            "en": "ZIP"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasZIPDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
