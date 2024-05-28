@@ -1,0 +1,18 @@
+{
+   "prefixes": {
+       "foaf": "http://xmlns.com/foaf/0.1/",
+       "dcterms": "http://purl.org/dc/terms/"
+   },
+   "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
+   "project": {
+       "shortcode": "0011",
+       "shortname": "daschland",
+       "longname": "Alice in DaSCHland",
+       "descriptions": {
+           "en": "Alice in DaSCHland. Testdata"
+       },
+       "keywords": [
+           "Alice",
+           "pet-friendly",
+           "DaSCH"
+       ],
