@@ -1,21 +1,21 @@
 {
-    "prefixes": {
-        "foaf": "http://xmlns.com/foaf/0.1/",
-        "dcterms": "http://purl.org/dc/terms/"
-    },
-    "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
-    "project": {
-        "shortcode": "0011",
-        "shortname": "daschland",
-        "longname": "Alice in DaSCHland",
-        "descriptions": {
-            "en": "Alice in DaSCHland. Testdata"
-        },
-        "keywords": [
-            "Alice",
-            "pet-friendly",
-            "DaSCH"
-        ],
+   "prefixes": {
+       "foaf": "http://xmlns.com/foaf/0.1/",
+       "dcterms": "http://purl.org/dc/terms/"
+   },
+   "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
+   "project": {
+       "shortcode": "0011",
+       "shortname": "daschland",
+       "longname": "Alice in DaSCHland",
+       "descriptions": {
+           "en": "Alice in DaSCHland. Testdata"
+       },
+       "keywords": [
+           "Alice",
+           "pet-friendly",
+           "DaSCH"
+       ],
         "lists": [
             {
                 "name": "Character Type",
@@ -31,183 +31,183 @@
                     {
                         "name": "Alice",
                         "labels": {
-                            "fr": "Alice",
-                            "en": "Alice"
+                            "en": "Alice",
+                            "fr": "Alice"
                         }
                     },
                     {
                         "name": "The White Rabbit",
                         "labels": {
-                            "fr": "Le Lapin Blanc",
-                            "en": "The White Rabbit"
+                            "en": "The White Rabbit",
+                            "fr": "Le Lapin Blanc"
                         }
                     },
                     {
                         "name": "The Queen of Hearts",
                         "labels": {
-                            "fr": "La Reine de Cœur",
-                            "en": "The Queen of Hearts"
+                            "en": "The Queen of Hearts",
+                            "fr": "La Reine de Cœur"
                         }
                     },
                     {
                         "name": "The King of Hearts",
                         "labels": {
-                            "fr": "Le Roi de Cœur",
-                            "en": "The King of Hearts"
+                            "en": "The King of Hearts",
+                            "fr": "Le Roi de Cœur"
                         }
                     },
                     {
                         "name": "The Cheshire Cat",
                         "labels": {
-                            "fr": "Le Chat du Cheshire",
-                            "en": "The Cheshire Cat"
+                            "en": "The Cheshire Cat",
+                            "fr": "Le Chat du Cheshire"
                         }
                     },
                     {
                         "name": "The Duchess",
                         "labels": {
-                            "fr": "La Duchesse",
-                            "en": "The Duchess"
+                            "en": "The Duchess",
+                            "fr": "La Duchesse"
                         }
                     },
                     {
                         "name": "The Caterpillar",
                         "labels": {
-                            "fr": "La Chenille",
-                            "en": "The Caterpillar"
+                            "en": "The Caterpillar",
+                            "fr": "La Chenille"
                         }
                     },
                     {
                         "name": "The Mad Hatter",
                         "labels": {
-                            "fr": "Le Chapelier fou",
-                            "en": "The Mad Hatter"
+                            "en": "The Mad Hatter",
+                            "fr": "Le Chapelier fou"
                         }
                     },
                     {
                         "name": "The March Hare",
                         "labels": {
-                            "fr": "Le lièvre de Mars",
-                            "en": "The March Hare"
+                            "en": "The March Hare",
+                            "fr": "Le lièvre de Mars"
                         }
                     },
                     {
                         "name": "The Dormouse",
                         "labels": {
-                            "fr": "Le Loir",
-                            "en": "The Dormouse"
+                            "en": "The Dormouse",
+                            "fr": "Le Loir"
                         }
                     },
                     {
                         "name": "The Gryphon",
                         "labels": {
-                            "fr": "Le Gryphon",
-                            "en": "The Gryphon"
+                            "en": "The Gryphon",
+                            "fr": "Le Gryphon"
                         }
                     },
                     {
                         "name": "The Mock Turtle",
                         "labels": {
-                            "fr": "La Simili-Tortue",
-                            "en": "The Mock Turtle"
+                            "en": "The Mock Turtle",
+                            "fr": "La Simili-Tortue"
                         }
                     },
                     {
                         "name": "Alice's sister",
                         "labels": {
-                            "fr": "La Sœur d'Alice",
-                            "en": "Alice's sister"
+                            "en": "Alice's sister",
+                            "fr": "La Sœur d'Alice"
                         }
                     },
                     {
                         "name": "The Knave of Hearts",
                         "labels": {
-                            "fr": "Le Valet de Cœur",
-                            "en": "The Knave of Hearts"
+                            "en": "The Knave of Hearts",
+                            "fr": "Le Valet de Cœur"
                         }
                     },
                     {
                         "name": "The Mouse",
                         "labels": {
-                            "fr": "La Souris",
-                            "en": "The Mouse"
+                            "en": "The Mouse",
+                            "fr": "La Souris"
                         }
                     },
                     {
                         "name": "The Dodo",
                         "labels": {
-                            "fr": "Le Dodo",
-                            "en": "The Dodo"
+                            "en": "The Dodo",
+                            "fr": "Le Dodo"
                         }
                     },
                     {
                         "name": "The Duck",
                         "labels": {
-                            "fr": "Le Canard",
-                            "en": "The Duck"
+                            "en": "The Duck",
+                            "fr": "Le Canard"
                         }
                     },
                     {
                         "name": "The Lory",
                         "labels": {
-                            "fr": "Le Lory",
-                            "en": "The Lory"
+                            "en": "The Lory",
+                            "fr": "Le Lory"
                         }
                     },
                     {
                         "name": "The Eaglet",
                         "labels": {
-                            "fr": "L'Aiglon",
-                            "en": "The Eaglet"
+                            "en": "The Eaglet",
+                            "fr": "L'Aiglon"
                         }
                     },
                     {
                         "name": "The Cook",
                         "labels": {
-                            "fr": "Le Cuisinier",
-                            "en": "The Cook"
+                            "en": "The Cook",
+                            "fr": "Le Cuisinier"
                         }
                     },
                     {
                         "name": "The Pigeon",
                         "labels": {
-                            "fr": "Le Pigeon",
-                            "en": "The Pigeon"
+                            "en": "The Pigeon",
+                            "fr": "Le Pigeon"
                         }
                     },
                     {
                         "name": "Two",
                         "labels": {
-                            "fr": "Deux",
-                            "en": "Two"
+                            "en": "Two",
+                            "fr": "Deux"
                         }
                     },
                     {
                         "name": "Five",
                         "labels": {
-                            "fr": "Cinq",
-                            "en": "Five"
+                            "en": "Five",
+                            "fr": "Cinq"
                         }
                     },
                     {
                         "name": "Seven",
                         "labels": {
-                            "fr": "Sept",
-                            "en": "Seven"
+                            "en": "Seven",
+                            "fr": "Sept"
                         }
                     },
                     {
                         "name": "Bill",
                         "labels": {
-                            "fr": "Bill",
-                            "en": "Bill"
+                            "en": "Bill",
+                            "fr": "Bill"
                         }
                     },
                     {
                         "name": "The Frog-Footman",
                         "labels": {
-                            "fr": "L'homme aux pieds de grenouille",
-                            "en": "The Frog-Footman"
+                            "en": "The Frog-Footman",
+                            "fr": "L'homme aux pieds de grenouille"
                         }
                     }
                 ]
@@ -226,29 +226,29 @@
                     {
                         "name": "Engineering",
                         "labels": {
-                            "fr": "Développement informatique",
-                            "en": "Engineering"
+                            "en": "Engineering",
+                            "fr": "Développement informatique"
                         }
                     },
                     {
                         "name": "Repository Services",
                         "labels": {
-                            "fr": "Services d'archivage",
-                            "en": "Repository Services"
+                            "en": "Repository Services",
+                            "fr": "Services d'archivage"
                         }
                     },
                     {
                         "name": "DARIAH-CH",
                         "labels": {
-                            "fr": "DARIAH-CH",
-                            "en": "DARIAH-CH"
+                            "en": "DARIAH-CH",
+                            "fr": "DARIAH-CH"
                         }
                     },
                     {
                         "name": "Office Management",
                         "labels": {
-                            "fr": "Administration",
-                            "en": "Office Management"
+                            "en": "Office Management",
+                            "fr": "Administration"
                         }
                     }
                 ]
@@ -267,57 +267,57 @@
                     {
                         "name": "B.A.",
                         "labels": {
-                            "fr": "B.A.",
-                            "en": "B.A."
+                            "en": "B.A.",
+                            "fr": "B.A."
                         }
                     },
                     {
                         "name": "B.Sc.",
                         "labels": {
-                            "fr": "B.Sc.",
-                            "en": "B.Sc."
+                            "en": "B.Sc.",
+                            "fr": "B.Sc."
                         }
                     },
                     {
                         "name": "M.A.",
                         "labels": {
-                            "fr": "M.A.",
-                            "en": "M.A."
+                            "en": "M.A.",
+                            "fr": "M.A."
                         }
                     },
                     {
                         "name": "M.Sc.",
                         "labels": {
-                            "fr": "M.Sc.",
-                            "en": "M.Sc."
+                            "en": "M.Sc.",
+                            "fr": "M.Sc."
                         }
                     },
                     {
                         "name": "Dr.",
                         "labels": {
-                            "fr": "Dr.",
-                            "en": "Dr."
+                            "en": "Dr.",
+                            "fr": "Dr."
                         }
                     },
                     {
                         "name": "PD",
                         "labels": {
-                            "fr": "PD",
-                            "en": "PD"
+                            "en": "PD",
+                            "fr": "PD"
                         }
                     },
                     {
                         "name": "Dipl.-Ind.-Eng.",
                         "labels": {
-                            "fr": "Dipl.-Ind.-Eng.",
-                            "en": "Dipl.-Ind.-Eng."
+                            "en": "Dipl.-Ind.-Eng.",
+                            "fr": "Dipl.-Ind.-Eng."
                         }
                     },
                     {
                         "name": "B.BI",
                         "labels": {
-                            "fr": "B.BI",
-                            "en": "B.BI"
+                            "en": "B.BI",
+                            "fr": "B.BI"
                         }
                     }
                 ]
@@ -336,22 +336,22 @@
                     {
                         "name": "Female",
                         "labels": {
-                            "fr": "Féminin",
-                            "en": "Female"
+                            "en": "Female",
+                            "fr": "Féminin"
                         }
                     },
                     {
                         "name": "Male",
                         "labels": {
-                            "fr": "Masculin",
-                            "en": "Male"
+                            "en": "Male",
+                            "fr": "Masculin"
                         }
                     },
                     {
                         "name": "Non-binary",
                         "labels": {
-                            "fr": "Non-binaire",
-                            "en": "Non-binary"
+                            "en": "Non-binary",
+                            "fr": "Non-binaire"
                         }
                     }
                 ]
@@ -370,43 +370,43 @@
                     {
                         "name": "CC BY 4.0",
                         "labels": {
-                            "fr": "CC BY 4.0",
-                            "en": "CC BY 4.0"
+                            "en": "CC BY 4.0",
+                            "fr": "CC BY 4.0"
                         }
                     },
                     {
                         "name": "CC BY-SA 4.0",
                         "labels": {
-                            "fr": "CC BY-SA 4.0",
-                            "en": "CC BY-SA 4.0"
+                            "en": "CC BY-SA 4.0",
+                            "fr": "CC BY-SA 4.0"
                         }
                     },
                     {
                         "name": "CC BY-NC 4.0",
                         "labels": {
-                            "fr": "CC BY-NC 4.0",
-                            "en": "CC BY-NC 4.0"
+                            "en": "CC BY-NC 4.0",
+                            "fr": "CC BY-NC 4.0"
                         }
                     },
                     {
                         "name": "CC BY-NC-SA 4.0",
                         "labels": {
-                            "fr": "CC BY-NC-SA 4.0",
-                            "en": "CC BY-NC-SA 4.0"
+                            "en": "CC BY-NC-SA 4.0",
+                            "fr": "CC BY-NC-SA 4.0"
                         }
                     },
                     {
                         "name": "CC BY-ND 4.0",
                         "labels": {
-                            "fr": "CC BY-ND 4.0",
-                            "en": "CC BY-ND 4.0"
+                            "en": "CC BY-ND 4.0",
+                            "fr": "CC BY-ND 4.0"
                         }
                     },
                     {
                         "name": "CC BY-NC-ND 4.0",
                         "labels": {
-                            "fr": "CC BY-NC-ND 4.0",
-                            "en": "CC BY-NC-ND 4.0"
+                            "en": "CC BY-NC-ND 4.0",
+                            "fr": "CC BY-NC-ND 4.0"
                         }
                     }
                 ]
@@ -425,85 +425,85 @@
                     {
                         "name": "Head of Repository Services",
                         "labels": {
-                            "fr": "Direction des services d'archivage",
-                            "en": "Head of Repository Services"
+                            "en": "Head of Repository Services",
+                            "fr": "Direction des services d'archivage"
                         }
                     },
                     {
                         "name": "Head of Engineering",
                         "labels": {
-                            "fr": "Direction du développement informatique",
-                            "en": "Head of Engineering"
+                            "en": "Head of Engineering",
+                            "fr": "Direction du développement informatique"
                         }
                     },
                     {
                         "name": "Operations Manager",
                         "labels": {
-                            "fr": "Responsable des opérations",
-                            "en": "Operations Manager"
+                            "en": "Operations Manager",
+                            "fr": "Responsable des opérations"
                         }
                     },
                     {
                         "name": "National Coordination Officer",
                         "labels": {
-                            "fr": "Chargé.e de la coordination nationale",
-                            "en": "National Coordination Officer"
+                            "en": "National Coordination Officer",
+                            "fr": "Chargé.e de la coordination nationale"
                         }
                     },
                     {
                         "name": "Interoperability Specialist",
                         "labels": {
-                            "fr": "Spécialiste de l'interopérabilité",
-                            "en": "Interoperability Specialist"
+                            "en": "Interoperability Specialist",
+                            "fr": "Spécialiste de l'interopérabilité"
                         }
                     },
                     {
                         "name": "Software Engineer",
                         "labels": {
-                            "fr": "Ingénieur.e logiciel",
-                            "en": "Software Engineer"
+                            "en": "Software Engineer",
+                            "fr": "Ingénieur.e logiciel"
                         }
                     },
                     {
                         "name": "Senior Software Engineer",
                         "labels": {
-                            "fr": "Ingénieur.e logiciel senior",
-                            "en": "Senior Software Engineer"
+                            "en": "Senior Software Engineer",
+                            "fr": "Ingénieur.e logiciel senior"
                         }
                     },
                     {
                         "name": "Infrastructure Engineer",
                         "labels": {
-                            "fr": "Ingénieur.e infrastructure",
-                            "en": "Infrastructure Engineer"
+                            "en": "Infrastructure Engineer",
+                            "fr": "Ingénieur.e infrastructure"
                         }
                     },
                     {
                         "name": "Research Data Specialist",
                         "labels": {
-                            "fr": "Spécialiste en données de recherche",
-                            "en": "Research Data Specialist"
+                            "en": "Research Data Specialist",
+                            "fr": "Spécialiste en données de recherche"
                         }
                     },
                     {
                         "name": "Senior Research Data Specialist",
                         "labels": {
-                            "fr": "Spécialiste senior en données de recherche",
-                            "en": "Senior Research Data Specialist"
+                            "en": "Senior Research Data Specialist",
+                            "fr": "Spécialiste senior en données de recherche"
                         }
                     },
                     {
                         "name": "Scientific Programmer",
                         "labels": {
-                            "fr": "Programmeur scientifique",
-                            "en": "Scientific Programmer"
+                            "en": "Scientific Programmer",
+                            "fr": "Programmeur scientifique"
                         }
                     },
                     {
                         "name": "Product Manager",
                         "labels": {
-                            "fr": "Responsable de produit",
-                            "en": "Product Manager"
+                            "en": "Product Manager",
+                            "fr": "Responsable de produit"
                         }
                     }
                 ]
@@ -511,23 +511,171 @@
             {
                 "name": "Specie",
                 "labels": {
-                    "en": "Specie"
+                    "en": "Specie",
+                    "fr": "Espèce"
                 },
                 "comments": {
-                    "en": "Specie"
+                    "en": "Specie",
+                    "fr": "Espèce"
                 },
                 "nodes": [
                     {
                         "name": "Cat",
                         "labels": {
-                            "en": "Cat"
-                        }
+                            "en": "Cat",
+                            "fr": "Chat"
+                        },
+                        "nodes": [
+                            {
+                                "name": "European Shorthair",
+                                "labels": {
+                                    "en": "European Shorthair",
+                                    "fr": "Chat européen"
+                                }
+                            },
+                            {
+                                "name": "Mixed-breed",
+                                "labels": {
+                                    "en": "Mixed-breed",
+                                    "fr": "chat de gouttière"
+                                }
+                            }
+                        ]
                     },
                     {
                         "name": "Dog",
                         "labels": {
-                            "en": "Dog"
+                            "en": "Dog",
+                            "fr": "Chien"
+                        },
+                        "nodes": [
+                            {
+                                "name": "Spanish greyhound",
+                                "labels": {
+                                    "en": "Spanish greyhound",
+                                    "fr": "Lévrier espagnol"
+                                }
+                            },
+                            {
+                                "name": "Yorkshire Terrier",
+                                "labels": {
+                                    "en": "Yorkshire Terrier",
+                                    "fr": "Terrier du Yorkshire"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rubber Duck",
+                        "labels": {
+                            "en": "Rubber Duck",
+                            "fr": "Canard en plastique"
                         }
+                    }
+                ]
+            },
+            {
+                "name": "Fairytale Location",
+                "labels": {
+                    "en": "Fairytale Location",
+                    "fr": "Lieu du conte"
+                },
+                "comments": {
+                    "en": "Fairytale Location",
+                    "fr": "Lieu du conte"
+                },
+                "nodes": [
+                    {
+                        "name": "England",
+                        "labels": {
+                            "en": "England",
+                            "fr": "Angleterre"
+                        },
+                        "nodes": [
+                            {
+                                "name": "Oxford",
+                                "labels": {
+                                    "en": "Oxford",
+                                    "fr": "Oxford"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "Alice's Garden",
+                                        "labels": {
+                                            "en": "Alice's Garden",
+                                            "fr": "Jardin d'Alice"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Rabbit Hole",
+                                "labels": {
+                                    "en": "Rabbit Hole",
+                                    "fr": "Terrier du Lapin"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wonderland",
+                        "labels": {
+                            "en": "Wonderland",
+                            "fr": "Pays des Merveilles"
+                        },
+                        "nodes": [
+                            {
+                                "name": "Duchess' house",
+                                "labels": {
+                                    "en": "Duchess' house",
+                                    "fr": "Maison de la duchesse"
+                                }
+                            },
+                            {
+                                "name": "White Rabbit's house",
+                                "labels": {
+                                    "en": "White Rabbit's house",
+                                    "fr": "Maison du Lapin Blanc"
+                                }
+                            },
+                            {
+                                "name": "Seacoast",
+                                "labels": {
+                                    "en": "Seacoast",
+                                    "fr": "Côte"
+                                }
+                            },
+                            {
+                                "name": "Palace of Hearts",
+                                "labels": {
+                                    "en": "Palace of Hearts",
+                                    "fr": "Palais de cœur"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "Garden",
+                                        "labels": {
+                                            "en": "Garden",
+                                            "fr": "Jardin"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Mad Hatters's Tea Room",
+                                "labels": {
+                                    "en": "Mad Hatters's Tea Room",
+                                    "fr": "Tea-room du chapelier fou"
+                                }
+                            },
+                            {
+                                "name": "Pool of Tears",
+                                "labels": {
+                                    "en": "Pool of Tears",
+                                    "fr": "Mare de larmes"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -550,7 +698,13 @@
                         "super": [
                             "hasValue",
                             "schema:birthDate"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Birthday",
+                            "de": "Geburtstag",
+                            "fr": "Anniversaire",
+                            "it": "Compleanno"
+                        }
                     },
                     {
                         "name": "hasChapterNumber",
@@ -565,7 +719,13 @@
                         "super": [
                             "hasValue",
                             "schema:pagination"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Chapter Number",
+                            "de": "Kapitel Nummer",
+                            "fr": "Numéro de chapitre",
+                            "it": "Numero del capitolo"
+                        }
                     },
                     {
                         "name": "hasCharacterTypeList",
@@ -583,6 +743,12 @@
                         ],
                         "gui_attributes": {
                             "hlist": "Character Type"
+                        },
+                        "comments": {
+                            "en": "Character Type",
+                            "de": "Zeichen-Typ",
+                            "fr": "Type de personnage",
+                            "it": "Tipo di personaggio"
                         }
                     },
                     {
@@ -598,7 +764,13 @@
                         "super": [
                             "hasValue",
                             "schema:copyrightHolder"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Copyright",
+                            "de": "Urheberrecht",
+                            "fr": "Droits d'auteur",
+                            "it": "Diritti dell'autore"
+                        }
                     },
                     {
                         "name": "hasDate",
@@ -612,7 +784,13 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Date",
+                            "de": "Datum",
+                            "fr": "Date de naissance",
+                            "it": "Data di nascita"
+                        }
                     },
                     {
                         "name": "hasDepartementList",
@@ -629,6 +807,12 @@
                         ],
                         "gui_attributes": {
                             "hlist": "Departement"
+                        },
+                        "comments": {
+                            "en": "Departement",
+                            "de": "Departement",
+                            "fr": "Département",
+                            "it": "Dipartimento"
                         }
                     },
                     {
@@ -638,13 +822,19 @@
                         "labels": {
                             "en": "Description",
                             "de": "Beschreibung",
-                            "fr": "Description de l'article",
-                            "it": "Descrizione dell'articolo"
+                            "fr": "Description",
+                            "it": "Descrizione"
                         },
                         "super": [
                             "hasValue",
                             "schema:description"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Description",
+                            "de": "Beschreibung",
+                            "fr": "Description",
+                            "it": "Descrizione"
+                        }
                     },
                     {
                         "name": "hasEducationGradeList",
@@ -661,6 +851,12 @@
                         ],
                         "gui_attributes": {
                             "hlist": "Education Grade"
+                        },
+                        "comments": {
+                            "en": "Education Grade",
+                            "de": "Bildungsgrad",
+                            "fr": "Niveau d'éducation",
+                            "it": "Livello di istruzione"
                         }
                     },
                     {
@@ -675,7 +871,13 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Favorite Cake",
+                            "de": "Lieblingskuchen",
+                            "fr": "Gâteau préféré",
+                            "it": "Torta preferita"
+                        }
                     },
                     {
                         "name": "hasFileName",
@@ -689,7 +891,13 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "File Name",
+                            "de": "Name der Datei",
+                            "fr": "Nom du fichier",
+                            "it": "Nome del file"
+                        }
                     },
                     {
                         "name": "hasFirstName",
@@ -704,7 +912,13 @@
                         "super": [
                             "hasValue",
                             "schema:givenName"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "First Name",
+                            "de": "Vorname",
+                            "fr": "Prénom",
+                            "it": "Nome"
+                        }
                     },
                     {
                         "name": "hasGenderList",
@@ -722,6 +936,12 @@
                         ],
                         "gui_attributes": {
                             "hlist": "Gender"
+                        },
+                        "comments": {
+                            "en": "Gender",
+                            "de": "Geschlecht",
+                            "fr": "Genre",
+                            "it": "Genere"
                         }
                     },
                     {
@@ -736,7 +956,13 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Geoname",
+                            "de": "Geoname",
+                            "fr": "Geoname",
+                            "it": "Geoname"
+                        }
                     },
                     {
                         "name": "hasID",
@@ -751,7 +977,13 @@
                         "super": [
                             "hasValue",
                             "schema:identifier"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "ID",
+                            "de": "ID",
+                            "fr": "ID",
+                            "it": "ID"
+                        }
                     },
                     {
                         "name": "hasLastName",
@@ -766,10 +998,16 @@
                         "super": [
                             "hasValue",
                             "schema:familyName"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Last Name",
+                            "de": "Nachname",
+                            "fr": "Nom de famille",
+                            "it": "Cognome"
+                        }
                     },
                     {
-                        "name": "hasLicense",
+                        "name": "hasLicenseList",
                         "object": "ListValue",
                         "gui_element": "List",
                         "labels": {
@@ -784,6 +1022,12 @@
                         ],
                         "gui_attributes": {
                             "hlist": "License"
+                        },
+                        "comments": {
+                            "en": "License",
+                            "de": "Lizenz",
+                            "fr": "Licence",
+                            "it": "Licenza"
                         }
                     },
                     {
@@ -798,7 +1042,13 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Name",
+                            "de": "Name",
+                            "fr": "Nom",
+                            "it": "Nome"
+                        }
                     },
                     {
                         "name": "hasPet",
@@ -812,7 +1062,13 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Pet",
+                            "de": "Haustier",
+                            "fr": "Animal de compagnie",
+                            "it": "Animale domestico"
+                        }
                     },
                     {
                         "name": "hasPetColor",
@@ -826,7 +1082,13 @@
                         },
                         "super": [
                             "hasColor"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Pet Color",
+                            "de": "Farbe des Tieres",
+                            "fr": "Couleur de l'animal",
+                            "it": "Colore dell'animale"
+                        }
                     },
                     {
                         "name": "hasQuote",
@@ -840,7 +1102,13 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Quote",
+                            "de": "Angebot",
+                            "fr": "Citation",
+                            "it": "Citazione"
+                        }
                     },
                     {
                         "name": "hasRoleList",
@@ -857,6 +1125,12 @@
                         ],
                         "gui_attributes": {
                             "hlist": "Role"
+                        },
+                        "comments": {
+                            "en": "Role",
+                            "de": "Rolle",
+                            "fr": "Rôle",
+                            "it": "Ruolo"
                         }
                     },
                     {
@@ -872,7 +1146,13 @@
                         "super": [
                             "seqnum",
                             "schema:numberOfPages"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Page Number",
+                            "de": "Seitenzahl",
+                            "fr": "Numéro de page",
+                            "it": "Numero di pagina"
+                        }
                     },
                     {
                         "name": "hasShortName",
@@ -886,7 +1166,13 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Short Name",
+                            "de": "Kurzer Name",
+                            "fr": "Nom court",
+                            "it": "Nome breve"
+                        }
                     },
                     {
                         "name": "hasSpecieList",
@@ -903,6 +1189,12 @@
                         ],
                         "gui_attributes": {
                             "hlist": "Specie"
+                        },
+                        "comments": {
+                            "en": "Specie",
+                            "de": "Art",
+                            "fr": "Espèce",
+                            "it": "Specie"
                         }
                     },
                     {
@@ -917,7 +1209,13 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Time Stamp",
+                            "de": "Zeitstempel",
+                            "fr": "Horodatage",
+                            "it": "Data e ora"
+                        }
                     },
                     {
                         "name": "hasWeight",
@@ -932,12 +1230,18 @@
                         "super": [
                             "hasValue",
                             "schema:weight"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Weight",
+                            "de": "Gewicht",
+                            "fr": "Poids",
+                            "it": "Peso"
+                        }
                     },
                     {
-                        "name": "hasWonderlandLocation",
-                        "object": "GeonameValue",
-                        "gui_element": "Geonames",
+                        "name": "hasWonderlandLocationList",
+                        "object": "ListValue",
+                        "gui_element": "List",
                         "labels": {
                             "en": "Wonderland Location",
                             "de": "Wunderland Standort",
@@ -947,7 +1251,16 @@
                         "super": [
                             "hasValue",
                             "schema:location"
-                        ]
+                        ],
+                        "gui_attributes": {
+                            "hlist": "Fairytale Location"
+                        },
+                        "comments": {
+                            "en": "Wonderland Location",
+                            "de": "Wunderland Standort",
+                            "fr": "Lieu du Pays des Merveilles",
+                            "it": "Posizione nel paese delle meraviglie"
+                        }
                     },
                     {
                         "name": "isNeutered",
@@ -961,10 +1274,37 @@
                         },
                         "super": [
                             "hasValue"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Neutered",
+                            "de": "Kastriert",
+                            "fr": "Stérilisé",
+                            "it": "Sterilizzato"
+                        }
                     },
                     {
-                        "name": "isPartOf",
+                        "name": "isPartOfAnimalCharacterID",
+                        "object": ":AnimalCharacter",
+                        "gui_element": "Searchbox",
+                        "labels": {
+                            "en": "Part Of",
+                            "de": "Teil von",
+                            "fr": "Partie de",
+                            "it": "Parte di"
+                        },
+                        "super": [
+                            "isPartOf",
+                            "schema:isPartOf"
+                        ],
+                        "comments": {
+                            "en": "Part Of",
+                            "de": "Teil von",
+                            "fr": "Partie de",
+                            "it": "Parte di"
+                        }
+                    },
+                    {
+                        "name": "isPartOfFairytaleID",
                         "object": ":Fairytale",
                         "gui_element": "Searchbox",
                         "labels": {
@@ -976,7 +1316,13 @@
                         "super": [
                             "isPartOf",
                             "schema:isPartOf"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Part Of",
+                            "de": "Teil von",
+                            "fr": "Partie de",
+                            "it": "Parte di"
+                        }
                     },
                     {
                         "name": "linkToAliceCharacterID",
@@ -990,7 +1336,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Alice Character",
+                            "de": "Link zu Alice Charakter",
+                            "fr": "Lien vers le personnage d'Alice",
+                            "it": "Collegamento al personaggio di Alice"
+                        }
                     },
                     {
                         "name": "linkToAnimalCharacterID",
@@ -1004,7 +1356,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Animal Character",
+                            "de": "Link zum Tiercharakter",
+                            "fr": "Lien vers le personnage animal",
+                            "it": "Collegamento al personaggio animale"
+                        }
                     },
                     {
                         "name": "linkToAnimalFriendID",
@@ -1018,7 +1376,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Animal Friend",
+                            "de": "Link zum Tierfreund",
+                            "fr": "Lien vers l'ami animal",
+                            "it": "Collegamento all'amico animale"
+                        }
                     },
                     {
                         "name": "linkToAudioID",
@@ -1032,7 +1396,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Audio",
+                            "de": "Link zu Audio",
+                            "fr": "Lien vers Audio",
+                            "it": "Collegamento all'audio"
+                        }
                     },
                     {
                         "name": "linkToButlerID",
@@ -1046,7 +1416,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Butler",
+                            "de": "Link zu Butler",
+                            "fr": "Lien vers majordome",
+                            "it": "Collegamento al maggiordomo"
+                        }
                     },
                     {
                         "name": "linkToFairytale",
@@ -1060,7 +1436,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Fairytale",
+                            "de": "Link zum Märchen",
+                            "fr": "Lien vers le conte de fées",
+                            "it": "Collegamento alla fiaba"
+                        }
                     },
                     {
                         "name": "linkToFlyerID",
@@ -1074,7 +1456,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Information Sheet",
+                            "de": "Link zum Infoblatt",
+                            "fr": "Lien vers la fiche d'information",
+                            "it": "Collegamento alla scheda informativa"
+                        }
                     },
                     {
                         "name": "linkToImageID",
@@ -1088,7 +1476,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Image",
+                            "de": "Link zum Bild",
+                            "fr": "Lien vers l'image",
+                            "it": "Collegamento all'immagine"
+                        }
                     },
                     {
                         "name": "linkToLocationID",
@@ -1102,7 +1496,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Location",
+                            "de": "Link zum Standort",
+                            "fr": "Lien vers le lieu",
+                            "it": "Collegamento alla posizione"
+                        }
                     },
                     {
                         "name": "linkToVideoID",
@@ -1116,7 +1516,13 @@
                         },
                         "super": [
                             "hasLinkTo"
-                        ]
+                        ],
+                        "comments": {
+                            "en": "Link to Video",
+                            "de": "Link zum Video",
+                            "fr": "Lien vers la vidéo",
+                            "it": "Collegamento al video"
+                        }
                     }
                 ],
                 "resources": [
@@ -1162,7 +1568,7 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":isPartOf",
+                                "propname": ":isPartOfFairytaleID",
                                 "cardinality": "0-n",
                                 "gui_order": 2
                             },
@@ -1442,7 +1848,7 @@
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasLicense",
+                                "propname": ":hasLicenseList",
                                 "cardinality": "0-n",
                                 "gui_order": 4
                             },
@@ -1466,7 +1872,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":isPartOf",
+                                "propname": ":isPartOfAnimalCharacterID",
                                 "cardinality": "0-n",
                                 "gui_order": 1
                             },
@@ -1533,24 +1939,29 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-n",
+                                "propname": ":hasFilename",
+                                "cardinality": "1",
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasCopyright",
+                                "propname": ":hasTimeStamp",
                                 "cardinality": "0-n",
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasLicense",
+                                "propname": ":hasCopyright",
                                 "cardinality": "0-n",
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasDate",
+                                "propname": ":hasLicense",
                                 "cardinality": "0-n",
                                 "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasDate",
+                                "cardinality": "0-n",
+                                "gui_order": 6
                             }
                         ]
                     },
@@ -1574,7 +1985,7 @@
                             {
                                 "propname": ":hasTimeStamp",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 6
                             },
                             {
                                 "propname": ":hasCopyright",
@@ -1582,7 +1993,7 @@
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasLicense",
+                                "propname": ":hasLicenseList",
                                 "cardinality": "0-n",
                                 "gui_order": 4
                             },
@@ -1590,6 +2001,11 @@
                                 "propname": ":hasDate",
                                 "cardinality": "0-n",
                                 "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasFilename",
+                                "cardinality": "1",
+                                "gui_order": 2
                             }
                         ]
                     },

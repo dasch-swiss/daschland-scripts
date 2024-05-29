@@ -1,0 +1,5 @@
+hasID
+hasTimeStamp
+hasCopyright
+hasLicense
+hasDate

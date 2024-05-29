@@ -1,0 +1,15 @@
+hasID
+linkToAnimalFriendID
+hasShortName
+hasDescription
+linkToButlerID
+linkToAliceCharacterID
+hasPetColor
+linkToAudioID
+linkToVideoID
+hasWeight
+hasSpecieList
+hasGenderList
+isNeutered
+hasBirthday
+linkToFlyerID

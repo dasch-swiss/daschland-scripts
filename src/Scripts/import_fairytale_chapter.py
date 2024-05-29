@@ -1,0 +1,5 @@
+hasID
+isPartOf
+hasChapterNumber
+hasDescription
+linkToAnimalCharacterID

@@ -1,0 +1,5 @@
+hasID
+linkToImageID
+hasCharacterTypeList
+hasDescription
+linkToLocationID

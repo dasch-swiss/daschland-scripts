@@ -1,0 +1,4 @@
+hasID
+hasGeoname
+hasName
+hasWonderlandLocation

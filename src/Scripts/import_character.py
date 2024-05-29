@@ -1,0 +1,14 @@
+hasID
+linkToImageID
+hasFirstName
+hasLastName
+linkToAliceCharacterID
+hasRoleList
+hasQuote
+hasPet
+hasFavoriteCake
+hasEducationGradeList
+hasDepartementList
+
+
+
