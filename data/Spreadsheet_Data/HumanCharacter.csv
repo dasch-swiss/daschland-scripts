@@ -1,0 +1,23 @@
+﻿hasId,hasCharacterFirstName,hasCharacterLastName,linkToAliceCharacter,hasCharacterRole,hasCharacterDescription,hasPet,hasFavoriteCake,hasEducationGrade,hasDepartment,linkToLocation,linkToImageID
+H_017,Nora,Ammann,,"Research Data Specialist, Scientific Programmer",,1,,M.A.,Repository Services,,IH_018
+H_019,Gregor,Bachmann,,"Research Data Specialist, Scientific Programmer",,0,,B.A.,Repository Services,,IH_001
+H_018,Samuel,Börlin,,Infrastructure Engineer,,0,,B.Sc.,Engineering,,IH_021
+H_001,Rita,Gautschy,,"Director, Head of Repository Services",,1,,PD Dr.,Repository Services,,IH_020
+H_004,Cristina,Grisot,,National Coordination Officer,,0,,Dr.,DARIAH-CH,,IH_005
+H_014,Irmantas,Kaukas,,Software Engineer,,0,,B.BI,Engineering,,IH_010
+H_016,Christian,Kleinbölting,,Software Engineer,,1,,Dipl.-Ind.-Eng.,Engineering,,IH_004
+H_013,Balduin,Landolt,,Software Engineer,,1,,M.A.,Engineering,,IH_002
+H_011,Flavie ,Laurens,,"Product Manager, Research Data Specialist",,0,,M.Sc.,Repository Services,,IH_009
+H_022,José Luis,Losada Palenzuela,,Senior Research Data Specialist,,0,,Dr.,Repository Services,,IH_013
+H_003,Daniela,Meier,,Operations Manager,,0,,B.A.,Office Management,,IH_006
+H_009,Johannes ,Nussbaum,,"Research Data Specialist, Scientific Programmer",,0,,M.A.,Repository Services,,IH_012
+H_006,Marcin,Procyk,,Software Engineer,,0,,M.Sc.,Engineering,,IH_016
+H_005,Julien A.,Raemy,,Interoperability Specialist,,0,,M.Sc.,Repository Services,,IH_014
+H_021,Julien,Schneider,,Senior Software Engineer,,1,,M.Sc.,Engineering,,IH_003
+H_015,Dominique,Steinbach,,Software Engineer,,0,,B.A.,Engineering,,IH_008
+H_010,Lukas,Stöckli,,Infrastructure Engineer,,0,,B.Sc.,Engineering,,IH_015
+H_002,Ivan,Subotic,,"Deputy Director, Head of Engineering",,1,,Dr.,Engineering,,IH_011
+H_012,Daniela,Subotic,,"Product Manager, Research Data Specialist",,1,,M.Sc.,Repository Services,,IH_007
+H_020,Raitis,Veinbahs,,Senior Software Engineer,,0,,,Engineering,,IH_019
+H_007,Noémi,Villars-Amberg,,Senior Research Data Specialist,,1,Chocolate,Dr.,Repository Services,,IH_017
+H_008,Florian,Wegelin,,"Data Specialist, Scientific Programmer",,0,,M.A.,Repository Services,,
