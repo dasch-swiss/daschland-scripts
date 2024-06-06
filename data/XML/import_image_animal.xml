@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0011" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="Ping baby" restype=":ImageAnimal" id="IA_0001" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_001.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0001</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Ping_001.jpg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_006</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">2</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Ping adult" restype=":ImageAnimal" id="IA_0002" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_002.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0002</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-04-04T14:54:23-01:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Ping_002.jpg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_006</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Ping and Pong young" restype=":ImageAnimal" id="IA_0003" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_003 Pong_002.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0003</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2018-12-03T20:45:19-01:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Ping_003 Pong_002.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_006, A_007</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">4</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Ping and Pong adult" restype=":ImageAnimal" id="IA_0004" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_004 Pong_005.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0004</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2019-01-11T19:39:09-01:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Ping_004 Pong_005.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_006, A_007</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">5</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Ping baby 2" restype=":ImageAnimal" id="IA_0005" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_005.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0005</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2018-09-12T19:39:49-01:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Ping_005.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_006</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">3</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Pong adult" restype=":ImageAnimal" id="IA_0006" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Pong_001.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0006</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2023-11-24T22:09:26-01:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Pong_001.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_007</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Pong baby" restype=":ImageAnimal" id="IA_0007" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Pong_003.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0007</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2018-10-28T09:40:10-01:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Pong_003.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_007</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">2</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Pong baby 2" restype=":ImageAnimal" id="IA_0008" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Pong_004.JPG</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0008</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Pong_004.JPG</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_007</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">3</integer>
+        </integer-prop>
+    </resource>
+</knora>

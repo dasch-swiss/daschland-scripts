@@ -2,12 +2,14 @@
 name = "daschland-scripts"
 version = "0.1.0"
 description = ""
-authors = ["danielasubotic <48174709+danielasubotic@users.noreply.github.com>"]
+authors = ["danielasubotic <48174709+danielasubotic@users.noreply.github.com>", "noemivillars-amberg <117180458+Notheturtle@users.noreply.github.com"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 dsp-tools = "^7.1.3.post1"
+icecream = "^2.1.3"
+pillow = "^10.3.0"
 
 
 [build-system]
