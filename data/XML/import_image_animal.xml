@@ -60,7 +60,7 @@
             <text permissions="prop-default" encoding="utf8">IA_0002</text>
         </text-prop>
         <time-prop name=":hasTimeStamp">
-            <time permissions="prop-default">2024-04-04T14:54:23-01:00</time>
+            <time permissions="prop-default">2024-04-04T14:54:23-00:00</time>
         </time-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
@@ -84,7 +84,7 @@
             <text permissions="prop-default" encoding="utf8">IA_0003</text>
         </text-prop>
         <time-prop name=":hasTimeStamp">
-            <time permissions="prop-default">2018-12-03T20:45:19-01:00</time>
+            <time permissions="prop-default">2018-12-03T20:45:19-00:00</time>
         </time-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
@@ -108,7 +108,7 @@
             <text permissions="prop-default" encoding="utf8">IA_0004</text>
         </text-prop>
         <time-prop name=":hasTimeStamp">
-            <time permissions="prop-default">2019-01-11T19:39:09-01:00</time>
+            <time permissions="prop-default">2019-01-11T19:39:09-00:00</time>
         </time-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
@@ -132,7 +132,7 @@
             <text permissions="prop-default" encoding="utf8">IA_0005</text>
         </text-prop>
         <time-prop name=":hasTimeStamp">
-            <time permissions="prop-default">2018-09-12T19:39:49-01:00</time>
+            <time permissions="prop-default">2018-09-12T19:39:49-00:00</time>
         </time-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
@@ -156,7 +156,7 @@
             <text permissions="prop-default" encoding="utf8">IA_0006</text>
         </text-prop>
         <time-prop name=":hasTimeStamp">
-            <time permissions="prop-default">2023-11-24T22:09:26-01:00</time>
+            <time permissions="prop-default">2023-11-24T22:09:26-00:00</time>
         </time-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
@@ -180,7 +180,7 @@
             <text permissions="prop-default" encoding="utf8">IA_0007</text>
         </text-prop>
         <time-prop name=":hasTimeStamp">
-            <time permissions="prop-default">2018-10-28T09:40:10-01:00</time>
+            <time permissions="prop-default">2018-10-28T09:40:10-00:00</time>
         </time-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>

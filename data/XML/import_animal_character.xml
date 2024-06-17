@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0011" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="Atli" restype=":AnimalCharacter" id="A_001" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_001</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Atli</text>
+        </text-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Dog</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Male</list>
+        </list-prop>
+        <resptr-prop name=":linkToAnimalFriendID">
+            <resptr permissions="prop-default">A_002</resptr>
+            <resptr permissions="prop-default">A_003</resptr>
+            <resptr permissions="prop-default">A_004</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_013</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToVideoID">
+            <resptr permissions="prop-default">VID_001</resptr>
+            <resptr permissions="prop-default">VID_002</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Ramon" restype=":AnimalCharacter" id="A_002" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_002</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Ramon</text>
+        </text-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Dog</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Male</list>
+        </list-prop>
+        <resptr-prop name=":linkToAnimalFriendID">
+            <resptr permissions="prop-default">A_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_016</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Ginny" restype=":AnimalCharacter" id="A_003" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_003</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Ginny</text>
+        </text-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Dog</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Female</list>
+        </list-prop>
+        <integer-prop name=":isNeutered">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAnimalFriendID">
+            <resptr permissions="prop-default">A_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_017</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToVideoID">
+            <resptr permissions="prop-default">VID_001</resptr>
+            <resptr permissions="prop-default">VID_002</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Kenzi" restype=":AnimalCharacter" id="A_004" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_004</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">This older female Miniature Pinscher, with her striking three-colored coat, enjoys the comfort of being in the same room as you, often indulging in long, peaceful naps. Despite her age, she remains alert and curious, especially outdoors where she loves to watch her surroundings and keenly hunts for mice</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Kenzi</text>
+        </text-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Dog</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Female</list>
+        </list-prop>
+        <text-prop name=":hasWeight">
+            <text permissions="prop-default" encoding="utf8">5.5</text>
+        </text-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="prop-default">GREGORIAN:CE:2012-03-09:CE:2012-03-09</date>
+        </date-prop>
+        <integer-prop name=":isNeutered">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAnimalFriendID">
+            <resptr permissions="prop-default">A_005</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_002</resptr>
+            <resptr permissions="prop-default">H_012</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Loki" restype=":AnimalCharacter" id="A_005" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_005</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">This Italian Greyhound is a bundle of affection, always eager to cuddle and stay close. He loves nothing more than snuggling by your side. His soulful eyes and tender presence bring comfort and joy wherever he goes.</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Loki</text>
+        </text-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Dog</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Male</list>
+        </list-prop>
+        <text-prop name=":hasWeight">
+            <text permissions="prop-default" encoding="utf8">9</text>
+        </text-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="prop-default">GREGORIAN:CE:2021-07-15:CE:2021-07-15</date>
+        </date-prop>
+        <integer-prop name=":isNeutered">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAnimalFriendID">
+            <resptr permissions="prop-default">A_004</resptr>
+            <resptr permissions="prop-default">A_004</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_002</resptr>
+            <resptr permissions="prop-default">H_012</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Ping" restype=":AnimalCharacter" id="A_006" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_006</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">Tricoloured cat. Born in a farm in Baselland.
+Very social, noisy and affective.  
+Sister to Pong.</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Ping</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#ffb600</color>
+            <color permissions="prop-default">#ffffff</color>
+            <color permissions="prop-default">#000000</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Cat</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Female</list>
+        </list-prop>
+        <text-prop name=":hasWeight">
+            <text permissions="prop-default" encoding="utf8">3.6</text>
+        </text-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="prop-default">GREGORIAN:CE:2018:CE:2018</date>
+        </date-prop>
+        <integer-prop name=":isNeutered">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAnimalFriendID">
+            <resptr permissions="prop-default">A_007</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_007</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToAudioID">
+            <resptr permissions="prop-default">AUD_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Pong" restype=":AnimalCharacter" id="A_007" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_007</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">Female red and white cat. Born in a farm in Baselland.
+Very shy, afraid of noise.  
+Sister to Ping.</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Pong</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#ffb600</color>
+            <color permissions="prop-default">#ffffff</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Cat</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Female</list>
+        </list-prop>
+        <text-prop name=":hasWeight">
+            <text permissions="prop-default" encoding="utf8">4.2</text>
+        </text-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="prop-default">GREGORIAN:CE:2018:CE:2018</date>
+        </date-prop>
+        <integer-prop name=":isNeutered">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAnimalFriendID">
+            <resptr permissions="prop-default">A_006</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_007</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Anubis" restype=":AnimalCharacter" id="A_008" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_008</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Anubis</text>
+        </text-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Cat</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Nicky de Saint-Duck" restype=":AnimalCharacter" id="A_009" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_009</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">Creative rubber duck. 
+Their code is not the most conventionnal, but why should it?</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Nicky de Saint-Duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#a4f0ff</color>
+            <color permissions="prop-default">#ff0000</color>
+            <color permissions="prop-default">#ffffff</color>
+            <color permissions="prop-default">#adff5c</color>
+            <color permissions="prop-default">#3e589c</color>
+            <color permissions="prop-default">#521c32</color>
+            <color permissions="prop-default">#fff700</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <text-prop name=":hasWeight">
+            <text permissions="prop-default" encoding="utf8">0.05</text>
+        </text-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_007</resptr>
+        </resptr-prop>
+    </resource>
+</knora>

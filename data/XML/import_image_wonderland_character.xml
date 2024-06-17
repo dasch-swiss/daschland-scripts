@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0011" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="Alice" restype=":ImageWonderlandCharacter" id="IW_001" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Alice_001.jpg</bitstream>
+        <text-prop name=":ID">
+            <text permissions="prop-default" encoding="utf8">IW_001</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Alice_001.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Caterpillar" restype=":ImageWonderlandCharacter" id="IW_002" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Caterpillar_001.jpg</bitstream>
+        <text-prop name=":ID">
+            <text permissions="prop-default" encoding="utf8">IW_002</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Caterpillar_001.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Cheshire Cat" restype=":ImageWonderlandCharacter" id="IW_003" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Cheshire_cat_001.jpg</bitstream>
+        <text-prop name=":ID">
+            <text permissions="prop-default" encoding="utf8">IW_003</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Cheshire_cat_001.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Mad Hatter" restype=":ImageWonderlandCharacter" id="IW_004" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Mad_hatter_001.jpg</bitstream>
+        <text-prop name=":ID">
+            <text permissions="prop-default" encoding="utf8">IW_004</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Mad_hatter_001.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Queen of Hearts" restype=":ImageWonderlandCharacter" id="IW_005" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Queen_hearts_001.jpg</bitstream>
+        <text-prop name=":ID">
+            <text permissions="prop-default" encoding="utf8">IW_005</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Queen_hearts_001.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="White Rabbit" restype=":ImageWonderlandCharacter" id="IW_006" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/White_Rabbit_001.jpg</bitstream>
+        <text-prop name=":ID">
+            <text permissions="prop-default" encoding="utf8">IW_006</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">White_Rabbit_001.jpg</text>
+        </text-prop>
+    </resource>
+</knora>

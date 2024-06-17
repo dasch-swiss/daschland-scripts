@@ -8,7 +8,7 @@ def main():
     all_resources = []
 
     # define folder paths
-    image_human_df = pd.read_excel("~/documents/daschland-scripts/data/Spreadsheet_Data/ImagesHuman.xlsx", dtype="str")
+    image_human_df = pd.read_excel("data/Spreadsheet_Data/ImageHuman.xlsx", dtype="str")
 
     # create the root element dsp-tools
     root = helper.make_root()
@@ -17,9 +17,9 @@ def main():
     for _, row in image_human_df.iterrows():
 
         # create resource, label and id
-        if not excel2xml.check_notna(row["hasID"]):
+        if not excel2xml.check_notna(row["ID"]):
             continue
-        resource_id = row["hasID"]
+        resource_id = row["ID"]
         resource_label = row["Label"]
 
         # create the `<resource>` tag
@@ -29,20 +29,20 @@ def main():
             id=resource_id)
 
         # create resource type "Image Human"
-        image_path = f"{row['ImageDirectory']}{row['hasFilename']}"
+        image_path = f"{row['Image Directory']}{row['File Name']}"
         resource.append(excel2xml.make_bitstream_prop(image_path))
 
-        if excel2xml.check_notna(row["hasID"]):
+        if excel2xml.check_notna(row["ID"]):
             resource.append(excel2xml.make_text_prop(":hasID", resource_id))
         timestamp_value = get_image_creation_time(image_path)
         if excel2xml.check_notna(timestamp_value):
             resource.append(excel2xml.make_time_prop(":hasTimeStamp", timestamp_value))
-        if excel2xml.check_notna(row["hasCopyright"]):
-            resource.append(excel2xml.make_text_prop(":hasCopyright", row["hasCopyright"]))
-        if excel2xml.check_notna(row["hasLicenseList"]):
-            resource.append(excel2xml.make_list_prop("License", ":hasLicenseList", row["hasLicenseList"]))
-        if excel2xml.check_notna(row["hasFilename"]):
-            resource.append(excel2xml.make_text_prop(":hasFileName", row["hasFilename"]))
+        if excel2xml.check_notna(row["Copyright"]):
+            resource.append(excel2xml.make_text_prop(":hasCopyright", row["Copyright"]))
+        if excel2xml.check_notna(row["License List"]):
+            resource.append(excel2xml.make_list_prop("License", ":hasLicenseList", row["License List"]))
+        if excel2xml.check_notna(row["File Name"]):
+            resource.append(excel2xml.make_text_prop(":hasFileName", row["File Name"]))
 
         # append the resource to the list
         all_resources.append(resource)
@@ -50,7 +50,7 @@ def main():
     root.extend(all_resources)
 
     excel2xml.write_xml(root,
-                        "/Users/noemivillars-amberg/Documents/daschland-scripts/data/XML/import_image_human.xml")
+                        "data/XML/import_image_human.xml")
     return all_resources
 
 

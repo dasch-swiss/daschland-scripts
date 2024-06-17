@@ -70,56 +70,56 @@
                 },
                 "nodes": [
                     {
-                        "name": "B.A.",
+                        "name": "edu_1",
                         "labels": {
                             "fr": "B.A.",
                             "en": "B.A."
                         }
                     },
                     {
-                        "name": "B.Sc.",
+                        "name": "edu_2",
                         "labels": {
                             "fr": "B.Sc.",
                             "en": "B.Sc."
                         }
                     },
                     {
-                        "name": "M.A.",
+                        "name": "edu_3",
                         "labels": {
                             "fr": "M.A.",
                             "en": "M.A."
                         }
                     },
                     {
-                        "name": "M.Sc.",
+                        "name": "edu_4",
                         "labels": {
                             "fr": "M.Sc.",
                             "en": "M.Sc."
                         }
                     },
                     {
-                        "name": "Dr.",
+                        "name": "edu_5",
                         "labels": {
                             "fr": "Dr.",
                             "en": "Dr."
                         }
                     },
                     {
-                        "name": "PD",
+                        "name": "edu_6",
                         "labels": {
-                            "fr": "PD",
+                            "fr": "PD Dr.",
                             "en": "PD"
                         }
                     },
                     {
-                        "name": "Dipl.-Ind.-Eng.",
+                        "name": "edu_7",
                         "labels": {
                             "fr": "Dipl.-Ind.-Eng.",
                             "en": "Dipl.-Ind.-Eng."
                         }
                     },
                     {
-                        "name": "B.BI",
+                        "name": "edu_8",
                         "labels": {
                             "fr": "B.BI",
                             "en": "B.BI"
@@ -227,6 +227,20 @@
                     "fr": "Fonction"
                 },
                 "nodes": [
+                    {
+                        "name": "Director",
+                        "labels": {
+                            "fr": "Directeur.trice",
+                            "en": "Director"
+                        }
+                    },
+                    {
+                        "name": "Deputy Director",
+                        "labels": {
+                            "fr": "Directeur.trice adjoint.e",
+                            "en": "Deputy Director"
+                        }
+                    },
                     {
                         "name": "Head of Repository Services",
                         "labels": {
@@ -1348,6 +1362,11 @@
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
                                 "gui_order": 2
                             }
                         ]
@@ -1376,18 +1395,23 @@
                             },
                             {
                                 "propname": ":hasChapterNumber",
-                                "cardinality": "0-n",
-                                "gui_order": 3
+                                "cardinality": "0-1",
+                                "gui_order": 4
                             },
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 4
+                                "gui_order": 5
                             },
                             {
                                 "propname": ":linkToAnimalCharacterID",
                                 "cardinality": "0-n",
-                                "gui_order": 5
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
+                                "gui_order": 3
                             }
                         ]
                     },

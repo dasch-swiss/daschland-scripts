@@ -8,7 +8,7 @@ def main():
     all_resources = []
 
     # define folder paths
-    image_human_df = pd.read_excel("~/documents/daschland-scripts/data/Spreadsheet_Data/ImageAnimal.xlsx", dtype="str")
+    image_human_df = pd.read_excel("data/Spreadsheet_Data/ImageAnimal.xlsx", dtype="str")
 
     # create the root element dsp-tools
     root = helper.make_root()
@@ -36,7 +36,6 @@ def main():
             resource.append(excel2xml.make_text_prop(":hasID", resource_id))
         timestamp_value = get_image_creation_time(image_path)
         if excel2xml.check_notna(timestamp_value):
-
             resource.append(excel2xml.make_time_prop(":hasTimeStamp", timestamp_value))
         if excel2xml.check_notna(row["Copyright"]):
             resource.append(excel2xml.make_text_prop(":hasCopyright", row["Copyright"]))
@@ -54,7 +53,7 @@ def main():
     root.extend(all_resources)
 
     excel2xml.write_xml(root,
-                        "/Users/noemivillars-amberg/Documents/daschland-scripts/data/XML/import_image_animal.xml")
+                        "data/XML/import_image_animal.xml")
     return all_resources
 
 if __name__ == "__main__":
