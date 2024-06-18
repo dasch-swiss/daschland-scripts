@@ -33,131 +33,22 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Location 1" restype=":Location" id="L_001" permissions="res-default">
+    <resource label="Ping ronronne" restype=":Audio" id="AUD_001" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/Ping_purring.m4a</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_001</text>
+            <text permissions="prop-default" encoding="utf8">AUD_001</text>
         </text-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-04-04T14:44:45-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Location 1</text>
-        </text-prop>
-    </resource>
-    <resource label="Location 2" restype=":Location" id="L_002" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_002</text>
-        </text-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Location 2</text>
-        </text-prop>
-    </resource>
-    <resource label="Location 3" restype=":Location" id="L_003" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_003</text>
-        </text-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Location 3</text>
-        </text-prop>
-    </resource>
-    <resource label="Location 4" restype=":Location" id="L_004" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_004</text>
-        </text-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Location 4</text>
-        </text-prop>
-    </resource>
-    <resource label="Location 5" restype=":Location" id="L_005" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_005</text>
-        </text-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Location 5</text>
-        </text-prop>
-    </resource>
-    <resource label="Location 6" restype=":Location" id="L_006" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_006</text>
-        </text-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Location 6</text>
-        </text-prop>
-    </resource>
-    <resource label="Location 7" restype=":Location" id="L_007" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_007</text>
-        </text-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Location 7</text>
-        </text-prop>
-    </resource>
-    <resource label="Location 8" restype=":Location" id="L_008" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_008</text>
-        </text-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Location 8</text>
-        </text-prop>
-    </resource>
-    <resource label="Location 9" restype=":Location" id="L_009" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_009</text>
-        </text-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Location 9</text>
-        </text-prop>
-    </resource>
-    <resource label="Oxford" restype=":Location" id="L_010" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_010</text>
-        </text-prop>
-        <geoname-prop name=":hasGeoname">
-            <geoname permissions="prop-default">2640729</geoname>
-        </geoname-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Oxford</text>
-        </text-prop>
-    </resource>
-    <resource label="England" restype=":Location" id="L_011" permissions="res-default">
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">L_011</text>
-        </text-prop>
-        <geoname-prop name=":hasGeoname">
-            <geoname permissions="prop-default">6269131</geoname>
-        </geoname-prop>
-        <list-prop list="Wonderland Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">None</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">England</text>
+            <text permissions="prop-default" encoding="utf8">Ping_purring.m4a</text>
         </text-prop>
     </resource>
 </knora>

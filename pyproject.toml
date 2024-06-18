@@ -7,10 +7,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-dsp-tools = "^7.1.3.post1"
+dsp-tools = "^8.1.0.post18"
 icecream = "^2.1.3"
 pillow = "^10.3.0"
 pymediainfo = "^6.1.0"
+pyexiftool = "^0.5.6"
 
 
 [build-system]

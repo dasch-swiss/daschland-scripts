@@ -33,31 +33,13 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Florian Wegelin" restype=":Character" id="H_008" permissions="res-default">
+    <resource label="daschland-scripts.zip" restype=":Dungeon" id="D_001" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Dungeondaschland-scripts.zip</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">H_008</text>
+            <text permissions="prop-default" encoding="utf8">D_001</text>
         </text-prop>
-        <text-prop name=":hasFirstName">
-            <text permissions="prop-default" encoding="utf8">Florian</text>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">Archive from Project daschland-scripts</text>
         </text-prop>
-        <text-prop name=":hasLastName">
-            <text permissions="prop-default" encoding="utf8">Wegelin</text>
-        </text-prop>
-        <list-prop list="Role" name=":hasRoleList">
-            <list permissions="prop-default">Research Data Specialist</list>
-            <list permissions="prop-default">Scientific Programmer</list>
-        </list-prop>
-        <text-prop name=":hasQuote">
-            <text permissions="prop-default" encoding="utf8">bla bla</text>
-        </text-prop>
-        <list-prop list="Education Grade" name=":hasEducationGradeList">
-            <list permissions="prop-default">edu_3</list>
-        </list-prop>
-        <list-prop list="Department" name=":hasDepartementList">
-            <list permissions="prop-default">Repository Services</list>
-        </list-prop>
-        <date-prop name=":hasBirthday">
-            <date permissions="restricted">GREGORIAN:CE:1983-09-23:CE:1983-09-23</date>
-        </date-prop>
     </resource>
 </knora>

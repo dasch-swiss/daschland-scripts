@@ -1,11 +1,9 @@
 from PIL import Image
 from PIL.ExifTags import TAGS
-from icecream import ic
 from pathlib import Path
 import os
 from datetime import datetime
-from pymediainfo import MediaInfo
-
+import exiftool
 
 def get_image_creation_time(image_path) -> str:
     image_path = os.path.expanduser(image_path)
@@ -51,30 +49,21 @@ def _convert_creation_time_to_DSP_time(time):
         return None
 
 
-def get_media_file_creation_time(file_path) -> str:
-    file_path = Path(file_path).expanduser()
-
-    # Get media info
-    media_info = MediaInfo.parse(str(file_path))
-
-    creation_time = None
-
-    for track in media_info.tracks:
-        if track.track_type == "General":
-            creation_time = track.tagged_date
-            break
-
-    if not creation_time:
+def get_media_file_creation_time(file_path: str) -> str:
+    with exiftool.ExifToolHelper() as et:
+        metadata_list = et.get_metadata(file_path)
+        if metadata_list:
+            metadata = metadata_list[0]
+            creation_time = metadata.get('QuickTime:CreateDate')
+    if creation_time: # Convert the creation time to the desired format
+        creation_time_conform = _convert_media_creation_time_to_DSP_time(creation_time)
+        return creation_time_conform
+    else:
         return None
-
-    # Convert the creation time to the desired format
-    creation_time_conform = _convert_media_creation_time_to_DSP_time(creation_time)
-    return creation_time_conform
-
 
 def _convert_media_creation_time_to_DSP_time(time: str) -> str:
     # Define the input date format
-    input_format = "%Y-%m-%d %H:%M:%S"
+    input_format = "%Y:%m:%d %H:%M:%S"
 
     # Parse the date string into a datetime object
     try:
@@ -84,7 +73,7 @@ def _convert_media_creation_time_to_DSP_time(time: str) -> str:
         time_to_convert = datetime.strptime(time, input_format)
 
     # Format the datetime object into the desired output format
-    output_format = "%Y-%m-%dT%H:%M:%S-%z"
+    output_format = "%Y-%m-%dT%H:%M:%S-00:00"
     transformed_date_str = time_to_convert.strftime(output_format)
 
     return transformed_date_str

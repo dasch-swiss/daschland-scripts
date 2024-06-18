@@ -34,7 +34,7 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="Alice in DaSCHland - Chapter 1" restype=":FairytaleChapter" id="FC_01" permissions="res-default">
-        <bitstream permissions="prop-default">nannan</bitstream>
+        <bitstream permissions="prop-default">/data/Multimedia_Data/Fairytale_ChapterAlice in Wonderland Chapter 1.png</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">FC_01</text>
         </text-prop>
@@ -50,6 +50,9 @@
         <integer-prop name=":hasChapterNumber">
             <integer permissions="prop-default">1</integer>
         </integer-prop>
+        <resptr-prop name=":linkToAnimalCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice in DaSCHland - Chapter 2" restype=":FairytaleChapter" id="FC_02" permissions="res-default">
         <bitstream permissions="prop-default">nannan</bitstream>
@@ -68,6 +71,9 @@
         <integer-prop name=":hasChapterNumber">
             <integer permissions="prop-default">2</integer>
         </integer-prop>
+        <resptr-prop name=":linkToAnimalCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice in DaSCHland - Chapter 3" restype=":FairytaleChapter" id="FC_03" permissions="res-default">
         <bitstream permissions="prop-default">nannan</bitstream>
@@ -86,6 +92,9 @@
         <integer-prop name=":hasChapterNumber">
             <integer permissions="prop-default">3</integer>
         </integer-prop>
+        <resptr-prop name=":linkToAnimalCharacterID">
+            <resptr permissions="prop-default">W_001, W_002</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice in DaSCHland - Chapter 4" restype=":FairytaleChapter" id="FC_04" permissions="res-default">
         <bitstream permissions="prop-default">nannan</bitstream>
@@ -104,6 +113,9 @@
         <integer-prop name=":hasChapterNumber">
             <integer permissions="prop-default">4</integer>
         </integer-prop>
+        <resptr-prop name=":linkToAnimalCharacterID">
+            <resptr permissions="prop-default">W_001, W_002</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice in DaSCHland - Chapter 5" restype=":FairytaleChapter" id="FC_05" permissions="res-default">
         <bitstream permissions="prop-default">nannan</bitstream>
@@ -122,6 +134,9 @@
         <integer-prop name=":hasChapterNumber">
             <integer permissions="prop-default">5</integer>
         </integer-prop>
+        <resptr-prop name=":linkToAnimalCharacterID">
+            <resptr permissions="prop-default">W_001, W_004</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice in DaSCHland - Chapter 6" restype=":FairytaleChapter" id="FC_06" permissions="res-default">
         <bitstream permissions="prop-default">nannan</bitstream>
@@ -140,6 +155,9 @@
         <integer-prop name=":hasChapterNumber">
             <integer permissions="prop-default">6</integer>
         </integer-prop>
+        <resptr-prop name=":linkToAnimalCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice in DaSCHland - Chapter 7" restype=":FairytaleChapter" id="FC_07" permissions="res-default">
         <bitstream permissions="prop-default">nannan</bitstream>
@@ -158,6 +176,9 @@
         <integer-prop name=":hasChapterNumber">
             <integer permissions="prop-default">7</integer>
         </integer-prop>
+        <resptr-prop name=":linkToAnimalCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice in DaSCHland - Chapter 8" restype=":FairytaleChapter" id="FC_08" permissions="res-default">
         <bitstream permissions="prop-default">nannan</bitstream>
@@ -176,6 +197,9 @@
         <integer-prop name=":hasChapterNumber">
             <integer permissions="prop-default">8</integer>
         </integer-prop>
+        <resptr-prop name=":linkToAnimalCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice in DaSCHland - Chapter 9" restype=":FairytaleChapter" id="FC_09" permissions="res-default">
         <bitstream permissions="prop-default">nannan</bitstream>
@@ -194,5 +218,8 @@
         <integer-prop name=":hasChapterNumber">
             <integer permissions="prop-default">9</integer>
         </integer-prop>
+        <resptr-prop name=":linkToAnimalCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
     </resource>
 </knora>
