@@ -300,4 +300,240 @@ Their code is not the most conventionnal, but why should it?</text>
             <resptr permissions="prop-default">H_007</resptr>
         </resptr-prop>
     </resource>
+    <resource label="Rita's duck" restype=":AnimalCharacter" id="A_010" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_010</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Rita's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#62B9FF</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Ivan's duck" restype=":AnimalCharacter" id="A_011" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_011</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Ivan's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#885D00</color>
+            <color permissions="prop-default">#FFFFFF</color>
+            <color permissions="prop-default">#991700</color>
+            <color permissions="prop-default">#050505</color>
+            <color permissions="prop-default">#40403E</color>
+            <color permissions="prop-default">#6D0813</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_002</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="DanielaS's duck" restype=":AnimalCharacter" id="A_012" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_012</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">DanielaS's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#FFFFFF</color>
+            <color permissions="prop-default">#7C1000</color>
+            <color permissions="prop-default">#7F7B89</color>
+            <color permissions="prop-default">#D58A91</color>
+            <color permissions="prop-default">#F1DC00</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_012</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Balduin's duck" restype=":AnimalCharacter" id="A_013" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_013</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Balduin's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#A51B38</color>
+            <color permissions="prop-default">#000000</color>
+            <color permissions="prop-default">#FFFFFF</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_013</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Christian's duck" restype=":AnimalCharacter" id="A_014" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_014</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Christian's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#A51B38</color>
+            <color permissions="prop-default">#000000</color>
+            <color permissions="prop-default">#FFFFFF</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_016</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="JulienS's duck" restype=":AnimalCharacter" id="A_015" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_015</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">JulienS's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#000000</color>
+            <color permissions="prop-default">#FFFFFF</color>
+            <color permissions="prop-default">#DFAB00</color>
+            <color permissions="prop-default">#F55723</color>
+            <color permissions="prop-default">#0DA5DD</color>
+            <color permissions="prop-default">#950003</color>
+            <color permissions="prop-default">#B6B3B4</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_021</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Johannes's duck" restype=":AnimalCharacter" id="A_016" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_016</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Johannes's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#EEC900</color>
+            <color permissions="prop-default">#FFFFFF</color>
+            <color permissions="prop-default">#000000</color>
+            <color permissions="prop-default">#38061C</color>
+            <color permissions="prop-default">#EB370F</color>
+            <color permissions="prop-default">#1F0D06</color>
+            <color permissions="prop-default">#ECCA00</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_009</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Florian's duck" restype=":AnimalCharacter" id="A_017" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_017</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Florian's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#A51B38</color>
+            <color permissions="prop-default">#000000</color>
+            <color permissions="prop-default">#FFFFFF</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_008</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Nora's duck" restype=":AnimalCharacter" id="A_018" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_018</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Nora's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#A7141E</color>
+            <color permissions="prop-default">#000000</color>
+            <color permissions="prop-default">#FFFFFF</color>
+            <color permissions="prop-default">#F36137</color>
+            <color permissions="prop-default">#5E6BC5</color>
+            <color permissions="prop-default">#007657</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_017</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Gregor's duck" restype=":AnimalCharacter" id="A_019" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_019</text>
+        </text-prop>
+        <text-prop name=":hasShortName">
+            <text permissions="prop-default" encoding="utf8">Gregor's duck</text>
+        </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#007476</color>
+            <color permissions="prop-default">#000000</color>
+            <color permissions="prop-default">#FFFFFF</color>
+            <color permissions="prop-default">#D03100</color>
+            <color permissions="prop-default">#A5A19D</color>
+        </color-prop>
+        <list-prop list="Specie" name=":hasSpecieList">
+            <list permissions="prop-default">Rubber Duck</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Non-binary</list>
+        </list-prop>
+        <resptr-prop name=":linkToButlerID">
+            <resptr permissions="prop-default">H_019</resptr>
+        </resptr-prop>
+    </resource>
 </knora>

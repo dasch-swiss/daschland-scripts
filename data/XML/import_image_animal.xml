@@ -219,4 +219,292 @@
             <integer permissions="prop-default">3</integer>
         </integer-prop>
     </resource>
+    <resource label="Rita's duck" restype=":ImageAnimal" id="IA_0009" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Rita_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0009</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:21:51-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Rita_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_010</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">7</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Ivan's duck" restype=":ImageAnimal" id="IA_0010" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ivan_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0010</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:21:29-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Ivan_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_011</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">8</integer>
+        </integer-prop>
+    </resource>
+    <resource label="DanielaS's duck" restype=":ImageAnimal" id="IA_0011" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/DanielaS_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0011</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:20:33-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">DanielaS_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_012</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">9</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Balduin's duck" restype=":ImageAnimal" id="IA_0012" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Balduin_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0012</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:16:16-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Balduin_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_013</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">10</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Christian's duck" restype=":ImageAnimal" id="IA_0013" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Christian_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0013</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:16:09-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Christian_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_014</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">11</integer>
+        </integer-prop>
+    </resource>
+    <resource label="JulienS's duck" restype=":ImageAnimal" id="IA_0014" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/JulienS_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0014</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:15:08-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">JulienS_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_015</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">12</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Johannes's duck" restype=":ImageAnimal" id="IA_0015" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Johannes_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0015</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:14:38-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Johannes_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_016</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">13</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Florian's duck" restype=":ImageAnimal" id="IA_0016" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Florian_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0016</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:13:46-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Florian_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_017</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">14</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Noémi's duck" restype=":ImageAnimal" id="IA_0017" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Noemi_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0017</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:13:58-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Noemi_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_009</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">15</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Nora's duck" restype=":ImageAnimal" id="IA_0018" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Nora_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0018</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:14:22-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Nora_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_018</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">16</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Gregor's duck" restype=":ImageAnimal" id="IA_0019" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Gregor_duck.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0019</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T17:13:43-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Gregor_duck.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_019</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">17</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Ginny in RDU Team meeting" restype=":ImageAnimal" id="IA_0020" permissions="res-default">
+        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/RDU_Ginny.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0020</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-06-17T14:57:33-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">RDU_Ginny.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">6</integer>
+        </integer-prop>
+    </resource>
 </knora>
