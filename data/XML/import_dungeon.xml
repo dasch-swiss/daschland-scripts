@@ -33,13 +33,13 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Spreadsheet_Data" restype=":Dungeon" id="D_001" permissions="res-default">
-        <bitstream permissions="prop-default">data/Multimedia_Data/DungeonSpreadsheet_Data</bitstream>
+    <resource label="Spreadsheet_Data.zip" restype=":Dungeon" id="D_001" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Dungeon/Spreadsheet_Data.zip</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">D_001</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Archive from Project daschland-scripts spreadsheets</text>
+            <text permissions="prop-default" encoding="xml">Archive from Project daschland-scripts spreadsheets</text>
         </text-prop>
     </resource>
 </knora>

@@ -34,7 +34,7 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="Gregor" restype=":ImageHuman" id="IH_001" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Bachmann-Gregor.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Bachmann-Gregor.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_001</text>
         </text-prop>
@@ -49,7 +49,7 @@
         </text-prop>
     </resource>
     <resource label="Balduin" restype=":ImageHuman" id="IH_002" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Balduin_ABrilliantPhoto_2022_15.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Balduin_ABrilliantPhoto_2022_15.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_002</text>
         </text-prop>
@@ -67,7 +67,7 @@
         </text-prop>
     </resource>
     <resource label="Julien S" restype=":ImageHuman" id="IH_003" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Julien_ABrilliantPhoto_2023_17.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Julien_ABrilliantPhoto_2023_17.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_003</text>
         </text-prop>

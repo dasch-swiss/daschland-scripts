@@ -36,6 +36,7 @@ def main():
             resource.append(excel2xml.make_text_prop(":hasDescription", excel2xml.PropertyElement(row["Description"], encoding="xml")))
         # append the resource to the list
         all_resources.append(resource)
+
     # add all resources to the root
     root.extend(all_resources)
 

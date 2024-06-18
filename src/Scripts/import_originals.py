@@ -33,7 +33,7 @@ def main():
         if excel2xml.check_notna(row["ID"]):
             resource.append(excel2xml.make_text_prop(":hasID", resource_id))
         if excel2xml.check_notna(row["Description"]):
-            resource.append(excel2xml.make_text_prop(":hasDescription", row["Description"]))
+            resource.append(excel2xml.make_text_prop(":hasDescription", excel2xml.PropertyElement(row["Description"], encoding="xml")))
 
         # append the resource to the list
         all_resources.append(resource)

@@ -1,7 +1,8 @@
 {
    "prefixes": {
        "foaf": "http://xmlns.com/foaf/0.1/",
-       "dcterms": "http://purl.org/dc/terms/"
+       "dcterms": "http://purl.org/dc/terms/",
+       "schema" : "https://schema.org/"
    },
    "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
    "project": {
@@ -1142,7 +1143,7 @@
                     },
                     {
                         "name": "linkToAliceCharacterID",
-                        "object": ":AliceCharacter",
+                        "object": ":AliceInWonderlandCharacter",
                         "gui_element": "Searchbox",
                         "labels": {
                             "en": "Link to Alice Character",
@@ -1182,7 +1183,7 @@
                     },
                     {
                         "name": "linkToAnimalFriendID",
-                        "object": ":AnimalFriend",
+                        "object": ":AnimalCharacter",
                         "gui_element": "Searchbox",
                         "labels": {
                             "en": "Link to Animal Friend",
@@ -1222,7 +1223,7 @@
                     },
                     {
                         "name": "linkToButlerID",
-                        "object": ":Butler",
+                        "object": ":Character",
                         "gui_element": "Searchbox",
                         "labels": {
                             "en": "Link to Butler",
@@ -1412,6 +1413,11 @@
                                 "propname": ":hasName",
                                 "cardinality": "0-1",
                                 "gui_order": 3
+                            },
+                            {
+                                "propname": ":linkToAliceCharacterID",
+                                "cardinality": "0-n",
+                                "gui_order": 7
                             }
                         ]
                     },
@@ -1439,12 +1445,12 @@
                             },
                             {
                                 "propname": ":hasFirstName",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
                                 "propname": ":hasLastName",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
@@ -1464,7 +1470,7 @@
                             },
                             {
                                 "propname": ":hasPet",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 8
                             },
                             {
@@ -1474,13 +1480,18 @@
                             },
                             {
                                 "propname": ":hasEducationGradeList",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 10
                             },
                             {
                                 "propname": ":hasDepartementList",
                                 "cardinality": "0-n",
                                 "gui_order": 11
+                            },
+                            {
+                                "propname": ":hasBirthday",
+                                "cardinality": "0-1",
+                                "gui_order": 12
                             }
                         ]
                     },
@@ -1508,7 +1519,7 @@
                             },
                             {
                                 "propname": ":hasShortName",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
@@ -1543,27 +1554,27 @@
                             },
                             {
                                 "propname": ":hasWeight",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 10
                             },
                             {
                                 "propname": ":hasSpecieList",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 11
                             },
                             {
                                 "propname": ":hasGenderList",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 12
                             },
                             {
                                 "propname": ":isNeutered",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 13
                             },
                             {
                                 "propname": ":hasBirthday",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 14
                             },
                             {
@@ -1604,6 +1615,11 @@
                                 "propname": ":linkToLocationID",
                                 "cardinality": "0-n",
                                 "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
                             }
                         ]
                     },
@@ -1626,17 +1642,17 @@
                             },
                             {
                                 "propname": ":hasGeoname",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 2
                             },
                             {
                                 "propname": ":hasName",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasWonderlandLocation",
-                                "cardinality": "0-n",
+                                "propname": ":hasWonderlandLocationList",
+                                "cardinality": "0-1",
                                 "gui_order": 4
                             }
                         ]
@@ -1660,22 +1676,22 @@
                             },
                             {
                                 "propname": ":hasTimeStamp",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 2
                             },
                             {
                                 "propname": ":hasCopyright",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
                                 "propname": ":hasLicenseList",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
                                 "propname": ":hasFileName",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 5
                             }
                         ]
@@ -1699,7 +1715,7 @@
                             },
                             {
                                 "propname": ":hasSeqnum",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 2
                             }
                         ]
@@ -1760,28 +1776,28 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasFilename",
+                                "propname": ":hasFileName",
                                 "cardinality": "1",
                                 "gui_order": 2
                             },
                             {
                                 "propname": ":hasTimeStamp",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
                                 "propname": ":hasCopyright",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasLicense",
-                                "cardinality": "0-n",
+                                "propname": ":hasLicenseList",
+                                "cardinality": "0-1",
                                 "gui_order": 5
                             },
                             {
                                 "propname": ":hasDate",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 6
                             }
                         ]
@@ -1805,26 +1821,26 @@
                             },
                             {
                                 "propname": ":hasTimeStamp",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 6
                             },
                             {
                                 "propname": ":hasCopyright",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
                                 "propname": ":hasLicenseList",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
                                 "propname": ":hasDate",
-                                "cardinality": "0-n",
+                                "cardinality": "0-1",
                                 "gui_order": 5
                             },
                             {
-                                "propname": ":hasFilename",
+                                "propname": ":hasFileName",
                                 "cardinality": "1",
                                 "gui_order": 2
                             }

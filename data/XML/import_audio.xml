@@ -34,13 +34,10 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="Ping ronronne" restype=":Audio" id="AUD_001" permissions="res-default">
-        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/Ping_purring.m4a</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/Ping_purring.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">AUD_001</text>
         </text-prop>
-        <time-prop name=":hasTimeStamp">
-            <time permissions="prop-default">2024-04-04T14:44:45-00:00</time>
-        </time-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
@@ -48,7 +45,7 @@
             <list permissions="prop-default">CC BY 4.0</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Ping_purring.m4a</text>
+            <text permissions="prop-default" encoding="utf8">Ping_purring.mp3</text>
         </text-prop>
     </resource>
 </knora>

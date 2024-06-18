@@ -33,31 +33,31 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Atli.pdf" restype=":Originals" id="F_001" permissions="res-default">
-        <bitstream permissions="prop-default">data/Multimedia_Data/FlyerAtli.pdf</bitstream>
+    <resource label="Atli.pdf" restype=":Originals" id="FL_001" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Flyer/Atli.pdf</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">F_001</text>
+            <text permissions="prop-default" encoding="utf8">FL_001</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Flyer from Atli</text>
+            <text permissions="prop-default" encoding="xml">Flyer from Atli</text>
         </text-prop>
     </resource>
-    <resource label="Ping.pdf" restype=":Originals" id="F_002" permissions="res-default">
-        <bitstream permissions="prop-default">data/Multimedia_Data/FlyerPing.pdf</bitstream>
+    <resource label="Ping.pdf" restype=":Originals" id="FL_002" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Flyer/Ping.pdf</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">F_002</text>
+            <text permissions="prop-default" encoding="utf8">FL_002</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Flyer from Ping</text>
+            <text permissions="prop-default" encoding="xml">Flyer from Ping</text>
         </text-prop>
     </resource>
-    <resource label="Pong.pdf" restype=":Originals" id="F_003" permissions="res-default">
-        <bitstream permissions="prop-default">data/Multimedia_Data/FlyerPong.pdf</bitstream>
+    <resource label="Pong.pdf" restype=":Originals" id="FL_003" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Flyer/Pong.pdf</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">F_003</text>
+            <text permissions="prop-default" encoding="utf8">FL_003</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Flyer from Pong</text>
+            <text permissions="prop-default" encoding="xml">Flyer from Pong</text>
         </text-prop>
     </resource>
 </knora>

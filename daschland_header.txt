@@ -1,7 +1,8 @@
 {
    "prefixes": {
        "foaf": "http://xmlns.com/foaf/0.1/",
-       "dcterms": "http://purl.org/dc/terms/"
+       "dcterms": "http://purl.org/dc/terms/",
+       "schema" : "https://schema.org/"
    },
    "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
    "project": {

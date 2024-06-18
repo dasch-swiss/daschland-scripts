@@ -111,7 +111,7 @@
             <text permissions="prop-default" encoding="utf8">A_004</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This older female Miniature Pinscher, with her striking three-colored coat, enjoys the comfort of being in the same room as you, often indulging in long, peaceful naps. Despite her age, she remains alert and curious, especially outdoors where she loves to watch her surroundings and keenly hunts for mice</text>
+            <text permissions="prop-default" encoding="xml">This older female Miniature Pinscher, with her striking three-colored coat, enjoys the comfort of being in the same room as you, often indulging in long, peaceful naps. Despite her age, she remains alert and curious, especially outdoors where she loves to watch her surroundings and keenly hunts for mice</text>
         </text-prop>
         <text-prop name=":hasShortName">
             <text permissions="prop-default" encoding="utf8">Kenzi</text>
@@ -122,9 +122,9 @@
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Female</list>
         </list-prop>
-        <text-prop name=":hasWeight">
-            <text permissions="prop-default" encoding="utf8">5.5</text>
-        </text-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">5.5</decimal>
+        </decimal-prop>
         <date-prop name=":hasBirthday">
             <date permissions="prop-default">GREGORIAN:CE:2012-03-09:CE:2012-03-09</date>
         </date-prop>
@@ -144,7 +144,7 @@
             <text permissions="prop-default" encoding="utf8">A_005</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This Italian Greyhound is a bundle of affection, always eager to cuddle and stay close. He loves nothing more than snuggling by your side. His soulful eyes and tender presence bring comfort and joy wherever he goes.</text>
+            <text permissions="prop-default" encoding="xml">This Italian Greyhound is a bundle of affection, always eager to cuddle and stay close. He loves nothing more than snuggling by your side. His soulful eyes and tender presence bring comfort and joy wherever he goes.</text>
         </text-prop>
         <text-prop name=":hasShortName">
             <text permissions="prop-default" encoding="utf8">Loki</text>
@@ -155,9 +155,9 @@
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Male</list>
         </list-prop>
-        <text-prop name=":hasWeight">
-            <text permissions="prop-default" encoding="utf8">9</text>
-        </text-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">9</decimal>
+        </decimal-prop>
         <date-prop name=":hasBirthday">
             <date permissions="prop-default">GREGORIAN:CE:2021-07-15:CE:2021-07-15</date>
         </date-prop>
@@ -178,7 +178,7 @@
             <text permissions="prop-default" encoding="utf8">A_006</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Tricoloured cat. Born in a farm in Baselland.
+            <text permissions="prop-default" encoding="xml">Tricoloured cat. Born in a farm in Baselland.
 Very social, noisy and affective.  
 Sister to Pong.</text>
         </text-prop>
@@ -196,9 +196,9 @@ Sister to Pong.</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Female</list>
         </list-prop>
-        <text-prop name=":hasWeight">
-            <text permissions="prop-default" encoding="utf8">3.6</text>
-        </text-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">3.6</decimal>
+        </decimal-prop>
         <date-prop name=":hasBirthday">
             <date permissions="prop-default">GREGORIAN:CE:2018:CE:2018</date>
         </date-prop>
@@ -220,7 +220,7 @@ Sister to Pong.</text>
             <text permissions="prop-default" encoding="utf8">A_007</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Female red and white cat. Born in a farm in Baselland.
+            <text permissions="prop-default" encoding="xml">Female red and white cat. Born in a farm in Baselland.
 Very shy, afraid of noise.  
 Sister to Ping.</text>
         </text-prop>
@@ -237,9 +237,9 @@ Sister to Ping.</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Female</list>
         </list-prop>
-        <text-prop name=":hasWeight">
-            <text permissions="prop-default" encoding="utf8">4.2</text>
-        </text-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">4.2</decimal>
+        </decimal-prop>
         <date-prop name=":hasBirthday">
             <date permissions="prop-default">GREGORIAN:CE:2018:CE:2018</date>
         </date-prop>
@@ -272,7 +272,7 @@ Sister to Ping.</text>
             <text permissions="prop-default" encoding="utf8">A_009</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Creative rubber duck. 
+            <text permissions="prop-default" encoding="xml">Creative rubber duck. 
 Their code is not the most conventionnal, but why should it?</text>
         </text-prop>
         <text-prop name=":hasShortName">
@@ -293,9 +293,9 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
-        <text-prop name=":hasWeight">
-            <text permissions="prop-default" encoding="utf8">0.05</text>
-        </text-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_007</resptr>
         </resptr-prop>

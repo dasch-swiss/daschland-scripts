@@ -33,7 +33,7 @@ def main():
         resource.append(excel2xml.make_bitstream_prop(image_path))
 
         if excel2xml.check_notna(row["ID"]):
-            resource.append(excel2xml.make_text_prop(":ID", resource_id))
+            resource.append(excel2xml.make_text_prop(":hasID", resource_id))
         timestamp_value = get_image_creation_time(image_path)
         if excel2xml.check_notna(timestamp_value):
             resource.append(excel2xml.make_time_prop(":hasTimeStamp", timestamp_value))

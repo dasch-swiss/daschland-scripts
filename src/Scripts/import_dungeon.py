@@ -27,13 +27,13 @@ def main():
             id=resource_id)
 
         # create resource type "Image Human"
-        originals_path = f"{row['Directory']}{row['File Name']}"
-        resource.append(excel2xml.make_bitstream_prop(originals_path))
+        dungeon_inmate_path = f"{row['Directory']}{row['File Name']}"
+        resource.append(excel2xml.make_bitstream_prop(dungeon_inmate_path))
 
         if excel2xml.check_notna(row["ID"]):
             resource.append(excel2xml.make_text_prop(":hasID", resource_id))
         if excel2xml.check_notna(row["Description"]):
-            resource.append(excel2xml.make_text_prop(":hasDescription", row["Description"]))
+            resource.append(excel2xml.make_text_prop(":hasDescription", excel2xml.PropertyElement(row["Description"], encoding="xml")))
 
         # append the resource to the list
         all_resources.append(resource)

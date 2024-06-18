@@ -41,7 +41,7 @@
             <text permissions="prop-default" encoding="utf8">Alice</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Alice is the main character of the story “Alice’s Adventures in Wonderland” and the sequel “Through the Looking-Glass and what Alice found there”.
+            <text permissions="prop-default" encoding="xml">Alice is the main character of the story “Alice’s Adventures in Wonderland” and the sequel “Through the Looking-Glass and what Alice found there”.
 
 She is a seven-year-old English girl (in ‘Alice’s Adventures in Wonderland’ she is exactly seven years old, in ‘Through the Looking-Glass’ she is seven and a half) with lots of imagination and is fond of showing off her knowledge. Alice is polite, well raised and interested in others, although she sometimes makes the wrong remarks and upsets the creatures in Wonderland. She is easily put off by abruptness and rudeness of others.
 
@@ -68,7 +68,7 @@ The illustrations of Alice by John Tenniel are not based on Alice Liddell. Carro
             <text permissions="prop-default" encoding="utf8">White Rabbit</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The White Rabbit is a fictional and anthropomorphic character in Lewis Carroll's 1865 book Alice's Adventures in Wonderland. He appears at the very beginning of the book, in chapter one, wearing a waistcoat, and muttering "Oh dear! Oh dear! I shall be too late!" Alice follows him down the rabbit hole into Wonderland. Alice encounters him again when he mistakes her for his housemaid Mary Ann and she becomes trapped in his house after growing too large. The Rabbit shows up again in the last few chapters, as a herald-like servant of the King and Queen of Hearts.
+            <text permissions="prop-default" encoding="xml">The White Rabbit is a fictional and anthropomorphic character in Lewis Carroll's 1865 book Alice's Adventures in Wonderland. He appears at the very beginning of the book, in chapter one, wearing a waistcoat, and muttering "Oh dear! Oh dear! I shall be too late!" Alice follows him down the rabbit hole into Wonderland. Alice encounters him again when he mistakes her for his housemaid Mary Ann and she becomes trapped in his house after growing too large. The Rabbit shows up again in the last few chapters, as a herald-like servant of the King and Queen of Hearts.
 
 In his article "Alice on the Stage", Carroll wrote, "And the White Rabbit, what of him? Was he framed on the 'Alice' lines, or meant as a contrast? As a contrast, distinctly. For her 'youth', 'audacity', 'vigour', and 'swift directness of purpose', read 'elderly', 'timid', 'feeble', and 'nervously shilly-shallying', and you will get something of what I meant him to be. I think the White Rabbit should wear spectacles. I'm sure his voice should quaver, and his knees quiver and his whole air suggest a total inability to say 'Boo' to a goose!"[1]
 
@@ -93,7 +93,7 @@ The White Rabbit's perennial unpunctuality is a nod to Oxford time, the traditio
             <text permissions="prop-default" encoding="utf8">Caterpillar</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The Caterpillar is mentioned in chapter 4 and 5 of the book “Alice’s Adventures in Wonderland”. He is sitting on a mushroom while smoking a hookah, when Alice first meets him. Although he is rather strict and not very friendly, and corrects Alice’s recitation of a poem, he does help her by advising her to eat from the mushroom if she wants to change her size. In the end, he crawles away. In Disney’s cartoon movie, however, he changes into a butterfly.
+            <text permissions="prop-default" encoding="xml">The Caterpillar is mentioned in chapter 4 and 5 of the book “Alice’s Adventures in Wonderland”. He is sitting on a mushroom while smoking a hookah, when Alice first meets him. Although he is rather strict and not very friendly, and corrects Alice’s recitation of a poem, he does help her by advising her to eat from the mushroom if she wants to change her size. In the end, he crawles away. In Disney’s cartoon movie, however, he changes into a butterfly.
 
 The Caterpillar actually teaches Alice how to cope with the difficulties she encounters in Wonderland. He teaches her how to change size by eating the mushroom and thereby to adapt to her environment when needed.
 
@@ -110,7 +110,7 @@ When you take a close look at the picture of the Caterpillar, you’ll see that 
             <text permissions="prop-default" encoding="utf8">Mad Hatter</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The Mad Hatter is one of the members of the Mad Tea Party. Later he also appears as a witness during the trial. He occasionally is very rude and provokes Alice during the tea party. When he is called upon by the Queen, he is very nervous and frightened.
+            <text permissions="prop-default" encoding="xml">The Mad Hatter is one of the members of the Mad Tea Party. Later he also appears as a witness during the trial. He occasionally is very rude and provokes Alice during the tea party. When he is called upon by the Queen, he is very nervous and frightened.
 
 The Hatter is mentioned in chapter 7 and 11 from the book “Alice’s Adventures in Wonderland”. In ‘Through the Looking-Glass’, the Hatter returns in the form of the Anglo-Saxon messenger ‘Hatta’.
 
@@ -134,7 +134,7 @@ Mad Hatter by DisneyCarroll may have asked Tenniel to draw the Mad Hatter to res
             <text permissions="prop-default" encoding="utf8">Cheshire Cat</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The Cheshire Cat is the cat of the Duchess. Alice first meets it in chapter 6 from “Alice’s Adventures in Wonderland”, when she leaves the Duchess house, and finds it in a tree. It constantly grins and can disappear and reappear whenever it likes. Sometimes it disappears and leaves its grin behind. In chapter 8 she meets it again in the Queen’s croquet garden.
+            <text permissions="prop-default" encoding="xml">The Cheshire Cat is the cat of the Duchess. Alice first meets it in chapter 6 from “Alice’s Adventures in Wonderland”, when she leaves the Duchess house, and finds it in a tree. It constantly grins and can disappear and reappear whenever it likes. Sometimes it disappears and leaves its grin behind. In chapter 8 she meets it again in the Queen’s croquet garden.
 
 In “The Nursery ‘Alice'”, Alice notices that the cat has ‘lovely green eyes’.
 
@@ -158,7 +158,7 @@ Finally, the Cheshire Cat might be inspired by a sedilia in Croft Church.</text>
             <text permissions="prop-default" encoding="utf8">Queen of Hearts</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The Queen of Hearts appears in chapters 8, 9, 11 and 12 from “Alice’s Adventures in Wonderland”. She is one of the playing card characters Alice meets when she is finally able to enter the beautiful garden through the door in the hallway.
+            <text permissions="prop-default" encoding="xml">The Queen of Hearts appears in chapters 8, 9, 11 and 12 from “Alice’s Adventures in Wonderland”. She is one of the playing card characters Alice meets when she is finally able to enter the beautiful garden through the door in the hallway.
 
 The Queen of Hearts rules over Wonderland and is a tyrant – violent, authoritative and dominant. She likes to play croquet with live flamingoes and hedgehogs as mallets and balls (but only when she wins, and by her own rules) and constantly orders the beheading of people when something isn’t to her Queen of Hearts by Disneyliking (although these orders apparently never are actually carried out). She also has her own ideas
 about how trials should be conducted, and is feared by all other Wonderland inhabitants because of her lack of patience and explosive character.
@@ -182,7 +182,7 @@ Carroll wrote the following about the Queen of Hearts:
             <text permissions="prop-default" encoding="utf8">March Hare</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">he is holding a tea party with the Hatter and the Dormouse. The party will continue forever, as they live in a frozen time. Later on, the March Hare is a witness during the trial.</text>
+            <text permissions="prop-default" encoding="xml">he is holding a tea party with the Hatter and the Dormouse. The party will continue forever, as they live in a frozen time. Later on, the March Hare is a witness during the trial.</text>
         </text-prop>
     </resource>
     <resource label="Duchess" restype=":AliceInWonderlandCharacter" id="W_008" permissions="res-default">
@@ -193,7 +193,7 @@ Carroll wrote the following about the Queen of Hearts:
             <text permissions="prop-default" encoding="utf8">Duchess</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">she is very ugly and mistreats her baby. She is also fond of finding morals in things. She tries to be in everyone’s good books (especially the Queen’s one) by acting very complimentary.</text>
+            <text permissions="prop-default" encoding="xml">she is very ugly and mistreats her baby. She is also fond of finding morals in things. She tries to be in everyone’s good books (especially the Queen’s one) by acting very complimentary.</text>
         </text-prop>
         <resptr-prop name=":linkToLocationID">
             <resptr permissions="prop-default">L_003</resptr>
@@ -207,7 +207,7 @@ Carroll wrote the following about the Queen of Hearts:
             <text permissions="prop-default" encoding="utf8">Mock Turtle</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">he seems to be very sad and constantly sobs. He tells Alice about his schooldays.</text>
+            <text permissions="prop-default" encoding="xml">he seems to be very sad and constantly sobs. He tells Alice about his schooldays.</text>
         </text-prop>
         <resptr-prop name=":linkToLocationID">
             <resptr permissions="prop-default">L_005</resptr>
@@ -221,7 +221,7 @@ Carroll wrote the following about the Queen of Hearts:
             <text permissions="prop-default" encoding="utf8">Gryphon</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">he takes Alice to the Mock Turtle. With him he explains the Lobster Quadrille to Alice.</text>
+            <text permissions="prop-default" encoding="xml">he takes Alice to the Mock Turtle. With him he explains the Lobster Quadrille to Alice.</text>
         </text-prop>
         <resptr-prop name=":linkToLocationID">
             <resptr permissions="prop-default">L_005</resptr>
@@ -235,7 +235,7 @@ Carroll wrote the following about the Queen of Hearts:
             <text permissions="prop-default" encoding="utf8">Red Queen</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">she lets Alice join the game of chess and advises her how to move. She also tells her how she should behave as a queen. She expects Alice to abide to the rules of proper etiquette.
+            <text permissions="prop-default" encoding="xml">she lets Alice join the game of chess and advises her how to move. She also tells her how she should behave as a queen. She expects Alice to abide to the rules of proper etiquette.
 Carroll describes her like this: “The Red Queen I pictured as a Fury, but of another type; her passion must be cold and calm; she must be formal and strict, yet not unkindly; pedantic to the tenth degree, the concentrated essence of all governesses!”
 It is possible that the Red Queen was modeled after the governess for the Liddell children, Miss Prickett. Her nickname was ‘Pricks’.</text>
         </text-prop>
@@ -248,7 +248,7 @@ It is possible that the Red Queen was modeled after the governess for the Liddel
             <text permissions="prop-default" encoding="utf8">Humpty Dumpty</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">an egg who sits on a very narrow wall. He is very proud, rude, easily-offended and claims to be the master of words. In the end he (presumably) falls off the wall.</text>
+            <text permissions="prop-default" encoding="xml">an egg who sits on a very narrow wall. He is very proud, rude, easily-offended and claims to be the master of words. In the end he (presumably) falls off the wall.</text>
         </text-prop>
     </resource>
     <resource label="White Knight" restype=":AliceInWonderlandCharacter" id="W_013" permissions="res-default">
@@ -259,7 +259,7 @@ It is possible that the Red Queen was modeled after the governess for the Liddel
             <text permissions="prop-default" encoding="utf8">White Knight</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">he rescues Alice from the Red Knight. He cannot ride his horse properly, likes inventing things and is a little melancholic. We are told that he has shaggy hair, mild blue eyes, a kind and gentle face and fond is of inventions. This is also a description of Lewis Carroll, so he may have modeled the White Knight after himself. The Knight is also the only one who is truly nice to Alice and later she remembers him best.</text>
+            <text permissions="prop-default" encoding="xml">he rescues Alice from the Red Knight. He cannot ride his horse properly, likes inventing things and is a little melancholic. We are told that he has shaggy hair, mild blue eyes, a kind and gentle face and fond is of inventions. This is also a description of Lewis Carroll, so he may have modeled the White Knight after himself. The Knight is also the only one who is truly nice to Alice and later she remembers him best.</text>
         </text-prop>
     </resource>
     <resource label="Mouse" restype=":AliceInWonderlandCharacter" id="W_014" permissions="res-default">
@@ -270,7 +270,7 @@ It is possible that the Red Queen was modeled after the governess for the Liddel
             <text permissions="prop-default" encoding="utf8">Mouse</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The Mouse is a fictional character in Lewis Carroll's 1865 novel Alice's Adventures in Wonderland. He appears in Chapter II "The Pool of Tears" [1] and Chapter III "A Caucus-Race and a Long Tale" [2].
+            <text permissions="prop-default" encoding="xml">The Mouse is a fictional character in Lewis Carroll's 1865 novel Alice's Adventures in Wonderland. He appears in Chapter II "The Pool of Tears" [1] and Chapter III "A Caucus-Race and a Long Tale" [2].
 
 Alice, the eponymous heroine in the book, first talks to the mouse when she is floating in a pool of her own tears, having shrunk in size:
 
@@ -290,7 +290,7 @@ With no response from the mouse, Alice fears that it may not speak English and a
             <text permissions="prop-default" encoding="utf8">Dodo</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The Dodo is a fictional character appearing in Chapters 2 and 3 of the 1865 book Alice's Adventures in Wonderland by Lewis Carroll (Charles Lutwidge Dodgson). The Dodo is a caricature of the author. A popular but unsubstantiated belief is that Dodgson chose the particular animal to represent himself because of his stammer, and thus would accidentally introduce himself as "Do-do-dodgson".
+            <text permissions="prop-default" encoding="xml">The Dodo is a fictional character appearing in Chapters 2 and 3 of the 1865 book Alice's Adventures in Wonderland by Lewis Carroll (Charles Lutwidge Dodgson). The Dodo is a caricature of the author. A popular but unsubstantiated belief is that Dodgson chose the particular animal to represent himself because of his stammer, and thus would accidentally introduce himself as "Do-do-dodgson".
 
 Historically, the dodo was a flightless bird that lived on the island of Mauritius, east of Madagascar in the Indian Ocean. It became extinct in the mid 17th century during the colonisation of the island by the Dutch.[1]</text>
         </text-prop>
@@ -303,7 +303,7 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">Alice's sister</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This character is the sister of Alice, implied to be the elder as Alice is referred to as, "this same little sister of hers". Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell who was also inspiration for the Lory at the Caucus Race.</text>
+            <text permissions="prop-default" encoding="xml">This character is the sister of Alice, implied to be the elder as Alice is referred to as, "this same little sister of hers". Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell who was also inspiration for the Lory at the Caucus Race.</text>
         </text-prop>
         <resptr-prop name=":linkToLocationID">
             <resptr permissions="prop-default">L_001</resptr>
@@ -317,7 +317,7 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">King of Hearts</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">When compared to the Queen of Hearts, the King of Hearts appears to be the moderate part of the Wonderland government. As an example, when the Queen, who enjoys ordering beheadings, attempts to have Alice executed (charged with being unable to answer who is lying down in front of her), the King of Hearts reminds her that she is only a child.[1]</text>
+            <text permissions="prop-default" encoding="xml">When compared to the Queen of Hearts, the King of Hearts appears to be the moderate part of the Wonderland government. As an example, when the Queen, who enjoys ordering beheadings, attempts to have Alice executed (charged with being unable to answer who is lying down in front of her), the King of Hearts reminds her that she is only a child.[1]</text>
         </text-prop>
         <resptr-prop name=":linkToImageID">
             <resptr permissions="prop-default">IW_001</resptr>
@@ -334,7 +334,7 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">Dormouse</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The Dormouse sat between the March Hare and the Mad Hatter. They were using him as a cushion while he slept when Alice arrives at the start of the chapter.</text>
+            <text permissions="prop-default" encoding="xml">The Dormouse sat between the March Hare and the Mad Hatter. They were using him as a cushion while he slept when Alice arrives at the start of the chapter.</text>
         </text-prop>
         <resptr-prop name=":linkToLocationID">
             <resptr permissions="prop-default">L_008</resptr>
@@ -348,7 +348,7 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">Knave of Hearts</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The Knave of Hearts is mentioned first in chapter 8, and later in chapters 11 and 12, which deal with his trial for a tart burglary in which the King of Hearts presides as judge. Alice eventually defends the Knave after the evidence becomes increasingly absurd and she is called as a witness.</text>
+            <text permissions="prop-default" encoding="xml">The Knave of Hearts is mentioned first in chapter 8, and later in chapters 11 and 12, which deal with his trial for a tart burglary in which the King of Hearts presides as judge. Alice eventually defends the Knave after the evidence becomes increasingly absurd and she is called as a witness.</text>
         </text-prop>
         <resptr-prop name=":linkToLocationID">
             <resptr permissions="prop-default">L_006</resptr>

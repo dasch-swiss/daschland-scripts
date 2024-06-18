@@ -80,7 +80,7 @@ def main():
     ic(len(all_wonderland_characters))
 
 
-    excel2xml.write_xml(root, "dashland_data.xml")
+    excel2xml.write_xml(root, "daschland_data.xml")
 
 
 if __name__ == "__main__":

@@ -51,7 +51,8 @@ def main():
             roles = [role_label_to_names.get(x) for x in roles_raw]
             resource.append(excel2xml.make_list_prop("Role", ":hasRoleList", roles))
         if excel2xml.check_notna(row["Quote"]):
-            resource.append(excel2xml.make_text_prop(":hasQuote", row["Quote"]))
+            resource.append(excel2xml.make_text_prop(":hasQuote", excel2xml.PropertyElement(row["Quote"], encoding="xml")))
+
         if excel2xml.check_notna(row["Pet"]):
             resource.append(excel2xml.make_boolean_prop(":hasPet", row["Pet"]))
         if excel2xml.check_notna(row["Favorite Cake"]):
@@ -63,7 +64,7 @@ def main():
         if excel2xml.check_notna(row["Departement List"]):
             department_raw = [x.strip() for x in row["Departement List"].split(",")]
             department = [department_label_to_names.get(x) for x in department_raw]
-            resource.append(excel2xml.make_list_prop("Department", ":hasDepartementList", department))
+            resource.append(excel2xml.make_list_prop("Departement", ":hasDepartementList", department))
 
         # Append link Properties
         if excel2xml.check_notna(row["Link to Image ID"]):
@@ -74,10 +75,10 @@ def main():
             alice_id = [x.strip() for x in row["Link To Alice Character ID"].split(",")]
             resource.append(excel2xml.make_resptr_prop(":linkToAliceCharacterID", alice_id))
 
-    for _, row in character_restricted_df.iterrows():
-        if row["ID"] == resource_id and excel2xml.check_notna(row["Birthday"]):
-            birthday = excel2xml.find_date_in_string(row["Birthday"])
-            resource.append(excel2xml.make_date_prop(":hasBirthday", excel2xml.PropertyElement(birthday, permissions = "restricted")))
+        for _, row in character_restricted_df.iterrows():
+            if row["ID"] == resource_id and excel2xml.check_notna(row["Birthday"]):
+                birthday = excel2xml.find_date_in_string(row["Birthday"])
+                resource.append(excel2xml.make_date_prop(":hasBirthday", excel2xml.PropertyElement(birthday, permissions = "res-restricted")))
 
         # append the resource to the list
         all_resources.append(resource)

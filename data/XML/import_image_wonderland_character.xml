@@ -35,7 +35,7 @@
     </permissions>
     <resource label="King and Queen of Hearts sitting on their throne in court" restype=":ImageWonderlandCharacter" id="IW_001" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book0.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_001</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -47,7 +47,7 @@
     </resource>
     <resource label="White Rabbit looking at his watch" restype=":ImageWonderlandCharacter" id="IW_002" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book1.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_002</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -59,7 +59,7 @@
     </resource>
     <resource label="Alice finding a little door" restype=":ImageWonderlandCharacter" id="IW_003" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book2.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_003</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -71,7 +71,7 @@
     </resource>
     <resource label="Alice holding the &quot;Drink Me&quot; bottle" restype=":ImageWonderlandCharacter" id="IW_004" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book3.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_004</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -83,7 +83,7 @@
     </resource>
     <resource label="Alice growing taller" restype=":ImageWonderlandCharacter" id="IW_005" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book4.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_005</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -95,7 +95,7 @@
     </resource>
     <resource label="White Rabbit skurrying away from Alice" restype=":ImageWonderlandCharacter" id="IW_006" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book5.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_006</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -107,7 +107,7 @@
     </resource>
     <resource label="Alice swimming in the Pool of tears" restype=":ImageWonderlandCharacter" id="IW_007" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book6.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_007</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -119,7 +119,7 @@
     </resource>
     <resource label="Alice and the Mouse swimming in the Pool of tears" restype=":ImageWonderlandCharacter" id="IW_008" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book7.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_008</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -131,7 +131,7 @@
     </resource>
     <resource label="Alice accepting a thimble from Dodo" restype=":ImageWonderlandCharacter" id="IW_009" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book8.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_009</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -143,7 +143,7 @@
     </resource>
     <resource label="Mouse telling its tale to Alice and creatures" restype=":ImageWonderlandCharacter" id="IW_010" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book9.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_010</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -155,7 +155,7 @@
     </resource>
     <resource label="Alice outgrowing White Rabbit's house" restype=":ImageWonderlandCharacter" id="IW_011" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book10.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_011</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -167,7 +167,7 @@
     </resource>
     <resource label="Alice's hand reaching for White Rabbit" restype=":ImageWonderlandCharacter" id="IW_012" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book11.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_012</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -179,7 +179,7 @@
     </resource>
     <resource label="Bill the lizzard rocketting out of the chimney" restype=":ImageWonderlandCharacter" id="IW_013" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book12.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_013</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -191,7 +191,7 @@
     </resource>
     <resource label="The puppy looking at Alice" restype=":ImageWonderlandCharacter" id="IW_014" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book13.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_014</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -203,7 +203,7 @@
     </resource>
     <resource label="Caterpillar questionning Alice" restype=":ImageWonderlandCharacter" id="IW_015" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book14.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_015</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -215,7 +215,7 @@
     </resource>
     <resource label="Father William standing on his head" restype=":ImageWonderlandCharacter" id="IW_016" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book15.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_016</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -227,7 +227,7 @@
     </resource>
     <resource label="Father William turning a back-sommersault" restype=":ImageWonderlandCharacter" id="IW_017" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book16.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_017</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -239,7 +239,7 @@
     </resource>
     <resource label="Father William sitting at a table" restype=":ImageWonderlandCharacter" id="IW_018" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book17.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_018</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -251,7 +251,7 @@
     </resource>
     <resource label="Father William balancing an eel" restype=":ImageWonderlandCharacter" id="IW_019" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book18.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_019</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -263,7 +263,7 @@
     </resource>
     <resource label="Frog-Footman and Fish-Footman holding an invitation" restype=":ImageWonderlandCharacter" id="IW_020" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book19.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_020</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -275,7 +275,7 @@
     </resource>
     <resource label="Dutchess nursing the baby" restype=":ImageWonderlandCharacter" id="IW_021" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book20.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_021</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -287,7 +287,7 @@
     </resource>
     <resource label="Alice holding the pig baby" restype=":ImageWonderlandCharacter" id="IW_022" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book21.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_022</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -299,7 +299,7 @@
     </resource>
     <resource label="Cheshire-Cat grinning at Alice" restype=":ImageWonderlandCharacter" id="IW_023" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book22.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_023</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -311,7 +311,7 @@
     </resource>
     <resource label="Cheshire-Cat disappearing" restype=":ImageWonderlandCharacter" id="IW_024" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book23.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_024</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -323,7 +323,7 @@
     </resource>
     <resource label="Alice sitting at a mad tea-party" restype=":ImageWonderlandCharacter" id="IW_025" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book24.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_025</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -335,7 +335,7 @@
     </resource>
     <resource label="Hatter singing" restype=":ImageWonderlandCharacter" id="IW_026" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book25.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_026</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -347,7 +347,7 @@
     </resource>
     <resource label="Dormouse being put in a teapot" restype=":ImageWonderlandCharacter" id="IW_027" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book26.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_027</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -359,7 +359,7 @@
     </resource>
     <resource label="Card-gardeners painting roses" restype=":ImageWonderlandCharacter" id="IW_028" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book27.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_028</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -371,7 +371,7 @@
     </resource>
     <resource label="Queen of Hearts pointing at Alice" restype=":ImageWonderlandCharacter" id="IW_029" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book28.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_029</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -383,7 +383,7 @@
     </resource>
     <resource label="Alice holding her Flamingo" restype=":ImageWonderlandCharacter" id="IW_030" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book29.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_030</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -395,7 +395,7 @@
     </resource>
     <resource label="Executioners and crowd collecting round Cheshire-Cat" restype=":ImageWonderlandCharacter" id="IW_031" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book30.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_031</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -407,7 +407,7 @@
     </resource>
     <resource label="Alice and Duchess walking" restype=":ImageWonderlandCharacter" id="IW_032" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book31.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_032</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -419,7 +419,7 @@
     </resource>
     <resource label="Gryphon sleeping" restype=":ImageWonderlandCharacter" id="IW_033" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book32.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_033</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -431,7 +431,7 @@
     </resource>
     <resource label="Mock Turtle telling his story to Gryphon and Alice" restype=":ImageWonderlandCharacter" id="IW_034" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book33.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_034</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -443,7 +443,7 @@
     </resource>
     <resource label="Mock Turtle and Gryphon dancing round Alice" restype=":ImageWonderlandCharacter" id="IW_035" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book34.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_035</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -455,7 +455,7 @@
     </resource>
     <resource label="Lobster turning out his toes " restype=":ImageWonderlandCharacter" id="IW_036" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book35.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_036</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -467,7 +467,7 @@
     </resource>
     <resource label="White Rabbit as herald blowing a trumpet" restype=":ImageWonderlandCharacter" id="IW_037" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book36.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_037</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -479,7 +479,7 @@
     </resource>
     <resource label="Hatter shaking off his shoes" restype=":ImageWonderlandCharacter" id="IW_038" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book37.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_038</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -491,7 +491,7 @@
     </resource>
     <resource label="Hatter running" restype=":ImageWonderlandCharacter" id="IW_039" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book38.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_039</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -503,7 +503,7 @@
     </resource>
     <resource label="Alice tipping over the jury-box" restype=":ImageWonderlandCharacter" id="IW_040" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book39.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_040</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -515,7 +515,7 @@
     </resource>
     <resource label="King of Hearts pointing to the tarts in court" restype=":ImageWonderlandCharacter" id="IW_041" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book40.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_041</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -527,7 +527,7 @@
     </resource>
     <resource label="Cards flying down upon Alice" restype=":ImageWonderlandCharacter" id="IW_042" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/1book41.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_042</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -539,7 +539,7 @@
     </resource>
     <resource label="White knight riding his horse" restype=":ImageWonderlandCharacter" id="IW_043" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book0.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_043</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -551,7 +551,7 @@
     </resource>
     <resource label="Black kitten playing" restype=":ImageWonderlandCharacter" id="IW_044" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book1.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_044</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -563,7 +563,7 @@
     </resource>
     <resource label="Alice winding worsted in an arm-chair" restype=":ImageWonderlandCharacter" id="IW_045" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book2.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_045</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -575,7 +575,7 @@
     </resource>
     <resource label="Alice going through the looking-glass" restype=":ImageWonderlandCharacter" id="IW_046" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book3.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_046</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -587,7 +587,7 @@
     </resource>
     <resource label="Alice coming through the looking-glass" restype=":ImageWonderlandCharacter" id="IW_047" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book4.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_047</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -599,7 +599,7 @@
     </resource>
     <resource label="Chessmen walking" restype=":ImageWonderlandCharacter" id="IW_048" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book5.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_048</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -611,7 +611,7 @@
     </resource>
     <resource label="Alice picking up White King" restype=":ImageWonderlandCharacter" id="IW_049" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book6.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_049</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -623,7 +623,7 @@
     </resource>
     <resource label="The White Knight sliding down a poker" restype=":ImageWonderlandCharacter" id="IW_050" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book7.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_050</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -635,7 +635,7 @@
     </resource>
     <resource label="Jabberwork" restype=":ImageWonderlandCharacter" id="IW_051" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book8.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_051</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -647,7 +647,7 @@
     </resource>
     <resource label="Tiger-Lily and Alice talking" restype=":ImageWonderlandCharacter" id="IW_052" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book9.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_052</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -659,7 +659,7 @@
     </resource>
     <resource label="Alice and Red Queen talking" restype=":ImageWonderlandCharacter" id="IW_053" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book10.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_053</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -671,7 +671,7 @@
     </resource>
     <resource label="Chessboard-like country" restype=":ImageWonderlandCharacter" id="IW_054" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book11.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_054</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -683,7 +683,7 @@
     </resource>
     <resource label="Alice and Red Queen running" restype=":ImageWonderlandCharacter" id="IW_055" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book12.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_055</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -695,7 +695,7 @@
     </resource>
     <resource label="Alice sittin in a train carriage" restype=":ImageWonderlandCharacter" id="IW_056" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book13.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_056</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -707,7 +707,7 @@
     </resource>
     <resource label="Rocking-horse-fly" restype=":ImageWonderlandCharacter" id="IW_057" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book14.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_057</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -719,7 +719,7 @@
     </resource>
     <resource label="Snap-dragon-fly" restype=":ImageWonderlandCharacter" id="IW_058" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book15.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_058</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -731,7 +731,7 @@
     </resource>
     <resource label="Bread-and-butter-fly" restype=":ImageWonderlandCharacter" id="IW_059" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book16.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_059</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -743,7 +743,7 @@
     </resource>
     <resource label="Alice clasping her arms round Fawn" restype=":ImageWonderlandCharacter" id="IW_060" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book17.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_060</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -755,7 +755,7 @@
     </resource>
     <resource label="Alice calling on Tweedledum and Tweeldee" restype=":ImageWonderlandCharacter" id="IW_061" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book18.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_061</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -767,7 +767,7 @@
     </resource>
     <resource label="Walrus and Carpenter walking" restype=":ImageWonderlandCharacter" id="IW_062" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book19.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_062</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -779,7 +779,7 @@
     </resource>
     <resource label="Walrus and Carpenter resting" restype=":ImageWonderlandCharacter" id="IW_063" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book20.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_063</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -791,7 +791,7 @@
     </resource>
     <resource label="Walrus and Carpenter eating" restype=":ImageWonderlandCharacter" id="IW_064" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book21.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_064</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -803,7 +803,7 @@
     </resource>
     <resource label="Red King snoring" restype=":ImageWonderlandCharacter" id="IW_065" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book22.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_065</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -815,7 +815,7 @@
     </resource>
     <resource label="Tweedledum crying in a fury" restype=":ImageWonderlandCharacter" id="IW_066" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book23.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_066</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -827,7 +827,7 @@
     </resource>
     <resource label="Tweedledum and Tweeldee" restype=":ImageWonderlandCharacter" id="IW_067" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book24.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_067</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -839,7 +839,7 @@
     </resource>
     <resource label="Alice a-dressing White Queen" restype=":ImageWonderlandCharacter" id="IW_068" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book25.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_068</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -851,7 +851,7 @@
     </resource>
     <resource label="Hatta sitting in prison" restype=":ImageWonderlandCharacter" id="IW_069" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book26.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_069</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -863,7 +863,7 @@
     </resource>
     <resource label="Alice leaning on counter in Sheep's shop" restype=":ImageWonderlandCharacter" id="IW_070" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book27.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_070</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -875,7 +875,7 @@
     </resource>
     <resource label="Alice rowing a boat" restype=":ImageWonderlandCharacter" id="IW_071" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book28.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_071</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -887,7 +887,7 @@
     </resource>
     <resource label="Humpty Dumpty offering Alice his hand" restype=":ImageWonderlandCharacter" id="IW_072" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book29.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_072</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -899,7 +899,7 @@
     </resource>
     <resource label="Jabberwocky creatures" restype=":ImageWonderlandCharacter" id="IW_073" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book30.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_073</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -911,7 +911,7 @@
     </resource>
     <resource label="Humpty Dumpty sending a message" restype=":ImageWonderlandCharacter" id="IW_074" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book31.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_074</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -923,7 +923,7 @@
     </resource>
     <resource label="White King soldiers and horses stumbling" restype=":ImageWonderlandCharacter" id="IW_075" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book32.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_075</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -935,7 +935,7 @@
     </resource>
     <resource label="Haigha handing a ham sandwich to the White King" restype=":ImageWonderlandCharacter" id="IW_076" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book33.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_076</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -947,7 +947,7 @@
     </resource>
     <resource label="Hatta drinking tea" restype=":ImageWonderlandCharacter" id="IW_077" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book34.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_077</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -959,7 +959,7 @@
     </resource>
     <resource label="Alice holding a plum cake" restype=":ImageWonderlandCharacter" id="IW_078" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book35.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_078</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -971,7 +971,7 @@
     </resource>
     <resource label="Alice putting her hands over her ears" restype=":ImageWonderlandCharacter" id="IW_079" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book36.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_079</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -983,7 +983,7 @@
     </resource>
     <resource label="Red Knight and White Knight fighting" restype=":ImageWonderlandCharacter" id="IW_080" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book37.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_080</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -995,7 +995,7 @@
     </resource>
     <resource label="White Knight falling off his horse" restype=":ImageWonderlandCharacter" id="IW_081" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book38.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_081</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1007,7 +1007,7 @@
     </resource>
     <resource label="Alice dragging White Knight out off a ditch" restype=":ImageWonderlandCharacter" id="IW_082" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book39.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_082</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1019,7 +1019,7 @@
     </resource>
     <resource label="White Knight shaking an aged man" restype=":ImageWonderlandCharacter" id="IW_083" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book40.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_083</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1031,7 +1031,7 @@
     </resource>
     <resource label="Alice lifting off a golden crown" restype=":ImageWonderlandCharacter" id="IW_084" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book41.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_084</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1043,7 +1043,7 @@
     </resource>
     <resource label="Red Queen and White Queen sitting with Alice" restype=":ImageWonderlandCharacter" id="IW_085" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book42.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_085</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1055,7 +1055,7 @@
     </resource>
     <resource label="Red Queen and White Queen sleeping on Alice" restype=":ImageWonderlandCharacter" id="IW_086" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book43.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_086</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1067,7 +1067,7 @@
     </resource>
     <resource label="Alice and Frog standing before a door" restype=":ImageWonderlandCharacter" id="IW_087" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book44.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_087</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1079,7 +1079,7 @@
     </resource>
     <resource label="Mutton making a little bow" restype=":ImageWonderlandCharacter" id="IW_088" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book45.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_088</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1091,7 +1091,7 @@
     </resource>
     <resource label="Alice pulling a table cloth" restype=":ImageWonderlandCharacter" id="IW_089" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book46.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_089</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1103,7 +1103,7 @@
     </resource>
     <resource label="Alice shaking Red Queen" restype=":ImageWonderlandCharacter" id="IW_090" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book47.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_090</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1115,7 +1115,7 @@
     </resource>
     <resource label="Alice shakinng Kitty" restype=":ImageWonderlandCharacter" id="IW_091" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book48.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_091</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1127,7 +1127,7 @@
     </resource>
     <resource label="Alice looking over her shoulder at White Kitten" restype=":ImageWonderlandCharacter" id="IW_092" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/2book49.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_092</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1139,7 +1139,7 @@
     </resource>
     <resource label="Alice" restype=":ImageWonderlandCharacter" id="IW_093" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Alice_003.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_093</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1151,7 +1151,7 @@
     </resource>
     <resource label="Alice" restype=":ImageWonderlandCharacter" id="IW_094" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Alice_004.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_094</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1163,7 +1163,7 @@
     </resource>
     <resource label="Caterpillar" restype=":ImageWonderlandCharacter" id="IW_095" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Caterpillar_002.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_095</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1175,7 +1175,7 @@
     </resource>
     <resource label="Cheshire Cat" restype=":ImageWonderlandCharacter" id="IW_096" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Cheshire_cat_002.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_096</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1187,7 +1187,7 @@
     </resource>
     <resource label="Mad Hatter" restype=":ImageWonderlandCharacter" id="IW_097" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Mad_hatter_002.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_097</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1199,7 +1199,7 @@
     </resource>
     <resource label="Queen of Hearts" restype=":ImageWonderlandCharacter" id="IW_098" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/Queen_hearts_002.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_098</text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1211,7 +1211,7 @@
     </resource>
     <resource label="White Rabbit" restype=":ImageWonderlandCharacter" id="IW_099" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image_Wonderland/White_rabbit_002.jpg</bitstream>
-        <text-prop name=":ID">
+        <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IW_099</text>
         </text-prop>
         <text-prop name=":hasCopyright">

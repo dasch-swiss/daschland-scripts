@@ -44,7 +44,8 @@ def main():
         if excel2xml.check_notna(row["File Name"]):
             resource.append(excel2xml.make_text_prop(":hasFileName", row["File Name"]))
         if excel2xml.check_notna(row["Part of Animal Character ID"]):
-            resource.append(excel2xml.make_resptr_prop(":isPartOfAnimalCharacterID", row["Part of Animal Character ID"]))
+            animal_id = [x.strip() for x in row["Part of Animal Character ID"].split(",")]
+            resource.append(excel2xml.make_resptr_prop(":isPartOfAnimalCharacterID", animal_id))
         if excel2xml.check_notna(row["Seqnum"]):
             resource.append(excel2xml.make_integer_prop(":hasSeqnum", row["Seqnum"]))
         # append the resource to the list

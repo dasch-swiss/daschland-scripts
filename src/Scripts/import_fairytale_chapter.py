@@ -43,7 +43,7 @@ def main():
         if excel2xml.check_notna(row["Name"]):
             resource.append(excel2xml.make_text_prop(":hasName", row["Name"]))
         if excel2xml.check_notna(row["Description"]):
-            resource.append(excel2xml.make_text_prop(":hasDescription", row["Description"]))
+            resource.append(excel2xml.make_text_prop(":hasDescription", excel2xml.PropertyElement(row["Description"], encoding="xml")))
 
         #append link Properties
         if excel2xml.check_notna(row["Part of Fairytale ID"]):
@@ -51,9 +51,11 @@ def main():
         if excel2xml.check_notna(row["Chapter Number"]):
             resource.append(excel2xml.make_integer_prop(":hasChapterNumber", row["Chapter Number"]))
         if excel2xml.check_notna(row["Link to Animal Character ID"]):
-            resource.append(excel2xml.make_resptr_prop(":linkToAnimalCharacterID", row["Link to Animal Character ID"]))
+            animal_id = [x.strip() for x in row["Link to Animal Character ID"].split(",")]
+            resource.append(excel2xml.make_resptr_prop(":linkToAnimalCharacterID", animal_id))
         if excel2xml.check_notna(row["Link to Alice Character ID"]):
-            resource.append(excel2xml.make_resptr_prop(":linkToAnimalCharacterID", row["Link to Alice Character ID"]))
+            alice_id = [x.strip() for x in row["Link to Alice Character ID"].split(",")]
+            resource.append(excel2xml.make_resptr_prop(":linkToAliceCharacterID", alice_id))
 
         # append the resource to the list
         all_resources.append(resource)

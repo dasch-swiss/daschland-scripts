@@ -30,7 +30,7 @@ def main():
         if excel2xml.check_notna(row["ID"]):
             resource.append(excel2xml.make_text_prop(":hasID", resource_id))
         if excel2xml.check_notna(row["Description"]):
-            resource.append(excel2xml.make_text_prop(":hasDescription", row["Description"]))
+            resource.append(excel2xml.make_text_prop(":hasDescription", excel2xml.PropertyElement(row["Description"], encoding="xml")))
         if excel2xml.check_notna(row["Short Name"]):
             resource.append(excel2xml.make_text_prop(":hasShortName", row["Short Name"]))
         if excel2xml.check_notna(row["Pet Color"]):
@@ -41,7 +41,7 @@ def main():
         if excel2xml.check_notna(row["Gender List"]):
             resource.append(excel2xml.make_list_prop("Gender", ":hasGenderList", row["Gender List"]))
         if excel2xml.check_notna(row["Weight"]):
-            resource.append(excel2xml.make_text_prop(":hasWeight", row["Weight"]))
+            resource.append(excel2xml.make_decimal_prop(":hasWeight", row["Weight"]))
         if excel2xml.check_notna(row["Birthday"]):
             birthday = excel2xml.find_date_in_string(row["Birthday"])
             resource.append(excel2xml.make_date_prop(":hasBirthday", birthday))

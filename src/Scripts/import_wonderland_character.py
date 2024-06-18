@@ -34,7 +34,7 @@ def main():
         if excel2xml.check_notna(row["Name"]):
             resource.append(excel2xml.make_text_prop(":hasName", row["Name"]))
         if excel2xml.check_notna(row["Description"]):
-            resource.append(excel2xml.make_text_prop(":hasDescription", row["Description"]))
+            resource.append(excel2xml.make_text_prop(":hasDescription", excel2xml.PropertyElement(row["Description"], encoding="xml")))
 
         # Append link Properties
         if excel2xml.check_notna(row["Link to Image ID"]):
