@@ -85,7 +85,7 @@
         </text-prop>
     </resource>
     <resource label="Christian" restype=":ImageHuman" id="IH_004" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Christian_ABrilliantPhoto_2022_19.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Christian_ABrilliantPhoto_2022_19.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_004</text>
         </text-prop>
@@ -103,7 +103,7 @@
         </text-prop>
     </resource>
     <resource label="Christina" restype=":ImageHuman" id="IH_005" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Christina_ABrilliantPhoto_2022_09.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Christina_ABrilliantPhoto_2022_09.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_005</text>
         </text-prop>
@@ -121,7 +121,7 @@
         </text-prop>
     </resource>
     <resource label="Daniela M" restype=":ImageHuman" id="IH_006" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/DanielaM_ABrilliantPhoto_2022_06.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/DanielaM_ABrilliantPhoto_2022_06.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_006</text>
         </text-prop>
@@ -139,7 +139,7 @@
         </text-prop>
     </resource>
     <resource label="Daniela S" restype=":ImageHuman" id="IH_007" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/DanielaS_ABrilliantPhoto_2022_13.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/DanielaS_ABrilliantPhoto_2022_13.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_007</text>
         </text-prop>
@@ -157,7 +157,7 @@
         </text-prop>
     </resource>
     <resource label="Dominique" restype=":ImageHuman" id="IH_008" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Dominique_ABrilliantPhoto_2022_06.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Dominique_ABrilliantPhoto_2022_06.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_008</text>
         </text-prop>
@@ -175,7 +175,7 @@
         </text-prop>
     </resource>
     <resource label="Flabie" restype=":ImageHuman" id="IH_009" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Flavie_ABrilliantPhoto_2022_06.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Flavie_ABrilliantPhoto_2022_06.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_009</text>
         </text-prop>
@@ -193,7 +193,7 @@
         </text-prop>
     </resource>
     <resource label="Irmantas" restype=":ImageHuman" id="IH_010" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Irmantas_ABrilliantPhoto_2024_09.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Irmantas_ABrilliantPhoto_2024_09.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_010</text>
         </text-prop>
@@ -211,7 +211,7 @@
         </text-prop>
     </resource>
     <resource label="Ivan" restype=":ImageHuman" id="IH_011" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Ivan_ABrilliantPhoto_2022_10.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Ivan_ABrilliantPhoto_2022_10.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_011</text>
         </text-prop>
@@ -229,7 +229,7 @@
         </text-prop>
     </resource>
     <resource label="Johannes" restype=":ImageHuman" id="IH_012" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Johannes_ABrilliantPhoto_2022_03.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Johannes_ABrilliantPhoto_2022_03.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_012</text>
         </text-prop>
@@ -247,7 +247,7 @@
         </text-prop>
     </resource>
     <resource label="Jose Luis" restype=":ImageHuman" id="IH_013" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Jose_ABrilliantPhoto_2024_04.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Jose_ABrilliantPhoto_2024_04.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_013</text>
         </text-prop>
@@ -265,7 +265,7 @@
         </text-prop>
     </resource>
     <resource label="Julien R" restype=":ImageHuman" id="IH_014" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Julien_ABrilliantPhoto_2022_05.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Julien_ABrilliantPhoto_2022_05.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_014</text>
         </text-prop>
@@ -283,7 +283,7 @@
         </text-prop>
     </resource>
     <resource label="Lukas" restype=":ImageHuman" id="IH_015" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Lukas_ABrilliantPhoto_2022_04.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Lukas_ABrilliantPhoto_2022_04.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_015</text>
         </text-prop>
@@ -301,7 +301,7 @@
         </text-prop>
     </resource>
     <resource label="Marcin" restype=":ImageHuman" id="IH_016" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Marcin_ABrilliantPhoto_2022_14-1.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Marcin_ABrilliantPhoto_2022_14-1.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_016</text>
         </text-prop>
@@ -316,7 +316,7 @@
         </text-prop>
     </resource>
     <resource label="Noemi " restype=":ImageHuman" id="IH_017" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Noemi_November2022_12_.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Noemi_November2022_12_.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_017</text>
         </text-prop>
@@ -334,7 +334,7 @@
         </text-prop>
     </resource>
     <resource label="Nora" restype=":ImageHuman" id="IH_018" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Nora_ABrilliantPhoto_Feb2024_05.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Nora_ABrilliantPhoto_Feb2024_05.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_018</text>
         </text-prop>
@@ -352,7 +352,7 @@
         </text-prop>
     </resource>
     <resource label="Raitis" restype=":ImageHuman" id="IH_019" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Raitis_ABrilliantPhoto_2024_09bw.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Raitis_ABrilliantPhoto_2024_09bw.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_019</text>
         </text-prop>
@@ -367,7 +367,7 @@
         </text-prop>
     </resource>
     <resource label="Rita" restype=":ImageHuman" id="IH_020" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Rita_ABrilliantPhoto_2022_14.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Rita_ABrilliantPhoto_2022_14.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_020</text>
         </text-prop>
@@ -385,7 +385,7 @@
         </text-prop>
     </resource>
     <resource label="Samuel" restype=":ImageHuman" id="IH_021" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Human/Samuel_ABrilliantPhoto_2022_07.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Samuel_ABrilliantPhoto_2022_07.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_021</text>
         </text-prop>

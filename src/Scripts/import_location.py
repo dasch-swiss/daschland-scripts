@@ -14,7 +14,7 @@ def main():
 
     # create mapping for lists
     location_label_to_names = excel2xml.create_json_list_mapping(
-        path_to_json=path_to_json, list_name="Wonderland Location", language_label="en"
+        path_to_json=path_to_json, list_name="Fairytale Location", language_label="en"
     )
     # create the root element dsp-tools
     root = helper.make_root()
@@ -41,7 +41,7 @@ def main():
             resource.append(excel2xml.make_geoname_prop(":hasGeoname", row["Geoname"]))
         if excel2xml.check_notna(row["Wonderland Location List"]):
             wonderland_location = location_label_to_names.get(row["Wonderland Location List"])
-            resource.append(excel2xml.make_list_prop("Wonderland Location", ":hasWonderlandLocationList", wonderland_location))
+            resource.append(excel2xml.make_list_prop("Fairytale Location", ":hasWonderlandLocationList", wonderland_location))
         if excel2xml.check_notna(row["Name"]):
             resource.append(excel2xml.make_text_prop(":hasFileName", row["Name"]))
 

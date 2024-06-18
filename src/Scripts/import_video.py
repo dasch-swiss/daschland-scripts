@@ -29,12 +29,12 @@ def main():
             id=resource_id)
 
         # create resource type "Image Human"
-        audio_path = f"{row['Directory']}{row['File Name']}"
-        resource.append(excel2xml.make_bitstream_prop(audio_path))
+        video_path = f"{row['Directory']}{row['File Name']}"
+        resource.append(excel2xml.make_bitstream_prop(video_path))
 
         if excel2xml.check_notna(row["ID"]):
             resource.append(excel2xml.make_text_prop(":hasID", resource_id))
-        timestamp_value = get_media_file_creation_time(audio_path)
+        timestamp_value = get_media_file_creation_time(video_path)
         if excel2xml.check_notna(timestamp_value):
             resource.append(excel2xml.make_time_prop(":hasTimeStamp", timestamp_value))
         if excel2xml.check_notna(row["Copyright"]):

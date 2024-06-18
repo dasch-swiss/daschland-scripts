@@ -34,7 +34,7 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="Ping baby" restype=":ImageAnimal" id="IA_0001" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_001.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Ping_001.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0001</text>
         </text-prop>
@@ -55,7 +55,7 @@
         </integer-prop>
     </resource>
     <resource label="Ping adult" restype=":ImageAnimal" id="IA_0002" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_002.jpg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Ping_002.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0002</text>
         </text-prop>
@@ -79,7 +79,7 @@
         </integer-prop>
     </resource>
     <resource label="Ping and Pong young" restype=":ImageAnimal" id="IA_0003" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_003 Pong_002.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Ping_003 Pong_002.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0003</text>
         </text-prop>
@@ -103,7 +103,7 @@
         </integer-prop>
     </resource>
     <resource label="Ping and Pong adult" restype=":ImageAnimal" id="IA_0004" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_004 Pong_005.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Ping_004 Pong_005.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0004</text>
         </text-prop>
@@ -127,7 +127,7 @@
         </integer-prop>
     </resource>
     <resource label="Ping baby 2" restype=":ImageAnimal" id="IA_0005" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ping_005.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Ping_005.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0005</text>
         </text-prop>
@@ -151,7 +151,7 @@
         </integer-prop>
     </resource>
     <resource label="Pong adult" restype=":ImageAnimal" id="IA_0006" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Pong_001.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Pong_001.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0006</text>
         </text-prop>
@@ -175,7 +175,7 @@
         </integer-prop>
     </resource>
     <resource label="Pong baby" restype=":ImageAnimal" id="IA_0007" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Pong_003.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Pong_003.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0007</text>
         </text-prop>
@@ -199,7 +199,7 @@
         </integer-prop>
     </resource>
     <resource label="Pong baby 2" restype=":ImageAnimal" id="IA_0008" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Pong_004.JPG</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Pong_004.JPG</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0008</text>
         </text-prop>
@@ -220,7 +220,7 @@
         </integer-prop>
     </resource>
     <resource label="Rita's duck" restype=":ImageAnimal" id="IA_0009" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Rita_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Rita_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0009</text>
         </text-prop>
@@ -244,7 +244,7 @@
         </integer-prop>
     </resource>
     <resource label="Ivan's duck" restype=":ImageAnimal" id="IA_0010" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Ivan_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Ivan_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0010</text>
         </text-prop>
@@ -268,7 +268,7 @@
         </integer-prop>
     </resource>
     <resource label="DanielaS's duck" restype=":ImageAnimal" id="IA_0011" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/DanielaS_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/DanielaS_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0011</text>
         </text-prop>
@@ -292,7 +292,7 @@
         </integer-prop>
     </resource>
     <resource label="Balduin's duck" restype=":ImageAnimal" id="IA_0012" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Balduin_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Balduin_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0012</text>
         </text-prop>
@@ -316,7 +316,7 @@
         </integer-prop>
     </resource>
     <resource label="Christian's duck" restype=":ImageAnimal" id="IA_0013" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Christian_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Christian_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0013</text>
         </text-prop>
@@ -340,7 +340,7 @@
         </integer-prop>
     </resource>
     <resource label="JulienS's duck" restype=":ImageAnimal" id="IA_0014" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/JulienS_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/JulienS_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0014</text>
         </text-prop>
@@ -364,7 +364,7 @@
         </integer-prop>
     </resource>
     <resource label="Johannes's duck" restype=":ImageAnimal" id="IA_0015" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Johannes_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Johannes_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0015</text>
         </text-prop>
@@ -388,7 +388,7 @@
         </integer-prop>
     </resource>
     <resource label="Florian's duck" restype=":ImageAnimal" id="IA_0016" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Florian_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Florian_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0016</text>
         </text-prop>
@@ -412,7 +412,7 @@
         </integer-prop>
     </resource>
     <resource label="Noémi's duck" restype=":ImageAnimal" id="IA_0017" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Noemi_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Noemi_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0017</text>
         </text-prop>
@@ -436,7 +436,7 @@
         </integer-prop>
     </resource>
     <resource label="Nora's duck" restype=":ImageAnimal" id="IA_0018" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Nora_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Nora_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0018</text>
         </text-prop>
@@ -460,7 +460,7 @@
         </integer-prop>
     </resource>
     <resource label="Gregor's duck" restype=":ImageAnimal" id="IA_0019" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/Gregor_duck.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/Gregor_duck.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0019</text>
         </text-prop>
@@ -484,7 +484,7 @@
         </integer-prop>
     </resource>
     <resource label="Ginny in RDU Team meeting" restype=":ImageAnimal" id="IA_0020" permissions="res-default">
-        <bitstream permissions="prop-default">~/Documents/daschland-scripts/data/Multimedia_Data/Image_Animal/RDU_Ginny.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/RDU_Ginny.jpeg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IA_0020</text>
         </text-prop>
