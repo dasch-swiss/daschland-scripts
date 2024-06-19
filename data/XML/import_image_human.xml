@@ -34,10 +34,13 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="Gregor" restype=":ImageHuman" id="IH_001" permissions="res-default">
-        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Bachmann-Gregor.jpeg</bitstream>
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Gregor_ABrilliantPhoto_2022_04.jpg</bitstream>
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">IH_001</text>
         </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-22T14:30:48-00:00</time>
+        </time-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
         </text-prop>
@@ -45,7 +48,7 @@
             <list permissions="prop-default">CC BY 4.0</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Bachmann-Gregor.jpeg</text>
+            <text permissions="prop-default" encoding="utf8">Gregor_ABrilliantPhoto_2022_04.jpg</text>
         </text-prop>
     </resource>
     <resource label="Balduin" restype=":ImageHuman" id="IH_002" permissions="res-default">

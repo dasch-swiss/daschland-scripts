@@ -39,7 +39,7 @@ def main():
         # Append link Properties
         if excel2xml.check_notna(row["Link to Image ID"]):
             linkToImageID = [x.strip() for x in row["Link to Image ID"].split(",")]
-            resource.append(excel2xml.make_resptr_prop(":linkToImageID", linkToImageID))
+            resource.append(excel2xml.make_resptr_prop(":linkToAliceImageID", linkToImageID))
 
         if excel2xml.check_notna(row["Link to Location ID"]):
             location_id = [x.strip() for x in row["Link to Location ID"].split(",")]

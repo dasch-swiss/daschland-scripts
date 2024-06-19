@@ -41,7 +41,7 @@
             <text permissions="prop-default" encoding="utf8">Atli</text>
         </text-prop>
         <list-prop list="Specie" name=":hasSpecieList">
-            <list permissions="prop-default">Dog</list>
+            <list permissions="prop-default">Swedish Vallhund</list>
         </list-prop>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Male</list>
@@ -58,16 +58,22 @@
             <resptr permissions="prop-default">VID_001</resptr>
             <resptr permissions="prop-default">VID_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Ramon" restype=":AnimalCharacter" id="A_002" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">A_002</text>
         </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Ramon, a medium-sized dog resembling a fox, hails from Romania and is a charming mix of dachshund and German shepherd. He loves to sleep and enjoys hiking adventures—just don't ask him to choose between a nap and a walk, it's his "ruffest" decision!</text>
+        </text-prop>
         <text-prop name=":hasShortName">
             <text permissions="prop-default" encoding="utf8">Ramon</text>
         </text-prop>
         <list-prop list="Specie" name=":hasSpecieList">
-            <list permissions="prop-default">Dog</list>
+            <list permissions="prop-default">Mixed-breed dog</list>
         </list-prop>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Male</list>
@@ -78,32 +84,57 @@
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_016</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_019</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Ginny" restype=":AnimalCharacter" id="A_003" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">A_003</text>
         </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Cute little Yorkshire Terrier-Maltese Mix, prefers to be cuddled all day. Every person in her line of sight is responsible to pay their dues in daily pets. She prefers human companionships as other dogs are not able to pet her.
+Apart from this she enjoys naps, the outdoors (but only in small doses) and chasing snow balls.</text>
+        </text-prop>
         <text-prop name=":hasShortName">
             <text permissions="prop-default" encoding="utf8">Ginny</text>
         </text-prop>
+        <color-prop name=":hasPetColor">
+            <color permissions="prop-default">#ffffff</color>
+            <color permissions="prop-default">#000000</color>
+            <color permissions="prop-default">#808080</color>
+            <color permissions="prop-default">#F5F5DC</color>
+        </color-prop>
         <list-prop list="Specie" name=":hasSpecieList">
-            <list permissions="prop-default">Dog</list>
+            <list permissions="prop-default">Yorkshire Terrier-Maltese Mix</list>
         </list-prop>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Female</list>
         </list-prop>
-        <integer-prop name=":isNeutered">
-            <integer permissions="prop-default">1</integer>
-        </integer-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">3.3</decimal>
+        </decimal-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="prop-default">GREGORIAN:CE:2015-04-30:CE:2015-04-30</date>
+        </date-prop>
+        <boolean-prop name=":isNeutered">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToAnimalFriendID">
             <resptr permissions="prop-default">A_001</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_017</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_009</resptr>
+        </resptr-prop>
         <resptr-prop name=":linkToVideoID">
             <resptr permissions="prop-default">VID_001</resptr>
             <resptr permissions="prop-default">VID_002</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_018</resptr>
         </resptr-prop>
     </resource>
     <resource label="Kenzi" restype=":AnimalCharacter" id="A_004" permissions="res-default">
@@ -111,32 +142,35 @@
             <text permissions="prop-default" encoding="utf8">A_004</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">This older female Miniature Pinscher, with her striking three-colored coat, enjoys the comfort of being in the same room as you, often indulging in long, peaceful naps. Despite her age, she remains alert and curious, especially outdoors where she loves to watch her surroundings and keenly hunts for mice</text>
+            <text permissions="prop-default" encoding="xml">This older female Miniature Pinscher, with her striking three-colored coat, enjoys the comfort of being in the same room as you, often indulging in long, peaceful naps. Despite her age, she remains alert and curious, especially outdoors where she loves to watch her surroundings and keenly hunts for mice.</text>
         </text-prop>
         <text-prop name=":hasShortName">
             <text permissions="prop-default" encoding="utf8">Kenzi</text>
         </text-prop>
         <list-prop list="Specie" name=":hasSpecieList">
-            <list permissions="prop-default">Dog</list>
+            <list permissions="prop-default">Miniature Pinscher</list>
         </list-prop>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Female</list>
         </list-prop>
         <decimal-prop name=":hasWeight">
-            <decimal permissions="prop-default">5.5</decimal>
+            <decimal permissions="prop-default">4.7</decimal>
         </decimal-prop>
         <date-prop name=":hasBirthday">
             <date permissions="prop-default">GREGORIAN:CE:2012-03-09:CE:2012-03-09</date>
         </date-prop>
-        <integer-prop name=":isNeutered">
-            <integer permissions="prop-default">1</integer>
-        </integer-prop>
+        <boolean-prop name=":isNeutered">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToAnimalFriendID">
             <resptr permissions="prop-default">A_005</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_002</resptr>
             <resptr permissions="prop-default">H_012</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_016</resptr>
         </resptr-prop>
     </resource>
     <resource label="Loki" restype=":AnimalCharacter" id="A_005" permissions="res-default">
@@ -150,7 +184,7 @@
             <text permissions="prop-default" encoding="utf8">Loki</text>
         </text-prop>
         <list-prop list="Specie" name=":hasSpecieList">
-            <list permissions="prop-default">Dog</list>
+            <list permissions="prop-default">Italian Greyhound</list>
         </list-prop>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Male</list>
@@ -161,16 +195,19 @@
         <date-prop name=":hasBirthday">
             <date permissions="prop-default">GREGORIAN:CE:2021-07-15:CE:2021-07-15</date>
         </date-prop>
-        <integer-prop name=":isNeutered">
-            <integer permissions="prop-default">1</integer>
-        </integer-prop>
+        <boolean-prop name=":isNeutered">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToAnimalFriendID">
             <resptr permissions="prop-default">A_004</resptr>
-            <resptr permissions="prop-default">A_004</resptr>
+            <resptr permissions="prop-default">A_001</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_002</resptr>
             <resptr permissions="prop-default">H_012</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_017</resptr>
         </resptr-prop>
     </resource>
     <resource label="Ping" restype=":AnimalCharacter" id="A_006" permissions="res-default">
@@ -191,7 +228,7 @@ Sister to Pong.</text>
             <color permissions="prop-default">#000000</color>
         </color-prop>
         <list-prop list="Specie" name=":hasSpecieList">
-            <list permissions="prop-default">Cat</list>
+            <list permissions="prop-default">Mixed-breed</list>
         </list-prop>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Female</list>
@@ -202,9 +239,9 @@ Sister to Pong.</text>
         <date-prop name=":hasBirthday">
             <date permissions="prop-default">GREGORIAN:CE:2018:CE:2018</date>
         </date-prop>
-        <integer-prop name=":isNeutered">
-            <integer permissions="prop-default">1</integer>
-        </integer-prop>
+        <boolean-prop name=":isNeutered">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToAnimalFriendID">
             <resptr permissions="prop-default">A_007</resptr>
         </resptr-prop>
@@ -213,6 +250,9 @@ Sister to Pong.</text>
         </resptr-prop>
         <resptr-prop name=":linkToAudioID">
             <resptr permissions="prop-default">AUD_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_002</resptr>
         </resptr-prop>
     </resource>
     <resource label="Pong" restype=":AnimalCharacter" id="A_007" permissions="res-default">
@@ -232,7 +272,7 @@ Sister to Ping.</text>
             <color permissions="prop-default">#ffffff</color>
         </color-prop>
         <list-prop list="Specie" name=":hasSpecieList">
-            <list permissions="prop-default">Cat</list>
+            <list permissions="prop-default">European Shorthair</list>
         </list-prop>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Female</list>
@@ -243,28 +283,40 @@ Sister to Ping.</text>
         <date-prop name=":hasBirthday">
             <date permissions="prop-default">GREGORIAN:CE:2018:CE:2018</date>
         </date-prop>
-        <integer-prop name=":isNeutered">
-            <integer permissions="prop-default">1</integer>
-        </integer-prop>
+        <boolean-prop name=":isNeutered">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToAnimalFriendID">
             <resptr permissions="prop-default">A_006</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_007</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_003</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Anubis" restype=":AnimalCharacter" id="A_008" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">A_008</text>
         </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">This male Bengal cat is called Anubis. He is very curious, but shy.</text>
+        </text-prop>
         <text-prop name=":hasShortName">
             <text permissions="prop-default" encoding="utf8">Anubis</text>
         </text-prop>
         <list-prop list="Specie" name=":hasSpecieList">
-            <list permissions="prop-default">Cat</list>
+            <list permissions="prop-default">Bengal Cat</list>
+        </list-prop>
+        <list-prop list="Gender" name=":hasGenderList">
+            <list permissions="prop-default">Male</list>
         </list-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_015</resptr>
         </resptr-prop>
     </resource>
     <resource label="Nicky de Saint-Duck" restype=":AnimalCharacter" id="A_009" permissions="res-default">
@@ -299,6 +351,9 @@ Their code is not the most conventionnal, but why should it?</text>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_007</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_014</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Rita's duck" restype=":AnimalCharacter" id="A_010" permissions="res-default">
         <text-prop name=":hasID">
@@ -316,8 +371,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_013</resptr>
         </resptr-prop>
     </resource>
     <resource label="Ivan's duck" restype=":AnimalCharacter" id="A_011" permissions="res-default">
@@ -341,8 +402,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_002</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_012</resptr>
         </resptr-prop>
     </resource>
     <resource label="DanielaS's duck" restype=":AnimalCharacter" id="A_012" permissions="res-default">
@@ -365,8 +432,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_012</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_011</resptr>
         </resptr-prop>
     </resource>
     <resource label="Balduin's duck" restype=":AnimalCharacter" id="A_013" permissions="res-default">
@@ -387,8 +460,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_013</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_010</resptr>
         </resptr-prop>
     </resource>
     <resource label="Christian's duck" restype=":AnimalCharacter" id="A_014" permissions="res-default">
@@ -409,8 +488,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_016</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_009</resptr>
         </resptr-prop>
     </resource>
     <resource label="JulienS's duck" restype=":AnimalCharacter" id="A_015" permissions="res-default">
@@ -435,8 +520,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_021</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_008</resptr>
         </resptr-prop>
     </resource>
     <resource label="Johannes's duck" restype=":AnimalCharacter" id="A_016" permissions="res-default">
@@ -461,8 +552,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_009</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_007</resptr>
         </resptr-prop>
     </resource>
     <resource label="Florian's duck" restype=":AnimalCharacter" id="A_017" permissions="res-default">
@@ -483,8 +580,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_008</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_006</resptr>
         </resptr-prop>
     </resource>
     <resource label="Nora's duck" restype=":AnimalCharacter" id="A_018" permissions="res-default">
@@ -508,8 +611,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_017</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_005</resptr>
         </resptr-prop>
     </resource>
     <resource label="Gregor's duck" restype=":AnimalCharacter" id="A_019" permissions="res-default">
@@ -532,8 +641,14 @@ Their code is not the most conventionnal, but why should it?</text>
         <list-prop list="Gender" name=":hasGenderList">
             <list permissions="prop-default">Non-binary</list>
         </list-prop>
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-default">0.05</decimal>
+        </decimal-prop>
         <resptr-prop name=":linkToButlerID">
             <resptr permissions="prop-default">H_019</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToFlyerID">
+            <resptr permissions="prop-default">FL_004</resptr>
         </resptr-prop>
     </resource>
 </knora>

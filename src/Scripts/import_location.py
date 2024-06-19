@@ -43,7 +43,7 @@ def main():
             wonderland_location = location_label_to_names.get(row["Wonderland Location List"])
             resource.append(excel2xml.make_list_prop("Fairytale Location", ":hasWonderlandLocationList", wonderland_location))
         if excel2xml.check_notna(row["Name"]):
-            resource.append(excel2xml.make_text_prop(":hasFileName", row["Name"]))
+            resource.append(excel2xml.make_text_prop(":hasName", row["Name"]))
 
         # append the resource to the list
         all_resources.append(resource)

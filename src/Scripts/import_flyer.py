@@ -23,7 +23,7 @@ def main():
         # create the `<resource>` tag
         resource = excel2xml.make_resource(
             label=resource_label,
-            restype=":Originals",
+            restype=":Flyer",
             id=resource_id)
 
         # create resource type "Image Human"

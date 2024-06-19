@@ -44,9 +44,10 @@ def main():
             resource.append(excel2xml.make_decimal_prop(":hasWeight", row["Weight"]))
         if excel2xml.check_notna(row["Birthday"]):
             birthday = excel2xml.find_date_in_string(row["Birthday"])
-            resource.append(excel2xml.make_date_prop(":hasBirthday", birthday))
+            if birthday:
+                resource.append(excel2xml.make_date_prop(":hasBirthday", birthday))
         if excel2xml.check_notna(row["Neutered"]):
-            resource.append(excel2xml.make_integer_prop(":isNeutered", row["Neutered"]))
+            resource.append(excel2xml.make_boolean_prop(":isNeutered", row["Neutered"]))
 
         # Append link Properties
         if excel2xml.check_notna(row["Link to Animal Friend ID"]):

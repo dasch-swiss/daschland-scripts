@@ -59,7 +59,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Repository Services</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_018</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -89,7 +89,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Repository Services</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_001</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -118,7 +118,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_021</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -151,7 +151,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Repository Services</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_020</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -180,7 +180,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">DARIAH-CH</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_005</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -209,7 +209,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_010</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -241,7 +241,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_004</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -273,7 +273,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_002</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -303,7 +303,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Repository Services</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_009</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -332,7 +332,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Repository Services</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_013</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -361,7 +361,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Office Management</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_006</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -391,7 +391,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Repository Services</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_012</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -420,7 +420,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_016</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -449,7 +449,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Repository Services</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_014</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -481,7 +481,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_003</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -510,7 +510,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_008</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -539,7 +539,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_015</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -572,7 +572,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_011</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -605,7 +605,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Repository Services</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_007</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -631,7 +631,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Engineering</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_019</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">
@@ -666,7 +666,7 @@
         <list-prop list="Departement" name=":hasDepartementList">
             <list permissions="prop-default">Repository Services</list>
         </list-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToImageCharacterID">
             <resptr permissions="prop-default">IH_017</resptr>
         </resptr-prop>
         <date-prop name=":hasBirthday">

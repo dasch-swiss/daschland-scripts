@@ -40,7 +40,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">Alice's Garden</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Location 1</text>
         </text-prop>
     </resource>
@@ -51,7 +51,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">Rabbit Hole</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Location 2</text>
         </text-prop>
     </resource>
@@ -62,7 +62,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">Duchess' house</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Location 3</text>
         </text-prop>
     </resource>
@@ -73,7 +73,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">White Rabbit's house</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Location 4</text>
         </text-prop>
     </resource>
@@ -84,7 +84,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">Seacoast</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Location 5</text>
         </text-prop>
     </resource>
@@ -95,7 +95,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">Palace of Hearts</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Location 6</text>
         </text-prop>
     </resource>
@@ -106,7 +106,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">Garden</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Location 7</text>
         </text-prop>
     </resource>
@@ -117,7 +117,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">Mad Hatters's Tea Room</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Location 8</text>
         </text-prop>
     </resource>
@@ -128,7 +128,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">Pool of Tears</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Location 9</text>
         </text-prop>
     </resource>
@@ -142,7 +142,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">Oxford</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Oxford</text>
         </text-prop>
     </resource>
@@ -156,7 +156,7 @@
         <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
             <list permissions="prop-default">England</list>
         </list-prop>
-        <text-prop name=":hasFileName">
+        <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">England</text>
         </text-prop>
     </resource>

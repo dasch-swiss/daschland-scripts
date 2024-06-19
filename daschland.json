@@ -1,7 +1,8 @@
 {
    "prefixes": {
        "foaf": "http://xmlns.com/foaf/0.1/",
-       "dcterms": "http://purl.org/dc/terms/"
+       "dcterms": "http://purl.org/dc/terms/",
+       "schema" : "https://schema.org/"
    },
    "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
    "project": {
@@ -1295,14 +1296,14 @@
                         }
                     },
                     {
-                        "name": "linkToImageID",
-                        "object": ":ImageAnimal",
+                        "name": "linkToImageCharacterID",
+                        "object": ":ImageHuman",
                         "gui_element": "Searchbox",
                         "labels": {
-                            "en": "Link to Image",
-                            "de": "Link zum Bild",
-                            "fr": "Lien vers l'image",
-                            "it": "Collegamento all'immagine"
+                            "en": "Link to Image Character",
+                            "de": "Link zum Bild Charakter",
+                            "fr": "Lien vers l'image du personnage",
+                            "it": "Collegamento all'immagine dal personaggio"
                         },
                         "super": [
                             "hasLinkTo"
@@ -1352,6 +1353,26 @@
                             "de": "Link zum Video",
                             "fr": "Lien vers la vidéo",
                             "it": "Collegamento al video"
+                        }
+                    },
+                    {
+                        "name": "linkToAliceImageID",
+                        "object": ":ImageWonderlandCharacter",
+                        "gui_element": "Searchbox",
+                        "labels": {
+                            "en": "Link to Image Alice",
+                            "de": "Link zum Bild Alice",
+                            "fr": "Lien vers l'image d'Alice",
+                            "it": "Collegamento all'immagine di Alice"
+                        },
+                        "super": [
+                            "hasLinkTo"
+                        ],
+                        "comments": {
+                            "en": "Link to Image",
+                            "de": "Link zum Bild",
+                            "fr": "Lien vers l'image",
+                            "it": "Collegamento all'immagine"
                         }
                     }
                 ],
@@ -1452,7 +1473,7 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":linkToImageID",
+                                "propname": ":linkToImageCharacterID",
                                 "cardinality": "0-n",
                                 "gui_order": 2
                             },
@@ -1615,7 +1636,7 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":linkToImageID",
+                                "propname": ":linkToAliceImageID",
                                 "cardinality": "0-n",
                                 "gui_order": 4
                             },

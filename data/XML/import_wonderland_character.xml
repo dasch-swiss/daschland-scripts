@@ -49,7 +49,7 @@ In Through the Looking-Glass, she is 6 months older and more sure of her identit
 
 The illustrations of Alice by John Tenniel are not based on Alice Liddell. Carroll sent Tenniel a photograph of Mary Hilton Badcock, another child-friend, who was the daughter of the Dean of Ripon. He recommended her as a model, but whether Tenniel accepted this advice remains a matter of dispute</text>
         </text-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToAliceImageID">
             <resptr permissions="prop-default">IW_003</resptr>
             <resptr permissions="prop-default">IW_004</resptr>
             <resptr permissions="prop-default">IW_005</resptr>
@@ -76,7 +76,7 @@ Overall, the White Rabbit seems to shift back and forth between pompous behaviou
 
 The White Rabbit's perennial unpunctuality is a nod to Oxford time, the tradition at Oxford (and especially Christ Church, where Carroll taught) of having events begin five minutes past the scheduled hour.[2] </text>
         </text-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToAliceImageID">
             <resptr permissions="prop-default">IW_002</resptr>
             <resptr permissions="prop-default">IW_006</resptr>
         </resptr-prop>
@@ -167,7 +167,7 @@ Carroll wrote the following about the Queen of Hearts:
 
     “I pictured to myself the Queen of Hearts as a sort of embodiment of ungovernable passion – a blind and aimless Fury.”</text>
         </text-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToAliceImageID">
             <resptr permissions="prop-default">IW_001</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToLocationID">
@@ -319,7 +319,7 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">When compared to the Queen of Hearts, the King of Hearts appears to be the moderate part of the Wonderland government. As an example, when the Queen, who enjoys ordering beheadings, attempts to have Alice executed (charged with being unable to answer who is lying down in front of her), the King of Hearts reminds her that she is only a child.[1]</text>
         </text-prop>
-        <resptr-prop name=":linkToImageID">
+        <resptr-prop name=":linkToAliceImageID">
             <resptr permissions="prop-default">IW_001</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToLocationID">

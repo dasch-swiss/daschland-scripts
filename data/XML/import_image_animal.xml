@@ -509,4 +509,223 @@
             <integer permissions="prop-default">6</integer>
         </integer-prop>
     </resource>
+    <resource label="Ginny playing in the snow" restype=":ImageAnimal" id="IA_0021" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/IMG_5877.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0021</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2021-02-08T08:16:32-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Nora Ammann</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">IMG_5877.jpg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">18</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Ginny sleeping" restype=":ImageAnimal" id="IA_0022" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/IMG_7498.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0022</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-09-21T21:22:22-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Nora Ammann</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">IMG_7498.jpg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">19</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Kenzi and Loki sleeping in the office" restype=":ImageAnimal" id="IA_0023" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/IMG_0332.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0023</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-05-25T14:27:48-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">IMG_0332.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_004</resptr>
+            <resptr permissions="prop-default">A_005</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">20</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Kenzi and Loki sleeping in the office part II" restype=":ImageAnimal" id="IA_0024" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/IMG_0837.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0024</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-08-29T17:30:31-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">IMG_0837.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_004</resptr>
+            <resptr permissions="prop-default">A_005</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">21</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Kenzi and Loki sleeping in the office part III" restype=":ImageAnimal" id="IA_0025" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/IMG_1226.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0025</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-11-28T17:48:09-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">IMG_1226.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_004</resptr>
+            <resptr permissions="prop-default">A_005</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">22</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Atli sleeping during a meeting" restype=":ImageAnimal" id="IA_0026" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/IMG_1659.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0026</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2023-03-07T12:08:31-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">IMG_1659.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">23</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Atli sleeping during a meeting part II" restype=":ImageAnimal" id="IA_0027" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/IMG_1853.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0027</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2023-04-25T12:24:29-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">IMG_1853.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">24</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Loki sleeping in the office" restype=":ImageAnimal" id="IA_0028" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/IMG_2164.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0028</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2023-07-18T14:18:21-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">IMG_2164.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_005</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">25</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Kenzi sleeping in the office" restype=":ImageAnimal" id="IA_0029" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Animal/IMG_2163.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IA_0029</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2023-07-18T14:18:13-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">Daniela Subotic</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">IMG_2163.jpeg</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfAnimalCharacterID">
+            <resptr permissions="prop-default">A_004</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer permissions="prop-default">26</integer>
+        </integer-prop>
+    </resource>
 </knora>
