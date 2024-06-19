@@ -1,22 +1,18 @@
 {
-   "prefixes": {
-       "foaf": "http://xmlns.com/foaf/0.1/",
-       "dcterms": "http://purl.org/dc/terms/",
-       "schema" : "https://schema.org/"
-   },
-   "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
-   "project": {
-       "shortcode": "0011",
-       "shortname": "daschland",
-       "longname": "Alice in DaSCHland",
-       "descriptions": {
-           "en": "Alice in DaSCHland. Testdata"
-       },
-       "keywords": [
-           "Alice",
-           "pet-friendly",
-           "DaSCH"
-       ],
+    "prefixes": {
+        "": ""
+    },
+    "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
+    "project": {
+        "shortcode": "",
+        "shortname": "",
+        "longname": "",
+        "descriptions": {
+            "en": ""
+        },
+        "keywords": [
+            ""
+        ],
         "lists": [
             {
                 "name": "Departement",
@@ -32,29 +28,29 @@
                     {
                         "name": "Engineering",
                         "labels": {
-                            "fr": "Développement informatique",
-                            "en": "Engineering"
+                            "en": "Engineering",
+                            "fr": "Développement informatique"
                         }
                     },
                     {
                         "name": "Repository Services",
                         "labels": {
-                            "fr": "Services d'archivage",
-                            "en": "Repository Services"
+                            "en": "Repository Services",
+                            "fr": "Services d'archivage"
                         }
                     },
                     {
                         "name": "DARIAH-CH",
                         "labels": {
-                            "fr": "DARIAH-CH",
-                            "en": "DARIAH-CH"
+                            "en": "DARIAH-CH",
+                            "fr": "DARIAH-CH"
                         }
                     },
                     {
                         "name": "Office Management",
                         "labels": {
-                            "fr": "Administration",
-                            "en": "Office Management"
+                            "en": "Office Management",
+                            "fr": "Administration"
                         }
                     }
                 ]
@@ -73,57 +69,57 @@
                     {
                         "name": "edu_1",
                         "labels": {
-                            "fr": "B.A.",
-                            "en": "B.A."
+                            "en": "B.A.",
+                            "fr": "B.A."
                         }
                     },
                     {
                         "name": "edu_2",
                         "labels": {
-                            "fr": "B.Sc.",
-                            "en": "B.Sc."
+                            "en": "B.Sc.",
+                            "fr": "B.Sc."
                         }
                     },
                     {
                         "name": "edu_3",
                         "labels": {
-                            "fr": "M.A.",
-                            "en": "M.A."
+                            "en": "M.A.",
+                            "fr": "M.A."
                         }
                     },
                     {
                         "name": "edu_4",
                         "labels": {
-                            "fr": "M.Sc.",
-                            "en": "M.Sc."
+                            "en": "M.Sc.",
+                            "fr": "M.Sc."
                         }
                     },
                     {
                         "name": "edu_5",
                         "labels": {
-                            "fr": "Dr.",
-                            "en": "Dr."
+                            "en": "Dr.",
+                            "fr": "Dr."
                         }
                     },
                     {
                         "name": "edu_6",
                         "labels": {
-                            "fr": "PD Dr.",
-                            "en": "PD"
+                            "en": "PD",
+                            "fr": "PD Dr."
                         }
                     },
                     {
                         "name": "edu_7",
                         "labels": {
-                            "fr": "Dipl.-Ind.-Eng.",
-                            "en": "Dipl.-Ind.-Eng."
+                            "en": "Dipl.-Ind.-Eng.",
+                            "fr": "Dipl.-Ind.-Eng."
                         }
                     },
                     {
                         "name": "edu_8",
                         "labels": {
-                            "fr": "B.BI",
-                            "en": "B.BI"
+                            "en": "B.BI",
+                            "fr": "B.BI"
                         }
                     }
                 ]
@@ -142,22 +138,22 @@
                     {
                         "name": "Female",
                         "labels": {
-                            "fr": "Féminin",
-                            "en": "Female"
+                            "en": "Female",
+                            "fr": "Féminin"
                         }
                     },
                     {
                         "name": "Male",
                         "labels": {
-                            "fr": "Masculin",
-                            "en": "Male"
+                            "en": "Male",
+                            "fr": "Masculin"
                         }
                     },
                     {
                         "name": "Non-binary",
                         "labels": {
-                            "fr": "Non-binaire",
-                            "en": "Non-binary"
+                            "en": "Non-binary",
+                            "fr": "Non-binaire"
                         }
                     }
                 ]
@@ -176,43 +172,43 @@
                     {
                         "name": "CC BY 4.0",
                         "labels": {
-                            "fr": "CC BY 4.0",
-                            "en": "CC BY 4.0"
+                            "en": "CC BY 4.0",
+                            "fr": "CC BY 4.0"
                         }
                     },
                     {
                         "name": "CC BY-SA 4.0",
                         "labels": {
-                            "fr": "CC BY-SA 4.0",
-                            "en": "CC BY-SA 4.0"
+                            "en": "CC BY-SA 4.0",
+                            "fr": "CC BY-SA 4.0"
                         }
                     },
                     {
                         "name": "CC BY-NC 4.0",
                         "labels": {
-                            "fr": "CC BY-NC 4.0",
-                            "en": "CC BY-NC 4.0"
+                            "en": "CC BY-NC 4.0",
+                            "fr": "CC BY-NC 4.0"
                         }
                     },
                     {
                         "name": "CC BY-NC-SA 4.0",
                         "labels": {
-                            "fr": "CC BY-NC-SA 4.0",
-                            "en": "CC BY-NC-SA 4.0"
+                            "en": "CC BY-NC-SA 4.0",
+                            "fr": "CC BY-NC-SA 4.0"
                         }
                     },
                     {
                         "name": "CC BY-ND 4.0",
                         "labels": {
-                            "fr": "CC BY-ND 4.0",
-                            "en": "CC BY-ND 4.0"
+                            "en": "CC BY-ND 4.0",
+                            "fr": "CC BY-ND 4.0"
                         }
                     },
                     {
                         "name": "CC BY-NC-ND 4.0",
                         "labels": {
-                            "fr": "CC BY-NC-ND 4.0",
-                            "en": "CC BY-NC-ND 4.0"
+                            "en": "CC BY-NC-ND 4.0",
+                            "fr": "CC BY-NC-ND 4.0"
                         }
                     }
                 ]
@@ -231,99 +227,99 @@
                     {
                         "name": "Director",
                         "labels": {
-                            "fr": "Directeur.trice",
-                            "en": "Director"
+                            "en": "Director",
+                            "fr": "Directeur.trice"
                         }
                     },
                     {
                         "name": "Deputy Director",
                         "labels": {
-                            "fr": "Directeur.trice adjoint.e",
-                            "en": "Deputy Director"
+                            "en": "Deputy Director",
+                            "fr": "Directeur.trice adjoint.e"
                         }
                     },
                     {
                         "name": "Head of Repository Services",
                         "labels": {
-                            "fr": "Direction des services d'archivage",
-                            "en": "Head of Repository Services"
+                            "en": "Head of Repository Services",
+                            "fr": "Direction des services d'archivage"
                         }
                     },
                     {
                         "name": "Head of Engineering",
                         "labels": {
-                            "fr": "Direction du développement informatique",
-                            "en": "Head of Engineering"
+                            "en": "Head of Engineering",
+                            "fr": "Direction du développement informatique"
                         }
                     },
                     {
                         "name": "Operations Manager",
                         "labels": {
-                            "fr": "Responsable des opérations",
-                            "en": "Operations Manager"
+                            "en": "Operations Manager",
+                            "fr": "Responsable des opérations"
                         }
                     },
                     {
                         "name": "National Coordination Officer",
                         "labels": {
-                            "fr": "Chargé.e de la coordination nationale",
-                            "en": "National Coordination Officer"
+                            "en": "National Coordination Officer",
+                            "fr": "Chargé.e de la coordination nationale"
                         }
                     },
                     {
                         "name": "Interoperability Specialist",
                         "labels": {
-                            "fr": "Spécialiste de l'interopérabilité",
-                            "en": "Interoperability Specialist"
+                            "en": "Interoperability Specialist",
+                            "fr": "Spécialiste de l'interopérabilité"
                         }
                     },
                     {
                         "name": "Software Engineer",
                         "labels": {
-                            "fr": "Ingénieur.e logiciel",
-                            "en": "Software Engineer"
+                            "en": "Software Engineer",
+                            "fr": "Ingénieur.e logiciel"
                         }
                     },
                     {
                         "name": "Senior Software Engineer",
                         "labels": {
-                            "fr": "Ingénieur.e logiciel senior",
-                            "en": "Senior Software Engineer"
+                            "en": "Senior Software Engineer",
+                            "fr": "Ingénieur.e logiciel senior"
                         }
                     },
                     {
                         "name": "Infrastructure Engineer",
                         "labels": {
-                            "fr": "Ingénieur.e infrastructure",
-                            "en": "Infrastructure Engineer"
+                            "en": "Infrastructure Engineer",
+                            "fr": "Ingénieur.e infrastructure"
                         }
                     },
                     {
                         "name": "Research Data Specialist",
                         "labels": {
-                            "fr": "Spécialiste en données de recherche",
-                            "en": "Research Data Specialist"
+                            "en": "Research Data Specialist",
+                            "fr": "Spécialiste en données de recherche"
                         }
                     },
                     {
                         "name": "Senior Research Data Specialist",
                         "labels": {
-                            "fr": "Spécialiste senior en données de recherche",
-                            "en": "Senior Research Data Specialist"
+                            "en": "Senior Research Data Specialist",
+                            "fr": "Spécialiste senior en données de recherche"
                         }
                     },
                     {
                         "name": "Scientific Programmer",
                         "labels": {
-                            "fr": "Programmeur scientifique",
-                            "en": "Scientific Programmer"
+                            "en": "Scientific Programmer",
+                            "fr": "Programmeur scientifique"
                         }
                     },
                     {
                         "name": "Product Manager",
                         "labels": {
-                            "fr": "Responsable de produit",
-                            "en": "Product Manager"
+                            "en": "Product Manager",
+                            "fr": "Responsable de produit"
                         }
                     }
                 ]
@@ -342,22 +338,22 @@
                     {
                         "name": "Cat",
                         "labels": {
-                            "fr": "Chat",
-                            "en": "Cat"
+                            "en": "Cat",
+                            "fr": "Chat"
                         },
                         "nodes": [
                             {
                                 "name": "European Shorthair",
                                 "labels": {
-                                    "fr": "Chat européen",
-                                    "en": "European Shorthair"
+                                    "en": "European Shorthair",
+                                    "fr": "Chat européen"
                                 }
                             },
                             {
                                 "name": "Mixed-breed",
                                 "labels": {
-                                    "fr": "chat de gouttière",
-                                    "en": "Mixed-breed"
+                                    "en": "Mixed-breed",
+                                    "fr": "chat de gouttière"
                                 }
                             }
                         ]
@@ -365,43 +361,50 @@
                     {
                         "name": "Dog",
                         "labels": {
-                            "fr": "Chien",
-                            "en": "Dog"
+                            "en": "Dog",
+                            "fr": "Chien"
                         },
                         "nodes": [
                             {
                                 "name": "Galgo Español",
                                 "labels": {
-                                    "fr": "Lévrier espagnol",
-                                    "en": "Galgo Español"
+                                    "en": "Galgo Español",
+                                    "fr": "Lévrier espagnol"
                                 }
                             },
                             {
                                 "name": "Miniature Pinscher",
                                 "labels": {
-                                    "fr": "Pinscher nain",
-                                    "en": "Miniature Pinscher"
+                                    "en": "Miniature Pinscher",
+                                    "fr": "Pinscher nain"
                                 }
                             },
                             {
                                 "name": "Italian Greyhound",
                                 "labels": {
-                                    "fr": "Petit lévrier italien",
-                                    "en": "Italian Greyhound"
+                                    "en": "Italian Greyhound",
+                                    "fr": "Petit lévrier italien"
                                 }
                             },
                             {
                                 "name": "Swedish Vallhund",
                                 "labels": {
-                                    "fr": "Vallhund suédois",
-                                    "en": "Swedish Vallhund"
+                                    "en": "Swedish Vallhund",
+                                    "fr": "Vallhund suédois"
                                 }
                             },
                             {
-                                "name": "Yorkshire Terrier",
+                                "name": "Yorkshire Terrier-Maltese Mix",
                                 "labels": {
-                                    "fr": "Terrier du Yorkshire",
-                                    "en": "Yorkshire Terrier"
+                                    "en": "Yorkshire Terrier-Maltese Mix",
+                                    "fr": "Terrier du Yorkshire-Maltese Mix"
+                                }
+                            },
+                            {
+                                "name": "Mixed-breed dog",
+                                "labels": {
+                                    "en": "Mixed-breed dog",
+                                    "fr": "Croisé"
                                 }
                             }
                         ]
@@ -409,8 +412,8 @@
                     {
                         "name": "Rubber Duck",
                         "labels": {
-                            "fr": "Canard en plastique",
-                            "en": "Rubber Duck"
+                            "en": "Rubber Duck",
+                            "fr": "Canard en plastique"
                         }
                     }
                 ]
@@ -429,22 +432,22 @@
                     {
                         "name": "England",
                         "labels": {
-                            "fr": "Angleterre",
-                            "en": "England"
+                            "en": "England",
+                            "fr": "Angleterre"
                         },
                         "nodes": [
                             {
                                 "name": "Oxford",
                                 "labels": {
-                                    "fr": "Oxford",
-                                    "en": "Oxford"
+                                    "en": "Oxford",
+                                    "fr": "Oxford"
                                 },
                                 "nodes": [
                                     {
                                         "name": "Alice's Garden",
                                         "labels": {
-                                            "fr": "Jardin d'Alice",
-                                            "en": "Alice's Garden"
+                                            "en": "Alice's Garden",
+                                            "fr": "Jardin d'Alice"
                                         }
                                     }
                                 ]
@@ -452,8 +455,8 @@
                             {
                                 "name": "Rabbit Hole",
                                 "labels": {
-                                    "fr": "Terrier du Lapin",
-                                    "en": "Rabbit Hole"
+                                    "en": "Rabbit Hole",
+                                    "fr": "Terrier du Lapin"
                                 }
                             }
                         ]
@@ -461,43 +464,43 @@
                     {
                         "name": "Wonderland",
                         "labels": {
-                            "fr": "Pays des Merveilles",
-                            "en": "Wonderland"
+                            "en": "Wonderland",
+                            "fr": "Pays des Merveilles"
                         },
                         "nodes": [
                             {
                                 "name": "Duchess' house",
                                 "labels": {
-                                    "fr": "Maison de la duchesse",
-                                    "en": "Duchess' house"
+                                    "en": "Duchess' house",
+                                    "fr": "Maison de la duchesse"
                                 }
                             },
                             {
                                 "name": "White Rabbit's house",
                                 "labels": {
-                                    "fr": "Maison du Lapin Blanc",
-                                    "en": "White Rabbit's house"
+                                    "en": "White Rabbit's house",
+                                    "fr": "Maison du Lapin Blanc"
                                 }
                             },
                             {
                                 "name": "Seacoast",
                                 "labels": {
-                                    "fr": "Côte",
-                                    "en": "Seacoast"
+                                    "en": "Seacoast",
+                                    "fr": "Côte"
                                 }
                             },
                             {
                                 "name": "Palace of Hearts",
                                 "labels": {
-                                    "fr": "Palais de cœur",
-                                    "en": "Palace of Hearts"
+                                    "en": "Palace of Hearts",
+                                    "fr": "Palais de cœur"
                                 },
                                 "nodes": [
                                     {
                                         "name": "Garden",
                                         "labels": {
-                                            "fr": "Jardin",
-                                            "en": "Garden"
+                                            "en": "Garden",
+                                            "fr": "Jardin"
                                         }
                                     }
                                 ]
@@ -505,15 +508,15 @@
                             {
                                 "name": "Mad Hatters's Tea Room",
                                 "labels": {
-                                    "fr": "Tea-room du chapelier fou",
-                                    "en": "Mad Hatters's Tea Room"
+                                    "en": "Mad Hatters's Tea Room",
+                                    "fr": "Tea-room du chapelier fou"
                                 }
                             },
                             {
                                 "name": "Pool of Tears",
                                 "labels": {
-                                    "fr": "Mare de larmes",
-                                    "en": "Pool of Tears"
+                                    "en": "Pool of Tears",
+                                    "fr": "Mare de larmes"
                                 }
                             }
                         ]
