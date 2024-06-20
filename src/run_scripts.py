@@ -8,17 +8,17 @@ from src.Helper_Scripts import helper
 from src.Scripts import import_animal_character
 from src.Scripts import import_audio
 from src.Scripts import import_character
-from src.Scripts import import_dungeon
-from src.Scripts import import_fairytale
-from src.Scripts import import_fairytale_chapter
-from src.Scripts import import_flyer
+from src.Scripts import import_archive
+from src.Scripts import import_book
+from src.Scripts import import_book_chapter
+from src.Scripts import import_documentation
 from src.Scripts import import_image_human
-from src.Scripts import import_image_animal
+from src.Scripts import import_image
 from src.Scripts import import_image_wonderland_character
 from src.Scripts import import_location
-from src.Scripts import import_originals
+from src.Scripts import import_material
 from src.Scripts import import_video
-from src.Scripts import import_wonderland_character
+from src.Scripts import import_character
 
 def main():
     root = helper.make_root()

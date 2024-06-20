@@ -3,66 +3,47 @@ from dsp_tools import excel2xml
 from src.Helper_Scripts import helper
 
 def main():
-
     all_resources = []
 
     # define folder paths
-    wonderland_character_df = pd.read_excel("data/Spreadsheet_Data/AliceInWonderlandCharacter.xlsx", dtype="str")
-
+    documentation_df = pd.read_excel("data/Spreadsheet_Data/Documentation.xlsx", dtype="str")
 
     # create the root element dsp-tools
     root = helper.make_root()
 
     # iterate through the rows of the old data from salsah:
-    for _, row in wonderland_character_df.iterrows():
+    for _, row in documentation_df.iterrows():
 
         # create resource, label and id
         if not excel2xml.check_notna(row["ID"]):
             continue
         resource_id = row["ID"]
-        resource_label = row["Name"]
+        resource_label = row['File Name']
 
         # create the `<resource>` tag
         resource = excel2xml.make_resource(
             label=resource_label,
-            restype=":AliceInWonderlandCharacter",
+            restype=":Documentation",
             id=resource_id)
 
-        # Append Properties
+        # create resource type "Image Human"
+        originals_path = f"{row['Directory']}{row['File Name']}"
+        resource.append(excel2xml.make_bitstream_prop(originals_path))
+
         if excel2xml.check_notna(row["ID"]):
             resource.append(excel2xml.make_text_prop(":hasID", resource_id))
-        if excel2xml.check_notna(row["Name"]):
-            resource.append(excel2xml.make_text_prop(":hasName", row["Name"]))
         if excel2xml.check_notna(row["Description"]):
             resource.append(excel2xml.make_text_prop(":hasDescription", excel2xml.PropertyElement(row["Description"], encoding="xml")))
-
-        # Append link Properties
-        if excel2xml.check_notna(row["Link to Image ID"]):
-            linkToImageID = [x.strip() for x in row["Link to Image ID"].split(",")]
-            resource.append(excel2xml.make_resptr_prop(":linkToAliceImageID", linkToImageID))
-
-        if excel2xml.check_notna(row["Link to Location ID"]):
-            location_id = [x.strip() for x in row["Link to Location ID"].split(",")]
-            resource.append(excel2xml.make_resptr_prop(":linkToLocationID", location_id))
-
+        if excel2xml.check_notna(row["File Name"]):
+            resource.append(excel2xml.make_text_prop(":hasFileName", row["File Name"]))
         # append the resource to the list
         all_resources.append(resource)
     # add all resources to the root
     root.extend(all_resources)
 
     excel2xml.write_xml(root,
-                        "data/XML/import_wonderland_character.xml")
+                        "data/XML/import_flyer.xml")
     return all_resources
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-

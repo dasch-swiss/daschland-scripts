@@ -19,150 +19,6 @@
        ],
         "lists": [
             {
-                "name": "Departement",
-                "labels": {
-                    "en": "Departement",
-                    "fr": "Département"
-                },
-                "comments": {
-                    "en": "Departement",
-                    "fr": "Département"
-                },
-                "nodes": [
-                    {
-                        "name": "Engineering",
-                        "labels": {
-                            "en": "Engineering",
-                            "fr": "Développement informatique"
-                        }
-                    },
-                    {
-                        "name": "Repository Services",
-                        "labels": {
-                            "en": "Repository Services",
-                            "fr": "Services d'archivage"
-                        }
-                    },
-                    {
-                        "name": "DARIAH-CH",
-                        "labels": {
-                            "en": "DARIAH-CH",
-                            "fr": "DARIAH-CH"
-                        }
-                    },
-                    {
-                        "name": "Office Management",
-                        "labels": {
-                            "en": "Office Management",
-                            "fr": "Administration"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "Education Grade",
-                "labels": {
-                    "en": "Education Grade",
-                    "fr": "Niveau d'études"
-                },
-                "comments": {
-                    "en": "Education Grade",
-                    "fr": "Niveau d'études"
-                },
-                "nodes": [
-                    {
-                        "name": "edu_1",
-                        "labels": {
-                            "en": "B.A.",
-                            "fr": "B.A."
-                        }
-                    },
-                    {
-                        "name": "edu_2",
-                        "labels": {
-                            "en": "B.Sc.",
-                            "fr": "B.Sc."
-                        }
-                    },
-                    {
-                        "name": "edu_3",
-                        "labels": {
-                            "en": "M.A.",
-                            "fr": "M.A."
-                        }
-                    },
-                    {
-                        "name": "edu_4",
-                        "labels": {
-                            "en": "M.Sc.",
-                            "fr": "M.Sc."
-                        }
-                    },
-                    {
-                        "name": "edu_5",
-                        "labels": {
-                            "en": "Dr.",
-                            "fr": "Dr."
-                        }
-                    },
-                    {
-                        "name": "edu_6",
-                        "labels": {
-                            "en": "PD",
-                            "fr": "PD Dr."
-                        }
-                    },
-                    {
-                        "name": "edu_7",
-                        "labels": {
-                            "en": "Dipl.-Ind.-Eng.",
-                            "fr": "Dipl.-Ind.-Eng."
-                        }
-                    },
-                    {
-                        "name": "edu_8",
-                        "labels": {
-                            "en": "B.BI",
-                            "fr": "B.BI"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "Gender",
-                "labels": {
-                    "en": "Gender",
-                    "fr": "Genre"
-                },
-                "comments": {
-                    "en": "Gender",
-                    "fr": "Genre"
-                },
-                "nodes": [
-                    {
-                        "name": "Female",
-                        "labels": {
-                            "en": "Female",
-                            "fr": "Féminin"
-                        }
-                    },
-                    {
-                        "name": "Male",
-                        "labels": {
-                            "en": "Male",
-                            "fr": "Masculin"
-                        }
-                    },
-                    {
-                        "name": "Non-binary",
-                        "labels": {
-                            "en": "Non-binary",
-                            "fr": "Non-binaire"
-                        }
-                    }
-                ]
-            },
-            {
                 "name": "License",
                 "labels": {
                     "en": "License",
@@ -213,218 +69,6 @@
                         "labels": {
                             "en": "CC BY-NC-ND 4.0",
                             "fr": "CC BY-NC-ND 4.0"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "Role",
-                "labels": {
-                    "en": "Role",
-                    "fr": "Fonction"
-                },
-                "comments": {
-                    "en": "Role",
-                    "fr": "Fonction"
-                },
-                "nodes": [
-                    {
-                        "name": "Director",
-                        "labels": {
-                            "en": "Director",
-                            "fr": "Directeur.trice"
-                        }
-                    },
-                    {
-                        "name": "Deputy Director",
-                        "labels": {
-                            "en": "Deputy Director",
-                            "fr": "Directeur.trice adjoint.e"
-                        }
-                    },
-                    {
-                        "name": "Head of Repository Services",
-                        "labels": {
-                            "en": "Head of Repository Services",
-                            "fr": "Direction des services d'archivage"
-                        }
-                    },
-                    {
-                        "name": "Head of Engineering",
-                        "labels": {
-                            "en": "Head of Engineering",
-                            "fr": "Direction du développement informatique"
-                        }
-                    },
-                    {
-                        "name": "Operations Manager",
-                        "labels": {
-                            "en": "Operations Manager",
-                            "fr": "Responsable des opérations"
-                        }
-                    },
-                    {
-                        "name": "National Coordination Officer",
-                        "labels": {
-                            "en": "National Coordination Officer",
-                            "fr": "Chargé.e de la coordination nationale"
-                        }
-                    },
-                    {
-                        "name": "Interoperability Specialist",
-                        "labels": {
-                            "en": "Interoperability Specialist",
-                            "fr": "Spécialiste de l'interopérabilité"
-                        }
-                    },
-                    {
-                        "name": "Software Engineer",
-                        "labels": {
-                            "en": "Software Engineer",
-                            "fr": "Ingénieur.e logiciel"
-                        }
-                    },
-                    {
-                        "name": "Senior Software Engineer",
-                        "labels": {
-                            "en": "Senior Software Engineer",
-                            "fr": "Ingénieur.e logiciel senior"
-                        }
-                    },
-                    {
-                        "name": "Infrastructure Engineer",
-                        "labels": {
-                            "en": "Infrastructure Engineer",
-                            "fr": "Ingénieur.e infrastructure"
-                        }
-                    },
-                    {
-                        "name": "Research Data Specialist",
-                        "labels": {
-                            "en": "Research Data Specialist",
-                            "fr": "Spécialiste en données de recherche"
-                        }
-                    },
-                    {
-                        "name": "Senior Research Data Specialist",
-                        "labels": {
-                            "en": "Senior Research Data Specialist",
-                            "fr": "Spécialiste senior en données de recherche"
-                        }
-                    },
-                    {
-                        "name": "Scientific Programmer",
-                        "labels": {
-                            "en": "Scientific Programmer",
-                            "fr": "Programmeur scientifique"
-                        }
-                    },
-                    {
-                        "name": "Product Manager",
-                        "labels": {
-                            "en": "Product Manager",
-                            "fr": "Responsable de produit"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "Specie",
-                "labels": {
-                    "en": "Specie",
-                    "fr": "Espèce"
-                },
-                "comments": {
-                    "en": "Specie",
-                    "fr": "Espèce"
-                },
-                "nodes": [
-                    {
-                        "name": "Cat",
-                        "labels": {
-                            "en": "Cat",
-                            "fr": "Chat"
-                        },
-                        "nodes": [
-                            {
-                                "name": "Bengal Cat",
-                                "labels": {
-                                    "en": "Bengal Cat",
-                                    "fr": "Bengal"
-                                }
-                            },
-                            {
-                                "name": "European Shorthair",
-                                "labels": {
-                                    "en": "European Shorthair",
-                                    "fr": "Chat européen"
-                                }
-                            },
-                            {
-                                "name": "Mixed-breed",
-                                "labels": {
-                                    "en": "Mixed-breed",
-                                    "fr": "chat de gouttière"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Dog",
-                        "labels": {
-                            "en": "Dog",
-                            "fr": "Chien"
-                        },
-                        "nodes": [
-                            {
-                                "name": "Galgo Español",
-                                "labels": {
-                                    "en": "Galgo Español",
-                                    "fr": "Lévrier espagnol"
-                                }
-                            },
-                            {
-                                "name": "Miniature Pinscher",
-                                "labels": {
-                                    "en": "Miniature Pinscher",
-                                    "fr": "Pinscher nain"
-                                }
-                            },
-                            {
-                                "name": "Italian Greyhound",
-                                "labels": {
-                                    "en": "Italian Greyhound",
-                                    "fr": "Petit lévrier italien"
-                                }
-                            },
-                            {
-                                "name": "Swedish Vallhund",
-                                "labels": {
-                                    "en": "Swedish Vallhund",
-                                    "fr": "Vallhund suédois"
-                                }
-                            },
-                            {
-                                "name": "Yorkshire Terrier-Maltese Mix",
-                                "labels": {
-                                    "en": "Yorkshire Terrier-Maltese Mix",
-                                    "fr": "Terrier du Yorkshire-Maltese Mix"
-                                }
-                            },
-                            {
-                                "name": "Mixed-breed dog",
-                                "labels": {
-                                    "en": "Mixed-breed dog",
-                                    "fr": "Croisé"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Rubber Duck",
-                        "labels": {
-                            "en": "Rubber Duck",
-                            "fr": "Canard en plastique"
                         }
                     }
                 ]
@@ -541,24 +185,69 @@
                 "label": "daschland",
                 "properties": [
                     {
-                        "name": "hasBirthday",
-                        "object": "DateValue",
-                        "gui_element": "Date",
+                        "name": "hasAbstract",
+                        "object": "TextValue",
+                        "gui_element": "Richtext",
                         "labels": {
-                            "en": "Birthday",
-                            "de": "Geburtstag",
-                            "fr": "Anniversaire",
-                            "it": "Compleanno"
+                            "en": "Abstract",
+                            "de": "Zusammenfassung",
+                            "fr": "Résumé",
+                            "it": "Sintesi"
                         },
                         "super": [
                             "hasValue",
-                            "schema:birthDate"
+                            "schema:abstract"
                         ],
                         "comments": {
-                            "en": "Birthday",
-                            "de": "Geburtstag",
-                            "fr": "Anniversaire",
-                            "it": "Compleanno"
+                            "en": "Abstract",
+                            "de": "Zusammenfassung",
+                            "fr": "Résumé",
+                            "it": "Sintesi"
+                        }
+                    },
+                    {
+                        "name": "hasAdventureTypeList",
+                        "object": "ListValue",
+                        "gui_element": "List",
+                        "labels": {
+                            "en": "Adventure Type",
+                            "de": "Abenteuer-Typ",
+                            "fr": "Type d'aventure",
+                            "it": "Tipo di avventura"
+                        },
+                        "super": [
+                            "hasValue"
+                        ],
+                        "gui_attributes": {
+                            "hlist": "Adventure type"
+                        },
+                        "comments": {
+                            "en": "Adventure Type",
+                            "de": "Abenteuer-Typ",
+                            "fr": "Type d'aventure",
+                            "it": "Tipo di avventura"
+                        }
+                    },
+                    {
+                        "name": "hasAuthor",
+                        "object": "TextValue",
+                        "gui_element": "SimpleText",
+                        "labels": {
+                            "en": "Author",
+                            "de": "Autor",
+                            "fr": "Auteur",
+                            "it": "Autore"
+                        },
+                        "super": [
+                            "hasValue",
+                            "foaf:person",
+                            "schema:author"
+                        ],
+                        "comments": {
+                            "en": "Author",
+                            "de": "Autor",
+                            "fr": "Auteur",
+                            "it": "Autore"
                         }
                     },
                     {
@@ -583,6 +272,26 @@
                         }
                     },
                     {
+                        "name": "hasColour",
+                        "object": "ColorValue",
+                        "gui_element": "Colorpicker",
+                        "labels": {
+                            "en": "Colour",
+                            "de": "Farbe",
+                            "fr": "Couleur",
+                            "it": "Colore"
+                        },
+                        "super": [
+                            "hasColor"
+                        ],
+                        "comments": {
+                            "en": "Colour",
+                            "de": "Farbe",
+                            "fr": "Couleur",
+                            "it": "Colore"
+                        }
+                    },
+                    {
                         "name": "hasCopyright",
                         "object": "TextValue",
                         "gui_element": "SimpleText",
@@ -590,7 +299,7 @@
                             "en": "Copyright",
                             "de": "Urheberrecht",
                             "fr": "Droits d'auteur",
-                            "it": "Diritti dell'autore"
+                            "it": "Copyright"
                         },
                         "super": [
                             "hasValue",
@@ -600,7 +309,7 @@
                             "en": "Copyright",
                             "de": "Urheberrecht",
                             "fr": "Droits d'auteur",
-                            "it": "Diritti dell'autore"
+                            "it": "Copyright"
                         }
                     },
                     {
@@ -608,42 +317,20 @@
                         "object": "DateValue",
                         "gui_element": "Date",
                         "labels": {
-                            "en": "Date",
-                            "de": "Datum",
-                            "fr": "Date de naissance",
-                            "it": "Data di nascita"
+                            "en": "Publication Date",
+                            "de": "Datum der Veröffentlichung",
+                            "fr": "Date de publication",
+                            "it": "Data di pubblicazione"
                         },
                         "super": [
-                            "hasValue"
+                            "hasValue",
+                            "schema:datePublished"
                         ],
                         "comments": {
-                            "en": "Date",
-                            "de": "Datum",
-                            "fr": "Date de naissance",
-                            "it": "Data di nascita"
-                        }
-                    },
-                    {
-                        "name": "hasDepartementList",
-                        "object": "ListValue",
-                        "gui_element": "List",
-                        "labels": {
-                            "en": "Departement",
-                            "de": "Departement",
-                            "fr": "Département",
-                            "it": "Dipartimento"
-                        },
-                        "super": [
-                            "hasValue"
-                        ],
-                        "gui_attributes": {
-                            "hlist": "Departement"
-                        },
-                        "comments": {
-                            "en": "Departement",
-                            "de": "Departement",
-                            "fr": "Département",
-                            "it": "Dipartimento"
+                            "en": "Publication Date",
+                            "de": "Datum der Veröffentlichung",
+                            "fr": "Date de publication",
+                            "it": "Data di pubblicazione"
                         }
                     },
                     {
@@ -668,56 +355,13 @@
                         }
                     },
                     {
-                        "name": "hasEducationGradeList",
-                        "object": "ListValue",
-                        "gui_element": "List",
-                        "labels": {
-                            "en": "Education Grade",
-                            "de": "Bildungsgrad",
-                            "fr": "Niveau d'éducation",
-                            "it": "Livello di istruzione"
-                        },
-                        "super": [
-                            "hasValue"
-                        ],
-                        "gui_attributes": {
-                            "hlist": "Education Grade"
-                        },
-                        "comments": {
-                            "en": "Education Grade",
-                            "de": "Bildungsgrad",
-                            "fr": "Niveau d'éducation",
-                            "it": "Livello di istruzione"
-                        }
-                    },
-                    {
-                        "name": "hasFavoriteCake",
-                        "object": "TextValue",
-                        "gui_element": "SimpleText",
-                        "labels": {
-                            "en": "Favorite Cake",
-                            "de": "Lieblingskuchen",
-                            "fr": "Gâteau préféré",
-                            "it": "Torta preferita"
-                        },
-                        "super": [
-                            "hasValue"
-                        ],
-                        "comments": {
-                            "en": "Favorite Cake",
-                            "de": "Lieblingskuchen",
-                            "fr": "Gâteau préféré",
-                            "it": "Torta preferita"
-                        }
-                    },
-                    {
                         "name": "hasFileName",
                         "object": "TextValue",
                         "gui_element": "SimpleText",
                         "labels": {
                             "en": "File Name",
-                            "de": "Name der Datei",
-                            "fr": "Nom du fichier",
+                            "de": "Dateiname",
+                            "fr": "Nom de fichier",
                             "it": "Nome del file"
                         },
                         "super": [
@@ -725,54 +369,9 @@
                         ],
                         "comments": {
                             "en": "File Name",
-                            "de": "Name der Datei",
-                            "fr": "Nom du fichier",
+                            "de": "Dateiname",
+                            "fr": "Nom de fichier",
                             "it": "Nome del file"
-                        }
-                    },
-                    {
-                        "name": "hasFirstName",
-                        "object": "TextValue",
-                        "gui_element": "SimpleText",
-                        "labels": {
-                            "en": "First Name",
-                            "de": "Vorname",
-                            "fr": "Prénom",
-                            "it": "Nome"
-                        },
-                        "super": [
-                            "hasValue",
-                            "schema:givenName"
-                        ],
-                        "comments": {
-                            "en": "First Name",
-                            "de": "Vorname",
-                            "fr": "Prénom",
-                            "it": "Nome"
-                        }
-                    },
-                    {
-                        "name": "hasGenderList",
-                        "object": "ListValue",
-                        "gui_element": "List",
-                        "labels": {
-                            "en": "Gender",
-                            "de": "Geschlecht",
-                            "fr": "Genre",
-                            "it": "Genere"
-                        },
-                        "super": [
-                            "hasValue",
-                            "schema:gender"
-                        ],
-                        "gui_attributes": {
-                            "hlist": "Gender"
-                        },
-                        "comments": {
-                            "en": "Gender",
-                            "de": "Geschlecht",
-                            "fr": "Genre",
-                            "it": "Genere"
                         }
                     },
                     {
@@ -783,7 +382,7 @@
                             "en": "Geoname",
                             "de": "Geoname",
                             "fr": "Geoname",
-                            "it": "Geoname"
+                            "it": "Nome del sito"
                         },
                         "super": [
                             "hasValue"
@@ -792,7 +391,27 @@
                             "en": "Geoname",
                             "de": "Geoname",
                             "fr": "Geoname",
-                            "it": "Geoname"
+                            "it": "Nome del sito"
+                        }
+                    },
+                    {
+                        "name": "hasGuestAmount",
+                        "object": "IntValue",
+                        "gui_element": "SimpleText",
+                        "labels": {
+                            "en": "Amout of Guests",
+                            "de": "Anzahl der Gäste",
+                            "fr": "Nombre d'invités",
+                            "it": "Numero di ospiti"
+                        },
+                        "super": [
+                            "hasValue"
+                        ],
+                        "comments": {
+                            "en": "Amout of Guests",
+                            "de": "Anzahl der Gäste",
+                            "fr": "Nombre d'invités",
+                            "it": "Numero di ospiti"
                         }
                     },
                     {
@@ -814,27 +433,6 @@
                             "de": "ID",
                             "fr": "ID",
                             "it": "ID"
-                        }
-                    },
-                    {
-                        "name": "hasLastName",
-                        "object": "TextValue",
-                        "gui_element": "SimpleText",
-                        "labels": {
-                            "en": "Last Name",
-                            "de": "Nachname",
-                            "fr": "Nom de famille",
-                            "it": "Cognome"
-                        },
-                        "super": [
-                            "hasValue",
-                            "schema:familyName"
-                        ],
-                        "comments": {
-                            "en": "Last Name",
-                            "de": "Nachname",
-                            "fr": "Nom de famille",
-                            "it": "Cognome"
                         }
                     },
                     {
@@ -872,53 +470,14 @@
                             "it": "Nome"
                         },
                         "super": [
-                            "hasValue"
+                            "hasValue",
+                            "schema:name"
                         ],
                         "comments": {
                             "en": "Name",
                             "de": "Name",
                             "fr": "Nom",
                             "it": "Nome"
-                        }
-                    },
-                    {
-                        "name": "hasPet",
-                        "object": "BooleanValue",
-                        "gui_element": "Checkbox",
-                        "labels": {
-                            "en": "Pet",
-                            "de": "Haustier",
-                            "fr": "Animal de compagnie",
-                            "it": "Animale domestico"
-                        },
-                        "super": [
-                            "hasValue"
-                        ],
-                        "comments": {
-                            "en": "Pet",
-                            "de": "Haustier",
-                            "fr": "Animal de compagnie",
-                            "it": "Animale domestico"
-                        }
-                    },
-                    {
-                        "name": "hasPetColor",
-                        "object": "ColorValue",
-                        "gui_element": "Colorpicker",
-                        "labels": {
-                            "en": "Pet Color",
-                            "de": "Farbe des Tieres",
-                            "fr": "Couleur de l'animal",
-                            "it": "Colore dell'animale"
-                        },
-                        "super": [
-                            "hasColor"
-                        ],
-                        "comments": {
-                            "en": "Pet Color",
-                            "de": "Farbe des Tieres",
-                            "fr": "Couleur de l'animal",
-                            "it": "Colore dell'animale"
                         }
                     },
                     {
@@ -929,7 +488,7 @@
                             "en": "Quote",
                             "de": "Angebot",
                             "fr": "Citation",
-                            "it": "Citazione"
+                            "it": "Preventivo"
                         },
                         "super": [
                             "hasValue"
@@ -938,7 +497,7 @@
                             "en": "Quote",
                             "de": "Angebot",
                             "fr": "Citation",
-                            "it": "Citazione"
+                            "it": "Preventivo"
                         }
                     },
                     {
@@ -969,63 +528,19 @@
                         "object": "IntValue",
                         "gui_element": "SimpleText",
                         "labels": {
-                            "en": "Page Number",
-                            "de": "Seitenzahl",
-                            "fr": "Numéro de page",
-                            "it": "Numero di pagina"
+                            "en": "Seqnum",
+                            "de": "Seqnum",
+                            "fr": "Seqnum",
+                            "it": "Seqnum"
                         },
                         "super": [
-                            "seqnum",
-                            "schema:numberOfPages"
+                            "seqnum"
                         ],
                         "comments": {
-                            "en": "Page Number",
-                            "de": "Seitenzahl",
-                            "fr": "Numéro de page",
-                            "it": "Numero di pagina"
-                        }
-                    },
-                    {
-                        "name": "hasShortName",
-                        "object": "TextValue",
-                        "gui_element": "SimpleText",
-                        "labels": {
-                            "en": "Short Name",
-                            "de": "Kurzer Name",
-                            "fr": "Nom court",
-                            "it": "Nome breve"
-                        },
-                        "super": [
-                            "hasValue"
-                        ],
-                        "comments": {
-                            "en": "Short Name",
-                            "de": "Kurzer Name",
-                            "fr": "Nom court",
-                            "it": "Nome breve"
-                        }
-                    },
-                    {
-                        "name": "hasSpecieList",
-                        "object": "ListValue",
-                        "gui_element": "List",
-                        "labels": {
-                            "en": "Specie",
-                            "de": "Art",
-                            "fr": "Espèce",
-                            "it": "Specie"
-                        },
-                        "super": [
-                            "hasValue"
-                        ],
-                        "gui_attributes": {
-                            "hlist": "Specie"
-                        },
-                        "comments": {
-                            "en": "Specie",
-                            "de": "Art",
-                            "fr": "Espèce",
-                            "it": "Specie"
+                            "en": "Seqnum",
+                            "de": "Seqnum",
+                            "fr": "Seqnum",
+                            "it": "Seqnum"
                         }
                     },
                     {
@@ -1036,37 +551,17 @@
                             "en": "Time Stamp",
                             "de": "Zeitstempel",
                             "fr": "Horodatage",
-                            "it": "Data e ora"
+                            "it": "Timestamp"
                         },
                         "super": [
-                            "hasValue"
+                            "hasValue",
+                            "schema:dateCreated"
                         ],
                         "comments": {
                             "en": "Time Stamp",
                             "de": "Zeitstempel",
                             "fr": "Horodatage",
-                            "it": "Data e ora"
-                        }
-                    },
-                    {
-                        "name": "hasWeight",
-                        "object": "DecimalValue",
-                        "gui_element": "SimpleText",
-                        "labels": {
-                            "en": "Weight",
-                            "de": "Gewicht",
-                            "fr": "Poids",
-                            "it": "Peso"
-                        },
-                        "super": [
-                            "hasValue",
-                            "schema:weight"
-                        ],
-                        "comments": {
-                            "en": "Weight",
-                            "de": "Gewicht",
-                            "fr": "Poids",
-                            "it": "Peso"
+                            "it": "Timestamp"
                         }
                     },
                     {
@@ -1075,144 +570,63 @@
                         "gui_element": "List",
                         "labels": {
                             "en": "Wonderland Location",
-                            "de": "Wunderland Standort",
-                            "fr": "Lieu du Pays des Merveilles",
-                            "it": "Posizione nel paese delle meraviglie"
+                            "de": "Ort im Wunderland",
+                            "fr": "Emplacement du pays des merveilles",
+                            "it": "Posizione nel Paese delle Meraviglie"
                         },
                         "super": [
                             "hasValue",
                             "schema:location"
                         ],
                         "gui_attributes": {
-                            "hlist": "Fairytale Location"
+                            "hlist": "Wonderland Location"
                         },
                         "comments": {
                             "en": "Wonderland Location",
-                            "de": "Wunderland Standort",
-                            "fr": "Lieu du Pays des Merveilles",
-                            "it": "Posizione nel paese delle meraviglie"
+                            "de": "Ort im Wunderland",
+                            "fr": "Emplacement du pays des merveilles",
+                            "it": "Posizione nel Paese delle Meraviglie"
                         }
                     },
                     {
-                        "name": "isNeutered",
+                        "name": "isDangerous",
                         "object": "BooleanValue",
                         "gui_element": "Checkbox",
                         "labels": {
-                            "en": "Neutered",
-                            "de": "Kastriert",
-                            "fr": "Stérilisé",
-                            "it": "Sterilizzato"
+                            "en": "Dangerous",
+                            "de": "Gefährlich",
+                            "fr": "Dangereux",
+                            "it": "Pericoloso"
                         },
                         "super": [
                             "hasValue"
                         ],
                         "comments": {
-                            "en": "Neutered",
-                            "de": "Kastriert",
-                            "fr": "Stérilisé",
-                            "it": "Sterilizzato"
+                            "en": "Dangerous",
+                            "de": "Gefährlich",
+                            "fr": "Dangereux",
+                            "it": "Pericoloso"
                         }
                     },
                     {
-                        "name": "isPartOfAnimalCharacterID",
-                        "object": ":AnimalCharacter",
+                        "name": "isPartOfCharacterID",
+                        "object": ":Character",
                         "gui_element": "Searchbox",
                         "labels": {
-                            "en": "Part Of",
-                            "de": "Teil von",
-                            "fr": "Partie de",
-                            "it": "Parte di"
+                            "en": "Part of Character",
+                            "de": "Teil des Charakters",
+                            "fr": "Appartient au Personnage",
+                            "it": "Appartiene al personaggio"
                         },
                         "super": [
                             "isPartOf",
                             "schema:isPartOf"
                         ],
                         "comments": {
-                            "en": "Part Of",
-                            "de": "Teil von",
-                            "fr": "Partie de",
-                            "it": "Parte di"
-                        }
-                    },
-                    {
-                        "name": "isPartOfFairytaleID",
-                        "object": ":Fairytale",
-                        "gui_element": "Searchbox",
-                        "labels": {
-                            "en": "Part Of",
-                            "de": "Teil von",
-                            "fr": "Partie de",
-                            "it": "Parte di"
-                        },
-                        "super": [
-                            "isPartOf",
-                            "schema:isPartOf"
-                        ],
-                        "comments": {
-                            "en": "Part Of",
-                            "de": "Teil von",
-                            "fr": "Partie de",
-                            "it": "Parte di"
-                        }
-                    },
-                    {
-                        "name": "linkToAliceCharacterID",
-                        "object": ":AliceInWonderlandCharacter",
-                        "gui_element": "Searchbox",
-                        "labels": {
-                            "en": "Link to Alice Character",
-                            "de": "Link zu Alice Charakter",
-                            "fr": "Lien vers le personnage d'Alice",
-                            "it": "Collegamento al personaggio di Alice"
-                        },
-                        "super": [
-                            "hasLinkTo"
-                        ],
-                        "comments": {
-                            "en": "Link to Alice Character",
-                            "de": "Link zu Alice Charakter",
-                            "fr": "Lien vers le personnage d'Alice",
-                            "it": "Collegamento al personaggio di Alice"
-                        }
-                    },
-                    {
-                        "name": "linkToAnimalCharacterID",
-                        "object": ":AnimalCharacter",
-                        "gui_element": "Searchbox",
-                        "labels": {
-                            "en": "Link to Animal Character",
-                            "de": "Link zum Tiercharakter",
-                            "fr": "Lien vers le personnage animal",
-                            "it": "Collegamento al personaggio animale"
-                        },
-                        "super": [
-                            "hasLinkTo"
-                        ],
-                        "comments": {
-                            "en": "Link to Animal Character",
-                            "de": "Link zum Tiercharakter",
-                            "fr": "Lien vers le personnage animal",
-                            "it": "Collegamento al personaggio animale"
-                        }
-                    },
-                    {
-                        "name": "linkToAnimalFriendID",
-                        "object": ":AnimalCharacter",
-                        "gui_element": "Searchbox",
-                        "labels": {
-                            "en": "Link to Animal Friend",
-                            "de": "Link zum Tierfreund",
-                            "fr": "Lien vers l'ami animal",
-                            "it": "Collegamento all'amico animale"
-                        },
-                        "super": [
-                            "hasLinkTo"
-                        ],
-                        "comments": {
-                            "en": "Link to Animal Friend",
-                            "de": "Link zum Tierfreund",
-                            "fr": "Lien vers l'ami animal",
-                            "it": "Collegamento all'amico animale"
+                            "en": "Part of Character",
+                            "de": "Teil des Charakters",
+                            "fr": "Appartient au Personnage",
+                            "it": "Appartiene al personaggio"
                         }
                     },
                     {
@@ -1220,99 +634,119 @@
                         "object": ":Audio",
                         "gui_element": "Searchbox",
                         "labels": {
-                            "en": "Link to Audio",
-                            "de": "Link zu Audio",
-                            "fr": "Lien vers Audio",
-                            "it": "Collegamento all'audio"
+                            "en": "linked Audio",
+                            "de": "Verknüpftes Audio",
+                            "fr": "Audio lié",
+                            "it": "Audio correlato"
                         },
                         "super": [
                             "hasLinkTo"
                         ],
                         "comments": {
-                            "en": "Link to Audio",
-                            "de": "Link zu Audio",
-                            "fr": "Lien vers Audio",
-                            "it": "Collegamento all'audio"
+                            "en": "linked Audio",
+                            "de": "Verknüpftes Audio",
+                            "fr": "Audio lié",
+                            "it": "Audio correlato"
                         }
                     },
                     {
-                        "name": "linkToButlerID",
+                        "name": "linkToBookChapterID",
+                        "object": ":BookChapter",
+                        "gui_element": "Searchbox",
+                        "labels": {
+                            "en": "Book Chapters",
+                            "de": "Buch-Kapitel",
+                            "fr": "Chapitres du livre",
+                            "it": "Capitoli del libro"
+                        },
+                        "super": [
+                            "hasLinkTo"
+                        ],
+                        "comments": {
+                            "en": "Book Chapters",
+                            "de": "Buch-Kapitel",
+                            "fr": "Chapitres du livre",
+                            "it": "Capitoli del libro"
+                        }
+                    },
+                    {
+                        "name": "linkToCharacterAntagonistID",
                         "object": ":Character",
                         "gui_element": "Searchbox",
                         "labels": {
-                            "en": "Link to Butler",
-                            "de": "Link zu Butler",
-                            "fr": "Lien vers majordome",
-                            "it": "Collegamento al maggiordomo"
+                            "en": "Antagonist(s)",
+                            "de": "Antagonist(en)",
+                            "fr": "Antagoniste(s)",
+                            "it": "Antagonista/i"
                         },
                         "super": [
                             "hasLinkTo"
                         ],
                         "comments": {
-                            "en": "Link to Butler",
-                            "de": "Link zu Butler",
-                            "fr": "Lien vers majordome",
-                            "it": "Collegamento al maggiordomo"
+                            "en": "Antagonist(s)",
+                            "de": "Antagonist(en)",
+                            "fr": "Antagoniste(s)",
+                            "it": "Antagonista/i"
                         }
                     },
                     {
-                        "name": "linkToFairytale",
-                        "object": ":Fairytale",
+                        "name": "linkToCharacterID",
+                        "object": ":Character",
                         "gui_element": "Searchbox",
                         "labels": {
-                            "en": "Link to Fairytale",
-                            "de": "Link zum Märchen",
-                            "fr": "Lien vers le conte de fées",
-                            "it": "Collegamento alla fiaba"
+                            "en": "linked Character(s)",
+                            "de": "verlinkte(r) Charakter(e)",
+                            "fr": "Personnage(s) lié(s)",
+                            "it": "Personaggio/i correlato/i"
                         },
                         "super": [
                             "hasLinkTo"
                         ],
                         "comments": {
-                            "en": "Link to Fairytale",
-                            "de": "Link zum Märchen",
-                            "fr": "Lien vers le conte de fées",
-                            "it": "Collegamento alla fiaba"
+                            "en": "linked Character(s)",
+                            "de": "verlinkte(r) Charakter(e)",
+                            "fr": "Personnage(s) lié(s)",
+                            "it": "Personaggio/i correlato/i"
                         }
                     },
                     {
-                        "name": "linkToFlyerID",
-                        "object": ":Flyer",
+                        "name": "linkToCharacterProtagonistID",
+                        "object": ":Character",
                         "gui_element": "Searchbox",
                         "labels": {
-                            "en": "Link to Information Sheet",
-                            "de": "Link zum Infoblatt",
-                            "fr": "Lien vers la fiche d'information",
-                            "it": "Collegamento alla scheda informativa"
+                            "en": "Protagonist(s)",
+                            "de": "Protagonist(en)",
+                            "fr": "Protagoniste(s)",
+                            "it": "Protagonista/i"
                         },
                         "super": [
                             "hasLinkTo"
                         ],
                         "comments": {
-                            "en": "Link to Information Sheet",
-                            "de": "Link zum Infoblatt",
-                            "fr": "Lien vers la fiche d'information",
-                            "it": "Collegamento alla scheda informativa"
+                            "en": "Protagonist(s)",
+                            "de": "Protagonist(en)",
+                            "fr": "Protagoniste(s)",
+                            "it": "Protagonista/i"
                         }
                     },
                     {
-                        "name": "linkToImageCharacterID",
-                        "object": ":ImageHuman",
+                        "name": "linkToImageID",
+                        "object": ":Image",
                         "gui_element": "Searchbox",
                         "labels": {
-                            "en": "Link to Image Character",
-                            "de": "Link zum Bild Charakter",
-                            "fr": "Lien vers l'image du personnage",
-                            "it": "Collegamento all'immagine dal personaggio"
+                            "en": "linked Image",
+                            "de": "verlinktes Bild",
+                            "fr": "Image liée",
+                            "it": "Immagine collegata"
                         },
                         "super": [
                             "hasLinkTo"
                         ],
                         "comments": {
-                            "en": "Link to Image",
-                            "de": "Link zum Bild",
-                            "fr": "Lien vers l'image",
-                            "it": "Collegamento all'immagine"
+                            "en": "linked Image",
+                            "de": "verlinktes Bild",
+                            "fr": "Image liée",
+                            "it": "Immagine collegata"
                         }
                     },
                     {
@@ -1320,19 +754,19 @@
                         "object": ":Location",
                         "gui_element": "Searchbox",
                         "labels": {
-                            "en": "Link to Location",
-                            "de": "Link zum Standort",
-                            "fr": "Lien vers le lieu",
-                            "it": "Collegamento alla posizione"
+                            "en": "Location",
+                            "de": "Standort",
+                            "fr": "Emplacement",
+                            "it": "Luogo"
                         },
                         "super": [
                             "hasLinkTo"
                         ],
                         "comments": {
-                            "en": "Link to Location",
-                            "de": "Link zum Standort",
-                            "fr": "Lien vers le lieu",
-                            "it": "Collegamento alla posizione"
+                            "en": "Location",
+                            "de": "Standort",
+                            "fr": "Emplacement",
+                            "it": "Luogo"
                         }
                     },
                     {
@@ -1340,82 +774,143 @@
                         "object": ":Video",
                         "gui_element": "Searchbox",
                         "labels": {
-                            "en": "Link to Video",
-                            "de": "Link zum Video",
-                            "fr": "Lien vers la vidéo",
-                            "it": "Collegamento al video"
+                            "en": "linked Video",
+                            "de": "verlinktes Video",
+                            "fr": "Vidéo liée",
+                            "it": "Video correlato"
                         },
                         "super": [
                             "hasLinkTo"
                         ],
                         "comments": {
-                            "en": "Link to Video",
-                            "de": "Link zum Video",
-                            "fr": "Lien vers la vidéo",
-                            "it": "Collegamento al video"
+                            "en": "linked Video",
+                            "de": "verlinktes Video",
+                            "fr": "Vidéo liée",
+                            "it": "Video correlato"
                         }
                     },
                     {
-                        "name": "linkToAliceImageID",
-                        "object": ":ImageWonderlandCharacter",
-                        "gui_element": "Searchbox",
+                        "name": "hasAlternativeDescription",
+                        "object": "TextValue",
+                        "gui_element": "Richtext",
                         "labels": {
-                            "en": "Link to Image Alice",
-                            "de": "Link zum Bild Alice",
-                            "fr": "Lien vers l'image d'Alice",
-                            "it": "Collegamento all'immagine di Alice"
+                            "en": "Alternative Description",
+                            "de": "Alternative Beschreibung",
+                            "fr": "Description alternative",
+                            "it": "Descrizione alternativa"
                         },
                         "super": [
-                            "hasLinkTo"
+                            "hasValue",
+                            "schema:description"
                         ],
                         "comments": {
-                            "en": "Link to Image",
-                            "de": "Link zum Bild",
-                            "fr": "Lien vers l'image",
-                            "it": "Collegamento all'immagine"
+                            "en": "Alternative Description",
+                            "de": "Alternative Beschreibung",
+                            "fr": "Description alternative",
+                            "it": "Descrizione alternativa"
+                        }
+                    },
+                    {
+                        "name": "hasUrl",
+                        "object": "UriValue",
+                        "gui_element": "SimpleText",
+                        "labels": {
+                            "en": "More Information",
+                            "de": "Mehr Informationen",
+                            "fr": "Plus d'informations",
+                            "it": "Ulteriori informazioni"
+                        },
+                        "super": [
+                            "hasValue"
+                        ],
+                        "comments": {
+                            "en": "More Information",
+                            "de": "Mehr Informationen",
+                            "fr": "Plus d'informations",
+                            "it": "Ulteriori informazioni"
                         }
                     }
                 ],
                 "resources": [
                     {
-                        "name": "Fairytale",
+                        "name": "Book",
                         "super": [
-                            "Resource"
+                            "DocumentRepresentation"
                         ],
                         "labels": {
-                            "en": "Fairytale",
-                            "de": "Märchen",
-                            "fr": "Conte de fées",
-                            "it": "Fiaba"
+                            "en": "Book",
+                            "de": "Buch",
+                            "fr": "Livre",
+                            "it": "Libro"
                         },
                         "cardinalities": [
                             {
                                 "propname": ":hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 3
                             },
                             {
                                 "propname": ":hasName",
                                 "cardinality": "0-1",
                                 "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthor",
+                                "cardinality": "0-1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasAlternativeDescription",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasDate",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":linkToBookChapterID",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":linkToAudioID",
+                                "cardinality": "0-n",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":linkToVideoID",
+                                "cardinality": "0-n",
+                                "gui_order": 9
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
+                                "gui_order": 10
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 11
                             }
                         ]
                     },
                     {
-                        "name": "FairytaleChapter",
+                        "name": "BookChapter",
                         "super": [
-                            "StillImageRepresentation"
+                            "Resource"
                         ],
                         "labels": {
-                            "en": "Fairytale Chapter",
-                            "de": "Märchenkapitel",
-                            "fr": "Chapitre de conte de fées",
-                            "it": "Capitolo della fiaba"
+                            "en": "Book Chapter",
+                            "de": "Buch Kapitel",
+                            "fr": "Chapitre de livre",
+                            "it": "Capitolo del libro"
                         },
                         "cardinalities": [
                             {
@@ -1424,34 +919,29 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":isPartOfFairytaleID",
-                                "cardinality": "0-n",
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
                                 "gui_order": 2
                             },
                             {
                                 "propname": ":hasChapterNumber",
                                 "cardinality": "0-1",
-                                "gui_order": 4
+                                "gui_order": 3
                             },
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":linkToCharacterID",
+                                "cardinality": "0-n",
                                 "gui_order": 5
                             },
                             {
-                                "propname": ":linkToAnimalCharacterID",
+                                "propname": ":linkToLocationID",
                                 "cardinality": "0-n",
                                 "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasName",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":linkToAliceCharacterID",
-                                "cardinality": "0-n",
-                                "gui_order": 7
                             }
                         ]
                     },
@@ -1473,161 +963,42 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":linkToImageCharacterID",
-                                "cardinality": "0-n",
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
                                 "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasFirstName",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasLastName",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":linkToAliceCharacterID",
-                                "cardinality": "0-n",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasRoleList",
-                                "cardinality": "0-n",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasQuote",
-                                "cardinality": "0-n",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasPet",
-                                "cardinality": "0-1",
-                                "gui_order": 8
-                            },
-                            {
-                                "propname": ":hasFavoriteCake",
-                                "cardinality": "0-n",
-                                "gui_order": 9
-                            },
-                            {
-                                "propname": ":hasEducationGradeList",
-                                "cardinality": "0-1",
-                                "gui_order": 10
-                            },
-                            {
-                                "propname": ":hasDepartementList",
-                                "cardinality": "0-n",
-                                "gui_order": 11
-                            },
-                            {
-                                "propname": ":hasBirthday",
-                                "cardinality": "0-1",
-                                "gui_order": 12
-                            }
-                        ]
-                    },
-                    {
-                        "name": "AnimalCharacter",
-                        "super": [
-                            "Resource"
-                        ],
-                        "labels": {
-                            "en": "Animal Character",
-                            "de": "Tierischer Charakter",
-                            "fr": "Personnage animal",
-                            "it": "Personaggio animale"
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":linkToAnimalFriendID",
-                                "cardinality": "0-n",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasShortName",
-                                "cardinality": "0-1",
-                                "gui_order": 3
                             },
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 4
+                                "gui_order": 3
                             },
                             {
-                                "propname": ":linkToButlerID",
-                                "cardinality": "0-n",
+                                "propname": ":hasRoleList",
+                                "cardinality": "0-1",
                                 "gui_order": 5
                             },
                             {
-                                "propname": ":linkToAliceCharacterID",
+                                "propname": ":hasQuote",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasColour",
                                 "cardinality": "0-n",
                                 "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasPetColor",
-                                "cardinality": "0-n",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":linkToAudioID",
-                                "cardinality": "0-n",
-                                "gui_order": 8
-                            },
-                            {
-                                "propname": ":linkToVideoID",
-                                "cardinality": "0-n",
-                                "gui_order": 9
-                            },
-                            {
-                                "propname": ":hasWeight",
-                                "cardinality": "0-1",
-                                "gui_order": 10
-                            },
-                            {
-                                "propname": ":hasSpecieList",
-                                "cardinality": "0-1",
-                                "gui_order": 11
-                            },
-                            {
-                                "propname": ":hasGenderList",
-                                "cardinality": "0-1",
-                                "gui_order": 12
-                            },
-                            {
-                                "propname": ":isNeutered",
-                                "cardinality": "0-1",
-                                "gui_order": 13
-                            },
-                            {
-                                "propname": ":hasBirthday",
-                                "cardinality": "0-1",
-                                "gui_order": 14
-                            },
-                            {
-                                "propname": ":linkToFlyerID",
-                                "cardinality": "0-n",
-                                "gui_order": 15
                             }
                         ]
                     },
                     {
-                        "name": "AliceInWonderlandCharacter",
+                        "name": "Event",
                         "super": [
                             "Resource"
                         ],
                         "labels": {
-                            "en": "Alice in Wonderland Character",
-                            "de": "Charakter aus Alice im Wunderland",
-                            "fr": "Personnage d'Alice au Pays des Merveilles",
-                            "it": "Personaggio di Alice nel Paese delle Meraviglie"
+                            "en": "Event",
+                            "de": "Ereignis",
+                            "fr": "Événement",
+                            "it": "Evento"
                         },
                         "cardinalities": [
                             {
@@ -1636,9 +1007,9 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":linkToAliceImageID",
-                                "cardinality": "0-n",
-                                "gui_order": 4
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
                             },
                             {
                                 "propname": ":hasDescription",
@@ -1647,12 +1018,87 @@
                             },
                             {
                                 "propname": ":linkToLocationID",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EventSocial",
+                        "super": [
+                            "Resource",
+                            ":Event"
+                        ],
+                        "labels": {
+                            "en": "Event Social",
+                            "de": "Ereignis Soziales",
+                            "fr": "Événement Social",
+                            "it": "Evento sociale"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":linkToCharacterID",
                                 "cardinality": "0-n",
-                                "gui_order": 5
+                                "gui_order": 1
                             },
                             {
-                                "propname": ":hasName",
+                                "propname": ":hasGuestAmount",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EventAdventure",
+                        "super": [
+                            "Resource",
+                            ":Event"
+                        ],
+                        "labels": {
+                            "en": "Event Adventure",
+                            "de": "Ereignis Abenteuer",
+                            "fr": "Événement Aventure",
+                            "it": "Evento di avventura"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":linkToCharacterID",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasAdventureTypeList",
                                 "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":isDangerous",
+                                "cardinality": "0-1",
+                                "gui_order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EventConflict",
+                        "super": [
+                            "Resource",
+                            ":Event"
+                        ],
+                        "labels": {
+                            "en": "Event Conflict",
+                            "de": "Ereignis Konflikt",
+                            "fr": "Événement Conflit",
+                            "it": "Evento di conflitto"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":linkToCharacterProtagonistID",
+                                "cardinality": "0-n",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":linkToCharacterAntagonistID",
+                                "cardinality": "0-n",
                                 "gui_order": 2
                             }
                         ]
@@ -1666,7 +1112,7 @@
                             "en": "Location",
                             "de": "Ort",
                             "fr": "Lieu",
-                            "it": "Posizione"
+                            "it": "Luogo"
                         },
                         "cardinalities": [
                             {
@@ -1675,19 +1121,54 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasGeoname",
+                                "propname": ":hasName",
                                 "cardinality": "0-1",
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasName",
-                                "cardinality": "0-1",
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
                                 "gui_order": 3
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "name": "LocationRealWorld",
+                        "super": [
+                            "Resource",
+                            ":Location"
+                        ],
+                        "labels": {
+                            "en": "Location Real World",
+                            "de": "Ort reale Welt",
+                            "fr": "Lieu Monde réel",
+                            "it": "Luogo del mondo reale"
+                        },
+                        "cardinalities": [
                             {
-                                "propname": ":hasWonderlandLocationList",
+                                "propname": ":hasGeoname",
                                 "cardinality": "0-1",
-                                "gui_order": 4
+                                "gui_order": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "LocationWonderland",
+                        "super": [
+                            "Resource",
+                            ":Location"
+                        ],
+                        "labels": {
+                            "en": "Location Wonderland",
+                            "de": "Ort Wunderland",
+                            "fr": "Lieu Pays des Merveilles",
+                            "it": "Luogo del Paese delle Meraviglie"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 1
                             }
                         ]
                     },
@@ -1709,86 +1190,39 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasTimeStamp",
+                                "propname": ":hasFileName",
                                 "cardinality": "0-1",
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasCopyright",
-                                "cardinality": "0-1",
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasLicenseList",
+                                "propname": ":hasTimeStamp",
                                 "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasFileName",
-                                "cardinality": "0-1",
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
                                 "gui_order": 5
-                            }
-                        ]
-                    },
-                    {
-                        "name": "ImageAnimal",
-                        "super": [
-                            ":Image"
-                        ],
-                        "labels": {
-                            "en": "Image Animal Character",
-                            "de": "Bild Tierischer Charakter",
-                            "fr": "Image Personnage animal",
-                            "it": "Immagine Personaggio animale"
-                        },
-                        "cardinalities": [
+                            },
                             {
-                                "propname": ":isPartOfAnimalCharacterID",
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":isPartOfCharacterID",
                                 "cardinality": "0-n",
-                                "gui_order": 1
+                                "gui_order": 7
                             },
                             {
                                 "propname": ":hasSeqnum",
                                 "cardinality": "0-1",
-                                "gui_order": 2
-                            }
-                        ]
-                    },
-                    {
-                        "name": "ImageHuman",
-                        "super": [
-                            ":Image"
-                        ],
-                        "labels": {
-                            "en": "Image Character",
-                            "de": "Bild Charakter",
-                            "fr": "Image Personnage",
-                            "it": "Immagine Personaggio"
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            }
-                        ]
-                    },
-                    {
-                        "name": "ImageWonderlandCharacter",
-                        "super": [
-                            ":Image"
-                        ],
-                        "labels": {
-                            "en": "Image Alice Character",
-                            "de": "Bild Charakter Alice",
-                            "fr": "Image Personnage Alice",
-                            "it": "Immagine personaggio di Alice"
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 1
+                                "gui_order": 8
                             }
                         ]
                     },
@@ -1798,10 +1232,10 @@
                             "AudioRepresentation"
                         ],
                         "labels": {
-                            "en": "Sound of Character",
-                            "de": "Sound des Charakters",
-                            "fr": "Son du personnage",
-                            "it": "Suono del personaggio"
+                            "en": "Audio",
+                            "de": "Audio",
+                            "fr": "Audio",
+                            "it": "Audio"
                         },
                         "cardinalities": [
                             {
@@ -1815,22 +1249,22 @@
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasCopyright",
+                                "propname": ":hasTimeStamp",
                                 "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasLicenseList",
+                                "propname": ":hasCopyright",
                                 "cardinality": "0-1",
                                 "gui_order": 5
                             },
                             {
-                                "propname": ":hasDate",
+                                "propname": ":hasLicenseList",
                                 "cardinality": "0-1",
                                 "gui_order": 6
                             }
@@ -1842,54 +1276,54 @@
                             "MovingImageRepresentation"
                         ],
                         "labels": {
-                            "en": "Video of Character",
-                            "de": "Video des Charakters",
-                            "fr": "Vidéo du personnage",
-                            "it": "Video del personaggio"
+                            "en": "Video",
+                            "de": "Video",
+                            "fr": "Vidéo",
+                            "it": "Video"
                         },
                         "cardinalities": [
                             {
                                 "propname": ":hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasCopyright",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasLicenseList",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasDate",
-                                "cardinality": "0-1",
-                                "gui_order": 5
                             },
                             {
                                 "propname": ":hasFileName",
                                 "cardinality": "1",
                                 "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "0-1",
+                                "gui_order": 6
                             }
                         ]
                     },
                     {
-                        "name": "Originals",
+                        "name": "Material",
                         "super": [
                             "TextRepresentation"
                         ],
                         "labels": {
-                            "en": "Originals",
-                            "de": "Originaldateien",
-                            "fr": "Originaux",
-                            "it": "Originali"
+                            "en": "Project Material",
+                            "de": "Projekt-Material",
+                            "fr": "Projet - Matériel",
+                            "it": "Progetto - Materiale"
                         },
                         "cardinalities": [
                             {
@@ -1898,22 +1332,27 @@
                                 "gui_order": 1
                             },
                             {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 3
                             }
                         ]
                     },
                     {
-                        "name": "Flyer",
+                        "name": "Documentation",
                         "super": [
                             "DocumentRepresentation"
                         ],
                         "labels": {
-                            "en": "Information sheet",
-                            "de": "Infoblatt",
-                            "fr": "Fiche d'information",
-                            "it": "Foglio informativo"
+                            "en": "Project Documentation",
+                            "de": "Projekt-Dokumentation",
+                            "fr": "Projet - Documentation",
+                            "it": "Progetto - Documentazione"
                         },
                         "cardinalities": [
                             {
@@ -1922,22 +1361,27 @@
                                 "gui_order": 1
                             },
                             {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 3
                             }
                         ]
                     },
                     {
-                        "name": "Dungeon",
+                        "name": "Archive",
                         "super": [
                             "ArchiveRepresentation"
                         ],
                         "labels": {
-                            "en": "Dungeon",
-                            "de": "Kerker",
-                            "fr": "Oubliettes",
-                            "it": "Segreta"
+                            "en": "Project Archive",
+                            "de": "Projekt-Archiv",
+                            "fr": "Projet - Archives",
+                            "it": "Progetto - Archivi"
                         },
                         "cardinalities": [
                             {
@@ -1946,9 +1390,14 @@
                                 "gui_order": 1
                             },
                             {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 3
                             }
                         ]
                     }

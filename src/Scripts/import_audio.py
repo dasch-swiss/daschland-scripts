@@ -43,7 +43,8 @@ def main():
             resource.append(excel2xml.make_list_prop("License", ":hasLicenseList", row["License List"]))
         if excel2xml.check_notna(row["File Name"]):
             resource.append(excel2xml.make_text_prop(":hasFileName", row["File Name"]))
-
+        if excel2xml.check_notna(row["Description"]):
+            resource.append(excel2xml.make_text_prop(":hasDescription", excel2xml.PropertyElement(row["Description"], encoding="xml")))
         # append the resource to the list
         all_resources.append(resource)
     # add all resources to the root

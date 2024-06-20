@@ -8,27 +8,27 @@ def main():
     all_resources = []
 
     # define folder paths
-    image_wonderland_df = pd.read_excel("data/Spreadsheet_Data/ImageWonderlandCharacter.xlsx", dtype="str")
+    image_df = pd.read_excel("data/Spreadsheet_Data/Image.xlsx", dtype="str")
 
     # create the root element dsp-tools
     root = helper.make_root()
 
     # iterate through the rows of the old data from salsah:
-    for _, row in image_wonderland_df.iterrows():
+    for _, row in image_df.iterrows():
 
         # create resource, label and id
         if not excel2xml.check_notna(row["ID"]):
             continue
         resource_id = row["ID"]
-        resource_label = row["Label"]
+        resource_label = row["Description"]
 
         # create the `<resource>` tag
         resource = excel2xml.make_resource(
             label=resource_label,
-            restype=":ImageWonderlandCharacter",
+            restype=":Image",
             id=resource_id)
 
-        # create resource type "Image Wonderland Character"
+        # create resource type "Image Human"
         image_path = f"{row['Image Directory']}{row['File Name']}"
         resource.append(excel2xml.make_bitstream_prop(image_path))
 
@@ -43,16 +43,19 @@ def main():
             resource.append(excel2xml.make_list_prop("License", ":hasLicenseList", row["License List"]))
         if excel2xml.check_notna(row["File Name"]):
             resource.append(excel2xml.make_text_prop(":hasFileName", row["File Name"]))
-
+        if excel2xml.check_notna(row["Character ID"]):
+            character_ids = [x.strip() for x in row["Character ID"].split(",")]
+            resource.append(excel2xml.make_resptr_prop(":isPartOfCharacterID", character_ids))
+        if excel2xml.check_notna(row["Seqnum"]):
+            resource.append(excel2xml.make_integer_prop(":hasSeqnum", row["Seqnum"]))
         # append the resource to the list
         all_resources.append(resource)
     # add all resources to the root
     root.extend(all_resources)
 
     excel2xml.write_xml(root,
-                        "data/XML/import_image_wonderland_character.xml")
+                        "data/XML/import_image_animal.xml")
     return all_resources
-
 
 if __name__ == "__main__":
     main()

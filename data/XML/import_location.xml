@@ -33,131 +33,131 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Location 1" restype=":Location" id="L_001" permissions="res-default">
+    <resource label="Alice's Garden" restype=":LocationRealWorld" id="L_001" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_001</text>
         </text-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">Alice's Garden</list>
-        </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Location 1</text>
+            <text permissions="prop-default" encoding="utf8">Alice's Garden</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Alice's Garden</text>
         </text-prop>
     </resource>
-    <resource label="Location 2" restype=":Location" id="L_002" permissions="res-default">
+    <resource label="Rabbit Hole" restype=":LocationWonderland" id="L_002" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_002</text>
         </text-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">Rabbit Hole</list>
-        </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Location 2</text>
+            <text permissions="prop-default" encoding="utf8">Rabbit Hole</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Rabbit Hole</text>
         </text-prop>
     </resource>
-    <resource label="Location 3" restype=":Location" id="L_003" permissions="res-default">
+    <resource label="Duchess' house" restype=":LocationWonderland" id="L_003" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_003</text>
         </text-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">Duchess' house</list>
-        </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Location 3</text>
+            <text permissions="prop-default" encoding="utf8">Duchess' house</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Duchess' house</text>
         </text-prop>
     </resource>
-    <resource label="Location 4" restype=":Location" id="L_004" permissions="res-default">
+    <resource label="White Rabbit's house" restype=":LocationWonderland" id="L_004" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_004</text>
         </text-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">White Rabbit's house</list>
-        </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Location 4</text>
+            <text permissions="prop-default" encoding="utf8">White Rabbit's house</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">White Rabbit's house</text>
         </text-prop>
     </resource>
-    <resource label="Location 5" restype=":Location" id="L_005" permissions="res-default">
+    <resource label="Seacoast" restype=":LocationWonderland" id="L_005" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_005</text>
         </text-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">Seacoast</list>
-        </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Location 5</text>
+            <text permissions="prop-default" encoding="utf8">Seacoast</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Seacoast</text>
         </text-prop>
     </resource>
-    <resource label="Location 6" restype=":Location" id="L_006" permissions="res-default">
+    <resource label="Palace of Hearts" restype=":LocationWonderland" id="L_006" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_006</text>
         </text-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">Palace of Hearts</list>
-        </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Location 6</text>
+            <text permissions="prop-default" encoding="utf8">Palace of Hearts</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Palace of Hearts</text>
         </text-prop>
     </resource>
-    <resource label="Location 7" restype=":Location" id="L_007" permissions="res-default">
+    <resource label="Garden" restype=":LocationWonderland" id="L_007" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_007</text>
         </text-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">Garden</list>
-        </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Location 7</text>
+            <text permissions="prop-default" encoding="utf8">Garden</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Garden</text>
         </text-prop>
     </resource>
-    <resource label="Location 8" restype=":Location" id="L_008" permissions="res-default">
+    <resource label="Mad Hatters's Tea Room" restype=":LocationWonderland" id="L_008" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_008</text>
         </text-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">Mad Hatters's Tea Room</list>
-        </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Location 8</text>
+            <text permissions="prop-default" encoding="utf8">Mad Hatters's Tea Room</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Mad Hatters's Tea Room</text>
         </text-prop>
     </resource>
-    <resource label="Location 9" restype=":Location" id="L_009" permissions="res-default">
+    <resource label="Pool of Tears" restype=":LocationWonderland" id="L_009" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_009</text>
         </text-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">Pool of Tears</list>
-        </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Location 9</text>
+            <text permissions="prop-default" encoding="utf8">Pool of Tears</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Pool of Tears</text>
         </text-prop>
     </resource>
-    <resource label="Oxford" restype=":Location" id="L_010" permissions="res-default">
+    <resource label="Oxford" restype=":LocationRealWorld" id="L_010" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_010</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Oxford</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Oxford</text>
         </text-prop>
         <geoname-prop name=":hasGeoname">
             <geoname permissions="prop-default">2640729</geoname>
         </geoname-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">Oxford</list>
-        </list-prop>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Oxford</text>
-        </text-prop>
     </resource>
-    <resource label="England" restype=":Location" id="L_011" permissions="res-default">
+    <resource label="England" restype=":LocationRealWorld" id="L_011" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">L_011</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">England</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">England</text>
         </text-prop>
         <geoname-prop name=":hasGeoname">
             <geoname permissions="prop-default">6269131</geoname>
         </geoname-prop>
-        <list-prop list="Fairytale Location" name=":hasWonderlandLocationList">
-            <list permissions="prop-default">England</list>
-        </list-prop>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">England</text>
-        </text-prop>
     </resource>
 </knora>
