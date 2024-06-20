@@ -33,19 +33,4 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Ping ronronne" restype=":Audio" id="AUD_001" permissions="res-default">
-        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/Ping_purring.mp3</bitstream>
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">AUD_001</text>
-        </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">Noémi Villars-Amberg</text>
-        </text-prop>
-        <list-prop list="License" name=":hasLicenseList">
-            <list permissions="prop-default">CC BY 4.0</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Ping_purring.mp3</text>
-        </text-prop>
-    </resource>
 </knora>

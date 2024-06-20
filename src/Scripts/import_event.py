@@ -42,7 +42,7 @@ def main():
         elif row["Event Type List"] == "Adventure":
             resource = excel2xml.make_resource(
                 label=resource_label,
-                restype=":Adventure",
+                restype=":EventAdventure",
                 id=resource_id)
 
         #append Properties
@@ -51,7 +51,7 @@ def main():
         if excel2xml.check_notna(row["Name"]):
             resource.append(excel2xml.make_text_prop(":hasName", row["Name"]))
         if excel2xml.check_notna(row["Description"]):
-            resource.append(excel2xml.make_text_prop(":hasDescription", row["Description"]))
+            resource.append(excel2xml.make_text_prop(":hasDescription", excel2xml.PropertyElement(row["Description"], encoding="xml")))
         if excel2xml.check_notna(row["Location ID"]):
             location_ids = [x.strip() for x in row["Location ID"].split(",")]
             resource.append(excel2xml.make_resptr_prop(":linkToLocationID", location_ids))

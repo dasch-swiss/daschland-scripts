@@ -27,6 +27,10 @@ def main():
             restype=":Book",
             id=resource_id)
 
+        # create resource type "Image Human"
+        book_path = f"{row['Directory']}{row['File Name']}"
+        resource.append(excel2xml.make_bitstream_prop(book_path))
+
         # Append Properties
         if excel2xml.check_notna(row["ID"]):
             resource.append(excel2xml.make_text_prop(":hasID", resource_id))

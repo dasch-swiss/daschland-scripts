@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0011" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="Gregor" restype=":ImageHuman" id="IH_001" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Gregor_ABrilliantPhoto_2022_04.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_001</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-22T14:30:48-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Gregor_ABrilliantPhoto_2022_04.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Balduin" restype=":ImageHuman" id="IH_002" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Balduin_ABrilliantPhoto_2022_15.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_002</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-24T14:54:43-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Balduin_ABrilliantPhoto_2022_15.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Julien S" restype=":ImageHuman" id="IH_003" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Julien_ABrilliantPhoto_2023_17.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_003</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2023-12-13T11:35:18-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Julien_ABrilliantPhoto_2023_17.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Christian" restype=":ImageHuman" id="IH_004" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Christian_ABrilliantPhoto_2022_19.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_004</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-12-21T11:45:55-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Christian_ABrilliantPhoto_2022_19.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Christina" restype=":ImageHuman" id="IH_005" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Christina_ABrilliantPhoto_2022_09.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_005</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-03-22T11:06:48-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Christina_ABrilliantPhoto_2022_09.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Daniela M" restype=":ImageHuman" id="IH_006" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/DanielaM_ABrilliantPhoto_2022_06.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_006</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-24T13:52:28-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">DanielaM_ABrilliantPhoto_2022_06.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Daniela S" restype=":ImageHuman" id="IH_007" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/DanielaS_ABrilliantPhoto_2022_13.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_007</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-24T14:47:26-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">DanielaS_ABrilliantPhoto_2022_13.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Dominique" restype=":ImageHuman" id="IH_008" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Dominique_ABrilliantPhoto_2022_06.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_008</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-22T15:21:04-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Dominique_ABrilliantPhoto_2022_06.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Flabie" restype=":ImageHuman" id="IH_009" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Flavie_ABrilliantPhoto_2022_06.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_009</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-24T14:16:05-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Flavie_ABrilliantPhoto_2022_06.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Irmantas" restype=":ImageHuman" id="IH_010" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Irmantas_ABrilliantPhoto_2024_09.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_010</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-02-28T13:33:25-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Irmantas_ABrilliantPhoto_2024_09.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Ivan" restype=":ImageHuman" id="IH_011" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Ivan_ABrilliantPhoto_2022_10.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_011</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-24T14:49:08-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Ivan_ABrilliantPhoto_2022_10.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Johannes" restype=":ImageHuman" id="IH_012" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Johannes_ABrilliantPhoto_2022_03.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_012</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-22T14:15:37-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Johannes_ABrilliantPhoto_2022_03.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Jose Luis" restype=":ImageHuman" id="IH_013" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Jose_ABrilliantPhoto_2024_04.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_013</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-02-02T11:39:17-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Jose_ABrilliantPhoto_2024_04.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Julien R" restype=":ImageHuman" id="IH_014" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Julien_ABrilliantPhoto_2022_05.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_014</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-22T13:56:26-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Julien_ABrilliantPhoto_2022_05.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Lukas" restype=":ImageHuman" id="IH_015" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Lukas_ABrilliantPhoto_2022_04.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_015</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-22T14:25:12-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Lukas_ABrilliantPhoto_2022_04.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Marcin" restype=":ImageHuman" id="IH_016" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Marcin_ABrilliantPhoto_2022_14-1.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_016</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Marcin_ABrilliantPhoto_2022_14-1.jpeg</text>
+        </text-prop>
+    </resource>
+    <resource label="Noemi " restype=":ImageHuman" id="IH_017" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Noemi_November2022_12_.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_017</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-11-16T17:09:35-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Noemi_November2022_12_.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Nora" restype=":ImageHuman" id="IH_018" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Nora_ABrilliantPhoto_Feb2024_05.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_018</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2024-02-09T13:02:20-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Nora_ABrilliantPhoto_Feb2024_05.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Raitis" restype=":ImageHuman" id="IH_019" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Raitis_ABrilliantPhoto_2024_09bw.jpeg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_019</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Raitis_ABrilliantPhoto_2024_09bw.jpeg</text>
+        </text-prop>
+    </resource>
+    <resource label="Rita" restype=":ImageHuman" id="IH_020" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Rita_ABrilliantPhoto_2022_14.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_020</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-22T15:25:42-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Rita_ABrilliantPhoto_2022_14.jpg</text>
+        </text-prop>
+    </resource>
+    <resource label="Samuel" restype=":ImageHuman" id="IH_021" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Image_Human/Samuel_ABrilliantPhoto_2022_07.jpg</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">IH_021</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="prop-default">2022-02-22T15:42:19-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">ABrilliantPhoto</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">CC BY 4.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Samuel_ABrilliantPhoto_2022_07.jpg</text>
+        </text-prop>
+    </resource>
+</knora>

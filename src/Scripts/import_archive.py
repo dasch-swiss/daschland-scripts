@@ -1,13 +1,14 @@
 import pandas as pd
 from dsp_tools import excel2xml
 from src.Helper_Scripts import helper
+from src.Helper_Scripts.cleaning_df_tools import get_clean_list_images
+import glob
 
 def main():
     all_resources = []
 
     # define folder paths
-    archive_df_unfiltered = glob.glob("data/Multimedia_Data/Archive/*.*", recursive=True)
-    archive_df = get_clean_list_images(archive_df_unfiltered)
+    archive_df = pd.read_excel("data/Spreadsheet_data/Archive.xlsx")
 
     # create the root element dsp-tools
     root = helper.make_root()
@@ -43,7 +44,7 @@ def main():
     root.extend(all_resources)
 
     excel2xml.write_xml(root,
-                        "data/XML/import_dungeon.xml")
+                        "data/XML/import_archive.xml")
     return all_resources
 
 if __name__ == "__main__":

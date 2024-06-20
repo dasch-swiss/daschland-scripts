@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0011" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="Nora Ammann" restype=":Character" id="H_017" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_017</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Nora</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Ammann</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Research Data Specialist</list>
+            <list permissions="prop-default">Scientific Programmer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <boolean-prop name=":hasPet">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_3</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_018</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1990-07-09:CE:1990-07-09</date>
+        </date-prop>
+    </resource>
+    <resource label="Gregor Bachmann" restype=":Character" id="H_019" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_019</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Gregor</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Bachmann</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Research Data Specialist</list>
+            <list permissions="prop-default">Scientific Programmer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_1</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_001</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1991-08-06:CE:1991-08-06</date>
+        </date-prop>
+    </resource>
+    <resource label="Samuel Börlin" restype=":Character" id="H_018" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_018</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Samuel</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Börlin</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Infrastructure Engineer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_2</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_021</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1997-03-06:CE:1997-03-06</date>
+        </date-prop>
+    </resource>
+    <resource label="Rita Gautschy" restype=":Character" id="H_001" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_001</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Rita</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Gautschy</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Director</list>
+            <list permissions="prop-default">Head of Repository Services</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <boolean-prop name=":hasPet">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_6</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_020</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1973-05-09:CE:1973-05-09</date>
+        </date-prop>
+    </resource>
+    <resource label="Cristina Grisot" restype=":Character" id="H_004" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_004</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Cristina</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Grisot</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">National Coordination Officer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_5</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">DARIAH-CH</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_005</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1984-12-10:CE:1984-12-10</date>
+        </date-prop>
+    </resource>
+    <resource label="Irmantas Kaukas" restype=":Character" id="H_014" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_014</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Irmantas</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Kaukas</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Software Engineer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_8</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_010</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1981-04-23:CE:1981-04-23</date>
+        </date-prop>
+    </resource>
+    <resource label="Christian Kleinbölting" restype=":Character" id="H_016" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_016</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Christian</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Kleinbölting</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Software Engineer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <boolean-prop name=":hasPet">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_7</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_004</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1977-05-10:CE:1977-05-10</date>
+        </date-prop>
+    </resource>
+    <resource label="Balduin Landolt" restype=":Character" id="H_013" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_013</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Balduin</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Landolt</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Software Engineer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <boolean-prop name=":hasPet">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_3</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_002</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1990-04-18:CE:1990-04-18</date>
+        </date-prop>
+    </resource>
+    <resource label="Flavie Laurens" restype=":Character" id="H_011" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_011</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Flavie</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Laurens</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Product Manager</list>
+            <list permissions="prop-default">Research Data Specialist</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_4</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_009</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1990-03-18:CE:1990-03-18</date>
+        </date-prop>
+    </resource>
+    <resource label="José Luis Losada Palenzuela" restype=":Character" id="H_022" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_022</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">José Luis</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Losada Palenzuela</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Senior Research Data Specialist</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_5</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_013</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1971-01-06:CE:1971-01-06</date>
+        </date-prop>
+    </resource>
+    <resource label="Daniela Meier" restype=":Character" id="H_003" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_003</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Daniela</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Meier</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Operations Manager</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_1</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Office Management</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_006</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1986-09-19:CE:1986-09-19</date>
+        </date-prop>
+    </resource>
+    <resource label="Johannes Nussbaum" restype=":Character" id="H_009" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_009</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Johannes</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Nussbaum</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Research Data Specialist</list>
+            <list permissions="prop-default">Scientific Programmer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_3</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_012</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1993-01-26:CE:1993-01-26</date>
+        </date-prop>
+    </resource>
+    <resource label="Marcin Procyk" restype=":Character" id="H_006" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_006</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Marcin</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Procyk</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Software Engineer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_4</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_016</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1982-12-02:CE:1982-12-02</date>
+        </date-prop>
+    </resource>
+    <resource label="Julien A. Raemy" restype=":Character" id="H_005" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_005</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Julien A.</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Raemy</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Interoperability Specialist</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_4</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_014</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1988-08-30:CE:1988-08-30</date>
+        </date-prop>
+    </resource>
+    <resource label="Julien Schneider" restype=":Character" id="H_021" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_021</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Julien</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Schneider</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Senior Software Engineer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <boolean-prop name=":hasPet">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_4</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_003</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1991-10-15:CE:1991-10-15</date>
+        </date-prop>
+    </resource>
+    <resource label="Dominique Steinbach" restype=":Character" id="H_015" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_015</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Dominique</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Steinbach</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Software Engineer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_1</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_008</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1982-05-28:CE:1982-05-28</date>
+        </date-prop>
+    </resource>
+    <resource label="Lukas Stöckli" restype=":Character" id="H_010" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_010</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Lukas</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Stöckli</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Infrastructure Engineer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_2</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_015</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1990-12-01:CE:1990-12-01</date>
+        </date-prop>
+    </resource>
+    <resource label="Ivan Subotic" restype=":Character" id="H_002" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_002</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Ivan</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Subotic</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Deputy Director</list>
+            <list permissions="prop-default">Head of Engineering</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <boolean-prop name=":hasPet">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_5</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_011</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1973-05-16:CE:1973-05-16</date>
+        </date-prop>
+    </resource>
+    <resource label="Daniela Subotic" restype=":Character" id="H_012" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_012</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Daniela</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Subotic</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Product Manager</list>
+            <list permissions="prop-default">Research Data Specialist</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <boolean-prop name=":hasPet">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_4</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_007</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1980-02-23:CE:1980-02-23</date>
+        </date-prop>
+    </resource>
+    <resource label="Raitis Veinbahs" restype=":Character" id="H_020" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_020</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Raitis</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Veinbahs</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Senior Software Engineer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Engineering</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_019</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1993-11-20:CE:1993-11-20</date>
+        </date-prop>
+    </resource>
+    <resource label="Noémi Villars-Amberg" restype=":Character" id="H_007" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_007</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Noémi</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Villars-Amberg</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Senior Research Data Specialist</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <boolean-prop name=":hasPet">
+            <boolean permissions="prop-default">true</boolean>
+        </boolean-prop>
+        <text-prop name=":hasFavoriteCake">
+            <text permissions="prop-default" encoding="utf8">fondant au chocolat</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_5</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <resptr-prop name=":linkToImageCharacterID">
+            <resptr permissions="prop-default">IH_017</resptr>
+        </resptr-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1981-09-20:CE:1981-09-20</date>
+        </date-prop>
+    </resource>
+    <resource label="Florian Wegelin" restype=":Character" id="H_008" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">H_008</text>
+        </text-prop>
+        <text-prop name=":hasFirstName">
+            <text permissions="prop-default" encoding="utf8">Florian</text>
+        </text-prop>
+        <text-prop name=":hasLastName">
+            <text permissions="prop-default" encoding="utf8">Wegelin</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">Research Data Specialist</list>
+            <list permissions="prop-default">Scientific Programmer</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">bla bla</text>
+        </text-prop>
+        <list-prop list="Education Grade" name=":hasEducationGradeList">
+            <list permissions="prop-default">edu_3</list>
+        </list-prop>
+        <list-prop list="Departement" name=":hasDepartementList">
+            <list permissions="prop-default">Repository Services</list>
+        </list-prop>
+        <date-prop name=":hasBirthday">
+            <date permissions="res-restricted">GREGORIAN:CE:1983-09-23:CE:1983-09-23</date>
+        </date-prop>
+    </resource>
+</knora>

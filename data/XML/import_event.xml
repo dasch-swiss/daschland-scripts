@@ -41,13 +41,13 @@
             <text permissions="prop-default" encoding="utf8">Tea-Party</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Tea-party at the Madhatters House</text>
+            <text permissions="prop-default" encoding="xml">Tea-party at the Madhatters House</text>
         </text-prop>
         <resptr-prop name=":linkToLocationID">
             <resptr permissions="prop-default">L_008</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Down the Rabbit Hole" restype=":Adventure" id="EV_002" permissions="res-default">
+    <resource label="Down the Rabbit Hole" restype=":EventAdventure" id="EV_002" permissions="res-default">
         <text-prop name=":hasID">
             <text permissions="prop-default" encoding="utf8">EV_002</text>
         </text-prop>
@@ -55,7 +55,7 @@
             <text permissions="prop-default" encoding="utf8">Down the Rabbit Hole</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Alice jumps down the rabbit hole</text>
+            <text permissions="prop-default" encoding="xml">Alice jumps down the rabbit hole</text>
         </text-prop>
         <resptr-prop name=":linkToLocationID">
             <resptr permissions="prop-default">L_002</resptr>

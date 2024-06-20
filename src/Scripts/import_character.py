@@ -56,7 +56,7 @@ def main():
     root.extend(all_resources)
 
     excel2xml.write_xml(root,
-                        "data/XML/import_wonderland_character.xml")
+                        "data/XML/import_character.xml")
     return all_resources
 
 if __name__ == "__main__":

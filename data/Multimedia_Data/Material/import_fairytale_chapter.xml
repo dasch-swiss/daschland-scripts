@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0011" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="Alice in DaSCHland - Chapter 1" restype=":FairytaleChapter" id="FC_01" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Fairytale_Chapter/Alice in Wonderland Chapter 1.png</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">FC_01</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Chapter 1</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Alice was not your ordinary girl; she had a keen sense of adventure and a bright, inquisitive mind. One sunny afternoon, while wandering near the edge of her town, she stumbled upon a peculiar rabbit hole, shimmering with an array of colors that hinted at something magical beyond the ordinary.</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfFairytaleID">
+            <resptr permissions="prop-default">FT_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in DaSCHland - Chapter 2" restype=":FairytaleChapter" id="FC_02" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Fairytale_Chapter/Alice in Wonderland Chapter 2.png</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">FC_02</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Chapter 2</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Compelled by her adventurous spirit, Alice leaned in closer to examine the hole. Suddenly, she found herself tumbling down into an extraordinary place called DaSCHland. This wasn't just any wonderland; it was a world powered by the innovative company DaSCH, known for its remarkable technology and whimsical inventions, and importantly, as a repository for research data in the humanities.</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfFairytaleID">
+            <resptr permissions="prop-default">FT_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">2</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in DaSCHland - Chapter 3" restype=":FairytaleChapter" id="FC_03" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Fairytale_Chapter/Alice in Wonderland Chapter 3.png</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">FC_03</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Chapter 3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">As Alice landed softly on a bed of clouds, she was greeted by a talking robot named RabbIT. RabbIT, with its glowing red eyes and sleek silver body, was unlike any creature Alice had ever seen. "Welcome to DaSCHland," it beeped warmly. "Here, our dreams become realities, and our curiosities fuel our creations."</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfFairytaleID">
+            <resptr permissions="prop-default">FT_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">3</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">W_002</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in DaSCHland - Chapter 4" restype=":FairytaleChapter" id="FC_04" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Fairytale_Chapter/Alice in Wonderland Chapter 4.png</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">FC_04</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Chapter 4</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Eager to explore, Alice followed RabbIT through a landscape where trees had digital screens for leaves displaying fantastical images and data streamed across the sky like shooting stars. They passed houses that changed shape and color at the occupants' whims and gardens where flowers sang melodies in harmony.</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfFairytaleID">
+            <resptr permissions="prop-default">FT_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">4</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">W_002</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in DaSCHland - Chapter 5" restype=":FairytaleChapter" id="FC_05" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Fairytale_Chapter/Alice in Wonderland Chapter 5.png</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">FC_05</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Chapter 5</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Their first stop was the Tea Time Café, where a Mad Hatter, an eccentric inventor in DaSCHland, served tea that could make one shrink or grow. Alice sipped a cup marked "Grow" and instantly stretched taller than the trees. Amused and a bit startled, she laughed, marveling at the wonders of DaSCHland.</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfFairytaleID">
+            <resptr permissions="prop-default">FT_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">5</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">W_004</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in DaSCHland - Chapter 6" restype=":FairytaleChapter" id="FC_06" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Fairytale_Chapter/Alice in Wonderland Chapter 6.png</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">FC_06</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Chapter 6</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Next, they visited the Queen of Hearts, who was not a queen of cards but a brilliant engineer leading the Hearts Division, specializing in creating technologies that connected emotions with devices. The Queen showed Alice a mirror that didn't just reflect one's image but also displayed one’s innermost feelings and thoughts.</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfFairytaleID">
+            <resptr permissions="prop-default">FT_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">6</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in DaSCHland - Chapter 7" restype=":FairytaleChapter" id="FC_07" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Fairytale_Chapter/Alice in Wonderland Chapter 7.png</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">FC_07</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Chapter 7</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">As the day turned to dusk, RabbIT led Alice to the Grand Library, a vast, spiraling tower filled with books that whispered their stories aloud, eager to be heard. Here, Alice learned the history of DaSCHland, how it was built by dreamers and thinkers, innovators and creators, all powered by the visionary company DaSCH, dedicated to bringing humanities data to life.</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfFairytaleID">
+            <resptr permissions="prop-default">FT_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">7</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in DaSCHland - Chapter 8" restype=":FairytaleChapter" id="FC_08" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Fairytale_Chapter/Alice in Wonderland Chapter 8.png</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">FC_08</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Chapter 8</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">But soon, the sky darkened, and a soft voice whispered that it was time for Alice to return to her world. Reluctantly, Alice followed RabbIT back to the rabbit hole. "You must return, but remember that DaSCHland is always here, waiting for your return. Keep dreaming and wondering," RabbIT said as Alice climbed out of the hole.</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfFairytaleID">
+            <resptr permissions="prop-default">FT_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">8</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in DaSCHland - Chapter 9" restype=":FairytaleChapter" id="FC_09" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Fairytale_Chapter/Alice in Wonderland Chapter 9.png</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">FC_09</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Chapter 9</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Back in her world, the adventure seemed like a dream. Yet, in her pocket was a small, glowing stone, a token from DaSCHland. Alice smiled, knowing that her journey had been real and that she would one day return to the wondrous realm of DaSCHland, where dreams and the rich tapestry of humanities research were just the beginning.</text>
+        </text-prop>
+        <resptr-prop name=":isPartOfFairytaleID">
+            <resptr permissions="prop-default">FT_001</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">9</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToAliceCharacterID">
+            <resptr permissions="prop-default">W_001</resptr>
+        </resptr-prop>
+    </resource>
+</knora>

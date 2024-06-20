@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0011" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="import_character.xml" restype=":Material" id="O_001" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_character.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_001</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_character.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_audio.xml" restype=":Material" id="O_002" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_audio.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_002</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_audio.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_character.xml" restype=":Material" id="O_003" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_character.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_003</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_character.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_book_chapter.xml" restype=":Material" id="O_004" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_book_chapter.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_004</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_book_chapter.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_book.xml" restype=":Material" id="O_005" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_book.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_005</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_book.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_image.xml" restype=":Material" id="O_006" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_image.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_006</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_image.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_event.xml" restype=":Material" id="O_007" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_event.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_007</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_event.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_material.xml" restype=":Material" id="O_008" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_material.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_008</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_material.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_location.xml" restype=":Material" id="O_009" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_location.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_009</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_location.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_archive.xml" restype=":Material" id="O_010" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_archive.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_010</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_archive.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+    <resource label="import_documentation.xml" restype=":Material" id="O_011" permissions="res-default">
+        <bitstream permissions="prop-default">data/XML/import_documentation.xml</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">O_011</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">import_documentation.xml</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">to be described</text>
+        </text-prop>
+    </resource>
+</knora>

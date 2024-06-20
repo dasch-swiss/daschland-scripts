@@ -33,40 +33,4 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Atli and Ginny run" restype=":Video" id="VID_001" permissions="res-default">
-        <bitstream permissions="prop-default">data/Multimedia_Data/Video/Atli_Ginny_001.MP4</bitstream>
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">VID_001</text>
-        </text-prop>
-        <time-prop name=":hasTimeStamp">
-            <time permissions="prop-default">2023-12-13T18:48:36-00:00</time>
-        </time-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">Nora Ammann</text>
-        </text-prop>
-        <list-prop list="License" name=":hasLicenseList">
-            <list permissions="prop-default">CC BY 4.0</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Atli_Ginny_001.MP4</text>
-        </text-prop>
-    </resource>
-    <resource label="Attli and Ginny chase each other" restype=":Video" id="VID_002" permissions="res-default">
-        <bitstream permissions="prop-default">data/Multimedia_Data/Video/Atli_Ginny_002.MP4</bitstream>
-        <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">VID_002</text>
-        </text-prop>
-        <time-prop name=":hasTimeStamp">
-            <time permissions="prop-default">2023-12-13T08:11:32-00:00</time>
-        </time-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">Nora Ammann</text>
-        </text-prop>
-        <list-prop list="License" name=":hasLicenseList">
-            <list permissions="prop-default">CC BY 4.0</list>
-        </list-prop>
-        <text-prop name=":hasFileName">
-            <text permissions="prop-default" encoding="utf8">Atli_Ginny_002.MP4</text>
-        </text-prop>
-    </resource>
 </knora>
