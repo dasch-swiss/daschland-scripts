@@ -44,8 +44,8 @@ def main():
             color = [x.strip() for x in row["Colour"].split(",")]
             resource.append(excel2xml.make_color_prop(":hasColor", color))
         if excel2xml.check_notna(row["Role List"]):
-            roles_raw = [x.strip() for x in row["Role List"].split(",")]
-            roles = [role_label_to_names.get(x) for x in roles_raw]
+            roles = [x.strip() for x in row["Role List"].split(",")]
+            # roles = [role_label_to_names.get(x) for x in roles_raw]
             resource.append(excel2xml.make_list_prop("Role", ":hasRoleList", roles))
         if excel2xml.check_notna(row["Quote"]):
             resource.append(excel2xml.make_text_prop(":hasQuote", excel2xml.PropertyElement(row["Quote"], encoding="xml")))

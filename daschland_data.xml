@@ -33,10 +33,10 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Spreadsheet_Data.zip" restype=":Archive" id="D_001" permissions="res-default">
+    <resource label="Spreadsheet_Data.zip" restype=":Archive" id="AR_001" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Archive/Spreadsheet_Data.zip</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">D_001</text>
+            <text permissions="prop-default" encoding="utf8">AR_001</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Archive from Project daschland-scripts spreadsheets</text>
@@ -45,10 +45,959 @@
             <text permissions="prop-default" encoding="utf8">Spreadsheet_Data.zip</text>
         </text-prop>
     </resource>
-    <resource label="Alice in Wonderland" restype=":Book" id="FT_001" permissions="res-default">
+    <resource label="Dramatis Personae" restype=":Audio" id="A_01" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_00_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_01</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Dramatis Personae</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_00_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Dramatis Personae
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="Down the Rabbit-Hole" restype=":Audio" id="A_02" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_01_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_02</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Down the Rabbit-Hole</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_01_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Down the Rabbit-Hole
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Pool of Tears" restype=":Audio" id="A_03" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_02_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_03</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Pool of Tears</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_02_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Pool of Tears
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="A Caucus-Race and Long Tale" restype=":Audio" id="A_04" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_03_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_04</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">A Caucus-Race and Long Tale</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_03_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">A Caucus-Race and Long Tale
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English"</text>
+        </text-prop>
+    </resource>
+    <resource label="The Rabbit Sends in a Little Bill" restype=":Audio" id="A_05" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_04_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_05</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Rabbit Sends in a Little Bill</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_04_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Rabbit Sends in a Little Bill
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English"</text>
+        </text-prop>
+    </resource>
+    <resource label="Advice From a Caterpillar" restype=":Audio" id="A_06" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_05_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_06</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Advice From a Caterpillar</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_05_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Advice From a Caterpillar
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="Pig and Pepper" restype=":Audio" id="A_07" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_06_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_07</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Pig and Pepper</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_06_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Pig and Pepper
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Mad Tea-Party" restype=":Audio" id="A_08" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_07_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_08</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Mad Tea-Party</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_07_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Mad Tea-Party
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Queen's Croquet-Ground" restype=":Audio" id="A_09" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_08_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_09</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Queen's Croquet-Ground</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_08_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Queen's Croquet-Ground
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Mock Turtle's Story" restype=":Audio" id="A_10" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_09_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_10</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Mock Turtle's Story</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_09_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Mock Turtle's Story
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Lobster Quadrille" restype=":Audio" id="A_11" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_10_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_11</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Lobster Quadrille</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_10_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Lobster Quadrille
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="Who Stole the Tarts?" restype=":Audio" id="A_12" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_11_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_12</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Who Stole the Tarts?</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_11_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Who Stole the Tarts?
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="Alice's Evidence" restype=":Audio" id="A_13" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_12_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_13</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Alice's Evidence</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_12_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Alice's Evidence
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="Alice in Wonderland" restype=":Book" id="BK_001" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Book/Alice_in_Wonderland.pdf</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FT_001</text>
+            <text permissions="prop-default" encoding="utf8">BK_001</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Alice in Wonderland</text>
@@ -66,10 +1015,10 @@
             <list permissions="prop-default">CC 0.0</list>
         </list-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there" restype=":Book" id="FT_002" permissions="res-default">
+    <resource label="Through the Looking-Glass and what Alice found there" restype=":Book" id="BK_002" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Book/Through_the_Looking_Glass.pdf</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FT_002</text>
+            <text permissions="prop-default" encoding="utf8">BK_002</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Through the Looking-Glass and what Alice found there</text>
@@ -87,12 +1036,23 @@
             <list permissions="prop-default">CC 0.0</list>
         </list-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 1" restype=":BookChapter" id="FC_01" permissions="res-default">
+    <resource label="Alice in Wonderland - Poem: “All in the golden afternoon”" restype=":BookChapter" id="BC_01" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_01</text>
+            <text permissions="prop-default" encoding="utf8">BC_01</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 1</text>
+            <text permissions="prop-default" encoding="utf8">Poem: “All in the golden afternoon”</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Poem</text>
+        </text-prop>
+    </resource>
+    <resource label="Alice in Wonderland - Down the Rabbit-Hole" restype=":BookChapter" id="BC_02" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_02</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Down the Rabbit-Hole</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Alice was not your ordinary girl; she had a keen sense of adventure and a bright, inquisitive mind. One sunny afternoon, while wandering near the edge of her town, she stumbled upon a peculiar rabbit hole, shimmering with an array of colors that hinted at something magical beyond the ordinary.</text>
@@ -104,15 +1064,18 @@
             <uri permissions="prop-default">https://www.alice-in-wonderland.net/resources/chapters-script/alices-adventures-in-wonderland/chapter-1/</uri>
         </uri-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_016</resptr>
+            <resptr permissions="prop-default">CH_020</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 2" restype=":BookChapter" id="FC_02" permissions="res-default">
+    <resource label="Alice in Wonderland - The Pool of Tears" restype=":BookChapter" id="BC_03" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_02</text>
+            <text permissions="prop-default" encoding="utf8">BC_03</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 2</text>
+            <text permissions="prop-default" encoding="utf8">The Pool of Tears</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Compelled by her adventurous spirit, Alice leaned in closer to examine the hole. Suddenly, she found herself tumbling down into an extraordinary place called DaSCHland. This wasn't just any wonderland; it was a world powered by the innovative company DaSCH, known for its remarkable technology and whimsical inventions, and importantly, as a repository for research data in the humanities.</text>
@@ -121,15 +1084,22 @@
             <integer permissions="prop-default">2</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_020</resptr>
+            <resptr permissions="prop-default">CH_014</resptr>
+            <resptr permissions="prop-default">CH_021</resptr>
+            <resptr permissions="prop-default">CH_015</resptr>
+            <resptr permissions="prop-default">CH_022</resptr>
+            <resptr permissions="prop-default">CH_023</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 3" restype=":BookChapter" id="FC_03" permissions="res-default">
+    <resource label="Alice in Wonderland - A Caucus-Race and a long Tale" restype=":BookChapter" id="BC_04" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_03</text>
+            <text permissions="prop-default" encoding="utf8">BC_04</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 3</text>
+            <text permissions="prop-default" encoding="utf8">A Caucus-Race and a long Tale</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">As Alice landed softly on a bed of clouds, she was greeted by a talking robot named RabbIT. RabbIT, with its glowing red eyes and sleek silver body, was unlike any creature Alice had ever seen. "Welcome to DaSCHland," it beeped warmly. "Here, our dreams become realities, and our curiosities fuel our creations."</text>
@@ -138,16 +1108,21 @@
             <integer permissions="prop-default">3</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
-            <resptr permissions="prop-default">W_002</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_020</resptr>
+            <resptr permissions="prop-default">CH_014</resptr>
+            <resptr permissions="prop-default">CH_021</resptr>
+            <resptr permissions="prop-default">CH_015</resptr>
+            <resptr permissions="prop-default">CH_022</resptr>
+            <resptr permissions="prop-default">CH_023</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 4" restype=":BookChapter" id="FC_04" permissions="res-default">
+    <resource label="Alice in Wonderland - The Rabbit sends in a little Bill" restype=":BookChapter" id="BC_05" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_04</text>
+            <text permissions="prop-default" encoding="utf8">BC_05</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 4</text>
+            <text permissions="prop-default" encoding="utf8">The Rabbit sends in a little Bill</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Eager to explore, Alice followed RabbIT through a landscape where trees had digital screens for leaves displaying fantastical images and data streamed across the sky like shooting stars. They passed houses that changed shape and color at the occupants' whims and gardens where flowers sang melodies in harmony.</text>
@@ -156,16 +1131,21 @@
             <integer permissions="prop-default">4</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
-            <resptr permissions="prop-default">W_002</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_003</resptr>
+            <resptr permissions="prop-default">CH_020</resptr>
+            <resptr permissions="prop-default">CH_024</resptr>
+            <resptr permissions="prop-default">CH_025</resptr>
+            <resptr permissions="prop-default">CH_027</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 5" restype=":BookChapter" id="FC_05" permissions="res-default">
+    <resource label="Alice in Wonderland - Advice from a Caterpillar" restype=":BookChapter" id="BC_06" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_05</text>
+            <text permissions="prop-default" encoding="utf8">BC_06</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 5</text>
+            <text permissions="prop-default" encoding="utf8">Advice from a Caterpillar</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Their first stop was the Tea Time Café, where a Mad Hatter, an eccentric inventor in DaSCHland, served tea that could make one shrink or grow. Alice sipped a cup marked "Grow" and instantly stretched taller than the trees. Amused and a bit startled, she laughed, marveling at the wonders of DaSCHland.</text>
@@ -174,16 +1154,18 @@
             <integer permissions="prop-default">5</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
-            <resptr permissions="prop-default">W_004</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_004</resptr>
+            <resptr permissions="prop-default">CH_003</resptr>
+            <resptr permissions="prop-default">CH_029</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 6" restype=":BookChapter" id="FC_06" permissions="res-default">
+    <resource label="Alice in Wonderland - Pig and Pepper" restype=":BookChapter" id="BC_07" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_06</text>
+            <text permissions="prop-default" encoding="utf8">BC_07</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 6</text>
+            <text permissions="prop-default" encoding="utf8">Pig and Pepper</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Next, they visited the Queen of Hearts, who was not a queen of cards but a brilliant engineer leading the Hearts Division, specializing in creating technologies that connected emotions with devices. The Queen showed Alice a mirror that didn't just reflect one's image but also displayed one’s innermost feelings and thoughts.</text>
@@ -192,15 +1174,21 @@
             <integer permissions="prop-default">6</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_005</resptr>
+            <resptr permissions="prop-default">CH_030</resptr>
+            <resptr permissions="prop-default">CH_031</resptr>
+            <resptr permissions="prop-default">CH_008</resptr>
+            <resptr permissions="prop-default">CH_032</resptr>
+            <resptr permissions="prop-default">CH_033</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 7" restype=":BookChapter" id="FC_07" permissions="res-default">
+    <resource label="Alice in Wonderland - A Mad Tea-Party" restype=":BookChapter" id="BC_08" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_07</text>
+            <text permissions="prop-default" encoding="utf8">BC_08</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 7</text>
+            <text permissions="prop-default" encoding="utf8">A Mad Tea-Party</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">As the day turned to dusk, RabbIT led Alice to the Grand Library, a vast, spiraling tower filled with books that whispered their stories aloud, eager to be heard. Here, Alice learned the history of DaSCHland, how it was built by dreamers and thinkers, innovators and creators, all powered by the visionary company DaSCH, dedicated to bringing humanities data to life.</text>
@@ -209,15 +1197,18 @@
             <integer permissions="prop-default">7</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_004</resptr>
+            <resptr permissions="prop-default">CH_007</resptr>
+            <resptr permissions="prop-default">CH_018</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 8" restype=":BookChapter" id="FC_08" permissions="res-default">
+    <resource label="Alice in Wonderland - The Queen’s Croquet-Ground" restype=":BookChapter" id="BC_09" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_08</text>
+            <text permissions="prop-default" encoding="utf8">BC_09</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 8</text>
+            <text permissions="prop-default" encoding="utf8">The Queen’s Croquet-Ground</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">But soon, the sky darkened, and a soft voice whispered that it was time for Alice to return to her world. Reluctantly, Alice followed RabbIT back to the rabbit hole. "You must return, but remember that DaSCHland is always here, waiting for your return. Keep dreaming and wondering," RabbIT said as Alice climbed out of the hole.</text>
@@ -226,15 +1217,19 @@
             <integer permissions="prop-default">8</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_005</resptr>
+            <resptr permissions="prop-default">CH_006</resptr>
+            <resptr permissions="prop-default">CH_008</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 9" restype=":BookChapter" id="FC_09" permissions="res-default">
+    <resource label="Alice in Wonderland - The Mock Turtle’s Story" restype=":BookChapter" id="BC_10" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_09</text>
+            <text permissions="prop-default" encoding="utf8">BC_10</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 9</text>
+            <text permissions="prop-default" encoding="utf8">The Mock Turtle’s Story</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Back in her world, the adventure seemed like a dream. Yet, in her pocket was a small, glowing stone, a token from DaSCHland. Alice smiled, knowing that her journey had been real and that she would one day return to the wondrous realm of DaSCHland, where dreams and the rich tapestry of humanities research were just the beginning.</text>
@@ -243,12 +1238,243 @@
             <integer permissions="prop-default">9</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_006</resptr>
+            <resptr permissions="prop-default">CH_008</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice" restype=":Character" id="W_001" permissions="res-default">
+    <resource label="Alice in Wonderland - The Lobster Quadrille" restype=":BookChapter" id="BC_11" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_001</text>
+            <text permissions="prop-default" encoding="utf8">BC_11</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Lobster Quadrille</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">10</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in Wonderland - Who stole the Tarts?" restype=":BookChapter" id="BC_12" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_12</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Who stole the Tarts?</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">11</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_004</resptr>
+            <resptr permissions="prop-default">CH_006</resptr>
+            <resptr permissions="prop-default">CH_027</resptr>
+            <resptr permissions="prop-default">CH_033</resptr>
+            <resptr permissions="prop-default">CH_007</resptr>
+            <resptr permissions="prop-default">CH_018</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in Wonderland - Alice’s Evidence" restype=":BookChapter" id="BC_13" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_13</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Alice’s Evidence</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">12</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_006</resptr>
+            <resptr permissions="prop-default">CH_016</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Dramatis Personae and chessboard" restype=":BookChapter" id="BC_14" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_14</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Dramatis Personae and chessboard</text>
+        </text-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Preface" restype=":BookChapter" id="BC_15" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_15</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Preface</text>
+        </text-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Poem: “Child of the pure unclouded brow”" restype=":BookChapter" id="BC_16" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_16</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Poem: “Child of the pure unclouded brow”</text>
+        </text-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Looking-Glass House" restype=":BookChapter" id="BC_17" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_17</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Looking-Glass House</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_026</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - The Garden of Live Flowers" restype=":BookChapter" id="BC_18" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_18</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Garden of Live Flowers</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">2</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Looking-Glass Insects" restype=":BookChapter" id="BC_19" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_19</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Looking-Glass Insects</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">3</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Tweedledum and Tweedledee" restype=":BookChapter" id="BC_20" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_20</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Tweedledum and Tweedledee</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">4</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Wool and Water" restype=":BookChapter" id="BC_21" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_21</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Wool and Water</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">5</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Humpty Dumpty" restype=":BookChapter" id="BC_22" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_22</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Humpty Dumpty</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">6</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - The Lion and the Unicorn" restype=":BookChapter" id="BC_23" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_23</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Lion and the Unicorn</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">7</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - “It’s my own Invention”" restype=":BookChapter" id="BC_24" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_24</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">“It’s my own Invention”</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">8</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Queen Alice" restype=":BookChapter" id="BC_25" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_25</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Queen Alice</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">9</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Shaking" restype=":BookChapter" id="BC_26" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_26</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Shaking</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">10</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Waking" restype=":BookChapter" id="BC_27" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_27</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Waking</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">11</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Which dreamed it?" restype=":BookChapter" id="BC_28" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_28</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Which dreamed it?</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">12</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Poem: “A boat beneath a sunny sky”" restype=":BookChapter" id="BC_29" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_29</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Poem: “A boat beneath a sunny sky”</text>
+        </text-prop>
+    </resource>
+    <resource label="Alice" restype=":Character" id="CH_001" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_001</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Alice</text>
@@ -262,10 +1488,16 @@ In Through the Looking-Glass, she is 6 months older and more sure of her identit
 
 The illustrations of Alice by John Tenniel are not based on Alice Liddell. Carroll sent Tenniel a photograph of Mary Hilton Badcock, another child-friend, who was the daughter of the Dean of Ripon. He recommended her as a model, but whether Tenniel accepted this advice remains a matter of dispute</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">Curiouser and curiouser!</text>
+        </text-prop>
     </resource>
-    <resource label="White Rabbit" restype=":Character" id="W_002" permissions="res-default">
+    <resource label="White Rabbit" restype=":Character" id="CH_002" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_002</text>
+            <text permissions="prop-default" encoding="utf8">CH_002</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">White Rabbit</text>
@@ -279,10 +1511,13 @@ Overall, the White Rabbit seems to shift back and forth between pompous behaviou
 
 The White Rabbit's perennial unpunctuality is a nod to Oxford time, the tradition at Oxford (and especially Christ Church, where Carroll taught) of having events begin five minutes past the scheduled hour.[2] </text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
     </resource>
-    <resource label="Caterpillar" restype=":Character" id="W_003" permissions="res-default">
+    <resource label="Caterpillar" restype=":Character" id="CH_003" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_003</text>
+            <text permissions="prop-default" encoding="utf8">CH_003</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Caterpillar</text>
@@ -296,10 +1531,16 @@ Although the original illustrations are black-and-white, in the text the Caterpi
 
 When you take a close look at the picture of the Caterpillar, you’ll see that his nose and chin are really two of its legs!</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">Who are YOU ? </text>
+        </text-prop>
     </resource>
-    <resource label="Mad Hatter" restype=":Character" id="W_004" permissions="res-default">
+    <resource label="Mad Hatter" restype=":Character" id="CH_004" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_004</text>
+            <text permissions="prop-default" encoding="utf8">CH_004</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Mad Hatter</text>
@@ -317,10 +1558,13 @@ The phrase ‘mad as a hatter’ was common in Carroll’s time. ‘Mad as a hat
 
 Mad Hatter by DisneyCarroll may have asked Tenniel to draw the Mad Hatter to resemble Theophilus Carter, a furniture dealer near Oxford. Carter was known in the area as the Mad Hatter, partly because he always wore a top hat and because of his eccentric ideas.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
     </resource>
-    <resource label="Cheshire Cat" restype=":Character" id="W_005" permissions="res-default">
+    <resource label="Cheshire Cat" restype=":Character" id="CH_005" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_005</text>
+            <text permissions="prop-default" encoding="utf8">CH_005</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Cheshire Cat</text>
@@ -341,10 +1585,16 @@ Cheshire Cat by DisneyAnother source may be the following: when you take a good 
 Also, at one time, Cheshire cheeses were molded in the shape of a grinning cat.
 Finally, the Cheshire Cat might be inspired by a sedilia in Croft Church.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">We’re all mad here. I’m mad. You’re mad.</text>
+        </text-prop>
     </resource>
-    <resource label="Queen of Hearts" restype=":Character" id="W_006" permissions="res-default">
+    <resource label="Queen of Hearts" restype=":Character" id="CH_006" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_006</text>
+            <text permissions="prop-default" encoding="utf8">CH_006</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Queen of Hearts</text>
@@ -359,10 +1609,16 @@ Carroll wrote the following about the Queen of Hearts:
 
     “I pictured to myself the Queen of Hearts as a sort of embodiment of ungovernable passion – a blind and aimless Fury.”</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">Off with his head!</text>
+        </text-prop>
     </resource>
-    <resource label="March Hare" restype=":Character" id="W_007" permissions="res-default">
+    <resource label="March Hare" restype=":Character" id="CH_007" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_007</text>
+            <text permissions="prop-default" encoding="utf8">CH_007</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">March Hare</text>
@@ -370,10 +1626,13 @@ Carroll wrote the following about the Queen of Hearts:
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">he is holding a tea party with the Hatter and the Dormouse. The party will continue forever, as they live in a frozen time. Later on, the March Hare is a witness during the trial.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Duchess" restype=":Character" id="W_008" permissions="res-default">
+    <resource label="Duchess" restype=":Character" id="CH_008" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_008</text>
+            <text permissions="prop-default" encoding="utf8">CH_008</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Duchess</text>
@@ -381,10 +1640,13 @@ Carroll wrote the following about the Queen of Hearts:
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">she is very ugly and mistreats her baby. She is also fond of finding morals in things. She tries to be in everyone’s good books (especially the Queen’s one) by acting very complimentary.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Mock Turtle" restype=":Character" id="W_009" permissions="res-default">
+    <resource label="Mock Turtle" restype=":Character" id="CH_009" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_009</text>
+            <text permissions="prop-default" encoding="utf8">CH_009</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Mock Turtle</text>
@@ -392,10 +1654,13 @@ Carroll wrote the following about the Queen of Hearts:
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">he seems to be very sad and constantly sobs. He tells Alice about his schooldays.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Gryphon" restype=":Character" id="W_010" permissions="res-default">
+    <resource label="Gryphon" restype=":Character" id="CH_010" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_010</text>
+            <text permissions="prop-default" encoding="utf8">CH_010</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Gryphon</text>
@@ -403,10 +1668,13 @@ Carroll wrote the following about the Queen of Hearts:
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">he takes Alice to the Mock Turtle. With him he explains the Lobster Quadrille to Alice.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Red Queen" restype=":Character" id="W_011" permissions="res-default">
+    <resource label="Red Queen" restype=":Character" id="CH_011" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_011</text>
+            <text permissions="prop-default" encoding="utf8">CH_011</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Red Queen</text>
@@ -416,10 +1684,13 @@ Carroll wrote the following about the Queen of Hearts:
 Carroll describes her like this: “The Red Queen I pictured as a Fury, but of another type; her passion must be cold and calm; she must be formal and strict, yet not unkindly; pedantic to the tenth degree, the concentrated essence of all governesses!”
 It is possible that the Red Queen was modeled after the governess for the Liddell children, Miss Prickett. Her nickname was ‘Pricks’.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Humpty Dumpty" restype=":Character" id="W_012" permissions="res-default">
+    <resource label="Humpty Dumpty" restype=":Character" id="CH_012" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_012</text>
+            <text permissions="prop-default" encoding="utf8">CH_012</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Humpty Dumpty</text>
@@ -427,10 +1698,13 @@ It is possible that the Red Queen was modeled after the governess for the Liddel
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">an egg who sits on a very narrow wall. He is very proud, rude, easily-offended and claims to be the master of words. In the end he (presumably) falls off the wall.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="White Knight" restype=":Character" id="W_013" permissions="res-default">
+    <resource label="White Knight" restype=":Character" id="CH_013" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_013</text>
+            <text permissions="prop-default" encoding="utf8">CH_013</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">White Knight</text>
@@ -438,10 +1712,13 @@ It is possible that the Red Queen was modeled after the governess for the Liddel
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">he rescues Alice from the Red Knight. He cannot ride his horse properly, likes inventing things and is a little melancholic. We are told that he has shaggy hair, mild blue eyes, a kind and gentle face and fond is of inventions. This is also a description of Lewis Carroll, so he may have modeled the White Knight after himself. The Knight is also the only one who is truly nice to Alice and later she remembers him best.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Mouse" restype=":Character" id="W_014" permissions="res-default">
+    <resource label="Mouse" restype=":Character" id="CH_014" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_014</text>
+            <text permissions="prop-default" encoding="utf8">CH_014</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Mouse</text>
@@ -453,36 +1730,51 @@ Alice, the eponymous heroine in the book, first talks to the mouse when she is f
 
     `O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!' (Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother's Latin Grammar, `A mouse—of a mouse—to a mouse—a mouse—O mouse!' The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing.
 
-With no response from the mouse, Alice fears that it may not speak English and attempts to speak French. Upon mentioning the French word for cat, chatte, the mouse panics. This leads to a discussion about cats and dogs, culminating in the mouse telling Alice his history. </text>
+With no response from the mouse, Alice fears that it may not speak English and attempts to speak French. Upon mentioning the French word for cat, chatte, the mouse panics. This leads to a discussion about cats and dogs, culminating in the mouse telling Alice his history. 
+
+He tries to dry the others by telling them the driest story he knows.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Dodo" restype=":Character" id="W_015" permissions="res-default">
+    <resource label="Dodo" restype=":Character" id="CH_015" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_015</text>
+            <text permissions="prop-default" encoding="utf8">CH_015</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Dodo</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">The Dodo is a fictional character appearing in Chapters 2 and 3 of the 1865 book Alice's Adventures in Wonderland by Lewis Carroll (Charles Lutwidge Dodgson). The Dodo is a caricature of the author. A popular but unsubstantiated belief is that Dodgson chose the particular animal to represent himself because of his stammer, and thus would accidentally introduce himself as "Do-do-dodgson".
+            <text permissions="prop-default" encoding="xml">another creature that fell into the pool. He suggests to do a Caucusrace to get dry. 
+
+The Dodo is a fictional character appearing in Chapters 2 and 3 of the 1865 book Alice's Adventures in Wonderland by Lewis Carroll (Charles Lutwidge Dodgson). The Dodo is a caricature of the author. A popular but unsubstantiated belief is that Dodgson chose the particular animal to represent himself because of his stammer, and thus would accidentally introduce himself as "Do-do-dodgson".
 
 Historically, the dodo was a flightless bird that lived on the island of Mauritius, east of Madagascar in the Indian Ocean. It became extinct in the mid 17th century during the colonisation of the island by the Dutch.[1]</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Alice's sister" restype=":Character" id="W_016" permissions="res-default">
+    <resource label="Alice's sister" restype=":Character" id="CH_016" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_016</text>
+            <text permissions="prop-default" encoding="utf8">CH_016</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Alice's sister</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">This character is the sister of Alice, implied to be the elder as Alice is referred to as, "this same little sister of hers". Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell who was also inspiration for the Lory at the Caucus Race.</text>
+            <text permissions="prop-default" encoding="xml">This character is the sister of Alice, implied to be the elder as Alice is referred to as, "this same little sister of hers". Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell who was also inspiration for the Lory at the Caucus Race.
+
+in the beginning of the story she’s reading a very boring book (according to Alice). In the end Alice wakes up in her lap and tells her her adventures. She is presented as a reasonable adult, who, in the end, recognizes Alice’s own adult-like qualities. Note that the real Alice’s older sister, Lorina, was actually only 3 years her senior.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="King of Hearts" restype=":Character" id="W_017" permissions="res-default">
+    <resource label="King of Hearts" restype=":Character" id="CH_017" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_017</text>
+            <text permissions="prop-default" encoding="utf8">CH_017</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">King of Hearts</text>
@@ -490,10 +1782,13 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">When compared to the Queen of Hearts, the King of Hearts appears to be the moderate part of the Wonderland government. As an example, when the Queen, who enjoys ordering beheadings, attempts to have Alice executed (charged with being unable to answer who is lying down in front of her), the King of Hearts reminds her that she is only a child.[1]</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Dormouse" restype=":Character" id="W_018" permissions="res-default">
+    <resource label="Dormouse" restype=":Character" id="CH_018" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_018</text>
+            <text permissions="prop-default" encoding="utf8">CH_018</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Dormouse</text>
@@ -501,16 +1796,263 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">The Dormouse sat between the March Hare and the Mad Hatter. They were using him as a cushion while he slept when Alice arrives at the start of the chapter.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Knave of Hearts" restype=":Character" id="W_019" permissions="res-default">
+    <resource label="Knave of Hearts" restype=":Character" id="CH_019" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_019</text>
+            <text permissions="prop-default" encoding="utf8">CH_019</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Knave of Hearts</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">The Knave of Hearts is mentioned first in chapter 8, and later in chapters 11 and 12, which deal with his trial for a tart burglary in which the King of Hearts presides as judge. Alice eventually defends the Knave after the evidence becomes increasingly absurd and she is called as a witness.</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Dinah" restype=":Character" id="CH_020" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_020</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Dinah</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">she is Alice’s cat. She isn’t physically there in the book but Alice talks about her many times, especially about the fact that she is good at hunting and killing animals. Therefore she does play an important role.</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Duck" restype=":Character" id="CH_021" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_021</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Duck</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he also fell into Alice’s pool of tears. He is said to be modeled after Canon Duckworth</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Lory" restype=":Character" id="CH_022" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_022</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Lory</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Also fell into the pool. She is said to be modeled after Alice’s sister, Lorina</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Eaglet" restype=":Character" id="CH_023" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_023</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Eaglet</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Also fell into the pool. She is said to be modeled after Alice’s other sister, Edith</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Mary Ann" restype=":Character" id="CH_024" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_024</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Mary Ann</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">the White Rabbit’s housemaid. She isn’t physically there in the book but the Rabbit mistakes Alice for her</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Pat" restype=":Character" id="CH_025" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_025</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Pat</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">an employee of the White Rabbit. The Rabbit orders him to get Alice’s arm out of his window.</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Jabberwock" restype=":Character" id="CH_026" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_026</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Jabberwock</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he Jabberwock is a scary character from a poem in the book ‘Through the Looking-Glass and what Alice found there’ and is mentioned in the first chapter.
+
+Jabberwock by John TennielThe poem in which he appears is called ‘Jabberwocky‘ and therefore the Jabberwock is often mistakenly referred to as ‘the Jabberwocky’.
+
+The poem tells the story of a brave man who sets out to slay the Jabberwock, and finally returns home with his head.
+
+The Jabberwock apparently lives on an island. In a letter to Mrs. Chataway, the mother of a child-friend, Carroll explains that the scene of the ‘Snark’ is “an island, frequented by the Jubjub and Bandersnatch – no doubt the very island where the Jabberwock was slain.”
+(Source: Gardner, Martin. The Annotated Alice. The definitive edition, Penguin Books, 2001, p.161)</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Bill" restype=":Character" id="CH_027" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_027</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Bill</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he is a lizard and also employed by the White Rabbit. He has to go down the chimney to get Alice out. Later he is a member of the jury during the trial.</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Puppy" restype=":Character" id="CH_028" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_028</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Puppy</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">very playful, and as Alice is very small he almost runs her over.</text>
+        </text-prop>
+    </resource>
+    <resource label="Pigeon" restype=":Character" id="CH_029" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_029</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Pigeon</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">she mistakes Alice for a serpent because of her long neck. She tries to protect her eggs.</text>
+        </text-prop>
+    </resource>
+    <resource label="Frog-Footman" restype=":Character" id="CH_030" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_030</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Frog-Footman</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he serves at the house of the Duchess.</text>
+        </text-prop>
+    </resource>
+    <resource label="Fish-Footman" restype=":Character" id="CH_031" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_031</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Fish-Footman</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he brings an invitation from the Queen to the Duchess’ house</text>
+        </text-prop>
+    </resource>
+    <resource label="Baby/pig" restype=":Character" id="CH_032" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_032</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Baby/pig</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">as a baby it constantly howls and sneezes because of the pepper. When Alice takes it outside it turns into a pig.</text>
+        </text-prop>
+    </resource>
+    <resource label="Cook" restype=":Character" id="CH_033" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_033</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Cook</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">she makes soup with too much pepper and throws things at the Duchess, the baby and Alice. Later she is a witness in the trial.</text>
+        </text-prop>
+    </resource>
+    <resource label="Elsie, Lacie and Tillie" restype=":Character" id="CH_034" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_034</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Elsie, Lacie and Tillie</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">they are three sisters in the Dormouse’s story. They live in a treacle well. It is said that they represent the Liddell sisters</text>
+        </text-prop>
+    </resource>
+    <resource label="Five, Seven and Two" restype=":Character" id="CH_035" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_035</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Five, Seven and Two</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">they are playing cards and the Queen’s gardeners. They’re painting roses red because they planted white ones by mistake.</text>
+        </text-prop>
+    </resource>
+    <resource label="Flamingos and hedgehogs" restype=":Character" id="CH_036" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_036</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Flamingos and hedgehogs</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">they are used as mallets and balls during the game of croquet. From the text in ‘Nursery Alice’ we know that at least one of them was red.</text>
+        </text-prop>
+    </resource>
+    <resource label="Jurors" restype=":Character" id="CH_037" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_037</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Jurors</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">twelve creatures act as members of the jury during the trial of the stolen tarts. Among them is Bill, the lizard.</text>
+        </text-prop>
+    </resource>
+    <resource label="Data Model Links.pdf" restype=":Documentation" id="DOC_001" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Documentation/Data Model Links.pdf</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">DOC_001</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Data Model Links</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Data Model Links.pdf</text>
         </text-prop>
     </resource>
     <resource label="Tea-Party" restype=":EventSocial" id="EV_001" permissions="res-default">
@@ -541,10 +2083,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <resptr permissions="prop-default">L_002</resptr>
         </resptr-prop>
     </resource>
-    <resource label="King and Queen of Hearts sitting on their throne in court" restype=":Image" id="IW_001" permissions="res-default">
+    <resource label="King and Queen of Hearts sitting on their throne in court" restype=":Image" id="I_001" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book0.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_001</text>
+            <text permissions="prop-default" encoding="utf8">I_001</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -556,10 +2098,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book0.jpg</text>
         </text-prop>
     </resource>
-    <resource label="White Rabbit looking at his watch" restype=":Image" id="IW_002" permissions="res-default">
+    <resource label="White Rabbit looking at his watch" restype=":Image" id="I_002" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book1.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_002</text>
+            <text permissions="prop-default" encoding="utf8">I_002</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -571,10 +2113,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book1.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice finding a little door" restype=":Image" id="IW_003" permissions="res-default">
+    <resource label="Alice finding a little door" restype=":Image" id="I_003" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book2.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_003</text>
+            <text permissions="prop-default" encoding="utf8">I_003</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -586,10 +2128,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book2.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice holding the &quot;Drink Me&quot; bottle" restype=":Image" id="IW_004" permissions="res-default">
+    <resource label="Alice holding the &quot;Drink Me&quot; bottle" restype=":Image" id="I_004" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book3.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_004</text>
+            <text permissions="prop-default" encoding="utf8">I_004</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -601,10 +2143,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book3.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice growing taller" restype=":Image" id="IW_005" permissions="res-default">
+    <resource label="Alice growing taller" restype=":Image" id="I_005" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book4.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_005</text>
+            <text permissions="prop-default" encoding="utf8">I_005</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -616,10 +2158,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book4.jpg</text>
         </text-prop>
     </resource>
-    <resource label="White Rabbit skurrying away from Alice" restype=":Image" id="IW_006" permissions="res-default">
+    <resource label="White Rabbit skurrying away from Alice" restype=":Image" id="I_006" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book5.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_006</text>
+            <text permissions="prop-default" encoding="utf8">I_006</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -631,10 +2173,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book5.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice swimming in the Pool of tears" restype=":Image" id="IW_007" permissions="res-default">
+    <resource label="Alice swimming in the Pool of tears" restype=":Image" id="I_007" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book6.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_007</text>
+            <text permissions="prop-default" encoding="utf8">I_007</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -646,10 +2188,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book6.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice and the Mouse swimming in the Pool of tears" restype=":Image" id="IW_008" permissions="res-default">
+    <resource label="Alice and the Mouse swimming in the Pool of tears" restype=":Image" id="I_008" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book7.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_008</text>
+            <text permissions="prop-default" encoding="utf8">I_008</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -661,10 +2203,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book7.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice accepting a thimble from Dodo" restype=":Image" id="IW_009" permissions="res-default">
+    <resource label="Alice accepting a thimble from Dodo" restype=":Image" id="I_009" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book8.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_009</text>
+            <text permissions="prop-default" encoding="utf8">I_009</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -676,10 +2218,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book8.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Mouse telling its tale to Alice and creatures" restype=":Image" id="IW_010" permissions="res-default">
+    <resource label="Mouse telling its tale to Alice and creatures" restype=":Image" id="I_010" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book9.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_010</text>
+            <text permissions="prop-default" encoding="utf8">I_010</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -691,10 +2233,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book9.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice outgrowing White Rabbit's house" restype=":Image" id="IW_011" permissions="res-default">
+    <resource label="Alice outgrowing White Rabbit's house" restype=":Image" id="I_011" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book10.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_011</text>
+            <text permissions="prop-default" encoding="utf8">I_011</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -706,10 +2248,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book10.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice's hand reaching for White Rabbit" restype=":Image" id="IW_012" permissions="res-default">
+    <resource label="Alice's hand reaching for White Rabbit" restype=":Image" id="I_012" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book11.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_012</text>
+            <text permissions="prop-default" encoding="utf8">I_012</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -721,10 +2263,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book11.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Bill the lizzard rocketting out of the chimney" restype=":Image" id="IW_013" permissions="res-default">
+    <resource label="Bill the lizzard rocketting out of the chimney" restype=":Image" id="I_013" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book12.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_013</text>
+            <text permissions="prop-default" encoding="utf8">I_013</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -736,10 +2278,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book12.jpg</text>
         </text-prop>
     </resource>
-    <resource label="The puppy looking at Alice" restype=":Image" id="IW_014" permissions="res-default">
+    <resource label="The puppy looking at Alice" restype=":Image" id="I_014" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book13.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_014</text>
+            <text permissions="prop-default" encoding="utf8">I_014</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -751,10 +2293,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book13.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Caterpillar questionning Alice" restype=":Image" id="IW_015" permissions="res-default">
+    <resource label="Caterpillar questionning Alice" restype=":Image" id="I_015" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book14.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_015</text>
+            <text permissions="prop-default" encoding="utf8">I_015</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -766,10 +2308,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book14.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Father William standing on his head" restype=":Image" id="IW_016" permissions="res-default">
+    <resource label="Father William standing on his head" restype=":Image" id="I_016" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book15.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_016</text>
+            <text permissions="prop-default" encoding="utf8">I_016</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -781,10 +2323,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book15.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Father William turning a back-sommersault" restype=":Image" id="IW_017" permissions="res-default">
+    <resource label="Father William turning a back-sommersault" restype=":Image" id="I_017" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book16.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_017</text>
+            <text permissions="prop-default" encoding="utf8">I_017</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -796,10 +2338,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book16.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Father William sitting at a table" restype=":Image" id="IW_018" permissions="res-default">
+    <resource label="Father William sitting at a table" restype=":Image" id="I_018" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book17.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_018</text>
+            <text permissions="prop-default" encoding="utf8">I_018</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -811,10 +2353,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book17.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Father William balancing an eel" restype=":Image" id="IW_019" permissions="res-default">
+    <resource label="Father William balancing an eel" restype=":Image" id="I_019" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book18.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_019</text>
+            <text permissions="prop-default" encoding="utf8">I_019</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -826,10 +2368,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book18.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Frog-Footman and Fish-Footman holding an invitation" restype=":Image" id="IW_020" permissions="res-default">
+    <resource label="Frog-Footman and Fish-Footman holding an invitation" restype=":Image" id="I_020" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book19.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_020</text>
+            <text permissions="prop-default" encoding="utf8">I_020</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -841,10 +2383,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book19.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Dutchess nursing the baby" restype=":Image" id="IW_021" permissions="res-default">
+    <resource label="Dutchess nursing the baby" restype=":Image" id="I_021" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book20.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_021</text>
+            <text permissions="prop-default" encoding="utf8">I_021</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -856,10 +2398,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book20.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice holding the pig baby" restype=":Image" id="IW_022" permissions="res-default">
+    <resource label="Alice holding the pig baby" restype=":Image" id="I_022" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book21.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_022</text>
+            <text permissions="prop-default" encoding="utf8">I_022</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -871,10 +2413,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book21.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Cheshire-Cat grinning at Alice" restype=":Image" id="IW_023" permissions="res-default">
+    <resource label="Cheshire-Cat grinning at Alice" restype=":Image" id="I_023" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book22.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_023</text>
+            <text permissions="prop-default" encoding="utf8">I_023</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -886,10 +2428,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book22.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Cheshire-Cat disappearing" restype=":Image" id="IW_024" permissions="res-default">
+    <resource label="Cheshire-Cat disappearing" restype=":Image" id="I_024" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book23.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_024</text>
+            <text permissions="prop-default" encoding="utf8">I_024</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -901,10 +2443,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book23.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice sitting at a mad tea-party" restype=":Image" id="IW_025" permissions="res-default">
+    <resource label="Alice sitting at a mad tea-party" restype=":Image" id="I_025" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book24.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_025</text>
+            <text permissions="prop-default" encoding="utf8">I_025</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -916,10 +2458,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book24.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Hatter singing" restype=":Image" id="IW_026" permissions="res-default">
+    <resource label="Hatter singing" restype=":Image" id="I_026" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book25.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_026</text>
+            <text permissions="prop-default" encoding="utf8">I_026</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -931,10 +2473,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book25.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Dormouse being put in a teapot" restype=":Image" id="IW_027" permissions="res-default">
+    <resource label="Dormouse being put in a teapot" restype=":Image" id="I_027" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book26.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_027</text>
+            <text permissions="prop-default" encoding="utf8">I_027</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -946,10 +2488,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book26.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Card-gardeners painting roses" restype=":Image" id="IW_028" permissions="res-default">
+    <resource label="Card-gardeners painting roses" restype=":Image" id="I_028" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book27.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_028</text>
+            <text permissions="prop-default" encoding="utf8">I_028</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -961,10 +2503,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book27.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Queen of Hearts pointing at Alice" restype=":Image" id="IW_029" permissions="res-default">
+    <resource label="Queen of Hearts pointing at Alice" restype=":Image" id="I_029" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book28.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_029</text>
+            <text permissions="prop-default" encoding="utf8">I_029</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -976,10 +2518,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book28.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice holding her Flamingo" restype=":Image" id="IW_030" permissions="res-default">
+    <resource label="Alice holding her Flamingo" restype=":Image" id="I_030" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book29.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_030</text>
+            <text permissions="prop-default" encoding="utf8">I_030</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -991,10 +2533,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book29.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Executioners and crowd collecting round Cheshire-Cat" restype=":Image" id="IW_031" permissions="res-default">
+    <resource label="Executioners and crowd collecting round Cheshire-Cat" restype=":Image" id="I_031" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book30.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_031</text>
+            <text permissions="prop-default" encoding="utf8">I_031</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1006,10 +2548,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book30.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice and Duchess walking" restype=":Image" id="IW_032" permissions="res-default">
+    <resource label="Alice and Duchess walking" restype=":Image" id="I_032" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book31.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_032</text>
+            <text permissions="prop-default" encoding="utf8">I_032</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1021,10 +2563,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book31.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Gryphon sleeping" restype=":Image" id="IW_033" permissions="res-default">
+    <resource label="Gryphon sleeping" restype=":Image" id="I_033" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book32.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_033</text>
+            <text permissions="prop-default" encoding="utf8">I_033</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1036,10 +2578,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book32.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Mock Turtle telling his story to Gryphon and Alice" restype=":Image" id="IW_034" permissions="res-default">
+    <resource label="Mock Turtle telling his story to Gryphon and Alice" restype=":Image" id="I_034" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book33.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_034</text>
+            <text permissions="prop-default" encoding="utf8">I_034</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1051,10 +2593,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book33.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Mock Turtle and Gryphon dancing round Alice" restype=":Image" id="IW_035" permissions="res-default">
+    <resource label="Mock Turtle and Gryphon dancing round Alice" restype=":Image" id="I_035" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book34.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_035</text>
+            <text permissions="prop-default" encoding="utf8">I_035</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1066,10 +2608,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book34.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Lobster turning out his toes " restype=":Image" id="IW_036" permissions="res-default">
+    <resource label="Lobster turning out his toes " restype=":Image" id="I_036" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book35.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_036</text>
+            <text permissions="prop-default" encoding="utf8">I_036</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1081,10 +2623,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book35.jpg</text>
         </text-prop>
     </resource>
-    <resource label="White Rabbit as herald blowing a trumpet" restype=":Image" id="IW_037" permissions="res-default">
+    <resource label="White Rabbit as herald blowing a trumpet" restype=":Image" id="I_037" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book36.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_037</text>
+            <text permissions="prop-default" encoding="utf8">I_037</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1096,10 +2638,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book36.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Hatter shaking off his shoes" restype=":Image" id="IW_038" permissions="res-default">
+    <resource label="Hatter shaking off his shoes" restype=":Image" id="I_038" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book37.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_038</text>
+            <text permissions="prop-default" encoding="utf8">I_038</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1111,10 +2653,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book37.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Hatter running" restype=":Image" id="IW_039" permissions="res-default">
+    <resource label="Hatter running" restype=":Image" id="I_039" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book38.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_039</text>
+            <text permissions="prop-default" encoding="utf8">I_039</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1126,10 +2668,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book38.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice tipping over the jury-box" restype=":Image" id="IW_040" permissions="res-default">
+    <resource label="Alice tipping over the jury-box" restype=":Image" id="I_040" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book39.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_040</text>
+            <text permissions="prop-default" encoding="utf8">I_040</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1141,10 +2683,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book39.jpg</text>
         </text-prop>
     </resource>
-    <resource label="King of Hearts pointing to the tarts in court" restype=":Image" id="IW_041" permissions="res-default">
+    <resource label="King of Hearts pointing to the tarts in court" restype=":Image" id="I_041" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book40.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_041</text>
+            <text permissions="prop-default" encoding="utf8">I_041</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1156,10 +2698,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book40.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Cards flying down upon Alice" restype=":Image" id="IW_042" permissions="res-default">
+    <resource label="Cards flying down upon Alice" restype=":Image" id="I_042" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/1book41.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_042</text>
+            <text permissions="prop-default" encoding="utf8">I_042</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1171,10 +2713,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">1book41.jpg</text>
         </text-prop>
     </resource>
-    <resource label="White knight riding his horse" restype=":Image" id="IW_043" permissions="res-default">
+    <resource label="White knight riding his horse" restype=":Image" id="I_043" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book0.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_043</text>
+            <text permissions="prop-default" encoding="utf8">I_043</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1186,10 +2728,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book0.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Black kitten playing" restype=":Image" id="IW_044" permissions="res-default">
+    <resource label="Black kitten playing" restype=":Image" id="I_044" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book1.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_044</text>
+            <text permissions="prop-default" encoding="utf8">I_044</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1201,10 +2743,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book1.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice winding worsted in an arm-chair" restype=":Image" id="IW_045" permissions="res-default">
+    <resource label="Alice winding worsted in an arm-chair" restype=":Image" id="I_045" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book2.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_045</text>
+            <text permissions="prop-default" encoding="utf8">I_045</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1216,10 +2758,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book2.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice going through the looking-glass" restype=":Image" id="IW_046" permissions="res-default">
+    <resource label="Alice going through the looking-glass" restype=":Image" id="I_046" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book3.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_046</text>
+            <text permissions="prop-default" encoding="utf8">I_046</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1231,10 +2773,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book3.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice coming through the looking-glass" restype=":Image" id="IW_047" permissions="res-default">
+    <resource label="Alice coming through the looking-glass" restype=":Image" id="I_047" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book4.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_047</text>
+            <text permissions="prop-default" encoding="utf8">I_047</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1246,10 +2788,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book4.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Chessmen walking" restype=":Image" id="IW_048" permissions="res-default">
+    <resource label="Chessmen walking" restype=":Image" id="I_048" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book5.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_048</text>
+            <text permissions="prop-default" encoding="utf8">I_048</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1261,10 +2803,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book5.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice picking up White King" restype=":Image" id="IW_049" permissions="res-default">
+    <resource label="Alice picking up White King" restype=":Image" id="I_049" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book6.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_049</text>
+            <text permissions="prop-default" encoding="utf8">I_049</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1276,10 +2818,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book6.jpg</text>
         </text-prop>
     </resource>
-    <resource label="The White Knight sliding down a poker" restype=":Image" id="IW_050" permissions="res-default">
+    <resource label="The White Knight sliding down a poker" restype=":Image" id="I_050" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book7.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_050</text>
+            <text permissions="prop-default" encoding="utf8">I_050</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1291,10 +2833,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book7.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Jabberwork" restype=":Image" id="IW_051" permissions="res-default">
+    <resource label="Jabberwork" restype=":Image" id="I_051" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book8.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_051</text>
+            <text permissions="prop-default" encoding="utf8">I_051</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1306,10 +2848,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book8.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Tiger-Lily and Alice talking" restype=":Image" id="IW_052" permissions="res-default">
+    <resource label="Tiger-Lily and Alice talking" restype=":Image" id="I_052" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book9.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_052</text>
+            <text permissions="prop-default" encoding="utf8">I_052</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1321,10 +2863,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book9.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice and Red Queen talking" restype=":Image" id="IW_053" permissions="res-default">
+    <resource label="Alice and Red Queen talking" restype=":Image" id="I_053" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book10.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_053</text>
+            <text permissions="prop-default" encoding="utf8">I_053</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1336,10 +2878,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book10.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Chessboard-like country" restype=":Image" id="IW_054" permissions="res-default">
+    <resource label="Chessboard-like country" restype=":Image" id="I_054" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book11.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_054</text>
+            <text permissions="prop-default" encoding="utf8">I_054</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1351,10 +2893,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book11.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice and Red Queen running" restype=":Image" id="IW_055" permissions="res-default">
+    <resource label="Alice and Red Queen running" restype=":Image" id="I_055" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book12.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_055</text>
+            <text permissions="prop-default" encoding="utf8">I_055</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1366,10 +2908,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book12.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice sittin in a train carriage" restype=":Image" id="IW_056" permissions="res-default">
+    <resource label="Alice sittin in a train carriage" restype=":Image" id="I_056" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book13.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_056</text>
+            <text permissions="prop-default" encoding="utf8">I_056</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1381,10 +2923,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book13.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Rocking-horse-fly" restype=":Image" id="IW_057" permissions="res-default">
+    <resource label="Rocking-horse-fly" restype=":Image" id="I_057" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book14.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_057</text>
+            <text permissions="prop-default" encoding="utf8">I_057</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1396,10 +2938,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book14.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Snap-dragon-fly" restype=":Image" id="IW_058" permissions="res-default">
+    <resource label="Snap-dragon-fly" restype=":Image" id="I_058" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book15.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_058</text>
+            <text permissions="prop-default" encoding="utf8">I_058</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1411,10 +2953,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book15.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Bread-and-butter-fly" restype=":Image" id="IW_059" permissions="res-default">
+    <resource label="Bread-and-butter-fly" restype=":Image" id="I_059" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book16.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_059</text>
+            <text permissions="prop-default" encoding="utf8">I_059</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1426,10 +2968,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book16.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice clasping her arms round Fawn" restype=":Image" id="IW_060" permissions="res-default">
+    <resource label="Alice clasping her arms round Fawn" restype=":Image" id="I_060" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book17.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_060</text>
+            <text permissions="prop-default" encoding="utf8">I_060</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1441,10 +2983,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book17.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice calling on Tweedledum and Tweeldee" restype=":Image" id="IW_061" permissions="res-default">
+    <resource label="Alice calling on Tweedledum and Tweeldee" restype=":Image" id="I_061" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book18.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_061</text>
+            <text permissions="prop-default" encoding="utf8">I_061</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1456,10 +2998,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book18.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Walrus and Carpenter walking" restype=":Image" id="IW_062" permissions="res-default">
+    <resource label="Walrus and Carpenter walking" restype=":Image" id="I_062" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book19.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_062</text>
+            <text permissions="prop-default" encoding="utf8">I_062</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1471,10 +3013,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book19.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Walrus and Carpenter resting" restype=":Image" id="IW_063" permissions="res-default">
+    <resource label="Walrus and Carpenter resting" restype=":Image" id="I_063" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book20.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_063</text>
+            <text permissions="prop-default" encoding="utf8">I_063</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1486,10 +3028,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book20.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Walrus and Carpenter eating" restype=":Image" id="IW_064" permissions="res-default">
+    <resource label="Walrus and Carpenter eating" restype=":Image" id="I_064" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book21.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_064</text>
+            <text permissions="prop-default" encoding="utf8">I_064</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1501,10 +3043,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book21.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Red King snoring" restype=":Image" id="IW_065" permissions="res-default">
+    <resource label="Red King snoring" restype=":Image" id="I_065" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book22.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_065</text>
+            <text permissions="prop-default" encoding="utf8">I_065</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1516,10 +3058,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book22.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Tweedledum crying in a fury" restype=":Image" id="IW_066" permissions="res-default">
+    <resource label="Tweedledum crying in a fury" restype=":Image" id="I_066" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book23.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_066</text>
+            <text permissions="prop-default" encoding="utf8">I_066</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1531,10 +3073,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book23.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Tweedledum and Tweeldee" restype=":Image" id="IW_067" permissions="res-default">
+    <resource label="Tweedledum and Tweeldee" restype=":Image" id="I_067" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book24.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_067</text>
+            <text permissions="prop-default" encoding="utf8">I_067</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1546,10 +3088,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book24.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice a-dressing White Queen" restype=":Image" id="IW_068" permissions="res-default">
+    <resource label="Alice a-dressing White Queen" restype=":Image" id="I_068" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book25.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_068</text>
+            <text permissions="prop-default" encoding="utf8">I_068</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1561,10 +3103,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book25.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Hatta sitting in prison" restype=":Image" id="IW_069" permissions="res-default">
+    <resource label="Hatta sitting in prison" restype=":Image" id="I_069" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book26.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_069</text>
+            <text permissions="prop-default" encoding="utf8">I_069</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1576,10 +3118,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book26.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice leaning on counter in Sheep's shop" restype=":Image" id="IW_070" permissions="res-default">
+    <resource label="Alice leaning on counter in Sheep's shop" restype=":Image" id="I_070" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book27.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_070</text>
+            <text permissions="prop-default" encoding="utf8">I_070</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1591,10 +3133,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book27.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice rowing a boat" restype=":Image" id="IW_071" permissions="res-default">
+    <resource label="Alice rowing a boat" restype=":Image" id="I_071" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book28.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_071</text>
+            <text permissions="prop-default" encoding="utf8">I_071</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1606,10 +3148,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book28.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Humpty Dumpty offering Alice his hand" restype=":Image" id="IW_072" permissions="res-default">
+    <resource label="Humpty Dumpty offering Alice his hand" restype=":Image" id="I_072" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book29.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_072</text>
+            <text permissions="prop-default" encoding="utf8">I_072</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1621,10 +3163,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book29.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Jabberwocky creatures" restype=":Image" id="IW_073" permissions="res-default">
+    <resource label="Jabberwocky creatures" restype=":Image" id="I_073" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book30.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_073</text>
+            <text permissions="prop-default" encoding="utf8">I_073</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1636,10 +3178,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book30.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Humpty Dumpty sending a message" restype=":Image" id="IW_074" permissions="res-default">
+    <resource label="Humpty Dumpty sending a message" restype=":Image" id="I_074" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book31.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_074</text>
+            <text permissions="prop-default" encoding="utf8">I_074</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1651,10 +3193,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book31.jpg</text>
         </text-prop>
     </resource>
-    <resource label="White King soldiers and horses stumbling" restype=":Image" id="IW_075" permissions="res-default">
+    <resource label="White King soldiers and horses stumbling" restype=":Image" id="I_075" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book32.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_075</text>
+            <text permissions="prop-default" encoding="utf8">I_075</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1666,10 +3208,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book32.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Haigha handing a ham sandwich to the White King" restype=":Image" id="IW_076" permissions="res-default">
+    <resource label="Haigha handing a ham sandwich to the White King" restype=":Image" id="I_076" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book33.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_076</text>
+            <text permissions="prop-default" encoding="utf8">I_076</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1681,10 +3223,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book33.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Hatta drinking tea" restype=":Image" id="IW_077" permissions="res-default">
+    <resource label="Hatta drinking tea" restype=":Image" id="I_077" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book34.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_077</text>
+            <text permissions="prop-default" encoding="utf8">I_077</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1696,10 +3238,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book34.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice holding a plum cake" restype=":Image" id="IW_078" permissions="res-default">
+    <resource label="Alice holding a plum cake" restype=":Image" id="I_078" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book35.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_078</text>
+            <text permissions="prop-default" encoding="utf8">I_078</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1711,10 +3253,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book35.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice putting her hands over her ears" restype=":Image" id="IW_079" permissions="res-default">
+    <resource label="Alice putting her hands over her ears" restype=":Image" id="I_079" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book36.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_079</text>
+            <text permissions="prop-default" encoding="utf8">I_079</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1726,10 +3268,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book36.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Red Knight and White Knight fighting" restype=":Image" id="IW_080" permissions="res-default">
+    <resource label="Red Knight and White Knight fighting" restype=":Image" id="I_080" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book37.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_080</text>
+            <text permissions="prop-default" encoding="utf8">I_080</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1741,10 +3283,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book37.jpg</text>
         </text-prop>
     </resource>
-    <resource label="White Knight falling off his horse" restype=":Image" id="IW_081" permissions="res-default">
+    <resource label="White Knight falling off his horse" restype=":Image" id="I_081" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book38.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_081</text>
+            <text permissions="prop-default" encoding="utf8">I_081</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1756,10 +3298,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book38.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice dragging White Knight out off a ditch" restype=":Image" id="IW_082" permissions="res-default">
+    <resource label="Alice dragging White Knight out off a ditch" restype=":Image" id="I_082" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book39.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_082</text>
+            <text permissions="prop-default" encoding="utf8">I_082</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1771,10 +3313,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book39.jpg</text>
         </text-prop>
     </resource>
-    <resource label="White Knight shaking an aged man" restype=":Image" id="IW_083" permissions="res-default">
+    <resource label="White Knight shaking an aged man" restype=":Image" id="I_083" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book40.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_083</text>
+            <text permissions="prop-default" encoding="utf8">I_083</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1786,10 +3328,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book40.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice lifting off a golden crown" restype=":Image" id="IW_084" permissions="res-default">
+    <resource label="Alice lifting off a golden crown" restype=":Image" id="I_084" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book41.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_084</text>
+            <text permissions="prop-default" encoding="utf8">I_084</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1801,10 +3343,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book41.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Red Queen and White Queen sitting with Alice" restype=":Image" id="IW_085" permissions="res-default">
+    <resource label="Red Queen and White Queen sitting with Alice" restype=":Image" id="I_085" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book42.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_085</text>
+            <text permissions="prop-default" encoding="utf8">I_085</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1816,10 +3358,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book42.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Red Queen and White Queen sleeping on Alice" restype=":Image" id="IW_086" permissions="res-default">
+    <resource label="Red Queen and White Queen sleeping on Alice" restype=":Image" id="I_086" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book43.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_086</text>
+            <text permissions="prop-default" encoding="utf8">I_086</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1831,10 +3373,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book43.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice and Frog standing before a door" restype=":Image" id="IW_087" permissions="res-default">
+    <resource label="Alice and Frog standing before a door" restype=":Image" id="I_087" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book44.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_087</text>
+            <text permissions="prop-default" encoding="utf8">I_087</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1846,10 +3388,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book44.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Mutton making a little bow" restype=":Image" id="IW_088" permissions="res-default">
+    <resource label="Mutton making a little bow" restype=":Image" id="I_088" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book45.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_088</text>
+            <text permissions="prop-default" encoding="utf8">I_088</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1861,10 +3403,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book45.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice pulling a table cloth" restype=":Image" id="IW_089" permissions="res-default">
+    <resource label="Alice pulling a table cloth" restype=":Image" id="I_089" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book46.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_089</text>
+            <text permissions="prop-default" encoding="utf8">I_089</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1876,10 +3418,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book46.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice shaking Red Queen" restype=":Image" id="IW_090" permissions="res-default">
+    <resource label="Alice shaking Red Queen" restype=":Image" id="I_090" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book47.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_090</text>
+            <text permissions="prop-default" encoding="utf8">I_090</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1891,10 +3433,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book47.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice shakinng Kitty" restype=":Image" id="IW_091" permissions="res-default">
+    <resource label="Alice shakinng Kitty" restype=":Image" id="I_091" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book48.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_091</text>
+            <text permissions="prop-default" encoding="utf8">I_091</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -1906,10 +3448,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="utf8">2book48.jpg</text>
         </text-prop>
     </resource>
-    <resource label="Alice looking over her shoulder at White Kitten" restype=":Image" id="IW_092" permissions="res-default">
+    <resource label="Alice looking over her shoulder at White Kitten" restype=":Image" id="I_092" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Image/2book49.jpg</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">IW_092</text>
+            <text permissions="prop-default" encoding="utf8">I_092</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© John Tenniel</text>
@@ -2048,10 +3590,109 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <geoname permissions="prop-default">6269131</geoname>
         </geoname-prop>
     </resource>
-    <resource label="import_character.xml" restype=":Material" id="O_001" permissions="res-default">
+    <resource label="Hall of Doors" restype=":LocationWonderland" id="L_012" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_012</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Hall of Doors</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Hall of Doors</text>
+        </text-prop>
+    </resource>
+    <resource label="Garden of Live Flowers" restype=":LocationWonderland" id="L_013" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_013</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Garden of Live Flowers</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Garden of Live Flowers</text>
+        </text-prop>
+    </resource>
+    <resource label="Queen's Garden" restype=":LocationWonderland" id="L_014" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_014</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Queen's Garden</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Queen's Garden</text>
+        </text-prop>
+    </resource>
+    <resource label="Caterpillar’s Mushroom" restype=":LocationWonderland" id="L_015" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_015</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Caterpillar’s Mushroom</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Caterpillar’s Mushroom</text>
+        </text-prop>
+    </resource>
+    <resource label="The March Hare’s House" restype=":LocationWonderland" id="L_016" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_016</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The March Hare’s House</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The March Hare’s House</text>
+        </text-prop>
+    </resource>
+    <resource label="Courtroom" restype=":LocationWonderland" id="L_017" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_017</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Courtroom</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Courtroom</text>
+        </text-prop>
+    </resource>
+    <resource label="Wood Where Things Have No Names" restype=":LocationWonderland" id="L_018" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_018</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Wood Where Things Have No Names</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Wood Where Things Have No Names</text>
+        </text-prop>
+    </resource>
+    <resource label="Mock Turtle’s Beach" restype=":LocationWonderland" id="L_019" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_019</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Mock Turtle’s Beach</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Mock Turtle’s Beach</text>
+        </text-prop>
+    </resource>
+    <resource label="Gryphon’s Plateau" restype=":LocationWonderland" id="L_020" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_020</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Gryphon’s Plateau</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Gryphon’s Plateau</text>
+        </text-prop>
+    </resource>
+    <resource label="import_character.xml" restype=":Material" id="MAT_001" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_character.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_001</text>
+            <text permissions="prop-default" encoding="utf8">MAT_001</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_character.xml</text>
@@ -2060,10 +3701,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_audio.xml" restype=":Material" id="O_002" permissions="res-default">
+    <resource label="import_audio.xml" restype=":Material" id="MAT_002" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_audio.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_002</text>
+            <text permissions="prop-default" encoding="utf8">MAT_002</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_audio.xml</text>
@@ -2072,10 +3713,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_character.xml" restype=":Material" id="O_003" permissions="res-default">
+    <resource label="import_character.xml" restype=":Material" id="MAT_003" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_character.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_003</text>
+            <text permissions="prop-default" encoding="utf8">MAT_003</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_character.xml</text>
@@ -2084,10 +3725,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_book_chapter.xml" restype=":Material" id="O_004" permissions="res-default">
+    <resource label="import_book_chapter.xml" restype=":Material" id="MAT_004" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_book_chapter.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_004</text>
+            <text permissions="prop-default" encoding="utf8">MAT_004</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_book_chapter.xml</text>
@@ -2096,10 +3737,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_book.xml" restype=":Material" id="O_005" permissions="res-default">
+    <resource label="import_book.xml" restype=":Material" id="MAT_005" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_book.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_005</text>
+            <text permissions="prop-default" encoding="utf8">MAT_005</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_book.xml</text>
@@ -2108,10 +3749,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_image.xml" restype=":Material" id="O_006" permissions="res-default">
+    <resource label="import_image.xml" restype=":Material" id="MAT_006" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_image.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_006</text>
+            <text permissions="prop-default" encoding="utf8">MAT_006</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_image.xml</text>
@@ -2120,10 +3761,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_event.xml" restype=":Material" id="O_007" permissions="res-default">
+    <resource label="import_event.xml" restype=":Material" id="MAT_007" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_event.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_007</text>
+            <text permissions="prop-default" encoding="utf8">MAT_007</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_event.xml</text>
@@ -2132,10 +3773,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_material.xml" restype=":Material" id="O_008" permissions="res-default">
+    <resource label="import_material.xml" restype=":Material" id="MAT_008" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_material.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_008</text>
+            <text permissions="prop-default" encoding="utf8">MAT_008</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_material.xml</text>
@@ -2144,10 +3785,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_location.xml" restype=":Material" id="O_009" permissions="res-default">
+    <resource label="import_location.xml" restype=":Material" id="MAT_009" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_location.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_009</text>
+            <text permissions="prop-default" encoding="utf8">MAT_009</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_location.xml</text>
@@ -2156,10 +3797,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_archive.xml" restype=":Material" id="O_010" permissions="res-default">
+    <resource label="import_archive.xml" restype=":Material" id="MAT_010" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_archive.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_010</text>
+            <text permissions="prop-default" encoding="utf8">MAT_010</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_archive.xml</text>
@@ -2168,10 +3809,10 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
             <text permissions="prop-default" encoding="xml">to be described</text>
         </text-prop>
     </resource>
-    <resource label="import_documentation.xml" restype=":Material" id="O_011" permissions="res-default">
+    <resource label="import_documentation.xml" restype=":Material" id="MAT_011" permissions="res-default">
         <bitstream permissions="prop-default">data/XML/import_documentation.xml</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">O_011</text>
+            <text permissions="prop-default" encoding="utf8">MAT_011</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text permissions="prop-default" encoding="utf8">import_documentation.xml</text>

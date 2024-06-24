@@ -33,10 +33,10 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Spreadsheet_Data.zip" restype=":Archive" id="D_001" permissions="res-default">
+    <resource label="Spreadsheet_Data.zip" restype=":Archive" id="AR_001" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Archive/Spreadsheet_Data.zip</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">D_001</text>
+            <text permissions="prop-default" encoding="utf8">AR_001</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Archive from Project daschland-scripts spreadsheets</text>

@@ -160,4 +160,103 @@
             <geoname permissions="prop-default">6269131</geoname>
         </geoname-prop>
     </resource>
+    <resource label="Hall of Doors" restype=":LocationWonderland" id="L_012" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_012</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Hall of Doors</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Hall of Doors</text>
+        </text-prop>
+    </resource>
+    <resource label="Garden of Live Flowers" restype=":LocationWonderland" id="L_013" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_013</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Garden of Live Flowers</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Garden of Live Flowers</text>
+        </text-prop>
+    </resource>
+    <resource label="Queen's Garden" restype=":LocationWonderland" id="L_014" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_014</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Queen's Garden</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Queen's Garden</text>
+        </text-prop>
+    </resource>
+    <resource label="Caterpillar’s Mushroom" restype=":LocationWonderland" id="L_015" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_015</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Caterpillar’s Mushroom</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Caterpillar’s Mushroom</text>
+        </text-prop>
+    </resource>
+    <resource label="The March Hare’s House" restype=":LocationWonderland" id="L_016" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_016</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The March Hare’s House</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The March Hare’s House</text>
+        </text-prop>
+    </resource>
+    <resource label="Courtroom" restype=":LocationWonderland" id="L_017" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_017</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Courtroom</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Courtroom</text>
+        </text-prop>
+    </resource>
+    <resource label="Wood Where Things Have No Names" restype=":LocationWonderland" id="L_018" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_018</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Wood Where Things Have No Names</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Wood Where Things Have No Names</text>
+        </text-prop>
+    </resource>
+    <resource label="Mock Turtle’s Beach" restype=":LocationWonderland" id="L_019" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_019</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Mock Turtle’s Beach</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Mock Turtle’s Beach</text>
+        </text-prop>
+    </resource>
+    <resource label="Gryphon’s Plateau" restype=":LocationWonderland" id="L_020" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">L_020</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Gryphon’s Plateau</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Gryphon’s Plateau</text>
+        </text-prop>
+    </resource>
 </knora>

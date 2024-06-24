@@ -33,9 +33,9 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Alice" restype=":Character" id="W_001" permissions="res-default">
+    <resource label="Alice" restype=":Character" id="CH_001" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_001</text>
+            <text permissions="prop-default" encoding="utf8">CH_001</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Alice</text>
@@ -49,10 +49,16 @@ In Through the Looking-Glass, she is 6 months older and more sure of her identit
 
 The illustrations of Alice by John Tenniel are not based on Alice Liddell. Carroll sent Tenniel a photograph of Mary Hilton Badcock, another child-friend, who was the daughter of the Dean of Ripon. He recommended her as a model, but whether Tenniel accepted this advice remains a matter of dispute</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">Curiouser and curiouser!</text>
+        </text-prop>
     </resource>
-    <resource label="White Rabbit" restype=":Character" id="W_002" permissions="res-default">
+    <resource label="White Rabbit" restype=":Character" id="CH_002" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_002</text>
+            <text permissions="prop-default" encoding="utf8">CH_002</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">White Rabbit</text>
@@ -66,10 +72,13 @@ Overall, the White Rabbit seems to shift back and forth between pompous behaviou
 
 The White Rabbit's perennial unpunctuality is a nod to Oxford time, the tradition at Oxford (and especially Christ Church, where Carroll taught) of having events begin five minutes past the scheduled hour.[2] </text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
     </resource>
-    <resource label="Caterpillar" restype=":Character" id="W_003" permissions="res-default">
+    <resource label="Caterpillar" restype=":Character" id="CH_003" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_003</text>
+            <text permissions="prop-default" encoding="utf8">CH_003</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Caterpillar</text>
@@ -83,10 +92,16 @@ Although the original illustrations are black-and-white, in the text the Caterpi
 
 When you take a close look at the picture of the Caterpillar, you’ll see that his nose and chin are really two of its legs!</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">Who are YOU ? </text>
+        </text-prop>
     </resource>
-    <resource label="Mad Hatter" restype=":Character" id="W_004" permissions="res-default">
+    <resource label="Mad Hatter" restype=":Character" id="CH_004" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_004</text>
+            <text permissions="prop-default" encoding="utf8">CH_004</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Mad Hatter</text>
@@ -104,10 +119,13 @@ The phrase ‘mad as a hatter’ was common in Carroll’s time. ‘Mad as a hat
 
 Mad Hatter by DisneyCarroll may have asked Tenniel to draw the Mad Hatter to resemble Theophilus Carter, a furniture dealer near Oxford. Carter was known in the area as the Mad Hatter, partly because he always wore a top hat and because of his eccentric ideas.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
     </resource>
-    <resource label="Cheshire Cat" restype=":Character" id="W_005" permissions="res-default">
+    <resource label="Cheshire Cat" restype=":Character" id="CH_005" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_005</text>
+            <text permissions="prop-default" encoding="utf8">CH_005</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Cheshire Cat</text>
@@ -128,10 +146,16 @@ Cheshire Cat by DisneyAnother source may be the following: when you take a good 
 Also, at one time, Cheshire cheeses were molded in the shape of a grinning cat.
 Finally, the Cheshire Cat might be inspired by a sedilia in Croft Church.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">We’re all mad here. I’m mad. You’re mad.</text>
+        </text-prop>
     </resource>
-    <resource label="Queen of Hearts" restype=":Character" id="W_006" permissions="res-default">
+    <resource label="Queen of Hearts" restype=":Character" id="CH_006" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_006</text>
+            <text permissions="prop-default" encoding="utf8">CH_006</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Queen of Hearts</text>
@@ -146,10 +170,16 @@ Carroll wrote the following about the Queen of Hearts:
 
     “I pictured to myself the Queen of Hearts as a sort of embodiment of ungovernable passion – a blind and aimless Fury.”</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_01</list>
+        </list-prop>
+        <text-prop name=":hasQuote">
+            <text permissions="prop-default" encoding="xml">Off with his head!</text>
+        </text-prop>
     </resource>
-    <resource label="March Hare" restype=":Character" id="W_007" permissions="res-default">
+    <resource label="March Hare" restype=":Character" id="CH_007" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_007</text>
+            <text permissions="prop-default" encoding="utf8">CH_007</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">March Hare</text>
@@ -157,10 +187,13 @@ Carroll wrote the following about the Queen of Hearts:
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">he is holding a tea party with the Hatter and the Dormouse. The party will continue forever, as they live in a frozen time. Later on, the March Hare is a witness during the trial.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Duchess" restype=":Character" id="W_008" permissions="res-default">
+    <resource label="Duchess" restype=":Character" id="CH_008" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_008</text>
+            <text permissions="prop-default" encoding="utf8">CH_008</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Duchess</text>
@@ -168,10 +201,13 @@ Carroll wrote the following about the Queen of Hearts:
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">she is very ugly and mistreats her baby. She is also fond of finding morals in things. She tries to be in everyone’s good books (especially the Queen’s one) by acting very complimentary.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Mock Turtle" restype=":Character" id="W_009" permissions="res-default">
+    <resource label="Mock Turtle" restype=":Character" id="CH_009" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_009</text>
+            <text permissions="prop-default" encoding="utf8">CH_009</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Mock Turtle</text>
@@ -179,10 +215,13 @@ Carroll wrote the following about the Queen of Hearts:
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">he seems to be very sad and constantly sobs. He tells Alice about his schooldays.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Gryphon" restype=":Character" id="W_010" permissions="res-default">
+    <resource label="Gryphon" restype=":Character" id="CH_010" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_010</text>
+            <text permissions="prop-default" encoding="utf8">CH_010</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Gryphon</text>
@@ -190,10 +229,13 @@ Carroll wrote the following about the Queen of Hearts:
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">he takes Alice to the Mock Turtle. With him he explains the Lobster Quadrille to Alice.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Red Queen" restype=":Character" id="W_011" permissions="res-default">
+    <resource label="Red Queen" restype=":Character" id="CH_011" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_011</text>
+            <text permissions="prop-default" encoding="utf8">CH_011</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Red Queen</text>
@@ -203,10 +245,13 @@ Carroll wrote the following about the Queen of Hearts:
 Carroll describes her like this: “The Red Queen I pictured as a Fury, but of another type; her passion must be cold and calm; she must be formal and strict, yet not unkindly; pedantic to the tenth degree, the concentrated essence of all governesses!”
 It is possible that the Red Queen was modeled after the governess for the Liddell children, Miss Prickett. Her nickname was ‘Pricks’.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Humpty Dumpty" restype=":Character" id="W_012" permissions="res-default">
+    <resource label="Humpty Dumpty" restype=":Character" id="CH_012" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_012</text>
+            <text permissions="prop-default" encoding="utf8">CH_012</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Humpty Dumpty</text>
@@ -214,10 +259,13 @@ It is possible that the Red Queen was modeled after the governess for the Liddel
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">an egg who sits on a very narrow wall. He is very proud, rude, easily-offended and claims to be the master of words. In the end he (presumably) falls off the wall.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="White Knight" restype=":Character" id="W_013" permissions="res-default">
+    <resource label="White Knight" restype=":Character" id="CH_013" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_013</text>
+            <text permissions="prop-default" encoding="utf8">CH_013</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">White Knight</text>
@@ -225,10 +273,13 @@ It is possible that the Red Queen was modeled after the governess for the Liddel
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">he rescues Alice from the Red Knight. He cannot ride his horse properly, likes inventing things and is a little melancholic. We are told that he has shaggy hair, mild blue eyes, a kind and gentle face and fond is of inventions. This is also a description of Lewis Carroll, so he may have modeled the White Knight after himself. The Knight is also the only one who is truly nice to Alice and later she remembers him best.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Mouse" restype=":Character" id="W_014" permissions="res-default">
+    <resource label="Mouse" restype=":Character" id="CH_014" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_014</text>
+            <text permissions="prop-default" encoding="utf8">CH_014</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Mouse</text>
@@ -240,36 +291,51 @@ Alice, the eponymous heroine in the book, first talks to the mouse when she is f
 
     `O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!' (Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother's Latin Grammar, `A mouse—of a mouse—to a mouse—a mouse—O mouse!' The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing.
 
-With no response from the mouse, Alice fears that it may not speak English and attempts to speak French. Upon mentioning the French word for cat, chatte, the mouse panics. This leads to a discussion about cats and dogs, culminating in the mouse telling Alice his history. </text>
+With no response from the mouse, Alice fears that it may not speak English and attempts to speak French. Upon mentioning the French word for cat, chatte, the mouse panics. This leads to a discussion about cats and dogs, culminating in the mouse telling Alice his history. 
+
+He tries to dry the others by telling them the driest story he knows.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Dodo" restype=":Character" id="W_015" permissions="res-default">
+    <resource label="Dodo" restype=":Character" id="CH_015" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_015</text>
+            <text permissions="prop-default" encoding="utf8">CH_015</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Dodo</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">The Dodo is a fictional character appearing in Chapters 2 and 3 of the 1865 book Alice's Adventures in Wonderland by Lewis Carroll (Charles Lutwidge Dodgson). The Dodo is a caricature of the author. A popular but unsubstantiated belief is that Dodgson chose the particular animal to represent himself because of his stammer, and thus would accidentally introduce himself as "Do-do-dodgson".
+            <text permissions="prop-default" encoding="xml">another creature that fell into the pool. He suggests to do a Caucusrace to get dry. 
+
+The Dodo is a fictional character appearing in Chapters 2 and 3 of the 1865 book Alice's Adventures in Wonderland by Lewis Carroll (Charles Lutwidge Dodgson). The Dodo is a caricature of the author. A popular but unsubstantiated belief is that Dodgson chose the particular animal to represent himself because of his stammer, and thus would accidentally introduce himself as "Do-do-dodgson".
 
 Historically, the dodo was a flightless bird that lived on the island of Mauritius, east of Madagascar in the Indian Ocean. It became extinct in the mid 17th century during the colonisation of the island by the Dutch.[1]</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Alice's sister" restype=":Character" id="W_016" permissions="res-default">
+    <resource label="Alice's sister" restype=":Character" id="CH_016" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_016</text>
+            <text permissions="prop-default" encoding="utf8">CH_016</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Alice's sister</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">This character is the sister of Alice, implied to be the elder as Alice is referred to as, "this same little sister of hers". Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell who was also inspiration for the Lory at the Caucus Race.</text>
+            <text permissions="prop-default" encoding="xml">This character is the sister of Alice, implied to be the elder as Alice is referred to as, "this same little sister of hers". Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell who was also inspiration for the Lory at the Caucus Race.
+
+in the beginning of the story she’s reading a very boring book (according to Alice). In the end Alice wakes up in her lap and tells her her adventures. She is presented as a reasonable adult, who, in the end, recognizes Alice’s own adult-like qualities. Note that the real Alice’s older sister, Lorina, was actually only 3 years her senior.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="King of Hearts" restype=":Character" id="W_017" permissions="res-default">
+    <resource label="King of Hearts" restype=":Character" id="CH_017" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_017</text>
+            <text permissions="prop-default" encoding="utf8">CH_017</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">King of Hearts</text>
@@ -277,10 +343,13 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">When compared to the Queen of Hearts, the King of Hearts appears to be the moderate part of the Wonderland government. As an example, when the Queen, who enjoys ordering beheadings, attempts to have Alice executed (charged with being unable to answer who is lying down in front of her), the King of Hearts reminds her that she is only a child.[1]</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Dormouse" restype=":Character" id="W_018" permissions="res-default">
+    <resource label="Dormouse" restype=":Character" id="CH_018" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_018</text>
+            <text permissions="prop-default" encoding="utf8">CH_018</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Dormouse</text>
@@ -288,16 +357,251 @@ Historically, the dodo was a flightless bird that lived on the island of Mauriti
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">The Dormouse sat between the March Hare and the Mad Hatter. They were using him as a cushion while he slept when Alice arrives at the start of the chapter.</text>
         </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
     </resource>
-    <resource label="Knave of Hearts" restype=":Character" id="W_019" permissions="res-default">
+    <resource label="Knave of Hearts" restype=":Character" id="CH_019" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">W_019</text>
+            <text permissions="prop-default" encoding="utf8">CH_019</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Knave of Hearts</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">The Knave of Hearts is mentioned first in chapter 8, and later in chapters 11 and 12, which deal with his trial for a tart burglary in which the King of Hearts presides as judge. Alice eventually defends the Knave after the evidence becomes increasingly absurd and she is called as a witness.</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Dinah" restype=":Character" id="CH_020" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_020</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Dinah</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">she is Alice’s cat. She isn’t physically there in the book but Alice talks about her many times, especially about the fact that she is good at hunting and killing animals. Therefore she does play an important role.</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Duck" restype=":Character" id="CH_021" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_021</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Duck</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he also fell into Alice’s pool of tears. He is said to be modeled after Canon Duckworth</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Lory" restype=":Character" id="CH_022" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_022</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Lory</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Also fell into the pool. She is said to be modeled after Alice’s sister, Lorina</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Eaglet" restype=":Character" id="CH_023" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_023</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Eaglet</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Also fell into the pool. She is said to be modeled after Alice’s other sister, Edith</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Mary Ann" restype=":Character" id="CH_024" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_024</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Mary Ann</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">the White Rabbit’s housemaid. She isn’t physically there in the book but the Rabbit mistakes Alice for her</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Pat" restype=":Character" id="CH_025" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_025</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Pat</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">an employee of the White Rabbit. The Rabbit orders him to get Alice’s arm out of his window.</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Jabberwock" restype=":Character" id="CH_026" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_026</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Jabberwock</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he Jabberwock is a scary character from a poem in the book ‘Through the Looking-Glass and what Alice found there’ and is mentioned in the first chapter.
+
+Jabberwock by John TennielThe poem in which he appears is called ‘Jabberwocky‘ and therefore the Jabberwock is often mistakenly referred to as ‘the Jabberwocky’.
+
+The poem tells the story of a brave man who sets out to slay the Jabberwock, and finally returns home with his head.
+
+The Jabberwock apparently lives on an island. In a letter to Mrs. Chataway, the mother of a child-friend, Carroll explains that the scene of the ‘Snark’ is “an island, frequented by the Jubjub and Bandersnatch – no doubt the very island where the Jabberwock was slain.”
+(Source: Gardner, Martin. The Annotated Alice. The definitive edition, Penguin Books, 2001, p.161)</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Bill" restype=":Character" id="CH_027" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_027</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Bill</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he is a lizard and also employed by the White Rabbit. He has to go down the chimney to get Alice out. Later he is a member of the jury during the trial.</text>
+        </text-prop>
+        <list-prop list="Role" name=":hasRoleList">
+            <list permissions="prop-default">R_02</list>
+        </list-prop>
+    </resource>
+    <resource label="Puppy" restype=":Character" id="CH_028" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_028</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Puppy</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">very playful, and as Alice is very small he almost runs her over.</text>
+        </text-prop>
+    </resource>
+    <resource label="Pigeon" restype=":Character" id="CH_029" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_029</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Pigeon</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">she mistakes Alice for a serpent because of her long neck. She tries to protect her eggs.</text>
+        </text-prop>
+    </resource>
+    <resource label="Frog-Footman" restype=":Character" id="CH_030" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_030</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Frog-Footman</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he serves at the house of the Duchess.</text>
+        </text-prop>
+    </resource>
+    <resource label="Fish-Footman" restype=":Character" id="CH_031" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_031</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Fish-Footman</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">he brings an invitation from the Queen to the Duchess’ house</text>
+        </text-prop>
+    </resource>
+    <resource label="Baby/pig" restype=":Character" id="CH_032" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_032</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Baby/pig</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">as a baby it constantly howls and sneezes because of the pepper. When Alice takes it outside it turns into a pig.</text>
+        </text-prop>
+    </resource>
+    <resource label="Cook" restype=":Character" id="CH_033" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_033</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Cook</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">she makes soup with too much pepper and throws things at the Duchess, the baby and Alice. Later she is a witness in the trial.</text>
+        </text-prop>
+    </resource>
+    <resource label="Elsie, Lacie and Tillie" restype=":Character" id="CH_034" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_034</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Elsie, Lacie and Tillie</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">they are three sisters in the Dormouse’s story. They live in a treacle well. It is said that they represent the Liddell sisters</text>
+        </text-prop>
+    </resource>
+    <resource label="Five, Seven and Two" restype=":Character" id="CH_035" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_035</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Five, Seven and Two</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">they are playing cards and the Queen’s gardeners. They’re painting roses red because they planted white ones by mistake.</text>
+        </text-prop>
+    </resource>
+    <resource label="Flamingos and hedgehogs" restype=":Character" id="CH_036" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_036</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Flamingos and hedgehogs</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">they are used as mallets and balls during the game of croquet. From the text in ‘Nursery Alice’ we know that at least one of them was red.</text>
+        </text-prop>
+    </resource>
+    <resource label="Jurors" restype=":Character" id="CH_037" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">CH_037</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Jurors</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">twelve creatures act as members of the jury during the trial of the stolen tarts. Among them is Bill, the lizard.</text>
         </text-prop>
     </resource>
 </knora>

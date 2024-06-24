@@ -32,57 +32,50 @@
                     {
                         "name": "CC 0.0",
                         "labels": {
-                            "en": "CC 0.0",
-                            "fr": "CC 0.0"
+                            "fr": "CC 0.0",
+                            "en": "CC 0.0"
                         }
                     },
                     {
                         "name": "CC BY 4.0",
                         "labels": {
-                            "en": "CC BY 4.0",
-                            "fr": "CC BY 4.0"
+                            "fr": "CC BY 4.0",
+                            "en": "CC BY 4.0"
                         }
                     },
                     {
                         "name": "CC BY-SA 4.0",
                         "labels": {
-                            "en": "CC BY-SA 4.0",
-                            "fr": "CC BY-SA 4.0"
+                            "fr": "CC BY-SA 4.0",
+                            "en": "CC BY-SA 4.0"
                         }
                     },
                     {
                         "name": "CC BY-NC 4.0",
                         "labels": {
-                            "en": "CC BY-NC 4.0",
-                            "fr": "CC BY-NC 4.0"
+                            "fr": "CC BY-NC 4.0",
+                            "en": "CC BY-NC 4.0"
                         }
                     },
                     {
                         "name": "CC BY-NC-SA 4.0",
                         "labels": {
-                            "en": "CC BY-NC-SA 4.0",
-                            "fr": "CC BY-NC-SA 4.0"
+                            "fr": "CC BY-NC-SA 4.0",
+                            "en": "CC BY-NC-SA 4.0"
                         }
                     },
                     {
                         "name": "CC BY-ND 4.0",
                         "labels": {
-                            "en": "CC BY-ND 4.0",
-                            "fr": "CC BY-ND 4.0"
+                            "fr": "CC BY-ND 4.0",
+                            "en": "CC BY-ND 4.0"
                         }
                     },
                     {
                         "name": "CC BY-NC-ND 4.0",
                         "labels": {
-                            "en": "CC BY-NC-ND 4.0",
-                            "fr": "CC BY-NC-ND 4.0"
-                        }
-                    },
-                    {
-                        "name": "PDM 1.0",
-                        "labels": {
-                            "en": "PDM 1.0",
-                            "fr": "PDM 1.0"
+                            "fr": "CC BY-NC-ND 4.0",
+                            "en": "CC BY-NC-ND 4.0"
                         }
                     }
                 ]
@@ -101,22 +94,22 @@
                     {
                         "name": "England",
                         "labels": {
-                            "en": "England",
-                            "fr": "Angleterre"
+                            "fr": "Angleterre",
+                            "en": "England"
                         },
                         "nodes": [
                             {
                                 "name": "Oxford",
                                 "labels": {
-                                    "en": "Oxford",
-                                    "fr": "Oxford"
+                                    "fr": "Oxford",
+                                    "en": "Oxford"
                                 },
                                 "nodes": [
                                     {
                                         "name": "Alice's Garden",
                                         "labels": {
-                                            "en": "Alice's Garden",
-                                            "fr": "Jardin d'Alice"
+                                            "fr": "Jardin d'Alice",
+                                            "en": "Alice's Garden"
                                         }
                                     }
                                 ]
@@ -124,8 +117,8 @@
                             {
                                 "name": "Rabbit Hole",
                                 "labels": {
-                                    "en": "Rabbit Hole",
-                                    "fr": "Terrier du Lapin"
+                                    "fr": "Terrier du Lapin",
+                                    "en": "Rabbit Hole"
                                 }
                             }
                         ]
@@ -133,43 +126,43 @@
                     {
                         "name": "Wonderland",
                         "labels": {
-                            "en": "Wonderland",
-                            "fr": "Pays des Merveilles"
+                            "fr": "Pays des Merveilles",
+                            "en": "Wonderland"
                         },
                         "nodes": [
                             {
                                 "name": "Duchess' house",
                                 "labels": {
-                                    "en": "Duchess' house",
-                                    "fr": "Maison de la duchesse"
+                                    "fr": "Maison de la duchesse",
+                                    "en": "Duchess' house"
                                 }
                             },
                             {
                                 "name": "White Rabbit's house",
                                 "labels": {
-                                    "en": "White Rabbit's house",
-                                    "fr": "Maison du Lapin Blanc"
+                                    "fr": "Maison du Lapin Blanc",
+                                    "en": "White Rabbit's house"
                                 }
                             },
                             {
                                 "name": "Seacoast",
                                 "labels": {
-                                    "en": "Seacoast",
-                                    "fr": "Côte"
+                                    "fr": "Côte",
+                                    "en": "Seacoast"
                                 }
                             },
                             {
                                 "name": "Palace of Hearts",
                                 "labels": {
-                                    "en": "Palace of Hearts",
-                                    "fr": "Palais de cœur"
+                                    "fr": "Palais de cœur",
+                                    "en": "Palace of Hearts"
                                 },
                                 "nodes": [
                                     {
                                         "name": "Garden",
                                         "labels": {
-                                            "en": "Garden",
-                                            "fr": "Jardin"
+                                            "fr": "Jardin",
+                                            "en": "Garden"
                                         }
                                     }
                                 ]
@@ -177,15 +170,15 @@
                             {
                                 "name": "Mad Hatters's Tea Room",
                                 "labels": {
-                                    "en": "Mad Hatters's Tea Room",
-                                    "fr": "Tea-room du chapelier fou"
+                                    "fr": "Tea-room du chapelier fou",
+                                    "en": "Mad Hatters's Tea Room"
                                 }
                             },
                             {
                                 "name": "Pool of Tears",
                                 "labels": {
-                                    "en": "Pool of Tears",
-                                    "fr": "Mare de larmes"
+                                    "fr": "Mare de larmes",
+                                    "en": "Pool of Tears"
                                 }
                             }
                         ]
@@ -206,22 +199,22 @@
                     {
                         "name": "AD_01",
                         "labels": {
-                            "en": "Discovery",
-                            "fr": "Découverte"
+                            "fr": "Découverte",
+                            "en": "Discovery"
                         }
                     },
                     {
                         "name": "AD_02",
                         "labels": {
-                            "en": "Accident",
-                            "fr": "Accident"
+                            "fr": "Accident",
+                            "en": "Accident"
                         }
                     },
                     {
                         "name": "AD_03",
                         "labels": {
-                            "en": "Surprise",
-                            "fr": "Surprise"
+                            "fr": "Surprise",
+                            "en": "Surprise"
                         }
                     }
                 ]
@@ -240,15 +233,15 @@
                     {
                         "name": "R_01",
                         "labels": {
-                            "en": "Main Character",
-                            "fr": "Personnage principal"
+                            "fr": "Personnage principal",
+                            "en": "Main Character"
                         }
                     },
                     {
                         "name": "R_02",
                         "labels": {
-                            "en": "Secondary Character",
-                            "fr": "Personnage secondaire"
+                            "fr": "Personnage secondaire",
+                            "en": "Secondary Character"
                         }
                     }
                 ]
@@ -1329,29 +1322,24 @@
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasName",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 4
+                                "gui_order": 3
                             },
                             {
                                 "propname": ":hasTimeStamp",
                                 "cardinality": "0-1",
-                                "gui_order": 5
+                                "gui_order": 4
                             },
                             {
                                 "propname": ":hasCopyright",
-                                "cardinality": "1",
-                                "gui_order": 6
+                                "cardinality": "0-1",
+                                "gui_order": 5
                             },
                             {
                                 "propname": ":hasLicenseList",
-                                "cardinality": "1",
-                                "gui_order": 7
+                                "cardinality": "0-1",
+                                "gui_order": 6
                             }
                         ]
                     },
@@ -1378,29 +1366,24 @@
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasName",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 4
+                                "gui_order": 3
                             },
                             {
                                 "propname": ":hasTimeStamp",
                                 "cardinality": "0-1",
-                                "gui_order": 5
+                                "gui_order": 4
                             },
                             {
                                 "propname": ":hasCopyright",
-                                "cardinality": "1",
-                                "gui_order": 6
+                                "cardinality": "0-1",
+                                "gui_order": 5
                             },
                             {
                                 "propname": ":hasLicenseList",
-                                "cardinality": "1",
-                                "gui_order": 7
+                                "cardinality": "0-1",
+                                "gui_order": 6
                             }
                         ]
                     },

@@ -33,4 +33,16 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
+    <resource label="Data Model Links.pdf" restype=":Documentation" id="DOC_001" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Documentation/Data Model Links.pdf</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">DOC_001</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Data Model Links</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">Data Model Links.pdf</text>
+        </text-prop>
+    </resource>
 </knora>

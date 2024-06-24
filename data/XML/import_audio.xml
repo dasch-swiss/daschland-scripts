@@ -33,4 +33,953 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
+    <resource label="Dramatis Personae" restype=":Audio" id="A_01" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_00_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_01</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Dramatis Personae</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_00_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Dramatis Personae
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="Down the Rabbit-Hole" restype=":Audio" id="A_02" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_01_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_02</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Down the Rabbit-Hole</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_01_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Down the Rabbit-Hole
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Pool of Tears" restype=":Audio" id="A_03" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_02_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_03</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Pool of Tears</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_02_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Pool of Tears
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="A Caucus-Race and Long Tale" restype=":Audio" id="A_04" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_03_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_04</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">A Caucus-Race and Long Tale</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_03_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">A Caucus-Race and Long Tale
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English"</text>
+        </text-prop>
+    </resource>
+    <resource label="The Rabbit Sends in a Little Bill" restype=":Audio" id="A_05" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_04_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_05</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Rabbit Sends in a Little Bill</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_04_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Rabbit Sends in a Little Bill
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English"</text>
+        </text-prop>
+    </resource>
+    <resource label="Advice From a Caterpillar" restype=":Audio" id="A_06" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_05_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_06</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Advice From a Caterpillar</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_05_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Advice From a Caterpillar
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="Pig and Pepper" restype=":Audio" id="A_07" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_06_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_07</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Pig and Pepper</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_06_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Pig and Pepper
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Mad Tea-Party" restype=":Audio" id="A_08" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_07_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_08</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Mad Tea-Party</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_07_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Mad Tea-Party
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Queen's Croquet-Ground" restype=":Audio" id="A_09" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_08_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_09</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Queen's Croquet-Ground</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_08_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Queen's Croquet-Ground
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Mock Turtle's Story" restype=":Audio" id="A_10" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_09_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_10</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Mock Turtle's Story</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_09_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Mock Turtle's Story
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="The Lobster Quadrille" restype=":Audio" id="A_11" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_10_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_11</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Lobster Quadrille</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_10_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">The Lobster Quadrille
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="Who Stole the Tarts?" restype=":Audio" id="A_12" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_11_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_12</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Who Stole the Tarts?</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_11_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Who Stole the Tarts?
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
+    <resource label="Alice's Evidence" restype=":Audio" id="A_13" permissions="res-default">
+        <bitstream permissions="prop-default">data/Multimedia_Data/Audio/aliceinwonderland_12_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">A_13</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Alice's Evidence</text>
+        </text-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">to be filled</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="prop-default">PDM 1.0</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="prop-default" encoding="utf8">aliceinwonderland_12_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Alice's Evidence
+Alice's Adventures in Wonderland (Dramatic Reading)
+Lewis Carroll (1832 - 1898)
+
+This classic tale by Lewis Carroll has delighted children for generations. Alice falls down a rabbit hole and encounters a wide variety of strange and wonderful creatures in all manner of bizarre situations. Join Alice as she journeys through Wonderland, trying to make sense of what she finds there. This version is read dramatically, with different readers voicing the different characters. (Summary by Lucy Perry)
+
+Cast
+
+Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger
+
+Audio edited by Elizabeth Klett and Arielle Lipshaw
+
+Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction
+
+Language: English</text>
+        </text-prop>
+    </resource>
 </knora>

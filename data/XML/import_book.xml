@@ -33,10 +33,10 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Alice in Wonderland" restype=":Book" id="FT_001" permissions="res-default">
+    <resource label="Alice in Wonderland" restype=":Book" id="BK_001" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Book/Alice_in_Wonderland.pdf</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FT_001</text>
+            <text permissions="prop-default" encoding="utf8">BK_001</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Alice in Wonderland</text>
@@ -54,10 +54,10 @@
             <list permissions="prop-default">CC 0.0</list>
         </list-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there" restype=":Book" id="FT_002" permissions="res-default">
+    <resource label="Through the Looking-Glass and what Alice found there" restype=":Book" id="BK_002" permissions="res-default">
         <bitstream permissions="prop-default">data/Multimedia_Data/Book/Through_the_Looking_Glass.pdf</bitstream>
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FT_002</text>
+            <text permissions="prop-default" encoding="utf8">BK_002</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Through the Looking-Glass and what Alice found there</text>

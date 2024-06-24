@@ -20,7 +20,7 @@ def main():
         if not excel2xml.check_notna(row["ID"]):
             continue
         resource_id = row["ID"]
-        resource_label = row["Label"]
+        resource_label = row["Name"]
 
         # create the `<resource>` tag
         resource = excel2xml.make_resource(
@@ -34,6 +34,8 @@ def main():
 
         if excel2xml.check_notna(row["ID"]):
             resource.append(excel2xml.make_text_prop(":hasID", resource_id))
+        if excel2xml.check_notna(row["Name"]):
+            resource.append(excel2xml.make_text_prop(":hasName", row["Name"]))
         timestamp_value = get_media_file_creation_time(audio_path)
         if excel2xml.check_notna(timestamp_value):
             resource.append(excel2xml.make_time_prop(":hasTimeStamp", timestamp_value))

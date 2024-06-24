@@ -33,12 +33,23 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Alice in Wonderland - Chapter 1" restype=":BookChapter" id="FC_01" permissions="res-default">
+    <resource label="Alice in Wonderland - Poem: “All in the golden afternoon”" restype=":BookChapter" id="BC_01" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_01</text>
+            <text permissions="prop-default" encoding="utf8">BC_01</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 1</text>
+            <text permissions="prop-default" encoding="utf8">Poem: “All in the golden afternoon”</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">Poem</text>
+        </text-prop>
+    </resource>
+    <resource label="Alice in Wonderland - Down the Rabbit-Hole" restype=":BookChapter" id="BC_02" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_02</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Down the Rabbit-Hole</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Alice was not your ordinary girl; she had a keen sense of adventure and a bright, inquisitive mind. One sunny afternoon, while wandering near the edge of her town, she stumbled upon a peculiar rabbit hole, shimmering with an array of colors that hinted at something magical beyond the ordinary.</text>
@@ -50,15 +61,18 @@
             <uri permissions="prop-default">https://www.alice-in-wonderland.net/resources/chapters-script/alices-adventures-in-wonderland/chapter-1/</uri>
         </uri-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_016</resptr>
+            <resptr permissions="prop-default">CH_020</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 2" restype=":BookChapter" id="FC_02" permissions="res-default">
+    <resource label="Alice in Wonderland - The Pool of Tears" restype=":BookChapter" id="BC_03" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_02</text>
+            <text permissions="prop-default" encoding="utf8">BC_03</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 2</text>
+            <text permissions="prop-default" encoding="utf8">The Pool of Tears</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Compelled by her adventurous spirit, Alice leaned in closer to examine the hole. Suddenly, she found herself tumbling down into an extraordinary place called DaSCHland. This wasn't just any wonderland; it was a world powered by the innovative company DaSCH, known for its remarkable technology and whimsical inventions, and importantly, as a repository for research data in the humanities.</text>
@@ -67,15 +81,22 @@
             <integer permissions="prop-default">2</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_020</resptr>
+            <resptr permissions="prop-default">CH_014</resptr>
+            <resptr permissions="prop-default">CH_021</resptr>
+            <resptr permissions="prop-default">CH_015</resptr>
+            <resptr permissions="prop-default">CH_022</resptr>
+            <resptr permissions="prop-default">CH_023</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 3" restype=":BookChapter" id="FC_03" permissions="res-default">
+    <resource label="Alice in Wonderland - A Caucus-Race and a long Tale" restype=":BookChapter" id="BC_04" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_03</text>
+            <text permissions="prop-default" encoding="utf8">BC_04</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 3</text>
+            <text permissions="prop-default" encoding="utf8">A Caucus-Race and a long Tale</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">As Alice landed softly on a bed of clouds, she was greeted by a talking robot named RabbIT. RabbIT, with its glowing red eyes and sleek silver body, was unlike any creature Alice had ever seen. "Welcome to DaSCHland," it beeped warmly. "Here, our dreams become realities, and our curiosities fuel our creations."</text>
@@ -84,16 +105,21 @@
             <integer permissions="prop-default">3</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
-            <resptr permissions="prop-default">W_002</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_020</resptr>
+            <resptr permissions="prop-default">CH_014</resptr>
+            <resptr permissions="prop-default">CH_021</resptr>
+            <resptr permissions="prop-default">CH_015</resptr>
+            <resptr permissions="prop-default">CH_022</resptr>
+            <resptr permissions="prop-default">CH_023</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 4" restype=":BookChapter" id="FC_04" permissions="res-default">
+    <resource label="Alice in Wonderland - The Rabbit sends in a little Bill" restype=":BookChapter" id="BC_05" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_04</text>
+            <text permissions="prop-default" encoding="utf8">BC_05</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 4</text>
+            <text permissions="prop-default" encoding="utf8">The Rabbit sends in a little Bill</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Eager to explore, Alice followed RabbIT through a landscape where trees had digital screens for leaves displaying fantastical images and data streamed across the sky like shooting stars. They passed houses that changed shape and color at the occupants' whims and gardens where flowers sang melodies in harmony.</text>
@@ -102,16 +128,21 @@
             <integer permissions="prop-default">4</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
-            <resptr permissions="prop-default">W_002</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_003</resptr>
+            <resptr permissions="prop-default">CH_020</resptr>
+            <resptr permissions="prop-default">CH_024</resptr>
+            <resptr permissions="prop-default">CH_025</resptr>
+            <resptr permissions="prop-default">CH_027</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 5" restype=":BookChapter" id="FC_05" permissions="res-default">
+    <resource label="Alice in Wonderland - Advice from a Caterpillar" restype=":BookChapter" id="BC_06" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_05</text>
+            <text permissions="prop-default" encoding="utf8">BC_06</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 5</text>
+            <text permissions="prop-default" encoding="utf8">Advice from a Caterpillar</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Their first stop was the Tea Time Café, where a Mad Hatter, an eccentric inventor in DaSCHland, served tea that could make one shrink or grow. Alice sipped a cup marked "Grow" and instantly stretched taller than the trees. Amused and a bit startled, she laughed, marveling at the wonders of DaSCHland.</text>
@@ -120,16 +151,18 @@
             <integer permissions="prop-default">5</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
-            <resptr permissions="prop-default">W_004</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_004</resptr>
+            <resptr permissions="prop-default">CH_003</resptr>
+            <resptr permissions="prop-default">CH_029</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 6" restype=":BookChapter" id="FC_06" permissions="res-default">
+    <resource label="Alice in Wonderland - Pig and Pepper" restype=":BookChapter" id="BC_07" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_06</text>
+            <text permissions="prop-default" encoding="utf8">BC_07</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 6</text>
+            <text permissions="prop-default" encoding="utf8">Pig and Pepper</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Next, they visited the Queen of Hearts, who was not a queen of cards but a brilliant engineer leading the Hearts Division, specializing in creating technologies that connected emotions with devices. The Queen showed Alice a mirror that didn't just reflect one's image but also displayed one’s innermost feelings and thoughts.</text>
@@ -138,15 +171,21 @@
             <integer permissions="prop-default">6</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_005</resptr>
+            <resptr permissions="prop-default">CH_030</resptr>
+            <resptr permissions="prop-default">CH_031</resptr>
+            <resptr permissions="prop-default">CH_008</resptr>
+            <resptr permissions="prop-default">CH_032</resptr>
+            <resptr permissions="prop-default">CH_033</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 7" restype=":BookChapter" id="FC_07" permissions="res-default">
+    <resource label="Alice in Wonderland - A Mad Tea-Party" restype=":BookChapter" id="BC_08" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_07</text>
+            <text permissions="prop-default" encoding="utf8">BC_08</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 7</text>
+            <text permissions="prop-default" encoding="utf8">A Mad Tea-Party</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">As the day turned to dusk, RabbIT led Alice to the Grand Library, a vast, spiraling tower filled with books that whispered their stories aloud, eager to be heard. Here, Alice learned the history of DaSCHland, how it was built by dreamers and thinkers, innovators and creators, all powered by the visionary company DaSCH, dedicated to bringing humanities data to life.</text>
@@ -155,15 +194,18 @@
             <integer permissions="prop-default">7</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_004</resptr>
+            <resptr permissions="prop-default">CH_007</resptr>
+            <resptr permissions="prop-default">CH_018</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 8" restype=":BookChapter" id="FC_08" permissions="res-default">
+    <resource label="Alice in Wonderland - The Queen’s Croquet-Ground" restype=":BookChapter" id="BC_09" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_08</text>
+            <text permissions="prop-default" encoding="utf8">BC_09</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 8</text>
+            <text permissions="prop-default" encoding="utf8">The Queen’s Croquet-Ground</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">But soon, the sky darkened, and a soft voice whispered that it was time for Alice to return to her world. Reluctantly, Alice followed RabbIT back to the rabbit hole. "You must return, but remember that DaSCHland is always here, waiting for your return. Keep dreaming and wondering," RabbIT said as Alice climbed out of the hole.</text>
@@ -172,15 +214,19 @@
             <integer permissions="prop-default">8</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_005</resptr>
+            <resptr permissions="prop-default">CH_006</resptr>
+            <resptr permissions="prop-default">CH_008</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 9" restype=":BookChapter" id="FC_09" permissions="res-default">
+    <resource label="Alice in Wonderland - The Mock Turtle’s Story" restype=":BookChapter" id="BC_10" permissions="res-default">
         <text-prop name=":hasID">
-            <text permissions="prop-default" encoding="utf8">FC_09</text>
+            <text permissions="prop-default" encoding="utf8">BC_10</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Chapter 9</text>
+            <text permissions="prop-default" encoding="utf8">The Mock Turtle’s Story</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">Back in her world, the adventure seemed like a dream. Yet, in her pocket was a small, glowing stone, a token from DaSCHland. Alice smiled, knowing that her journey had been real and that she would one day return to the wondrous realm of DaSCHland, where dreams and the rich tapestry of humanities research were just the beginning.</text>
@@ -189,7 +235,238 @@
             <integer permissions="prop-default">9</integer>
         </integer-prop>
         <resptr-prop name=":linkToCharacterID">
-            <resptr permissions="prop-default">W_001</resptr>
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_006</resptr>
+            <resptr permissions="prop-default">CH_008</resptr>
         </resptr-prop>
+    </resource>
+    <resource label="Alice in Wonderland - The Lobster Quadrille" restype=":BookChapter" id="BC_11" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_11</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Lobster Quadrille</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">10</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in Wonderland - Who stole the Tarts?" restype=":BookChapter" id="BC_12" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_12</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Who stole the Tarts?</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">11</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_004</resptr>
+            <resptr permissions="prop-default">CH_006</resptr>
+            <resptr permissions="prop-default">CH_027</resptr>
+            <resptr permissions="prop-default">CH_033</resptr>
+            <resptr permissions="prop-default">CH_007</resptr>
+            <resptr permissions="prop-default">CH_018</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Alice in Wonderland - Alice’s Evidence" restype=":BookChapter" id="BC_13" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_13</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Alice’s Evidence</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">12</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_002</resptr>
+            <resptr permissions="prop-default">CH_006</resptr>
+            <resptr permissions="prop-default">CH_016</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Dramatis Personae and chessboard" restype=":BookChapter" id="BC_14" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_14</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Dramatis Personae and chessboard</text>
+        </text-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Preface" restype=":BookChapter" id="BC_15" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_15</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Preface</text>
+        </text-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Poem: “Child of the pure unclouded brow”" restype=":BookChapter" id="BC_16" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_16</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Poem: “Child of the pure unclouded brow”</text>
+        </text-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Looking-Glass House" restype=":BookChapter" id="BC_17" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_17</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Looking-Glass House</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+            <resptr permissions="prop-default">CH_026</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - The Garden of Live Flowers" restype=":BookChapter" id="BC_18" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_18</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Garden of Live Flowers</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">2</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Looking-Glass Insects" restype=":BookChapter" id="BC_19" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_19</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Looking-Glass Insects</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">3</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Tweedledum and Tweedledee" restype=":BookChapter" id="BC_20" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_20</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Tweedledum and Tweedledee</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">4</integer>
+        </integer-prop>
+        <resptr-prop name=":linkToCharacterID">
+            <resptr permissions="prop-default">CH_001</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Wool and Water" restype=":BookChapter" id="BC_21" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_21</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Wool and Water</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">5</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Humpty Dumpty" restype=":BookChapter" id="BC_22" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_22</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Humpty Dumpty</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">6</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - The Lion and the Unicorn" restype=":BookChapter" id="BC_23" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_23</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">The Lion and the Unicorn</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">7</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - “It’s my own Invention”" restype=":BookChapter" id="BC_24" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_24</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">“It’s my own Invention”</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">8</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Queen Alice" restype=":BookChapter" id="BC_25" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_25</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Queen Alice</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">9</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Shaking" restype=":BookChapter" id="BC_26" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_26</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Shaking</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">10</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Waking" restype=":BookChapter" id="BC_27" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_27</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Waking</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">11</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Which dreamed it?" restype=":BookChapter" id="BC_28" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_28</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Which dreamed it?</text>
+        </text-prop>
+        <integer-prop name=":hasChapterNumber">
+            <integer permissions="prop-default">12</integer>
+        </integer-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there - Poem: “A boat beneath a sunny sky”" restype=":BookChapter" id="BC_29" permissions="res-default">
+        <text-prop name=":hasID">
+            <text permissions="prop-default" encoding="utf8">BC_29</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Poem: “A boat beneath a sunny sky”</text>
+        </text-prop>
     </resource>
 </knora>
