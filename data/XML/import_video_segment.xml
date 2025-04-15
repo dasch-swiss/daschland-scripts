@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <video-segment label="Alice in Wonderland - Title sequence" id="VIS_001" permissions="open">
+        <isSegmentOf permissions="open">V_01</isSegmentOf>
+        <hasSegmentBounds segment_start="0" segment_end="16" permissions="open"/>
+        <hasTitle permissions="open">Title Sequence</hasTitle>
+        <hasDescription permissions="open">Title and Cast of the Movie</hasDescription>
+        <hasKeyword permissions="open">Intro</hasKeyword>
+    </video-segment>
+    <video-segment label="Alice in Wonderland - Movie" id="VIS_002" permissions="open">
+        <isSegmentOf permissions="open">V_01</isSegmentOf>
+        <hasSegmentBounds segment_start="16" segment_end="2517" permissions="open"/>
+        <hasDescription permissions="open">Movie</hasDescription>
+        <hasKeyword permissions="open">Movie</hasKeyword>
+    </video-segment>
+    <video-segment label="Alice in Wonderland - Credits" id="VIS_003" permissions="open">
+        <isSegmentOf permissions="open">V_01</isSegmentOf>
+        <hasSegmentBounds segment_start="2517" segment_end="2527" permissions="open"/>
+        <hasTitle permissions="open">Credits</hasTitle>
+        <hasDescription permissions="open">Credits</hasDescription>
+        <hasKeyword permissions="open">Outro</hasKeyword>
+    </video-segment>
+</knora>

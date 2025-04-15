@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="BE_Alice_in_Wonderland.pdf" restype=":BookEdition" id="BE_001" permissions="open">
+        <bitstream permissions="open">data/Multimedia_Data/Book/BE_Alice_in_Wonderland.pdf</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">BE_001</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="open" encoding="utf8">BE_Alice_in_Wonderland.pdf</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Alice's Adventures in Wonderland
+by Lewis Carroll
+Illustrated by John Tenniel
+Book Virtual Edition, true to the typesetting of the original version.</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="open">2000-01-01T00:00:00-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="open" encoding="utf8">BookVirtual Corp. U.S. Patent Pending.</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="open">LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasAuthorship">
+            <text permissions="open" encoding="utf8">Lewis Carroll</text>
+            <text permissions="open" encoding="utf8">John Tenniel</text>
+        </text-prop>
+    </resource>
+    <resource label="BE_Through_the_Looking_Glass.pdf" restype=":BookEdition" id="BE_002" permissions="open">
+        <bitstream permissions="open">data/Multimedia_Data/Book/BE_Through_the_Looking_Glass.pdf</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">BE_002</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="open" encoding="utf8">BE_Through_the_Looking_Glass.pdf</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Through the Looking-Glass and what Alice found there
+by Lewis Carroll
+illustrated by Peter Newell</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="open">2021-02-22T20:44:26-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="open" encoding="utf8">Harper &amp; Brothers</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="open">LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasAuthorship">
+            <text permissions="open" encoding="utf8">Lewis Carroll</text>
+            <text permissions="open" encoding="utf8">Peter Newell</text>
+        </text-prop>
+    </resource>
+    <resource label="BE_throughlooking00carr.pdf" restype=":BookEdition" id="BE_003" permissions="open">
+        <bitstream permissions="open">data/Multimedia_Data/Book/BE_throughlooking00carr.pdf</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">BE_003</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="open" encoding="utf8">BE_throughlooking00carr.pdf</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Through the Looking-Glass and what Alice found there
+by Lewis Carroll
+with fifty illustrations by John Tenniel</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="open">2009-08-14T02:21:35-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="open" encoding="utf8">MacMillan and Co.</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="open">LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasAuthorship">
+            <text permissions="open" encoding="utf8">Lewis Carroll</text>
+            <text permissions="open" encoding="utf8">John Tenniel</text>
+        </text-prop>
+    </resource>
+    <resource label="BE_adventuresalices00carrrich.pdf" restype=":BookEdition" id="BE_004" permissions="open">
+        <bitstream permissions="open">data/Multimedia_Data/Book/BE_adventuresalices00carrrich.pdf</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">BE_004</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="open" encoding="utf8">BE_adventuresalices00carrrich.pdf</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Alice's Adventures in Wonderland
+by Lewis Carroll
+with an introduction by E.S. Martin
+illustrated by Peter Newell</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="open">2010-11-01T06:40:20-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="open" encoding="utf8">Harper &amp; Brothers</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="open">LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasAuthorship">
+            <text permissions="open" encoding="utf8">Lewis Carroll</text>
+            <text permissions="open" encoding="utf8">Peter Newell</text>
+        </text-prop>
+    </resource>
+    <resource label="BE_alicesadventur00carr.pdf" restype=":BookEdition" id="BE_005" permissions="open">
+        <bitstream permissions="open">data/Multimedia_Data/Book/BE_alicesadventur00carr.pdf</bitstream>
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">BE_005</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text permissions="open" encoding="utf8">BE_alicesadventur00carr.pdf</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Alice's Adventures in Wonderland
+by Lewis Carroll
+with forty-two illustrations by John Tenniel</text>
+        </text-prop>
+        <time-prop name=":hasTimeStamp">
+            <time permissions="open">2009-08-14T02:25:37-00:00</time>
+        </time-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="open" encoding="utf8">MacMillan and Co.</text>
+        </text-prop>
+        <list-prop list="License" name=":hasLicenseList">
+            <list permissions="open">LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasAuthorship">
+            <text permissions="open" encoding="utf8">Lewis Carroll</text>
+            <text permissions="open" encoding="utf8">John Tenniel</text>
+        </text-prop>
+    </resource>
+</knora>

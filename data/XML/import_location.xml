@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="Alice's home" restype=":LocationWonderland" id="L_019" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_019</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Alice's home</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The house where Alice and her family live.</text>
+            <text permissions="open" encoding="xml">Das Haus, in dem Alice und ihre Familie leben.</text>
+            <text permissions="open" encoding="xml">La maison où vivent Alice et sa famille.</text>
+            <text permissions="open" encoding="xml">La casa dove vivono Alice e la sua famiglia.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_045</resptr>
+            <resptr permissions="open">I_046</resptr>
+            <resptr permissions="open">I_092</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Caterpillar’s Mushroom" restype=":LocationWonderland" id="L_014" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_014</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Caterpillar’s Mushroom</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Where Alice meets the Caterpillar.</text>
+            <text permissions="open" encoding="xml">Wo Alice die Raupe trifft.</text>
+            <text permissions="open" encoding="xml">L'endroit où Alice rencontre la Chenille.</text>
+            <text permissions="open" encoding="xml">Dove Alice incontra il Bruco.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_015</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Cheshire Cat's Tree" restype=":LocationWonderland" id="L_021" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_021</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Cheshire Cat's Tree</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Where Alice meets the Cheshire Cat.</text>
+            <text permissions="open" encoding="xml">Wo Alice die Grinsekatze trifft.</text>
+            <text permissions="open" encoding="xml">L'endroit où Alice rencontre le Chat du Cheshire.</text>
+            <text permissions="open" encoding="xml">Dove Alice incontra lo Stregatto.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_023</resptr>
+            <resptr permissions="open">I_024</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Chessboard Land" restype=":LocationWonderland" id="L_024" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_024</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Chessboard Land</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The overarching setting resembling a giant chessboard.</text>
+            <text permissions="open" encoding="xml">Der allumfassende Spielrahmen, der einem riesigen Schachbrett ähnelt.</text>
+            <text permissions="open" encoding="xml">Le décor général qui ressemble à un échiquier géant.</text>
+            <text permissions="open" encoding="xml">L'ambientazione generale che assomiglia a una scacchiera gigante.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_054</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Chessboard's Final Square" restype=":LocationWonderland" id="L_032" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_032</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Chessboard's Final Square</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The final square where Alice becomes a queen.</text>
+            <text permissions="open" encoding="xml">Das letzte Feld, auf dem Alice zur Königin wird.</text>
+            <text permissions="open" encoding="xml">La case finale où Alice devient reine.</text>
+            <text permissions="open" encoding="xml">La casella finale in cui Alice diventa regina.</text>
+        </text-prop>
+    </resource>
+    <resource label="Courtroom" restype=":LocationWonderland" id="L_016" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_016</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Courtroom</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The setting for the trial of the Knave of Hearts.</text>
+            <text permissions="open" encoding="xml">Der Schauplatz des Prozesses gegen den Herzbuben.</text>
+            <text permissions="open" encoding="xml">Le cadre du procès du Valet de Cœur.</text>
+            <text permissions="open" encoding="xml">L'ambientazione del processo al Fante di cuore.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_001</resptr>
+            <resptr permissions="open">I_040</resptr>
+            <resptr permissions="open">I_041</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Duchess' house" restype=":LocationWonderland" id="L_003" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_003</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Duchess' house</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The chaotic home of the Duchess.</text>
+            <text permissions="open" encoding="xml">Das chaotische Zuhause der Herzogin.</text>
+            <text permissions="open" encoding="xml">La maison chaotique de la Duchesse.</text>
+            <text permissions="open" encoding="xml">La caotica casa della Duchessa.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_020</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Duchess' Kitchen" restype=":LocationWonderland" id="L_020" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_020</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Duchess' Kitchen</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The kitchen of the Duchess, filled with pepper.</text>
+            <text permissions="open" encoding="xml">Die Küche der Herzogin, gefüllt mit Pfeffer.</text>
+            <text permissions="open" encoding="xml">La cuisine de la Duchesse, remplie de poivre.</text>
+            <text permissions="open" encoding="xml">La cucina della Duchessa, piena di pepe.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_021</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="England" restype=":LocationRealWorld" id="L_010" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_010</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">England</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The country where Alice lives.</text>
+            <text permissions="open" encoding="xml">Das Land, in dem Alice lebt.</text>
+            <text permissions="open" encoding="xml">Le pays où vit Alice.</text>
+            <text permissions="open" encoding="xml">Il paese in cui vive Alice.</text>
+        </text-prop>
+        <geoname-prop name=":hasGeoname">
+            <geoname permissions="open">6269131</geoname>
+        </geoname-prop>
+    </resource>
+    <resource label="Garden of Live Flowers" restype=":LocationWonderland" id="L_012" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_012</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Garden of Live Flowers</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">A garden where flowers can talk.</text>
+            <text permissions="open" encoding="xml">Ein Garten, in dem Blumen sprechen können.</text>
+            <text permissions="open" encoding="xml">Un jardin où les fleurs peuvent parler.</text>
+            <text permissions="open" encoding="xml">Un giardino dove i fiori possono parlare.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_052</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Hall of Doors" restype=":LocationWonderland" id="L_011" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_011</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Hall of Doors</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">A room with many locked doors of different sizes.</text>
+            <text permissions="open" encoding="xml">Ein Raum mit vielen verschlossenen Türen unterschiedlicher Größe.</text>
+            <text permissions="open" encoding="xml">Une pièce avec de nombreuses portes verrouillées de tailles différentes.</text>
+            <text permissions="open" encoding="xml">Una stanza con molte porte chiuse a chiave di dimensioni diverse.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_003</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Sheep Shop" restype=":LocationWonderland" id="L_025" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_025</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Sheep Shop</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Where Alice encounters the Sheep in a shop.</text>
+            <text permissions="open" encoding="xml">Wo Alice in einem Geschäft auf das Schaf trifft.</text>
+            <text permissions="open" encoding="xml">L'endroit où Alice rencontre le Mouton dans un magasin.</text>
+            <text permissions="open" encoding="xml">Dove Alice incontra la Pecora in un negozio.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_070</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Humpty Dumpty's Wall" restype=":LocationWonderland" id="L_028" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_028</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Humpty Dumpty's Wall</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The wall where Alice meets Humpty Dumpty.</text>
+            <text permissions="open" encoding="xml">Die Mauer, an der Alice Humpty Dumpty trifft.</text>
+            <text permissions="open" encoding="xml">Le mur où Alice rencontre Humpty Dumpty.</text>
+            <text permissions="open" encoding="xml">Il muro dove Alice incontra Humpty Dumpty.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_072</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Lion and Unicorn's Battleground" restype=":LocationWonderland" id="L_029" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_029</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Lion and Unicorn's Battleground</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The area where the Lion and the Unicorn fight for the crown.</text>
+            <text permissions="open" encoding="xml">Der Bereich, in dem der Löwe und das Einhorn um die Krone kämpfen.</text>
+            <text permissions="open" encoding="xml">La zone où le Lion et la Licorne se battent pour la couronne.</text>
+            <text permissions="open" encoding="xml">L'area in cui il Leone e l'Unicorno combattono per la corona.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_078</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Looking-Glass House" restype=":LocationWonderland" id="L_023" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_023</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Looking-Glass House</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The mirror world version of Alice’s own home.</text>
+            <text permissions="open" encoding="xml">Die Spiegelweltversion von Alices eigenem Zuhause.</text>
+            <text permissions="open" encoding="xml">La version du monde miroir de la maison d'Alice.</text>
+            <text permissions="open" encoding="xml">La versione del mondo degli specchi della casa di Alice.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_047</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Mad Hatters's Tea Room" restype=":LocationWonderland" id="L_007" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_007</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Mad Hatters's Tea Room</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The outdoor setting where Alice meets the Queen’s gardeners.</text>
+            <text permissions="open" encoding="xml">Die Umgebung im Freien, in der Alice die Gärtner der Königin trifft.</text>
+            <text permissions="open" encoding="xml">Le décor extérieur où Alice rencontre les jardiniers de la reine.</text>
+            <text permissions="open" encoding="xml">L'ambiente esterno dove Alice incontra i giardinieri della Regina.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_025</resptr>
+            <resptr permissions="open">I_027</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Mock Turtle’s Beach (Gryphon’s Plateau)" restype=":LocationWonderland" id="L_018" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_018</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Mock Turtle’s Beach (Gryphon’s Plateau)</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The seashore where the Mock Turtle and Gryphon talk with Alice.</text>
+            <text permissions="open" encoding="xml">Die Küste, an der die Scheinschildkröte und der Greif mit Alice sprechen.</text>
+            <text permissions="open" encoding="xml">Le bord de mer où la Simili Tortue et le Gryphon s'entretiennent avec Alice.</text>
+            <text permissions="open" encoding="xml">La riva del mare dove la finta tartaruga e il grifone parlano con Alice.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_034</resptr>
+            <resptr permissions="open">I_035</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Oxford" restype=":LocationRealWorld" id="L_009" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_009</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Oxford</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The city of Oxford, in England, where Alice Liddell lived.</text>
+            <text permissions="open" encoding="xml">Die Stadt Oxford in England, in der Alice Liddell lebte.</text>
+            <text permissions="open" encoding="xml">La ville d'Oxford, en Angleterre, où Alice Liddell a vécu.</text>
+            <text permissions="open" encoding="xml">La città di Oxford, in Inghilterra, dove viveva Alice Liddell.</text>
+        </text-prop>
+        <geoname-prop name=":hasGeoname">
+            <geoname permissions="open">2640729</geoname>
+        </geoname-prop>
+    </resource>
+    <resource label="Palace of Hearts" restype=":LocationWonderland" id="L_006" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_006</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Palace of Hearts</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The Palace of Hearts.</text>
+            <text permissions="open" encoding="xml">Der der Herzpalast.</text>
+            <text permissions="open" encoding="xml">Le Palais de Cœur.</text>
+            <text permissions="open" encoding="xml">Il Palazzo di cuore.</text>
+        </text-prop>
+    </resource>
+    <resource label="Pool of Tears" restype=":LocationWonderland" id="L_008" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_008</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Pool of Tears</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">A large pool created by Alice’s tears when she was a giant.</text>
+            <text permissions="open" encoding="xml">Ein großer Teich, der durch Alices Tränen entstand, als sie ein Riese war.</text>
+            <text permissions="open" encoding="xml">Un grand bassin créé par les larmes d'Alice lorsqu'elle était géante.</text>
+            <text permissions="open" encoding="xml">Una grande vasca creata dalle lacrime di Alice quando era un gigante.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_007</resptr>
+            <resptr permissions="open">I_008</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Queen's Croquet Ground" restype=":LocationWonderland" id="L_022" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_022</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Queen's Croquet Ground</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">A garden where the Queen of Hearts plays croquet.</text>
+            <text permissions="open" encoding="xml">Ein Garten, in dem die Herzkönigin Krocket spielt.</text>
+            <text permissions="open" encoding="xml">Un jardin où la Reine de Cœur joue au croquet.</text>
+            <text permissions="open" encoding="xml">Un giardino dove la Regina di cuore gioca a croquet.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_030</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Queen's Garden" restype=":LocationWonderland" id="L_013" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_013</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Queen's Garden</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The Queen’s Garden.</text>
+            <text permissions="open" encoding="xml">Der Garten der Königin.</text>
+            <text permissions="open" encoding="xml">Le jardin de la Reine.</text>
+            <text permissions="open" encoding="xml">Il giardino della Regina.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_028</resptr>
+            <resptr permissions="open">I_029</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Rabbit Hole" restype=":LocationWonderland" id="L_002" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_002</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Rabbit Hole</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The entrance to Wonderland.</text>
+            <text permissions="open" encoding="xml">Der Eingang zum Wunderland.</text>
+            <text permissions="open" encoding="xml">L'entrée du Pays des Merveilles.</text>
+            <text permissions="open" encoding="xml">L'ingresso del Paese delle Meraviglie.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_006</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Red Queen's Hill" restype=":LocationWonderland" id="L_031" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_031</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Red Queen's Hill</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The hill Alice ascends to become a queen.</text>
+            <text permissions="open" encoding="xml">Der Hügel, den Alice erklimmt, um Königin zu werden.</text>
+            <text permissions="open" encoding="xml">La colline qu'Alice gravit pour devenir reine.</text>
+            <text permissions="open" encoding="xml">La collina che Alice sale per diventare regina.</text>
+        </text-prop>
+    </resource>
+    <resource label="Riverbank" restype=":LocationRealWorld" id="L_001" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_001</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Riverbank</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Alice’s Garden in Oxford.</text>
+            <text permissions="open" encoding="xml">Alices Garten in Oxford.</text>
+            <text permissions="open" encoding="xml">Le jardin d'Alice à Oxford.</text>
+            <text permissions="open" encoding="xml">Il giardino di Alice a Oxford.</text>
+        </text-prop>
+    </resource>
+    <resource label="Seacoast" restype=":LocationWonderland" id="L_005" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_005</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Seacoast</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Where a chaotic Caucus Race occurs, and a Mouse shares a long, winding tale, reflecting the absurdity of Wonderland.</text>
+            <text permissions="open" encoding="xml">Wo ein chaotischer Vorwahlkampf stattfindet und eine Maus eine lange, verworrene Geschichte erzählt.</text>
+            <text permissions="open" encoding="xml">Là où une course de caucus chaotique se produit, et où une souris partage une longue et sinueuse histoire.</text>
+            <text permissions="open" encoding="xml">Dove si verifica una caotica gara di caucus e un topo condivide una lunga e tortuosa storia.</text>
+        </text-prop>
+    </resource>
+    <resource label="March Hare’s House" restype=":LocationWonderland" id="L_015" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_015</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">March Hare’s House</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The March Hare’s House.</text>
+            <text permissions="open" encoding="xml">Das Haus des Märzhasen.</text>
+            <text permissions="open" encoding="xml">La maison du Lièvre de Mars.</text>
+            <text permissions="open" encoding="xml">La casa della Lepre Marzolina.</text>
+        </text-prop>
+    </resource>
+    <resource label="Tweedledum and Tweedledee's Place" restype=":LocationWonderland" id="L_026" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_026</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Tweedledum and Tweedledee's Place</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The area where Alice meets the Tweedle twins.</text>
+            <text permissions="open" encoding="xml">Der Ort, an dem Alice die Tweedle-Zwillinge trifft.</text>
+            <text permissions="open" encoding="xml">L'endroit où Alice rencontre les jumeaux Tweedle.</text>
+            <text permissions="open" encoding="xml">L'area in cui Alice incontra i gemelli Tweedle.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_061</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="White Knight's Path" restype=":LocationWonderland" id="L_030" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_030</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">White Knight's Path</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The area where Alice meets the White Knight.</text>
+            <text permissions="open" encoding="xml">Der Ort, an dem Alice den Weißen Ritter trifft.</text>
+            <text permissions="open" encoding="xml">L'endroit où Alice rencontre le Cavalier Blanc.</text>
+            <text permissions="open" encoding="xml">L'area in cui Alice incontra il Cavaliere Bianco.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_081</resptr>
+            <resptr permissions="open">I_082</resptr>
+            <resptr permissions="open">I_083</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="White Rabbit's house" restype=":LocationWonderland" id="L_004" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_004</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">White Rabbit's house</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The home of the White Rabbit, where Alice grows too large.</text>
+            <text permissions="open" encoding="xml">Das Zuhause des Weißen Kaninchens, in dem Alice zu groß wird.</text>
+            <text permissions="open" encoding="xml">La maison du Lapin Blanc, où Alice devient trop grande.</text>
+            <text permissions="open" encoding="xml">La casa del Bianconiglio, dove Alice diventa troppo grande.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_011</resptr>
+            <resptr permissions="open">I_012</resptr>
+            <resptr permissions="open">I_013</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Wood Where Things Have No Names" restype=":LocationWonderland" id="L_017" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_017</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Wood Where Things Have No Names</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">A wood where things lose their names.</text>
+            <text permissions="open" encoding="xml">Ein Wald, in dem die Dinge ihre Namen verlieren.</text>
+            <text permissions="open" encoding="xml">Un bois où les choses perdent leur nom.</text>
+            <text permissions="open" encoding="xml">Un bosco dove le cose perdono il loro nome.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_060</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Prison" restype=":LocationWonderland" id="L_027" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">L_027</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Prison</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">The place where the Mad Hatter is kept.</text>
+            <text permissions="open" encoding="xml">Der Ort, an dem der verrückte Hutmacher festgehalten wird.</text>
+            <text permissions="open" encoding="xml">L'endroit où le Chapelier fou est enfermé.</text>
+            <text permissions="open" encoding="xml">Il luogo in cui è rinchiuso il Cappellaio Matto.</text>
+        </text-prop>
+        <resptr-prop name=":linkToImage">
+            <resptr permissions="open">I_069</resptr>
+        </resptr-prop>
+    </resource>
+</knora>

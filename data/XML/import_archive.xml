@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="Spreadsheet_Data.zip" restype="metadata:Archive" id="AR_001" permissions="open">
+        <bitstream permissions="open">data/Multimedia_Data/Archive/Spreadsheet_Data.zip</bitstream>
+        <text-prop name="metadata:hasID">
+            <text permissions="open" encoding="utf8">AR_001</text>
+        </text-prop>
+        <text-prop name="metadata:hasDescription">
+            <text permissions="open" encoding="xml">Archive from Project daschland-scripts spreadsheets</text>
+        </text-prop>
+        <text-prop name="metadata:hasFileName">
+            <text permissions="open" encoding="utf8">Spreadsheet_Data.zip</text>
+        </text-prop>
+        <decimal-prop name="metadata:hasFileSize">
+            <decimal permissions="open">0.13</decimal>
+        </decimal-prop>
+        <text-prop name="metadata:hasCopyright">
+            <text permissions="open" encoding="utf8">DaSCH</text>
+        </text-prop>
+        <list-prop list="License" name="metadata:hasLicenseList">
+            <list permissions="open">LIC_002</list>
+        </list-prop>
+        <text-prop name="metadata:hasAuthorship">
+            <text permissions="open" encoding="utf8">Daniela Subotic</text>
+            <text permissions="open" encoding="utf8">Noémi Villars</text>
+        </text-prop>
+    </resource>
+</knora>

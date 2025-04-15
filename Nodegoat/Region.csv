@@ -1,0 +1,8 @@
+ID,Image ID,Geometry X1,Geometry Y1,Geometry X2,Geometry Y2,Comment,Color
+R_001,I_001,0.01,0.1,0.22,0.5,White Rabbit Figure,#5b24bf
+R_002,I_002,0.2,0.01,0.9,0.9,White Rabbit Figure,#5b24bf
+R_003,I_006,0.01,0.5,0.3,0.8,White Rabbit Figure,#5b24bf
+R_004,I_037,0.05,0.05,0.95,0.95,White Rabbit Figure,#5b24bf
+R_005,I_012,0.05,0.5,0.95,0.8,White Rabbit Figure,#5b24bf
+R_006,I_030,0.01,0.01,0.99,0.7,Flamingo,#FF99AA
+R_007,I_032,0.05,0.3,0.2,0.6,Flamingo,#FF99AA

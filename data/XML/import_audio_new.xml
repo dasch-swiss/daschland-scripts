@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+    <permissions id="open">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="restricted">
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="restricted-view">
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <resource label="Dramatis Personae" restype=":Audio" id="A_01">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_00_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_01</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>1.82</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_00_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Dramatis Personae&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="Down the Rabbit-Hole" restype=":Audio" id="A_02">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_01_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_02</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>5.649</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_01_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Down the Rabbit-Hole&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="The Pool of Tears" restype=":Audio" id="A_03">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_02_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_03</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>5.245</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_02_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The Pool of Tears&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="A Caucus-Race and Long Tale" restype=":Audio" id="A_04">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_03_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_04</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>4.479</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_03_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">A Caucus-Race and Long Tale&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="The Rabbit Sends in a Little Bill" restype=":Audio" id="A_05">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_04_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_05</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>6.173</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_04_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The Rabbit Sends in a Little Bill&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English"</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="Advice From a Caterpillar" restype=":Audio" id="A_06">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_05_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_06</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>5.716</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_05_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Advice From a Caterpillar&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="Pig and Pepper" restype=":Audio" id="A_07">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_06_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_07</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>7.217</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_06_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Pig and Pepper&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="The Mad Tea-Party" restype=":Audio" id="A_08">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_07_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_08</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>6.646</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_07_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The Mad Tea-Party&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="The Queen's Croquet-Ground" restype=":Audio" id="A_09">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_08_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_09</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>6.159</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_08_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The Queen's Croquet-Ground&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="The Mock Turtle's Story" restype=":Audio" id="A_10">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_09_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_10</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>6.606</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_09_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The Mock Turtle's Story&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="The Lobster Quadrille" restype=":Audio" id="A_11">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_10_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_11</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>6.867</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_10_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The Lobster Quadrille&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="Who Stole the Tarts?" restype=":Audio" id="A_12">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_11_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_12</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>4.787</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_11_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Who Stole the Tarts?&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="Alice's Evidence" restype=":Audio" id="A_13">
+        <bitstream>data/Multimedia_Data/Audio/AUD_aliceinwonderland_12_carroll_64kb.mp3</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_13</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>5.579</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_008</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_aliceinwonderland_12_carroll_64kb.mp3</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice's Evidence&lt;br/&gt;&lt;br/&gt;Audio edited by Elizabeth Klett and Arielle Lipshaw&lt;br/&gt;&lt;br/&gt;Genre(s): Children's Fiction, Dramatic Readings, Fantasy Fiction&lt;br/&gt;&lt;br/&gt;Language: English</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">Narrator: David Goldfarb&lt;br/&gt;Alice: Miss Avarice&lt;br/&gt;The White Rabbit: BellonaTimes&lt;br/&gt;Mouse: cher0520&lt;br/&gt;Lory: Availle&lt;br/&gt;Duck: Jessamy Gloor&lt;br/&gt;Dodo: Tim Ferreira&lt;br/&gt;Eaglet: Dennis D.&lt;br/&gt;Old Crab: Joshua Logan&lt;br/&gt;Young Crab: Sonja&lt;br/&gt;Magpie: Lucy Perry&lt;br/&gt;Canary: ElleyKat&lt;br/&gt;Pat: Terence Taylor&lt;br/&gt;Bill: Aidan Brack&lt;br/&gt;Guinea Pig 1: Rat King&lt;br/&gt;Guinea Pig 2: Kelseigh&lt;br/&gt;Caterpillar: Algy Pug&lt;br/&gt;Pigeon: Kelseigh&lt;br/&gt;Fish-Footman: Terence&lt;br/&gt;Frog-Footman: Peter Yearsley&lt;br/&gt;Cook: Ana&lt;br/&gt;Baby: Elizabeth Klett&lt;br/&gt;Duchess: Heather Phillips&lt;br/&gt;Cheshire Cat: Elizabeth Klett&lt;br/&gt;March Hare: Denny Sayers&lt;br/&gt;Hatter: Arielle Lipshaw&lt;br/&gt;Dormouse: Ruth Golding&lt;br/&gt;Five: Neeru Iyer&lt;br/&gt;Two: Elli&lt;br/&gt;Seven: Henry Frigon&lt;br/&gt;Soldier 1: Dennis D.&lt;br/&gt;Soldier 2: Philbert&lt;br/&gt;Soldier 3: Lucy Perry&lt;br/&gt;Queen of Hearts: Nadine Eckert-Boulet&lt;br/&gt;King of Hearts: Peter Yearsley&lt;br/&gt;Gryphon: Algy Pug&lt;br/&gt;Mock Turtle: Kara Shallenberg&lt;br/&gt;Knave of Hearts: Levi Throckmorton&lt;br/&gt;Alice's Sister: Diana Majlinger</text>
+        </text-prop>
+    </resource>
+    <resource label="Looking-Glass House" restype=":Audio" id="A_14">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_01_Looking-Glass_House.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_14</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>46.442</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_01_Looking-Glass_House.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Looking-Glass House, read by Brad Bush – 00:18:24</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+    <resource label="The Garden of Live Flowers" restype=":Audio" id="A_15">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_02_The_Garden_of_Live_Flowers.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_15</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>50.854</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_02_The_Garden_of_Live_Flowers.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The Garden of Live Flowers, read by Kara Shallenberg – 00:20:09</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+    <resource label="Looking-Glass Insects" restype=":Audio" id="A_16">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_03_Looking-Glass_Insects.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_16</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>49.587</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_03_Looking-Glass_Insects.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Looking-Glass Insects, read by Betsie Bush – 00:19:39</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+    <resource label="Tweedledum and Tweedledee" restype=":Audio" id="A_17">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_04_Tweedledum_and_Tweedledee.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_17</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>46.836</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_04_Tweedledum_and_Tweedledee.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Tweedledum and Tweedledee, read by Chip – 00:18:33</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+    <resource label="Wool and Water" restype=":Audio" id="A_18">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_05_Wool_and_Water.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_18</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>41.489</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_05_Wool_and_Water.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Wool and Water, read by Kristen McQuillin – 00:16:26</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+    <resource label="Humpty Dumpty" restype=":Audio" id="A_19">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_06_Humpty_Dumpty.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_19</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>73.09</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_06_Humpty_Dumpty.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Humpty Dumpty, read by Alessia – 00:28:57</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+    <resource label="The Lion and the Unicorn" restype=":Audio" id="A_20">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_07_The_Lion_and_the_Unicorn.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_20</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>46.727</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_07_The_Lion_and_the_Unicorn.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The Lion and the Unicorn, read by Alice Elizabeth Still – 00:28:57</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+    <resource label="It's my own Invention" restype=":Audio" id="A_21">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_08_It-s_my_own_Invention.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_21</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>64.703</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_08_It-s_my_own_Invention.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">‘It’s my own Invention,’ read by Robert Garrison – 00:25:38</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+    <resource label="Queen Alice and Shaking" restype=":Audio" id="A_22">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_09-10_Queen_Alice_and_Shaking.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_22</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>69.025</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_09-10_Queen_Alice_and_Shaking.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Queen Alice &amp; Shaking, read by Marlo Dianne – 00:27:21</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+    <resource label="Waking and Which Dreamed it?" restype=":Audio" id="A_23">
+        <bitstream>data/Multimedia_Data/Audio/AUD_Through_the_looking_glass_11-12_Waking_and_Which_Dreamed_it.wav</bitstream>
+        <text-prop name=":hasID">
+            <text encoding="utf8">A_23</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
+            <decimal>15.095</decimal>
+        </decimal-prop>
+        <text-prop name=":hasCopyright">
+            <text encoding="utf8">Libri Vox, Public Domain</text>
+        </text-prop>
+        <list-prop name=":hasLicenseList" list="License">
+            <list>LIC_001</list>
+        </list-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">AUD_Through_the_looking_glass_11-12_Waking_and_Which_Dreamed_it.wav</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Waking &amp; Which Dreamed it?, read by Peter Yearsley – 00:05:59</text>
+        </text-prop>
+        <text-prop name=":hasCast">
+            <text encoding="xml">nan</text>
+        </text-prop>
+    </resource>
+</knora>
