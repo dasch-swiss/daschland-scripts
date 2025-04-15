@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <audio-segment label="Alice in Wonderland - Dramatis Personae - Intro" id="AUS_001" permissions="open">
+        <isSegmentOf permissions="open">A_01</isSegmentOf>
+        <hasSegmentBounds segment_start="0" segment_end="15" permissions="open"/>
+        <hasTitle permissions="open">Intro</hasTitle>
+        <hasDescription permissions="open">Introduction to the Dramatis Personae of Alice in Wonderland</hasDescription>
+        <hasKeyword permissions="open">Intro</hasKeyword>
+    </audio-segment>
+    <audio-segment label="Alice in Wonderland - Dramatis Personae - Poem" id="AUS_002" permissions="open">
+        <isSegmentOf permissions="open">A_01</isSegmentOf>
+        <hasSegmentBounds segment_start="15" segment_end="101" permissions="open"/>
+        <hasTitle permissions="open">Poem</hasTitle>
+        <hasComment permissions="open">Read by the cast</hasComment>
+        <hasDescription permissions="open">Poem All in the golden afternoon</hasDescription>
+        <hasKeyword permissions="open">Poem</hasKeyword>
+        <relatesTo permissions="open">BC_01</relatesTo>
+    </audio-segment>
+    <audio-segment label="Alice in Wonderland - Dramatis Personae - Outro" id="AUS_003" permissions="open">
+        <isSegmentOf permissions="open">A_01</isSegmentOf>
+        <hasSegmentBounds segment_start="101" segment_end="104" permissions="open"/>
+        <hasTitle permissions="open">Outro</hasTitle>
+        <hasDescription permissions="open">Outroduction to the Dramatis Personae of Alice in Wonderland</hasDescription>
+        <hasKeyword permissions="open">Outro</hasKeyword>
+    </audio-segment>
+    <audio-segment label="Alice in Wonderland - Dramatis Personae - Cast presentation" id="AUS_004" permissions="open">
+        <isSegmentOf permissions="open">A_01</isSegmentOf>
+        <hasSegmentBounds segment_start="104" segment_end="239" permissions="open"/>
+        <hasTitle permissions="open">Cast presentation</hasTitle>
+        <hasComment permissions="open">Read by the cast</hasComment>
+        <hasDescription permissions="open">The cast members present themselves</hasDescription>
+        <hasKeyword permissions="open">Cast</hasKeyword>
+    </audio-segment>
+    <audio-segment label="Alice in Wonderland - Chapter 1 - Intro" id="AUS_005" permissions="open">
+        <isSegmentOf permissions="open">A_02</isSegmentOf>
+        <hasSegmentBounds segment_start="0" segment_end="14" permissions="open"/>
+        <hasTitle permissions="open">Intro</hasTitle>
+        <hasDescription permissions="open">Introduction to the Chapter 1 of Alice in Wonderland, with explanation about reading and copyright</hasDescription>
+        <hasKeyword permissions="open">Intro</hasKeyword>
+    </audio-segment>
+    <audio-segment label="Alice in Wonderland - Chapter 1" id="AUS_006" permissions="open">
+        <isSegmentOf permissions="open">A_02</isSegmentOf>
+        <hasSegmentBounds segment_start="14" segment_end="733" permissions="open"/>
+        <hasTitle permissions="open">Chapter 1</hasTitle>
+        <hasComment permissions="open">Read by the cast</hasComment>
+        <hasDescription permissions="open">Chapter 1 of Alice in Wonderland</hasDescription>
+        <hasKeyword permissions="open">Chapter</hasKeyword>
+        <relatesTo permissions="open">BC_02</relatesTo>
+    </audio-segment>
+    <audio-segment label="Alice in Wonderland - Chapter 1 - Outro" id="AUS_007" permissions="open">
+        <isSegmentOf permissions="open">A_02</isSegmentOf>
+        <hasSegmentBounds segment_start="734" segment_end="740" permissions="open"/>
+        <hasTitle permissions="open">Outro</hasTitle>
+        <hasDescription permissions="open">Outroduction to the Chapter 1 of Alice in Wonderland</hasDescription>
+        <hasKeyword permissions="open">Outro</hasKeyword>
+    </audio-segment>
+    <audio-segment label="Alice in Wonderland - Chapter 2 - Intro" id="AUS_008" permissions="open">
+        <isSegmentOf permissions="open">A_03</isSegmentOf>
+        <hasSegmentBounds segment_start="0" segment_end="13" permissions="open"/>
+        <hasTitle permissions="open">Intro</hasTitle>
+        <hasDescription permissions="open">Introduction to the Chapter 2 of Alice in Wonderland, with explanation about reading and copyright</hasDescription>
+        <hasKeyword permissions="open">Intro</hasKeyword>
+    </audio-segment>
+    <audio-segment label="Alice in Wonderland - Chapter 2" id="AUS_009" permissions="open">
+        <isSegmentOf permissions="open">A_03</isSegmentOf>
+        <hasSegmentBounds segment_start="13" segment_end="671" permissions="open"/>
+        <hasTitle permissions="open">Chapter 2</hasTitle>
+        <hasComment permissions="open">Read by the cast</hasComment>
+        <hasDescription permissions="open">Chapter 2 of Alice in Wonderland</hasDescription>
+        <hasKeyword permissions="open">Chapter</hasKeyword>
+        <relatesTo permissions="open">BC_03</relatesTo>
+    </audio-segment>
+    <audio-segment label="Alice in Wonderland - Chapter 2 - Outro" id="AUS_010" permissions="open">
+        <isSegmentOf permissions="open">A_03</isSegmentOf>
+        <hasSegmentBounds segment_start="671" segment_end="677" permissions="open"/>
+        <hasTitle permissions="open">Outro</hasTitle>
+        <hasDescription permissions="open">Outroduction to the Chapter 2 of Alice in Wonderland</hasDescription>
+        <hasKeyword permissions="open">Outro</hasKeyword>
+    </audio-segment>
+</knora>

@@ -1,0 +1,2488 @@
+{
+    "prefixes": {
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "schema": "https://schema.org/",
+        "sdh": "https://ontome.net/ns/sdhss/",
+        "crm": "http://www.cidoc-crm.org/cidoc-crm/"
+    },
+    "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/project.json",
+    "project": {
+        "shortcode": "0854",
+        "shortname": "daschland",
+        "longname": "Alice in DaSCHland",
+        "descriptions": {
+            "en": "Alice in DaSCHland. <br/>Testdata",
+            "fr": "Alice au Pays de DaSCH. <br/>Données test",
+            "de": "Alice im DaSCHland. <br/>Testdaten",
+            "it": "Alice in DaSCHland. <br/>Dati di prova"
+        },
+        "keywords": [
+            "Alice",
+            "Beispiel",
+            "DaSCH",
+            "Data",
+            "Données",
+            "Example",
+            "Exemple",
+            "Pays des Merveilles",
+            "Test",
+            "Wonderland",
+            "Wunderland"
+        ],
+        "users": [
+            {
+                "username": "Alice",
+                "email": "alice@dasch.swiss",
+                "givenName": "Alice Pleasance",
+                "familyName": "Liddell",
+                "password": "alice4322",
+                "lang": "en",
+                "status": true,
+                "projects": [
+                    ":admin",
+                    ":member"
+                ]
+            },
+            {
+                "username": "Caterpillar",
+                "email": "caterpillar@dasch.swiss",
+                "givenName": "Caterpillar",
+                "familyName": "Wonderland",
+                "password": "alice7652",
+                "lang": "de",
+                "status": true,
+                "projects": [
+                    ":member"
+                ]
+            },
+            {
+                "username": "WhiteRabbit",
+                "email": "white.rabbit@dasch.swiss",
+                "givenName": "White",
+                "familyName": "Rabbit",
+                "password": "alice8711",
+                "lang": "fr",
+                "status": true,
+                "groups": [
+                    "SystemAdmin"
+                ],
+                "projects": [
+                    ":admin",
+                    ":member"
+                ]
+            }
+        ],
+        "lists": [
+            {
+                "name": "License",
+                "labels": {
+                    "fr": "Licence",
+                    "en": "License"
+                },
+                "comments": {
+                    "fr": "Licence",
+                    "en": "License"
+                },
+                "nodes": [
+                    {
+                        "name": "LIC_001",
+                        "labels": {
+                            "fr": "CC0 1.0",
+                            "en": "CC0 1.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_002",
+                        "labels": {
+                            "fr": "CC BY 4.0",
+                            "en": "CC BY 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_003",
+                        "labels": {
+                            "fr": "CC BY-SA 4.0",
+                            "en": "CC BY-SA 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_004",
+                        "labels": {
+                            "fr": "CC BY-NC 4.0",
+                            "en": "CC BY-NC 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_005",
+                        "labels": {
+                            "fr": "CC BY-NC-SA 4.0",
+                            "en": "CC BY-NC-SA 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_006",
+                        "labels": {
+                            "fr": "CC BY-ND 4.0",
+                            "en": "CC BY-ND 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_007",
+                        "labels": {
+                            "fr": "CC BY-NC-ND 4.0",
+                            "en": "CC BY-NC-ND 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_008",
+                        "labels": {
+                            "fr": "PDM 1.0",
+                            "en": "PDM 1.0"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Event Type",
+                "labels": {
+                    "fr": "Type d'événement",
+                    "en": "Event Type"
+                },
+                "comments": {
+                    "fr": "Type d'événement",
+                    "en": "Event Type"
+                },
+                "nodes": [
+                    {
+                        "name": "EVT_001",
+                        "labels": {
+                            "fr": "Aventure",
+                            "en": "Adventure"
+                        },
+                        "nodes": [
+                            {
+                                "name": "EVT_002",
+                                "labels": {
+                                    "fr": "Incident incitant",
+                                    "en": "Inciting Incident"
+                                }
+                            },
+                            {
+                                "name": "EVT_003",
+                                "labels": {
+                                    "fr": "Transformation physique",
+                                    "en": "Physical Transformation"
+                                }
+                            },
+                            {
+                                "name": "EVT_004",
+                                "labels": {
+                                    "fr": "Exploration",
+                                    "en": "Exploration"
+                                }
+                            },
+                            {
+                                "name": "EVT_005",
+                                "labels": {
+                                    "fr": "Changement de rôle",
+                                    "en": "Role Change"
+                                }
+                            },
+                            {
+                                "name": "EVT_006",
+                                "labels": {
+                                    "fr": "Résolution",
+                                    "en": "Resolution"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EVT_007",
+                        "labels": {
+                            "fr": "Social",
+                            "en": "Social"
+                        },
+                        "nodes": [
+                            {
+                                "name": "EVT_008",
+                                "labels": {
+                                    "fr": "Rencontre",
+                                    "en": "Encounter"
+                                }
+                            },
+                            {
+                                "name": "EVT_009",
+                                "labels": {
+                                    "fr": "Assistance",
+                                    "en": "Assistance"
+                                }
+                            },
+                            {
+                                "name": "EVT_010",
+                                "labels": {
+                                    "fr": "Compétition",
+                                    "en": "Challenge"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EVT_011",
+                        "labels": {
+                            "fr": "Conflit",
+                            "en": "Conflict"
+                        },
+                        "nodes": [
+                            {
+                                "name": "EVT_012",
+                                "labels": {
+                                    "fr": "Transformation physique",
+                                    "en": "Transformation"
+                                }
+                            },
+                            {
+                                "name": "EVT_013",
+                                "labels": {
+                                    "fr": "Confrontation",
+                                    "en": "Confrontation"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "EVT_014",
+                                        "labels": {
+                                            "fr": "Confrontation et transformation",
+                                            "en": "Confrontation and Transformation"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "EVT_015",
+                                "labels": {
+                                    "fr": "Incident majeur",
+                                    "en": "Major Incident"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EVT_016",
+                        "labels": {
+                            "fr": "Alternatif",
+                            "en": "Alternative"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Role",
+                "labels": {
+                    "fr": "Rôle",
+                    "en": "Role"
+                },
+                "comments": {
+                    "fr": "Rôle",
+                    "en": "Role"
+                },
+                "nodes": [
+                    {
+                        "name": "R_01",
+                        "labels": {
+                            "fr": "Personnage principal",
+                            "en": "Main Character"
+                        }
+                    },
+                    {
+                        "name": "R_02",
+                        "labels": {
+                            "fr": "Personnage secondaire",
+                            "en": "Secondary Character"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Keyword",
+                "labels": {
+                    "fr": "Mot-clé",
+                    "en": "Keyword"
+                },
+                "comments": {
+                    "fr": "Mot-clé",
+                    "en": "Keyword"
+                },
+                "nodes": [
+                    {
+                        "name": "K_001",
+                        "labels": {
+                            "fr": "Thématique",
+                            "en": "Theme"
+                        },
+                        "nodes": [
+                            {
+                                "name": "K_002",
+                                "labels": {
+                                    "fr": "Fantastique",
+                                    "en": "Fantasy"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_003",
+                                        "labels": {
+                                            "fr": "Surréalisme",
+                                            "en": "Surrealism"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_004",
+                                        "labels": {
+                                            "fr": "Imagination",
+                                            "en": "Imagination"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_005",
+                                        "labels": {
+                                            "fr": "Contradiction",
+                                            "en": "Contradiction"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_006",
+                                        "labels": {
+                                            "fr": "Fluidité de l'espace",
+                                            "en": "Fluidity of Space"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_007",
+                                "labels": {
+                                    "fr": "Aventure",
+                                    "en": "Adventure"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_008",
+                                        "labels": {
+                                            "fr": "Voyage",
+                                            "en": "Journey"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_009",
+                                        "labels": {
+                                            "fr": "Exploration",
+                                            "en": "Exploration"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_010",
+                                "labels": {
+                                    "fr": "Identité",
+                                    "en": "Identity"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_011",
+                                        "labels": {
+                                            "fr": "Croissance",
+                                            "en": "Growth"
+                                        },
+                                        "nodes": [
+                                            {
+                                                "name": "K_012",
+                                                "labels": {
+                                                    "fr": "Croissance physique",
+                                                    "en": "Physical Growth"
+                                                }
+                                            },
+                                            {
+                                                "name": "K_013",
+                                                "labels": {
+                                                    "fr": "Croissance personnelle",
+                                                    "en": "Personal Growth"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "K_014",
+                                        "labels": {
+                                            "fr": "Transformation",
+                                            "en": "Transformation"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_015",
+                                        "labels": {
+                                            "fr": "Découverte de soi",
+                                            "en": "Self-discovery"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_016",
+                                "labels": {
+                                    "fr": "Autorité",
+                                    "en": "Authority"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_017",
+                                        "labels": {
+                                            "fr": "Règles",
+                                            "en": "Rules"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_018",
+                                        "labels": {
+                                            "fr": "Tyrannie",
+                                            "en": "Tyranny"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_019",
+                                        "labels": {
+                                            "fr": "Absurdité",
+                                            "en": "Absurdity"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_020",
+                                "labels": {
+                                    "fr": "Logique",
+                                    "en": "Logic"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_021",
+                                        "labels": {
+                                            "fr": "Paradoxe",
+                                            "en": "Paradoxes"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_022",
+                                        "labels": {
+                                            "fr": "Jeu de mots",
+                                            "en": "Wordplay"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_023",
+                                        "labels": {
+                                            "fr": "Ironie",
+                                            "en": "Irony"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_024",
+                                "labels": {
+                                    "fr": "Temps",
+                                    "en": "Time"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_025",
+                                        "labels": {
+                                            "fr": "Anxiété",
+                                            "en": "Anxiety"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_026",
+                                        "labels": {
+                                            "fr": "Servitude",
+                                            "en": "Servitude"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_027",
+                                "labels": {
+                                    "fr": "Chaos",
+                                    "en": "Chaos"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_028",
+                                        "labels": {
+                                            "fr": "Folie",
+                                            "en": "Madness"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_029",
+                                        "labels": {
+                                            "fr": "Confusion",
+                                            "en": "Confusion"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_030",
+                                "labels": {
+                                    "fr": "Sagesse",
+                                    "en": "Wisdom"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_031",
+                                        "labels": {
+                                            "fr": "Mystère",
+                                            "en": "Mystery"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_032",
+                                        "labels": {
+                                            "fr": "Réflexion",
+                                            "en": "Reflection"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_033",
+                                "labels": {
+                                    "fr": "Violence",
+                                    "en": "Violence"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_034",
+                                        "labels": {
+                                            "fr": "Colère",
+                                            "en": "Anger"
+                                        }
+                                    },
+                                    {
+                                        "name": "K_035",
+                                        "labels": {
+                                            "fr": "Jugement",
+                                            "en": "Judgment"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_036",
+                                "labels": {
+                                    "fr": "Justice",
+                                    "en": "Justice"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_037",
+                                        "labels": {
+                                            "fr": "Justice inversée",
+                                            "en": "Inverted Justice"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "K_038",
+                                "labels": {
+                                    "fr": "Domesticité",
+                                    "en": "Domesticity"
+                                },
+                                "nodes": [
+                                    {
+                                        "name": "K_039",
+                                        "labels": {
+                                            "fr": "Chaos domestique",
+                                            "en": "Domestic chaos"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "K_040",
+                        "labels": {
+                            "fr": "Symbolisme",
+                            "en": "Symbolism"
+                        },
+                        "nodes": [
+                            {
+                                "name": "K_041",
+                                "labels": {
+                                    "fr": "Animaux",
+                                    "en": "Animals"
+                                }
+                            },
+                            {
+                                "name": "K_042",
+                                "labels": {
+                                    "fr": "Temps",
+                                    "en": "Time"
+                                }
+                            },
+                            {
+                                "name": "K_043",
+                                "labels": {
+                                    "fr": "Désir",
+                                    "en": "Desire"
+                                }
+                            },
+                            {
+                                "name": "K_044",
+                                "labels": {
+                                    "fr": "Beauté",
+                                    "en": "Beauty"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "K_045",
+                        "labels": {
+                            "fr": "Procédé littéraire",
+                            "en": "Literary Device"
+                        },
+                        "nodes": [
+                            {
+                                "name": "K_046",
+                                "labels": {
+                                    "fr": "Calembours",
+                                    "en": "Puns"
+                                }
+                            },
+                            {
+                                "name": "K_047",
+                                "labels": {
+                                    "fr": "Mot-valise",
+                                    "en": "Portmanteau"
+                                }
+                            },
+                            {
+                                "name": "K_048",
+                                "labels": {
+                                    "fr": "Allégorie",
+                                    "en": "Allegory"
+                                }
+                            },
+                            {
+                                "name": "K_049",
+                                "labels": {
+                                    "fr": "Satire",
+                                    "en": "Satire"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "K_050",
+                        "labels": {
+                            "fr": "Structure narrative",
+                            "en": "Narrative Structure"
+                        },
+                        "nodes": [
+                            {
+                                "name": "K_051",
+                                "labels": {
+                                    "fr": "Episodique",
+                                    "en": "Episodic"
+                                }
+                            },
+                            {
+                                "name": "K_052",
+                                "labels": {
+                                    "fr": "Onirique",
+                                    "en": "Dream-like"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ontologies": [
+            {
+                "name": "metadata",
+                "label": "Metadata",
+                "properties": [
+                    {
+                        "name": "hasCopyright",
+                        "super": [
+                            "hasValue",
+                            "schema:copyrightHolder",
+                            "crm:P105_right_held_by"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Copyright",
+                            "de": "Urheberrecht",
+                            "fr": "Droits d'auteur",
+                            "it": "Copyright"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasDescription",
+                        "super": [
+                            "hasValue",
+                            "schema:description",
+                            "crm:P190_has_symbolic_content"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description",
+                            "de": "Beschreibung",
+                            "fr": "Description",
+                            "it": "Descrizione"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasFileName",
+                        "super": [
+                            "hasValue",
+                            "schema:name"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "File Name",
+                            "de": "Dateiname",
+                            "fr": "Nom de fichier",
+                            "it": "Nome del file"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasFileSize",
+                        "super": [
+                            "hasValue",
+                            "schema:size"
+                        ],
+                        "object": "DecimalValue",
+                        "labels": {
+                            "en": "File Size (Mb)",
+                            "de": "Dateigrösse (Mb)",
+                            "fr": "Taille du fichier (Mb)",
+                            "it": "Dimensioni del file (Mb)"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasID",
+                        "super": [
+                            "hasValue",
+                            "schema:identifier",
+                            "crm:P1_is_identified_by"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "ID",
+                            "de": "ID",
+                            "fr": "ID",
+                            "it": "ID"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasLicenseList",
+                        "super": [
+                            "hasValue",
+                            "schema:license"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "License",
+                            "de": "Lizenz",
+                            "fr": "Licence",
+                            "it": "Licenza"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "License"
+                        }
+                    },
+                    {
+                        "name": "hasTimeStamp",
+                        "super": [
+                            "hasValue",
+                            "schema:dateCreated"
+                        ],
+                        "object": "TimeValue",
+                        "labels": {
+                            "en": "Time Stamp",
+                            "de": "Zeitstempel",
+                            "fr": "Horodatage",
+                            "it": "Timestamp"
+                        },
+                        "gui_element": "TimeStamp"
+                    },
+                    {
+                        "name": "hasAuthorship",
+                        "super": [
+                            "hasValue",
+                            "foaf:person",
+                            "schema:author",
+                            "crm:E21_Person"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Authorship",
+                            "de": "Urheber:in",
+                            "fr": "Auteur·ice",
+                            "it": "Autore"
+                        },
+                        "comments": {
+                            "en": "Author or creator of the file"
+                        },
+                        "gui_element": "SimpleText"
+                    }
+                ],
+                "resources": [
+                    {
+                        "name": "Archive",
+                        "super": [
+                            "ArchiveRepresentation",
+                            "schema:ArchiveComponent",
+                            "crm:E78_Curated_Holding"
+                        ],
+                        "labels": {
+                            "en": "Project Archive",
+                            "de": "Projekt-Archiv",
+                            "fr": "Projet - Archives",
+                            "it": "Progetto - Archivi"
+                        },
+                        "comments": {
+                            "en": "Zipped folder containing the scripts and other files from the project",
+                            "de": "Gepackter Ordner mit den Skripten und anderen Dateien des Projekts",
+                            "fr": "Dossier zippé contenant les scripts et autres fichiers du projet",
+                            "it": "Cartella zippata contenente gli script e gli altri file del progetto."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorship",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Documentation",
+                        "super": [
+                            "DocumentRepresentation",
+                            "crm:E31_Document",
+                            "schema:DigitalDocument"
+                        ],
+                        "labels": {
+                            "en": "Project Documentation",
+                            "de": "Projekt-Dokumentation",
+                            "fr": "Projet - Documentation",
+                            "it": "Progetto - Documentazione"
+                        },
+                        "comments": {
+                            "en": "Metadata about the project, Visualizations of the Data model",
+                            "de": "Metadaten über das Projekt, Visualisierungen des Datenmodells",
+                            "fr": "Métadonnées sur le projet, Visualisations du modèle de données",
+                            "it": "Metadati sul progetto, visualizzazioni del modello di dati"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorship",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Material",
+                        "super": [
+                            "TextRepresentation",
+                            "crm:E31_Document",
+                            "schema:DigitalDocument"
+                        ],
+                        "labels": {
+                            "en": "Project Material",
+                            "de": "Projekt-Material",
+                            "fr": "Projet - Matériel",
+                            "it": "Progetto - Materiale"
+                        },
+                        "comments": {
+                            "en": "XML and CSV files for the project.",
+                            "de": "XML- und CSV-Dateien des Projekts.",
+                            "fr": "Fichiers XML et CSV du projet.",
+                            "it": "File XML e CSV per il progetto."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorship",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "daschland",
+                "label": "Alice in DaSCHland",
+                "properties": [
+                    {
+                        "name": "hasAuthorship",
+                        "super": [
+                            "hasValue",
+                            "foaf:person",
+                            "schema:author",
+                            "crm:E21_Person"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Authorship",
+                            "de": "Urheber:in",
+                            "fr": "Auteur·ice",
+                            "it": "Autore"
+                        },
+                        "comments": {
+                            "en": "Author or creator of the file"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasCast",
+                        "super": [
+                            "hasValue",
+                            "foaf:person",
+                            "crm:E21_Person"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Cast",
+                            "de": "Besetzung",
+                            "fr": "Distribution",
+                            "it": "Getto"
+                        },
+                        "comments": {
+                            "en": "Cast members who appear on the media"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasChapterNumber",
+                        "super": [
+                            "hasValue",
+                            "schema:pagination"
+                        ],
+                        "object": "IntValue",
+                        "labels": {
+                            "en": "Chapter Number",
+                            "de": "Kapitel Nummer",
+                            "fr": "Numéro de chapitre",
+                            "it": "Numero del capitolo"
+                        },
+                        "comments": {
+                            "en": "Number of the chapter"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasColor",
+                        "super": [
+                            "hasColor",
+                            "schema:color"
+                        ],
+                        "object": "ColorValue",
+                        "labels": {
+                            "en": "Colour",
+                            "de": "Farbe",
+                            "fr": "Couleur",
+                            "it": "Colore"
+                        },
+                        "comments": {
+                            "en": "Colour"
+                        },
+                        "gui_element": "Colorpicker"
+                    },
+                    {
+                        "name": "hasCopyright",
+                        "super": [
+                            "hasValue",
+                            "schema:copyrightHolder",
+                            "crm:P105_right_held_by"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Copyright",
+                            "de": "Urheberrecht",
+                            "fr": "Droits d'auteur",
+                            "it": "Copyright"
+                        },
+                        "comments": {
+                            "en": "Copyright of the media file"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasDate",
+                        "super": [
+                            "hasValue",
+                            "schema:dateCreated",
+                            "crm:P4_has_time-span"
+                        ],
+                        "object": "DateValue",
+                        "labels": {
+                            "en": "Publication Date",
+                            "de": "Datum der Veröffentlichung",
+                            "fr": "Date de publication",
+                            "it": "Data di pubblicazione"
+                        },
+                        "comments": {
+                            "en": "Date of publication"
+                        },
+                        "gui_element": "Date"
+                    },
+                    {
+                        "name": "hasDescription",
+                        "super": [
+                            "hasValue",
+                            "schema:description",
+                            "crm:P190_has_symbolic_content"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description",
+                            "de": "Beschreibung",
+                            "fr": "Description",
+                            "it": "Descrizione"
+                        },
+                        "comments": {
+                            "en": "Description"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasDescriptionAlternative",
+                        "super": [
+                            "hasValue",
+                            "schema:description",
+                            "crm:P190_has_symbolic_content"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Alternative Description",
+                            "de": "alternative Beschreibung",
+                            "fr": "Description alternative",
+                            "it": "Descrizione alternativa"
+                        },
+                        "comments": {
+                            "en": "Alternative description, made to provide an example of restricted value"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasEventTypeList",
+                        "super": [
+                            "hasValue",
+                            "schema:itemListElement",
+                            "crm:P2_has_type"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "Event Type",
+                            "de": "Ereignistyp",
+                            "fr": "Type d'événement",
+                            "it": "Tipo di evento"
+                        },
+                        "comments": {
+                            "en": "Type of the event, determined by a list"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "Event Type"
+                        }
+                    },
+                    {
+                        "name": "hasFileName",
+                        "super": [
+                            "hasValue",
+                            "schema:name"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "File Name",
+                            "de": "Dateiname",
+                            "fr": "Nom de fichier",
+                            "it": "Nome del file"
+                        },
+                        "comments": {
+                            "en": "Name of the original file"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasFileSize",
+                        "super": [
+                            "hasValue",
+                            "schema:size"
+                        ],
+                        "object": "DecimalValue",
+                        "labels": {
+                            "en": "File Size (Mb)",
+                            "de": "Dateigrösse (Mb)",
+                            "fr": "Taille du fichier (Mb)",
+                            "it": "Dimensioni del file (Mb)"
+                        },
+                        "comments": {
+                            "en": "Size of the file in Mb"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasFullText",
+                        "super": [
+                            "hasValue",
+                            "schema:text"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Text",
+                            "de": "Text (Englisch)",
+                            "fr": "Texte (Anglais)",
+                            "it": "Testo (Inglese)"
+                        },
+                        "comments": {
+                            "en": "Text in english"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasGeoname",
+                        "super": [
+                            "hasValue",
+                            "schema:identifier"
+                        ],
+                        "object": "GeonameValue",
+                        "labels": {
+                            "en": "Geoname",
+                            "de": "Geoname",
+                            "fr": "Geoname",
+                            "it": "Geoname"
+                        },
+                        "comments": {
+                            "en": "Link to the Place on geonames website"
+                        },
+                        "gui_element": "Geonames"
+                    },
+                    {
+                        "name": "hasGuestAmount",
+                        "super": [
+                            "hasValue",
+                            "schema:amount"
+                        ],
+                        "object": "IntValue",
+                        "labels": {
+                            "en": "Amount of Guests",
+                            "de": "Anzahl der Gäste",
+                            "fr": "Nombre d'invités",
+                            "it": "Numero di ospiti"
+                        },
+                        "comments": {
+                            "en": "Amount of guests to the event"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasID",
+                        "super": [
+                            "hasValue",
+                            "schema:identifier",
+                            "crm:P1_is_identified_by"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "ID",
+                            "de": "ID",
+                            "fr": "ID",
+                            "it": "ID"
+                        },
+                        "comments": {
+                            "en": "Unique identifier"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasKeywordList",
+                        "super": [
+                            "hasValue",
+                            "schema:keywords"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "Keyword",
+                            "de": "Schlüsselwort",
+                            "fr": "Mot-clé",
+                            "it": "Parola chiave"
+                        },
+                        "comments": {
+                            "en": "Keywords associated to the record"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "Keyword"
+                        }
+                    },
+                    {
+                        "name": "hasLicenseList",
+                        "super": [
+                            "hasValue",
+                            "schema:license"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "License",
+                            "de": "Lizenz",
+                            "fr": "Licence",
+                            "it": "Licenza"
+                        },
+                        "comments": {
+                            "en": "License of use of the Media file"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "License"
+                        }
+                    },
+                    {
+                        "name": "hasName",
+                        "super": [
+                            "hasValue",
+                            "schema:name"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Name",
+                            "de": "Name",
+                            "fr": "Nom",
+                            "it": "Nome"
+                        },
+                        "comments": {
+                            "en": "Name"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasQuote",
+                        "super": [
+                            "hasValue",
+                            "schema:spokenByCharacter"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Quote",
+                            "de": "Angebot",
+                            "fr": "Citation",
+                            "it": "Preventivo"
+                        },
+                        "comments": {
+                            "en": "Quote, as written in the original story"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasRoleList",
+                        "super": [
+                            "hasValue",
+                            "schema:itemListElement"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "Role",
+                            "de": "Rolle",
+                            "fr": "Rôle",
+                            "it": "Ruolo"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "Role"
+                        }
+                    },
+                    {
+                        "name": "hasSeqnum",
+                        "super": [
+                            "seqnum",
+                            "schema:position"
+                        ],
+                        "object": "IntValue",
+                        "labels": {
+                            "en": "Seqnum",
+                            "de": "Seqnum",
+                            "fr": "Seqnum",
+                            "it": "Seqnum"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasTimeStamp",
+                        "super": [
+                            "hasValue",
+                            "schema:dateCreated"
+                        ],
+                        "object": "TimeValue",
+                        "labels": {
+                            "en": "Time Stamp",
+                            "de": "Zeitstempel",
+                            "fr": "Horodatage",
+                            "it": "Timestamp"
+                        },
+                        "gui_element": "TimeStamp"
+                    },
+                    {
+                        "name": "hasUrl",
+                        "super": [
+                            "hasValue",
+                            "schema:url"
+                        ],
+                        "object": "UriValue",
+                        "labels": {
+                            "en": "More Information",
+                            "de": "Mehr Informationen",
+                            "fr": "Plus d'informations",
+                            "it": "Ulteriori informazioni"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "isDangerous",
+                        "super": [
+                            "hasValue",
+                            "schema:value"
+                        ],
+                        "object": "BooleanValue",
+                        "labels": {
+                            "en": "Dangerous",
+                            "de": "Gefährlich",
+                            "fr": "Dangereux",
+                            "it": "Pericoloso"
+                        },
+                        "gui_element": "Checkbox"
+                    },
+                    {
+                        "name": "isPartOfBook",
+                        "super": [
+                            "isPartOf",
+                            "schema:isPartOf",
+                            "crm:P5i_forms_part_of"
+                        ],
+                        "object": ":Book",
+                        "labels": {
+                            "en": "Part of Book",
+                            "de": "Teil des Buches",
+                            "fr": "Appartient au Livre",
+                            "it": "Appartiene al libro"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToAudio",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:audio"
+                        ],
+                        "object": ":Audio",
+                        "labels": {
+                            "en": "linked Audio",
+                            "de": "Verknüpftes Audio",
+                            "fr": "Audio lié",
+                            "it": "Audio correlato"
+                        },
+                        "comments": {
+                            "en": "linked Audio",
+                            "de": "Verknüpftes Audio",
+                            "fr": "Audio lié",
+                            "it": "Audio correlato"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToBookChapter",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:chapter",
+                            "crm:P5_consists_of"
+                        ],
+                        "object": ":BookChapter",
+                        "labels": {
+                            "en": "Book Chapters",
+                            "de": "Buch-Kapitel",
+                            "fr": "Chapitres du livre",
+                            "it": "Capitoli del libro"
+                        },
+                        "comments": {
+                            "en": "Book Chapters",
+                            "de": "Buch-Kapitel",
+                            "fr": "Chapitres du livre",
+                            "it": "Capitoli del libro"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToBookEdition",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:bookEdition"
+                        ],
+                        "object": ":BookEdition",
+                        "labels": {
+                            "en": "linked Edition",
+                            "de": "verlinkte Ausgabe",
+                            "fr": "Edition liée",
+                            "it": "Edizione correlata"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToCharacter",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:character",
+                            "crm:P11_had_participant"
+                        ],
+                        "object": ":Character",
+                        "labels": {
+                            "en": "linked Character(s)",
+                            "de": "verlinkte(r) Charakter(e)",
+                            "fr": "Personnage(s) lié(s)",
+                            "it": "Personaggio/i correlato/i"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToCharacterAntagonist",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:character",
+                            "crm:P11_had_participant"
+                        ],
+                        "object": ":Character",
+                        "labels": {
+                            "en": "Antagonist(s)",
+                            "de": "Antagonist(en)",
+                            "fr": "Antagoniste(s)",
+                            "it": "Antagonista/i"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToCharacterProtagonist",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:character",
+                            "crm:P11_had_participant"
+                        ],
+                        "object": ":Character",
+                        "labels": {
+                            "en": "Protagonist(s)",
+                            "de": "Protagonist(en)",
+                            "fr": "Protagoniste(s)",
+                            "it": "Protagonista/i"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToEvent",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:event"
+                        ],
+                        "object": ":Event",
+                        "labels": {
+                            "en": "linked Event",
+                            "de": "verlinktes Ereignis",
+                            "fr": "Evénement lié",
+                            "it": "Evento correlato"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToImage",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:image"
+                        ],
+                        "object": ":Image",
+                        "labels": {
+                            "en": "linked Image",
+                            "de": "verlinktes Bild",
+                            "fr": "Image liée",
+                            "it": "Immagine collegata"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToLocation",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:contentLocation",
+                            "crm:P7_took_place_at"
+                        ],
+                        "object": ":Location",
+                        "labels": {
+                            "en": "Location",
+                            "de": "Standort",
+                            "fr": "Emplacement",
+                            "it": "Luogo"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToVideo",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:video"
+                        ],
+                        "object": ":Video",
+                        "labels": {
+                            "en": "linked Video",
+                            "de": "verlinktes Video",
+                            "fr": "Vidéo liée",
+                            "it": "Video correlato"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "linkToBookCover",
+                        "super": [
+                            "hasLinkTo",
+                            "schema:image"
+                        ],
+                        "object": ":BookCover",
+                        "labels": {
+                            "en": "linked Book Cover",
+                            "de": "verlinktes Einband",
+                            "fr": "Couverture liée",
+                            "it": "Copertine correlata"
+                        },
+                        "gui_element": "Searchbox"
+                    }
+                ],
+                "resources": [
+                    {
+                        "name": "Audio",
+                        "super": [
+                            "AudioRepresentation",
+                            "schema:Audiobook",
+                            "crm:E73_Information_Object"
+                        ],
+                        "labels": {
+                            "en": "Audio",
+                            "de": "Audio",
+                            "fr": "Audio",
+                            "it": "Audio"
+                        },
+                        "comments": {
+                            "en": "Audio version of Alice in Wonderland, chapter per chapter",
+                            "de": "Audioversion von Alice im Wunderland, Kapitel für Kapitel",
+                            "fr": "Version audio d'Alice au pays des merveilles, chapitre par chapitre",
+                            "it": "Versione audio di Alice nel Paese delle Meraviglie, capitolo per capitolo"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 9
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasCast",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasAuthorship",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Book",
+                        "super": [
+                            "Resource",
+                            "schema:Book",
+                            "crm:E89_Propositional_Object"
+                        ],
+                        "labels": {
+                            "en": "Story",
+                            "de": "Geschichte",
+                            "fr": "Histoire",
+                            "it": "Racconti"
+                        },
+                        "comments": {
+                            "en": "The two stories written by Lewis Carroll",
+                            "de": "Die beiden Geschichten von Lewis Carroll",
+                            "fr": "Les deux histoires écrits par Lewis Carroll",
+                            "it": "I due racconti scritti da Lewis Carroll"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorship",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescriptionAlternative",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasDate",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":linkToBookChapter",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":linkToBookEdition",
+                                "cardinality": "0-n",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":linkToVideo",
+                                "cardinality": "0-n",
+                                "gui_order": 9
+                            },
+                            {
+                                "propname": ":linkToBookCover",
+                                "cardinality": "0-n",
+                                "gui_order": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "BookChapter",
+                        "super": [
+                            "Resource",
+                            "schema:Chapter",
+                            "crm:E89_Propositional_Object"
+                        ],
+                        "labels": {
+                            "en": "Book Chapter",
+                            "de": "Buch Kapitel",
+                            "fr": "Chapitre de livre",
+                            "it": "Capitolo del libro"
+                        },
+                        "comments": {
+                            "en": "Chapters of the two books included prefaces and poems from the books, with full text",
+                            "de": "Die Kapitel der beiden Bücher enthielten Vorworte und Gedichte aus den Büchern, mit vollständigem Text",
+                            "fr": "Les chapitres des deux livres comprennent des préfaces et des poèmes tirés des livres, avec le texte intégral.",
+                            "it": "I capitoli dei due libri comprendevano prefazioni e poesie tratte dai libri, con il testo completo."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasChapterNumber",
+                                "cardinality": "0-1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescriptionAlternative",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":linkToLocation",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasUrl",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":linkToAudio",
+                                "cardinality": "0-n",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":linkToEvent",
+                                "cardinality": "0-n",
+                                "gui_order": 9
+                            },
+                            {
+                                "propname": ":hasKeywordList",
+                                "cardinality": "0-n",
+                                "gui_order": 10
+                            },
+                            {
+                                "propname": ":hasFullText",
+                                "cardinality": "0-1",
+                                "gui_order": 11
+                            }
+                        ]
+                    },
+                    {
+                        "name": "BookEdition",
+                        "super": [
+                            "DocumentRepresentation",
+                            "crm:E22_Human-Made_Object"
+                        ],
+                        "labels": {
+                            "en": "Edition",
+                            "de": "Ausgabe",
+                            "fr": "Edition",
+                            "it": "Edizione"
+                        },
+                        "comments": {
+                            "en": "Editions of the books",
+                            "de": "Ausgaben der Bücher",
+                            "fr": "Editions des livres",
+                            "it": "Edizioni dei libri"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorship",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Character",
+                        "super": [
+                            "Resource",
+                            "schema:Person",
+                            "crm:E89_Propositional_Object"
+                        ],
+                        "labels": {
+                            "en": "Character",
+                            "de": "Charakter",
+                            "fr": "Personnage",
+                            "it": "Personaggio"
+                        },
+                        "comments": {
+                            "en": "Characters appearing in the books, divided into main and secondary characters",
+                            "de": "In den Büchern vorkommende Figuren, unterteilt in Haupt- und Nebenfiguren",
+                            "fr": "Personnages apparaissant dans les livres, divisés en personnages principaux et secondaires",
+                            "it": "ersonaggi che compaiono nei libri, suddivisi in principali e secondari"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasName",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasDescriptionAlternative",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasRoleList",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasQuote",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":linkToImage",
+                                "cardinality": "0-n",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasKeywordList",
+                                "cardinality": "0-n",
+                                "gui_order": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Event",
+                        "super": [
+                            "Resource",
+                            "crm:E5_Event",
+                            "schema:Event"
+                        ],
+                        "labels": {
+                            "en": "Event",
+                            "de": "Ereignis",
+                            "fr": "Événement",
+                            "it": "Evento"
+                        },
+                        "comments": {
+                            "en": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are restricted.",
+                            "de": "Ereignisse, die in den beiden Geschichten stattfinden. Die Ereignisse sind in Unterklassen unterteilt, je nach ihrem Typ: Abenteuer, Konflikt und Soziales. Alternative Ereignisse sind eingeschränkt.",
+                            "fr": "Événements se déroulant dans les deux histoires. Les événements sont divisés en sous-classes, selon leur type : Aventure, Conflit et Social. Les événements alternatifs sont limités.",
+                            "it": "Eventi che si svolgono nelle due storie. Gli eventi sono suddivisi in Sottoclassi, a seconda del loro tipo: Avventura, Conflitto e Sociale. Gli eventi alternativi sono limitati."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":linkToLocation",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":linkToImage",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasEventTypeList",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EventAdventure",
+                        "super": [
+                            "Resource",
+                            ":Event",
+                            "crm:E5_Event",
+                            "schema:Event"
+                        ],
+                        "labels": {
+                            "en": "Event Adventure",
+                            "de": "Ereignis Abenteuer",
+                            "fr": "Événement Aventure",
+                            "it": "Evento di avventura"
+                        },
+                        "comments": {
+                            "en": "Subclass of Event, of type Adventure",
+                            "de": "Unterklasse von Event, vom Typ Abenteuer",
+                            "fr": "Sous-classe de Événement, de type Aventure",
+                            "it": "Sottoclasse di Evento, di tipo Avventura"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":linkToCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":isDangerous",
+                                "cardinality": "0-1",
+                                "gui_order": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EventAlternative",
+                        "super": [
+                            "Resource",
+                            ":Event",
+                            "crm:E5_Event",
+                            "schema:Event"
+                        ],
+                        "labels": {
+                            "en": "Event Alternative",
+                            "de": "Ereignis Alternativ",
+                            "fr": "Événement alternatif",
+                            "it": "Evento alternativo"
+                        },
+                        "comments": {
+                            "en": "Subclass of Event, of type Alternative",
+                            "de": "Unterklasse von Event, vom Typ Alternativ",
+                            "fr": "Sous-classe d'événement, de type alternatif",
+                            "it": "Sottoclasse di Evento, di tipo Alternativo"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasGuestAmount",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EventConflict",
+                        "super": [
+                            "Resource",
+                            ":Event",
+                            "crm:E5_Event",
+                            "schema:Event"
+                        ],
+                        "labels": {
+                            "en": "Event Conflict",
+                            "de": "Ereignis Konflikt",
+                            "fr": "Événement Conflit",
+                            "it": "Evento di conflitto"
+                        },
+                        "comments": {
+                            "en": "Subclass of Event, of type Conflict",
+                            "de": "Unterklasse von Ereignis, vom Typ Konflikt",
+                            "fr": "Sous-classe de Événement, de type Conflit",
+                            "it": "Sottoclasse di Evento, di tipo Conflitto"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":linkToCharacterProtagonist",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":linkToCharacterAntagonist",
+                                "cardinality": "0-n",
+                                "gui_order": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EventSocial",
+                        "super": [
+                            "Resource",
+                            ":Event",
+                            "crm:E5_Event",
+                            "schema:Event"
+                        ],
+                        "labels": {
+                            "en": "Event Social",
+                            "de": "Ereignis Soziales",
+                            "fr": "Événement Social",
+                            "it": "Evento sociale"
+                        },
+                        "comments": {
+                            "en": "Subclass of Event, of type Social",
+                            "de": "Unterklasse von Event, vom Typ Sozial",
+                            "fr": "Sous-classe d'événement, de type social",
+                            "it": "Sottoclasse di Evento, di tipo Sociale"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":linkToCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasGuestAmount",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Image",
+                        "super": [
+                            "StillImageRepresentation",
+                            "crm:E73_Information_Object",
+                            "schema:ImageObject"
+                        ],
+                        "labels": {
+                            "en": "Image",
+                            "de": "Bild",
+                            "fr": "Image",
+                            "it": "Immagine"
+                        },
+                        "comments": {
+                            "en": "Original illustrations from the first edition, created by John Tenniell",
+                            "de": "Originalillustrationen der ersten Ausgabe, gestaltet von John Tenniell",
+                            "fr": "Illustrations originales de la première édition, créées par John Tenniell",
+                            "it": "Illustrazioni originali della prima edizione, realizzate da John Tenniell"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 10
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorship",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":isPartOfBook",
+                                "cardinality": "0-1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasSeqnum",
+                                "cardinality": "0-1",
+                                "gui_order": 9
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Location",
+                        "super": [
+                            "Resource",
+                            "crm:E53_Place",
+                            "schema:Place"
+                        ],
+                        "labels": {
+                            "en": "Location",
+                            "de": "Ort",
+                            "fr": "Lieu",
+                            "it": "Luogo"
+                        },
+                        "comments": {
+                            "en": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland.",
+                            "de": "Orte, an denen die von Lewis Carroll erdachten Geschichten spielen, unterteilt in die reale Welt und das Wunderland.",
+                            "fr": "Lieux où se déroulent les histoires imaginées par Lewis Carroll, subdivisées selon qu'ils sont situés dans le monde réel ou dans le Pays des Merveilles",
+                            "it": "Luoghi in cui si svolgono le storie immaginate da Lewis Carroll, suddivisi a seconda che si trovino nel mondo reale o nel Paese delle Meraviglie."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":linkToImage",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            }
+                        ]
+                    },
+                    {
+                        "name": "LocationRealWorld",
+                        "super": [
+                            "Resource",
+                            ":Location",
+                            "crm:E53_Place",
+                            "schema:Place"
+                        ],
+                        "labels": {
+                            "en": "Location Real World",
+                            "de": "Ort reale Welt",
+                            "fr": "Lieu Monde réel",
+                            "it": "Luogo del mondo reale"
+                        },
+                        "comments": {
+                            "en": "Places in the real world, subclass.",
+                            "de": "Orte, die sich in der realen Welt befinden, Unterklasse.",
+                            "fr": "Lieux situés dans le monde réel, sous-classe.",
+                            "it": "Luoghi del mondo reale, sottoclasse."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasGeoname",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "LocationWonderland",
+                        "super": [
+                            "Resource",
+                            ":Location",
+                            "crm:E53_Place",
+                            "schema:Place"
+                        ],
+                        "labels": {
+                            "en": "Location Wonderland",
+                            "de": "Ort Wunderland",
+                            "fr": "Lieu Pays des Merveilles",
+                            "it": "Luogo del Paese delle Meraviglie"
+                        },
+                        "comments": {
+                            "en": "Places in Wonderland, subclass.",
+                            "de": "Orte im Wunderland, Unterklasse.",
+                            "fr": "Lieux situés dans le Pays des Merveilles, sous-classe.",
+                            "it": "Luoghi nel Paese delle Meraviglie, sottoclasse."
+                        }
+                    },
+                    {
+                        "name": "Video",
+                        "super": [
+                            "MovingImageRepresentation",
+                            "schema:Movie",
+                            "crm:E73_Information_Object"
+                        ],
+                        "labels": {
+                            "en": "Video",
+                            "de": "Video",
+                            "fr": "Vidéo",
+                            "it": "Video"
+                        },
+                        "comments": {
+                            "en": "Film adaptations of the two stories.",
+                            "de": "Verfilmungen der beiden Geschichten.",
+                            "fr": "Adaptations cinématographiques des deux histoires.",
+                            "it": "Adattamenti cinematografici delle due storie."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 9
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasCast",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorship",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "BookCover",
+                        "super": [
+                            "StillImageRepresentation",
+                            "crm:E73_Information_Object",
+                            "schema:ImageObject"
+                        ],
+                        "labels": {
+                            "en": "Book Cover",
+                            "de": "Bucheinband",
+                            "fr": "Couverture de livre",
+                            "it": "Copertina del libro"
+                        },
+                        "comments": {
+                            "en": "Book covers of several editions of the stories",
+                            "de": "Bucheinbände der verschiedenen Ausgaben der Erzählungen",
+                            "fr": "Couvertures de plusieurs éditions des histoires",
+                            "it": "Copertine di diverse edizioni dei racconti"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasUrl",
+                                "cardinality": "1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasCopyright",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseList",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorship",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

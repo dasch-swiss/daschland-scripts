@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "daschland-scripts"
+version = "0.1.0"
+description = ""
+authors = ["danielasubotic <48174709+danielasubotic@users.noreply.github.com>", "noemivillars-amberg <117180458+Notheturtle@users.noreply.github.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+dsp-tools = "*"
+icecream = "*"
+pillow = "*"
+pymediainfo = "*"
+pyexiftool = "*"
+ruff = "*"
+mypy = "^1.12.1"
+pandas = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <resource label="Alice in Wonderland" restype=":Book" id="BK_001" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">BK_001</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Alice in Wonderland</text>
+        </text-prop>
+        <text-prop name=":hasAuthorship">
+            <text permissions="open" encoding="utf8">Lewis Carroll</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Alice, a young girl, follows a White Rabbit down a rabbit hole and falls into a whimsical, bizarre world called Wonderland.</text>
+        </text-prop>
+        <text-prop name=":hasDescriptionAlternative">
+            <text permissions="prop-restricted" encoding="xml">In the fairytale "Alice in DaSCHland," a curious young girl named Alice discovers a magical realm powered by DaSCH, a company that operates as a repository for research data in the humanities. 
+This world is filled with technological wonders like talking robots, digital trees, and houses that change color. 
+Guided by a robot named RabbIT, Alice explores various marvels, including a café with size-altering tea and a library with books that speak. 
+She meets the Queen of Hearts, an engineer who creates devices connecting emotions with digital data. 
+Although Alice returns to her world with a token from DaSCHland, the experience leaves her inspired, reminding her that the realm of innovation and dreams, where research data in the humanities are brought to life, awaits her return.</text>
+        </text-prop>
+        <date-prop name=":hasDate">
+            <date permissions="open">GREGORIAN:CE:1865-07-04:CE:1865-07-04</date>
+        </date-prop>
+        <resptr-prop name=":linkToBookChapter">
+            <resptr permissions="open">BC_01</resptr>
+            <resptr permissions="open">BC_02</resptr>
+            <resptr permissions="open">BC_03</resptr>
+            <resptr permissions="open">BC_04</resptr>
+            <resptr permissions="open">BC_05</resptr>
+            <resptr permissions="open">BC_06</resptr>
+            <resptr permissions="open">BC_07</resptr>
+            <resptr permissions="open">BC_08</resptr>
+            <resptr permissions="open">BC_09</resptr>
+            <resptr permissions="open">BC_10</resptr>
+            <resptr permissions="open">BC_11</resptr>
+            <resptr permissions="open">BC_12</resptr>
+            <resptr permissions="open">BC_13</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToBookEdition">
+            <resptr permissions="open">BE_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToVideo">
+            <resptr permissions="open">V_01</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToBookCover">
+            <resptr permissions="open">BC_001</resptr>
+            <resptr permissions="open">BC_002</resptr>
+            <resptr permissions="open">BC_003</resptr>
+            <resptr permissions="open">BC_004</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there" restype=":Book" id="BK_002" permissions="open">
+        <text-prop name=":hasID">
+            <text permissions="open" encoding="utf8">BK_002</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Through the Looking-Glass and what Alice found there</text>
+        </text-prop>
+        <text-prop name=":hasAuthorship">
+            <text permissions="open" encoding="utf8">Lewis Carroll</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="open" encoding="xml">Alice, now a bit older, steps through a mirror into a fantastical world where everything is reversed, much like a reflection in a looking glass. 
+She embarks on a new adventure filled with strange characters and peculiar happenings.</text>
+        </text-prop>
+        <text-prop name=":hasDescriptionAlternative">
+            <text permissions="prop-restricted" encoding="xml">In the fairytale "Through the DaSCH Portal and What Alice Discovered There" Alice, now more experienced in navigating the digital world, steps through the DaSCH portal into a realm where data structures are reversed, and everything follows its own peculiar logic, much like a reflection in a mirror. 
+In this new environment, Alice embarks on another adventure filled with enigmatic algorithms, unusual digital entities, and peculiar happenings, where she must adapt to the unpredictable nature of the data streams and the ever-evolving digital landscape.</text>
+        </text-prop>
+        <date-prop name=":hasDate">
+            <date permissions="open">GREGORIAN:CE:1871-12-27:CE:1871-12-27</date>
+        </date-prop>
+        <resptr-prop name=":linkToBookChapter">
+            <resptr permissions="open">BC_14</resptr>
+            <resptr permissions="open">BC_15</resptr>
+            <resptr permissions="open">BC_16</resptr>
+            <resptr permissions="open">BC_17</resptr>
+            <resptr permissions="open">BC_18</resptr>
+            <resptr permissions="open">BC_19</resptr>
+            <resptr permissions="open">BC_20</resptr>
+            <resptr permissions="open">BC_21</resptr>
+            <resptr permissions="open">BC_22</resptr>
+            <resptr permissions="open">BC_23</resptr>
+            <resptr permissions="open">BC_24</resptr>
+            <resptr permissions="open">BC_25</resptr>
+            <resptr permissions="open">BC_26</resptr>
+            <resptr permissions="open">BC_27</resptr>
+            <resptr permissions="open">BC_28</resptr>
+            <resptr permissions="open">BC_29</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToBookEdition">
+            <resptr permissions="open">BE_002</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToVideo">
+            <resptr permissions="open">V_01</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToBookCover">
+            <resptr permissions="open">BC_005</resptr>
+            <resptr permissions="open">BC_006</resptr>
+            <resptr permissions="open">BC_007</resptr>
+        </resptr-prop>
+    </resource>
+</knora>

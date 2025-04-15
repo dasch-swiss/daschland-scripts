@@ -1,0 +1,444 @@
+ID,Name EN,Name DE,Name FR,Name IT,Description,Role List,Quote,Colour,Alternative Description,Alternative Name,Image ID,Keyword
+CH_001,Alice,Alice,Alice,Alice,"Alice is a young English girl. She is the main protagonist of Alice’s Adventures in Wonderland and Through the Looking-Glass and What Alice Found There. She is a curious, imaginative, and bold young girl who finds herself in bizarre, dreamlike worlds filled with nonsense and eccentric characters.
+
+Alice is a seven-year-old girl in Alice’s Adventures in Wonderland and slightly older in Through the Looking-Glass.
+She follows the White Rabbit down a rabbit hole, leading her into Wonderland, where she experiences strange adventures and meets absurd characters.
+In the Looking-Glass world, she plays through a giant chess game, moving from pawn to queen.
+
+The beautiful pictures of Alice, drawn by John Tenniel, were inspired by Mary Hilton Badcock, the daughter of the Dean of Ripon. Although she was suggested as a model, it's not clear if Tenniel fully took this suggestion. (source: alice-in-wonderland.net)",R_01,Curiouser and curiouser!,,"In the digital wonderland of DaSCHland, Alice is portrayed as a young, curious explorer, navigating a world where data and reality merge seamlessly. 
+Her character embodies the spirit of inquiry and adaptability, always ready to engage with the shifting landscapes and eclectic characters of DaSCHland. 
+With her bright, inquisitive mind, she delves into each encounter, whether it's solving riddles with the White Queen, dancing at a bizarre banquet, or decoding the peculiar logic of Humpty Dumpty. 
+Alice's journey through DaSCHland highlights her growth from mere curiosity to a deeper understanding of how technology can bring literary worlds to life, showcasing her as a bridge between classic tales and modern digital exploration.",Alice,"I_003, I_004, I_005, I_006, I_007, I_008, I_009, I_010, I_011, I_012, I_014, I_015, I_021, I_022, I_023, I_025, I_029, I_030, I_032, I_034, I_035, I_040, I_042, I_043, I_045, I_046, I_047, I_049, I_052, I_053, I_055, I_056, I_060, I_061, I_066, I_067, I_068, I_070, I_071, I_072, I_076, I_077, I_078, I_079, I_080, I_081, I_082, I_084, I_085, I_086, I_087, I_089, I_090, I_091, I_092","Adventure, Journey, Exploration, Identity, Personal Growth, Transformation, Surrealism, Imagination, Contradiction, Logic, Paradoxes, Wordplay, Wisdom, Reflection"
+CH_002,White Rabbit,weißes Kaninchen,Lapin blanc,Coniglio bianco,"The White Rabbit is a nervous, hurried character who serves as Alice’s initial guide into Wonderland.
+He is first seen checking his pocket watch and exclaiming, “Oh dear! Oh dear! I shall be late!” before disappearing down the rabbit hole.
+He works as a servant for the Queen of Hearts and is terrified of her temper.
+He mistakes Alice for his housemaid, Mary Ann, in Chapter 4 and panics when she grows giant inside his house.
+
+The White Rabbit is always late, which is a nod to Oxford time. At Oxford, especially at Christ Church, where Carroll used to teach, events often start five minutes after the scheduled hour. (source: alice-in-wonderland.net)",R_01,Oh dear! Oh dear! I shall be too late!,,"In DaSCHland, RabbitIT embodies a reimagined version of the classic White Rabbit from ""Alice in Wonderland."" This character merges the traditional traits of urgency and meticulous timing with advanced technological features. RabbitIT, as Alice's digital guide, is integral to navigating the complex and layered world of DaSCHland. Equipped with AI-driven capabilities, RabbitIT assists Alice by providing real-time data, historical insights, and logistical support throughout her adventures. His appearance retains the iconic elements—such as the waistcoat and pocket watch—but these are enhanced with digital displays and interfaces that reflect his role as a guide within a sophisticated, data-rich environment. RabbitIT not only leads Alice through various digital landscapes but also ensures she engages deeply with the literary worlds recreated and stored within the DaSCH repository, making him a pivotal character in blending classic literature with modern technology.",RabbIT,"I_001, I_002, I_006, I_037, I_012","Anxiety, Time, Servitude, Journey, Transformation, Imagination, Surrealism, Paradoxes"
+CH_003,Caterpillar,Raupe,Chenille,Bruco,"The Caterpillar is a calm, philosophical, and slightly rude blue creature who smokes a hookah while speaking with Alice.
+He questions Alice’s identity, repeatedly asking, “Who are you?”, which confuses her.
+He gives cryptic advice, telling Alice that eating different parts of a mushroom will make her grow or shrink.
+
+The text describes the Caterpillar as blue ('a large blue caterpillar').",R_01,Who are YOU ? ,,"In the context of DaSCHland, the Caterpillar character is reimagined with a digital twist, embodying both wisdom and a connection to the historical data within the DaSCH repository. This version of the Caterpillar maintains his iconic thoughtful and philosophical demeanor, often found lounging on a mushroom, but here the mushroom also serves as an interactive data terminal that displays various texts and historical documents relevant to Alice’s queries and the Caterpillar’s wise teachings.
+
+The Caterpillar in DaSCHland uses his deep knowledge, derived from vast literary and historical databases, to challenge and guide Alice through complex philosophical debates and puzzles. His dialogue with Alice often includes interactive elements, such as visual data projections from his mushroom, making each interaction not only a conversation but a visually engaging learning experience. This character retains his calm, contemplative nature and his ability to transform—signifying not only physical change but also the transformative power of knowledge and digital technology in DaSCHland.",Cyberpillar,I_015,"Identity, Personal Growth, Wisdom, Reflection, Transformation, Surrealism, Imagination"
+CH_004,Mad Hatter,verrückter Hutmacher,Chapelier fou,Cappellaio Matto,"The Mad Hatter is a tea-obsessed, eccentric character who hosts the Mad Tea Party with the March Hare and the Dormouse.
+He is called “mad” because Time has punished him by stopping time at 6 o’clock, meaning it is always tea-time for him.
+He loves riddles and wordplay, famously asking Alice: “Why is a raven like a writing desk?”—a riddle with no real answer.
+He appears again at the trial of the Knave of Hearts, where he nervously testifies before the Queen of Hearts.
+
+In 'Through the Looking-Glass', the Hatter returns in the form of the Anglo-Saxon messenger 'Hatta'.
+
+Contrary to popular belief, Lewis Carroll never referred to the Hatter as 'the Mad Hatter' in the story. He simply called him 'the Hatter'.
+The phrase 'mad as a hatter' was common in Carroll's time, probably because hatters actually did go mad, as the mercury they used sometimes gave them mercury poisoning. (source: alice-in-wonderland.net)",R_01,Why is a raven like a writing-desk?,,"In DaSCHland, the Mad Hatter transforms into an intriguing digital persona, blending his traditional eccentricity and whimsical charm with advanced technological attributes. He hosts the famed tea parties, which in this digital realm are dynamic simulations, where each cup of tea and piece of cake is embedded with historical anecdotes or literary quotes that appear as holographic texts above the table. The Mad Hatter in this virtual world is not just a bringer of nonsensical humor; he also serves as a conduit for exploring the rich tapestry of literature and history stored in the DaSCH repository. His hat, iconic and oversized, functions as an interface that projects various informational displays, engaging Alice and other guests in riddles and puzzles that draw from a diverse array of cultural and historical contexts.
+
+His character retains the unpredictable nature known from the original tales but is enhanced with the ability to manipulate his environment digitally, making each interaction with him a surprise and a new opportunity for Alice to learn something unique about the virtual world she navigates.",The Archival Madcap,"I_025, I_026, I_038, I_039, I_069, I_077, I_027 ","Madness, Confusion, Time, Surrealism, Paradoxes, Wordplay, Irony, Imagination"
+CH_005,Cheshire Cat,Grinzekatze,Chat du Cheshire,Stregatto,"The Cheshire Cat is a mischievous, grinning cat who gives philosophical advice to Alice.
+He has the ability to disappear and reappear at will, sometimes leaving only his grin behind.
+He guides Alice, explaining the madness of Wonderland and telling her “We’re all mad here.”
+He later appears at the Queen’s croquet game, where his floating head confuses the King and Queen of Hearts.
+He serves as a guide for Alice, offering riddles and cryptic advice but never direct answers.
+
+The reason for Carroll naming this character 'Cheshire Cat' is unclear: 
+'To grin like a Cheshire Cat' was a common phrase in Carroll's day. 
+It may have originated from a sign painter in Cheshire who painted grinning lions on the sign-boards of inns in the area.
+Another source is the 'Alice Window' in Christ Church, Oxford, where you can see three grinning animals at the top of the Liddell's family arms. 
+Cheshire cheeses were also once molded in the shape of a grinning cat. (source: alice-in-wonderland.net)",R_01,We’re all mad here. I’m mad. You’re mad.,,"In the imaginative world of DaSCHland, the Cheshire Cat stands out as a particularly fascinating digital entity. He embodies the quintessential mystery and wit of his character, now augmented with the capability to appear and disappear at will, leaving behind only his iconic grin, which serves as a user interface for accessing various data points within the DaSCH repository. The Cheshire Cat's interactions with Alice are both enlightening and cryptic, guiding her through DaSCHland with riddles and philosophical insights that challenge her perceptions. His ability to phase in and out of digital visibility symbolizes the fluid nature of information in the digital age, where data can be both omnipresent and elusive.
+
+This version of the Cheshire Cat not only serves as a guide through the labyrinthine digital landscape but also as a reminder of the transformative power of technology in reshaping narratives and character interactions within this virtual world. His presence is a constant reminder of the enigmatic and ever-changing nature of the digital realm Alice explores.",The Quantum Cat,"I_021, I_023, I_024, I_031","Wisdom, Mystery, Reflection, Madness, Irony, Surrealism, Imagination, Paradoxes"
+CH_006,Queen of Hearts,Herzkönigin,Reine de cœur,Regina di cuori,"The Queen of Hearts is the ruler of Wonderland, known for her explosive temper and frequent orders of “Off with their heads!”
+She is tyrannical, irrational, and quick to anger, though her executions are never actually carried out (likely because the King of Hearts quietly pardons everyone).
+She hosts a chaotic croquet game, where flamingos are used as mallets and hedgehogs as balls.
+
+Carroll wrote the following about the Queen of Hearts:
+""I pictured the Queen of Hearts as a sort of embodiment of ungovernable passion – a blind and aimless Fury."" (source: alice-in-wonderland.net)",R_01,Off with his head!,,"In DaSCHland, the Queen of Hearts is reenvisioned as a formidable digital ruler, embodying her classic characteristics of authority and quick temper, but with a modern twist. In this virtual world, she presides over the digital kingdom with a strict adherence to the rules and protocols encoded within the DaSCH repository.
+
+The Queen’s realm in DaSCHland is a place where order intersects with the whimsical laws of Wonderland, making her both a guardian of traditional narratives and an enforcer of the digital world's unique logic. Her commands and decrees can instantly alter the landscape or the behavior of other characters, demonstrating her control over the digital environment.
+
+Her interactions with Alice are intense and pivotal, offering dramatic encounters that highlight the power dynamics within DaSCHland. The Queen of Hearts in this setting isn't just a character from a story; she is a dynamic representation of control and authority in a world where data and reality intertwine seamlessly.",The Data Queen,"I_001, I_029","Authority, Tyranny, Violence, Anger, Judgment, Inverted Justice, Absurdity, Chaos, Madness"
+CH_007,March Hare,Märzhasen,Lièvre de mars,Lepre Marzolina,"The March Hare is a wild, energetic, and slightly mad character who hosts the Mad Tea Party along with the Mad Hatter and the Dormouse.
+He is always celebrating “tea-time” because time has stopped for him as a result of an argument the Hatter had with Time.
+He takes part in riddles, nonsensical conversations, and interruptions, frustrating Alice with his lack of logic.
+
+He is named Haigha in the second book.",R_02,Have some wine,,"The Cheshire Cat's interactions with Alice are both enlightening and cryptic, guiding her through DaSCHland with riddles and philosophical insights that challenge her perceptions. His ability to phase in and out of digital visibility symbolizes the fluid nature of information in the digital age, where data can be both omnipresent and elusive.",The Real-Time Processor,"I_025, I_027, I_076, I_077 ","Madness, Chaos, Confusion, Surrealism, Irony, Imagination"
+CH_008,Duchess,Herzogin,Duchesse,Duchessa,"The Duchess is an eccentric, ugly, and unpredictable noblewoman who lives in a chaotic house filled with pepper that makes everyone sneeze.
+She has a violent cook, an abused baby (who later turns into a pig), and a tendency to spout moral lessons in a forced, nonsensical way.
+She later reappears, acting overly friendly toward Alice, contradicting her earlier harsh behavior.",R_02,"Everything’s got a moral, if only you can find it",,"
+In the virtual realm of DaSCHland, the Duchess takes on a multifaceted digital persona that embodies both the harshness and unexpected warmth she displays in the original tales. This Duchess is intricately programmed to interact with Alice using a mix of sharp remarks and philosophical musings, enhanced by the digital environment's capability to integrate complex dialogue and interactions.
+
+The Duchess in DaSCHland oversees a segment of the digital landscape that mirrors her eclectic and somewhat chaotic household, where the laws of physics and conventional logic are frequently bent. Her interactions often include lessons about manners and morality, albeit delivered in a convoluted manner that challenges Alice to think critically about the rules and norms of both the real and digital worlds.
+
+Her character is not only a caretaker of peculiar digital creatures but also serves as a critical voice in the narrative, pushing Alice to question and understand the underlying structures of DaSCHland. The Duchess’s presence is marked by her ability to shift from volatile to caring in moments, making her a complex and compelling figure in the digital adventure.",The Algorythmic Duchess,"I_021, I_032","Domesticity, Absurdity, Violence, Authority, Madness, Chaos"
+CH_009,Mock Turtle,Schildkrötensupperich,Simili Tortue,Finta tartaruga,"The Mock Turtle is a sad and melancholic creature who constantly sighs and reminisces about his past.
+He was once a real turtle and attended “sea school” under a master called Tortoise (because he “taught us”).
+He is known for his nonsensical stories and puns, particularly about his strange school subjects, like Reeling and Writhing instead of Reading and Writing.
+He and the Gryphon teach Alice the Lobster Quadrille, a bizarre underwater dance.",R_02,"When we were little, we went to school in the sea. The master was an old turtle—we used to call him Tortoise—""",,This version of the Cheshire Cat not only serves as a guide through the labyrinthine digital landscape but also as a reminder of the transformative power of technology in reshaping narratives and character interactions within this virtual world. His presence is a constant reminder of the enigmatic and ever-changing nature of the digital realm Alice explores.,Mock-up Data,"I_034, I_035","Reflection, Absurdity, Irony, Surrealism, Imagination, Animals"
+CH_010,Gryphon,Mücke,Gryphon,Grifone,"The Gryphon is a mythical creature with the body of a lion and the wings and head of an eagle.
+He serves as a guide to Alice, taking her to meet the Mock Turtle and listening to his sorrowful tales.
+Unlike many Wonderland characters, he is bossy but not hostile, often rushing the Mock Turtle through his stories.
+He introduces Alice to the Lobster Quadrille, a strange dance performed under the sea.",R_02,"""It's all his fancy, that: he hasn't got no sorrow, you know. Come on!""
+",,"In the digitally-rendered world of DaSCHland, the Gryphon emerges as a majestic and authoritative creature, blending elements of his mythological origins with modern digital functionalities. He serves as a guardian and guide, helping Alice navigate the more complex and potentially perilous parts of the digital landscape with wisdom and a stern demeanor.
+
+The Gryphon in DaSCHland is intricately designed, combining his classical eagle-and-lion form with enhancements that reflect his role within the digital environment. He possesses the ability to access and project holographic histories or legendary tales from the DaSCH repository, using his wings and talons as interactive tools that help illustrate these stories to Alice.
+
+His interactions with Alice are educational and protective, ensuring that she not only enjoys her journey through DaSCHland but also gains deeper insights into the literary and mythical foundations that the realm is built upon. The Gryphon’s character is a bridge between the ancient and the digital, embodying the wisdom of the old and the possibilities of the new.",System Protector,"I_033, I_034, I_035","Animals, Wisdom, Reflection, Imagination, Surrealism"
+CH_011,Red Queen,Rote Königin,Reine rouge,Regina rossa,"The Red Queen is a chess piece on the Red side, known for being strict, commanding, and highly logical.
+She first meets Alice in Chapter 2 and explains the rules of the Looking-Glass world, where Alice must move like a pawn to reach the eighth square and become a queen.
+She later appears at Alice’s coronation banquet, where the event descends into chaos.
+
+It is possible that the Red Queen was modelled after the governess for the Liddell children, Miss Prickett, who was known as 'Pricks'. (source: alice-in-wonderland.net)",R_01,,,"In the digital wonderland of DaSCHland, the Red Queen is reimagined as a dynamic and strategic figure, embodying a blend of leadership and urgency. Unlike the traditional portrayal of her character as simply domineering, this Red Queen is more nuanced, using her quick-paced and decisive nature to manage and oversee complex digital operations within the realm.
+
+The Red Queen in DaSCHland utilizes advanced data analytics and management tools that are visually represented by the constant motion of her character—mirroring her motif of ""running to stay in place."" Her realm is one where order and efficiency reign, and she is often seen orchestrating the flow of information and digital events with precision and command.
+
+Her interactions with Alice are marked by challenges that test Alice's ability to think and react quickly, embodying the Red Queen's belief in the necessity of constant movement and adaptation in a rapidly changing digital environment. This portrayal highlights her as not just a ruler but a symbol of perpetual progress and the relentless pace of technological and data-driven environments.",The Digi-Queen,"I_053, I_055, I_068, I_085, I_086, I_090","Authority, Rules, Tyranny, Judgment, Absurdity, Imagination, Madness, Chaos"
+CH_012,Humpty Dumpty,Humpty Dumpty,Humpty Dumpty,Humpty Dumpty,"Humpty Dumpty is a large, egg-shaped character sitting on a wall when Alice meets him.
+He is famously known from the nursery rhyme:
+He is arrogant and boastful, constantly correcting Alice and claiming he can make words mean whatever he wants.
+He explains the nonsense words from “Jabberwocky” to Alice, adding to the theme of language and meaning.",R_02,"""Humpty Dumpty sat on a wall,
+Humpty Dumpty had a great fall.
+All the King’s horses and all the King’s men
+Couldn’t put Humpty together again.""",,"
+In DaSCHland, Humpty Dumpty is crafted as a figure of intellectual whimsy, combining his well-known penchant for wordplay with digital enhancements that allow him to manipulate language and meanings in novel ways. This digital Humpty Dumpty is perched on a high wall, symbolizing his lofty ideas and the precarious nature of his assertions.
+
+This version of Humpty Dumpty is equipped with linguistic databases from the DaSCH repository, enabling him to provide Alice with elaborate explanations and definitions that twist and stretch words beyond their conventional meanings. His digital interface allows him to project visual representations of his wordplay, turning abstract concepts into tangible, manipulable objects in the virtual environment.
+
+His interactions with Alice are cerebral and engaging, challenging her understanding of language and logic. Humpty Dumpty’s role in DaSCHland is not only to entertain but also to enlighten, serving as a quirky mentor who encourages Alice to explore the depths of linguistic creativity and the flexibility of digital communication. This character retains his iconic vulnerability, with the ever-present risk of falling off his wall, symbolizing the delicate balance between knowledge and confusion in the expansive digital world.",Fragmented Data,"I_072, I_074","Logic, Wordplay, Irony, Paradoxes, Absurdity, Surrealism, Imagination"
+CH_013,White Knight,Weisser Ritter,Cavalier blanc,Cavaliere bianco,"The White Knight is a chess piece from the White side who rescues Alice from the Red Knight, following the rules of chess.
+He is depicted as kind, gentle, and absent-minded, constantly falling off his horse due to his clumsiness.
+He carries odd inventions, such as a beehive on a stick and anklets to keep sharks away, showcasing his quirky creativity.
+Before Alice moves on to become a Queen, he escorts her to the last square, saying a poetic farewell.
+
+The White Knight is often seen as a self-portrait of Lewis Carroll, representing the gentle, eccentric dreamer who helps Alice along her journey.",R_02,,,"
+In the imaginative universe of DaSCHland, the White Knight is transformed into a quirky yet noble figure who embodies the fusion of chivalric ideals with technological innovation. He is designed as a tinkerer and inventor, with his armor and steed adorned with various whimsical gadgets and gizmos that he has crafted from the digital resources available within the DaSCH repository.
+
+This White Knight retains his traditional clumsiness and good-hearted nature, but his inventions are digitally enhanced, offering practical (and sometimes impractical) solutions during his adventures with Alice. His armor, instead of merely serving as protection, is integrated with interactive displays and tools that assist him and Alice as they navigate through DaSCHland.
+
+His interactions with Alice are filled with gentle guidance and eccentric inventiveness. He serves not only as a protector on her journey but also as a mentor in creativity and resilience, often providing comic relief with his inventions that sometimes work in unexpected ways. The White Knight’s character in DaSCHland symbolizes the bridge between old-world chivalry and modern digital creativity, making every encounter with him both educational and entertaining.",Encryption Key,"I_043, I_050, I_080, I_081, I_082, I_083","Adventure, Journey, Wisdom, Reflection, Absurdity, Imagination, Paradoxes, Wordplay"
+CH_014,Mouse,Maus,Souris,Topo,"The Mouse is one of the creatures that fall into the pool of tears Alice creates when she grows too large.
+It is easily offended, especially when Alice mentions her cat, Dinah, which frightens the Mouse.
+To dry off, the Mouse tells a “dry” history lesson about William the Conqueror, but it is so boring that no one listens.
+It participates in the Caucus Race, a nonsensical race where everyone wins.",R_02,"Sit down, all of you, and listen to me! I'll soon make you dry enough!",,"
+In DaSCHland, the Mouse is depicted as a wise and articulate historian, carrying a vast repository of knowledge from the DaSCH archives. This digital incarnation of the Mouse combines its characteristic timidity with a profound intellectual depth, serving as a guide to the historical and literary contexts of Wonderland.
+
+The Mouse in DaSCHland is often seen scurrying across digital landscapes, leaving trails of historical data and literary references that help Alice understand the intricate background of the characters and settings she encounters. Its small size belies the vast amount of information it holds, and it communicates with Alice through a series of sophisticated projections and interactive data streams that visually represent the stories it tells.
+
+Interacting with the Mouse, Alice finds a valuable resource in piecing together the puzzles of DaSCHland. The Mouse's role is crucial for teaching her about the origins and transformations of Wonderland's inhabitants and their adventures. This character's timid yet profound demeanor makes it a unique and insightful guide, enriching Alice's journey through the layers of digital Wonderland.",Command-line Operator,"I_008, I_010","Animals, Anxiety, Absurdity, Logic, Paradoxes"
+CH_015,Dodo,Dodo,Dodo,Dodo,"The Dodo is one of the animals that fall into the pool of tears with Alice.
+He organizes the Caucus Race, a nonsensical event where everyone runs in circles with no clear rules, and everyone wins.
+
+The dodo, a flightless bird that once inhabited the island of Mauritius, located east of Madagascar in the Indian Ocean, became extinct in the mid-17th century during the colonisation of the island by the Dutch. 
+
+The character is believed to represent Lewis Carroll himself (Charles Dodgson), as “Dodo” is thought to be a reference to Dodgson’s own stammer, which made him pronounce his surname as “Do-do-Dodgson.”
+(source: alice-in-wonderland.net)",R_02,The best way to explain it is to do it.,,"In DaSCHland, the Dodo is reimagined as a digital curator and archivist, overseeing the preservation and organization of the vast literary and historical data within the DaSCH repository. This version of the Dodo retains the peculiar and somewhat absurd characteristics from the original tales, but with a twist: he is deeply knowledgeable and somewhat pedantic about the digital artifacts and records under his care.
+
+The Dodo in DaSCHland serves as an authoritative figure in managing the flow of information and ensuring that Alice receives the proper context and background needed for her explorations. His presence is marked by a series of elaborate digital displays and interfaces that he controls, which serve as interactive exhibits for Alice and other visitors to DaSCHland.
+
+Interacting with the Dodo, Alice is often caught in the whirlwind of his archiving activities, witnessing how digital preservation works in a realm where literary and historical data are treated as precious commodities. The Dodo's meticulous nature and his commitment to his duties make him a fascinating character who blends the whimsical with the practical, providing a unique perspective on the importance of data stewardship in the digital age.",Old-System,I_009,"Animals, Absurdity, Irony, Paradoxes, Imagination, Surrealism"
+CH_016,Alice's sister,Alices Schwester,Sœur d'Alice,Sorella di Alice,"She is an unnamed older sister of Alice, present at the beginning and end of the story.
+At the start, she sits with Alice by the riverbank, reading a book with “no pictures or conversations,” which bores Alice and leads her to daydream about Wonderland.
+At the end, after Alice wakes up from her dream, her sister gently sends her home and reflects on Alice’s adventures, imagining that Alice will one day grow up but still retain her childlike wonder.
+
+Her character is likely a fictionalized counterpart to Lorina Charlotte ""Ina"" Liddell (1849-1930), the real-life elder sister of Alice Liddell. The real Alice's older sister, Lorina, was actually only three years her senior. (source: alice-in-wonderland.net)",R_02,"Wake up, Alice dear! Why, what a long sleep you've had!",,"
+In DaSCHland, Alice's sister is conceptualized as a serene and scholarly figure, serving as a gateway between the real world and the digital realm of DaSCH. She embodies the role of a caretaker and guide, often seen in the background, offering gentle encouragement and insights that help Alice navigate her digital adventures.
+
+Her character in DaSCHland is endowed with an intuitive understanding of both the physical and digital worlds, making her an ideal mentor for Alice. She is portrayed as possessing a deep knowledge of the literary foundations of DaSCHland, providing Alice with critical interpretations and historical contexts that enrich her journey.
+
+Alice's sister interacts with the digital world through a sophisticated interface that allows her to monitor and occasionally guide Alice's progress, ensuring that her little sister's explorations are both safe and enlightening. Her calm demeanor and intellectual depth make her a grounding presence, offering a bridge back to reality and a reminder of the world beyond the digital landscape. Her role highlights the connection between storytelling, learning, and the nurturing guidance that helps Alice grow throughout her adventures in DaSCHland.",Meta-Sibling,,"Domesticity, Reflection, Wisdom"
+CH_017,King of Hearts,Herzkönig,Roi de cœur,Re di cuori,"The King of Hearts is the ruler of Wonderland alongside the Queen of Hearts, though he is much less fearsome than his wife.
+He serves as the judge during the trial of the Knave of Hearts, who is accused of stealing the Queen’s tarts.
+He follows absurd legal procedures, often making nonsensical rulings, such as demanding a verdict before the evidence is presented.
+Unlike the Queen, who frequently yells “Off with their heads!”, the King often softens her harsh orders and tries to keep things under control.",R_02,"Begin at the beginning, and go on till you come to the end: then stop.",,"In DaSCHland, the King of Hearts is portrayed as a benevolent and somewhat ceremonial ruler, often overshadowed by the more forceful Queen of Hearts but holding his own unique authority within the digital realm. His character is designed to embody wisdom and moderation, serving as a balancing force against the Queen's more impulsive decisions.
+
+The King in DaSCHland maintains his gentle demeanor from the original stories, but he is equipped with tools and systems that help him manage the kingdom's affairs and ensure the proper execution of its laws. He often appears in scenarios where judicial or moral decisions are needed, providing a voice of reason and compassion.
+
+His interactions with Alice are marked by kindness and encouragement, offering her advice and support as she navigates the complexities of DaSCHland. The King's role is crucial in maintaining the order and fairness of the digital kingdom, often using his authority to temper the Queen's harsher judgments.
+
+Overall, the King of Hearts in DaSCHland represents the virtues of patience and understanding, using his position to promote peace and stability in the kingdom, and showing Alice the importance of thoughtful leadership in any world, digital or otherwise.",The Data King,"I_001, I_041","Authority, Inverted Justice, Absurdity, Rules, Judgment"
+CH_018,Dormouse,Siebenschläfer,Loir,Ghiro,"The Dormouse is a sleepy, drowsy creature who sits between the Mad Hatter and the March Hare at the tea party.
+He constantly falls asleep mid-conversation and has to be poked or shaken awake by the others.
+He tells a bizarre story about three sisters (Elsie, Lacie, and Tillie) who live at the bottom of a treacle well and only eat treacle.
+At one point, Alice picks him up and puts him into a teapot, though he escapes later.",R_02,"I heard every word you fellows were saying
+",,"In the digital realm of DaSCHland, the Dormouse is reimagined as a sleepy yet insightful character, whose drowsy demeanor masks a deep repository of narrative wisdom. In this version, the Dormouse is not merely a participant in the Mad Hatter's tea party but serves as a crucial archival resource, storing and occasionally divulging snippets of folklore and historical tales embedded within DaSCH's extensive databases.
+
+This digital Dormouse occasionally dozes off, but when awake, it projects holographic snippets of stories and historical events, illuminating the discussions at the tea party with vivid, animated tales from various epochs and cultures. Its ability to access and display these narratives at random—or seemingly so—adds a layer of enchantment and mystery to its character.
+
+Interactions with the Dormouse provide Alice and other characters with unexpected insights, often sparking deeper discussions or leading to new adventures in DaSCHland. Despite its sleepy nature, the Dormouse is a beloved figure, enchanting visitors with its whimsical, albeit intermittent, contributions to the digital tea party. This character blends the charm of its traditional portrayal with the technological marvels of DaSCHland, making each of its rare awakenings a moment worth waiting for.",Archived Node,I_027,"Madness, Confusion, Dream-like, Imagination, Surrealism"
+CH_019,Knave of Hearts,Herzbube,Valet de cœur,Fante di cuori,"The Knave is a servant of the Queen of Hearts, accused of stealing the Queen’s tarts.
+He is put on trial in a ridiculous courtroom scene, presided over by the King of Hearts.
+Although the evidence against him is absurd and nonsensical, the Queen still demands his execution.
+Before the trial can conclude, Alice grows larger and disrupts the proceedings, leading to the scene’s chaotic ending.",R_02,I didn't write it!,,"In DaSCHland, the Knave of Hearts is recast as a mischievous yet charismatic character, well-known for his role in the infamous tart theft, but with a deeper digital twist. He serves as an intriguing figure within the virtual realm, often involved in scenarios that test the boundaries of rules and digital ethics.
+
+The Knave in DaSCHland utilizes his cunning and charm not just to engage in his notorious antics but also to explore and sometimes exploit the digital environment's capabilities. His actions often lead to lessons about digital responsibility and the consequences of manipulating data without regard for the virtual world's laws.
+
+His interactions with Alice are playful yet edifying, offering her—and the audience—a glimpse into the complexities of maintaining order and morality within a digitally governed realm. Despite his reputation for causing trouble, the Knave is portrayed as a fundamentally multi-dimensional character, whose adventures prompt discussions about right, wrong, and the gray areas in between in DaSCHland.
+
+This version of the Knave of Hearts adds a layer of intrigue to the narrative, making him a pivotal character whose actions drive much of the drama and learning experiences within the digital wonderland.",The Code Thief,,"Inverted Justice, Judgment, Authority, Absurdity"
+CH_020,Dinah,Dinah,Dinah,Dinah,"Dinah is a real-world kitten that Alice adores. She is described as an excellent mouser and bird-catcher.
+Alice frequently brings her up in conversation, especially when speaking to Wonderland creatures, which often upsets them—especially the Mouse, who is terrified at the mention of cats.
+",R_02,"And she’s such a capital one for catching mice you can’t think! And oh, I wish you could see her after the birds! Why, she’ll eat a little bird as soon as look at it!",,"
+In DaSCHland, Dinah, Alice's beloved cat from the real world, is reimagined with a significant virtual presence that bridges the realms of reality and digital fantasy. This version of Dinah retains her feline traits but is enhanced with digital capabilities that allow her to interact with Alice in unique and helpful ways within the digital landscape.
+
+Dinah in DaSCHland serves as Alice’s loyal companion and protector, equipped with sensors and communication tools that help her detect and navigate digital anomalies or threats. Her presence offers a comforting sense of home and familiarity to Alice, providing emotional support and practical assistance as they explore the various facets of the digital world together.
+
+Her interactions with Alice and other characters are marked by a blend of affectionate behavior typical of a pet and sophisticated digital interventions that aid in Alice's adventures. Dinah's ability to appear and act within DaSCHland adds an element of whimsy and security, reinforcing the connection between Alice's real-world roots and her fantastical digital experiences.
+
+Dinah's role as a digitally enhanced pet in DaSCHland highlights the theme of companionship transcending physical and virtual spaces, making her an integral part of the narrative that emphasizes loyalty, protection, and the comforts of home, even in the most extraordinary of settings.",Code-Cat,,"Animals, Domesticity"
+CH_021,Duck,Ente,Canard,Anatra,"The Duck is one of the animals that fall into the pool of tears with Alice.
+It participates in the Caucus Race, a nonsensical event where everyone wins.
+
+The character is believed to be based on Reverend Duckworth, a friend of Lewis Carroll who accompanied Alice Liddell and her sisters on the boat trip where Carroll first told the story. (source: https://en.wikipedia.org/wiki/Robinson_Duckworth)",R_02,"What I was going to say, was, that the best thing to get us dry would be a Caucus-race",,"
+In DaSCHland, the Duck is portrayed as a character brimming with practical wisdom and a no-nonsense attitude, offering a grounded perspective in the often whimsical and chaotic digital environment. This version of the Duck, inspired by the original character in Lewis Carroll's tales, is enhanced with features that allow it to navigate and explain the natural laws governing the digital world of DaSCHland.
+
+The Duck in this virtual realm serves as a guide, especially in scenarios involving natural simulations, such as virtual waterways or weather patterns, using its knowledge to educate Alice and other characters on the digital ecosystem's workings. The Duck's pragmatic approach helps demystify the complex interactions within DaSCHland, making it a reliable resource for understanding how digital and natural laws intertwine.
+
+Interacting with the Duck provides Alice with invaluable lessons on adaptability and the importance of understanding one's environment. The Duck's straightforward and often blunt demeanor adds a layer of humor and realism to the narrative, contrasting with the more fantastical elements and characters in DaSCHland. This character enriches the digital landscape by offering insights into the practical aspects of navigating a world where reality and digital creations coexist.",Buffer Duck,,"Animals, Absurdity"
+CH_022,Lory,Lory,Lory,Lory,"The Lory is a talking bird that falls into the pool of tears along with Alice and other creatures.
+It participates in the Caucus Race, where everyone runs in circles and “wins.”
+The Lory is depicted as proud and argumentative, refusing to let Alice have the last word in their conversation.
+She is said to be modeled after Alice’s sister, Lorina (source: alice-in-wonderland.net)",R_02,"I am older than you, and must know better",,"
+In DaSCHland, the Lory character is reimagined as a vibrant and somewhat competitive personality, retaining its original traits from Lewis Carroll's tales but with enhanced digital capabilities. This digital Lory is portrayed as eager and somewhat assertive, often involved in discussions and debates, where it loves to showcase its knowledge and wit.
+
+The Lory in DaSCHland serves as a counterpart to the Duck, offering a contrasting perspective that is more assertive and less concerned with practical details and more with winning arguments or leading expeditions within the digital realm. This character's role is often to challenge Alice and other characters, pushing them to think critically and react swiftly to the evolving scenarios in this virtual world.
+
+Interacting with Lory provides a dynamic element to Alice's journey, testing her problem-solving skills and her ability to navigate social interactions in a competitive environment. The Lory's colorful personality and eagerness to engage make it a memorable part of the digital narrative, contributing to the lively and diverse character ensemble in DaSCHland.",Meta-Lory,,"Animals, Absurdity, Paradoxes"
+CH_023,Eaglet,Adlerjunge,Aiglon,Aquilotto,"The Eaglet is one of the animals that fall into the pool of tears with Alice.
+It participates in the Caucus Race, a nonsensical race where everyone wins.
+The Eaglet is depicted as intelligent and somewhat critical, questioning the Dodo’s explanations.
+She is said to be modeled after Alice’s sister, Edith (source: alice-in-wonderland.net)",R_02,"Speak English! I don't know the meaning of half those long words, and, what's more, I don't believe you do either!",,"
+In DaSCHland, the Eaglet character is reenvisioned as a cautious yet insightful figure, bringing a blend of youthful energy and a keen eye for detail to the digital landscape. This version of the Eaglet, drawing from Lewis Carroll's original portrayal, is characterized by its careful observations and occasional skepticism, providing a voice of reason amid the more flamboyant personalities.
+
+The Eaglet in DaSCHland often serves as a mediator and analyst, helping to decipher complex digital phenomena and ensuring that discussions stay grounded in logic. Its role is particularly important in situations where the whimsical nature of DaSCHland's environment leads to confusion or misinterpretations, as the Eaglet helps to clarify misunderstandings and offer clear, concise explanations.
+
+Interacting with the Eaglet enhances Alice’s experiences by encouraging her to be more observant and thoughtful about her surroundings. The Eaglet's careful approach to the digital world's challenges and its ability to distill wisdom from chaotic situations make it a crucial ally for Alice and other characters navigating the intricate realm of DaSCHland.",The Byte-Eaglet,,"Animals, Absurdity"
+CH_024,Mary Ann,Maria-Anne,Marie-Anne,Mary Ann,"Mary Ann is the White Rabbit’s housemaid. 
+Although she never appears physically, she is important because the White Rabbit mistakes Alice for her when Alice enters his house.",R_02,,,"
+In DaSCHland, Mary Ann is creatively reimagined as Alice's virtual assistant, embodying a character that seamlessly blends functionality with a dash of whimsical loyalty. Drawing from her role in the original ""Alice's Adventures in Wonderland"" as the White Rabbit's housemaid, this version of Mary Ann is adapted to assist not just the White Rabbit but also Alice throughout her digital journey.
+
+Mary Ann in DaSCHland is designed to be highly efficient and helpful, managing logistical tasks, scheduling events, and providing reminders and notifications to keep Alice on track as she navigates the complex digital environment. Her character is equipped with a suite of digital tools that allow her to access and organize vast amounts of data from the DaSCH repository, making her an indispensable companion in managing the day-to-day adventures and challenges Alice faces.
+
+Her interactions with Alice are characterized by a blend of caretaking and managerial efficiency, offering a comforting yet structured presence. Mary Ann’s role underscores the importance of support and organization within the whimsical yet sometimes overwhelming world of DaSCHland, ensuring that Alice’s adventures are both enjoyable and well-coordinated.",Task Manager,,"Domesticity, Absurdity, Chaos"
+CH_025,Pat,Pat,Pat,Pat,"Pat is a servant of the White Rabbit in in Alice’s Adventures in Wonderland.  He is called upon, along with Bill the Lizard, to help remove Alice from the Rabbit’s house after she grows too large and gets stuck inside. 
+He is described as somewhat bumbling and comical, engaging in a humorous conversation about how to deal with the situation.",R_02,"Sure, it's an arm, yer honour!",,"
+In DaSCHland, Pat is reimagined as a quirky, hardworking character originally tasked with maintenance and troubleshooting within this digital world. Drawing from his role in ""Alice's Adventures in Wonderland"" as a gardener and laborer, this version of Pat retains his practical nature but with enhanced skills suited for the digital environment of DaSCHland.
+
+Pat is depicted as a technician and builder, responsible for maintaining the integrity of the virtual landscape and ensuring that all digital systems function smoothly. He's often seen wielding a toolbox filled with digital tools that can fix glitches, perform upgrades, and manage the seamless integration of new data into existing structures. His expertise is crucial in preserving the stability and functionality of DaSCHland, making him a key figure behind the scenes.
+
+Interacting with Pat provides Alice with insights into the inner workings of the digital realm. His down-to-earth demeanor and problem-solving abilities offer a contrast to the more fantastical elements of DaSCHland, grounding the narrative in practicality and realism. Pat’s role highlights the importance of maintenance and careful management in sustaining the complex digital ecosystem that Alice explores.",The File Handler,,"Domesticity, Absurdity, Chaos"
+CH_026,Jabberwock,Jammerwoch,Jaseroque,Ciciarampa,"The Jabberwock is a fictional monster featured in the poem “Jabberwocky,” which appears in Through the Looking-Glass.
+
+The Jabberwock is a fearsome creature described in the nonsensical poem with features like “jaws that bite,” “claws that catch,” and “eyes of flame.”
+The poem tells the story of a hero who slays the Jabberwock with a “vorpal sword,” cutting off its head and triumphantly returning home.
+
+In a letter to Mrs. Chataway, the mother of a child-friend, Carroll elucidates that the scene of the 'Snark' is ""an island, frequented by the Jubjub and Bandersnatch – no doubt the very island where the Jabberwock was slain."" (Source: Gardner, Martin. The Annotated Alice. The definitive edition, Penguin Books, 2001, p.161)",R_02,,,"
+In DaSCHland, the Jabberwock is reinterpreted as a formidable digital guardian of certain domains within the virtual landscape, embodying the menacing yet mythical creature from Lewis Carroll's poem ""Jabberwocky."" This version of the Jabberwock is not just a creature of fear but also a symbol of the challenges and trials that Alice must overcome in her digital adventures.
+
+The Jabberwock in DaSCHland is depicted with visually striking features—gleaming eyes, sharp claws, and a presence that shifts between visibility and invisibility, adding to its enigmatic and formidable nature. It guards key areas that contain valuable data and archives within the DaSCH repository, challenging those who wish to access these areas to prove their worthiness and resolve.
+
+Interacting with the Jabberwock becomes a pivotal moment in Alice's journey, representing a significant challenge that tests her courage, wit, and perseverance. The encounter is designed to be an intense blend of puzzle-solving and strategic navigation, where Alice must use both her intellectual and emotional intelligence to bypass the guardian.
+
+This digital reinterpretation of the Jabberwock adds depth to the narrative of DaSCHland, providing a thrilling and meaningful obstacle that enhances the thematic exploration of facing one's fears and the quest for knowledge within the expansive digital world.",Data Breach,I_051,"Violence, Adventure, Surrealism, Imagination, Animals, Chaos, Absurdity"
+CH_027,Bill the lizard,Bill die Eidechse,Bill le lézard,Bill la lucertola,"Bill is a lizard who works as a handyman or chimney sweep for the White Rabbit.
+the White Rabbit calls him to help remove Alice from his house after she grows too large and gets stuck inside.
+He later reappears briefly as one of the jurors during the trial",R_02,,,"
+In DaSCHland, Bill the Lizard is transformed into a versatile and skilled technician who specializes in the installation and maintenance of the digital realm’s complex infrastructure. Drawing from his role in ""Alice's Adventures in Wonderland"" where he was sent down the chimney as part of the White Rabbit's housemaid's attempts to deal with a giant Alice, this version of Bill retains his adventurous spirit but applies it within a technological context.
+
+Bill is depicted as an agile and resourceful character, adept at navigating the intricate digital landscapes of DaSCHland. He is often involved in critical tasks that require precision and quick thinking, such as updating system software, repairing data leaks, or scaling the virtual environments to perform essential upgrades and fixes. His ability to swiftly adapt to varying digital scenarios makes him a crucial asset in maintaining the stability and efficiency of DaSCHland.
+
+Interacting with Bill provides Alice and other characters with practical knowledge about the operational aspects of the digital world. His down-to-earth approach and readiness to tackle any technical challenge contribute to the narrative by demonstrating the importance of skill and adaptability in managing a sophisticated digital ecosystem. Bill’s role underscores the theme of teamwork and reliability, essential for the smooth functioning of DaSCHland’s adventurous and dynamic environment.",Script Lizard,I_013,"Animals, Absurdity, Chaos"
+CH_028,Puppy,Welpe,Chiot,Cucciolo,"The puppy appears in Alice’s Adventures in Wonderland. 
+
+The scene takes place in Chapter 4, “The Rabbit Sends in a Little Bill.” After Alice drinks from a bottle and grows larger, she encounters the puppy while trying to shrink back down. 
+The puppy playfully chases a stick, and Alice enjoys watching it but is also cautious because of her small size. ",R_02,,,"
+In DaSCHland, the Puppy is reimagined as a lively and interactive character that adds a layer of playful engagement within the virtual world. Drawing from the small but exuberant puppy that Alice encounters in ""Alice's Adventures in Wonderland,"" which playfully intimidates her when she is small, this version of the Puppy is designed to bring joy and a sense of wonder to the digital realm.
+
+The Puppy in DaSCHland is depicted with enhanced, life-like animations that make it an endearing companion to Alice and other visitors. It serves not just as a playful pet but also as an interactive guide for younger users or newcomers to DaSCHland, helping them navigate the simpler aspects of the digital world through games and interactive learning experiences. The Puppy's role involves teaching basic navigation skills, providing companionship, and adding a comforting presence that makes the digital environment more approachable and less intimidating.
+
+Interacting with the Puppy offers a break from the more complex challenges of DaSCHland, allowing Alice and others to enjoy moments of levity and joy. The Puppy’s enthusiastic and friendly nature makes it a beloved figure in the digital landscape, symbolizing the joy of discovery and the importance of play in learning and exploration within DaSCHland.",Test Data,I_014,"Animals, Exploration, Absurdity"
+CH_029,Pigeon,Taube,Pigeon,Piccione,"The pigeon appears in Alice’s Adventures in Wonderland.
+
+After Alice eats a piece of the mushroom and her neck grows to an extreme length, she encounters the pigeon. 
+The pigeon mistakes Alice for a serpent and is very defensive, fearing that Alice will eat her eggs. ",R_02,Serpent!,,"
+In DaSCHland, the Pigeon is reimagined as a guardian of specific domains, particularly those involving airborne data streams and cloud storage within the digital landscape. Drawing from its role in ""Alice's Adventures in Wonderland,"" where it accuses Alice of being a serpent due to her unusual size changes, this version of the Pigeon retains its suspicious and somewhat confrontational demeanor but channels these traits into vigilance and security.
+
+The Pigeon in DaSCHland is depicted as an aerial sentinel, constantly monitoring the skies and overseeing the transfer and integrity of data. It uses its enhanced vision and flight capabilities to patrol the digital environment, identifying and addressing potential threats or anomalies in the system. The Pigeon's role is crucial for maintaining the safety and order of the digital airspace, ensuring that all data transmissions are secure and unimpeded.
+
+Interacting with the Pigeon provides Alice with insights into the complexities of data management and security within DaSCHland. The Pigeon's keen oversight and meticulous nature serve as a reminder of the continuous vigilance required to protect and sustain the digital world. Its interactions are often marked by a mix of caution and wisdom, educating Alice and others about the importance of safeguarding digital resources and the challenges involved in managing expansive virtual environments.",Packet-Pigeon,,"Animals, Anxiety, Surrealism, Imagination"
+CH_030,Frog-Footman,Frosch-Lakai,Laquais-grenouille,Valetto Rana,"The Frog Footman appears in the first book, Alice’s Adventures in Wonderland. He is a servant delivering a letter from the Queen of Hearts to the Duchess. 
+
+Alice observes the Frog Footman having a humorous and strange conversation with a Fish Footman outside the Duchess’s house.",R_02,"
+There’s no sort of use in knocking, and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you.",,"
+In DaSCHland, the Frog-Footman is reimagined as a protocol droid, functioning as a ceremonial and administrative assistant within the digital kingdom. Drawing from his role in ""Alice's Adventures in Wonderland"" where he serves at the door of the Duchess’s house, delivering invitations and managing guests, this version of the Frog-Footman integrates his traditional responsibilities with advanced digital functionalities.
+
+The Frog-Footman in DaSCHland is depicted with a blend of old-world charm and high-tech features. He is responsible for managing digital gateways and ensuring smooth interactions within the virtual courts and official settings. Equipped with a sophisticated system interface, the Frog-Footman facilitates communications, schedules appointments, and oversees the entry protocols for various secured domains within DaSCHland, ensuring that all processes adhere to the established digital protocols.
+
+Interacting with the Frog-Footman offers Alice and other characters a glimpse into the formal aspects of digital governance and ceremonial order. His methodical and somewhat rigid demeanor contrasts with the more whimsical characters, providing a grounding influence in the often chaotic environment of DaSCHland. His role emphasizes the importance of structure and order in maintaining the functionality and etiquette of the virtual world.",Protocol Frog,"I_020, I_087","Animals, Absurdity, Rules"
+CH_031,Fish-Footman,Fisch-Lakai,Laquais-poisson,Valletto Pesce,"The Fish-Footman appears in Alice’s Adventures in Wonderland.
+He is seen delivering an invitation from the Queen of Hearts to the Duchess.
+
+When Alice arrives at the Duchess’s house, the Fish-Footman is handing over the letter to the Frog-Footman.",R_02,For the Duchess. An invitation from the Queen to play croquet,,"
+In DaSCHland, the Fish-Footman is transformed into a communications officer, specializing in the dissemination of information and digital notifications across the virtual realm. Inspired by his role in ""Alice's Adventures in Wonderland,"" where he delivers a royal invitation to the Duchess, this version of the Fish-Footman leverages his aquatic nature to navigate and manage the flow of data streams and digital currents efficiently.
+
+The Fish-Footman in DaSCHland is equipped with advanced digital capabilities that allow him to swim through the vast oceans of data, delivering messages and updates with precision and reliability. His character is visually striking, blending marine elements with technological enhancements, making him a unique and important figure in maintaining the connectivity and communication within the digital kingdom.
+
+Interacting with the Fish-Footman provides Alice with an understanding of how information is controlled and circulated in DaSCHland. His role is essential for ensuring that all areas of the digital world are kept informed and connected, highlighting the critical importance of communication in managing a complex and expansive virtual environment. The Fish-Footman's blend of traditional duties and modern digital responsibilities illustrates the seamless integration of storybook elements with technological advancements in DaSCHland.",Data-Stream Worker,I_020,"Animals, Absurdity, Rules"
+CH_032,Baby / pig,Baby / Ferkel,Bébé / cochon,Bambino / maiale,"The Baby who later turns into a Pig appears in Alice’s Adventures in Wonderland.
+The baby belongs to the Duchess and is crying uncontrollably. The Duchess hands the baby to Alice, who tries to comfort it as she leaves the house. 
+However, as Alice carries the baby, it gradually transforms into a pig, causing her to put it down and watch it trot off into the woods. ",R_02,"If it had grown up, it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think.",,"
+In DaSCHland, the transformation of the baby into a pig, originally a whimsical and bizarre twist in ""Alice's Adventures in Wonderland,"" is reinterpreted with a digital flair. In this virtual realm, the baby-turned-pig symbolizes the unpredictable and mutable nature of digital identities and transformations.
+
+The character starts as a digital infant under the care of the Duchess, depicted with typical baby-like attributes but with underlying advanced programming that allows for dynamic changes in form and function. As the narrative progresses and Alice encounters the baby, it undergoes a surprising transformation into a pig, showcasing the fluidity and transformative capabilities of digital entities in DaSCHland.
+
+This pig, once a baby, is not just a simple character but a complex digital construct that explores themes of transformation and adaptability within a digital ecosystem. Its interactions with Alice provide lessons on the unexpected and often rapid changes that can occur in digital environments, highlighting the need for flexibility and understanding in navigating such a dynamic world.
+
+The baby/pig character serves as a playful yet profound metaphor for the evolving nature of digital identities and the surprises that can come with digital growth and change, making it a memorable and educational aspect of Alice's adventures in DaSCHland.",Digital Prototype,"I_021, I_022","Chaos, Absurdity"
+CH_033,Cook,Köchin,Cuisinière,Cuoco,"The Cook in Alice’s Adventures in Wonderland works for the Duchess. 
+
+She is known for her aggressive and chaotic behavior, constantly throwing kitchen utensils and creating havoc in the Duchess’s home. Her defining characteristic is her obsession with pepper, which she adds in excessive amounts to the soup, causing everyone to sneeze.",R_02,,,"
+In DaSCHland, the Cook is reimagined as a master of digital culinary arts, blending the traditional role from ""Alice's Adventures in Wonderland"" with innovative virtual reality technologies. In the original story, the Cook is known for her tempestuous nature and penchant for throwing things around her kitchen, including pepper which causes everyone to sneeze.
+
+In the digital realm of DaSCHland, the Cook operates within a high-tech kitchen where she concocts not just physical dishes, but also virtual recipes that can influence the environment and the behavior of other characters. Her kitchen is a hub of sensory and data manipulation, where ingredients represent different data packets that can be combined to create effects throughout the digital world.
+
+Her interactions with Alice involve complex simulations where culinary activities parallel the management and transformation of information. The Cook teaches Alice about the impact of different data combinations, much like ingredients in a recipe, showing her how they can produce various outcomes in the digital landscape.
+
+This version of the Cook retains her fiery temperament but channels it into her creative and sometimes chaotic culinary experiments, providing a unique and interactive learning environment for Alice. This character underscores themes of creativity and influence within DaSCHland, illustrating how even seemingly mundane activities like cooking can have broader implications in a fully integrated digital world.",The Cyber Scrambler,I_021,"Chaos, Violence, Absurdity"
+CH_034,"Elsie, Lacie and Tillie","Elsie, Lacie und Tillie","Elsie, Lacie et Tillie","Elsie, Lacie e Tillie","Elsie, Lacie, and Tillie appear in Through the Looking-Glass. They are the three sisters sitting in a well, mentioned during the story of “The Walrus and the Carpenter”.",R_02,,,"
+In DaSCHland, Elsie, Lacie, and Tillie are reimagined as a trio of digital curators who manage a specific segment of the virtual landscape dedicated to children's literature and nursery rhymes. Drawing from their mention in ""Alice's Adventures in Wonderland"" as characters based on the Liddell sisters (Alice Liddell and her sisters Edith and Lorina), in DaSCHland, they are transformed into guardians of literary heritage, each with distinct roles that reflect their personalities and the historical significance of their real-life counterparts.
+
+Elsie is designed as the archivist, meticulous in preserving the integrity and accuracy of the digital texts and illustrations. She ensures that the digital replicas of children's books and poems are preserved in their most authentic forms.
+
+Lacie is the interpreter, focused on making these works accessible and engaging to all visitors of DaSCHland. She creates interactive experiences that help users understand and interact with the stories and poems, often incorporating educational games or virtual reality simulations that bring the literature to life.
+
+Tillie serves as the connector, facilitating discussions and interactions among users in DaSCHland. She manages forums and social spaces where visitors can discuss children’s literature, share insights, and connect over shared experiences brought forth by the digital archive.
+
+Together, Elsie, Lacie, and Tillie offer a comprehensive approach to the preservation and dissemination of literary culture in DaSCHland. Their interactions with Alice and other characters help highlight the importance of literature as a means of education, enjoyment, and cultural connection, showcasing the transformative power of combining traditional literary content with modern digital technology.",The Meta-Triplets,,"Domesticity, Reflection"
+CH_035,"Five, Seven and Two","Fünf, Sieben und Zwei","Cinq, Sept et Deux","Cinque, Sette e Due","Five, Seven, and Two are the playing-card gardeners who appear in Alice’s Adventures in Wonderland.
+
+They are part of the Queen of Hearts’ card deck and are depicted as clumsy, bumbling workers tasked with painting white rose bushes red to please the Queen.",R_02,"Five:
+""Look out now, Five! Don’t go splashing paint over me like that!""
+
+Seven:
+""I couldn’t help it,"" said Five, in a sulky tone; ""Seven jogged my elbow.""
+
+Two:
+""That’s right, Five! Always lay the blame on others!""",,"
+In DaSCHland, Five, Seven, and Two are reimagined as digital maintenance workers, originally portrayed in ""Alice's Adventures in Wonderland"" as gardeners painting the roses red. In this virtual world, their roles are expanded to involve the upkeep and modification of the digital environment, ensuring that all virtual landscapes and features function correctly and adapt to user interactions seamlessly.
+
+Five is portrayed as the technician specializing in software updates and bug fixes. He ensures that the digital realm's underlying code is continuously updated and running smoothly, preventing glitches that could disrupt the user experience.
+
+Seven takes on the role of a landscape architect within DaSCHland, responsible for designing and modifying the virtual environments. He adjusts digital terrains and settings to meet the thematic needs of different areas, ensuring that each zone within DaSCHland reflects its intended aesthetic and functional purposes.
+
+Two is the utility specialist, handling the integration of new digital elements into existing frameworks. He works to seamlessly incorporate new features and interactive elements into DaSCHland, ensuring they align with the overall design and functionality of the world.
+
+Together, Five, Seven, and Two work behind the scenes to maintain the stability and beauty of DaSCHland, much like they attempted to maintain the appearance of the queen's garden in the original tale. Their roles are crucial for the operational excellence of DaSCHland, ensuring that all users have a smooth and immersive experience in this dynamic digital world.",Bit-Squad,I_028,"Authority, Rules, Absurdity"
+CH_036,Flamingos and hedgehogs,Flamingos und Igel,Flamants roses et hérissons,Fenicotteri e ricci,"The flamingos and hedgehogs appear in Alice’s Adventures in Wonderland.
+They are used as part of the Queen of Hearts’ bizarre game of croquet.
+
+Flamingos are used as mallets in the game. The players hold the birds by their necks and try to hit the balls with their heads, but the flamingos are uncooperative and keep twisting around or turning their heads the wrong way.
+
+Hedgehogs are used as balls. They roll around unpredictably, adding to the chaotic and nonsensical nature of the game.",R_02,,,"
+In DaSCHland, the flamingos and hedgehogs are creatively reimagined to serve interactive and symbolic roles within the digital landscape, drawing from their iconic use as croquet equipment in ""Alice's Adventures in Wonderland.""
+
+Flamingos in DaSCHland are transformed into whimsical guides for navigation and exploration. These digital birds have vibrant, colorful plumages that are visually striking, and they're equipped with AI-driven guidance systems. Flamingos assist users by flying ahead, leading them through the complex and sprawling digital environments of DaSCHland. Their long necks and distinctive appearances make them easily recognizable and helpful markers for points of interest or paths to follow.
+
+Hedgehogs serve as interactive elements within educational and gaming areas of DaSCHland. They are designed as mobile, interactive bots that roll around, providing entertainment and challenges. In educational settings, hedgehogs are used in digital puzzles and games that teach coding, problem-solving, and digital literacy skills. Their quirky and engaging nature makes them beloved characters, especially in areas of DaSCHland designed for younger users.
+
+Together, the flamingos and hedgehogs enhance the playful and educational aspects of DaSCHland, maintaining a balance between guidance, learning, and entertainment. They embody the whimsical spirit of Wonderland while serving practical functions that enrich user interaction within the digital realm.",Network Testers,"I_032, 
+I_030 ","Fantasy, Animals, Surrealism, Absurdity, Chaos"
+CH_037,Jurors,Juroren,Jurés,Giurati,"The jurors appear in Alice’s Adventures in Wonderland during the chaotic trial. 
+
+The trial is held in the courtroom of the Queen of Hearts, where the Knave of Hearts is accused of stealing the Queen’s tarts.
+
+The jury consists of twelve animals, among them Bill the lizard. 
+The jurors are depicted as incompetent and easily confused. They write down meaningless notes, even before any evidence is presented. Alice becomes frustrated with their foolishness, particularly when she realizes that some of them are writing things like “important” without having any idea what they’re supposed to be recording.",R_02,,,"In DaSCHland, the Jurors are conceptualized as components of an interactive and educational module focused on teaching users about the judicial process, logic, and decision-making. Drawing inspiration from their role in ""Alice's Adventures in Wonderland"" during the trial of the Knave of Hearts, where they are asked to consider evidence and reach a verdict, these characters are enhanced to facilitate learning and engagement in a simulated courtroom environment.
+
+Jurors in DaSCHland are programmed with AI to represent different aspects of critical thinking and judicial reasoning. Each Juror embodies a specific cognitive or logical principle, such as bias recognition, evidence evaluation, or ethical consideration. They interact with users in a variety of ways, from debating legal principles to analyzing virtual case studies. This setup allows users to engage in mock trials, where they can learn about the complexities of legal systems and the importance of fair and reasoned decision-making.
+
+The Jurors are also involved in scenarios that require users to apply logical reasoning to solve problems or resolve conflicts within DaSCHland. These scenarios are designed to be both informative and challenging, ensuring that users not only understand the theoretical underpinnings of law and order but also gain practical experience in applying these concepts.
+
+This reimagining of the Jurors adds depth to the educational offerings of DaSCHland, making them key figures in one of the many interactive learning environments designed to enhance user engagement through thoughtful and dynamic interactions.",The Peer Panel,"I_040, I_041","Judgment, Absurdity, Inverted Justice, Chaos, Confusion, Authority"
+CH_038,Father William,Vater William,Père William,Padre William,"Father William appears in Alice’s Adventures in Wonderland. The character comes from a parody poem that Alice recites.
+
+The poem, titled “You Are Old, Father William,” is a humorous parody of a serious and moralistic poem by Robert Southey called “The Old Man’s Comforts and How He Gained Them.” (1799) by Romantic poet Robert Southey. In the original poem, Father William was a Christian minister whom reassured the speaking character to retain a faith in God when called into question by the main character due to the ailments of Father William's aging.
+
+When reciting the poem to the Caterpillar, Alice misremembers the lyrics: 
+A young man questions Father William about his strange behavior as an old man, including standing on his head, eating large quantities of food, and balancing eels on his nose. 
+Father William responds with witty and nonsensical explanations, contrasting the original poem’s moral tone. ",R_02,,,,Metadata Custodian,"I_016, I_017, I_018, I_019","Wisdom, Reflection, Absurdity"
+CH_039,Lobster,Hummer,Homard,Aragosta,"The lobster plays a key role in Alice’s Adventures in Wonderland.
+The Lobster Quadrille is a whimsical dance described by the Gryphon and the Mock Turtle, who try to teach it to Alice.
+
+The dance involves various sea creatures (including lobsters, turtles, and jellyfish) dancing in pair. The creatures first advance, then retreat, toss their lobster partners over their shoulders, and finally swim around in a circle.",R_02,,,,File Protocol Enforcer,I_036,"Animals, Absurdity, Paradoxes, Wordplay"
+CH_040,Black kitten,Schwarzes Kätzchen,Chaton noir,Gattino nero,"The black kitten appears in Through the Looking-Glass. 
+At the beginning of the story, Alice is at home playing with her kittens: a white kitten (Snowdrop) and a black kitten (Kitty).
+
+The black kitten is mischievous, playful, and described as a bit naughty compared to the white kitten.
+As Alice scolds the black kitten for tangling up a ball of yarn, she daydreams and eventually passes through the looking-glass into the fantastical world on the other side.
+In the final chapter, Alice playfully accuses the kitten of being responsible for the actions of the Red Queen, drawing a connection between the real-world kitten and Wonderland’s characters.",R_02,,,,Bit-Kitten,"I_044, I_045, I_091","Animals, Mystery, Reflection"
+CH_041,Chessmen,Schachfiguren,Hommes d'échecs,Scacchista,"The chessmen play a central role in Through the Looking-Glass, where the entire story is structured like a chess game. The characters in the Looking-Glass world correspond to pieces on a chessboard, and Alice herself is a pawn who aims to become a queen by the end of the game.",R_02,,,,Data Pieces,I_048,"Authority, Rules, Absurdity"
+CH_042,White King,Weisser King,Roi blanc,Re bianco,"The White King is a character in Through the Looking-Glass and represents a chess piece on the White side of the board. 
+He is a comically confused and somewhat bumbling figure who often appears overwhelmed by the events around him.",R_02,,,,Backup Datastore,"I_049, I_076, I_077","Authority, Absurdity, Logic, Chaos, Irony, Wordplay, Inverted Justice"
+CH_043,Tiger-Lily and other flowers,Tigerlilie und andere Blumen,Lys tigré et autres fleurs,Giglio tigrato e altri fiori,"The Talking flowers appear in Through the Looking-Glass. In the Looking-Glass world, the flowers in the garden are alive and can speak, each having their own personality.
+
+Tiger-lily: Confident and somewhat bossy, she is the first flower to speak to Alice. The Tiger-lily is sharp-witted and sarcastic, explaining to Alice that the flowers can speak because they live in a special part of the Looking-Glass world.
+
+Rose: More elegant and gentle, but she can be a little snobby. She comments on Alice’s appearance, mistaking her for a type of flower.
+
+Daisy: The daisies are portrayed as giggling, chatty, and slightly annoying. They often speak all at once, creating chaos.
+
+Violet: The violet is polite but also a bit condescending, subtly criticizing Alice and implying that humans aren’t as interesting as flowers.
+",R_02,,,,User Interface Flora,I_052,"Fantasy, Surrealism, Imagination, Contradiction, Animals"
+CH_044,Tweedledum and Tweedledee,Tweedledum und Tweedledee,Tweedledum et Tweedledee,Pinco Pallino e Pinco Pallino,"Tweedledum and Tweedledee are twin brothers who appear in Through the Looking-Glass. They are some of the most memorable characters in the book due to their playful, childlike rivalry and nonsensical logic.
+
+The twins are chubby, identical, and dressed in matching clothes. They are depicted as argumentative but ultimately harmless.
+They speak in riddles and rhymes, often confusing Alice with their illogical but amusing conversations.
+
+In the story, the twins are about to fight over a broken rattle, but their battle is interrupted by a giant crow (as mentioned in the rhyme). They immediately run away in fear, showing how easily distracted and unserious they are.",R_02,,,,Duplicate Data,"I_061, I_066, I_067","Contradiction, Absurdity, Surrealism, Imagination, Paradoxes, Wordplay, Reflection"
+CH_045,Walrus,Walross,Morse,Tricheco,"The Walrus appears in Through the Looking-Glass in the poem ""The Walrus and the Carpenter"", recited by the Tweedledum and Tweedledee.
+The Walrus and the Carpenter walk along a beach and meet a bed of young, innocent oysters.
+They persuade the oysters to come with them for a walk, under the pretense of a pleasant outing. The oysters follow along, unaware that the Walrus and Carpenter plan to eat them. In the end, the Walrus devours a large number of oysters, while the Carpenter complains that there aren’t any left for him.
+",R_02,,,,Archival Walrus,"I_062, I_063, I_064","Satire, Irony, Absurdity, Violence, Judgment, Animals"
+CH_046,Carpenter,Zimmermann,Charpentier,Falegname,"The Carpenter appears alongside the Walrus in the poem “The Walrus and the Carpenter,” in Through the Looking-Glass. 
+
+The Carpenter plays a key role in the poem’s depiction of trickery and exploitation.
+The Carpenter, like the Walrus, walks along the beach and helps lure the oysters away from their home under the guise of a friendly outing.
+While the Walrus talks to and misleads the oysters, the Carpenter focuses on preparing the meal, symbolizing his practical, work-oriented nature.
+In the end, after the Walrus eats most of the oysters, the Carpenter angrily realizes that he didn’t get as many as he wanted, expressing frustration but not showing remorse for the betrayal.",R_02,,,,The Data Architect,"I_062, I_063, I_064","Satire, Irony, Absurdity, Violence, Judgment, Animals"
+CH_047,Red King,Roter King,Roi rouge,Re Rosso,"The Red King is characteristic of the king in such a Chessgame in that he has all of the pieces on his side available to perform the work for him.
+Alice encounters the Red King while he is fast asleep under a tree. Tweedledum and Tweedledee point him out and explain that the Red King is dreaming, and in his dream, Alice is just a character.
+They tell her that if he were to wake up, she would “go out—bang!—just like a candle,” implying that her existence in the Looking-Glass world is dependent on his dream.",R_02,,,,Primary Datastore,I_065,"Time, Surrealism, Imagination, Authority, Absurdity, Chaos, Paradoxes"
+CH_048,Red Knight,Roter Ritter,Cavalier rouge,Cavaliere Rosso,"The Red Knight appears in Through the Looking-Glass. He is a chess piece on the Red side and serves as an obstacle for Alice during her journey across the chessboard.
+
+As Alice travels toward the final square where she will become a queen, the Red Knight encounters her and “captures” her according to the rules of chess. However, before he can do anything, the White Knight arrives to rescue Alice.
+",R_02,,,,Guardian of Data,I_080,"Authority, Absurdity, Adventure, Journey, Chaos, Paradoxes, Wordplay"
+CH_049,White Queen,Weisse Königin,Reine blanche,Regina bianca,"The White Queen appears in Through the Looking-Glass. 
+She is a quirky, absent-minded, and often nonsensical character. The White Queen lives backwards in time, due to the fact that she lives through the eponymous looking glass. 
+Her behaviour is odd to Alice.",R_01,,,,Control Interface,"I_085, I_086","Wisdom, Reflection, Identity, Transformation, Paradoxes, Absurdity, Imagination"
+CH_050,White Kitten,Weisses Kätzchen,Chaton blanc,Gattino bianco,"The white kitten, named Snowdrop, appears in Through the Looking-Glass. 
+The white kitten is one of Alice’s two kittens, the other being the black kitten (Kitty). While the black kitten is mischievous and playful, the white kitten is described as well-behaved and calmer.
+
+Alice is grooming and playing with Snowdrop when she begins to daydream about the Looking-Glass world. Although the white kitten does not directly enter the fantasy, it remains present in Alice’s thoughts as a symbol of comfort and normalcy.",R_02,,,,Error Debugger,I_092,"Domesticity, Chaos, Imagination, Animals, Transformation, Reflection"
+CH_051,Gnat,Märzhasen,Moucheron,Moscerino,"The Gnat is a talking insect that accompanies Alice during her journey through the Looking-Glass world, providing a mix of whimsical conversation and humorous observations.
+
+Humorous Insect Descriptions Provided by the Gnat:
+- Rocking-horse-fly: A wooden insect that lives on sawdust and appears harmless.
+- Snap-dragon-fly: A fierce creature with a body of plum pudding, wings of holly leaves, and a head made of a raisin. It lives on frumenty (a type of wheat dish).
+- Bread-and-butterfly: A whimsical insect with wings made of thin slices of bread and butter and a body made of crust. It lives on weak tea.",R_02,,,,Data Glitch,,"Animals, Reflection, Wisdom, Absurdity"
+CH_052,Sheep,Schaf,Mouton,Pecora,"The Sheep in Through the Looking-Glass is a grumpy, knitting shopkeeper who briefly transforms from the White Queen. 
+She later takes Alice on a surreal rowing trip, embodying the dreamlike and ever-changing nature of the Looking-Glass world.",R_02,,,,Data Repeater,"I_070, I_071 ","Animals, Surrealism, Imagination, Contradiction, Fluidity of Space, Absurdity, Chaos"
+CH_053,Lion,Löwe,Lion,Leone,"The Lion and Unicorn appear in Through the Looking-Glass.
+ They are characters based on the traditional British nursery rhyme, symbolizing the heraldic symbols of England (the Lion) and Scotland (the Unicorn).
+
+The Lion represents strength and England. He is described as fierce and powerful but a bit slow-witted.
+
+The Lion and Unicorn are fighting over the crown, a playful depiction of the traditional rivalry between England and Scotland.
+During their fight, they pause to eat plum cake, reflecting Carroll’s blend of nonsense and humor.
+
+The scene satirizes political conflict in a whimsical way, with neither side gaining a real victory.",R_02,,,,Security Protocol,I_078,"Authority, Judgment, Contradiction, Imagination, Paradoxes, Absurdity"
+CH_054,Unicorn,Einhorn,Licorne,Unicorno,"The Lion and Unicorn appear in Through the Looking-Glass.
+ They are characters based on the traditional British nursery rhyme, symbolizing the heraldic symbols of England (the Lion) and Scotland (the Unicorn).
+
+The Unicorn represents Scotland. He is clever, sly, and proud, often boasting that he can defeat the Lion.
+
+The Lion and Unicorn are fighting over the crown, a playful depiction of the traditional rivalry between England and Scotland.
+During their fight, they pause to eat plum cake, reflecting Carroll’s blend of nonsense and humor.
+
+The scene satirizes political conflict in a whimsical way, with neither side gaining a real victory.",R_02,,,,Unique Dataset,I_078,"Authority, Judgment, Contradiction, Imagination, Paradoxes, Absurdity"

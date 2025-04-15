@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+    <permissions id="res-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="res-restricted">
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="bitstream-prop-restricted">
+        <allow group="ProjectMember">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+    </permissions>
+    <region label="White Rabbit Figure" id="R_001" permissions="open">
+        <color-prop name="hasColor">
+            <color permissions="open">#5b24bf</color>
+        </color-prop>
+        <resptr-prop name="isRegionOf">
+            <resptr permissions="open">I_001</resptr>
+        </resptr-prop>
+        <geometry-prop name="hasGeometry">
+            <geometry permissions="open">{"status": "active", "type": "rectangle", "lineColor": "#5b24bf", "lineWidth": 5, "points": [{"x": 0.01, "y": 0.1}, {"x": 0.22, "y": 0.5}]}</geometry>
+        </geometry-prop>
+        <text-prop name="hasComment">
+            <text permissions="open" encoding="xml">White Rabbit Figure</text>
+        </text-prop>
+    </region>
+    <region label="White Rabbit Figure" id="R_002" permissions="open">
+        <color-prop name="hasColor">
+            <color permissions="open">#5b24bf</color>
+        </color-prop>
+        <resptr-prop name="isRegionOf">
+            <resptr permissions="open">I_002</resptr>
+        </resptr-prop>
+        <geometry-prop name="hasGeometry">
+            <geometry permissions="open">{"status": "active", "type": "rectangle", "lineColor": "#5b24bf", "lineWidth": 5, "points": [{"x": 0.2, "y": 0.01}, {"x": 0.9, "y": 0.9}]}</geometry>
+        </geometry-prop>
+        <text-prop name="hasComment">
+            <text permissions="open" encoding="xml">White Rabbit Figure</text>
+        </text-prop>
+    </region>
+    <region label="White Rabbit Figure" id="R_003" permissions="open">
+        <color-prop name="hasColor">
+            <color permissions="open">#5b24bf</color>
+        </color-prop>
+        <resptr-prop name="isRegionOf">
+            <resptr permissions="open">I_006</resptr>
+        </resptr-prop>
+        <geometry-prop name="hasGeometry">
+            <geometry permissions="open">{"status": "active", "type": "rectangle", "lineColor": "#5b24bf", "lineWidth": 5, "points": [{"x": 0.01, "y": 0.5}, {"x": 0.3, "y": 0.8}]}</geometry>
+        </geometry-prop>
+        <text-prop name="hasComment">
+            <text permissions="open" encoding="xml">White Rabbit Figure</text>
+        </text-prop>
+    </region>
+    <region label="White Rabbit Figure" id="R_004" permissions="open">
+        <color-prop name="hasColor">
+            <color permissions="open">#5b24bf</color>
+        </color-prop>
+        <resptr-prop name="isRegionOf">
+            <resptr permissions="open">I_037</resptr>
+        </resptr-prop>
+        <geometry-prop name="hasGeometry">
+            <geometry permissions="open">{"status": "active", "type": "rectangle", "lineColor": "#5b24bf", "lineWidth": 5, "points": [{"x": 0.05, "y": 0.05}, {"x": 0.95, "y": 0.95}]}</geometry>
+        </geometry-prop>
+        <text-prop name="hasComment">
+            <text permissions="open" encoding="xml">White Rabbit Figure</text>
+        </text-prop>
+    </region>
+    <region label="White Rabbit Figure" id="R_005" permissions="open">
+        <color-prop name="hasColor">
+            <color permissions="open">#5b24bf</color>
+        </color-prop>
+        <resptr-prop name="isRegionOf">
+            <resptr permissions="open">I_012</resptr>
+        </resptr-prop>
+        <geometry-prop name="hasGeometry">
+            <geometry permissions="open">{"status": "active", "type": "rectangle", "lineColor": "#5b24bf", "lineWidth": 5, "points": [{"x": 0.05, "y": 0.5}, {"x": 0.95, "y": 0.8}]}</geometry>
+        </geometry-prop>
+        <text-prop name="hasComment">
+            <text permissions="open" encoding="xml">White Rabbit Figure</text>
+        </text-prop>
+    </region>
+    <region label="Flamingo" id="R_006" permissions="open">
+        <color-prop name="hasColor">
+            <color permissions="open">#FF99AA</color>
+        </color-prop>
+        <resptr-prop name="isRegionOf">
+            <resptr permissions="open">I_030</resptr>
+        </resptr-prop>
+        <geometry-prop name="hasGeometry">
+            <geometry permissions="open">{"status": "active", "type": "rectangle", "lineColor": "#FF99AA", "lineWidth": 5, "points": [{"x": 0.01, "y": 0.01}, {"x": 0.99, "y": 0.7}]}</geometry>
+        </geometry-prop>
+        <text-prop name="hasComment">
+            <text permissions="open" encoding="xml">Flamingo</text>
+        </text-prop>
+    </region>
+    <region label="Flamingo" id="R_007" permissions="open">
+        <color-prop name="hasColor">
+            <color permissions="open">#FF99AA</color>
+        </color-prop>
+        <resptr-prop name="isRegionOf">
+            <resptr permissions="open">I_032</resptr>
+        </resptr-prop>
+        <geometry-prop name="hasGeometry">
+            <geometry permissions="open">{"status": "active", "type": "rectangle", "lineColor": "#FF99AA", "lineWidth": 5, "points": [{"x": 0.05, "y": 0.3}, {"x": 0.2, "y": 0.6}]}</geometry>
+        </geometry-prop>
+        <text-prop name="hasComment">
+            <text permissions="open" encoding="xml">Flamingo</text>
+        </text-prop>
+    </region>
+</knora>
