@@ -1,3 +1,4 @@
+from typing import Any
 from lxml import etree
 from pathlib import Path
 import json
@@ -25,7 +26,7 @@ def _write_file(root: etree._Element) -> None:
         f.write(xml_string)
 
 
-def _read_json_to_dic(inpath: Path) -> json:
+def _read_json_to_dic(inpath: Path) -> dict[str, Any]:
     with open(inpath) as json_file:
         return json.load(json_file)
 
