@@ -16,7 +16,7 @@ def get_image_creation_time(image_path) -> Optional[str]:
     image = Image.open(image_path_conform)
 
     # Extract EXIF data
-    exif_data = image._getexif()
+    exif_data = image._getexif()  # type: ignore[attr-defined]
     # If no EXIF data found
     if not exif_data:
         return None
@@ -65,6 +65,7 @@ def get_media_file_creation_time(file_path: str) -> Optional[str]:
             for key, value in metadata.items():
                 if key.endswith("CreateDate"):
                     return _convert_media_creation_time_to_dsp_time(value)
+            return None
     except Exception as e:
         print(f"Error processing file {file_path}: {e}")
         return None
@@ -102,6 +103,8 @@ def get_media_file_size(file_path: str) -> Optional[str]:
     if file_size:
         size_mb = _convert_bytes_to_mb(file_size)
         return round(size_mb, 3)
+    else:
+        return None
 
 
 def _convert_bytes_to_mb(bytes_size):
