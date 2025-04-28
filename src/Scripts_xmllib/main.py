@@ -96,7 +96,7 @@ def main():
     ic(len(all_video_segments))
 
     # write the root to a xml file
-    root.write_file("daschland_data_xmllib.xml")
+    root.write_file("daschland_data.xml")
 
     # update nodegoat files
     Nodegoat_files_update.main()
