@@ -1,83 +1,28 @@
-from dsp_tools import excel2xml
-from lxml import etree
-from lxml.builder import E
-
-xml_namespace_map = {
-    None: "https://dasch.swiss/schema",
-    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
-}
+import pandas as pd
+import regex
 
 
-def make_root(
-    default_ontology: str = "daschland", shortcode: str = "0854"
-) -> etree._Element:
-    # create the root element dsp-tools
-    root = excel2xml.make_root(shortcode=shortcode, default_ontology=default_ontology)
-
-    # append the permissions
-    root = _append_permissions(root)
-
-    return root
-
-
-def _append_permissions(root_element: etree._Element) -> etree._Element:
+def make_cols_mapping_with_columns(
+    df: pd.DataFrame, value_column, key_column="ID"
+) -> dict[str, str]:
     """
-    After having created a root element, call this method to append the four permissions "res-default",
-    "res-restricted", "prop-default", and "prop-restricted" to it. These four permissions are a good basis to
-    start with, but remember that they can be adapted, and that other permissions can be defined instead of these.
+    This method takes a pandas DataFrame where one must select two columns,
+    and creates a mapping from the values in the first column to the values in the second column.
+    The resulting dictionary has the same length as the two columns.
+    """
+    new_df = df.dropna(axis="index", subset=value_column)
 
-    Args:
-        root_element: The XML root element <knora> created by make_root()
+    return dict(zip(new_df[key_column], new_df[value_column]))
 
-    Returns:
-        The root element with the four permission blocks appended
 
-    Examples:
-        >>> root = excel2xml.make_root(shortcode=shortcode, default_ontology=default_ontology)
-        >>> root = excel2xml.append_permissions(root)
-
-    See https://docs.dasch.swiss/latest/DSP-TOOLS/file-formats/xml-data-file/#describing-permissions-with-permissions-elements
+def select_footnote_text(
+        main_text: str) -> str:
+    """
+    isolates the footnote text from the main text
     """
 
-    PERMISSIONS = E.permissions
-    ALLOW = E.allow
-    # lxml.builder.E is a more sophisticated element factory than etree.Element.
-    # E.tag is equivalent to E("tag") and results in <tag>
+    footnote_match = regex.search(r"\*(.+?)\*", string=main_text)
 
-    res_default = etree.Element(
-        "{%s}permissions" % xml_namespace_map[None], id="res-default"
-    )
-    res_default.append(ALLOW("V", group="UnknownUser"))
-    res_default.append(ALLOW("V", group="KnownUser"))
-    res_default.append(ALLOW("D", group="ProjectMember"))
-    res_default.append(ALLOW("CR", group="ProjectAdmin"))
-    root_element.append(res_default)
+    return footnote_match.group(1) if footnote_match else None
 
-    res_restricted = etree.Element(
-        "{%s}permissions" % xml_namespace_map[None], id="res-restricted"
-    )
-    res_restricted.append(ALLOW("D", group="ProjectMember"))
-    res_restricted.append(ALLOW("CR", group="ProjectAdmin"))
-    root_element.append(res_restricted)
 
-    prop_default = PERMISSIONS(id="prop-default")
-    prop_default.append(ALLOW("V", group="UnknownUser"))
-    prop_default.append(ALLOW("V", group="KnownUser"))
-    prop_default.append(ALLOW("D", group="ProjectMember"))
-    prop_default.append(ALLOW("CR", group="ProjectAdmin"))
-    root_element.append(prop_default)
-
-    prop_restricted = PERMISSIONS(id="prop-restricted")
-    prop_restricted.append(ALLOW("M", group="ProjectMember"))
-    prop_restricted.append(ALLOW("CR", group="ProjectAdmin"))
-
-    root_element.append(prop_restricted)
-
-    bitstream_prop_restricted = PERMISSIONS(id="bitstream-prop-restricted")
-    bitstream_prop_restricted.append(ALLOW("M", group="ProjectMember"))
-    bitstream_prop_restricted.append(ALLOW("CR", group="ProjectAdmin"))
-    bitstream_prop_restricted.append(ALLOW("RV", group="UnknownUser"))
-    bitstream_prop_restricted.append(ALLOW("RV", group="KnownUser"))
-    root_element.append(bitstream_prop_restricted)
-
-    return root_element

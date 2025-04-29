@@ -1,6 +1,8 @@
 import pandas as pd
 from dsp_tools.xmllib import Resource, Permissions, create_label_to_name_list_node_mapping
+from dsp_tools.xmllib.helpers import create_footnote_string
 from src.Helper_Scripts.cleaning_df_tools import create_list
+from src.Helper_Scripts.helper import select_footnote_text
 
 
 def main():
@@ -26,7 +28,6 @@ def main():
         names = {row["Name EN"], row["Name DE"], row["Name FR"], row["Name IT"]}
         names = {name for name in names if pd.notna(name)}
 
-        colour = create_list(row["Colour"])
         roles = create_list(row["Role List"])
         image_ids = create_list(row["Image ID"])
 
@@ -39,6 +40,13 @@ def main():
                 continue
         keyword_names = [keyword_labels_to_names.get(x) for x in keywords_names_raw]
         keyword_names = sorted(keyword_names)
+        description_raw = row["Description"]
+        footnote_text = select_footnote_text(description_raw)
+        if footnote_text:
+            footnote = create_footnote_string(footnote_text=footnote_text)
+            description = description_raw.replace(f"*{footnote_text}*", footnote)
+        else:
+            description = description_raw
 
         # create resource, label and id
         resource = Resource.create_new(
@@ -48,7 +56,8 @@ def main():
         # add properties to resource
         resource.add_simpletext(":hasID", row["ID"])
         resource.add_simpletext_multiple(":hasName", names)
-        resource.add_richtext(":hasDescription", row["Description"])
+        resource.add_richtext(":hasDescription", description)
+
         resource.add_richtext_optional(
             prop_name=":hasDescriptionAlternative",
             value=row["Alternative Description"],

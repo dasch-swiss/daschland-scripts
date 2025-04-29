@@ -12,23 +12,33 @@
         "shortname": "daschland",
         "longname": "Alice in DaSCHland",
         "descriptions": {
-            "en": "Alice in DaSCHland. <br/>Testdata",
-            "fr": "Alice au Pays de DaSCH. <br/>Données test",
-            "de": "Alice im DaSCHland. <br/>Testdaten",
-            "it": "Alice in DaSCHland. <br/>Dati di prova"
+            "en": "Dataset license: <br/><br/>Metadata: <br/><br/>Alice in DaSCHland. <br/>DaSCH Showcase Project. <br/>First Data Model contains  all data from Lewis Carroll's stories. <br/>Second Data Model contains metadata from project (Data, Visualisations, FAQ).",
+            "fr": "Alice au Pays de DaSCH. <br/>Projet de démonstration DaSCH<br/>Le premier modèle de données contient toutes les données des histoires de Lewis Carroll. <br/>Le second modèle de données contient les métadonnées du projet (données, visualisations, FAQ).",
+            "de": "Alice im DaSCHland. <br/>DaSCH-Vorzeigeprojekt. <br/>Das erste Datenmodell enthält alle Daten aus den Geschichten von Lewis Carroll. <br/>Das zweite Datenmodell enthält Metadaten aus dem Projekt (Daten, Visualisierungen, FAQ).",
+            "it": "Alice in DaSCHland. <br/>Progetto vetrina DaSCH<br/>Il primo modello di dati contiene tutti i dati delle storie di Lewis Carroll. <br/>Il secondo modello di dati contiene i metadati del progetto (dati, visualizzazioni, FAQ)."
         },
         "keywords": [
-            "Alice",
-            "Beispiel",
+            "Alice au pays des merveilles",
+            "Alice im Wunderland",
+            "Alice in Wonderland",
             "DaSCH",
             "Data",
+            "Data Visualization",
+            "Daten",
+            "Datenvisualisierung",
+            "Digital Humanities",
             "Données",
-            "Example",
-            "Exemple",
-            "Pays des Merveilles",
-            "Test",
-            "Wonderland",
-            "Wunderland"
+            "Geisteswissenschaften",
+            "Humanities",
+            "Humanités numériques",
+            "Metadata",
+            "Metadaten",
+            "Métadonnées",
+            "Projet de démonstration",
+            "Sciences humaines",
+            "Showcase Project",
+            "Visualisation des données",
+            "Vorzeigeprojekt"
         ],
         "users": [
             {
@@ -40,7 +50,6 @@
                 "lang": "en",
                 "status": true,
                 "projects": [
-                    ":admin",
                     ":member"
                 ]
             },
@@ -64,9 +73,18 @@
                 "password": "alice8711",
                 "lang": "fr",
                 "status": true,
-                "groups": [
-                    "SystemAdmin"
-                ],
+                "projects": [
+                    ":member"
+                ]
+            },
+            {
+                "username": "CheshireCat",
+                "email": "cheshire.cat@dasch.swiss",
+                "givenName": "Cheshire",
+                "familyName": "Cat",
+                "password": "alice9548",
+                "lang": "en",
+                "status": true,
                 "projects": [
                     ":admin",
                     ":member"
@@ -139,6 +157,13 @@
                         "labels": {
                             "fr": "PDM 1.0",
                             "en": "PDM 1.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_009",
+                        "labels": {
+                            "fr": "Domaine Public",
+                            "en": "Public Domain"
                         }
                     }
                 ]

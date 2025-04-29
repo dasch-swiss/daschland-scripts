@@ -1,7 +1,6 @@
 import pandas as pd
 from dsp_tools import excel2xml
-from src.Helper_Scripts import helper
-from src.Helper_Scripts.image_helper import get_media_file_creation_time
+from src.Helper_Scripts import helper_excel2xml
 
 
 def main():
@@ -14,7 +13,7 @@ def main():
     root = helper.make_root()
 
     # define dataframe
-    book_df = pd.read_excel("data/Spreadsheet_Data/BookEdition.xlsx", dtype="str")
+    book_df = pd.read_excel("data/Spreadsheet_Data/BookCover.xlsx", dtype="str")
 
     # create list mapping
     license_labels_to_names = excel2xml.create_json_list_mapping(
@@ -28,29 +27,24 @@ def main():
 
         # define variables
         resource_id = row["ID"]
-        resource_label = row["File Name"]
-        book_path = f"{row['Directory']}{row['File Name']}"
-        timestamp_value = get_media_file_creation_time(book_path)
+        resource_label = row["Label"]
+        uri = row["URI"]
 
         # create resource, label and id
         if not excel2xml.check_notna(row["ID"]):
             continue
 
         resource = excel2xml.make_resource(
-            label=resource_label, restype=":BookEdition", id=resource_id
+            label=resource_label, restype=":BookCover", id=resource_id
         )
 
         # add file to resource
-        resource.append(excel2xml.make_bitstream_prop(book_path))
+        resource.append(excel2xml.make_iiif_uri_prop(iiif_uri=uri))
 
         # add properties to resource
         if excel2xml.check_notna(row["ID"]):
             resource.append(
                 excel2xml.make_text_prop(":hasID", resource_id)
-            )
-        if excel2xml.check_notna(row["File Name"]):
-            resource.append(
-                excel2xml.make_text_prop(":hasFileName", row["File Name"])
             )
         if excel2xml.check_notna(row["Description"]):
             resource.append(
@@ -58,10 +52,6 @@ def main():
                     ":hasDescription",
                     excel2xml.PropertyElement(row["Description"], encoding="xml"),
                 )
-            )
-        if excel2xml.check_notna(timestamp_value):
-            resource.append(
-                excel2xml.make_time_prop(":hasTimeStamp", timestamp_value)
             )
         if excel2xml.check_notna(row["Copyright"]):
             resource.append(
@@ -71,6 +61,10 @@ def main():
             license_name = license_labels_to_names.get(row["License List"])
             resource.append(
                 excel2xml.make_list_prop("License", ":hasLicenseList", license_name)
+            )
+        if excel2xml.check_notna(row["Source"]):
+            resource.append(
+                excel2xml.make_uri_prop(":hasUrl", row["Source"])
             )
         if excel2xml.check_notna(row["Authorship"]):
             authorship = [x.strip() for x in row["Authorship"].split(",")]
@@ -85,7 +79,7 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_book_edition.xml")
+    excel2xml.write_xml(root, "data/XML/import_book_cover.xml")
     return all_resources
 
 
