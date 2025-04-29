@@ -1,5 +1,6 @@
 import pandas as pd
 from dsp_tools import excel2xml
+
 from src.Helper_Scripts import helper_excel2xml
 
 
@@ -7,7 +8,7 @@ def main():
     all_resources = []
 
     # create the root element dsp-tools
-    root = helper.make_root()
+    root = helper_excel2xml.make_root()
 
     # define dataframe
     location_df = pd.read_excel("data/Spreadsheet_Data/Location.xlsx", dtype="str")
