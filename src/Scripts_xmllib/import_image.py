@@ -1,5 +1,11 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, Permissions, create_label_to_name_list_node_mapping, create_list_from_string, LicenseRecommended
+from dsp_tools.xmllib import (
+    Resource,
+    Permissions,
+    create_label_to_name_list_node_mapping,
+    create_list_from_string,
+    LicenseRecommended,
+)
 from src.Helper_Scripts.image_helper import get_image_creation_time, get_media_file_size
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
@@ -22,7 +28,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in image_df.iterrows():
-
         # define variables
         image_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_image_creation_time(image_path)
@@ -30,9 +35,7 @@ def main():
         license_name = license_labels_to_names.get(row["License List"])
         book_id = create_list(row["Book ID"])
         file_permissions = (
-            Permissions.RESTRICTED_VIEW
-            if row["Permission"] == "x"
-            else Permissions.PROJECT_SPECIFIC_PERMISSIONS
+            Permissions.RESTRICTED_VIEW if row["Permission"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
         )
         authors = create_list_from_string(string=row["Authorship"], separator=",")
 
@@ -44,7 +47,13 @@ def main():
         )
 
         # add file to resource
-        resource.add_file(filename=image_path, permissions=file_permissions, license=LicenseRecommended.DSP.PUBLIC_DOMAIN, copyright_holder=row["Copyright"], authorship=authors)
+        resource.add_file(
+            filename=image_path,
+            permissions=file_permissions,
+            license=LicenseRecommended.DSP.PUBLIC_DOMAIN,
+            copyright_holder=row["Copyright"],
+            authorship=authors,
+        )
 
         # add properties to resource
         resource.add_simpletext(value=row["ID"], prop_name=":hasID")

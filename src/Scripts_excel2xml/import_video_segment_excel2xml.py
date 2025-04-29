@@ -14,7 +14,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in video_segment_df.iterrows():
-
         # define variables
         video_segment_id = row["ID"]
         video_label = row["Label"]
@@ -28,32 +27,20 @@ def main():
         # add link to resource
         segment.append(excel2xml.make_isSegmentOf_prop(row["Video ID"]))
         segment.append(
-            excel2xml.make_hasSegmentBounds_prop(
-                segment_start=row["Segment Start"], segment_end=row["Segment End"]
-            )
+            excel2xml.make_hasSegmentBounds_prop(segment_start=row["Segment Start"], segment_end=row["Segment End"])
         )
 
         # add properties to resource
         if excel2xml.check_notna(row["Title"]):
-            segment.append(
-                excel2xml.make_hasTitle_prop(row["Title"])
-            )
+            segment.append(excel2xml.make_hasTitle_prop(row["Title"]))
         if excel2xml.check_notna(row["Comment"]):
-            segment.append(
-                excel2xml.make_hasComment_prop(row["Comment"])
-            )
+            segment.append(excel2xml.make_hasComment_prop(row["Comment"]))
         if excel2xml.check_notna(row["Description"]):
-            segment.append(
-                excel2xml.make_hasDescription_prop(row["Description"])
-            )
+            segment.append(excel2xml.make_hasDescription_prop(row["Description"]))
         if excel2xml.check_notna(row["Keyword"]):
-            segment.append(
-                excel2xml.make_hasKeyword_prop(row["Keyword"])
-            )
+            segment.append(excel2xml.make_hasKeyword_prop(row["Keyword"]))
         if excel2xml.check_notna(row["Relates To ID"]):
-            segment.append(
-                excel2xml.make_relatesTo_prop(row["Relates To ID"])
-            )
+            segment.append(excel2xml.make_relatesTo_prop(row["Relates To ID"]))
 
         # append the segment to the list
         all_segments.append(segment)

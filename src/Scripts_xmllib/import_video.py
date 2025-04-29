@@ -1,5 +1,10 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, create_label_to_name_list_node_mapping, create_list_from_string, LicenseRecommended
+from dsp_tools.xmllib import (
+    Resource,
+    create_label_to_name_list_node_mapping,
+    create_list_from_string,
+    LicenseRecommended,
+)
 from src.Helper_Scripts.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -39,7 +44,12 @@ def main():
         )
 
         # add file to resource
-        resource.add_file(video_path, license=LicenseRecommended.DSP.PUBLIC_DOMAIN, copyright_holder=row["Copyright"], authorship=authors)
+        resource.add_file(
+            video_path,
+            license=LicenseRecommended.DSP.PUBLIC_DOMAIN,
+            copyright_holder=row["Copyright"],
+            authorship=authors,
+        )
 
         # add properties to resource
         resource.add_simpletext(":hasID", row["ID"])

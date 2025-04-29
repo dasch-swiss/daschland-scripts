@@ -14,7 +14,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
-
         # define variables
         resource_id = row["ID"]
         resource_label = row["Name"]
@@ -23,9 +22,7 @@ def main():
         if not excel2xml.check_notna(row["ID"]):
             continue
 
-        resource = excel2xml.make_resource(
-            label=resource_label, restype=":Book", id=resource_id
-        )
+        resource = excel2xml.make_resource(label=resource_label, restype=":Book", id=resource_id)
 
         # add properties to resource
         if excel2xml.check_notna(row["ID"]):
@@ -34,9 +31,7 @@ def main():
             resource.append(excel2xml.make_text_prop(":hasName", row["Name"]))
         if excel2xml.check_notna(row["Authorship"]):
             authorship = [x.strip() for x in row["Authorship"].split(",")]
-            resource.append(
-                excel2xml.make_text_prop(":hasAuthorship", authorship)
-            )
+            resource.append(excel2xml.make_text_prop(":hasAuthorship", authorship))
         if excel2xml.check_notna(row["Description"]):
             resource.append(
                 excel2xml.make_text_prop(
@@ -58,29 +53,19 @@ def main():
         if excel2xml.check_notna(row["Date Published"]):
             date_published = excel2xml.find_date_in_string(row["Date Published"])
             if date_published:
-                resource.append(
-                    excel2xml.make_date_prop(":hasDate", date_published)
-                )
+                resource.append(excel2xml.make_date_prop(":hasDate", date_published))
         if excel2xml.check_notna(row["Book Chapter ID"]):
             book_chapter_ids = [x.strip() for x in row["Book Chapter ID"].split(",")]
-            resource.append(
-                excel2xml.make_resptr_prop(":linkToBookChapter", book_chapter_ids)
-            )
+            resource.append(excel2xml.make_resptr_prop(":linkToBookChapter", book_chapter_ids))
         if excel2xml.check_notna(row["Book Edition ID"]):
             book_edition_ids = [x.strip() for x in row["Book Edition ID"].split(",")]
-            resource.append(
-                excel2xml.make_resptr_prop(":linkToBookEdition", book_edition_ids)
-            )
+            resource.append(excel2xml.make_resptr_prop(":linkToBookEdition", book_edition_ids))
         if excel2xml.check_notna(row["Video ID"]):
             video_ids = [x.strip() for x in row["Video ID"].split(",")]
-            resource.append(
-                excel2xml.make_resptr_prop(":linkToVideo", video_ids)
-            )
+            resource.append(excel2xml.make_resptr_prop(":linkToVideo", video_ids))
         if excel2xml.check_notna(row["Book Cover ID"]):
             cover_ids = [x.strip() for x in row["Book Cover ID"].split(",")]
-            resource.append(
-                excel2xml.make_resptr_prop(":linkToBookCover", cover_ids)
-            )
+            resource.append(excel2xml.make_resptr_prop(":linkToBookCover", cover_ids))
 
         # append the resource to the list
         all_resources.append(resource)

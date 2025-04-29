@@ -38,6 +38,7 @@ dev = [
     "lxml-stubs>=0.5.1",
     "pandas-stubs>=2.2.3.250308",
     "types-lxml>=2025.3.30",
+    "types-regex>=2024.11.6.20250403",
 ]
 
 

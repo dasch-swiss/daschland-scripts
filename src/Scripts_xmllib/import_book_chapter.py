@@ -1,9 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import (
-    Resource,
-    create_label_to_name_list_node_mapping,
-    Permissions
-)
+from dsp_tools.xmllib import Resource, create_label_to_name_list_node_mapping, Permissions
 from src.Helper_Scripts.helper import make_cols_mapping_with_columns
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
@@ -15,9 +11,7 @@ def main():
     path_to_json = "daschland.json"
 
     # define dataframes
-    book_chapter_df = pd.read_excel(
-        "data/Spreadsheet_Data/BookChapter.xlsx", dtype="str"
-    )
+    book_chapter_df = pd.read_excel("data/Spreadsheet_Data/BookChapter.xlsx", dtype="str")
     book_df = pd.read_excel("data/Spreadsheet_Data/Book.xlsx", dtype="str")
 
     # create list mapping
@@ -32,7 +26,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in book_chapter_df.iterrows():
-
         # define variables
         permissions = Permissions.RESTRICTED
 
@@ -46,15 +39,10 @@ def main():
         location_ids = create_list(row["Location ID"])
 
         # create resource, label and id
-        if pd.notna(row["Chapter Number"]):
-            label = f"{book} - Chapter {row['Chapter Number']} - {row['Name']}"
-        else:
-            label = f"{book} - {row['Name']}"
-
         resource = Resource.create_new(
             res_id=row["ID"],
             restype=":BookChapter",
-            label=label
+            label=f"{book} - Chapter {row['Chapter Number']} - {row['Name']}",
         )
 
         # add properties to resource
