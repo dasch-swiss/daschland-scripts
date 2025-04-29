@@ -100,7 +100,7 @@ def main():
 
     # update nodegoat files
     Nodegoat_files_update.main()
-    ic("Nodegoat files updated")
+    ic("nodegoat files updated")
 
 
 if __name__ == "__main__":

@@ -8,7 +8,7 @@ import pandas as pd
 def update_spreadsheet_df(df_name):
     df = pd.read_excel(f"data/Spreadsheet_Data/{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
-    _write_df_to_csv(df_cleaned, f"Nodegoat/{df_name}.csv")
+    _write_df_to_csv(df_cleaned, f"nodegoat/{df_name}.csv")
 
 
 def update_multimedia_df(df_name):
@@ -16,7 +16,7 @@ def update_multimedia_df(df_name):
     df_cleaned = df.dropna(how="all")
     df_with_filepath = _add_full_file_path_to_df(df_cleaned)
     updated_df = _add_exif_data_to_df(df_with_filepath)
-    _write_df_to_csv(updated_df, f"Nodegoat/{df_name}.csv")
+    _write_df_to_csv(updated_df, f"nodegoat/{df_name}.csv")
 
 
 def _add_exif_data_to_df(df) -> pd.DataFrame:
