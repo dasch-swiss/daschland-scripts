@@ -1,4 +1,3 @@
-import pandas as pd
 from src.Scripts_Nodegoat.Nodegoat_helper import (
     update_multimedia_df,
     update_spreadsheet_df,

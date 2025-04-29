@@ -115,7 +115,7 @@ wheels = [
 
 [[package]]
 name = "dsp-tools"
-version = "13.0.0.post40"
+version = "13.0.0.post44"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "argparse" },
@@ -136,9 +136,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/51/d8/ddc5f4da52e9a4d3d043ca95f3bb54056dfe9b19c0d01f110ccf0f8359cb/dsp_tools-13.0.0.post40.tar.gz", hash = "sha256:9d278fb431a196a1e400214a99982c8cca45a127de295efcfb2ff96de016d718", size = 7297318 }
+sdist = { url = "https://files.pythonhosted.org/packages/80/ba/da79f9179b18bdcbbb3a016bf2853ff82bd0333b081db9a0edbc288e3c0a/dsp_tools-13.0.0.post44.tar.gz", hash = "sha256:dfbffce1a71fc3b181f7605c7b1c9ee84e131a0e92a3f302ce7ccb870b23a31d", size = 7297795 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fe/97/0467f89f871fbf9f3a787a160e8b527aa1dfc3732d36632c2990298e3d34/dsp_tools-13.0.0.post40-py3-none-any.whl", hash = "sha256:60092a07f44e997a141bd55c778f9ffacb1c6aae366fbf64009ed5f2492e2788", size = 340174 },
+    { url = "https://files.pythonhosted.org/packages/cb/9e/6ccc8091633319b187a48680bb8b18825bec5c1f528c023694723b44e509/dsp_tools-13.0.0.post44-py3-none-any.whl", hash = "sha256:c0a55eb79c4e7f42f0adf1ec53e2162d90ecd2d96fcacea8e0f0126e6499a666", size = 340111 },
 ]
 
 [[package]]
