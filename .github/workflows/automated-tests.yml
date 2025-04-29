@@ -22,4 +22,4 @@ jobs:
             - name: Check formatting with ruff
               run: uv run ruff format --check .
             - name: Linting with mypy
-              run: mypy .
+              run: uv run mypy .
