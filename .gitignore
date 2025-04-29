@@ -133,3 +133,7 @@ cython_debug/
 .idea/
 .DS_Store
 ~$*.*
+
+# DaSCH internal stuff
+/id2iri_*.json
+daschland_data_excel2xml.xml
