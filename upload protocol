@@ -1,4 +1,4 @@
 test-server:
 
 dsp-tools create -s https://app.rdu-08.dasch.swiss -u root@example.com -p 'v2HBiAW,45kI4tk5z,bI' daschland.json
-dsp-tools xmlupload -s https://app.rdu-08.dasch.swiss -u white.rabbit@dasch.swiss -p 'alice8711' daschland_data_new.xml
+dsp-tools xmlupload -s https://app.rdu-08.dasch.swiss -u white.rabbit@dasch.swiss -p 'alice8711' daschland_data_xmllib.xml
