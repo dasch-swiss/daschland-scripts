@@ -11,7 +11,7 @@ def main():
     path_to_json = "daschland.json"
 
     # create the root element dsp-tools
-    root = helper.make_root()
+    root = helper_excel2xml.make_root()
 
     # define dataframe
     book_df = pd.read_excel("data/Spreadsheet_Data/BookEdition.xlsx", dtype="str")
