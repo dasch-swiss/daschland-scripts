@@ -1,5 +1,10 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, create_label_to_name_list_node_mapping, LicenseRecommended, create_list_from_string
+from dsp_tools.xmllib import (
+    Resource,
+    create_label_to_name_list_node_mapping,
+    LicenseRecommended,
+    create_list_from_string,
+)
 from src.Helper_Scripts.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -13,9 +18,7 @@ def main():
     path_to_json = "daschland.json"
 
     # define dataframe
-    documentation_df = pd.read_excel(
-        "data/Spreadsheet_Data/Documentation.xlsx", dtype="str"
-    )
+    documentation_df = pd.read_excel("data/Spreadsheet_Data/Documentation.xlsx", dtype="str")
 
     # create list mapping
     license_labels_to_names = create_label_to_name_list_node_mapping(
@@ -26,7 +29,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in documentation_df.iterrows():
-
         # define variables
         documentation_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_media_file_creation_time(documentation_path)
@@ -42,7 +44,9 @@ def main():
         )
 
         # add file to resource
-        resource.add_file(documentation_path, license=LicenseRecommended.CC.BY, copyright_holder=row["Copyright"], authorship=authors)
+        resource.add_file(
+            documentation_path, license=LicenseRecommended.CC.BY, copyright_holder=row["Copyright"], authorship=authors
+        )
 
         # add properties to resource
         resource.add_simpletext("metadata:hasID", row["ID"])

@@ -11,7 +11,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
-
         # define variables
         date_published = find_date_in_string(row["Date Published"])
         file_permissions = Permissions.RESTRICTED
@@ -21,9 +20,7 @@ def main():
         cover_ids = create_list(row["Book Cover ID"])
 
         # create resource, label and id
-        resource = Resource.create_new(
-            res_id=row["ID"], restype=":Book", label=row["Name"]
-        )
+        resource = Resource.create_new(res_id=row["ID"], restype=":Book", label=row["Name"])
 
         # add properties to resource
         resource.add_simpletext(":hasID", row["ID"])

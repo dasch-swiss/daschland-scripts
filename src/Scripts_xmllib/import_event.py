@@ -1,14 +1,9 @@
 import pandas as pd
-from dsp_tools.xmllib import (
-    Resource,
-    Permissions,
-    create_label_to_name_list_node_mapping
-)
+from dsp_tools.xmllib import Resource, Permissions, create_label_to_name_list_node_mapping
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
 
 def main():
-
     all_resources = []
 
     # define json file path
@@ -24,7 +19,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in event_df.iterrows():
-
         # define variables
         resource_id = row["ID"]
         resource_label = row["Name"]
@@ -38,17 +32,11 @@ def main():
 
         # create resource, label and id
         if row["Event Type"] == "Social":
-            resource = Resource.create_new(
-                res_id=resource_id, restype=":EventSocial", label=resource_label
-            )
+            resource = Resource.create_new(res_id=resource_id, restype=":EventSocial", label=resource_label)
         elif row["Event Type"] == "Conflict":
-            resource = Resource.create_new(
-                res_id=resource_id, restype=":EventConflict", label=resource_label
-            )
+            resource = Resource.create_new(res_id=resource_id, restype=":EventConflict", label=resource_label)
         elif row["Event Type"] == "Adventure":
-            resource = Resource.create_new(
-                res_id=resource_id, restype=":EventAdventure", label=resource_label
-            )
+            resource = Resource.create_new(res_id=resource_id, restype=":EventAdventure", label=resource_label)
         elif row["Event Type"] == "Alternative":
             resource = Resource.create_new(
                 res_id=resource_id,
