@@ -1,7 +1,7 @@
 # daschland-scripts
 
 This repository contains all data for the creation of the example project Alice in DaSCHland.\
-To upload the project, please follow the instructions in the upload protocol.
+To upload the project, please follow the instructions in the upload protocol down below.
 
 
 ### Project structure:
@@ -20,7 +20,6 @@ To upload the project, please follow the instructions in the upload protocol.
    - `Scripts_excel2xml` The scripts to convert the spreadsheet data to XML, using the old module "dsp-tools excel2xml".
    - `Scripts_Nodegoat` The scripts to create the mirror project data on Nodegoat.
    - `Scripts_xmllib` The scripts to convert the XML data to JSON, using the current library "dsp-tools xmllib".
-- `upload protocol` The upload protocol for the project, which is used to upload the data to DSP. 
 - `uv.lock` The lock file for the project, which is used to create a virtual environment for the project.
 
 
