@@ -46,10 +46,15 @@ def main():
         location_ids = create_list(row["Location ID"])
 
         # create resource, label and id
+        if pd.notna(row["Chapter Number"]):
+            label = f"{book} - Chapter {row['Chapter Number']} - {row['Name']}"
+        else:
+            label = f"{book} - {row['Name']}"
+
         resource = Resource.create_new(
             res_id=row["ID"],
             restype=":BookChapter",
-            label=f"{book} - Chapter {row["Chapter Number"]} - {row["Name"]}",
+            label=label
         )
 
         # add properties to resource
