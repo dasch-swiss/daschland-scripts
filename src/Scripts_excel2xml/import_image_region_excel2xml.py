@@ -15,7 +15,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in archive_df.iterrows():
-
         # define variables
         region_id = row["ID"]
         region_label = row["Comment"]
@@ -41,26 +40,14 @@ def main():
 
         # add properties to resource
         if excel2xml.check_notna(row["Color"]):
-            region.append(
-                excel2xml.make_color_prop("hasColor", row["Color"])
-            )
+            region.append(excel2xml.make_color_prop("hasColor", row["Color"]))
         if excel2xml.check_notna(row["Image ID"]):
-            region.append(
-                excel2xml.make_resptr_prop("isRegionOf", row["Image ID"])
-            )
+            region.append(excel2xml.make_resptr_prop("isRegionOf", row["Image ID"]))
         if excel2xml.check_notna(row["Geometry X1"]):
-            region.append(
-                excel2xml.make_geometry_prop("hasGeometry", JSON_string)
-            )
+            region.append(excel2xml.make_geometry_prop("hasGeometry", JSON_string))
         if excel2xml.check_notna(row["Comment"]):
             region.append(
-                excel2xml.make_text_prop(
-                    "hasComment",
-                    excel2xml.PropertyElement(
-                        value=row["Comment"],
-                        encoding="xml"
-                    )
-                )
+                excel2xml.make_text_prop("hasComment", excel2xml.PropertyElement(value=row["Comment"], encoding="xml"))
             )
 
         # append the region to the list

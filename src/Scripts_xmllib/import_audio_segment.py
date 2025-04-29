@@ -10,14 +10,13 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in audio_segment_df.iterrows():
-
         # create resource, label and id
         audio_segment = AudioSegmentResource.create_new(
             res_id=row["ID"],
             label=row["Label"],
             segment_of=row["Audio ID"],
             segment_start=row["Segment Start"],
-            segment_end=row["Segment End"]
+            segment_end=row["Segment End"],
         )
 
         # add non-mandatory properties

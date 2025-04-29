@@ -1,5 +1,10 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, create_label_to_name_list_node_mapping, create_list_from_string, LicenseRecommended
+from dsp_tools.xmllib import (
+    Resource,
+    create_label_to_name_list_node_mapping,
+    create_list_from_string,
+    LicenseRecommended,
+)
 
 from src.Helper_Scripts.image_helper import (
     get_media_file_creation_time,
@@ -25,7 +30,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in audio_df.iterrows():
-
         # define variables
         audio_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_media_file_creation_time(audio_path)
@@ -34,12 +38,15 @@ def main():
         authors = create_list_from_string(row["Authorship"], separator=", ")
 
         # create resource, label and id
-        resource = Resource.create_new(
-            res_id=row["ID"], restype=":Audio", label=row["Name"]
-        )
+        resource = Resource.create_new(res_id=row["ID"], restype=":Audio", label=row["Name"])
 
         # add file to resource
-        resource.add_file(filename=audio_path, license=LicenseRecommended.DSP.PUBLIC_DOMAIN, copyright_holder=row["Copyright"], authorship=authors)
+        resource.add_file(
+            filename=audio_path,
+            license=LicenseRecommended.DSP.PUBLIC_DOMAIN,
+            copyright_holder=row["Copyright"],
+            authorship=authors,
+        )
 
         # add properties to resource
         resource.add_simpletext(":hasID", row["ID"])

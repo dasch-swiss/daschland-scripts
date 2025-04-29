@@ -11,7 +11,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in video_segment_df.iterrows():
-
         relates_to_ids = create_list(row["Relates To ID"])
 
         # create segment, label and id

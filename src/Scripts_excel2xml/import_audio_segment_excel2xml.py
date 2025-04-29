@@ -14,7 +14,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in audio_segment_df.iterrows():
-
         # define variables
         audio_segment_id = row["ID"]
         audio_segment_label = row["Label"]
@@ -28,9 +27,7 @@ def main():
         # add link to resource
         segment.append(excel2xml.make_isSegmentOf_prop(row["Audio ID"]))
         segment.append(
-            excel2xml.make_hasSegmentBounds_prop(
-                segment_start=row["Segment Start"], segment_end=row["Segment End"]
-            )
+            excel2xml.make_hasSegmentBounds_prop(segment_start=row["Segment Start"], segment_end=row["Segment End"])
         )
 
         # add properties to resource

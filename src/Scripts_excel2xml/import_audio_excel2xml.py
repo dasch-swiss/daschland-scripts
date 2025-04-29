@@ -28,7 +28,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in audio_df.iterrows():
-
         # define variables
         resource_id = row["ID"]
         resource_label = row["Name"]
@@ -40,9 +39,7 @@ def main():
         if not excel2xml.check_notna(row["ID"]):
             continue
 
-        resource = excel2xml.make_resource(
-            label=resource_label, restype=":Audio", id=resource_id
-        )
+        resource = excel2xml.make_resource(label=resource_label, restype=":Audio", id=resource_id)
 
         # add file to resource
         resource.append(excel2xml.make_bitstream_prop(audio_path))
@@ -53,16 +50,12 @@ def main():
         if excel2xml.check_notna(timestamp_value):
             resource.append(excel2xml.make_time_prop(":hasTimeStamp", timestamp_value))
         if excel2xml.check_notna(file_size_value):
-            resource.append(
-                excel2xml.make_decimal_prop(":hasFileSize", file_size_value)
-            )
+            resource.append(excel2xml.make_decimal_prop(":hasFileSize", file_size_value))
         if excel2xml.check_notna(row["Copyright"]):
             resource.append(excel2xml.make_text_prop(":hasCopyright", row["Copyright"]))
         if excel2xml.check_notna(row["License List"]):
             license_name = license_labels_to_names.get(row["License List"])
-            resource.append(
-                excel2xml.make_list_prop("License", ":hasLicenseList", license_name)
-            )
+            resource.append(excel2xml.make_list_prop("License", ":hasLicenseList", license_name))
         if excel2xml.check_notna(row["File Name"]):
             resource.append(excel2xml.make_text_prop(":hasFileName", row["File Name"]))
         if excel2xml.check_notna(row["Description"]):
@@ -74,15 +67,11 @@ def main():
             )
         if excel2xml.check_notna(row["Cast"]):
             resource.append(
-                excel2xml.make_text_prop(
-                    ":hasCast", excel2xml.PropertyElement(row["Cast"], encoding="xml")
-                )
+                excel2xml.make_text_prop(":hasCast", excel2xml.PropertyElement(row["Cast"], encoding="xml"))
             )
         if excel2xml.check_notna(row["Authorship"]):
             authorship = [x.strip() for x in row["Authorship"].split(",")]
-            resource.append(
-                excel2xml.make_text_prop(":hasAuthorship", authorship)
-            )
+            resource.append(excel2xml.make_text_prop(":hasAuthorship", authorship))
 
         # append the resource to the list
         all_resources.append(resource)

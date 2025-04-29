@@ -1,5 +1,10 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, create_label_to_name_list_node_mapping, LicenseRecommended, create_list_from_string
+from dsp_tools.xmllib import (
+    Resource,
+    create_label_to_name_list_node_mapping,
+    LicenseRecommended,
+    create_list_from_string,
+)
 
 
 def main():
@@ -20,7 +25,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
-
         # define variables
         license_name = license_labels_to_names.get(row["License List"])
         authors = create_list_from_string(string=row["Authorship"], separator=",")
@@ -35,7 +39,12 @@ def main():
         )
 
         # add properties to resource
-        resource.add_iiif_uri(row["URI"], license=LicenseRecommended.DSP.PUBLIC_DOMAIN, copyright_holder=copyright_string, authorship=authors)
+        resource.add_iiif_uri(
+            row["URI"],
+            license=LicenseRecommended.DSP.PUBLIC_DOMAIN,
+            copyright_holder=copyright_string,
+            authorship=authors,
+        )
         resource.add_simpletext(":hasID", row["ID"])
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_simpletext(":hasCopyright", row["Copyright"])
