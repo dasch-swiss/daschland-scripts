@@ -4,7 +4,7 @@ from dsp_tools.xmllib import (
     create_label_to_name_list_node_mapping,
     Permissions
 )
-from src.Helper_Scripts.helper_mapping import make_cols_mapping_with_columns
+from src.Helper_Scripts.helper import make_cols_mapping_with_columns
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
 

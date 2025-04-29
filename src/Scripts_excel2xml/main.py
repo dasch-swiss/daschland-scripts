@@ -1,6 +1,6 @@
 from dsp_tools import excel2xml
 from icecream import ic
-from src.Helper_Scripts import helper
+from src.Helper_Scripts import helper_excel2xml
 
 
 # Import scripts
@@ -28,7 +28,7 @@ from src.Scripts_Nodegoat import Nodegoat_files_update
 
 
 def main():
-    root = helper.make_root()
+    root = helper_excel2xml.make_root()
 
     all_archive = import_archive.main()
     root.extend(all_archive)
