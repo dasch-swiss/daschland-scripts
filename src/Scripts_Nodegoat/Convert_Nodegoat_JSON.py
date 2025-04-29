@@ -1,4 +1,5 @@
 import json
+from typing import Any
 
 # Load the source JSON schema (Daschland_Nodegoat.json)
 with open("Daschland_Nodegoat.json", "r") as file:
@@ -10,8 +11,8 @@ with open("daschland.json", "r") as file:
 
 
 # Function to transform the nodegoat data to match daschland schema
-def transform_to_daschland(nodegoat_data):
-    transformed_data = {}
+def transform_to_daschland(nodegoat_data: dict[str, Any]) -> dict[str, Any]:
+    transformed_data: dict[str, Any] = {}
 
     # Example: Mapping the nodegoat 'Book' type to daschland 'Book' structure
     for type_name, type_data in nodegoat_data["data"]["types"].items():

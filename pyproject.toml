@@ -45,8 +45,13 @@ dev = [
 [tool.mypy]
 mypy_path = "src"
 show_column_numbers = true
-# strict = true
-# enable_error_code = ["possibly-undefined"]
+strict = true
+enable_error_code = ["possibly-undefined"]
+exclude = [
+    "src/Helper_Scripts",
+    "src/Scripts_Nodegoat",
+    "src/Scripts_excel2xml",
+]
 
 
 [[tool.mypy.overrides]]

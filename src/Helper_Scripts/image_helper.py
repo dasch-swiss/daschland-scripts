@@ -1,13 +1,14 @@
-from PIL import Image
-from PIL.ExifTags import TAGS
-from pathlib import Path
 import os
 from datetime import datetime
+from pathlib import Path
+from typing import Any, Optional
+
 from exiftool import ExifToolHelper
-from typing import Optional
+from PIL import Image
+from PIL.ExifTags import TAGS
 
 
-def get_image_creation_time(image_path) -> Optional[str]:
+def get_image_creation_time(image_path: str) -> Optional[str]:
     image_path = os.path.expanduser(image_path)
     # convert image_path into pathlib object:
     image_path_conform = Path(image_path)
@@ -16,7 +17,7 @@ def get_image_creation_time(image_path) -> Optional[str]:
     image = Image.open(image_path_conform)
 
     # Extract EXIF data
-    exif_data = image._getexif()  # type: ignore[attr-defined]
+    exif_data: dict[str, Any] = image._getexif()  # type: ignore[attr-defined]
     # If no EXIF data found
     if not exif_data:
         return None
@@ -33,7 +34,7 @@ def get_image_creation_time(image_path) -> Optional[str]:
         return None
 
 
-def _get_time_from_exif_data(exif_data):
+def _get_time_from_exif_data(exif_data: dict[str, str]) -> str | None:
     # Loop through the EXIF data to find the creation time
     for tag, value in exif_data.items():
         tag_name = TAGS.get(tag, tag)
@@ -41,9 +42,10 @@ def _get_time_from_exif_data(exif_data):
             return value
         else:
             continue
+    return None
 
 
-def _convert_creation_time_to_dsp_time(time):
+def _convert_creation_time_to_dsp_time(time: str):
     input_format = "%Y:%m:%d %H:%M:%S"
     output_format = "%Y-%m-%dT%H:%M:%S-00:00"
     try:
