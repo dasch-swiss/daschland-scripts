@@ -16,7 +16,7 @@ def make_cols_mapping_with_columns(
 
 
 def select_footnote_text(
-        main_text: str) -> str:
+        main_text: str) -> str | None:
     """
     isolates the footnote text from the main text
     """
