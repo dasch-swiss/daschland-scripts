@@ -1,5 +1,10 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, create_label_to_name_list_node_mapping, LicenseRecommended, create_list_from_string
+from dsp_tools.xmllib import (
+    Resource,
+    create_label_to_name_list_node_mapping,
+    LicenseRecommended,
+    create_list_from_string,
+)
 from src.Helper_Scripts.image_helper import (
     get_media_file_size,
     get_media_file_creation_time,
@@ -31,12 +36,12 @@ def main():
         authors = create_list_from_string(string=row["Authorship"], separator=",")
 
         # create resource, label and id
-        resource = Resource.create_new(
-            res_id=row["ID"], restype="metadata:Material", label=row["File Name"]
-        )
+        resource = Resource.create_new(res_id=row["ID"], restype="metadata:Material", label=row["File Name"])
 
         # add file to resource
-        resource.add_file(originals_path, license=LicenseRecommended.CC.BY, copyright_holder=row["Copyright"], authorship=authors)
+        resource.add_file(
+            originals_path, license=LicenseRecommended.CC.BY, copyright_holder=row["Copyright"], authorship=authors
+        )
 
         # add properties to resource
         resource.add_simpletext("metadata:hasID", row["ID"])

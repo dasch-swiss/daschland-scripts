@@ -8,9 +8,7 @@ xml_namespace_map = {
 }
 
 
-def make_root(
-    default_ontology: str = "daschland", shortcode: str = "0854"
-) -> etree._Element:
+def make_root(default_ontology: str = "daschland", shortcode: str = "0854") -> etree._Element:
     # create the root element dsp-tools
     root = excel2xml.make_root(shortcode=shortcode, default_ontology=default_ontology)
 
@@ -44,18 +42,14 @@ def _append_permissions(root_element: etree._Element) -> etree._Element:
     # lxml.builder.E is a more sophisticated element factory than etree.Element.
     # E.tag is equivalent to E("tag") and results in <tag>
 
-    res_default = etree.Element(
-        "{%s}permissions" % xml_namespace_map[None], id="res-default"
-    )
+    res_default = etree.Element("{%s}permissions" % xml_namespace_map[None], id="res-default")
     res_default.append(ALLOW("V", group="UnknownUser"))
     res_default.append(ALLOW("V", group="KnownUser"))
     res_default.append(ALLOW("D", group="ProjectMember"))
     res_default.append(ALLOW("CR", group="ProjectAdmin"))
     root_element.append(res_default)
 
-    res_restricted = etree.Element(
-        "{%s}permissions" % xml_namespace_map[None], id="res-restricted"
-    )
+    res_restricted = etree.Element("{%s}permissions" % xml_namespace_map[None], id="res-restricted")
     res_restricted.append(ALLOW("D", group="ProjectMember"))
     res_restricted.append(ALLOW("CR", group="ProjectAdmin"))
     root_element.append(res_restricted)

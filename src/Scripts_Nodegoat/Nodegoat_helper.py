@@ -22,9 +22,7 @@ def update_multimedia_df(df_name):
 def _add_exif_data_to_df(df) -> pd.DataFrame:
     # Ensure you're working with a copy of the DataFrame
     df_copy = df.copy()
-    df_copy.loc[:, "Time Stamp"] = df_copy["File Path"].apply(
-        get_media_file_creation_time
-    )
+    df_copy.loc[:, "Time Stamp"] = df_copy["File Path"].apply(get_media_file_creation_time)
     df_copy.loc[:, "File Size"] = df_copy["File Path"].apply(get_media_file_size)
 
     return df_copy

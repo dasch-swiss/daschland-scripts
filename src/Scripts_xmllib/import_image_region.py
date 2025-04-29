@@ -10,7 +10,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in archive_df.iterrows():
-
         # create region, label and id
         region = RegionResource.create_new(
             res_id=row["ID"],

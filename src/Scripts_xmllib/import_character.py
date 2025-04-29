@@ -23,7 +23,6 @@ def main():
 
     # iterate through rows of dataframe:
     for _, row in character_df.iterrows():
-
         # define variables
         names = {row["Name EN"], row["Name DE"], row["Name FR"], row["Name IT"]}
         names = {name for name in names if pd.notna(name)}
@@ -34,9 +33,7 @@ def main():
         keywords_names_raw = create_list(row["Keyword"])
         for keyword in keywords_names_raw:
             if keyword not in keyword_labels_to_names:
-                print(
-                    f"Keyword {keyword} - {row["Name EN"]} not found in the json file."
-                )
+                print(f"Keyword {keyword} - {row['Name EN']} not found in the json file.")
                 continue
         keyword_names = [keyword_labels_to_names.get(x) for x in keywords_names_raw]
         keyword_names = sorted(keyword_names)
@@ -49,9 +46,7 @@ def main():
             description = description_raw
 
         # create resource, label and id
-        resource = Resource.create_new(
-            res_id=row["ID"], restype=":Character", label=row["Name EN"]
-        )
+        resource = Resource.create_new(res_id=row["ID"], restype=":Character", label=row["Name EN"])
 
         # add properties to resource
         resource.add_simpletext(":hasID", row["ID"])
@@ -63,14 +58,10 @@ def main():
             value=row["Alternative Description"],
             permissions=Permissions.RESTRICTED,
         )
-        resource.add_list_multiple(
-            prop_name=":hasRoleList", list_name="Role", values=roles
-        )
+        resource.add_list_multiple(prop_name=":hasRoleList", list_name="Role", values=roles)
         resource.add_richtext_optional(":hasQuote", row["Quote"])
         resource.add_link_multiple(":linkToImage", image_ids)
-        resource.add_list_multiple(
-            prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names
-        )
+        resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names)
 
         # append resource to list
         all_resources.append(resource)

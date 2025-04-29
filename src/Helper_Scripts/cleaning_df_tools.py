@@ -113,8 +113,6 @@ def get_clean_list_images(image_list_unfiltered: list[str]) -> list[str]:
 
 
 def create_list(input_value) -> list[str]:
-
     if pd.isna(input_value):
         return []
     return [x.strip() for x in input_value.split(",")]
-
