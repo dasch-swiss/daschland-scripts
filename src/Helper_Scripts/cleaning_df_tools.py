@@ -1,6 +1,6 @@
 import os
 import re
-from typing import Any, Literal
+from typing import Any
 
 import pandas as pd
 
