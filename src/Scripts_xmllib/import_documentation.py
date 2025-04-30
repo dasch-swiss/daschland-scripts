@@ -11,8 +11,8 @@ from src.Helper_Scripts.image_helper import (
 )
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"

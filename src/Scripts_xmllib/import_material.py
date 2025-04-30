@@ -11,8 +11,8 @@ from src.Helper_Scripts.image_helper import (
 )
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"
@@ -50,7 +50,7 @@ def main():
         resource.add_time_optional("metadata:hasTimeStamp", timestamp_value)
         resource.add_decimal_optional("metadata:hasFileSize", file_size_value)
         resource.add_simpletext("metadata:hasCopyright", row["Copyright"])
-        resource.add_list("metadata:hasLicenseList", "License", license_name)
+        resource.add_list_optional("metadata:hasLicenseList", "License", license_name)
         resource.add_simpletext_multiple("metadata:hasAuthorship", row["Authorship"])
 
         # append resource to list
