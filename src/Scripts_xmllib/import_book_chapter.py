@@ -64,7 +64,7 @@ def main() -> list[Resource]:
         resource.add_integer_optional(":hasChapterNumber", row["Chapter Number"])
         resource.add_uri_optional(":hasUrl", row["URL"])
         resource.add_richtext(":hasFullText", row["Full Text"])
-        resource.add_list_multiple(":hasKeywordList", "Keyword", keyword_names_sorted)
+        resource.add_list_multiple(":hasKeywordList", "Keyword", keyword_names)
         resource.add_link_multiple(":linkToAudio", audio_ids)
         resource.add_link_multiple(":linkToEvent", event_ids)
         resource.add_link_multiple(":linkToLocation", location_ids)

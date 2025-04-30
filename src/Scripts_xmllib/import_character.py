@@ -60,7 +60,7 @@ def main() -> list[Resource]:
         resource.add_list_multiple(prop_name=":hasRoleList", list_name="Role", values=roles)
         resource.add_richtext_optional(":hasQuote", row["Quote"])
         resource.add_link_multiple(":linkToImage", image_ids)
-        resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names_sorted)
+        resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names)
 
         # append resource to list
         all_resources.append(resource)

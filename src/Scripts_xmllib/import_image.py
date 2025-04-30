@@ -3,6 +3,7 @@ from dsp_tools.xmllib import (
     LicenseRecommended,
     ListLookup,
     Permissions,
+    Resource,
     create_list_from_string,
 )
 
