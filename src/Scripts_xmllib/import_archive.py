@@ -11,8 +11,8 @@ from src.Helper_Scripts.image_helper import (
 )
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"
@@ -31,7 +31,7 @@ def main():
         archive_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_media_file_creation_time(archive_path)
         file_size_value = get_media_file_size(archive_path)
-        license_name = license_labels_to_names.get(row["License List"])
+        license_name = license_labels_to_names[row["License List"]]
         authors = create_list_from_string(string=row["Authorship"], separator=",")
 
         # create resource, label and id
