@@ -22,4 +22,4 @@ jobs:
             - name: Check formatting with ruff
               run: uv run ruff format --check .
             - name: Linting with mypy
-              run: uv run mypy . --exclude "src/Scripts_Nodegoat" --exclude "src/Scripts_excel2xml"
+              run: uv run mypy . --exclude "src/Scripts_excel2xml"

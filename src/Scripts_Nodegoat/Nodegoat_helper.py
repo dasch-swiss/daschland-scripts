@@ -6,13 +6,13 @@ from src.Helper_Scripts.image_helper import (
 )
 
 
-def update_spreadsheet_df(df_name):
+def update_spreadsheet_df(df_name: str) -> None:
     df = pd.read_excel(f"data/Spreadsheet_Data/{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
     _write_df_to_csv(df_cleaned, f"nodegoat/{df_name}.csv")
 
 
-def update_multimedia_df(df_name):
+def update_multimedia_df(df_name: str) -> None:
     df = pd.read_excel(f"data/Spreadsheet_Data/{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
     df_with_filepath = _add_full_file_path_to_df(df_cleaned)
@@ -20,24 +20,22 @@ def update_multimedia_df(df_name):
     _write_df_to_csv(updated_df, f"nodegoat/{df_name}.csv")
 
 
-def _add_exif_data_to_df(df) -> pd.DataFrame:
+def _add_exif_data_to_df(df: pd.DataFrame) -> pd.DataFrame:
     # Ensure you're working with a copy of the DataFrame
     df_copy = df.copy()
     df_copy.loc[:, "Time Stamp"] = df_copy["File Path"].apply(get_media_file_creation_time)
     df_copy.loc[:, "File Size"] = df_copy["File Path"].apply(get_media_file_size)
-
     return df_copy
 
 
-def _add_full_file_path_to_df(df) -> pd.DataFrame:
+def _add_full_file_path_to_df(df: pd.DataFrame) -> pd.DataFrame:
     df_copy = df.copy()
     df_copy.loc[:, "File Path"] = df_copy.apply(
         lambda row: f"/Users/noemivillars-amberg/Documents/daschland-scripts/{row['Directory']}{row['File Name']}",
         axis=1,
     )
-
     return df_copy
 
 
-def _write_df_to_csv(df, path):
+def _write_df_to_csv(df: pd.DataFrame, path: str) -> None:
     df.to_csv(path, index=False)
