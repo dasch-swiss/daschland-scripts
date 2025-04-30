@@ -3,7 +3,7 @@ name: Tests on Push
 
 on:
   pull_request:
-    
+
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -23,3 +23,20 @@ jobs:
         run: uv run ruff format --check .
       - name: Linting with mypy
         run: uv run mypy . --exclude "src/Scripts_excel2xml"
+
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Install Python dependencies (uv will install python automatically, if no appropriate version is installed)
+        run: uv sync --all-extras --dev
+        shell: bash
+      - name: Install ExifTool
+        run: sudo apt-get update && sudo apt-get install -y exiftool
+      - name: Run tests
+        run: uv run pytest
