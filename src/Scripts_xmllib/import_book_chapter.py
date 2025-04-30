@@ -1,8 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import (
-    Resource,
-    ListLookup,
-    Permissions)
+from dsp_tools.xmllib import Resource, ListLookup, Permissions
 from src.Helper_Scripts.helper import make_cols_mapping_with_columns
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
@@ -33,7 +30,9 @@ def main():
         permissions = Permissions.RESTRICTED
 
         keywords_names_raw = create_list(row["Keyword"])
-        keyword_names = [list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw]
+        keyword_names = [
+            list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw
+        ]
         keyword_names = sorted(keyword_names)
 
         book = mapping_book_name[row["Book ID"]]

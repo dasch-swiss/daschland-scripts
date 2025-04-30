@@ -22,8 +22,7 @@ def main():
 
     # create list mapping
     list_lookup = ListLookup.create_new(
-        project_json_path=path_to_json, language_of_label="en",
-        default_ontology="daschland"
+        project_json_path=path_to_json, language_of_label="en", default_ontology="daschland"
     )
 
     # iterate through rows of dataframe:
