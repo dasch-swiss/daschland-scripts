@@ -55,7 +55,7 @@ def main() -> list[Resource]:
         resource.add_time_optional("metadata:hasTimeStamp", timestamp_value)
         resource.add_decimal_optional("metadata:hasFileSize", file_size_value)
         resource.add_simpletext("metadata:hasCopyright", row["Copyright"])
-        resource.add_list("metadata:hasLicenseList", "License", license_name)
+        resource.add_list_optional("metadata:hasLicenseList", "License", license_name)
         resource.add_simpletext_multiple("metadata:hasAuthorship", row["Authorship"])
 
         # append resource to list

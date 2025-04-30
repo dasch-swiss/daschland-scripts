@@ -26,7 +26,7 @@ from src.Scripts_xmllib import (
 from src.Scripts_Nodegoat import Nodegoat_files_update
 
 
-def main():
+def main() -> None:
     # create the root element dsp-tools
     root = XMLRoot.create_new(shortcode="0854", default_ontology="daschland")
 

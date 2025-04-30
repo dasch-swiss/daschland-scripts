@@ -7,8 +7,8 @@ from dsp_tools.xmllib import (
 )
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"
@@ -48,7 +48,7 @@ def main():
         resource.add_simpletext(":hasID", row["ID"])
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_simpletext(":hasCopyright", row["Copyright"])
-        resource.add_list(":hasLicenseList", "License", license_name)
+        resource.add_list_optional(":hasLicenseList", "License", license_name)
         resource.add_uri(":hasUrl", row["Source"])
         resource.add_simpletext_multiple(":hasAuthorship", row["Authorship"])
 
