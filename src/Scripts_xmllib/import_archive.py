@@ -1,9 +1,8 @@
 import pandas as pd
 from dsp_tools.xmllib import (
     LicenseRecommended,
-    Resource,
     ListLookup,
-    LicenseRecommended,
+    Resource,
     create_list_from_string,
 )
 
