@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import Permissions, Resource, create_label_to_name_list_node_mapping
+from dsp_tools.xmllib import ListLookup, Permissions, Resource
 
 from src.Helper_Scripts.cleaning_df_tools import create_list
 from src.Helper_Scripts.helper import make_cols_mapping_with_columns
@@ -16,10 +16,10 @@ def main() -> list[Resource]:
     book_df = pd.read_excel("data/Spreadsheet_Data/Book.xlsx", dtype="str")
 
     # create list mapping
-    keyword_labels_to_names = create_label_to_name_list_node_mapping(
+    list_lookup = ListLookup.create_new(
         project_json_path=path_to_json,
-        list_name="Keyword",
         language_of_label="en",
+        default_ontology="daschland",
     )
 
     # create mapping
@@ -31,8 +31,10 @@ def main() -> list[Resource]:
         permissions = Permissions.RESTRICTED
 
         keywords_names_raw = create_list(row["Keyword"])
-        keyword_names = [keyword_labels_to_names.get(x) for x in keywords_names_raw]
-        keyword_names_sorted = sorted([x for x in keyword_names if x])
+        keyword_names = [
+            list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw
+        ]
+        keyword_names = sorted(keyword_names)
 
         book = mapping_book_name[row["Book ID"]]
         audio_ids = create_list(row["Audio ID"])
@@ -62,7 +64,7 @@ def main() -> list[Resource]:
         resource.add_integer_optional(":hasChapterNumber", row["Chapter Number"])
         resource.add_uri_optional(":hasUrl", row["URL"])
         resource.add_richtext(":hasFullText", row["Full Text"])
-        resource.add_list_multiple(":hasKeywordList", "Keyword", keyword_names_sorted)
+        resource.add_list_multiple(":hasKeywordList", "Keyword", keyword_names)
         resource.add_link_multiple(":linkToAudio", audio_ids)
         resource.add_link_multiple(":linkToEvent", event_ids)
         resource.add_link_multiple(":linkToLocation", location_ids)
