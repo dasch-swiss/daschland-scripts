@@ -1,14 +1,14 @@
 import pandas as pd
 from dsp_tools.xmllib import (
+    LicenseRecommended,
     Resource,
     create_label_to_name_list_node_mapping,
-    LicenseRecommended,
     create_list_from_string,
 )
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"
@@ -26,7 +26,7 @@ def main():
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
         # define variables
-        license_name = license_labels_to_names.get(row["License List"])
+        license_name = license_labels_to_names[row["License List"]]
         authors = create_list_from_string(string=row["Authorship"], separator=",")
         copyright_stripped = row["Copyright"].split("\n")
         copyright_stripped = [c.strip() for c in copyright_stripped if c.strip()]

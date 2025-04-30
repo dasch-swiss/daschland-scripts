@@ -1,9 +1,10 @@
 import pandas as pd
 from dsp_tools import excel2xml
+
 from src.Helper_Scripts import helper_excel2xml
 from src.Helper_Scripts.image_helper import (
-    get_media_file_size,
     get_media_file_creation_time,
+    get_media_file_size,
 )
 
 
@@ -63,7 +64,7 @@ def main():
         if excel2xml.check_notna(row["Copyright"]):
             resource.append(excel2xml.make_text_prop("metadata:hasCopyright", row["Copyright"]))
         if excel2xml.check_notna(row["License List"]):
-            license_name = license_labels_to_names.get(row["License List"])
+            license_name = license_labels_to_names[row["License List"]]
             resource.append(excel2xml.make_list_prop("License", "metadata:hasLicenseList", license_name))
         if excel2xml.check_notna(row["Authorship"]):
             authorship = [x.strip() for x in row["Authorship"].split(",")]

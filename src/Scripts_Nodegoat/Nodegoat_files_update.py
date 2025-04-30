@@ -4,7 +4,7 @@ from src.Scripts_Nodegoat.Nodegoat_helper import (
 )
 
 
-def main():
+def main() -> None:
     archive_df_name = "Archive"
     update_multimedia_df(archive_df_name)
 

@@ -1,5 +1,6 @@
 import pandas as pd
 from dsp_tools import excel2xml
+
 from src.Helper_Scripts import helper_excel2xml
 
 
@@ -51,7 +52,7 @@ def main():
         if excel2xml.check_notna(row["Copyright"]):
             resource.append(excel2xml.make_text_prop(":hasCopyright", row["Copyright"]))
         if excel2xml.check_notna(row["License List"]):
-            license_name = license_labels_to_names.get(row["License List"])
+            license_name = license_labels_to_names[row["License List"]]
             resource.append(excel2xml.make_list_prop("License", ":hasLicenseList", license_name))
         if excel2xml.check_notna(row["Source"]):
             resource.append(excel2xml.make_uri_prop(":hasUrl", row["Source"]))
