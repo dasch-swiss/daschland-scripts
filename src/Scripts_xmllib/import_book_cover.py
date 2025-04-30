@@ -1,5 +1,6 @@
 import pandas as pd
 from dsp_tools.xmllib import (
+    LicenseRecommended,
     Resource,
     ListLookup,
     LicenseRecommended,
@@ -7,8 +8,8 @@ from dsp_tools.xmllib import (
 )
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"

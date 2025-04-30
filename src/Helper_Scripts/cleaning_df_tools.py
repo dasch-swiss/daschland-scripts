@@ -1,5 +1,7 @@
-import re
 import os
+import re
+from typing import Any
+
 import pandas as pd
 
 pd.set_option("mode.copy_on_write", True)
@@ -46,7 +48,7 @@ def replace_spaces_with_nan(df_replace_empty_with_nan: pd.DataFrame) -> pd.DataF
     # if it is not of the type string we get a type error
     # we create this function inside the function, as we take the regex as global variable
 
-    def check_string_for_nan(string_value):
+    def check_string_for_nan(string_value: str) -> str | pd._libs.missing.NAType:
         try:
             if empty_re.match(string_value):
                 return pd.NA
@@ -66,7 +68,7 @@ def remove_multiple_spaces_from_df(df_with_spaces: pd.DataFrame) -> pd.DataFrame
     # compile the regex
     empty_re = re.compile(r"^\s*$")
 
-    def remove_spaces(in_str):
+    def remove_spaces(in_str: str) -> str | pd._libs.missing.NAType:
         try:
             li = in_str.split(" ")
             li = [x for x in li if x != ""]
@@ -85,7 +87,7 @@ def remove_multiple_spaces_from_df(df_with_spaces: pd.DataFrame) -> pd.DataFrame
 
 
 def get_clean_list_images(image_list_unfiltered: list[str]) -> list[str]:
-    files_to_archive: dict = {}
+    files_to_archive: dict[str, str] = {}
 
     # first iteration for tif
     for image_unfiltered in image_list_unfiltered:
@@ -112,7 +114,7 @@ def get_clean_list_images(image_list_unfiltered: list[str]) -> list[str]:
     return image_list
 
 
-def create_list(input_value) -> list[str]:
+def create_list(input_value: Any) -> list[str]:
     if pd.isna(input_value):
         return []
     return [x.strip() for x in input_value.split(",")]

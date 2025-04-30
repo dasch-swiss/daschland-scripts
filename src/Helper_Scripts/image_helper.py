@@ -1,13 +1,14 @@
-from PIL import Image
-from PIL.ExifTags import TAGS
-from pathlib import Path
 import os
 from datetime import datetime
+from pathlib import Path
+from typing import Any, Optional
+
 from exiftool import ExifToolHelper
-from typing import Optional
+from PIL import Image
+from PIL.ExifTags import TAGS
 
 
-def get_image_creation_time(image_path) -> Optional[str]:
+def get_image_creation_time(image_path: str) -> Optional[str]:
     image_path = os.path.expanduser(image_path)
     # convert image_path into pathlib object:
     image_path_conform = Path(image_path)
@@ -16,7 +17,7 @@ def get_image_creation_time(image_path) -> Optional[str]:
     image = Image.open(image_path_conform)
 
     # Extract EXIF data
-    exif_data = image._getexif()  # type: ignore[attr-defined]
+    exif_data: dict[int, Any] = image._getexif()  # type: ignore[attr-defined]
     # If no EXIF data found
     if not exif_data:
         return None
@@ -33,7 +34,7 @@ def get_image_creation_time(image_path) -> Optional[str]:
         return None
 
 
-def _get_time_from_exif_data(exif_data):
+def _get_time_from_exif_data(exif_data: dict[int, str]) -> str | None:
     # Loop through the EXIF data to find the creation time
     for tag, value in exif_data.items():
         tag_name = TAGS.get(tag, tag)
@@ -41,9 +42,10 @@ def _get_time_from_exif_data(exif_data):
             return value
         else:
             continue
+    return None
 
 
-def _convert_creation_time_to_dsp_time(time):
+def _convert_creation_time_to_dsp_time(time: str) -> str | None:
     input_format = "%Y:%m:%d %H:%M:%S"
     output_format = "%Y-%m-%dT%H:%M:%S-00:00"
     try:
@@ -66,7 +68,7 @@ def get_media_file_creation_time(file_path: str) -> Optional[str]:
                 if key.endswith("CreateDate"):
                     return _convert_media_creation_time_to_dsp_time(value)
             return None
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 (Do not catch blind exceptions)
         print(f"Error processing file {file_path}: {e}")
         return None
 
@@ -87,7 +89,7 @@ def _convert_media_creation_time_to_dsp_time(time: str) -> str | None:
     return None
 
 
-def get_media_file_size(file_path: str) -> Optional[str]:
+def get_media_file_size(file_path: str) -> Optional[float]:
     with ExifToolHelper() as et:
         metadata_list = et.get_metadata(file_path)
         if metadata_list:
@@ -107,7 +109,7 @@ def get_media_file_size(file_path: str) -> Optional[str]:
         return None
 
 
-def _convert_bytes_to_mb(bytes_size):
+def _convert_bytes_to_mb(bytes_size: int) -> float:
     # 1 MB = 1024 * 1024 bytes
     megabytes_size = bytes_size / (1024 * 1024)
     return megabytes_size

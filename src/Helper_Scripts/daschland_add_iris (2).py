@@ -1,8 +1,9 @@
-from typing import Any
-from lxml import etree
-from pathlib import Path
 import json
 from copy import deepcopy
+from pathlib import Path
+from typing import Any
+
+from lxml import etree
 
 
 def main() -> None:
@@ -28,7 +29,7 @@ def _write_file(root: etree._Element) -> None:
 
 def _read_json_to_dic(inpath: Path) -> dict[str, Any]:
     with open(inpath) as json_file:
-        return json.load(json_file)
+        return json.load(json_file)  # type: ignore[no-any-return]
 
 
 def _read_xml_file_to_root_remove_comments(in_filepath_name: Path) -> etree._Element:

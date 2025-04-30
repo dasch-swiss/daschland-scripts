@@ -1,17 +1,17 @@
 import pandas as pd
 from dsp_tools.xmllib import (
-    Resource,
-    Permissions,
-    ListLookup,
-    create_list_from_string,
     LicenseRecommended,
+    ListLookup,
+    Permissions,
+    create_list_from_string,
 )
-from src.Helper_Scripts.image_helper import get_image_creation_time, get_media_file_size
+
 from src.Helper_Scripts.cleaning_df_tools import create_list
+from src.Helper_Scripts.image_helper import get_image_creation_time, get_media_file_size
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"
@@ -58,7 +58,7 @@ def main():
         # add properties to resource
         resource.add_simpletext(value=row["ID"], prop_name=":hasID")
         resource.add_time_optional(value=timestamp_value, prop_name=":hasTimeStamp")
-        resource.add_decimal(value=file_size_value, prop_name=":hasFileSize")
+        resource.add_decimal_optional(value=file_size_value, prop_name=":hasFileSize")
         resource.add_simpletext(":hasCopyright", row["Copyright"])
         resource.add_list(":hasLicenseList", "License", license_name)
         resource.add_simpletext(":hasFileName", row["File Name"])

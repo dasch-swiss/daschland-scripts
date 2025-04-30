@@ -1,10 +1,11 @@
 import pandas as pd
 from dsp_tools.xmllib import VideoSegmentResource
+
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
 
-def main():
-    all_segments = []
+def main() -> list[VideoSegmentResource]:
+    all_segments: list[VideoSegmentResource] = []
 
     # define dataframe
     video_segment_df = pd.read_excel("data/Spreadsheet_data/VideoSegment.xlsx")

@@ -1,10 +1,11 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, Permissions, ListLookup
+from dsp_tools.xmllib import ListLookup, Permissions, Resource
+
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"
@@ -54,7 +55,7 @@ def main():
         resource.add_simpletext(":hasName", row["Name"])
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_link_multiple(":linkToImage", image_ids)
-        resource.add_list(":hasEventTypeList", "Event Type", event_type)
+        resource.add_list_optional(":hasEventTypeList", "Event Type", event_type)
 
         # add properties for social event:
         resource.add_link_multiple(":linkToCharacter", guest_ids)

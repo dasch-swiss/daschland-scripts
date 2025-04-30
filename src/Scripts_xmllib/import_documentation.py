@@ -1,18 +1,19 @@
 import pandas as pd
 from dsp_tools.xmllib import (
-    Resource,
-    ListLookup,
     LicenseRecommended,
+    ListLookup,
+    Resource,
     create_list_from_string,
 )
+
 from src.Helper_Scripts.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
 )
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"

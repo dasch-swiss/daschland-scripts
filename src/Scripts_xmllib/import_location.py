@@ -1,10 +1,11 @@
 import pandas as pd
 from dsp_tools.xmllib import Resource
+
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define dataframe
     location_df = pd.read_excel("data/Spreadsheet_Data/Location.xlsx", dtype="str")

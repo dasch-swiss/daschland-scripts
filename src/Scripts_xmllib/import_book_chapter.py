@@ -2,10 +2,11 @@ import pandas as pd
 from dsp_tools.xmllib import Resource, ListLookup, Permissions
 from src.Helper_Scripts.helper import make_cols_mapping_with_columns
 from src.Helper_Scripts.cleaning_df_tools import create_list
+from src.Helper_Scripts.helper import make_cols_mapping_with_columns
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"
@@ -63,7 +64,7 @@ def main():
         resource.add_integer_optional(":hasChapterNumber", row["Chapter Number"])
         resource.add_uri_optional(":hasUrl", row["URL"])
         resource.add_richtext(":hasFullText", row["Full Text"])
-        resource.add_list_multiple(":hasKeywordList", "Keyword", keyword_names)
+        resource.add_list_multiple(":hasKeywordList", "Keyword", keyword_names_sorted)
         resource.add_link_multiple(":linkToAudio", audio_ids)
         resource.add_link_multiple(":linkToEvent", event_ids)
         resource.add_link_multiple(":linkToLocation", location_ids)

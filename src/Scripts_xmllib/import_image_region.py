@@ -2,8 +2,8 @@ import pandas as pd
 from dsp_tools.xmllib import RegionResource
 
 
-def main():
-    all_resources = []
+def main() -> list[RegionResource]:
+    all_resources: list[RegionResource] = []
 
     # define dataframe
     archive_df = pd.read_excel("data/Spreadsheet_data/Region.xlsx")

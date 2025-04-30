@@ -1,12 +1,13 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, ListLookup, Permissions
+from dsp_tools.xmllib import ListLookup, Permissions, Resource
 from dsp_tools.xmllib.helpers import create_footnote_string
+
 from src.Helper_Scripts.cleaning_df_tools import create_list
 from src.Helper_Scripts.helper import select_footnote_text
 
 
-def main():
-    all_resources = []
+def main() -> list[Resource]:
+    all_resources: list[Resource] = []
 
     # define json file path
     path_to_json = "daschland.json"
@@ -59,7 +60,7 @@ def main():
         resource.add_list_multiple(prop_name=":hasRoleList", list_name="Role", values=roles)
         resource.add_richtext_optional(":hasQuote", row["Quote"])
         resource.add_link_multiple(":linkToImage", image_ids)
-        resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names)
+        resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names_sorted)
 
         # append resource to list
         all_resources.append(resource)

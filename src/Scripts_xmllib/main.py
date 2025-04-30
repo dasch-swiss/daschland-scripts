@@ -1,6 +1,7 @@
 from dsp_tools.xmllib import XMLRoot
 from icecream import ic
 
+from src.Scripts_Nodegoat import Nodegoat_files_update
 
 # Import scripts
 # file names must not contain whitespaces
@@ -8,10 +9,10 @@ from src.Scripts_xmllib import (
     import_archive,
     import_audio,
     import_audio_segment,
+    import_book,
     import_book_chapter,
     import_book_cover,
     import_book_edition,
-    import_book,
     import_character,
     import_documentation,
     import_event,
@@ -23,10 +24,8 @@ from src.Scripts_xmllib import (
     import_video_segment,
 )
 
-from src.Scripts_Nodegoat import Nodegoat_files_update
 
-
-def main():
+def main() -> None:
     # create the root element dsp-tools
     root = XMLRoot.create_new(shortcode="0854", default_ontology="daschland")
 

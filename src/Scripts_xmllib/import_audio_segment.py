@@ -2,8 +2,8 @@ import pandas as pd
 from dsp_tools.xmllib import AudioSegmentResource
 
 
-def main():
-    all_segments = []
+def main() -> list[AudioSegmentResource]:
+    all_segments: list[AudioSegmentResource] = []
 
     # define dataframe
     audio_segment_df = pd.read_excel("data/Spreadsheet_data/AudioSegment.xlsx")
