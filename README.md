@@ -30,6 +30,12 @@ This will select an appropriate Python interpreter
 (or install it, if no suitable installation can be found).
 Then it will create a virtual environment, and install the dependencies.
 
+To execute the scripts, you'll also need [ExifTool](https://exiftool.org/):
+
+```bash
+brew install exiftool
+```
+
 
 ## Project Structure
 
