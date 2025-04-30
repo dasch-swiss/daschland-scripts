@@ -17,7 +17,7 @@ def get_image_creation_time(image_path: str) -> Optional[str]:
     image = Image.open(image_path_conform)
 
     # Extract EXIF data
-    exif_data: dict[str, Any] = image._getexif()  # type: ignore[attr-defined]
+    exif_data: dict[int, Any] = image._getexif()  # type: ignore[attr-defined]
     # If no EXIF data found
     if not exif_data:
         return None
@@ -34,7 +34,7 @@ def get_image_creation_time(image_path: str) -> Optional[str]:
         return None
 
 
-def _get_time_from_exif_data(exif_data: dict[str, str]) -> str | None:
+def _get_time_from_exif_data(exif_data: dict[int, str]) -> str | None:
     # Loop through the EXIF data to find the creation time
     for tag, value in exif_data.items():
         tag_name = TAGS.get(tag, tag)
@@ -45,7 +45,7 @@ def _get_time_from_exif_data(exif_data: dict[str, str]) -> str | None:
     return None
 
 
-def _convert_creation_time_to_dsp_time(time: str):
+def _convert_creation_time_to_dsp_time(time: str) -> str | None:
     input_format = "%Y:%m:%d %H:%M:%S"
     output_format = "%Y-%m-%dT%H:%M:%S-00:00"
     try:
@@ -89,7 +89,7 @@ def _convert_media_creation_time_to_dsp_time(time: str) -> str | None:
     return None
 
 
-def get_media_file_size(file_path: str) -> Optional[str]:
+def get_media_file_size(file_path: str) -> Optional[float]:
     with ExifToolHelper() as et:
         metadata_list = et.get_metadata(file_path)
         if metadata_list:
@@ -109,7 +109,7 @@ def get_media_file_size(file_path: str) -> Optional[str]:
         return None
 
 
-def _convert_bytes_to_mb(bytes_size):
+def _convert_bytes_to_mb(bytes_size: int) -> float:
     # 1 MB = 1024 * 1024 bytes
     megabytes_size = bytes_size / (1024 * 1024)
     return megabytes_size
