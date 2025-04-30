@@ -68,7 +68,7 @@ def get_media_file_creation_time(file_path: str) -> Optional[str]:
                 if key.endswith("CreateDate"):
                     return _convert_media_creation_time_to_dsp_time(value)
             return None
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 (Do not catch blind exceptions)
         print(f"Error processing file {file_path}: {e}")
         return None
 
