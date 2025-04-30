@@ -1,13 +1,14 @@
 import pandas as pd
 from dsp_tools.xmllib import (
-    Resource,
+    LicenseRecommended,
     Permissions,
+    Resource,
     create_label_to_name_list_node_mapping,
     create_list_from_string,
-    LicenseRecommended,
 )
-from src.Helper_Scripts.image_helper import get_image_creation_time, get_media_file_size
+
 from src.Helper_Scripts.cleaning_df_tools import create_list
+from src.Helper_Scripts.image_helper import get_image_creation_time, get_media_file_size
 
 
 def main() -> list[Resource]:
@@ -32,7 +33,7 @@ def main() -> list[Resource]:
         image_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_image_creation_time(image_path)
         file_size_value = get_media_file_size(image_path)
-        license_name = license_labels_to_names.get(row["License List"])
+        license_name = license_labels_to_names[row["License List"]]
         book_id = create_list(row["Book ID"])
         file_permissions = (
             Permissions.RESTRICTED_VIEW if row["Permission"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
@@ -60,7 +61,7 @@ def main() -> list[Resource]:
         resource.add_time_optional(value=timestamp_value, prop_name=":hasTimeStamp")
         resource.add_decimal_optional(value=file_size_value, prop_name=":hasFileSize")
         resource.add_simpletext(":hasCopyright", row["Copyright"])
-        resource.add_list_optional(":hasLicenseList", "License", license_name)
+        resource.add_list(":hasLicenseList", "License", license_name)
         resource.add_simpletext(":hasFileName", row["File Name"])
         resource.add_link_multiple(":isPartOfBook", book_id)
         resource.add_integer(":hasSeqnum", row["Seqnum"])

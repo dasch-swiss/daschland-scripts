@@ -1,10 +1,11 @@
 import pandas as pd
 from dsp_tools.xmllib import (
+    LicenseRecommended,
     Resource,
     create_label_to_name_list_node_mapping,
-    LicenseRecommended,
     create_list_from_string,
 )
+
 from src.Helper_Scripts.image_helper import get_media_file_creation_time
 
 
@@ -29,7 +30,7 @@ def main() -> list[Resource]:
         # define variables
         book_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_media_file_creation_time(book_path)
-        license_name = license_labels_to_names.get(row["License List"])
+        license_name = license_labels_to_names[row["License List"]]
         authors = create_list_from_string(string=row["Authorship"], separator=",")
 
         # create resource, label and id
@@ -49,7 +50,7 @@ def main() -> list[Resource]:
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_time_optional(":hasTimeStamp", timestamp_value)
         resource.add_simpletext(":hasCopyright", row["Copyright"])
-        resource.add_list_optional(":hasLicenseList", "License", license_name)
+        resource.add_list(":hasLicenseList", "License", license_name)
         resource.add_simpletext_multiple(":hasAuthorship", row["Authorship"])
 
         # append resource to list

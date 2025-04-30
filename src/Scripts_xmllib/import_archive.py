@@ -31,7 +31,7 @@ def main() -> list[Resource]:
         archive_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_media_file_creation_time(archive_path)
         file_size_value = get_media_file_size(archive_path)
-        license_name = license_labels_to_names.get(row["License List"])
+        license_name = license_labels_to_names[row["License List"]]
         authors = create_list_from_string(string=row["Authorship"], separator=",")
 
         # create resource, label and id
@@ -52,7 +52,7 @@ def main() -> list[Resource]:
         resource.add_time_optional("metadata:hasTimeStamp", timestamp_value)
         resource.add_decimal_optional("metadata:hasFileSize", file_size_value)
         resource.add_simpletext("metadata:hasCopyright", row["Copyright"])
-        resource.add_list_optional("metadata:hasLicenseList", "License", license_name)
+        resource.add_list("metadata:hasLicenseList", "License", license_name)
         resource.add_simpletext_multiple("metadata:hasAuthorship", row["Authorship"])
 
         # append resource to list

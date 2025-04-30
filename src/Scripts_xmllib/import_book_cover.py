@@ -1,8 +1,8 @@
 import pandas as pd
 from dsp_tools.xmllib import (
+    LicenseRecommended,
     Resource,
     create_label_to_name_list_node_mapping,
-    LicenseRecommended,
     create_list_from_string,
 )
 
@@ -26,7 +26,7 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
         # define variables
-        license_name = license_labels_to_names.get(row["License List"])
+        license_name = license_labels_to_names[row["License List"]]
         authors = create_list_from_string(string=row["Authorship"], separator=",")
         copyright_stripped = row["Copyright"].split("\n")
         copyright_stripped = [c.strip() for c in copyright_stripped if c.strip()]
@@ -48,7 +48,7 @@ def main() -> list[Resource]:
         resource.add_simpletext(":hasID", row["ID"])
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_simpletext(":hasCopyright", row["Copyright"])
-        resource.add_list_optional(":hasLicenseList", "License", license_name)
+        resource.add_list(":hasLicenseList", "License", license_name)
         resource.add_uri(":hasUrl", row["Source"])
         resource.add_simpletext_multiple(":hasAuthorship", row["Authorship"])
 
