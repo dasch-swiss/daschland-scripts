@@ -20,7 +20,7 @@ Install uv with:
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-Then you can get started with:
+Once you have cloned this repo, `cd` into it, and then get started with:
 
 ```bash
 uv sync
@@ -67,6 +67,6 @@ dsp-tools xmlupload -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xm
 ### Uploading Data to rdu-08 Test Server
 
 ```bash
-dsp-tools create -s https://app.rdu-08.dasch.swiss -u root@example.com -p 'xxxx' daschland.json
-dsp-tools xmlupload -s https://app.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
+dsp-tools create -s https://api.rdu-08.dasch.swiss -u root@example.com -p 'xxxx' daschland.json
+dsp-tools xmlupload -s https://api.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
 ```
