@@ -29,16 +29,45 @@ build-backend = "hatchling.build"
 packages = ["src"]
 
 
-[tool.ruff]
-line-length = 120
-
-
 [dependency-groups]
 dev = [
     "lxml-stubs>=0.5.1",
     "pandas-stubs>=2.2.3.250308",
     "types-lxml>=2025.3.30",
     "types-regex>=2024.11.6.20250403",
+]
+
+
+[tool.ruff]
+line-length = 120
+
+
+[tool.ruff.lint]
+select = [
+    "RUF",   # ruff-specific rules
+    "PL",    # pylint
+    "I",     # isort
+    "E",     # pycodestyle errors
+    "F",     # pyflakes
+    "A",     # flake8-builtins
+    "BLE",   # flake8-blind-except
+    "ARG",   # flake8-unused-arguments
+    "YTT",   # flake8-2020 plugin, which checks for misuse of `sys.version` or `sys.version_info`
+    "ISC",   # flake8-implicit-str-concat plugin, which checks for problematic string concatenation
+    "INP",   # flake8-no-pep420 plugin, which checks for missing __init__.py files
+    "PIE",   # flake8-pie plugin, which does miscellaneous checks
+    "PT",    # flake8-pytest-style plugin
+    "TID",   # flake8-tidy-imports plugin
+    "ICN",   # flake8-import-conventions plugin, which checks for import conventions
+    "PGH",   # pygrep-hooks: A collection of fast, cheap, regex based pre-commit hooks
+    "UP",    # pyupgrade
+    "B023",  # flake8-bugbear: function-uses-loop-variable
+]
+ignore = [
+    "UP007", # don't use Optional[X], Union[X, Y]
+    "UP015", # unnecessary mode argument
+    "PLR0912", # too many branches
+    "PLR0915", # too many statements
 ]
 
 

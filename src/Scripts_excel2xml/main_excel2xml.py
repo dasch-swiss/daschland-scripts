@@ -1,29 +1,28 @@
 from dsp_tools import excel2xml
 from icecream import ic
-from src.Helper_Scripts import helper_excel2xml
 
+from src.Helper_Scripts import helper_excel2xml
 
 # Import scripts
 # file names must not contain whitespaces
 from src.Scripts_excel2xml import (
-    import_documentation_excel2xml,
+    import_archive_excel2xml,
+    import_audio_excel2xml,
+    import_audio_segment_excel2xml,
+    import_book_chapter_excel2xml,
+    import_book_cover_excel2xml,
     import_book_edition_excel2xml,
+    import_book_excel2xml,
+    import_character_excel2xml,
+    import_documentation_excel2xml,
+    import_event_excel2xml,
+    import_image_excel2xml,
     import_image_region_excel2xml,
     import_location_excel2xml,
-    import_audio_segment_excel2xml,
-    import_book_excel2xml,
-    import_archive_excel2xml,
-    import_image_excel2xml,
-    import_book_cover_excel2xml,
-    import_character_excel2xml,
-    import_event_excel2xml,
-    import_book_chapter_excel2xml,
     import_material_excel2xml,
-    import_audio_excel2xml,
-    import_video_segment_excel2xml,
     import_video_excel2xml,
+    import_video_segment_excel2xml,
 )
-
 from src.Scripts_Nodegoat import Nodegoat_files_update
 
 

@@ -1,13 +1,14 @@
 import pandas as pd
 from dsp_tools.xmllib import (
+    LicenseRecommended,
     Resource,
     create_label_to_name_list_node_mapping,
-    LicenseRecommended,
     create_list_from_string,
 )
+
 from src.Helper_Scripts.image_helper import (
-    get_media_file_size,
     get_media_file_creation_time,
+    get_media_file_size,
 )
 
 
