@@ -29,6 +29,15 @@ build-backend = "hatchling.build"
 packages = ["src"]
 
 
+[dependency-groups]
+dev = [
+    "lxml-stubs>=0.5.1",
+    "pandas-stubs>=2.2.3.250308",
+    "types-lxml>=2025.3.30",
+    "types-regex>=2024.11.6.20250403",
+]
+
+
 [tool.ruff]
 line-length = 120
 
@@ -59,15 +68,6 @@ ignore = [
     "UP015", # unnecessary mode argument
     "PLR0912", # too many branches
     "PLR0915", # too many statements
-]
-
-
-[dependency-groups]
-dev = [
-    "lxml-stubs>=0.5.1",
-    "pandas-stubs>=2.2.3.250308",
-    "types-lxml>=2025.3.30",
-    "types-regex>=2024.11.6.20250403",
 ]
 
 
