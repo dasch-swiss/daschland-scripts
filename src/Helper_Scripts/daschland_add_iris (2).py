@@ -1,8 +1,9 @@
-from typing import Any
-from lxml import etree
-from pathlib import Path
 import json
 from copy import deepcopy
+from pathlib import Path
+from typing import Any
+
+from lxml import etree
 
 
 def main() -> None:

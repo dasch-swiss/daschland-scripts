@@ -1,5 +1,6 @@
-import re
 import os
+import re
+
 import pandas as pd
 
 pd.set_option("mode.copy_on_write", True)
