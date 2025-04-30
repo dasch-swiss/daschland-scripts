@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, Permissions, create_label_to_name_list_node_mapping
+from dsp_tools.xmllib import Resource, Permissions, ListLookup
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
 
@@ -13,8 +13,10 @@ def main():
     event_df = pd.read_excel("data/Spreadsheet_Data/Event.xlsx", dtype="str")
 
     # create mapping for lists
-    event_label_to_names = create_label_to_name_list_node_mapping(
-        project_json_path=path_to_json, list_name="Event Type", language_of_label="en"
+    list_lookup = ListLookup.create_new(
+        project_json_path=path_to_json,
+        language_of_label="en",
+        default_ontology="daschland",
     )
 
     # iterate through rows of dataframe:
@@ -24,7 +26,7 @@ def main():
         resource_label = row["Name"]
 
         image_ids = create_list(row["Image ID"])
-        event_type = event_label_to_names.get(row["Event Type List"])
+        event_type = list_lookup.get_node_via_list_name(list_name="Event Type", node_label=row["Event Type List"])
         guest_ids = create_list(row["Guest ID"])
         protagonist_ids = create_list(row["Protagonist ID"])
         adventure_character_ids = create_list(row["Adventure Character ID"])

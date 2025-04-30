@@ -1,7 +1,7 @@
 import pandas as pd
 from dsp_tools.xmllib import (
     Resource,
-    create_label_to_name_list_node_mapping,
+    ListLookup,
     LicenseRecommended,
     create_list_from_string,
 )
@@ -17,16 +17,16 @@ def main():
     book_df = pd.read_excel("data/Spreadsheet_Data/BookCover.xlsx", dtype="str")
 
     # create list mapping
-    license_labels_to_names = create_label_to_name_list_node_mapping(
+    list_lookup = ListLookup.create_new(
         project_json_path=path_to_json,
-        list_name="License",
         language_of_label="en",
+        default_ontology="daschland",
     )
 
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
         # define variables
-        license_name = license_labels_to_names.get(row["License List"])
+        license_name = list_lookup.get_node_via_list_name(node_label=row["License List"], list_name="License")
         authors = create_list_from_string(string=row["Authorship"], separator=",")
         copyright_stripped = row["Copyright"].split("\n")
         copyright_stripped = [c.strip() for c in copyright_stripped if c.strip()]

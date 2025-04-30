@@ -1,7 +1,7 @@
 import pandas as pd
 from dsp_tools.xmllib import (
     Resource,
-    create_label_to_name_list_node_mapping,
+    ListLookup,
     create_list_from_string,
     LicenseRecommended,
 )
@@ -22,10 +22,10 @@ def main():
     audio_df = pd.read_excel("data/Spreadsheet_Data/Audio.xlsx", dtype="str")
 
     # create list mapping
-    license_labels_to_names = create_label_to_name_list_node_mapping(
+    list_lookup = ListLookup.create_new(
         project_json_path=path_to_json,
-        list_name="License",
         language_of_label="en",
+        default_ontology="daschland",
     )
 
     # iterate through rows of dataframe:
@@ -34,7 +34,7 @@ def main():
         audio_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_media_file_creation_time(audio_path)
         file_size_value = get_media_file_size(audio_path)
-        license_name = license_labels_to_names.get(row["License List"])
+        license_name = list_lookup.get_node_via_list_name(node_label=row["License List"], list_name="License")
         authors = create_list_from_string(row["Authorship"], separator=", ")
 
         # create resource, label and id

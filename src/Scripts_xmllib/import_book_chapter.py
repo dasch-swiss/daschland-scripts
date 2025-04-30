@@ -1,5 +1,8 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, create_label_to_name_list_node_mapping, Permissions
+from dsp_tools.xmllib import (
+    Resource,
+    ListLookup,
+    Permissions)
 from src.Helper_Scripts.helper import make_cols_mapping_with_columns
 from src.Helper_Scripts.cleaning_df_tools import create_list
 
@@ -15,10 +18,10 @@ def main():
     book_df = pd.read_excel("data/Spreadsheet_Data/Book.xlsx", dtype="str")
 
     # create list mapping
-    keyword_labels_to_names = create_label_to_name_list_node_mapping(
+    list_lookup = ListLookup.create_new(
         project_json_path=path_to_json,
-        list_name="Keyword",
         language_of_label="en",
+        default_ontology="daschland",
     )
 
     # create mapping
@@ -30,7 +33,7 @@ def main():
         permissions = Permissions.RESTRICTED
 
         keywords_names_raw = create_list(row["Keyword"])
-        keyword_names = [keyword_labels_to_names.get(x) for x in keywords_names_raw]
+        keyword_names = [list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw]
         keyword_names = sorted(keyword_names)
 
         book = mapping_book_name[row["Book ID"]]

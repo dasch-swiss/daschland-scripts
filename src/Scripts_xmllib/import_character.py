@@ -1,5 +1,8 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource, Permissions, create_label_to_name_list_node_mapping
+from dsp_tools.xmllib import (
+    Resource,
+    ListLookup,
+    Permissions)
 from dsp_tools.xmllib.helpers import create_footnote_string
 from src.Helper_Scripts.cleaning_df_tools import create_list
 from src.Helper_Scripts.helper import select_footnote_text
@@ -15,10 +18,10 @@ def main():
     character_df = pd.read_excel("data/Spreadsheet_Data/Character.xlsx", dtype="str")
 
     # create list mapping
-    keyword_labels_to_names = create_label_to_name_list_node_mapping(
+    list_lookup = ListLookup.create_new(
         project_json_path=path_to_json,
-        list_name="Keyword",
         language_of_label="en",
+        default_ontology="daschland",
     )
 
     # iterate through rows of dataframe:
@@ -31,11 +34,7 @@ def main():
         image_ids = create_list(row["Image ID"])
 
         keywords_names_raw = create_list(row["Keyword"])
-        for keyword in keywords_names_raw:
-            if keyword not in keyword_labels_to_names:
-                print(f"Keyword {keyword} - {row['Name EN']} not found in the json file.")
-                continue
-        keyword_names = [keyword_labels_to_names.get(x) for x in keywords_names_raw]
+        keyword_names = [list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw]
         keyword_names = sorted(keyword_names)
         description_raw = row["Description"]
         footnote_text = select_footnote_text(description_raw)
