@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import Permissions, Resource, create_label_to_name_list_node_mapping
+from dsp_tools.xmllib import ListLookup, Permissions, Resource
 from dsp_tools.xmllib.helpers import create_footnote_string
 
 from src.Helper_Scripts.cleaning_df_tools import create_list
@@ -16,10 +16,10 @@ def main() -> list[Resource]:
     character_df = pd.read_excel("data/Spreadsheet_Data/Character.xlsx", dtype="str")
 
     # create list mapping
-    keyword_labels_to_names = create_label_to_name_list_node_mapping(
+    list_lookup = ListLookup.create_new(
         project_json_path=path_to_json,
-        list_name="Keyword",
         language_of_label="en",
+        default_ontology="daschland",
     )
 
     # iterate through rows of dataframe:
@@ -32,12 +32,10 @@ def main() -> list[Resource]:
         image_ids = create_list(row["Image ID"])
 
         keywords_names_raw = create_list(row["Keyword"])
-        for keyword in keywords_names_raw:
-            if keyword not in keyword_labels_to_names:
-                print(f"Keyword {keyword} - {row['Name EN']} not found in the json file.")
-                continue
-        keyword_names = [keyword_labels_to_names.get(x) for x in keywords_names_raw]
-        keyword_names_sorted = sorted([x for x in keyword_names if x])
+        keyword_names = [
+            list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw
+        ]
+        keyword_names = sorted(keyword_names)
         description_raw = row["Description"]
         footnote_text = select_footnote_text(description_raw)
         if footnote_text:
@@ -62,7 +60,7 @@ def main() -> list[Resource]:
         resource.add_list_multiple(prop_name=":hasRoleList", list_name="Role", values=roles)
         resource.add_richtext_optional(":hasQuote", row["Quote"])
         resource.add_link_multiple(":linkToImage", image_ids)
-        resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names_sorted)
+        resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names)
 
         # append resource to list
         all_resources.append(resource)

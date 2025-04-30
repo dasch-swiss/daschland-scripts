@@ -16,48 +16,48 @@
         <allow group="ProjectMember">D</allow>
         <allow group="ProjectAdmin">CR</allow>
     </permissions>
-    <authorship id="authorship_26979c6b-b840-40b0-8285-9d09cfdd3bbf">
-        <author>John Tenniel</author>
-        <author>Lewis Carroll</author>
-    </authorship>
-    <authorship id="authorship_a306ee2e-6a1d-40ea-bd04-441a06cced76">
-        <author>David Goldfarb (Book Coordinator</author>
-        <author>Editor)</author>
-        <author>Elizabeth Klett (Meta Coordinator)</author>
-        <author>Lewis Carroll (Text)</author>
-    </authorship>
-    <authorship id="authorship_504ccc40-680a-46b1-b1d9-3647229d98c5">
+    <authorship id="authorship_576652cb-a71a-4b8f-a3f3-a7e1a64e7d9f">
         <author>Lewis Carroll</author>
         <author>Peter Newell</author>
     </authorship>
-    <authorship id="authorship_43b25d17-a727-4cb4-ac16-1f08c6f6de60">
-        <author>Daniela Subotic</author>
-        <author>Noémi Villars</author>
-    </authorship>
-    <authorship id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">
-        <author>John Tenniel</author>
-    </authorship>
-    <authorship id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">
-        <author>Lewis Carroll</author>
-    </authorship>
-    <authorship id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">
-        <author>Daniela Subotic</author>
-        <author>Noémi Villars-Amberg</author>
-    </authorship>
-    <authorship id="authorship_5109de81-999c-4b33-94c5-5b6251961d01">
-        <author>Noémi Villars-Amberg</author>
-    </authorship>
-    <authorship id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">
+    <authorship id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">
         <author>Arielle Lipshaw (Editor)</author>
         <author>Elizabeth Klett (Meta Coordinator &amp; Editor)</author>
         <author>Lewis Carroll (Text)</author>
         <author>Lucy Perry (Book Coordinator)</author>
     </authorship>
-    <authorship id="authorship_e84de8da-7155-4fd1-adeb-a6af7ffaa391">
+    <authorship id="authorship_c76ec9d1-54d3-4780-ae07-c352d4bd7ed2">
+        <author>Noémi Villars-Amberg</author>
+    </authorship>
+    <authorship id="authorship_3bef6058-3a2a-4403-a4f6-ab3f64100e8d">
+        <author>John Tenniel</author>
+        <author>Lewis Carroll</author>
+    </authorship>
+    <authorship id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">
+        <author>John Tenniel</author>
+    </authorship>
+    <authorship id="authorship_15cd00f5-10ab-49fb-85fc-75fbe46055d5">
         <author>W.W. Young (direction and screenplay)</author>
     </authorship>
+    <authorship id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">
+        <author>Lewis Carroll</author>
+    </authorship>
+    <authorship id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">
+        <author>Daniela Subotic</author>
+        <author>Noémi Villars-Amberg</author>
+    </authorship>
+    <authorship id="authorship_6626f12e-f32d-4eb6-89c4-d418ccd88f22">
+        <author>David Goldfarb (Book Coordinator</author>
+        <author>Editor)</author>
+        <author>Elizabeth Klett (Meta Coordinator)</author>
+        <author>Lewis Carroll (Text)</author>
+    </authorship>
+    <authorship id="authorship_119c6f72-fc75-4d9f-95f0-1f2803f65951">
+        <author>Daniela Subotic</author>
+        <author>Noémi Villars</author>
+    </authorship>
     <resource label="Spreadsheet_Data.zip" id="AR_001" restype="metadata:Archive">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_43b25d17-a727-4cb4-ac16-1f08c6f6de60">data/Multimedia_Data/Archive/Spreadsheet_Data.zip</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_119c6f72-fc75-4d9f-95f0-1f2803f65951">data/Multimedia_Data/Archive/Spreadsheet_Data.zip</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">AR_001</text>
         </text-prop>
@@ -81,7 +81,7 @@
         </text-prop>
     </resource>
     <resource label="Dramatis Personae" id="A_01" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_00.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_00.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_01</text>
         </text-prop>
@@ -113,7 +113,7 @@
         </text-prop>
     </resource>
     <resource label="Down the Rabbit-Hole" id="A_02" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_01.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_01.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_02</text>
         </text-prop>
@@ -145,7 +145,7 @@
         </text-prop>
     </resource>
     <resource label="The Pool of Tears" id="A_03" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_02.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_02.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_03</text>
         </text-prop>
@@ -177,7 +177,7 @@
         </text-prop>
     </resource>
     <resource label="A Caucus-Race and Long Tale" id="A_04" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_03.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_03.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_04</text>
         </text-prop>
@@ -209,7 +209,7 @@
         </text-prop>
     </resource>
     <resource label="The Rabbit Sends in a Little Bill" id="A_05" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_04.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_04.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_05</text>
         </text-prop>
@@ -241,7 +241,7 @@
         </text-prop>
     </resource>
     <resource label="Advice From a Caterpillar" id="A_06" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_05.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_05.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_06</text>
         </text-prop>
@@ -273,7 +273,7 @@
         </text-prop>
     </resource>
     <resource label="Pig and Pepper" id="A_07" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_06.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_06.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_07</text>
         </text-prop>
@@ -305,7 +305,7 @@
         </text-prop>
     </resource>
     <resource label="The Mad Tea-Party" id="A_08" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_07.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_07.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_08</text>
         </text-prop>
@@ -337,7 +337,7 @@
         </text-prop>
     </resource>
     <resource label="The Queen's Croquet-Ground" id="A_09" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_08.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_08.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_09</text>
         </text-prop>
@@ -369,7 +369,7 @@
         </text-prop>
     </resource>
     <resource label="The Mock Turtle's Story" id="A_10" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_09.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_09.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_10</text>
         </text-prop>
@@ -401,7 +401,7 @@
         </text-prop>
     </resource>
     <resource label="The Lobster Quadrille" id="A_11" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_10.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_10.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_11</text>
         </text-prop>
@@ -433,7 +433,7 @@
         </text-prop>
     </resource>
     <resource label="Who Stole the Tarts?" id="A_12" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_11.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_11.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_12</text>
         </text-prop>
@@ -465,7 +465,7 @@
         </text-prop>
     </resource>
     <resource label="Alice's Evidence" id="A_13" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_aliceinwonderland_12.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_aliceinwonderland_12.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_13</text>
         </text-prop>
@@ -497,7 +497,7 @@
         </text-prop>
     </resource>
     <resource label="Dramatis Personae" id="A_14" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a306ee2e-6a1d-40ea-bd04-441a06cced76">data/Multimedia_Data/Audio/AUD_throughthelookingglass_00.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6626f12e-f32d-4eb6-89c4-d418ccd88f22">data/Multimedia_Data/Audio/AUD_throughthelookingglass_00.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_14</text>
         </text-prop>
@@ -527,7 +527,7 @@
         </text-prop>
     </resource>
     <resource label="Looking-Glass House" id="A_15" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_ebd16752-756d-4a74-8bc9-3b13acc044a8">data/Multimedia_Data/Audio/AUD_throughthelookingglass_01.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_85a55fb1-4c1a-47b0-9276-cc8c84af6633">data/Multimedia_Data/Audio/AUD_throughthelookingglass_01.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_15</text>
         </text-prop>
@@ -557,7 +557,7 @@
         </text-prop>
     </resource>
     <resource label="The Garden of Live Flowers" id="A_16" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">data/Multimedia_Data/Audio/AUD_throughthelookingglass_02.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">data/Multimedia_Data/Audio/AUD_throughthelookingglass_02.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_16</text>
         </text-prop>
@@ -584,7 +584,7 @@
         </text-prop>
     </resource>
     <resource label="Looking-Glass Insects" id="A_17" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">data/Multimedia_Data/Audio/AUD_throughthelookingglass_03.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">data/Multimedia_Data/Audio/AUD_throughthelookingglass_03.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_17</text>
         </text-prop>
@@ -611,7 +611,7 @@
         </text-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" id="A_18" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">data/Multimedia_Data/Audio/AUD_throughthelookingglass_04.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">data/Multimedia_Data/Audio/AUD_throughthelookingglass_04.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_18</text>
         </text-prop>
@@ -638,7 +638,7 @@
         </text-prop>
     </resource>
     <resource label="Wool and Water" id="A_19" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">data/Multimedia_Data/Audio/AUD_throughthelookingglass_05.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">data/Multimedia_Data/Audio/AUD_throughthelookingglass_05.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_19</text>
         </text-prop>
@@ -665,7 +665,7 @@
         </text-prop>
     </resource>
     <resource label="Humpty Dumpty" id="A_20" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">data/Multimedia_Data/Audio/AUD_throughthelookingglass_06.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">data/Multimedia_Data/Audio/AUD_throughthelookingglass_06.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_20</text>
         </text-prop>
@@ -692,7 +692,7 @@
         </text-prop>
     </resource>
     <resource label="The Lion and the Unicorn" id="A_21" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">data/Multimedia_Data/Audio/AUD_throughthelookingglass_07.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">data/Multimedia_Data/Audio/AUD_throughthelookingglass_07.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_21</text>
         </text-prop>
@@ -719,7 +719,7 @@
         </text-prop>
     </resource>
     <resource label="It's my own Invention" id="A_22" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">data/Multimedia_Data/Audio/AUD_throughthelookingglass_08.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">data/Multimedia_Data/Audio/AUD_throughthelookingglass_08.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_22</text>
         </text-prop>
@@ -746,7 +746,7 @@
         </text-prop>
     </resource>
     <resource label="Queen Alice, Shaking and Waking" id="A_23" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">data/Multimedia_Data/Audio/AUD_throughthelookingglass_09.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">data/Multimedia_Data/Audio/AUD_throughthelookingglass_09.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_23</text>
         </text-prop>
@@ -773,7 +773,7 @@
         </text-prop>
     </resource>
     <resource label="Which Dreamed it?" id="A_24" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">data/Multimedia_Data/Audio/AUD_throughthelookingglass_10.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">data/Multimedia_Data/Audio/AUD_throughthelookingglass_10.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_24</text>
         </text-prop>
@@ -963,7 +963,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice's adventures in Wonderland, 1928" id="BCO_001" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No known restrictions; no copyright renewal found, Jul 24 2019" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_25:alicesadventures00carr_25_0001/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No known restrictions; no copyright renewal found, Jul 24 2019" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_25:alicesadventures00carr_25_0001/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasID">
             <text encoding="utf8">BCO_001</text>
         </text-prop>
@@ -984,7 +984,7 @@
         </text-prop>
     </resource>
     <resource label="Alice's adventures in Wonderland, 1916" id="BCO_002" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No information." authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">https://tile.loc.gov/image-services/iiif/service:gdc:gdclccn:16:01:47:24:16014724:0001/full/pct:100/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No information." authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">https://tile.loc.gov/image-services/iiif/service:gdc:gdclccn:16:01:47:24:16014724:0001/full/pct:100/0/default.jpg</iiif-uri>
         <text-prop name=":hasID">
             <text encoding="utf8">BCO_002</text>
         </text-prop>
@@ -1005,7 +1005,7 @@
         </text-prop>
     </resource>
     <resource label="Alice in Wonderland; a dramatization of Lewis Carroll's &quot;Alice's adventures in Wonderland&quot; and &quot;Through the looking glass,&quot;" id="BCO_003" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aliceinwonderlan00gers:aliceinwonderlan00gers_0011/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aliceinwonderlan00gers:aliceinwonderlan00gers_0011/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasID">
             <text encoding="utf8">BCO_003</text>
         </text-prop>
@@ -1028,7 +1028,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice's adventures in Wonderland and Through the looking-glass, 1921" id="BCO_004" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_23:alicesadventures00carr_23_0011/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_23:alicesadventures00carr_23_0011/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasID">
             <text encoding="utf8">BCO_004</text>
         </text-prop>
@@ -1051,7 +1051,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Through the looking glass, 1913" id="BCO_005" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_2:throughlookinggl00carr_2_0001/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_2:throughlookinggl00carr_2_0001/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasID">
             <text encoding="utf8">BCO_005</text>
         </text-prop>
@@ -1074,7 +1074,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Through the looking-glass and what Alice found there, 1900" id="BCO_006" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_3:throughlookinggl00carr_3_0009/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_3:throughlookinggl00carr_3_0009/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasID">
             <text encoding="utf8">BCO_006</text>
         </text-prop>
@@ -1097,7 +1097,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Through the looking-glass, and what Alice found there, 1899" id="BCO_007" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_5b121a92-574b-4b44-af5b-0397c0da78d6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_4:throughlookinggl00carr_4_0001/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_a25b9afe-20b7-4c88-af57-593e5a5890d3">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_4:throughlookinggl00carr_4_0001/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasID">
             <text encoding="utf8">BCO_007</text>
         </text-prop>
@@ -1120,7 +1120,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="BE_Alice_in_Wonderland.pdf" id="BE_001" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="BookVirtual Corp. U.S. Patent Pending." authorship-id="authorship_26979c6b-b840-40b0-8285-9d09cfdd3bbf">data/Multimedia_Data/Book/BE_Alice_in_Wonderland.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="BookVirtual Corp. U.S. Patent Pending." authorship-id="authorship_3bef6058-3a2a-4403-a4f6-ab3f64100e8d">data/Multimedia_Data/Book/BE_Alice_in_Wonderland.pdf</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">BE_001</text>
         </text-prop>
@@ -1144,7 +1144,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="BE_Through_the_Looking_Glass.pdf" id="BE_002" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_504ccc40-680a-46b1-b1d9-3647229d98c5">data/Multimedia_Data/Book/BE_Through_the_Looking_Glass.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_576652cb-a71a-4b8f-a3f3-a7e1a64e7d9f">data/Multimedia_Data/Book/BE_Through_the_Looking_Glass.pdf</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">BE_002</text>
         </text-prop>
@@ -1168,7 +1168,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="BE_throughlooking00carr.pdf" id="BE_003" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_26979c6b-b840-40b0-8285-9d09cfdd3bbf">data/Multimedia_Data/Book/BE_throughlooking00carr.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_3bef6058-3a2a-4403-a4f6-ab3f64100e8d">data/Multimedia_Data/Book/BE_throughlooking00carr.pdf</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">BE_003</text>
         </text-prop>
@@ -1192,7 +1192,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="BE_adventuresalices00carrrich.pdf" id="BE_004" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_504ccc40-680a-46b1-b1d9-3647229d98c5">data/Multimedia_Data/Book/BE_adventuresalices00carrrich.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_576652cb-a71a-4b8f-a3f3-a7e1a64e7d9f">data/Multimedia_Data/Book/BE_adventuresalices00carrrich.pdf</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">BE_004</text>
         </text-prop>
@@ -1216,7 +1216,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="BE_alicesadventur00carr.pdf" id="BE_005" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_26979c6b-b840-40b0-8285-9d09cfdd3bbf">data/Multimedia_Data/Book/BE_alicesadventur00carr.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_3bef6058-3a2a-4403-a4f6-ab3f64100e8d">data/Multimedia_Data/Book/BE_alicesadventur00carr.pdf</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">BE_005</text>
         </text-prop>
@@ -1239,7 +1239,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Lewis Carroll, John Tenniel</text>
         </text-prop>
     </resource>
-    <resource label="Alice in Wonderland - Poem: “All in the golden afternoon”" id="BCH_001" restype=":BookChapter">
+    <resource label="Alice in Wonderland - Chapter nan - Poem: “All in the golden afternoon”" id="BCH_001" restype=":BookChapter">
         <text-prop name=":hasID">
             <text encoding="utf8">BCH_001</text>
         </text-prop>
@@ -1284,7 +1284,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Down the Rabbit-Hole</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice is sitting with her sister on the riverbank when, out of the blue, a White Rabbit appears. He is wearing a waistcoat and is busy taking a watch out of it, muttering to himself, 'Oh dear! Oh dear! I shall be late!'.<br/>Alice can't help but feel intrigued, and follows him down his rabbit-hole.The rabbit-hole suddenly goes straight down, and Alice falls into it. She falls very slowly, and while she is talking to herself, she falls asleep. But then, out of the blue, she lands on a heap of sticks and dry leaves, and the fall is over.She sees the White Rabbit running in front of her through a long passage, and she just has to follow him.When she turns the corner, the Rabbit is gone, and Alice finds herself in a long, low hall with doors all around it.She tries them, but they are all locked.Then she comes upon a little three-legged table on which a little golden key lies. The key fits in a little door behind a curtain, and when she opens it, she is delighted to see that it leads into a small passage.At the end of the passage, Alice sees a beautiful garden she really wants to get into, but she is too big to fit through the door.When she goes back to the table, she finds a little bottle on it with the words 'Drink me' printed on the label.Alice drinks from it and starts shrinking until she is only ten inches high. She's finally got the right size to fit through the door, but it's still locked! She's left the little golden key on the table, but it's too high to reach.<br/>She starts crying, but then she sees a small glass box under the table. On the box is a cake with the words 'Eat me' written on it. She hopes that eating the cake will make her grow or shrink too, so she eats it.</text>
+            <text encoding="xml">Alice is sitting with her sister on the riverbank when, out of the blue, a White Rabbit appears. He is wearing a waistcoat and is busy taking a watch out of it, muttering to himself, 'Oh dear! Oh dear! I shall be late!'.<br/>Alice can't help but feel intrigued, and follows him down his rabbit-hole.The rabbit-hole suddenly goes straight down, and Alice falls into it. She falls very slowly, and while she is talking to herself, she falls asleep. But then, out of the blue, she lands on a heap of sticks and dry leaves, and the fall is over.She sees the White Rabbit running in front of her through a long passage, and she just has to follow him.When she turns the corner, the Rabbit is gone, and Alice finds herself in a long, low hall with doors all around it.She tries them, but they are all locked.Then she comes upon a little three-legged table on which a little golden key lies. The key fits in a little door behind a curtain, and when she opens it, she is delighted to see that it leads into a small passage.At the end of the passage, Alice sees a beautiful garden she really wants to get into, but she is too big to fit through the door.When she goes back to the table, she finds a little bottle on it with the words 'Drink me' printed on the label.Alice drinks from it and starts shrinking until she is only ten inches high. She's finally got the right size to fit through the door, but it's still locked! She's left the little golden key on the table, but it's too high to reach.<br/>She starts crying, but then she sees a small glass box under the table. On the box is a cake with the words 'Eat me' written on it. She hopes that eating the cake will make her grow or shrink too, so she eats it.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">Alice was not your ordinary girl; she had a keen sense of adventure and a bright, inquisitive mind. <br/>One sunny afternoon, while wandering near the edge of her town, she stumbled upon a peculiar rabbit hole, shimmering with an array of colors that hinted at something magical beyond the ordinary.</text>
@@ -1375,7 +1375,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">The Pool of Tears</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice grows and grows until she's as big as the ceiling.Now she can get the key from the table, but she's too big to fit through the door, so she cries and makes a big puddle on the floor.The White Rabbit comes back, looking really nice and carrying a pair of white kid gloves and a big fan. Alice asks the rabbit for help, but the rabbit is so scared that he drops the gloves and fan and runs away.Alice picks them up and starts fanning herself while she wonders what has made this day so different from every other.She decides that she must have been changed into another girl in the night, as she can't remember her multiplication tables or geography correctly and isn't able to recite a poem properly.</text>
+            <text encoding="xml">Alice grows and grows until she's as big as the ceiling.Now she can get the key from the table, but she's too big to fit through the door, so she cries and makes a big puddle on the floor.The White Rabbit comes back, looking really nice and carrying a pair of white kid gloves and a big fan. Alice asks the rabbit for help, but the rabbit is so scared that he drops the gloves and fan and runs away.Alice picks them up and starts fanning herself while she wonders what has made this day so different from every other.She decides that she must have been changed into another girl in the night, as she can't remember her multiplication tables or geography correctly and isn't able to recite a poem properly.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">Compelled by her adventurous spirit, Alice leaned in closer to examine the hole. Suddenly, she found herself tumbling down into an extraordinary place called DaSCHland. <br/>This wasn't just any wonderland; it was a world powered by the innovative company DaSCH, known for its remarkable technology and whimsical inventions, and importantly, as a repository for research data in the humanities.</text>
@@ -1450,7 +1450,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">A Caucus-Race and a long Tale</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">to be completed</text>
+            <text encoding="xml">to be completed</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">As Alice landed softly on a bed of clouds, she was greeted by a talking robot named RabbIT. <br/>RabbIT, with its glowing red eyes and sleek silver body, was unlike any creature Alice had ever seen. <br/>"Welcome to DaSCHland," it beeped warmly. "Here, our dreams become realities, and our curiosities fuel our creations."</text>
@@ -1591,7 +1591,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">The Rabbit sends in a little Bill</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">The fanning makes her shrink again until she's only two feet tall.She tries to get in, but the door's still locked and the key's still lying on the table.Then she slips and falls into her own pool of tears.She meets a mouse who fell in too, but she scares him when she starts talking about her cat Dinah and a dog. He says he'll tell her why he hates cats and dogs, and they swim to the shore, taking other creatures that fell into the pool with them.</text>
+            <text encoding="xml">The fanning makes her shrink again until she's only two feet tall.She tries to get in, but the door's still locked and the key's still lying on the table.Then she slips and falls into her own pool of tears.She meets a mouse who fell in too, but she scares him when she starts talking about her cat Dinah and a dog. He says he'll tell her why he hates cats and dogs, and they swim to the shore, taking other creatures that fell into the pool with them.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">Eager to explore, Alice followed RabbIT through a landscape where trees had digital screens for leaves displaying fantastical images and data streamed across the sky like shooting stars. <br/>They passed houses that changed shape and color at the occupants' whims and gardens where flowers sang melodies in harmony.</text>
@@ -1679,7 +1679,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Advice from a Caterpillar</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice meets a Caterpillar who gives her cryptic advice and a mushroom that can change her size. Alice experiments with the mushroom and adjusts her size.</text>
+            <text encoding="xml">Alice meets a Caterpillar who gives her cryptic advice and a mushroom that can change her size. Alice experiments with the mushroom and adjusts her size.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">Their first stop was the Tea Time Café, where a Mad Hatter, an eccentric inventor in DaSCHland, served tea that could make one shrink or grow. <br/>Alice sipped a cup marked "Grow" and instantly stretched taller than the trees. Amused and a bit startled, she laughed, marveling at the wonders of DaSCHland.</text>
@@ -1808,7 +1808,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Pig and Pepper</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice visits the Duchess's house, where she encounters a chaotic scene involving the Duchess, a baby that turns into a pig, and the grinning Cheshire Cat, who tells her about the Mad Hatter and the March Hare.</text>
+            <text encoding="xml">Alice visits the Duchess's house, where she encounters a chaotic scene involving the Duchess, a baby that turns into a pig, and the grinning Cheshire Cat, who tells her about the Mad Hatter and the March Hare.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">Next, they visited the Queen of Hearts, who was not a queen of cards but a brilliant engineer leading the Hearts Division, specializing in creating technologies that connected emotions with devices. <br/>The Queen showed Alice a mirror that didn't just reflect one's image but also displayed one’s innermost feelings and thoughts.</text>
@@ -1944,7 +1944,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">A Mad Tea-Party</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice attends a nonsensical tea party with the Mad Hatter, the March Hare, and the Dormouse. <br/>The characters engage in illogical conversations and absurd behavior, frustrating Alice.</text>
+            <text encoding="xml">Alice attends a nonsensical tea party with the Mad Hatter, the March Hare, and the Dormouse. <br/>The characters engage in illogical conversations and absurd behavior, frustrating Alice.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">As the day turned to dusk, RabbIT led Alice to the Grand Library, a vast, spiraling tower filled with books that whispered their stories aloud, eager to be heard. <br/>Here, Alice learned the history of DaSCHland, how it was built by dreamers and thinkers, innovators and creators, all powered by the visionary company DaSCH, dedicated to bringing humanities data to life.</text>
@@ -2096,7 +2096,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">The Queen’s Croquet-Ground</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice enters the Queen's garden and witnesses the playing cards painting white roses red. <br/>She meets the Queen of Hearts, who invites her to play a bizarre game of croquet with flamingos and hedgehogs.</text>
+            <text encoding="xml">Alice enters the Queen's garden and witnesses the playing cards painting white roses red. <br/>She meets the Queen of Hearts, who invites her to play a bizarre game of croquet with flamingos and hedgehogs.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">But soon, the sky darkened, and a soft voice whispered that it was time for Alice to return to her world. Reluctantly, Alice followed RabbIT back to the rabbit hole. <br/>"You must return, but remember that DaSCHland is always here, waiting for your return. Keep dreaming and wondering," RabbIT said as Alice climbed out of the hole.</text>
@@ -2216,7 +2216,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">The Mock Turtle’s Story</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">The Queen orders Alice to visit the Mock Turtle. Accompanied by the Gryphon, Alice listens to the Mock Turtle's sad story and learns the Lobster Quadrille dance.</text>
+            <text encoding="xml">The Queen orders Alice to visit the Mock Turtle. Accompanied by the Gryphon, Alice listens to the Mock Turtle's sad story and learns the Lobster Quadrille dance.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In a room lit by a soft, ocean-like glow, Alice stood with RabbitIT, her robotic guide in Daschland. <br/>They activated a hologram of the Mock Turtle, brought to life by DaSCH, a vast repository of historical data. <br/>The Turtle shared his tale of an underwater school, his voice echoing in the simulated sea, with subjects like Reeling, Writhing, and humorous Arithmetic courses—Ambition, Distraction, Uglification, and Derision.<br/>
@@ -2362,7 +2362,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">The Lobster Quadrille</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">The Mock Turtle and the Gryphon perform the Lobster Quadrille dance. <br/>Alice is asked to recite a poem but instead recites a nonsensical version of "Father William."</text>
+            <text encoding="xml">The Mock Turtle and the Gryphon perform the Lobster Quadrille dance. <br/>Alice is asked to recite a poem but instead recites a nonsensical version of "Father William."</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In DaSCHland, Alice and her robotic guide RabbitIT, ventured to a digital beach, orchestrated by the DaSCH repository, to learn about the "Lobster Quadrille." RabbitIT activated a holographic display, where sea creatures performed the intricate dance, synchronized perfectly through the archive's historical data.<br/>
@@ -2490,7 +2490,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Who stole the Tarts?</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice attends a trial where the Knave of Hearts is accused of stealing the Queen's tarts. <br/>The proceedings are absurd, with nonsensical evidence and witnesses.</text>
+            <text encoding="xml">Alice attends a trial where the Knave of Hearts is accused of stealing the Queen's tarts. <br/>The proceedings are absurd, with nonsensical evidence and witnesses.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In DaSCHland, Alice and her guide RabbitIT entered a virtual courtroom where the Knave of Hearts was on trial for stealing tarts, all recreated through the DaSCH repository. The courtroom, filled with holographic characters from classic tales, buzzed with the drama of the King and Queen of Hearts presiding over the proceedings.<br/>
@@ -2610,7 +2610,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Alice’s Evidence</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice is called as a witness in the trial. She grows larger and larger, challenges the absurdity of the court, and finally, wakes up to find herself back on the riverbank with her sister, realizing it was all a dream.</text>
+            <text encoding="xml">Alice is called as a witness in the trial. She grows larger and larger, challenges the absurdity of the court, and finally, wakes up to find herself back on the riverbank with her sister, realizing it was all a dream.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">Back in her world, the adventure seemed like a dream. <br/>Yet, in her pocket was a small, glowing stone, a token from DaSCHland. <br/>Alice smiled, knowing that her journey had been real and that she would one day return to the wondrous realm of DaSCHland, where dreams and the rich tapestry of humanities research were just the beginning.</text>
@@ -2731,7 +2731,7 @@ Credit Line: Library of Congress</text>
             <resptr>EV_036</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Dramatis Personae and chessboard" id="BCH_014" restype=":BookChapter">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Dramatis Personae and chessboard" id="BCH_014" restype=":BookChapter">
         <text-prop name=":hasID">
             <text encoding="utf8">BCH_014</text>
         </text-prop>
@@ -2762,7 +2762,7 @@ Credit Line: Library of Congress</text>
             <resptr>A_14</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Preface" id="BCH_015" restype=":BookChapter">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Preface" id="BCH_015" restype=":BookChapter">
         <text-prop name=":hasID">
             <text encoding="utf8">BCH_015</text>
         </text-prop>
@@ -2792,7 +2792,7 @@ Credit Line: Library of Congress</text>
             <list>K_019</list>
         </list-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Poem: “Child of the pure unclouded brow”" id="BCH_016" restype=":BookChapter">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Poem: “Child of the pure unclouded brow”" id="BCH_016" restype=":BookChapter">
         <text-prop name=":hasID">
             <text encoding="utf8">BCH_016</text>
         </text-prop>
@@ -2841,7 +2841,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Looking-Glass House</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice is playing with her kittens and wonders what it would be like to step through the mirror (looking-glass). <br/>She finds herself in the Looking-Glass House, where everything is reversed. She explores the house and encounters animated chess pieces.</text>
+            <text encoding="xml">Alice is playing with her kittens and wonders what it would be like to step through the mirror (looking-glass). <br/>She finds herself in the Looking-Glass House, where everything is reversed. She explores the house and encounters animated chess pieces.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In DaSCHland, Alice, guided by her robotic companion RabbitIT, encountered a mirror in her virtual home. Unlike any ordinary mirror, this one served as a portal within the DaSCH system, leading to a reversed world.<br/>
@@ -2938,7 +2938,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">The Garden of Live Flowers</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice leaves the house and enters a garden filled with talking flowers. <br/>She meets the Red Queen, who explains that the land is laid out like a giant chessboard. The Red Queen guides Alice on how she can become a queen by moving through the different squares of the chessboard.</text>
+            <text encoding="xml">Alice leaves the house and enters a garden filled with talking flowers. <br/>She meets the Red Queen, who explains that the land is laid out like a giant chessboard. The Red Queen guides Alice on how she can become a queen by moving through the different squares of the chessboard.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In DaSCHland, guided by RabbitIT, Alice entered a digital garden crafted by the DaSCH repository. Here, she encountered talking flowers, each with dialogues derived from literary texts. The flowers humorously critiqued Alice's appearance and engaged in light chatter about their existence as digital entities.<br/>
@@ -3074,7 +3074,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Looking-Glass Insects</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice moves through the Woods where things have no names and meets a fawn. Both forget their identities while in the wood. <br/>Upon exiting the wood, the fawn realizes Alice is a human and runs away in fear.</text>
+            <text encoding="xml">Alice moves through the Woods where things have no names and meets a fawn. Both forget their identities while in the wood. <br/>Upon exiting the wood, the fawn realizes Alice is a human and runs away in fear.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In the imaginative domain of DaSCHland, Alice, guided by RabbitIT, ventured into a section of the virtual world where the flora and fauna were inspired by the DaSCH repository's literary data on "Looking-Glass Insects." These insects, unlike any found in the natural world, exhibited peculiar behaviors and appearances, reminiscent of characters from a storybook.<br/>
@@ -3211,7 +3211,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Tweedledum and Tweedledee</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice meets the twin brothers Tweedledum and Tweedledee, who engage in a series of absurd arguments and recite the poem "The Walrus and the Carpenter."<br/>They are about to fight but are interrupted by a giant crow.</text>
+            <text encoding="xml">Alice meets the twin brothers Tweedledum and Tweedledee, who engage in a series of absurd arguments and recite the poem "The Walrus and the Carpenter."<br/>They are about to fight but are interrupted by a giant crow.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In DaSCHland, Alice, accompanied by RabbitIT, stumbled upon the twins, digital recreations powered by the DaSCH repository. In a whimsical setting, the twins recited the poem "The Walrus and the Carpenter," their voices animated with the theatrical flair stored in the database.<br/>
@@ -3368,7 +3368,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Wool and Water</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice encounters the White Queen, who lives backwards in time. <br/>She then finds herself in a boat with the Sheep, who runs a shop. <br/>Alice experiences a series of rapid and confusing changes in setting, from a shop to a river and back.</text>
+            <text encoding="xml">Alice encounters the White Queen, who lives backwards in time. <br/>She then finds herself in a boat with the Sheep, who runs a shop. <br/>Alice experiences a series of rapid and confusing changes in setting, from a shop to a river and back.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In the heart of DaSCHland, Alice, guided by RabbitIT, met the White Queen, a character brought to life by the DaSCH repository's detailed programming. In a serene, mirrored glade, the Queen explained the peculiar, backward logic that governed Looking-Glass Land.<br/>
@@ -3533,7 +3533,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Humpty Dumpty</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice meets Humpty Dumpty, who sits on a wall. They discuss language and meaning. Humpty Dumpty explains his interpretation of various words and poems before falling off the wall, just as in the nursery rhyme.</text>
+            <text encoding="xml">Alice meets Humpty Dumpty, who sits on a wall. They discuss language and meaning. Humpty Dumpty explains his interpretation of various words and poems before falling off the wall, just as in the nursery rhyme.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In DaSCHland, Alice found herself before Humpty Dumpty, seated precariously on a digital wall created by DaSCH. With RabbitIT by her side, she listened intently as Humpty Dumpty embarked on a quirky explanation of words, twisting meanings in his unique, whimsical fashion.<br/>
@@ -3722,7 +3722,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">The Lion and the Unicorn</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice enters a town and witnesses a battle between the Lion and the Unicorn for the crown. <br/>The White King is there, and Alice is asked to cut the Lion and Unicorn a cake.</text>
+            <text encoding="xml">Alice enters a town and witnesses a battle between the Lion and the Unicorn for the crown. <br/>The White King is there, and Alice is asked to cut the Lion and Unicorn a cake.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In the virtual landscape of DaSCHland, Alice, guided by RabbitIT, came upon a grand spectacle—a battle between the Lion and the Unicorn, both majestic creatures rendered from the extensive databases of DaSCH. The conflict was over a digital crown, symbolizing power and rule within this part of the literary world.<br/>
@@ -3873,7 +3873,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">“It’s my own Invention”</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice meets the White Knight, who helps her cross a brook into the eighth square, where she becomes a queen. <br/>The White Knight shares his various inventions with Alice before they part ways.</text>
+            <text encoding="xml">Alice meets the White Knight, who helps her cross a brook into the eighth square, where she becomes a queen. <br/>The White Knight shares his various inventions with Alice before they part ways.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In DaSCHland, Alice was escorted by the White Knight, a creation animated from DaSCH's vast repository. As they journeyed together, the Knight shared stories of his quirky inventions, each displayed vividly by RabbitIT through interactive simulations.<br/>
@@ -4041,7 +4041,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Queen Alice</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice becomes a queen and attends a chaotic dinner party with the Red and White Queens. The party is filled with nonsensical events and surreal occurrences. <br/>Alice struggles to maintain order among the guests.</text>
+            <text encoding="xml">Alice becomes a queen and attends a chaotic dinner party with the Red and White Queens. The party is filled with nonsensical events and surreal occurrences. <br/>Alice struggles to maintain order among the guests.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">Upon reaching the eighth square in DaSCHland, Alice was transformed into a queen and welcomed to a bizarre banquet, crafted by the DaSCH repository's digital magic. The banquet hall was filled with surreal, animated dishes and eccentric guests, where even the food engaged in conversation.<br/>
@@ -4237,7 +4237,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Shaking</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">The chaos at the dinner party escalates. Alice seizes the Red Queen, who transforms into her kitten. <br/>The surreal events start to break apart as Alice begins to wake up.</text>
+            <text encoding="xml">The chaos at the dinner party escalates. Alice seizes the Red Queen, who transforms into her kitten. <br/>The surreal events start to break apart as Alice begins to wake up.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">In the whimsical world of DaSCHland, Alice engaged in a nonsensical conversation with the Red and White Queens, characters brought to vibrant life by the DaSCH repository. Their dialogue twisted logic and language in playful, perplexing ways.<br/>
@@ -4279,7 +4279,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Waking</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">Alice wakes up to find herself back at home, holding her black kitten. She realizes that her adventure in the looking-glass world was just a dream.</text>
+            <text encoding="xml">Alice wakes up to find herself back at home, holding her black kitten. She realizes that her adventure in the looking-glass world was just a dream.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">As the banquet in DaSCHland grew increasingly chaotic, Alice found herself overwhelmed by the surreal antics of the guests and the peculiar, animated dishes. Her patience worn thin, she reached out in frustration and grabbed the Red Queen. In a moment of digital magic typical of DaSCHland, powered by the creative algorithms of the DaSCH repository, the Red Queen transformed into a kitten in Alice's arms.<br/>
@@ -4310,7 +4310,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">Which dreamed it?</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text comment="nan" encoding="xml">The final chapter reflects on the nature of Alice's dream and the curious question of whether it was Alice dreaming of the looking-glass world or the characters in the looking-glass world dreaming of Alice.</text>
+            <text encoding="xml">The final chapter reflects on the nature of Alice's dream and the curious question of whether it was Alice dreaming of the looking-glass world or the characters in the looking-glass world dreaming of Alice.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="restricted" encoding="xml">Alice awoke from the chaotic banquet to find herself not in DaSCHland, but in her own room, with a kitten purring on her lap. The digital world of quirky characters and surreal transformations had all been a vivid dream. This realization brought a comforting end to her whimsical journey, blurring the lines between fantasy and reality as she greeted the calm of her familiar surroundings.</text>
@@ -4361,7 +4361,7 @@ Credit Line: Library of Congress</text>
             <resptr>EV_024</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Poem: “A boat beneath a sunny sky”" id="BCH_029" restype=":BookChapter">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Poem: “A boat beneath a sunny sky”" id="BCH_029" restype=":BookChapter">
         <text-prop name=":hasID">
             <text encoding="utf8">BCH_029</text>
         </text-prop>
@@ -4494,9 +4494,9 @@ Credit Line: Library of Congress</text>
         </text-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">weißes Kaninchen</text>
-            <text encoding="utf8">Coniglio bianco</text>
             <text encoding="utf8">White Rabbit</text>
             <text encoding="utf8">Lapin blanc</text>
+            <text encoding="utf8">Coniglio bianco</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The White Rabbit is a nervous, hurried character who serves as Alice’s initial guide into Wonderland.<br/>He is first seen checking his pocket watch and exclaiming, “Oh dear! Oh dear! I shall be late!” before disappearing down the rabbit hole.<br/>He works as a servant for the Queen of Hearts and is terrified of her temper.<br/>He mistakes Alice for his housemaid, Mary Ann, in Chapter 4 and panics when she grows giant inside his house.<br/>
@@ -4535,9 +4535,9 @@ Credit Line: Library of Congress</text>
         </text-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">Caterpillar</text>
-            <text encoding="utf8">Chenille</text>
-            <text encoding="utf8">Raupe</text>
             <text encoding="utf8">Bruco</text>
+            <text encoding="utf8">Raupe</text>
+            <text encoding="utf8">Chenille</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Caterpillar is a calm, philosophical, and slightly rude blue creature who smokes a hookah while speaking with Alice.<br/>He questions Alice’s identity, repeatedly asking, “Who are you?”, which confuses her.<br/>He gives cryptic advice, telling Alice that eating different parts of a mushroom will make her grow or shrink.<br/>
@@ -4571,9 +4571,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_004</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">verrückter Hutmacher</text>
             <text encoding="utf8">Chapelier fou</text>
             <text encoding="utf8">Cappellaio Matto</text>
+            <text encoding="utf8">verrückter Hutmacher</text>
             <text encoding="utf8">Mad Hatter</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -4617,9 +4617,9 @@ Credit Line: Library of Congress</text>
         </text-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">Chat du Cheshire</text>
-            <text encoding="utf8">Cheshire Cat</text>
             <text encoding="utf8">Stregatto</text>
             <text encoding="utf8">Grinzekatze</text>
+            <text encoding="utf8">Cheshire Cat</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Cheshire Cat is a mischievous, grinning cat who gives philosophical advice to Alice.<br/>He has the ability to disappear and reappear at will, sometimes leaving only his grin behind.<br/>He guides Alice, explaining the madness of Wonderland and telling her “We’re all mad here.”<br/>He later appears at the Queen’s croquet game, where his floating head confuses the King and Queen of Hearts.<br/>He serves as a guide for Alice, offering riddles and cryptic advice but never direct answers.<br/>
@@ -4657,10 +4657,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_006</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Reine de cœur</text>
-            <text encoding="utf8">Queen of Hearts</text>
-            <text encoding="utf8">Herzkönigin</text>
             <text encoding="utf8">Regina di cuori</text>
+            <text encoding="utf8">Herzkönigin</text>
+            <text encoding="utf8">Queen of Hearts</text>
+            <text encoding="utf8">Reine de cœur</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Queen of Hearts is the ruler of Wonderland, known for her explosive temper and frequent orders of “Off with their heads!”<br/>She is tyrannical, irrational, and quick to anger, though her executions are never actually carried out (likely because the King of Hearts quietly pardons everyone).<br/>She hosts a chaotic croquet game, where flamingos are used as mallets and hedgehogs as balls.<br/>
@@ -4699,8 +4699,8 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_007</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">March Hare</text>
             <text encoding="utf8">Märzhasen</text>
+            <text encoding="utf8">March Hare</text>
             <text encoding="utf8">Lepre Marzolina</text>
             <text encoding="utf8">Lièvre de mars</text>
         </text-prop>
@@ -4734,10 +4734,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_008</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Duchess</text>
-            <text encoding="utf8">Duchessa</text>
-            <text encoding="utf8">Duchesse</text>
             <text encoding="utf8">Herzogin</text>
+            <text encoding="utf8">Duchesse</text>
+            <text encoding="utf8">Duchessa</text>
+            <text encoding="utf8">Duchess</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Duchess is an eccentric, ugly, and unpredictable noblewoman who lives in a chaotic house filled with pepper that makes everyone sneeze.<br/>She has a violent cook, an abused baby (who later turns into a pig), and a tendency to spout moral lessons in a forced, nonsensical way.<br/>She later reappears, acting overly friendly toward Alice, contradicting her earlier harsh behavior.</text>
@@ -4772,9 +4772,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_009</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Mock Turtle</text>
-            <text encoding="utf8">Simili Tortue</text>
             <text encoding="utf8">Finta tartaruga</text>
+            <text encoding="utf8">Simili Tortue</text>
+            <text encoding="utf8">Mock Turtle</text>
             <text encoding="utf8">Schildkrötensupperich</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -4920,8 +4920,8 @@ Credit Line: Library of Congress</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Weisser Ritter</text>
             <text encoding="utf8">White Knight</text>
-            <text encoding="utf8">Cavaliere bianco</text>
             <text encoding="utf8">Cavalier blanc</text>
+            <text encoding="utf8">Cavaliere bianco</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The White Knight is a chess piece from the White side who rescues Alice from the Red Knight, following the rules of chess.<br/>He is depicted as kind, gentle, and absent-minded, constantly falling off his horse due to his clumsiness.<br/>He carries odd inventions, such as a beehive on a stick and anklets to keep sharks away, showcasing his quirky creativity.<br/>Before Alice moves on to become a Queen, he escorts her to the last square, saying a poetic farewell.<br/>
@@ -4960,10 +4960,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_014</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text encoding="utf8">Topo</text>
             <text encoding="utf8">Mouse</text>
             <text encoding="utf8">Souris</text>
             <text encoding="utf8">Maus</text>
-            <text encoding="utf8">Topo</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Mouse is one of the creatures that fall into the pool of tears Alice creates when she grows too large.<br/>It is easily offended, especially when Alice mentions her cat, Dinah, which frightens the Mouse.<br/>To dry off, the Mouse tells a “dry” history lesson about William the Conqueror, but it is so boring that no one listens.<br/>It participates in the Caucus Race, a nonsensical race where everyone wins.</text>
@@ -5034,10 +5034,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_016</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Alice's sister</text>
-            <text encoding="utf8">Sorella di Alice</text>
             <text encoding="utf8">Alices Schwester</text>
             <text encoding="utf8">Sœur d'Alice</text>
+            <text encoding="utf8">Alice's sister</text>
+            <text encoding="utf8">Sorella di Alice</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">She is an unnamed older sister of Alice, present at the beginning and end of the story.<br/>At the start, she sits with Alice by the riverbank, reading a book with “no pictures or conversations,” which bores Alice and leads her to daydream about Wonderland.<br/>At the end, after Alice wakes up from her dream, her sister gently sends her home and reflects on Alice’s adventures, imagining that Alice will one day grow up but still retain her childlike wonder.<br/>
@@ -5066,9 +5066,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_017</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">King of Hearts</text>
-            <text encoding="utf8">Roi de cœur</text>
             <text encoding="utf8">Re di cuori</text>
+            <text encoding="utf8">Roi de cœur</text>
+            <text encoding="utf8">King of Hearts</text>
             <text encoding="utf8">Herzkönig</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -5103,10 +5103,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_018</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Ghiro</text>
-            <text encoding="utf8">Siebenschläfer</text>
-            <text encoding="utf8">Loir</text>
             <text encoding="utf8">Dormouse</text>
+            <text encoding="utf8">Loir</text>
+            <text encoding="utf8">Siebenschläfer</text>
+            <text encoding="utf8">Ghiro</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Dormouse is a sleepy, drowsy creature who sits between the Mad Hatter and the March Hare at the tea party.<br/>He constantly falls asleep mid-conversation and has to be poked or shaken awake by the others.<br/>He tells a bizarre story about three sisters (Elsie, Lacie, and Tillie) who live at the bottom of a treacle well and only eat treacle.<br/>At one point, Alice picks him up and puts him into a teapot, though he escapes later.</text>
@@ -5139,10 +5139,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_019</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Knave of Hearts</text>
             <text encoding="utf8">Herzbube</text>
             <text encoding="utf8">Valet de cœur</text>
             <text encoding="utf8">Fante di cuori</text>
+            <text encoding="utf8">Knave of Hearts</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Knave is a servant of the Queen of Hearts, accused of stealing the Queen’s tarts.<br/>He is put on trial in a ridiculous courtroom scene, presided over by the King of Hearts.<br/>Although the evidence against him is absurd and nonsensical, the Queen still demands his execution.<br/>Before the trial can conclude, Alice grows larger and disrupts the proceedings, leading to the scene’s chaotic ending.</text>
@@ -5200,10 +5200,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_021</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Duck</text>
             <text encoding="utf8">Canard</text>
-            <text encoding="utf8">Ente</text>
             <text encoding="utf8">Anatra</text>
+            <text encoding="utf8">Ente</text>
+            <text encoding="utf8">Duck</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Duck is one of the animals that fall into the pool of tears with Alice.<br/>It participates in the Caucus Race, a nonsensical event where everyone wins.<br/>
@@ -5346,10 +5346,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_026</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Ciciarampa</text>
-            <text encoding="utf8">Jabberwock</text>
             <text encoding="utf8">Jammerwoch</text>
+            <text encoding="utf8">Jabberwock</text>
             <text encoding="utf8">Jaseroque</text>
+            <text encoding="utf8">Ciciarampa</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Jabberwock is a fictional monster featured in the poem “Jabberwocky,” which appears in Through the Looking-Glass.<br/>
@@ -5385,10 +5385,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_027</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Bill the lizard</text>
-            <text encoding="utf8">Bill le lézard</text>
             <text encoding="utf8">Bill la lucertola</text>
+            <text encoding="utf8">Bill le lézard</text>
             <text encoding="utf8">Bill die Eidechse</text>
+            <text encoding="utf8">Bill the lizard</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Bill is a lizard who works as a handyman or chimney sweep for the White Rabbit.<br/>the White Rabbit calls him to help remove Alice from his house after she grows too large and gets stuck inside.<br/>He later reappears briefly as one of the jurors during the trial</text>
@@ -5416,9 +5416,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_028</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text encoding="utf8">Puppy</text>
             <text encoding="utf8">Cucciolo</text>
             <text encoding="utf8">Welpe</text>
-            <text encoding="utf8">Puppy</text>
             <text encoding="utf8">Chiot</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -5448,9 +5448,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_029</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Taube</text>
             <text encoding="utf8">Pigeon</text>
             <text encoding="utf8">Piccione</text>
+            <text encoding="utf8">Taube</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The pigeon appears in Alice’s Adventures in Wonderland.<br/>
@@ -5480,10 +5480,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_030</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Frog-Footman</text>
             <text encoding="utf8">Valetto Rana</text>
             <text encoding="utf8">Frosch-Lakai</text>
             <text encoding="utf8">Laquais-grenouille</text>
+            <text encoding="utf8">Frog-Footman</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Frog Footman appears in the first book, Alice’s Adventures in Wonderland. He is a servant delivering a letter from the Queen of Hearts to the Duchess. <br/>
@@ -5517,10 +5517,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_031</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Fisch-Lakai</text>
-            <text encoding="utf8">Fish-Footman</text>
             <text encoding="utf8">Laquais-poisson</text>
+            <text encoding="utf8">Fisch-Lakai</text>
             <text encoding="utf8">Valletto Pesce</text>
+            <text encoding="utf8">Fish-Footman</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Fish-Footman appears in Alice’s Adventures in Wonderland.<br/>He is seen delivering an invitation from the Queen of Hearts to the Duchess.<br/>
@@ -5552,10 +5552,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_032</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Bambino / maiale</text>
             <text encoding="utf8">Baby / Ferkel</text>
-            <text encoding="utf8">Bébé / cochon</text>
+            <text encoding="utf8">Bambino / maiale</text>
             <text encoding="utf8">Baby / pig</text>
+            <text encoding="utf8">Bébé / cochon</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Baby who later turns into a Pig appears in Alice’s Adventures in Wonderland.<br/>The baby belongs to the Duchess and is crying uncontrollably. The Duchess hands the baby to Alice, who tries to comfort it as she leaves the house. <br/>However, as Alice carries the baby, it gradually transforms into a pig, causing her to put it down and watch it trot off into the woods. </text>
@@ -5587,10 +5587,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_033</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text encoding="utf8">Cuisinière</text>
+            <text encoding="utf8">Köchin</text>
             <text encoding="utf8">Cook</text>
             <text encoding="utf8">Cuoco</text>
-            <text encoding="utf8">Köchin</text>
-            <text encoding="utf8">Cuisinière</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Cook in Alice’s Adventures in Wonderland works for the Duchess. <br/>
@@ -5621,9 +5621,9 @@ Credit Line: Library of Congress</text>
         </text-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">Elsie, Lacie and Tillie</text>
+            <text encoding="utf8">Elsie, Lacie und Tillie</text>
             <text encoding="utf8">Elsie, Lacie e Tillie</text>
             <text encoding="utf8">Elsie, Lacie et Tillie</text>
-            <text encoding="utf8">Elsie, Lacie und Tillie</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Elsie, Lacie, and Tillie appear in Through the Looking-Glass. They are the three sisters sitting in a well, mentioned during the story of “The Walrus and the Carpenter”.</text>
@@ -5649,10 +5649,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_035</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Fünf, Sieben und Zwei</text>
             <text encoding="utf8">Cinque, Sette e Due</text>
-            <text encoding="utf8">Cinq, Sept et Deux</text>
             <text encoding="utf8">Five, Seven and Two</text>
+            <text encoding="utf8">Cinq, Sept et Deux</text>
+            <text encoding="utf8">Fünf, Sieben und Zwei</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Five, Seven, and Two are the playing-card gardeners who appear in Alice’s Adventures in Wonderland.<br/>
@@ -5688,9 +5688,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_036</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text encoding="utf8">Flamingos and hedgehogs</text>
             <text encoding="utf8">Flamants roses et hérissons</text>
             <text encoding="utf8">Fenicotteri e ricci</text>
-            <text encoding="utf8">Flamingos and hedgehogs</text>
             <text encoding="utf8">Flamingos und Igel</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -5725,9 +5725,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_037</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Jurors</text>
-            <text encoding="utf8">Juroren</text>
             <text encoding="utf8">Jurés</text>
+            <text encoding="utf8">Juroren</text>
+            <text encoding="utf8">Jurors</text>
             <text encoding="utf8">Giurati</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -5762,10 +5762,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_038</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Père William</text>
             <text encoding="utf8">Father William</text>
-            <text encoding="utf8">Padre William</text>
             <text encoding="utf8">Vater William</text>
+            <text encoding="utf8">Padre William</text>
+            <text encoding="utf8">Père William</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Father William appears in Alice’s Adventures in Wonderland. The character comes from a parody poem that Alice recites.<br/>
@@ -5792,10 +5792,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_039</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Aragosta</text>
             <text encoding="utf8">Homard</text>
             <text encoding="utf8">Lobster</text>
             <text encoding="utf8">Hummer</text>
+            <text encoding="utf8">Aragosta</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The lobster plays a key role in Alice’s Adventures in Wonderland.<br/>The Lobster Quadrille is a whimsical dance described by the Gryphon and the Mock Turtle, who try to teach it to Alice.<br/>
@@ -5819,9 +5819,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_040</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Chaton noir</text>
-            <text encoding="utf8">Gattino nero</text>
             <text encoding="utf8">Schwarzes Kätzchen</text>
+            <text encoding="utf8">Gattino nero</text>
+            <text encoding="utf8">Chaton noir</text>
             <text encoding="utf8">Black kitten</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -5847,10 +5847,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_041</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Chessmen</text>
-            <text encoding="utf8">Scacchista</text>
-            <text encoding="utf8">Hommes d'échecs</text>
             <text encoding="utf8">Schachfiguren</text>
+            <text encoding="utf8">Hommes d'échecs</text>
+            <text encoding="utf8">Scacchista</text>
+            <text encoding="utf8">Chessmen</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The chessmen play a central role in Through the Looking-Glass, where the entire story is structured like a chess game. The characters in the Looking-Glass world correspond to pieces on a chessboard, and Alice herself is a pawn who aims to become a queen by the end of the game.</text>
@@ -5872,10 +5872,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_042</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">White King</text>
             <text encoding="utf8">Weisser King</text>
-            <text encoding="utf8">Re bianco</text>
+            <text encoding="utf8">White King</text>
             <text encoding="utf8">Roi blanc</text>
+            <text encoding="utf8">Re bianco</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The White King is a character in Through the Looking-Glass and represents a chess piece on the White side of the board. <br/>He is a comically confused and somewhat bumbling figure who often appears overwhelmed by the events around him.</text>
@@ -5903,10 +5903,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_043</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Lys tigré et autres fleurs</text>
-            <text encoding="utf8">Giglio tigrato e altri fiori</text>
-            <text encoding="utf8">Tigerlilie und andere Blumen</text>
             <text encoding="utf8">Tiger-Lily and other flowers</text>
+            <text encoding="utf8">Lys tigré et autres fleurs</text>
+            <text encoding="utf8">Tigerlilie und andere Blumen</text>
+            <text encoding="utf8">Giglio tigrato e altri fiori</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Talking flowers appear in Through the Looking-Glass. In the Looking-Glass world, the flowers in the garden are alive and can speak, each having their own personality.<br/>
@@ -5935,9 +5935,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_044</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Tweedledum and Tweedledee</text>
             <text encoding="utf8">Tweedledum und Tweedledee</text>
             <text encoding="utf8">Tweedledum et Tweedledee</text>
+            <text encoding="utf8">Tweedledum and Tweedledee</text>
             <text encoding="utf8">Pinco Pallino e Pinco Pallino</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -5968,10 +5968,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_045</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Walrus</text>
-            <text encoding="utf8">Tricheco</text>
             <text encoding="utf8">Morse</text>
+            <text encoding="utf8">Tricheco</text>
             <text encoding="utf8">Walross</text>
+            <text encoding="utf8">Walrus</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Walrus appears in Through the Looking-Glass in the poem "The Walrus and the Carpenter", recited by the Tweedledum and Tweedledee.<br/>The Walrus and the Carpenter walk along a beach and meet a bed of young, innocent oysters.<br/>They persuade the oysters to come with them for a walk, under the pretense of a pleasant outing. The oysters follow along, unaware that the Walrus and Carpenter plan to eat them. In the end, the Walrus devours a large number of oysters, while the Carpenter complains that there aren’t any left for him.<br/>
@@ -5999,9 +5999,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_046</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Charpentier</text>
             <text encoding="utf8">Zimmermann</text>
             <text encoding="utf8">Carpenter</text>
+            <text encoding="utf8">Charpentier</text>
             <text encoding="utf8">Falegname</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -6031,9 +6031,9 @@ Credit Line: Library of Congress</text>
         </text-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">Red King</text>
+            <text encoding="utf8">Roter King</text>
             <text encoding="utf8">Re Rosso</text>
             <text encoding="utf8">Roi rouge</text>
-            <text encoding="utf8">Roter King</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Red King is characteristic of the king in such a Chessgame in that he has all of the pieces on his side available to perform the work for him.<br/>Alice encounters the Red King while he is fast asleep under a tree. Tweedledum and Tweedledee point him out and explain that the Red King is dreaming, and in his dream, Alice is just a character.<br/>They tell her that if he were to wake up, she would “go out—bang!—just like a candle,” implying that her existence in the Looking-Glass world is dependent on his dream.</text>
@@ -6059,10 +6059,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_048</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Roter Ritter</text>
             <text encoding="utf8">Red Knight</text>
-            <text encoding="utf8">Cavaliere Rosso</text>
+            <text encoding="utf8">Roter Ritter</text>
             <text encoding="utf8">Cavalier rouge</text>
+            <text encoding="utf8">Cavaliere Rosso</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Red Knight appears in Through the Looking-Glass. He is a chess piece on the Red side and serves as an obstacle for Alice during her journey across the chessboard.<br/>
@@ -6090,10 +6090,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_049</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Regina bianca</text>
+            <text encoding="utf8">Weisse Königin</text>
             <text encoding="utf8">Reine blanche</text>
             <text encoding="utf8">White Queen</text>
-            <text encoding="utf8">Weisse Königin</text>
+            <text encoding="utf8">Regina bianca</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The White Queen appears in Through the Looking-Glass. <br/>She is a quirky, absent-minded, and often nonsensical character. The White Queen lives backwards in time, due to the fact that she lives through the eponymous looking glass. <br/>Her behaviour is odd to Alice.</text>
@@ -6121,8 +6121,8 @@ Credit Line: Library of Congress</text>
         </text-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">White Kitten</text>
-            <text encoding="utf8">Chaton blanc</text>
             <text encoding="utf8">Gattino bianco</text>
+            <text encoding="utf8">Chaton blanc</text>
             <text encoding="utf8">Weisses Kätzchen</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -6149,10 +6149,10 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_051</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Gnat</text>
             <text encoding="utf8">Märzhasen</text>
-            <text encoding="utf8">Moucheron</text>
             <text encoding="utf8">Moscerino</text>
+            <text encoding="utf8">Gnat</text>
+            <text encoding="utf8">Moucheron</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Gnat is a talking insect that accompanies Alice during her journey through the Looking-Glass world, providing a mix of whimsical conversation and humorous observations.<br/>
@@ -6174,9 +6174,9 @@ Credit Line: Library of Congress</text>
         </text-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">Sheep</text>
-            <text encoding="utf8">Pecora</text>
             <text encoding="utf8">Schaf</text>
             <text encoding="utf8">Mouton</text>
+            <text encoding="utf8">Pecora</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Sheep in Through the Looking-Glass is a grumpy, knitting shopkeeper who briefly transforms from the White Queen. <br/>She later takes Alice on a surreal rowing trip, embodying the dreamlike and ever-changing nature of the Looking-Glass world.</text>
@@ -6203,9 +6203,9 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">CH_053</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Leone</text>
             <text encoding="utf8">Löwe</text>
             <text encoding="utf8">Lion</text>
+            <text encoding="utf8">Leone</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Lion and Unicorn appear in Through the Looking-Glass.<br/> They are characters based on the traditional British nursery rhyme, symbolizing the heraldic symbols of England (the Lion) and Scotland (the Unicorn).<br/>
@@ -6235,8 +6235,8 @@ Credit Line: Library of Congress</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Einhorn</text>
             <text encoding="utf8">Unicorno</text>
-            <text encoding="utf8">Unicorn</text>
             <text encoding="utf8">Licorne</text>
+            <text encoding="utf8">Unicorn</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Lion and Unicorn appear in Through the Looking-Glass.<br/> They are characters based on the traditional British nursery rhyme, symbolizing the heraldic symbols of England (the Lion) and Scotland (the Unicorn).<br/>
@@ -6260,7 +6260,7 @@ Credit Line: Library of Congress</text>
         </list-prop>
     </resource>
     <resource label="DaSCHland_Data_Model.pdf" id="DOC_001" restype="metadata:Documentation">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_5109de81-999c-4b33-94c5-5b6251961d01">data/Multimedia_Data/Documentation/DaSCHland_Data_Model.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_c76ec9d1-54d3-4780-ae07-c352d4bd7ed2">data/Multimedia_Data/Documentation/DaSCHland_Data_Model.pdf</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">DOC_001</text>
         </text-prop>
@@ -6284,7 +6284,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="DaSCHland_Data_Model_Links.pdf" id="DOC_002" restype="metadata:Documentation">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_5109de81-999c-4b33-94c5-5b6251961d01">data/Multimedia_Data/Documentation/DaSCHland_Data_Model_Links.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_c76ec9d1-54d3-4780-ae07-c352d4bd7ed2">data/Multimedia_Data/Documentation/DaSCHland_Data_Model_Links.pdf</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">DOC_002</text>
         </text-prop>
@@ -6308,7 +6308,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="DaSCHland_Data_Model_Legend.pdf" id="DOC_003" restype="metadata:Documentation">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_5109de81-999c-4b33-94c5-5b6251961d01">data/Multimedia_Data/Documentation/DaSCHland_Data_Model_Legend.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_c76ec9d1-54d3-4780-ae07-c352d4bd7ed2">data/Multimedia_Data/Documentation/DaSCHland_Data_Model_Legend.pdf</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">DOC_003</text>
         </text-prop>
@@ -6332,7 +6332,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="DaSCHland FAQ.pdf" id="DOC_004" restype="metadata:Documentation">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_5109de81-999c-4b33-94c5-5b6251961d01">data/Multimedia_Data/Documentation/DaSCHland FAQ.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_c76ec9d1-54d3-4780-ae07-c352d4bd7ed2">data/Multimedia_Data/Documentation/DaSCHland FAQ.pdf</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">DOC_004</text>
         </text-prop>
@@ -6343,7 +6343,7 @@ Credit Line: Library of Congress</text>
             <text encoding="utf8">DaSCHland FAQ.pdf</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.529</decimal>
+            <decimal>0.778</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text encoding="utf8">DaSCH</text>
@@ -7442,7 +7442,7 @@ Credit Line: Library of Congress</text>
         </integer-prop>
     </resource>
     <resource label="Alice accepting a thimble from Dodo" id="I_009" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book8.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book8.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_009</text>
         </text-prop>
@@ -7469,7 +7469,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice adressing White Queen" id="I_068" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book25.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book25.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_068</text>
         </text-prop>
@@ -7496,7 +7496,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice and Duchess walking" id="I_032" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book31.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book31.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_032</text>
         </text-prop>
@@ -7523,7 +7523,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice and Frog standing before a door" id="I_087" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book44.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book44.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_087</text>
         </text-prop>
@@ -7550,7 +7550,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice and Red Queen running" id="I_055" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book12.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book12.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_055</text>
         </text-prop>
@@ -7577,7 +7577,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice and Red Queen talking" id="I_053" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book10.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book10.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_053</text>
         </text-prop>
@@ -7604,7 +7604,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice and the Mouse swimming in the Pool of tears" id="I_008" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book7.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book7.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_008</text>
         </text-prop>
@@ -7631,7 +7631,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice calling on Tweedledum and Tweeldee" id="I_061" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book18.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book18.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_061</text>
         </text-prop>
@@ -7658,7 +7658,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice clasping her arms round Fawn" id="I_060" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book17.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book17.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_060</text>
         </text-prop>
@@ -7685,7 +7685,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice coming through the looking-glass" id="I_047" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book4.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book4.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_047</text>
         </text-prop>
@@ -7712,7 +7712,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice dragging White Knight out off a ditch" id="I_082" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book39.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book39.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_082</text>
         </text-prop>
@@ -7739,7 +7739,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice finding a little door" id="I_003" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book2.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book2.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_003</text>
         </text-prop>
@@ -7766,7 +7766,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice going through the looking-glass" id="I_046" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book3.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book3.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_046</text>
         </text-prop>
@@ -7793,7 +7793,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice growing taller" id="I_005" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book4.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book4.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_005</text>
         </text-prop>
@@ -7820,7 +7820,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice holding a plum cake" id="I_078" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book35.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book35.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_078</text>
         </text-prop>
@@ -7847,7 +7847,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice holding her Flamingo" id="I_030" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book29.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book29.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_030</text>
         </text-prop>
@@ -7874,7 +7874,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice holding the &quot;Drink Me&quot; bottle" id="I_004" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book3.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book3.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_004</text>
         </text-prop>
@@ -7901,7 +7901,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice holding the pig baby" id="I_022" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book21.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book21.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_022</text>
         </text-prop>
@@ -7928,7 +7928,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice leaning on counter in Sheep's shop" id="I_070" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book27.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book27.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_070</text>
         </text-prop>
@@ -7955,7 +7955,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice lifting off a golden crown" id="I_084" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book41.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book41.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_084</text>
         </text-prop>
@@ -7982,7 +7982,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice looking over her shoulder at White Kitten" id="I_092" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book49.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book49.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_092</text>
         </text-prop>
@@ -8009,7 +8009,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice outgrowing White Rabbit's house" id="I_011" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book10.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book10.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_011</text>
         </text-prop>
@@ -8036,7 +8036,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice picking up White King" id="I_049" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book6.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book6.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_049</text>
         </text-prop>
@@ -8063,7 +8063,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice pulling a table cloth" id="I_089" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book46.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book46.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_089</text>
         </text-prop>
@@ -8090,7 +8090,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice putting her hands over her ears" id="I_079" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book36.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book36.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_079</text>
         </text-prop>
@@ -8117,7 +8117,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice rowing a boat" id="I_071" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book28.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book28.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_071</text>
         </text-prop>
@@ -8144,7 +8144,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice shaking Kitty" id="I_091" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book48.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book48.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_091</text>
         </text-prop>
@@ -8171,7 +8171,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice shaking Red Queen" id="I_090" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book47.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book47.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_090</text>
         </text-prop>
@@ -8198,7 +8198,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice sittin in a train carriage" id="I_056" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book13.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book13.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_056</text>
         </text-prop>
@@ -8225,7 +8225,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice sitting at a mad tea-party" id="I_025" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book24.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book24.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_025</text>
         </text-prop>
@@ -8252,7 +8252,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice swimming in the Pool of tears" id="I_007" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book6.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book6.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_007</text>
         </text-prop>
@@ -8279,7 +8279,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice tipping over the jury-box" id="I_040" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book39.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book39.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_040</text>
         </text-prop>
@@ -8306,7 +8306,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice winding worsted in an arm-chair" id="I_045" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book2.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book2.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_045</text>
         </text-prop>
@@ -8333,7 +8333,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice's hand reaching for White Rabbit" id="I_012" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book11.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book11.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_012</text>
         </text-prop>
@@ -8360,7 +8360,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Bill the lizzard rocketting out of the chimney" id="I_013" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book12.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book12.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_013</text>
         </text-prop>
@@ -8387,7 +8387,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Black kitten playing" id="I_044" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book1.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book1.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_044</text>
         </text-prop>
@@ -8414,7 +8414,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Bread-and-butter-fly" id="I_059" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book16.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book16.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_059</text>
         </text-prop>
@@ -8441,7 +8441,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Card-gardeners painting roses" id="I_028" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book27.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book27.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_028</text>
         </text-prop>
@@ -8468,7 +8468,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Cards flying down upon Alice" id="I_042" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book41.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book41.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_042</text>
         </text-prop>
@@ -8495,7 +8495,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Caterpillar questionning Alice" id="I_015" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book14.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book14.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_015</text>
         </text-prop>
@@ -8522,7 +8522,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Cheshire-Cat disappearing" id="I_024" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book23.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book23.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_024</text>
         </text-prop>
@@ -8549,7 +8549,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Cheshire-Cat grinning at Alice" id="I_023" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book22.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book22.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_023</text>
         </text-prop>
@@ -8576,7 +8576,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Chessboard-like country" id="I_054" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book11.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book11.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_054</text>
         </text-prop>
@@ -8603,7 +8603,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Chessmen walking" id="I_048" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book5.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book5.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_048</text>
         </text-prop>
@@ -8630,7 +8630,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Dormouse being put in a teapot" id="I_027" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book26.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book26.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_027</text>
         </text-prop>
@@ -8657,7 +8657,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Dutchess nursing the baby" id="I_021" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book20.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book20.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_021</text>
         </text-prop>
@@ -8684,7 +8684,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Executioners and crowd collecting round Cheshire-Cat" id="I_031" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book30.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book30.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_031</text>
         </text-prop>
@@ -8711,7 +8711,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Father William balancing an eel" id="I_019" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book18.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book18.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_019</text>
         </text-prop>
@@ -8738,7 +8738,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Father William sitting at a table" id="I_018" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book17.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book17.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_018</text>
         </text-prop>
@@ -8765,7 +8765,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Father William standing on his head" id="I_016" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book15.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book15.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_016</text>
         </text-prop>
@@ -8792,7 +8792,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Father William turning a back-sommersault" id="I_017" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book16.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book16.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_017</text>
         </text-prop>
@@ -8819,7 +8819,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Frog-Footman and Fish-Footman holding an invitation" id="I_020" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book19.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book19.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_020</text>
         </text-prop>
@@ -8846,7 +8846,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Gryphon sleeping" id="I_033" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book32.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book32.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_033</text>
         </text-prop>
@@ -8873,7 +8873,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Haigha handing a ham sandwich to the White King" id="I_076" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book33.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book33.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_076</text>
         </text-prop>
@@ -8900,7 +8900,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Hatta drinking tea" id="I_077" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book34.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book34.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_077</text>
         </text-prop>
@@ -8927,7 +8927,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Hatta sitting in prison" id="I_069" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book26.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book26.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_069</text>
         </text-prop>
@@ -8954,7 +8954,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Hatter running" id="I_039" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book38.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book38.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_039</text>
         </text-prop>
@@ -8981,7 +8981,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Hatter shaking off his shoes" id="I_038" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book37.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book37.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_038</text>
         </text-prop>
@@ -9008,7 +9008,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Hatter singing" id="I_026" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book25.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book25.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_026</text>
         </text-prop>
@@ -9035,7 +9035,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Humpty Dumpty offering Alice his hand" id="I_072" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book29.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book29.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_072</text>
         </text-prop>
@@ -9062,7 +9062,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Humpty Dumpty sending a message" id="I_074" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book31.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book31.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_074</text>
         </text-prop>
@@ -9089,7 +9089,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Jabberwocky creatures" id="I_073" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book30.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book30.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_073</text>
         </text-prop>
@@ -9116,7 +9116,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Jabberwork" id="I_051" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book8.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book8.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_051</text>
         </text-prop>
@@ -9143,7 +9143,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="King and Queen of Hearts sitting on their throne in court" id="I_001" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book0.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book0.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_001</text>
         </text-prop>
@@ -9170,7 +9170,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="King of Hearts pointing to the tarts in court" id="I_041" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book40.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book40.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_041</text>
         </text-prop>
@@ -9197,7 +9197,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Lobster turning out his toes " id="I_036" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book35.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book35.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_036</text>
         </text-prop>
@@ -9224,7 +9224,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Mock Turtle and Gryphon dancing round Alice" id="I_035" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book34.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book34.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_035</text>
         </text-prop>
@@ -9251,7 +9251,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Mock Turtle telling his story to Gryphon and Alice" id="I_034" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book33.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book33.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_034</text>
         </text-prop>
@@ -9278,7 +9278,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Mouse telling its tale to Alice and creatures" id="I_010" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book9.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book9.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_010</text>
         </text-prop>
@@ -9305,7 +9305,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Mutton making a little bow" id="I_088" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book45.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book45.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_088</text>
         </text-prop>
@@ -9332,7 +9332,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Queen of Hearts pointing at Alice" id="I_029" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book28.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book28.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_029</text>
         </text-prop>
@@ -9359,7 +9359,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Red King snoring" id="I_065" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book22.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book22.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_065</text>
         </text-prop>
@@ -9386,7 +9386,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Red Knight and White Knight fighting" id="I_080" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book37.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book37.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_080</text>
         </text-prop>
@@ -9413,7 +9413,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Red Queen and White Queen sitting with Alice" id="I_085" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book42.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book42.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_085</text>
         </text-prop>
@@ -9440,7 +9440,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Red Queen and White Queen sleeping on Alice" id="I_086" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book43.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book43.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_086</text>
         </text-prop>
@@ -9467,7 +9467,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Rocking-horse-fly" id="I_057" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book14.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book14.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_057</text>
         </text-prop>
@@ -9494,7 +9494,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Snap-dragon-fly" id="I_058" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book15.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book15.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_058</text>
         </text-prop>
@@ -9521,7 +9521,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="The puppy looking at Alice" id="I_014" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book13.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book13.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_014</text>
         </text-prop>
@@ -9548,7 +9548,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="The White Knight sliding down a poker" id="I_050" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book7.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book7.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_050</text>
         </text-prop>
@@ -9575,7 +9575,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Tiger-Lily and Alice talking" id="I_052" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book9.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book9.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_052</text>
         </text-prop>
@@ -9602,7 +9602,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" id="I_067" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book24.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book24.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_067</text>
         </text-prop>
@@ -9629,7 +9629,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Tweedledum crying in a fury" id="I_066" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book23.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book23.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_066</text>
         </text-prop>
@@ -9656,7 +9656,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Walrus and Carpenter eating" id="I_064" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book21.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book21.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_064</text>
         </text-prop>
@@ -9683,7 +9683,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Walrus and Carpenter resting" id="I_063" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book20.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book20.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_063</text>
         </text-prop>
@@ -9710,7 +9710,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Walrus and Carpenter walking" id="I_062" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book19.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book19.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_062</text>
         </text-prop>
@@ -9737,7 +9737,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="White King soldiers and horses stumbling" id="I_075" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book32.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book32.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_075</text>
         </text-prop>
@@ -9764,7 +9764,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="White Knight falling off his horse" id="I_081" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book38.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book38.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_081</text>
         </text-prop>
@@ -9791,7 +9791,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="White knight riding his horse" id="I_043" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book0.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book0.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_043</text>
         </text-prop>
@@ -9818,7 +9818,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="White Knight shaking an aged man" id="I_083" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_2book40.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_2book40.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_083</text>
         </text-prop>
@@ -9845,7 +9845,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="White Rabbit as herald blowing a trumpet" id="I_037" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book36.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book36.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_037</text>
         </text-prop>
@@ -9872,7 +9872,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="White Rabbit looking at his watch" id="I_002" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book1.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book1.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_002</text>
         </text-prop>
@@ -9899,7 +9899,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="White Rabbit skurrying away from Alice" id="I_006" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9052aa7a-8428-4820-a021-caace1ce5b26">data/Multimedia_Data/Image/IMG_1book5.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_243fd3e9-65e1-4d01-86a8-f723e4db74f2">data/Multimedia_Data/Image/IMG_1book5.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_006</text>
         </text-prop>
@@ -10563,7 +10563,7 @@ Credit Line: Library of Congress</text>
         </resptr-prop>
     </resource>
     <resource label="import_archive.xml" id="MAT_001" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_archive.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_archive.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_001</text>
         </text-prop>
@@ -10587,7 +10587,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_audio.xml" id="MAT_002" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_audio.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_audio.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_002</text>
         </text-prop>
@@ -10611,7 +10611,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_book_chapter.xml" id="MAT_003" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_book_chapter.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_book_chapter.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_003</text>
         </text-prop>
@@ -10635,7 +10635,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_book_cover.xml" id="MAT_004" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_book_cover.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_book_cover.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_004</text>
         </text-prop>
@@ -10659,7 +10659,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_book_edition.xml" id="MAT_005" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_book_edition.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_book_edition.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_005</text>
         </text-prop>
@@ -10683,7 +10683,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_book.xml" id="MAT_006" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_book.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_book.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_006</text>
         </text-prop>
@@ -10707,7 +10707,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_character.xml" id="MAT_007" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_character.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_character.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_007</text>
         </text-prop>
@@ -10731,7 +10731,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_documentation.xml" id="MAT_008" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_documentation.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_documentation.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_008</text>
         </text-prop>
@@ -10755,7 +10755,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_event.xml" id="MAT_009" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_event.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_event.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_009</text>
         </text-prop>
@@ -10779,7 +10779,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_image.xml" id="MAT_010" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_image.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_image.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_010</text>
         </text-prop>
@@ -10803,7 +10803,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_location.xml" id="MAT_011" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_location.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_location.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_011</text>
         </text-prop>
@@ -10827,7 +10827,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_material.xml" id="MAT_012" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_material.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_material.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_012</text>
         </text-prop>
@@ -10851,7 +10851,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_region.xml" id="MAT_013" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_region.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_region.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_013</text>
         </text-prop>
@@ -10875,7 +10875,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_video.xml" id="MAT_014" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_video.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_video.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_014</text>
         </text-prop>
@@ -10899,7 +10899,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_audio_segment.xml" id="MAT_015" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_audio_segment.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_audio_segment.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_015</text>
         </text-prop>
@@ -10923,7 +10923,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="import_video_segment.xml" id="MAT_016" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">data/XML/import_video_segment.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">data/XML/import_video_segment.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_016</text>
         </text-prop>
@@ -10947,7 +10947,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Archive.csv" id="MAT_017" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Archive.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Archive.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_017</text>
         </text-prop>
@@ -10971,7 +10971,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Audio.csv" id="MAT_018" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Audio.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Audio.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_018</text>
         </text-prop>
@@ -10995,7 +10995,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Book.csv" id="MAT_019" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Book.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Book.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_019</text>
         </text-prop>
@@ -11019,7 +11019,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="BookChapter.csv" id="MAT_020" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/BookChapter.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/BookChapter.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_020</text>
         </text-prop>
@@ -11043,7 +11043,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="BookEdition.csv" id="MAT_021" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/BookEdition.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/BookEdition.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_021</text>
         </text-prop>
@@ -11067,7 +11067,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Character.csv" id="MAT_022" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Character.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Character.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_022</text>
         </text-prop>
@@ -11091,7 +11091,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Documentation.csv" id="MAT_023" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Documentation.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Documentation.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_023</text>
         </text-prop>
@@ -11115,7 +11115,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Event.csv" id="MAT_024" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Event.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Event.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_024</text>
         </text-prop>
@@ -11139,7 +11139,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Image.csv" id="MAT_025" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Image.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Image.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_025</text>
         </text-prop>
@@ -11163,7 +11163,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="List_Event_Type.csv" id="MAT_026" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/List_Event_Type.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/List_Event_Type.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_026</text>
         </text-prop>
@@ -11187,7 +11187,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="List_License.csv" id="MAT_027" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/List_License.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/List_License.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_027</text>
         </text-prop>
@@ -11211,7 +11211,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="List_Role.csv" id="MAT_028" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/List_Role.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/List_Role.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_028</text>
         </text-prop>
@@ -11235,7 +11235,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Location.csv" id="MAT_029" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Location.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Location.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_029</text>
         </text-prop>
@@ -11259,7 +11259,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Material.csv" id="MAT_030" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Material.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Material.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_030</text>
         </text-prop>
@@ -11283,7 +11283,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Region.csv" id="MAT_031" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Region.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Region.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_031</text>
         </text-prop>
@@ -11307,7 +11307,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Video.csv" id="MAT_032" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/Video.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/Video.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_032</text>
         </text-prop>
@@ -11331,7 +11331,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="VideoSegment.csv" id="MAT_033" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/VideoSegment.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/VideoSegment.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_033</text>
         </text-prop>
@@ -11355,7 +11355,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="AudioSegment.csv" id="MAT_034" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_17b01356-341a-4aba-b4ba-6ef7e70f7d8c">Nodegoat/AudioSegment.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2c440570-382f-4e3c-b53a-78d7b288f300">Nodegoat/AudioSegment.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_034</text>
         </text-prop>
@@ -11379,7 +11379,7 @@ Credit Line: Library of Congress</text>
         </text-prop>
     </resource>
     <resource label="Alice in Wonderland 1915" id="V_01" restype=":Video">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_e84de8da-7155-4fd1-adeb-a6af7ffaa391">data/Multimedia_Data/Video/VID_AliceInWonderland_1915.mp4</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_15cd00f5-10ab-49fb-85fc-75fbe46055d5">data/Multimedia_Data/Video/VID_AliceInWonderland_1915.mp4</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">V_01</text>
         </text-prop>
