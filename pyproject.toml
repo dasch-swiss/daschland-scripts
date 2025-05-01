@@ -33,6 +33,7 @@ packages = ["src"]
 dev = [
     "lxml-stubs>=0.5.1",
     "pandas-stubs>=2.2.3.250308",
+    "pytest>=8.3.5",
     "types-lxml>=2025.3.30",
     "types-regex>=2024.11.6.20250403",
 ]
@@ -78,8 +79,13 @@ strict = true
 enable_error_code = ["possibly-undefined"]
 
 
-
 [[tool.mypy.overrides]]
 # For these packages, no type stubs are available yet:
 module = ["exiftool.*", "icecream.*"]
 ignore_missing_imports = true
+
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+# see https://docs.pytest.org/en/latest/explanation/goodpractices.html#tests-outside-application-code
+pythonpath = [".", "src", "test"]

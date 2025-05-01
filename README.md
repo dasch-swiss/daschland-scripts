@@ -30,6 +30,12 @@ This will select an appropriate Python interpreter
 (or install it, if no suitable installation can be found).
 Then it will create a virtual environment, and install the dependencies.
 
+To execute the scripts, you'll also need [ExifTool](https://exiftool.org/):
+
+```bash
+brew install exiftool
+```
+
 
 ## Project Structure
 
@@ -43,10 +49,10 @@ Then it will create a virtual environment, and install the dependencies.
 - `nodegoat` The folder containing all data to create the mirror project on Nodegoat.
 - `pyproject.toml` The Python project file containing all dependencies for the project.
 - `src` The folder containing the Python scripts for the project. 
-  - `Helper_Scripts` The helper scripts containing custom functions.
-  - `Scripts_excel2xml` The scripts to convert the spreadsheet data to XML, using the old module "dsp-tools excel2xml".
-  - `Scripts_Nodegoat` The scripts to create the mirror project data on Nodegoat.
-  - `Scripts_xmllib` The scripts to convert the XML data to JSON, using the new library "dsp-tools xmllib".
+  - `excel2xml` The scripts to convert the spreadsheet data to XML, using the old module "dsp-tools excel2xml".
+  - `helpers` The helper scripts containing custom functions.
+  - `nodegoat` The scripts to create the mirror project data on Nodegoat.
+  - `xmllib` The scripts to convert the XML data to JSON, using the new library "dsp-tools xmllib".
 - `uv.lock` The lock file for the project, which is used to create a virtual environment for the project.
 
 
