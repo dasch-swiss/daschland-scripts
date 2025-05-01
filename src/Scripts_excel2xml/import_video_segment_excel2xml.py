@@ -11,7 +11,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    video_segment_df = pd.read_excel("data/Spreadsheet_data/VideoSegment.xlsx")
+    video_segment_df = pd.read_excel("data/spreadsheets/VideoSegment.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in video_segment_df.iterrows():
@@ -50,7 +50,7 @@ def main():
     root.extend(all_segments)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_video_segment.xml")
+    excel2xml.write_xml(root, "data/xml/import_video_segment.xml")
     return all_segments
 
 

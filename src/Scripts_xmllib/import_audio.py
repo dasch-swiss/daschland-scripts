@@ -19,7 +19,7 @@ def main() -> list[Resource]:
     path_to_json = "daschland.json"
 
     # define dataframe
-    audio_df = pd.read_excel("data/Spreadsheet_Data/Audio.xlsx", dtype="str")
+    audio_df = pd.read_excel("data/spreadsheets/Audio.xlsx", dtype="str")
 
     # create list mapping
     list_lookup = ListLookup.create_new(

@@ -15,7 +15,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    image_df = pd.read_excel("data/Spreadsheet_Data/Image.xlsx", dtype="str")
+    image_df = pd.read_excel("data/spreadsheets/Image.xlsx", dtype="str")
 
     # create list mapping
     license_labels_to_names = excel2xml.create_json_list_mapping(
@@ -72,7 +72,7 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_image_old.xml")
+    excel2xml.write_xml(root, "data/xml/import_image_old.xml")
     return all_resources
 
 

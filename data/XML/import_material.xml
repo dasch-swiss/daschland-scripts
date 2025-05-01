@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+<knora xmlns="https://dasch.swiss/schema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
     <permissions id="res-default">
         <allow group="UnknownUser">V</allow>
         <allow group="KnownUser">V</allow>
@@ -27,7 +28,7 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="import_archive.xml" restype="metadata:Material" id="MAT_001" permissions="open">
-        <bitstream permissions="open">data/XML/import_archive.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_archive.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_001</text>
         </text-prop>
@@ -52,7 +53,7 @@
         </text-prop>
     </resource>
     <resource label="import_audio.xml" restype="metadata:Material" id="MAT_002" permissions="open">
-        <bitstream permissions="open">data/XML/import_audio.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_audio.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_002</text>
         </text-prop>
@@ -77,7 +78,7 @@
         </text-prop>
     </resource>
     <resource label="import_book_chapter.xml" restype="metadata:Material" id="MAT_003" permissions="open">
-        <bitstream permissions="open">data/XML/import_book_chapter.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_book_chapter.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_003</text>
         </text-prop>
@@ -102,7 +103,7 @@
         </text-prop>
     </resource>
     <resource label="import_book_cover.xml" restype="metadata:Material" id="MAT_004" permissions="open">
-        <bitstream permissions="open">data/XML/import_book_cover.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_book_cover.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_004</text>
         </text-prop>
@@ -127,7 +128,7 @@
         </text-prop>
     </resource>
     <resource label="import_book_edition.xml" restype="metadata:Material" id="MAT_005" permissions="open">
-        <bitstream permissions="open">data/XML/import_book_edition.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_book_edition.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_005</text>
         </text-prop>
@@ -152,7 +153,7 @@
         </text-prop>
     </resource>
     <resource label="import_book.xml" restype="metadata:Material" id="MAT_006" permissions="open">
-        <bitstream permissions="open">data/XML/import_book.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_book.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_006</text>
         </text-prop>
@@ -177,7 +178,7 @@
         </text-prop>
     </resource>
     <resource label="import_character.xml" restype="metadata:Material" id="MAT_007" permissions="open">
-        <bitstream permissions="open">data/XML/import_character.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_character.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_007</text>
         </text-prop>
@@ -202,7 +203,7 @@
         </text-prop>
     </resource>
     <resource label="import_documentation.xml" restype="metadata:Material" id="MAT_008" permissions="open">
-        <bitstream permissions="open">data/XML/import_documentation.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_documentation.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_008</text>
         </text-prop>
@@ -227,7 +228,7 @@
         </text-prop>
     </resource>
     <resource label="import_event.xml" restype="metadata:Material" id="MAT_009" permissions="open">
-        <bitstream permissions="open">data/XML/import_event.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_event.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_009</text>
         </text-prop>
@@ -252,7 +253,7 @@
         </text-prop>
     </resource>
     <resource label="import_image.xml" restype="metadata:Material" id="MAT_010" permissions="open">
-        <bitstream permissions="open">data/XML/import_image.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_image.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_010</text>
         </text-prop>
@@ -277,7 +278,7 @@
         </text-prop>
     </resource>
     <resource label="import_location.xml" restype="metadata:Material" id="MAT_011" permissions="open">
-        <bitstream permissions="open">data/XML/import_location.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_location.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_011</text>
         </text-prop>
@@ -302,7 +303,7 @@
         </text-prop>
     </resource>
     <resource label="import_material.xml" restype="metadata:Material" id="MAT_012" permissions="open">
-        <bitstream permissions="open">data/XML/import_material.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_material.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_012</text>
         </text-prop>
@@ -327,7 +328,7 @@
         </text-prop>
     </resource>
     <resource label="import_region.xml" restype="metadata:Material" id="MAT_013" permissions="open">
-        <bitstream permissions="open">data/XML/import_region.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_region.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_013</text>
         </text-prop>
@@ -352,7 +353,7 @@
         </text-prop>
     </resource>
     <resource label="import_video.xml" restype="metadata:Material" id="MAT_014" permissions="open">
-        <bitstream permissions="open">data/XML/import_video.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_video.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_014</text>
         </text-prop>
@@ -377,7 +378,7 @@
         </text-prop>
     </resource>
     <resource label="import_audio_segment.xml" restype="metadata:Material" id="MAT_015" permissions="open">
-        <bitstream permissions="open">data/XML/import_audio_segment.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_audio_segment.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_015</text>
         </text-prop>
@@ -402,7 +403,7 @@
         </text-prop>
     </resource>
     <resource label="import_video_segment.xml" restype="metadata:Material" id="MAT_016" permissions="open">
-        <bitstream permissions="open">data/XML/import_video_segment.xml</bitstream>
+        <bitstream permissions="open">data/xml/import_video_segment.xml</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_016</text>
         </text-prop>

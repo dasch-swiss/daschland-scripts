@@ -11,7 +11,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    audio_segment_df = pd.read_excel("data/Spreadsheet_data/AudioSegment.xlsx")
+    audio_segment_df = pd.read_excel("data/spreadsheets/AudioSegment.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in audio_segment_df.iterrows():
@@ -50,7 +50,7 @@ def main():
     root.extend(all_segments)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_audio_segment.xml")
+    excel2xml.write_xml(root, "data/xml/import_audio_segment.xml")
     return all_segments
 
 

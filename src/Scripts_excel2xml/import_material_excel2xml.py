@@ -18,7 +18,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    material_df = pd.read_excel("data/Spreadsheet_Data/Material.xlsx", dtype="str")
+    material_df = pd.read_excel("data/spreadsheets/Material.xlsx", dtype="str")
 
     # create list mapping
     license_labels_to_names = excel2xml.create_json_list_mapping(
@@ -77,7 +77,7 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_material.xml")
+    excel2xml.write_xml(root, "data/xml/import_material.xml")
     return all_resources
 
 

@@ -14,7 +14,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    event_df = pd.read_excel("data/Spreadsheet_Data/Event.xlsx", dtype="str")
+    event_df = pd.read_excel("data/spreadsheets/Event.xlsx", dtype="str")
 
     # create list mapping
     event_label_to_names = excel2xml.create_json_list_mapping(
@@ -95,7 +95,7 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_event.xml")
+    excel2xml.write_xml(root, "data/xml/import_event.xml")
     return all_resources
 
 

@@ -11,7 +11,7 @@ def main() -> list[Resource]:
     path_to_json = "daschland.json"
 
     # define dataframe
-    event_df = pd.read_excel("data/Spreadsheet_Data/Event.xlsx", dtype="str")
+    event_df = pd.read_excel("data/spreadsheets/Event.xlsx", dtype="str")
 
     # create mapping for lists
     list_lookup = ListLookup.create_new(

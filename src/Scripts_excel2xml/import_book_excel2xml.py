@@ -11,7 +11,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    book_df = pd.read_excel("data/Spreadsheet_Data/Book.xlsx", dtype="str")
+    book_df = pd.read_excel("data/spreadsheets/Book.xlsx", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
@@ -75,7 +75,7 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_book.xml")
+    excel2xml.write_xml(root, "data/xml/import_book.xml")
     return all_resources
 
 
