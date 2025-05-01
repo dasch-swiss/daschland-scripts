@@ -13,7 +13,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    archive_df = pd.read_excel("data/Spreadsheet_data/Region.xlsx")
+    archive_df = pd.read_excel("data/spreadsheets/Region.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in archive_df.iterrows():
@@ -59,7 +59,7 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_region.xml")
+    excel2xml.write_xml(root, "data/xml/import_region.xml")
     return all_resources
 
 

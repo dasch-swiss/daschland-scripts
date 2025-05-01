@@ -8,7 +8,7 @@ def main() -> list[VideoSegmentResource]:
     all_segments: list[VideoSegmentResource] = []
 
     # define dataframe
-    video_segment_df = pd.read_excel("data/Spreadsheet_data/VideoSegment.xlsx")
+    video_segment_df = pd.read_excel("data/spreadsheets/VideoSegment.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in video_segment_df.iterrows():

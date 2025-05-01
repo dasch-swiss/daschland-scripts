@@ -17,7 +17,7 @@
         <allow group="ProjectAdmin">CR</allow>
     </permissions>
     <resource label="King and Queen of Hearts sitting on their throne in court" restype=":Image" id="I_001">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book0.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book0.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_001</text>
         </text-prop>
@@ -47,7 +47,7 @@
         </integer-prop>
     </resource>
     <resource label="White Rabbit looking at his watch" restype=":Image" id="I_002">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book1.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book1.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_002</text>
         </text-prop>
@@ -77,7 +77,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice finding a little door" restype=":Image" id="I_003">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book2.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book2.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_003</text>
         </text-prop>
@@ -107,7 +107,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice holding the &quot;Drink Me&quot; bottle" restype=":Image" id="I_004">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book3.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book3.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_004</text>
         </text-prop>
@@ -137,7 +137,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice growing taller" restype=":Image" id="I_005">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book4.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book4.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_005</text>
         </text-prop>
@@ -167,7 +167,7 @@
         </integer-prop>
     </resource>
     <resource label="White Rabbit skurrying away from Alice" restype=":Image" id="I_006">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book5.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book5.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_006</text>
         </text-prop>
@@ -197,7 +197,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice swimming in the Pool of tears" restype=":Image" id="I_007">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book6.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book6.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_007</text>
         </text-prop>
@@ -227,7 +227,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice and the Mouse swimming in the Pool of tears" restype=":Image" id="I_008">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book7.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book7.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_008</text>
         </text-prop>
@@ -257,7 +257,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice accepting a thimble from Dodo" restype=":Image" id="I_009">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book8.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book8.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_009</text>
         </text-prop>
@@ -287,7 +287,7 @@
         </integer-prop>
     </resource>
     <resource label="Mouse telling its tale to Alice and creatures" restype=":Image" id="I_010">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book9.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book9.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_010</text>
         </text-prop>
@@ -317,7 +317,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice outgrowing White Rabbit's house" restype=":Image" id="I_011">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book10.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book10.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_011</text>
         </text-prop>
@@ -347,7 +347,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice's hand reaching for White Rabbit" restype=":Image" id="I_012">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book11.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book11.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_012</text>
         </text-prop>
@@ -377,7 +377,7 @@
         </integer-prop>
     </resource>
     <resource label="Bill the lizzard rocketting out of the chimney" restype=":Image" id="I_013">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book12.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book12.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_013</text>
         </text-prop>
@@ -407,7 +407,7 @@
         </integer-prop>
     </resource>
     <resource label="The puppy looking at Alice" restype=":Image" id="I_014">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book13.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book13.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_014</text>
         </text-prop>
@@ -437,7 +437,7 @@
         </integer-prop>
     </resource>
     <resource label="Caterpillar questionning Alice" restype=":Image" id="I_015">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book14.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book14.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_015</text>
         </text-prop>
@@ -467,7 +467,7 @@
         </integer-prop>
     </resource>
     <resource label="Father William standing on his head" restype=":Image" id="I_016">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book15.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book15.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_016</text>
         </text-prop>
@@ -497,7 +497,7 @@
         </integer-prop>
     </resource>
     <resource label="Father William turning a back-sommersault" restype=":Image" id="I_017">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book16.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book16.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_017</text>
         </text-prop>
@@ -527,7 +527,7 @@
         </integer-prop>
     </resource>
     <resource label="Father William sitting at a table" restype=":Image" id="I_018">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book17.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book17.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_018</text>
         </text-prop>
@@ -557,7 +557,7 @@
         </integer-prop>
     </resource>
     <resource label="Father William balancing an eel" restype=":Image" id="I_019">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book18.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book18.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_019</text>
         </text-prop>
@@ -587,7 +587,7 @@
         </integer-prop>
     </resource>
     <resource label="Frog-Footman and Fish-Footman holding an invitation" restype=":Image" id="I_020">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book19.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book19.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_020</text>
         </text-prop>
@@ -617,7 +617,7 @@
         </integer-prop>
     </resource>
     <resource label="Dutchess nursing the baby" restype=":Image" id="I_021">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book20.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book20.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_021</text>
         </text-prop>
@@ -647,7 +647,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice holding the pig baby" restype=":Image" id="I_022">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book21.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book21.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_022</text>
         </text-prop>
@@ -677,7 +677,7 @@
         </integer-prop>
     </resource>
     <resource label="Cheshire-Cat grinning at Alice" restype=":Image" id="I_023">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book22.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book22.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_023</text>
         </text-prop>
@@ -707,7 +707,7 @@
         </integer-prop>
     </resource>
     <resource label="Cheshire-Cat disappearing" restype=":Image" id="I_024">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book23.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book23.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_024</text>
         </text-prop>
@@ -737,7 +737,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice sitting at a mad tea-party" restype=":Image" id="I_025">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book24.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book24.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_025</text>
         </text-prop>
@@ -767,7 +767,7 @@
         </integer-prop>
     </resource>
     <resource label="Hatter singing" restype=":Image" id="I_026">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book25.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book25.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_026</text>
         </text-prop>
@@ -797,7 +797,7 @@
         </integer-prop>
     </resource>
     <resource label="Dormouse being put in a teapot" restype=":Image" id="I_027">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book26.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book26.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_027</text>
         </text-prop>
@@ -827,7 +827,7 @@
         </integer-prop>
     </resource>
     <resource label="Card-gardeners painting roses" restype=":Image" id="I_028">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book27.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book27.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_028</text>
         </text-prop>
@@ -857,7 +857,7 @@
         </integer-prop>
     </resource>
     <resource label="Queen of Hearts pointing at Alice" restype=":Image" id="I_029">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book28.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book28.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_029</text>
         </text-prop>
@@ -887,7 +887,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice holding her Flamingo" restype=":Image" id="I_030">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book29.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book29.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_030</text>
         </text-prop>
@@ -917,7 +917,7 @@
         </integer-prop>
     </resource>
     <resource label="Executioners and crowd collecting round Cheshire-Cat" restype=":Image" id="I_031">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book30.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book30.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_031</text>
         </text-prop>
@@ -947,7 +947,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice and Duchess walking" restype=":Image" id="I_032">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book31.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book31.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_032</text>
         </text-prop>
@@ -977,7 +977,7 @@
         </integer-prop>
     </resource>
     <resource label="Gryphon sleeping" restype=":Image" id="I_033">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book32.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book32.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_033</text>
         </text-prop>
@@ -1007,7 +1007,7 @@
         </integer-prop>
     </resource>
     <resource label="Mock Turtle telling his story to Gryphon and Alice" restype=":Image" id="I_034">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book33.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book33.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_034</text>
         </text-prop>
@@ -1037,7 +1037,7 @@
         </integer-prop>
     </resource>
     <resource label="Mock Turtle and Gryphon dancing round Alice" restype=":Image" id="I_035">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book34.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book34.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_035</text>
         </text-prop>
@@ -1067,7 +1067,7 @@
         </integer-prop>
     </resource>
     <resource label="Lobster turning out his toes " restype=":Image" id="I_036">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book35.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book35.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_036</text>
         </text-prop>
@@ -1097,7 +1097,7 @@
         </integer-prop>
     </resource>
     <resource label="White Rabbit as herald blowing a trumpet" restype=":Image" id="I_037">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book36.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book36.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_037</text>
         </text-prop>
@@ -1127,7 +1127,7 @@
         </integer-prop>
     </resource>
     <resource label="Hatter shaking off his shoes" restype=":Image" id="I_038">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book37.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book37.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_038</text>
         </text-prop>
@@ -1157,7 +1157,7 @@
         </integer-prop>
     </resource>
     <resource label="Hatter running" restype=":Image" id="I_039">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book38.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book38.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_039</text>
         </text-prop>
@@ -1187,7 +1187,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice tipping over the jury-box" restype=":Image" id="I_040">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book39.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book39.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_040</text>
         </text-prop>
@@ -1217,7 +1217,7 @@
         </integer-prop>
     </resource>
     <resource label="King of Hearts pointing to the tarts in court" restype=":Image" id="I_041">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book40.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book40.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_041</text>
         </text-prop>
@@ -1247,7 +1247,7 @@
         </integer-prop>
     </resource>
     <resource label="Cards flying down upon Alice" restype=":Image" id="I_042">
-        <bitstream>data/Multimedia_Data/Image/IMG_1book41.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_1book41.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_042</text>
         </text-prop>
@@ -1277,7 +1277,7 @@
         </integer-prop>
     </resource>
     <resource label="White knight riding his horse" restype=":Image" id="I_043">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book0.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book0.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_043</text>
         </text-prop>
@@ -1307,7 +1307,7 @@
         </integer-prop>
     </resource>
     <resource label="Black kitten playing" restype=":Image" id="I_044">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book1.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book1.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_044</text>
         </text-prop>
@@ -1337,7 +1337,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice winding worsted in an arm-chair" restype=":Image" id="I_045">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book2.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book2.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_045</text>
         </text-prop>
@@ -1367,7 +1367,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice going through the looking-glass" restype=":Image" id="I_046">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book3.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book3.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_046</text>
         </text-prop>
@@ -1397,7 +1397,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice coming through the looking-glass" restype=":Image" id="I_047">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book4.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book4.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_047</text>
         </text-prop>
@@ -1427,7 +1427,7 @@
         </integer-prop>
     </resource>
     <resource label="Chessmen walking" restype=":Image" id="I_048">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book5.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book5.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_048</text>
         </text-prop>
@@ -1457,7 +1457,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice picking up White King" restype=":Image" id="I_049">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book6.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book6.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_049</text>
         </text-prop>
@@ -1487,7 +1487,7 @@
         </integer-prop>
     </resource>
     <resource label="The White Knight sliding down a poker" restype=":Image" id="I_050">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book7.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book7.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_050</text>
         </text-prop>
@@ -1517,7 +1517,7 @@
         </integer-prop>
     </resource>
     <resource label="Jabberwork" restype=":Image" id="I_051">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book8.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book8.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_051</text>
         </text-prop>
@@ -1547,7 +1547,7 @@
         </integer-prop>
     </resource>
     <resource label="Tiger-Lily and Alice talking" restype=":Image" id="I_052">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book9.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book9.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_052</text>
         </text-prop>
@@ -1577,7 +1577,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice and Red Queen talking" restype=":Image" id="I_053">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book10.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book10.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_053</text>
         </text-prop>
@@ -1607,7 +1607,7 @@
         </integer-prop>
     </resource>
     <resource label="Chessboard-like country" restype=":Image" id="I_054">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book11.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book11.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_054</text>
         </text-prop>
@@ -1637,7 +1637,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice and Red Queen running" restype=":Image" id="I_055">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book12.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book12.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_055</text>
         </text-prop>
@@ -1667,7 +1667,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice sittin in a train carriage" restype=":Image" id="I_056">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book13.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book13.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_056</text>
         </text-prop>
@@ -1697,7 +1697,7 @@
         </integer-prop>
     </resource>
     <resource label="Rocking-horse-fly" restype=":Image" id="I_057">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book14.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book14.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_057</text>
         </text-prop>
@@ -1727,7 +1727,7 @@
         </integer-prop>
     </resource>
     <resource label="Snap-dragon-fly" restype=":Image" id="I_058">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book15.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book15.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_058</text>
         </text-prop>
@@ -1757,7 +1757,7 @@
         </integer-prop>
     </resource>
     <resource label="Bread-and-butter-fly" restype=":Image" id="I_059">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book16.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book16.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_059</text>
         </text-prop>
@@ -1787,7 +1787,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice clasping her arms round Fawn" restype=":Image" id="I_060">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book17.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book17.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_060</text>
         </text-prop>
@@ -1817,7 +1817,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice calling on Tweedledum and Tweeldee" restype=":Image" id="I_061">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book18.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book18.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_061</text>
         </text-prop>
@@ -1847,7 +1847,7 @@
         </integer-prop>
     </resource>
     <resource label="Walrus and Carpenter walking" restype=":Image" id="I_062">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book19.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book19.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_062</text>
         </text-prop>
@@ -1877,7 +1877,7 @@
         </integer-prop>
     </resource>
     <resource label="Walrus and Carpenter resting" restype=":Image" id="I_063">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book20.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book20.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_063</text>
         </text-prop>
@@ -1907,7 +1907,7 @@
         </integer-prop>
     </resource>
     <resource label="Walrus and Carpenter eating" restype=":Image" id="I_064">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book21.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book21.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_064</text>
         </text-prop>
@@ -1937,7 +1937,7 @@
         </integer-prop>
     </resource>
     <resource label="Red King snoring" restype=":Image" id="I_065">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book22.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book22.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_065</text>
         </text-prop>
@@ -1967,7 +1967,7 @@
         </integer-prop>
     </resource>
     <resource label="Tweedledum crying in a fury" restype=":Image" id="I_066">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book23.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book23.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_066</text>
         </text-prop>
@@ -1997,7 +1997,7 @@
         </integer-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" restype=":Image" id="I_067">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book24.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book24.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_067</text>
         </text-prop>
@@ -2027,7 +2027,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice adressing White Queen" restype=":Image" id="I_068">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book25.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book25.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_068</text>
         </text-prop>
@@ -2057,7 +2057,7 @@
         </integer-prop>
     </resource>
     <resource label="Hatta sitting in prison" restype=":Image" id="I_069">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book26.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book26.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_069</text>
         </text-prop>
@@ -2087,7 +2087,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice leaning on counter in Sheep's shop" restype=":Image" id="I_070">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book27.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book27.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_070</text>
         </text-prop>
@@ -2117,7 +2117,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice rowing a boat" restype=":Image" id="I_071">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book28.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book28.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_071</text>
         </text-prop>
@@ -2147,7 +2147,7 @@
         </integer-prop>
     </resource>
     <resource label="Humpty Dumpty offering Alice his hand" restype=":Image" id="I_072">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book29.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book29.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_072</text>
         </text-prop>
@@ -2177,7 +2177,7 @@
         </integer-prop>
     </resource>
     <resource label="Jabberwocky creatures" restype=":Image" id="I_073">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book30.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book30.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_073</text>
         </text-prop>
@@ -2207,7 +2207,7 @@
         </integer-prop>
     </resource>
     <resource label="Humpty Dumpty sending a message" restype=":Image" id="I_074">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book31.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book31.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_074</text>
         </text-prop>
@@ -2237,7 +2237,7 @@
         </integer-prop>
     </resource>
     <resource label="White King soldiers and horses stumbling" restype=":Image" id="I_075">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book32.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book32.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_075</text>
         </text-prop>
@@ -2267,7 +2267,7 @@
         </integer-prop>
     </resource>
     <resource label="Haigha handing a ham sandwich to the White King" restype=":Image" id="I_076">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book33.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book33.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_076</text>
         </text-prop>
@@ -2297,7 +2297,7 @@
         </integer-prop>
     </resource>
     <resource label="Hatta drinking tea" restype=":Image" id="I_077">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book34.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book34.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_077</text>
         </text-prop>
@@ -2327,7 +2327,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice holding a plum cake" restype=":Image" id="I_078">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book35.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book35.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_078</text>
         </text-prop>
@@ -2357,7 +2357,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice putting her hands over her ears" restype=":Image" id="I_079">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book36.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book36.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_079</text>
         </text-prop>
@@ -2387,7 +2387,7 @@
         </integer-prop>
     </resource>
     <resource label="Red Knight and White Knight fighting" restype=":Image" id="I_080">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book37.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book37.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_080</text>
         </text-prop>
@@ -2417,7 +2417,7 @@
         </integer-prop>
     </resource>
     <resource label="White Knight falling off his horse" restype=":Image" id="I_081">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book38.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book38.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_081</text>
         </text-prop>
@@ -2447,7 +2447,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice dragging White Knight out off a ditch" restype=":Image" id="I_082">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book39.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book39.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_082</text>
         </text-prop>
@@ -2477,7 +2477,7 @@
         </integer-prop>
     </resource>
     <resource label="White Knight shaking an aged man" restype=":Image" id="I_083">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book40.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book40.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_083</text>
         </text-prop>
@@ -2507,7 +2507,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice lifting off a golden crown" restype=":Image" id="I_084">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book41.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book41.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_084</text>
         </text-prop>
@@ -2537,7 +2537,7 @@
         </integer-prop>
     </resource>
     <resource label="Red Queen and White Queen sitting with Alice" restype=":Image" id="I_085">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book42.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book42.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_085</text>
         </text-prop>
@@ -2567,7 +2567,7 @@
         </integer-prop>
     </resource>
     <resource label="Red Queen and White Queen sleeping on Alice" restype=":Image" id="I_086">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book43.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book43.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_086</text>
         </text-prop>
@@ -2597,7 +2597,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice and Frog standing before a door" restype=":Image" id="I_087">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book44.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book44.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_087</text>
         </text-prop>
@@ -2627,7 +2627,7 @@
         </integer-prop>
     </resource>
     <resource label="Mutton making a little bow" restype=":Image" id="I_088">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book45.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book45.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_088</text>
         </text-prop>
@@ -2657,7 +2657,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice pulling a table cloth" restype=":Image" id="I_089">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book46.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book46.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_089</text>
         </text-prop>
@@ -2687,7 +2687,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice shaking Red Queen" restype=":Image" id="I_090">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book47.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book47.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_090</text>
         </text-prop>
@@ -2717,7 +2717,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice shaking Kitty" restype=":Image" id="I_091">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book48.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book48.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_091</text>
         </text-prop>
@@ -2747,7 +2747,7 @@
         </integer-prop>
     </resource>
     <resource label="Alice looking over her shoulder at White Kitten" restype=":Image" id="I_092">
-        <bitstream>data/Multimedia_Data/Image/IMG_2book49.jpg</bitstream>
+        <bitstream>data/multimedia/Image/IMG_2book49.jpg</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">I_092</text>
         </text-prop>

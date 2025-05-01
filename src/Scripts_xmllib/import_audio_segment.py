@@ -6,7 +6,7 @@ def main() -> list[AudioSegmentResource]:
     all_segments: list[AudioSegmentResource] = []
 
     # define dataframe
-    audio_segment_df = pd.read_excel("data/Spreadsheet_data/AudioSegment.xlsx")
+    audio_segment_df = pd.read_excel("data/spreadsheets/AudioSegment.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in audio_segment_df.iterrows():

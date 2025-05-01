@@ -14,7 +14,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    character_df = pd.read_excel("data/Spreadsheet_Data/Character.xlsx", dtype="str")
+    character_df = pd.read_excel("data/spreadsheets/Character.xlsx", dtype="str")
 
     # create list mapping
     keyword_labels_to_names = excel2xml.create_json_list_mapping(
@@ -97,7 +97,7 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_character.xml")
+    excel2xml.write_xml(root, "data/xml/import_character.xml")
     return all_resources
 
 

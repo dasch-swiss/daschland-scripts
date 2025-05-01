@@ -18,7 +18,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    audio_df = pd.read_excel("data/Spreadsheet_Data/Audio.xlsx", dtype="str")
+    audio_df = pd.read_excel("data/spreadsheets/Audio.xlsx", dtype="str")
 
     # create list mapping
     license_labels_to_names = excel2xml.create_json_list_mapping(
@@ -81,7 +81,7 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_audio.xml")
+    excel2xml.write_xml(root, "data/xml/import_audio.xml")
     return all_resources
 
 
