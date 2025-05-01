@@ -6,7 +6,7 @@ def main() -> list[RegionResource]:
     all_resources: list[RegionResource] = []
 
     # define dataframe
-    archive_df = pd.read_excel("data/Spreadsheet_data/Region.xlsx")
+    archive_df = pd.read_excel("data/spreadsheets/Region.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in archive_df.iterrows():

@@ -8,7 +8,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    location_df = pd.read_excel("data/Spreadsheet_Data/Location.xlsx", dtype="str")
+    location_df = pd.read_excel("data/spreadsheets/Location.xlsx", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in location_df.iterrows():

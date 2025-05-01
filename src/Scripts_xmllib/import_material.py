@@ -19,7 +19,7 @@ def main() -> list[Resource]:
     path_to_json = "daschland.json"
 
     # define dataframe
-    material_df = pd.read_excel("data/Spreadsheet_Data/Material.xlsx", dtype="str")
+    material_df = pd.read_excel("data/spreadsheets/Material.xlsx", dtype="str")
 
     # create list mapping
     list_lookup = ListLookup.create_new(

@@ -27,7 +27,7 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="Spreadsheet_Data.zip" restype="metadata:Archive" id="AR_001" permissions="open">
-        <bitstream permissions="open">data/Multimedia_Data/Archive/Spreadsheet_Data.zip</bitstream>
+        <bitstream permissions="open">data/multimedia/Archive/Spreadsheet_Data.zip</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">AR_001</text>
         </text-prop>

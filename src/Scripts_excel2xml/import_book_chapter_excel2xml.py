@@ -15,8 +15,8 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframes
-    book_chapter_df = pd.read_excel("data/Spreadsheet_Data/BookChapter.xlsx", dtype="str")
-    book_df = pd.read_excel("data/Spreadsheet_Data/Book.xlsx", dtype="str")
+    book_chapter_df = pd.read_excel("data/spreadsheets/BookChapter.xlsx", dtype="str")
+    book_df = pd.read_excel("data/spreadsheets/Book.xlsx", dtype="str")
 
     # create list mapping
     keyword_labels_to_names = excel2xml.create_json_list_mapping(
@@ -106,7 +106,7 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/XML/import_book_chapter.xml")
+    excel2xml.write_xml(root, "data/xml/import_book_chapter.xml")
     return all_resources
 
 
