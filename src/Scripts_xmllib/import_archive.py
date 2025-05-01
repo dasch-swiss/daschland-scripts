@@ -1,5 +1,3 @@
-from pathlib import Path
-
 import pandas as pd
 from dsp_tools.xmllib import (
     LicenseRecommended,
@@ -21,9 +19,6 @@ def main() -> list[Resource]:
     path_to_json = "daschland.json"
 
     # define dataframe
-    print(f"Current working directory is {Path.cwd()}.")
-    print(f"Contents of data folder:\n - {'\n - '.join([str(x) for x in Path("data").iterdir()])}")
-    print(f"Contents of data/Spreadsheet_data folder:\n - {'\n - '.join([str(x) for x in Path("data/Spreadsheet_data").iterdir()])}")
     archive_df = pd.read_excel("data/Spreadsheet_data/Archive.xlsx")
 
     # create list mapping
