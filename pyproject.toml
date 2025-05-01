@@ -79,8 +79,13 @@ strict = true
 enable_error_code = ["possibly-undefined"]
 
 
-
 [[tool.mypy.overrides]]
 # For these packages, no type stubs are available yet:
 module = ["exiftool.*", "icecream.*"]
 ignore_missing_imports = true
+
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+# see https://docs.pytest.org/en/latest/explanation/goodpractices.html#tests-outside-application-code
+pythonpath = [".", "src", "test"]
