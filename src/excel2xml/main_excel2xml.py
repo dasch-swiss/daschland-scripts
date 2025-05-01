@@ -1,8 +1,6 @@
 from dsp_tools import excel2xml
 from icecream import ic
 
-from src.helpers import helper_excel2xml
-
 # Import scripts
 # file names must not contain whitespaces
 from src.excel2xml import (
@@ -23,6 +21,7 @@ from src.excel2xml import (
     import_video_excel2xml,
     import_video_segment_excel2xml,
 )
+from src.helpers import helper_excel2xml
 from src.nodegoat import Nodegoat_files_update
 
 

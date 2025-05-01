@@ -1,7 +1,7 @@
 from dsp_tools.xmllib import XMLRoot
 from icecream import ic
 
-from src.nodegoat import Nodegoat_files_update
+from src.nodegoat import nodegoat_files_update
 
 # Import scripts
 # file names must not contain whitespaces
@@ -98,7 +98,7 @@ def main() -> None:
     root.write_file("daschland_data.xml")
 
     # update nodegoat files
-    Nodegoat_files_update.main()
+    nodegoat_files_update.main()
     ic("nodegoat files updated")
 
 

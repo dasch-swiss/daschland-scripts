@@ -1,4 +1,4 @@
-from src.nodegoat.Nodegoat_helper import (
+from src.nodegoat.nodegoat_helper import (
     update_multimedia_df,
     update_spreadsheet_df,
 )
