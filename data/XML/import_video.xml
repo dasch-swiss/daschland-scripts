@@ -27,7 +27,7 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="Alice in Wonderland 1915" restype=":Video" id="V_01" permissions="open">
-        <bitstream permissions="open">data/Multimedia_Data/Video/VID_AliceInWonderland_1915.mp4</bitstream>
+        <bitstream permissions="open">data/multimedia/Video/VID_AliceInWonderland_1915.mp4</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">V_01</text>
         </text-prop>

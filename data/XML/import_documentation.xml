@@ -27,7 +27,7 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="DaSCHland_Data_Model.pdf" restype="metadata:Documentation" id="DOC_001" permissions="open">
-        <bitstream permissions="open">data/Multimedia_Data/Documentation/DaSCHland_Data_Model.pdf</bitstream>
+        <bitstream permissions="open">data/multimedia/Documentation/DaSCHland_Data_Model.pdf</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">DOC_001</text>
         </text-prop>
@@ -51,7 +51,7 @@
         </text-prop>
     </resource>
     <resource label="DaSCHland_Data_Model_Links.pdf" restype="metadata:Documentation" id="DOC_002" permissions="open">
-        <bitstream permissions="open">data/Multimedia_Data/Documentation/DaSCHland_Data_Model_Links.pdf</bitstream>
+        <bitstream permissions="open">data/multimedia/Documentation/DaSCHland_Data_Model_Links.pdf</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">DOC_002</text>
         </text-prop>
@@ -75,7 +75,7 @@
         </text-prop>
     </resource>
     <resource label="DaSCHland_Data_Model_Legend.pdf" restype="metadata:Documentation" id="DOC_003" permissions="open">
-        <bitstream permissions="open">data/Multimedia_Data/Documentation/DaSCHland_Data_Model_Legend.pdf</bitstream>
+        <bitstream permissions="open">data/multimedia/Documentation/DaSCHland_Data_Model_Legend.pdf</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">DOC_003</text>
         </text-prop>
@@ -99,7 +99,7 @@
         </text-prop>
     </resource>
     <resource label="DaSCHland FAQ.pdf" restype="metadata:Documentation" id="DOC_004" permissions="open">
-        <bitstream permissions="open">data/Multimedia_Data/Documentation/DaSCHland FAQ.pdf</bitstream>
+        <bitstream permissions="open">data/multimedia/Documentation/DaSCHland FAQ.pdf</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">DOC_004</text>
         </text-prop>
