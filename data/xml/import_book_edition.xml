@@ -27,7 +27,7 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="BE_Alice_in_Wonderland.pdf" restype=":BookEdition" id="BE_001" permissions="open">
-        <bitstream permissions="open">data/multimedia/Book/BE_Alice_in_Wonderland.pdf</bitstream>
+        <bitstream permissions="open">data/multimedia/book/BE_Alice_in_Wonderland.pdf</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">BE_001</text>
         </text-prop>
@@ -55,7 +55,7 @@ Book Virtual Edition, true to the typesetting of the original version.</text>
         </text-prop>
     </resource>
     <resource label="BE_Through_the_Looking_Glass.pdf" restype=":BookEdition" id="BE_002" permissions="open">
-        <bitstream permissions="open">data/multimedia/Book/BE_Through_the_Looking_Glass.pdf</bitstream>
+        <bitstream permissions="open">data/multimedia/book/BE_Through_the_Looking_Glass.pdf</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">BE_002</text>
         </text-prop>
@@ -82,7 +82,7 @@ illustrated by Peter Newell</text>
         </text-prop>
     </resource>
     <resource label="BE_throughlooking00carr.pdf" restype=":BookEdition" id="BE_003" permissions="open">
-        <bitstream permissions="open">data/multimedia/Book/BE_throughlooking00carr.pdf</bitstream>
+        <bitstream permissions="open">data/multimedia/book/BE_throughlooking00carr.pdf</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">BE_003</text>
         </text-prop>
@@ -109,7 +109,7 @@ with fifty illustrations by John Tenniel</text>
         </text-prop>
     </resource>
     <resource label="BE_adventuresalices00carrrich.pdf" restype=":BookEdition" id="BE_004" permissions="open">
-        <bitstream permissions="open">data/multimedia/Book/BE_adventuresalices00carrrich.pdf</bitstream>
+        <bitstream permissions="open">data/multimedia/book/BE_adventuresalices00carrrich.pdf</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">BE_004</text>
         </text-prop>
@@ -137,7 +137,7 @@ illustrated by Peter Newell</text>
         </text-prop>
     </resource>
     <resource label="BE_alicesadventur00carr.pdf" restype=":BookEdition" id="BE_005" permissions="open">
-        <bitstream permissions="open">data/multimedia/Book/BE_alicesadventur00carr.pdf</bitstream>
+        <bitstream permissions="open">data/multimedia/book/BE_alicesadventur00carr.pdf</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">BE_005</text>
         </text-prop>

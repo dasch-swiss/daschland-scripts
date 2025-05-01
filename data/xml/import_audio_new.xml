@@ -17,7 +17,7 @@
         <allow group="ProjectAdmin">CR</allow>
     </permissions>
     <resource label="Dramatis Personae" restype=":Audio" id="A_01">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_00_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_00_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_01</text>
         </text-prop>
@@ -41,7 +41,7 @@
         </text-prop>
     </resource>
     <resource label="Down the Rabbit-Hole" restype=":Audio" id="A_02">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_01_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_01_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_02</text>
         </text-prop>
@@ -65,7 +65,7 @@
         </text-prop>
     </resource>
     <resource label="The Pool of Tears" restype=":Audio" id="A_03">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_02_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_02_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_03</text>
         </text-prop>
@@ -89,7 +89,7 @@
         </text-prop>
     </resource>
     <resource label="A Caucus-Race and Long Tale" restype=":Audio" id="A_04">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_03_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_03_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_04</text>
         </text-prop>
@@ -113,7 +113,7 @@
         </text-prop>
     </resource>
     <resource label="The Rabbit Sends in a Little Bill" restype=":Audio" id="A_05">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_04_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_04_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_05</text>
         </text-prop>
@@ -137,7 +137,7 @@
         </text-prop>
     </resource>
     <resource label="Advice From a Caterpillar" restype=":Audio" id="A_06">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_05_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_05_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_06</text>
         </text-prop>
@@ -161,7 +161,7 @@
         </text-prop>
     </resource>
     <resource label="Pig and Pepper" restype=":Audio" id="A_07">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_06_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_06_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_07</text>
         </text-prop>
@@ -185,7 +185,7 @@
         </text-prop>
     </resource>
     <resource label="The Mad Tea-Party" restype=":Audio" id="A_08">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_07_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_07_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_08</text>
         </text-prop>
@@ -209,7 +209,7 @@
         </text-prop>
     </resource>
     <resource label="The Queen's Croquet-Ground" restype=":Audio" id="A_09">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_08_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_08_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_09</text>
         </text-prop>
@@ -233,7 +233,7 @@
         </text-prop>
     </resource>
     <resource label="The Mock Turtle's Story" restype=":Audio" id="A_10">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_09_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_09_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_10</text>
         </text-prop>
@@ -257,7 +257,7 @@
         </text-prop>
     </resource>
     <resource label="The Lobster Quadrille" restype=":Audio" id="A_11">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_10_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_10_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_11</text>
         </text-prop>
@@ -281,7 +281,7 @@
         </text-prop>
     </resource>
     <resource label="Who Stole the Tarts?" restype=":Audio" id="A_12">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_11_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_11_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_12</text>
         </text-prop>
@@ -305,7 +305,7 @@
         </text-prop>
     </resource>
     <resource label="Alice's Evidence" restype=":Audio" id="A_13">
-        <bitstream>data/multimedia/Audio/AUD_aliceinwonderland_12_carroll_64kb.mp3</bitstream>
+        <bitstream>data/multimedia/audio/AUD_aliceinwonderland_12_carroll_64kb.mp3</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_13</text>
         </text-prop>
@@ -329,7 +329,7 @@
         </text-prop>
     </resource>
     <resource label="Looking-Glass House" restype=":Audio" id="A_14">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_01_Looking-Glass_House.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_01_Looking-Glass_House.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_14</text>
         </text-prop>
@@ -353,7 +353,7 @@
         </text-prop>
     </resource>
     <resource label="The Garden of Live Flowers" restype=":Audio" id="A_15">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_02_The_Garden_of_Live_Flowers.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_02_The_Garden_of_Live_Flowers.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_15</text>
         </text-prop>
@@ -377,7 +377,7 @@
         </text-prop>
     </resource>
     <resource label="Looking-Glass Insects" restype=":Audio" id="A_16">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_03_Looking-Glass_Insects.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_03_Looking-Glass_Insects.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_16</text>
         </text-prop>
@@ -401,7 +401,7 @@
         </text-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" restype=":Audio" id="A_17">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_04_Tweedledum_and_Tweedledee.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_04_Tweedledum_and_Tweedledee.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_17</text>
         </text-prop>
@@ -425,7 +425,7 @@
         </text-prop>
     </resource>
     <resource label="Wool and Water" restype=":Audio" id="A_18">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_05_Wool_and_Water.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_05_Wool_and_Water.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_18</text>
         </text-prop>
@@ -449,7 +449,7 @@
         </text-prop>
     </resource>
     <resource label="Humpty Dumpty" restype=":Audio" id="A_19">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_06_Humpty_Dumpty.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_06_Humpty_Dumpty.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_19</text>
         </text-prop>
@@ -473,7 +473,7 @@
         </text-prop>
     </resource>
     <resource label="The Lion and the Unicorn" restype=":Audio" id="A_20">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_07_The_Lion_and_the_Unicorn.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_07_The_Lion_and_the_Unicorn.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_20</text>
         </text-prop>
@@ -497,7 +497,7 @@
         </text-prop>
     </resource>
     <resource label="It's my own Invention" restype=":Audio" id="A_21">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_08_It-s_my_own_Invention.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_08_It-s_my_own_Invention.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_21</text>
         </text-prop>
@@ -521,7 +521,7 @@
         </text-prop>
     </resource>
     <resource label="Queen Alice and Shaking" restype=":Audio" id="A_22">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_09-10_Queen_Alice_and_Shaking.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_09-10_Queen_Alice_and_Shaking.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_22</text>
         </text-prop>
@@ -545,7 +545,7 @@
         </text-prop>
     </resource>
     <resource label="Waking and Which Dreamed it?" restype=":Audio" id="A_23">
-        <bitstream>data/multimedia/Audio/AUD_Through_the_looking_glass_11-12_Waking_and_Which_Dreamed_it.wav</bitstream>
+        <bitstream>data/multimedia/audio/AUD_Through_the_looking_glass_11-12_Waking_and_Which_Dreamed_it.wav</bitstream>
         <text-prop name=":hasID">
             <text encoding="utf8">A_23</text>
         </text-prop>
