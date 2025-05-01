@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 from dsp_tools.xmllib import (
     LicenseRecommended,
@@ -19,6 +21,8 @@ def main() -> list[Resource]:
     path_to_json = "daschland.json"
 
     # define dataframe
+    print(f"Current working directory is {os.getcwd()}.")
+    print(f"The folder contains these files: {os.listdir('data/Spreadsheet_data')}")
     archive_df = pd.read_excel("data/Spreadsheet_data/Archive.xlsx")
 
     # create list mapping
