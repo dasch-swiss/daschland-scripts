@@ -20,6 +20,8 @@ jobs:
         run: uv sync --all-extras --dev
         shell: bash
       - name: Create project
-        run: uv run dsp-tools create -s api.stage.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' daschland.json
+        run: uv run dsp-tools create -s api.stage.dasch.swiss -u dasch@dasch.swiss -p "$PW" daschland.json
+        env:
+          PW: ${{ secrets.DASCH_USER_PW_PROD }}
       - name: Upload data
         run: uv run dsp-tools xmlupload -s api.stage.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
