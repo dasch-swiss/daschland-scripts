@@ -27,7 +27,7 @@
         <allow group="KnownUser">RV</allow>
     </permissions>
     <resource label="Dramatis Personae" restype=":Audio" id="A_01" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_00_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_00.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_01</text>
         </text-prop>
@@ -41,7 +41,7 @@
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_00_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_00.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Dramatis Personae
@@ -99,7 +99,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="Down the Rabbit-Hole" restype=":Audio" id="A_02" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_01_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_01.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_02</text>
         </text-prop>
@@ -113,7 +113,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_01_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_01.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Down the Rabbit-Hole
@@ -171,7 +171,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="The Pool of Tears" restype=":Audio" id="A_03" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_02_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_02.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_03</text>
         </text-prop>
@@ -185,7 +185,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_02_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_02.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Pool of Tears
@@ -243,7 +243,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="A Caucus-Race and Long Tale" restype=":Audio" id="A_04" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_03_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_03.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_04</text>
         </text-prop>
@@ -257,7 +257,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_03_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_03.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">A Caucus-Race and Long Tale
@@ -315,7 +315,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="The Rabbit Sends in a Little Bill" restype=":Audio" id="A_05" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_04_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_04.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_05</text>
         </text-prop>
@@ -329,7 +329,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_04_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_04.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Rabbit Sends in a Little Bill
@@ -387,7 +387,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="Advice From a Caterpillar" restype=":Audio" id="A_06" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_05_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_05.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_06</text>
         </text-prop>
@@ -401,7 +401,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_05_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_05.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Advice From a Caterpillar
@@ -459,7 +459,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="Pig and Pepper" restype=":Audio" id="A_07" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_06_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_06.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_07</text>
         </text-prop>
@@ -473,7 +473,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_06_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_06.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Pig and Pepper
@@ -531,7 +531,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="The Mad Tea-Party" restype=":Audio" id="A_08" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_07_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_07.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_08</text>
         </text-prop>
@@ -545,7 +545,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_07_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_07.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Mad Tea-Party
@@ -603,7 +603,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="The Queen's Croquet-Ground" restype=":Audio" id="A_09" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_08_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_08.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_09</text>
         </text-prop>
@@ -617,7 +617,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_08_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_08.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Queen's Croquet-Ground
@@ -675,7 +675,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="The Mock Turtle's Story" restype=":Audio" id="A_10" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_09_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_09.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_10</text>
         </text-prop>
@@ -689,7 +689,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_09_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_09.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Mock Turtle's Story
@@ -747,7 +747,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="The Lobster Quadrille" restype=":Audio" id="A_11" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_10_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_10.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_11</text>
         </text-prop>
@@ -761,7 +761,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_10_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_10.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Lobster Quadrille
@@ -819,7 +819,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="Who Stole the Tarts?" restype=":Audio" id="A_12" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_11_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_11.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_12</text>
         </text-prop>
@@ -833,7 +833,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_11_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_11.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Who Stole the Tarts?
@@ -891,7 +891,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="Alice's Evidence" restype=":Audio" id="A_13" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_12_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_aliceinwonderland_12.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_13</text>
         </text-prop>
@@ -905,7 +905,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_12_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_aliceinwonderland_12.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Alice's Evidence
@@ -963,7 +963,7 @@ Alice's Sister: Diana Majlinger</text>
         </text-prop>
     </resource>
     <resource label="Dramatis Personae" restype=":Audio" id="A_14" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_00_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_00.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_14</text>
         </text-prop>
@@ -977,7 +977,7 @@ Alice's Sister: Diana Majlinger</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_00_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_00.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Dramatis Personae
@@ -1019,7 +1019,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="Looking-Glass House" restype=":Audio" id="A_15" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_01_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_01.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_15</text>
         </text-prop>
@@ -1033,7 +1033,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_01_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_01.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 1, Looging-Glass House
@@ -1075,7 +1075,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="The Garden of Live Flowers" restype=":Audio" id="A_16" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_02_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_02.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_16</text>
         </text-prop>
@@ -1089,7 +1089,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_02_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_02.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 2, The Garden of Live Flowers
@@ -1128,7 +1128,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="Looking-Glass Insects" restype=":Audio" id="A_17" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_03_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_03.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_17</text>
         </text-prop>
@@ -1142,7 +1142,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_03_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_03.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 3, Looking-Glass Insects
@@ -1181,7 +1181,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" restype=":Audio" id="A_18" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_04_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_04.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_18</text>
         </text-prop>
@@ -1195,7 +1195,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_04_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_04.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 4, Tweedldum and Tweedledee
@@ -1234,7 +1234,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="Wool and Water" restype=":Audio" id="A_19" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_05_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_05.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_19</text>
         </text-prop>
@@ -1248,7 +1248,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_05_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_05.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 5, Wool and Water 
@@ -1287,7 +1287,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="Humpty Dumpty" restype=":Audio" id="A_20" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_06_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_06.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_20</text>
         </text-prop>
@@ -1301,7 +1301,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_06_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_06.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 6, Humpty Dumpty
@@ -1340,7 +1340,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="The Lion and the Unicorn" restype=":Audio" id="A_21" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_07_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_07.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_21</text>
         </text-prop>
@@ -1354,7 +1354,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_07_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_07.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 7, The Lion and the Unicorn
@@ -1393,7 +1393,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="It's my own Invention" restype=":Audio" id="A_22" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_08_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_08.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_22</text>
         </text-prop>
@@ -1407,7 +1407,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_08_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_08.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 8, It's My Own Invention
@@ -1446,7 +1446,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="Queen Alice, Shaking and Waking" restype=":Audio" id="A_23" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_09_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_09.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_23</text>
         </text-prop>
@@ -1460,7 +1460,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_09_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_09.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 9, Queen Alice
@@ -1501,7 +1501,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
     </resource>
     <resource label="Which Dreamed it?" restype=":Audio" id="A_24" permissions="open">
-        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_10_carroll_64kb.mp3</bitstream>
+        <bitstream permissions="open">data/multimedia/audio/AUD_throughthelookingglass_10.mp3</bitstream>
         <text-prop name=":hasID">
             <text permissions="open" encoding="utf8">A_24</text>
         </text-prop>
@@ -1515,7 +1515,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list permissions="open">LIC_001</list>
         </list-prop>
         <text-prop name=":hasFileName">
-            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_10_carroll_64kb.mp3</text>
+            <text permissions="open" encoding="utf8">AUD_throughthelookingglass_10.mp3</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Chapter 12, Which Dreamed It? 

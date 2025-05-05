@@ -36,6 +36,7 @@
     <video-segment label="Alice in Wonderland - Movie" id="VIS_002" permissions="open">
         <isSegmentOf permissions="open">V_01</isSegmentOf>
         <hasSegmentBounds segment_start="16" segment_end="2517" permissions="open"/>
+        <hasTitle permissions="open">Movie</hasTitle>
         <hasDescription permissions="open">Movie</hasDescription>
         <hasKeyword permissions="open">Movie</hasKeyword>
     </video-segment>

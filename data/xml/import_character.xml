@@ -40,7 +40,7 @@ Alice is a seven-year-old girl in Alice’s Adventures in Wonderland and slightl
 She follows the White Rabbit down a rabbit hole, leading her into Wonderland, where she experiences strange adventures and meets absurd characters.
 In the Looking-Glass world, she plays through a giant chess game, moving from pawn to queen.
 
-The beautiful pictures of Alice, drawn by John Tenniel, were inspired by Mary Hilton Badcock, the daughter of the Dean of Ripon. Although she was suggested as a model, it's not clear if Tenniel fully took this suggestion. (source: alice-in-wonderland.net)</text>
+The beautiful pictures of Alice, drawn by John Tenniel, were inspired by Mary Hilton Badcock, the daughter of the Dean of Ripon. Although she was suggested as a model, it's not clear if Tenniel fully took this suggestion *source: alice-in-wonderland.net*.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">In the digital wonderland of DaSCHland, Alice is portrayed as a young, curious explorer, navigating a world where data and reality merge seamlessly. 
@@ -133,10 +133,10 @@ Alice's journey through DaSCHland highlights her growth from mere curiosity to a
             <text permissions="open" encoding="utf8">CH_002</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Coniglio bianco</text>
             <text permissions="open" encoding="utf8">White Rabbit</text>
             <text permissions="open" encoding="utf8">Lapin blanc</text>
             <text permissions="open" encoding="utf8">weißes Kaninchen</text>
+            <text permissions="open" encoding="utf8">Coniglio bianco</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The White Rabbit is a nervous, hurried character who serves as Alice’s initial guide into Wonderland.
@@ -144,7 +144,7 @@ He is first seen checking his pocket watch and exclaiming, “Oh dear! Oh dear! 
 He works as a servant for the Queen of Hearts and is terrified of her temper.
 He mistakes Alice for his housemaid, Mary Ann, in Chapter 4 and panics when she grows giant inside his house.
 
-The White Rabbit is always late, which is a nod to Oxford time. At Oxford, especially at Christ Church, where Carroll used to teach, events often start five minutes after the scheduled hour. (source: alice-in-wonderland.net)</text>
+The White Rabbit is always late, which is a nod to Oxford time. At Oxford, especially at Christ Church, where Carroll used to teach, events often start five minutes after the scheduled hour *source: alice-in-wonderland.net*.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">In DaSCHland, RabbitIT embodies a reimagined version of the classic White Rabbit from "Alice in Wonderland." This character merges the traditional traits of urgency and meticulous timing with advanced technological features. RabbitIT, as Alice's digital guide, is integral to navigating the complex and layered world of DaSCHland. Equipped with AI-driven capabilities, RabbitIT assists Alice by providing real-time data, historical insights, and logistical support throughout her adventures. His appearance retains the iconic elements—such as the waistcoat and pocket watch—but these are enhanced with digital displays and interfaces that reflect his role as a guide within a sophisticated, data-rich environment. RabbitIT not only leads Alice through various digital landscapes but also ensures she engages deeply with the literary worlds recreated and stored within the DaSCH repository, making him a pivotal character in blending classic literature with modern technology.</text>
@@ -178,10 +178,10 @@ The White Rabbit is always late, which is a nod to Oxford time. At Oxford, espec
             <text permissions="open" encoding="utf8">CH_003</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Bruco</text>
+            <text permissions="open" encoding="utf8">Chenille</text>
             <text permissions="open" encoding="utf8">Caterpillar</text>
             <text permissions="open" encoding="utf8">Raupe</text>
-            <text permissions="open" encoding="utf8">Chenille</text>
-            <text permissions="open" encoding="utf8">Bruco</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Caterpillar is a calm, philosophical, and slightly rude blue creature who smokes a hookah while speaking with Alice.
@@ -219,10 +219,10 @@ The Caterpillar in DaSCHland uses his deep knowledge, derived from vast literary
             <text permissions="open" encoding="utf8">CH_004</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Mad Hatter</text>
             <text permissions="open" encoding="utf8">Cappellaio Matto</text>
             <text permissions="open" encoding="utf8">verrückter Hutmacher</text>
             <text permissions="open" encoding="utf8">Chapelier fou</text>
+            <text permissions="open" encoding="utf8">Mad Hatter</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Mad Hatter is a tea-obsessed, eccentric character who hosts the Mad Tea Party with the March Hare and the Dormouse.
@@ -233,7 +233,7 @@ He appears again at the trial of the Knave of Hearts, where he nervously testifi
 In 'Through the Looking-Glass', the Hatter returns in the form of the Anglo-Saxon messenger 'Hatta'.
 
 Contrary to popular belief, Lewis Carroll never referred to the Hatter as 'the Mad Hatter' in the story. He simply called him 'the Hatter'.
-The phrase 'mad as a hatter' was common in Carroll's time, probably because hatters actually did go mad, as the mercury they used sometimes gave them mercury poisoning. (source: alice-in-wonderland.net)</text>
+The phrase 'mad as a hatter' was common in Carroll's time, probably because hatters actually did go mad, as the mercury they used sometimes gave them mercury poisoning *source: alice-in-wonderland.net*.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">In DaSCHland, the Mad Hatter transforms into an intriguing digital persona, blending his traditional eccentricity and whimsical charm with advanced technological attributes. He hosts the famed tea parties, which in this digital realm are dynamic simulations, where each cup of tea and piece of cake is embedded with historical anecdotes or literary quotes that appear as holographic texts above the table. The Mad Hatter in this virtual world is not just a bringer of nonsensical humor; he also serves as a conduit for exploring the rich tapestry of literature and history stored in the DaSCH repository. His hat, iconic and oversized, functions as an interface that projects various informational displays, engaging Alice and other guests in riddles and puzzles that draw from a diverse array of cultural and historical contexts.
@@ -271,10 +271,10 @@ His character retains the unpredictable nature known from the original tales but
             <text permissions="open" encoding="utf8">CH_005</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Stregatto</text>
             <text permissions="open" encoding="utf8">Cheshire Cat</text>
             <text permissions="open" encoding="utf8">Grinzekatze</text>
             <text permissions="open" encoding="utf8">Chat du Cheshire</text>
-            <text permissions="open" encoding="utf8">Stregatto</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Cheshire Cat is a mischievous, grinning cat who gives philosophical advice to Alice.
@@ -287,7 +287,7 @@ The reason for Carroll naming this character 'Cheshire Cat' is unclear:
 'To grin like a Cheshire Cat' was a common phrase in Carroll's day. 
 It may have originated from a sign painter in Cheshire who painted grinning lions on the sign-boards of inns in the area.
 Another source is the 'Alice Window' in Christ Church, Oxford, where you can see three grinning animals at the top of the Liddell's family arms. 
-Cheshire cheeses were also once molded in the shape of a grinning cat. (source: alice-in-wonderland.net)</text>
+Cheshire cheeses were also once molded in the shape of a grinning cat *source: alice-in-wonderland.net*.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">In the imaginative world of DaSCHland, the Cheshire Cat stands out as a particularly fascinating digital entity. He embodies the quintessential mystery and wit of his character, now augmented with the capability to appear and disappear at will, leaving behind only his iconic grin, which serves as a user interface for accessing various data points within the DaSCH repository. The Cheshire Cat's interactions with Alice are both enlightening and cryptic, guiding her through DaSCHland with riddles and philosophical insights that challenge her perceptions. His ability to phase in and out of digital visibility symbolizes the fluid nature of information in the digital age, where data can be both omnipresent and elusive.
@@ -322,10 +322,10 @@ This version of the Cheshire Cat not only serves as a guide through the labyrint
             <text permissions="open" encoding="utf8">CH_006</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Herzkönigin</text>
             <text permissions="open" encoding="utf8">Reine de cœur</text>
             <text permissions="open" encoding="utf8">Regina di cuori</text>
             <text permissions="open" encoding="utf8">Queen of Hearts</text>
-            <text permissions="open" encoding="utf8">Herzkönigin</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Queen of Hearts is the ruler of Wonderland, known for her explosive temper and frequent orders of “Off with their heads!”
@@ -333,7 +333,7 @@ She is tyrannical, irrational, and quick to anger, though her executions are nev
 She hosts a chaotic croquet game, where flamingos are used as mallets and hedgehogs as balls.
 
 Carroll wrote the following about the Queen of Hearts:
-"I pictured the Queen of Hearts as a sort of embodiment of ungovernable passion – a blind and aimless Fury." (source: alice-in-wonderland.net)</text>
+"I pictured the Queen of Hearts as a sort of embodiment of ungovernable passion – a blind and aimless Fury." *source: alice-in-wonderland.net*</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">In DaSCHland, the Queen of Hearts is reenvisioned as a formidable digital ruler, embodying her classic characteristics of authority and quick temper, but with a modern twist. In this virtual world, she presides over the digital kingdom with a strict adherence to the rules and protocols encoded within the DaSCH repository.
@@ -381,9 +381,6 @@ He takes part in riddles, nonsensical conversations, and interruptions, frustrat
 
 He is named Haigha in the second book.</text>
         </text-prop>
-        <text-prop name=":hasDescriptionAlternative">
-            <text permissions="prop-restricted" encoding="xml">The Cheshire Cat's interactions with Alice are both enlightening and cryptic, guiding her through DaSCHland with riddles and philosophical insights that challenge her perceptions. His ability to phase in and out of digital visibility symbolizes the fluid nature of information in the digital age, where data can be both omnipresent and elusive.</text>
-        </text-prop>
         <list-prop list="Role" name=":hasRoleList">
             <list permissions="open">R_02</list>
         </list-prop>
@@ -410,9 +407,9 @@ He is named Haigha in the second book.</text>
             <text permissions="open" encoding="utf8">CH_008</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Duchesse</text>
             <text permissions="open" encoding="utf8">Herzogin</text>
             <text permissions="open" encoding="utf8">Duchessa</text>
-            <text permissions="open" encoding="utf8">Duchesse</text>
             <text permissions="open" encoding="utf8">Duchess</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -452,19 +449,16 @@ Her character is not only a caretaker of peculiar digital creatures but also ser
             <text permissions="open" encoding="utf8">CH_009</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Simili Tortue</text>
-            <text permissions="open" encoding="utf8">Mock Turtle</text>
-            <text permissions="open" encoding="utf8">Schildkrötensupperich</text>
             <text permissions="open" encoding="utf8">Finta tartaruga</text>
+            <text permissions="open" encoding="utf8">Simili Tortue</text>
+            <text permissions="open" encoding="utf8">Schildkrötensupperich</text>
+            <text permissions="open" encoding="utf8">Mock Turtle</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Mock Turtle is a sad and melancholic creature who constantly sighs and reminisces about his past.
 He was once a real turtle and attended “sea school” under a master called Tortoise (because he “taught us”).
 He is known for his nonsensical stories and puns, particularly about his strange school subjects, like Reeling and Writhing instead of Reading and Writing.
 He and the Gryphon teach Alice the Lobster Quadrille, a bizarre underwater dance.</text>
-        </text-prop>
-        <text-prop name=":hasDescriptionAlternative">
-            <text permissions="prop-restricted" encoding="xml">This version of the Cheshire Cat not only serves as a guide through the labyrinthine digital landscape but also as a reminder of the transformative power of technology in reshaping narratives and character interactions within this virtual world. His presence is a constant reminder of the enigmatic and ever-changing nature of the digital realm Alice explores.</text>
         </text-prop>
         <list-prop list="Role" name=":hasRoleList">
             <list permissions="open">R_02</list>
@@ -491,8 +485,8 @@ He and the Gryphon teach Alice the Lobster Quadrille, a bizarre underwater dance
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Grifone</text>
-            <text permissions="open" encoding="utf8">Gryphon</text>
             <text permissions="open" encoding="utf8">Mücke</text>
+            <text permissions="open" encoding="utf8">Gryphon</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Gryphon is a mythical creature with the body of a lion and the wings and head of an eagle.
@@ -532,17 +526,17 @@ His interactions with Alice are educational and protective, ensuring that she no
             <text permissions="open" encoding="utf8">CH_011</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Reine rouge</text>
-            <text permissions="open" encoding="utf8">Regina rossa</text>
             <text permissions="open" encoding="utf8">Rote Königin</text>
             <text permissions="open" encoding="utf8">Red Queen</text>
+            <text permissions="open" encoding="utf8">Reine rouge</text>
+            <text permissions="open" encoding="utf8">Regina rossa</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Red Queen is a chess piece on the Red side, known for being strict, commanding, and highly logical.
 She first meets Alice in Chapter 2 and explains the rules of the Looking-Glass world, where Alice must move like a pawn to reach the eighth square and become a queen.
 She later appears at Alice’s coronation banquet, where the event descends into chaos.
 
-It is possible that the Red Queen was modelled after the governess for the Liddell children, Miss Prickett, who was known as 'Pricks'. (source: alice-in-wonderland.net)</text>
+It is possible that the Red Queen was modelled after the governess for the Liddell children, Miss Prickett, who was known as 'Pricks' *source: alice-in-wonderland.net*.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">In the digital wonderland of DaSCHland, the Red Queen is reimagined as a dynamic and strategic figure, embodying a blend of leadership and urgency. Unlike the traditional portrayal of her character as simply domineering, this Red Queen is more nuanced, using her quick-paced and decisive nature to manage and oversee complex digital operations within the realm.
@@ -622,8 +616,8 @@ Couldn’t put Humpty together again."</text>
             <text permissions="open" encoding="utf8">CH_013</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">White Knight</text>
             <text permissions="open" encoding="utf8">Cavalier blanc</text>
+            <text permissions="open" encoding="utf8">White Knight</text>
             <text permissions="open" encoding="utf8">Weisser Ritter</text>
             <text permissions="open" encoding="utf8">Cavaliere bianco</text>
         </text-prop>
@@ -670,10 +664,10 @@ His interactions with Alice are filled with gentle guidance and eccentric invent
             <text permissions="open" encoding="utf8">CH_014</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Mouse</text>
-            <text permissions="open" encoding="utf8">Topo</text>
             <text permissions="open" encoding="utf8">Maus</text>
             <text permissions="open" encoding="utf8">Souris</text>
+            <text permissions="open" encoding="utf8">Topo</text>
+            <text permissions="open" encoding="utf8">Mouse</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Mouse is one of the creatures that fall into the pool of tears Alice creates when she grows too large.
@@ -720,8 +714,8 @@ He organizes the Caucus Race, a nonsensical event where everyone runs in circles
 
 The dodo, a flightless bird that once inhabited the island of Mauritius, located east of Madagascar in the Indian Ocean, became extinct in the mid-17th century during the colonisation of the island by the Dutch. 
 
-The character is believed to represent Lewis Carroll himself (Charles Dodgson), as “Dodo” is thought to be a reference to Dodgson’s own stammer, which made him pronounce his surname as “Do-do-Dodgson.”
-(source: alice-in-wonderland.net)</text>
+The character is believed to represent Lewis Carroll himself (Charles Dodgson), as “Dodo” is thought to be a reference to Dodgson’s own stammer, which made him pronounce his surname as “Do-do-Dodgson.” *source: alice-in-wonderland.net*
+</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">In DaSCHland, the Dodo is reimagined as a digital curator and archivist, overseeing the preservation and organization of the vast literary and historical data within the DaSCH repository. This version of the Dodo retains the peculiar and somewhat absurd characteristics from the original tales, but with a twist: he is deeply knowledgeable and somewhat pedantic about the digital artifacts and records under his care.
@@ -753,17 +747,17 @@ Interacting with the Dodo, Alice is often caught in the whirlwind of his archivi
             <text permissions="open" encoding="utf8">CH_016</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Sœur d'Alice</text>
-            <text permissions="open" encoding="utf8">Alices Schwester</text>
-            <text permissions="open" encoding="utf8">Alice's sister</text>
             <text permissions="open" encoding="utf8">Sorella di Alice</text>
+            <text permissions="open" encoding="utf8">Alice's sister</text>
+            <text permissions="open" encoding="utf8">Alices Schwester</text>
+            <text permissions="open" encoding="utf8">Sœur d'Alice</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">She is an unnamed older sister of Alice, present at the beginning and end of the story.
 At the start, she sits with Alice by the riverbank, reading a book with “no pictures or conversations,” which bores Alice and leads her to daydream about Wonderland.
 At the end, after Alice wakes up from her dream, her sister gently sends her home and reflects on Alice’s adventures, imagining that Alice will one day grow up but still retain her childlike wonder.
 
-Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell. The real Alice's older sister, Lorina, was actually only three years her senior. (source: alice-in-wonderland.net)</text>
+Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell. The real Alice's older sister, Lorina, was actually only three years her senior *source: alice-in-wonderland.net*.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">
@@ -790,10 +784,10 @@ Alice's sister interacts with the digital world through a sophisticated interfac
             <text permissions="open" encoding="utf8">CH_017</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Re di cuori</text>
-            <text permissions="open" encoding="utf8">King of Hearts</text>
-            <text permissions="open" encoding="utf8">Herzkönig</text>
             <text permissions="open" encoding="utf8">Roi de cœur</text>
+            <text permissions="open" encoding="utf8">Re di cuori</text>
+            <text permissions="open" encoding="utf8">Herzkönig</text>
+            <text permissions="open" encoding="utf8">King of Hearts</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The King of Hearts is the ruler of Wonderland alongside the Queen of Hearts, though he is much less fearsome than his wife.
@@ -875,9 +869,9 @@ Interactions with the Dormouse provide Alice and other characters with unexpecte
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Knave of Hearts</text>
-            <text permissions="open" encoding="utf8">Valet de cœur</text>
             <text permissions="open" encoding="utf8">Herzbube</text>
             <text permissions="open" encoding="utf8">Fante di cuori</text>
+            <text permissions="open" encoding="utf8">Valet de cœur</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Knave is a servant of the Queen of Hearts, accused of stealing the Queen’s tarts.
@@ -945,16 +939,16 @@ Dinah's role as a digitally enhanced pet in DaSCHland highlights the theme of co
             <text permissions="open" encoding="utf8">CH_021</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Duck</text>
+            <text permissions="open" encoding="utf8">Canard</text>
             <text permissions="open" encoding="utf8">Anatra</text>
             <text permissions="open" encoding="utf8">Ente</text>
-            <text permissions="open" encoding="utf8">Canard</text>
+            <text permissions="open" encoding="utf8">Duck</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Duck is one of the animals that fall into the pool of tears with Alice.
 It participates in the Caucus Race, a nonsensical event where everyone wins.
 
-The character is believed to be based on Reverend Duckworth, a friend of Lewis Carroll who accompanied Alice Liddell and her sisters on the boat trip where Carroll first told the story. (source: https://en.wikipedia.org/wiki/Robinson_Duckworth)</text>
+The character is believed to be based on Reverend Duckworth, a friend of Lewis Carroll who accompanied Alice Liddell and her sisters on the boat trip where Carroll first told the story *source: https://en.wikipedia.org/wiki/Robinson_Duckworth*.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">
@@ -986,7 +980,7 @@ Interacting with the Duck provides Alice with invaluable lessons on adaptability
             <text permissions="open" encoding="xml">The Lory is a talking bird that falls into the pool of tears along with Alice and other creatures.
 It participates in the Caucus Race, where everyone runs in circles and “wins.”
 The Lory is depicted as proud and argumentative, refusing to let Alice have the last word in their conversation.
-She is said to be modeled after Alice’s sister, Lorina (source: alice-in-wonderland.net)</text>
+She is said to be modeled after Alice’s sister, Lorina *source: alice-in-wonderland.net*</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">
@@ -1014,15 +1008,15 @@ Interacting with Lory provides a dynamic element to Alice's journey, testing her
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Adlerjunge</text>
-            <text permissions="open" encoding="utf8">Aquilotto</text>
             <text permissions="open" encoding="utf8">Eaglet</text>
             <text permissions="open" encoding="utf8">Aiglon</text>
+            <text permissions="open" encoding="utf8">Aquilotto</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Eaglet is one of the animals that fall into the pool of tears with Alice.
 It participates in the Caucus Race, a nonsensical race where everyone wins.
 The Eaglet is depicted as intelligent and somewhat critical, questioning the Dodo’s explanations.
-She is said to be modeled after Alice’s sister, Edith (source: alice-in-wonderland.net)</text>
+She is said to be modeled after Alice’s sister, Edith *source: alice-in-wonderland.net*</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">
@@ -1109,10 +1103,10 @@ Interacting with Pat provides Alice with insights into the inner workings of the
             <text permissions="open" encoding="utf8">CH_026</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Jammerwoch</text>
+            <text permissions="open" encoding="utf8">Ciciarampa</text>
             <text permissions="open" encoding="utf8">Jabberwock</text>
             <text permissions="open" encoding="utf8">Jaseroque</text>
-            <text permissions="open" encoding="utf8">Ciciarampa</text>
+            <text permissions="open" encoding="utf8">Jammerwoch</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Jabberwock is a fictional monster featured in the poem “Jabberwocky,” which appears in Through the Looking-Glass.
@@ -1120,7 +1114,7 @@ Interacting with Pat provides Alice with insights into the inner workings of the
 The Jabberwock is a fearsome creature described in the nonsensical poem with features like “jaws that bite,” “claws that catch,” and “eyes of flame.”
 The poem tells the story of a hero who slays the Jabberwock with a “vorpal sword,” cutting off its head and triumphantly returning home.
 
-In a letter to Mrs. Chataway, the mother of a child-friend, Carroll elucidates that the scene of the 'Snark' is "an island, frequented by the Jubjub and Bandersnatch – no doubt the very island where the Jabberwock was slain." (Source: Gardner, Martin. The Annotated Alice. The definitive edition, Penguin Books, 2001, p.161)</text>
+In a letter to Mrs. Chataway, the mother of a child-friend, Carroll elucidates that the scene of the 'Snark' is "an island, frequented by the Jubjub and Bandersnatch – no doubt the very island where the Jabberwock was slain." *source: Gardner, Martin. The Annotated Alice. The definitive edition, Penguin Books, 2001, p.161*</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text permissions="prop-restricted" encoding="xml">
@@ -1154,9 +1148,9 @@ This digital reinterpretation of the Jabberwock adds depth to the narrative of D
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Bill die Eidechse</text>
-            <text permissions="open" encoding="utf8">Bill le lézard</text>
-            <text permissions="open" encoding="utf8">Bill the lizard</text>
             <text permissions="open" encoding="utf8">Bill la lucertola</text>
+            <text permissions="open" encoding="utf8">Bill the lizard</text>
+            <text permissions="open" encoding="utf8">Bill le lézard</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Bill is a lizard who works as a handyman or chimney sweep for the White Rabbit.
@@ -1188,10 +1182,10 @@ Interacting with Bill provides Alice and other characters with practical knowled
             <text permissions="open" encoding="utf8">CH_028</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Welpe</text>
             <text permissions="open" encoding="utf8">Chiot</text>
-            <text permissions="open" encoding="utf8">Cucciolo</text>
             <text permissions="open" encoding="utf8">Puppy</text>
+            <text permissions="open" encoding="utf8">Cucciolo</text>
+            <text permissions="open" encoding="utf8">Welpe</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The puppy appears in Alice’s Adventures in Wonderland. 
@@ -1224,9 +1218,9 @@ Interacting with the Puppy offers a break from the more complex challenges of Da
             <text permissions="open" encoding="utf8">CH_029</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Pigeon</text>
-            <text permissions="open" encoding="utf8">Taube</text>
             <text permissions="open" encoding="utf8">Piccione</text>
+            <text permissions="open" encoding="utf8">Taube</text>
+            <text permissions="open" encoding="utf8">Pigeon</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The pigeon appears in Alice’s Adventures in Wonderland.
@@ -1261,9 +1255,9 @@ Interacting with the Pigeon provides Alice with insights into the complexities o
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Valetto Rana</text>
-            <text permissions="open" encoding="utf8">Laquais-grenouille</text>
             <text permissions="open" encoding="utf8">Frog-Footman</text>
             <text permissions="open" encoding="utf8">Frosch-Lakai</text>
+            <text permissions="open" encoding="utf8">Laquais-grenouille</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Frog Footman appears in the first book, Alice’s Adventures in Wonderland. He is a servant delivering a letter from the Queen of Hearts to the Duchess. 
@@ -1300,10 +1294,10 @@ There’s no sort of use in knocking, and that for two reasons. First, because I
             <text permissions="open" encoding="utf8">CH_031</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Fisch-Lakai</text>
+            <text permissions="open" encoding="utf8">Valletto Pesce</text>
             <text permissions="open" encoding="utf8">Fish-Footman</text>
             <text permissions="open" encoding="utf8">Laquais-poisson</text>
-            <text permissions="open" encoding="utf8">Valletto Pesce</text>
-            <text permissions="open" encoding="utf8">Fisch-Lakai</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Fish-Footman appears in Alice’s Adventures in Wonderland.
@@ -1379,8 +1373,8 @@ The baby/pig character serves as a playful yet profound metaphor for the evolvin
             <text permissions="open" encoding="utf8">CH_033</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Cuoco</text>
             <text permissions="open" encoding="utf8">Cook</text>
+            <text permissions="open" encoding="utf8">Cuoco</text>
             <text permissions="open" encoding="utf8">Cuisinière</text>
             <text permissions="open" encoding="utf8">Köchin</text>
         </text-prop>
@@ -1416,10 +1410,10 @@ This version of the Cook retains her fiery temperament but channels it into her 
             <text permissions="open" encoding="utf8">CH_034</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Elsie, Lacie e Tillie</text>
+            <text permissions="open" encoding="utf8">Elsie, Lacie et Tillie</text>
             <text permissions="open" encoding="utf8">Elsie, Lacie und Tillie</text>
             <text permissions="open" encoding="utf8">Elsie, Lacie and Tillie</text>
-            <text permissions="open" encoding="utf8">Elsie, Lacie et Tillie</text>
-            <text permissions="open" encoding="utf8">Elsie, Lacie e Tillie</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Elsie, Lacie, and Tillie appear in Through the Looking-Glass. They are the three sisters sitting in a well, mentioned during the story of “The Walrus and the Carpenter”.</text>
@@ -1449,9 +1443,9 @@ Together, Elsie, Lacie, and Tillie offer a comprehensive approach to the preserv
             <text permissions="open" encoding="utf8">CH_035</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Fünf, Sieben und Zwei</text>
-            <text permissions="open" encoding="utf8">Five, Seven and Two</text>
             <text permissions="open" encoding="utf8">Cinque, Sette e Due</text>
+            <text permissions="open" encoding="utf8">Five, Seven and Two</text>
+            <text permissions="open" encoding="utf8">Fünf, Sieben und Zwei</text>
             <text permissions="open" encoding="utf8">Cinq, Sept et Deux</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -1498,10 +1492,10 @@ Two:
             <text permissions="open" encoding="utf8">CH_036</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Flamingos and hedgehogs</text>
-            <text permissions="open" encoding="utf8">Flamingos und Igel</text>
             <text permissions="open" encoding="utf8">Flamants roses et hérissons</text>
+            <text permissions="open" encoding="utf8">Flamingos und Igel</text>
             <text permissions="open" encoding="utf8">Fenicotteri e ricci</text>
+            <text permissions="open" encoding="utf8">Flamingos and hedgehogs</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The flamingos and hedgehogs appear in Alice’s Adventures in Wonderland.
@@ -1541,10 +1535,10 @@ Together, the flamingos and hedgehogs enhance the playful and educational aspect
             <text permissions="open" encoding="utf8">CH_037</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Jurors</text>
-            <text permissions="open" encoding="utf8">Giurati</text>
             <text permissions="open" encoding="utf8">Jurés</text>
             <text permissions="open" encoding="utf8">Juroren</text>
+            <text permissions="open" encoding="utf8">Jurors</text>
+            <text permissions="open" encoding="utf8">Giurati</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The jurors appear in Alice’s Adventures in Wonderland during the chaotic trial. 
@@ -1586,8 +1580,8 @@ This reimagining of the Jurors adds depth to the educational offerings of DaSCHl
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Vater William</text>
             <text permissions="open" encoding="utf8">Père William</text>
-            <text permissions="open" encoding="utf8">Father William</text>
             <text permissions="open" encoding="utf8">Padre William</text>
+            <text permissions="open" encoding="utf8">Father William</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">Father William appears in Alice’s Adventures in Wonderland. The character comes from a parody poem that Alice recites.
@@ -1618,9 +1612,9 @@ Father William responds with witty and nonsensical explanations, contrasting the
             <text permissions="open" encoding="utf8">CH_039</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Aragosta</text>
-            <text permissions="open" encoding="utf8">Hummer</text>
             <text permissions="open" encoding="utf8">Lobster</text>
+            <text permissions="open" encoding="utf8">Hummer</text>
+            <text permissions="open" encoding="utf8">Aragosta</text>
             <text permissions="open" encoding="utf8">Homard</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -1647,10 +1641,10 @@ The dance involves various sea creatures (including lobsters, turtles, and jelly
             <text permissions="open" encoding="utf8">CH_040</text>
         </text-prop>
         <text-prop name=":hasName">
+            <text permissions="open" encoding="utf8">Gattino nero</text>
+            <text permissions="open" encoding="utf8">Black kitten</text>
             <text permissions="open" encoding="utf8">Schwarzes Kätzchen</text>
             <text permissions="open" encoding="utf8">Chaton noir</text>
-            <text permissions="open" encoding="utf8">Black kitten</text>
-            <text permissions="open" encoding="utf8">Gattino nero</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The black kitten appears in Through the Looking-Glass. 
@@ -1679,10 +1673,10 @@ In the final chapter, Alice playfully accuses the kitten of being responsible fo
             <text permissions="open" encoding="utf8">CH_041</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Hommes d'échecs</text>
-            <text permissions="open" encoding="utf8">Chessmen</text>
-            <text permissions="open" encoding="utf8">Scacchista</text>
             <text permissions="open" encoding="utf8">Schachfiguren</text>
+            <text permissions="open" encoding="utf8">Scacchista</text>
+            <text permissions="open" encoding="utf8">Chessmen</text>
+            <text permissions="open" encoding="utf8">Hommes d'échecs</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The chessmen play a central role in Through the Looking-Glass, where the entire story is structured like a chess game. The characters in the Looking-Glass world correspond to pieces on a chessboard, and Alice herself is a pawn who aims to become a queen by the end of the game.</text>
@@ -1704,10 +1698,10 @@ In the final chapter, Alice playfully accuses the kitten of being responsible fo
             <text permissions="open" encoding="utf8">CH_042</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">White King</text>
             <text permissions="open" encoding="utf8">Weisser King</text>
-            <text permissions="open" encoding="utf8">Roi blanc</text>
             <text permissions="open" encoding="utf8">Re bianco</text>
+            <text permissions="open" encoding="utf8">White King</text>
+            <text permissions="open" encoding="utf8">Roi blanc</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The White King is a character in Through the Looking-Glass and represents a chess piece on the White side of the board. 
@@ -1736,9 +1730,9 @@ He is a comically confused and somewhat bumbling figure who often appears overwh
             <text permissions="open" encoding="utf8">CH_043</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Giglio tigrato e altri fiori</text>
-            <text permissions="open" encoding="utf8">Tiger-Lily and other flowers</text>
             <text permissions="open" encoding="utf8">Tigerlilie und andere Blumen</text>
+            <text permissions="open" encoding="utf8">Tiger-Lily and other flowers</text>
+            <text permissions="open" encoding="utf8">Giglio tigrato e altri fiori</text>
             <text permissions="open" encoding="utf8">Lys tigré et autres fleurs</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -1773,8 +1767,8 @@ Violet: The violet is polite but also a bit condescending, subtly criticizing Al
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Tweedledum und Tweedledee</text>
-            <text permissions="open" encoding="utf8">Tweedledum et Tweedledee</text>
             <text permissions="open" encoding="utf8">Tweedledum and Tweedledee</text>
+            <text permissions="open" encoding="utf8">Tweedledum et Tweedledee</text>
             <text permissions="open" encoding="utf8">Pinco Pallino e Pinco Pallino</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -1808,8 +1802,8 @@ In the story, the twins are about to fight over a broken rattle, but their battl
             <text permissions="open" encoding="utf8">CH_045</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Morse</text>
             <text permissions="open" encoding="utf8">Walross</text>
+            <text permissions="open" encoding="utf8">Morse</text>
             <text permissions="open" encoding="utf8">Tricheco</text>
             <text permissions="open" encoding="utf8">Walrus</text>
         </text-prop>
@@ -1841,9 +1835,9 @@ They persuade the oysters to come with them for a walk, under the pretense of a 
             <text permissions="open" encoding="utf8">CH_046</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Carpenter</text>
             <text permissions="open" encoding="utf8">Zimmermann</text>
             <text permissions="open" encoding="utf8">Falegname</text>
+            <text permissions="open" encoding="utf8">Carpenter</text>
             <text permissions="open" encoding="utf8">Charpentier</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -1876,10 +1870,10 @@ In the end, after the Walrus eats most of the oysters, the Carpenter angrily rea
             <text permissions="open" encoding="utf8">CH_047</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Red King</text>
-            <text permissions="open" encoding="utf8">Roi rouge</text>
             <text permissions="open" encoding="utf8">Roter King</text>
+            <text permissions="open" encoding="utf8">Red King</text>
             <text permissions="open" encoding="utf8">Re Rosso</text>
+            <text permissions="open" encoding="utf8">Roi rouge</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Red King is characteristic of the king in such a Chessgame in that he has all of the pieces on his side available to perform the work for him.
@@ -1907,10 +1901,10 @@ They tell her that if he were to wake up, she would “go out—bang!—just lik
             <text permissions="open" encoding="utf8">CH_048</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Cavalier rouge</text>
             <text permissions="open" encoding="utf8">Roter Ritter</text>
-            <text permissions="open" encoding="utf8">Red Knight</text>
+            <text permissions="open" encoding="utf8">Cavalier rouge</text>
             <text permissions="open" encoding="utf8">Cavaliere Rosso</text>
+            <text permissions="open" encoding="utf8">Red Knight</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The Red Knight appears in Through the Looking-Glass. He is a chess piece on the Red side and serves as an obstacle for Alice during her journey across the chessboard.
@@ -1939,10 +1933,10 @@ As Alice travels toward the final square where she will become a queen, the Red 
             <text permissions="open" encoding="utf8">CH_049</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Reine blanche</text>
+            <text permissions="open" encoding="utf8">Regina bianca</text>
             <text permissions="open" encoding="utf8">Weisse Königin</text>
             <text permissions="open" encoding="utf8">White Queen</text>
-            <text permissions="open" encoding="utf8">Regina bianca</text>
+            <text permissions="open" encoding="utf8">Reine blanche</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The White Queen appears in Through the Looking-Glass. 
@@ -1971,10 +1965,10 @@ Her behaviour is odd to Alice.</text>
             <text permissions="open" encoding="utf8">CH_050</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Chaton blanc</text>
-            <text permissions="open" encoding="utf8">Gattino bianco</text>
-            <text permissions="open" encoding="utf8">White Kitten</text>
             <text permissions="open" encoding="utf8">Weisses Kätzchen</text>
+            <text permissions="open" encoding="utf8">White Kitten</text>
+            <text permissions="open" encoding="utf8">Gattino bianco</text>
+            <text permissions="open" encoding="utf8">Chaton blanc</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="open" encoding="xml">The white kitten, named Snowdrop, appears in Through the Looking-Glass. 
@@ -2030,9 +2024,9 @@ Humorous Insect Descriptions Provided by the Gnat:
             <text permissions="open" encoding="utf8">CH_052</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Sheep</text>
             <text permissions="open" encoding="utf8">Pecora</text>
             <text permissions="open" encoding="utf8">Mouton</text>
+            <text permissions="open" encoding="utf8">Sheep</text>
             <text permissions="open" encoding="utf8">Schaf</text>
         </text-prop>
         <text-prop name=":hasDescription">
@@ -2096,9 +2090,9 @@ The scene satirizes political conflict in a whimsical way, with neither side gai
             <text permissions="open" encoding="utf8">CH_054</text>
         </text-prop>
         <text-prop name=":hasName">
-            <text permissions="open" encoding="utf8">Licorne</text>
-            <text permissions="open" encoding="utf8">Unicorn</text>
             <text permissions="open" encoding="utf8">Unicorno</text>
+            <text permissions="open" encoding="utf8">Unicorn</text>
+            <text permissions="open" encoding="utf8">Licorne</text>
             <text permissions="open" encoding="utf8">Einhorn</text>
         </text-prop>
         <text-prop name=":hasDescription">

@@ -22,7 +22,6 @@ from src.excel2xml import (
     import_video_segment_excel2xml,
 )
 from src.helpers import helper_excel2xml
-from src.nodegoat import Nodegoat_files_update
 
 
 def main():
@@ -93,8 +92,6 @@ def main():
     ic(len(all_audio_segments))
 
     excel2xml.write_xml(root, "daschland_data_excel2xml.xml")
-
-    Nodegoat_files_update.main()
 
 
 if __name__ == "__main__":
