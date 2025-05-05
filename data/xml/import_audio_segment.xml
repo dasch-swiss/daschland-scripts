@@ -40,7 +40,7 @@
         <hasComment permissions="open">Read by the cast</hasComment>
         <hasDescription permissions="open">Poem All in the golden afternoon</hasDescription>
         <hasKeyword permissions="open">Poem</hasKeyword>
-        <relatesTo permissions="open">BC_01</relatesTo>
+        <relatesTo permissions="open">BCH_001</relatesTo>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Dramatis Personae - Outro" id="AUS_003" permissions="open">
         <isSegmentOf permissions="open">A_01</isSegmentOf>
@@ -71,7 +71,7 @@
         <hasComment permissions="open">Read by the cast</hasComment>
         <hasDescription permissions="open">Chapter 1 of Alice in Wonderland</hasDescription>
         <hasKeyword permissions="open">Chapter</hasKeyword>
-        <relatesTo permissions="open">BC_02</relatesTo>
+        <relatesTo permissions="open">BCH_002</relatesTo>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Chapter 1 - Outro" id="AUS_007" permissions="open">
         <isSegmentOf permissions="open">A_02</isSegmentOf>
@@ -94,7 +94,7 @@
         <hasComment permissions="open">Read by the cast</hasComment>
         <hasDescription permissions="open">Chapter 2 of Alice in Wonderland</hasDescription>
         <hasKeyword permissions="open">Chapter</hasKeyword>
-        <relatesTo permissions="open">BC_03</relatesTo>
+        <relatesTo permissions="open">BCH_003</relatesTo>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Chapter 2 - Outro" id="AUS_010" permissions="open">
         <isSegmentOf permissions="open">A_03</isSegmentOf>

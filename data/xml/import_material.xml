@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<knora xmlns="https://dasch.swiss/schema"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+<knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
     <permissions id="res-default">
         <allow group="UnknownUser">V</allow>
         <allow group="KnownUser">V</allow>
@@ -64,7 +63,7 @@
             <text permissions="open" encoding="xml">xml import script for Audio class</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.057</decimal>
+            <decimal permissions="open">0.056</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>
@@ -189,7 +188,7 @@
             <text permissions="open" encoding="xml">xml import script for Character class</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.148</decimal>
+            <decimal permissions="open">0.147</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>
@@ -264,7 +263,7 @@
             <text permissions="open" encoding="xml">xml import script for Image class</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.105</decimal>
+            <decimal permissions="open">0.104</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>
@@ -314,7 +313,7 @@
             <text permissions="open" encoding="xml">xml import script for Material class</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.038</decimal>
+            <decimal permissions="open">0.043</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>
@@ -428,7 +427,7 @@
         </text-prop>
     </resource>
     <resource label="Archive.csv" restype="metadata:Material" id="MAT_017" permissions="open">
-        <bitstream permissions="open">Nodegoat/Archive.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Archive.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_017</text>
         </text-prop>
@@ -453,7 +452,7 @@
         </text-prop>
     </resource>
     <resource label="Audio.csv" restype="metadata:Material" id="MAT_018" permissions="open">
-        <bitstream permissions="open">Nodegoat/Audio.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Audio.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_018</text>
         </text-prop>
@@ -464,7 +463,7 @@
             <text permissions="open" encoding="xml">csv file for Nodegoat import for Audio class</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.032</decimal>
+            <decimal permissions="open">0.03</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>
@@ -478,7 +477,7 @@
         </text-prop>
     </resource>
     <resource label="Book.csv" restype="metadata:Material" id="MAT_019" permissions="open">
-        <bitstream permissions="open">Nodegoat/Book.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Book.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_019</text>
         </text-prop>
@@ -503,7 +502,7 @@
         </text-prop>
     </resource>
     <resource label="BookChapter.csv" restype="metadata:Material" id="MAT_020" permissions="open">
-        <bitstream permissions="open">Nodegoat/BookChapter.csv</bitstream>
+        <bitstream permissions="open">nodegoat/BookChapter.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_020</text>
         </text-prop>
@@ -528,7 +527,7 @@
         </text-prop>
     </resource>
     <resource label="BookEdition.csv" restype="metadata:Material" id="MAT_021" permissions="open">
-        <bitstream permissions="open">Nodegoat/BookEdition.csv</bitstream>
+        <bitstream permissions="open">nodegoat/BookEdition.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_021</text>
         </text-prop>
@@ -539,7 +538,7 @@
             <text permissions="open" encoding="xml">csv file for Nodegoat import for Book Edition class</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.003</decimal>
+            <decimal permissions="open">0.002</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>
@@ -553,7 +552,7 @@
         </text-prop>
     </resource>
     <resource label="Character.csv" restype="metadata:Material" id="MAT_022" permissions="open">
-        <bitstream permissions="open">Nodegoat/Character.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Character.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_022</text>
         </text-prop>
@@ -578,7 +577,7 @@
         </text-prop>
     </resource>
     <resource label="Documentation.csv" restype="metadata:Material" id="MAT_023" permissions="open">
-        <bitstream permissions="open">Nodegoat/Documentation.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Documentation.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_023</text>
         </text-prop>
@@ -589,7 +588,7 @@
             <text permissions="open" encoding="xml">csv file for Nodegoat import for Documentation class</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.002</decimal>
+            <decimal permissions="open">0.001</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>
@@ -603,7 +602,7 @@
         </text-prop>
     </resource>
     <resource label="Event.csv" restype="metadata:Material" id="MAT_024" permissions="open">
-        <bitstream permissions="open">Nodegoat/Event.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Event.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_024</text>
         </text-prop>
@@ -628,7 +627,7 @@
         </text-prop>
     </resource>
     <resource label="Image.csv" restype="metadata:Material" id="MAT_025" permissions="open">
-        <bitstream permissions="open">Nodegoat/Image.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Image.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_025</text>
         </text-prop>
@@ -639,7 +638,7 @@
             <text permissions="open" encoding="xml">csv file for Nodegoat import for Image class</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.031</decimal>
+            <decimal permissions="open">0.026</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>
@@ -653,7 +652,7 @@
         </text-prop>
     </resource>
     <resource label="List_Event_Type.csv" restype="metadata:Material" id="MAT_026" permissions="open">
-        <bitstream permissions="open">Nodegoat/List_Event_Type.csv</bitstream>
+        <bitstream permissions="open">nodegoat/List_Event_Type.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_026</text>
         </text-prop>
@@ -678,7 +677,7 @@
         </text-prop>
     </resource>
     <resource label="List_License.csv" restype="metadata:Material" id="MAT_027" permissions="open">
-        <bitstream permissions="open">Nodegoat/List_License.csv</bitstream>
+        <bitstream permissions="open">nodegoat/List_License.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_027</text>
         </text-prop>
@@ -703,7 +702,7 @@
         </text-prop>
     </resource>
     <resource label="List_Role.csv" restype="metadata:Material" id="MAT_028" permissions="open">
-        <bitstream permissions="open">Nodegoat/List_Role.csv</bitstream>
+        <bitstream permissions="open">nodegoat/List_Role.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_028</text>
         </text-prop>
@@ -728,7 +727,7 @@
         </text-prop>
     </resource>
     <resource label="Location.csv" restype="metadata:Material" id="MAT_029" permissions="open">
-        <bitstream permissions="open">Nodegoat/Location.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Location.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_029</text>
         </text-prop>
@@ -753,7 +752,7 @@
         </text-prop>
     </resource>
     <resource label="Material.csv" restype="metadata:Material" id="MAT_030" permissions="open">
-        <bitstream permissions="open">Nodegoat/Material.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Material.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_030</text>
         </text-prop>
@@ -764,7 +763,7 @@
             <text permissions="open" encoding="xml">csv file for Nodegoat import for Material class</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.007</decimal>
+            <decimal permissions="open">0.006</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>
@@ -778,7 +777,7 @@
         </text-prop>
     </resource>
     <resource label="Region.csv" restype="metadata:Material" id="MAT_031" permissions="open">
-        <bitstream permissions="open">Nodegoat/Region.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Region.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_031</text>
         </text-prop>
@@ -803,7 +802,7 @@
         </text-prop>
     </resource>
     <resource label="Video.csv" restype="metadata:Material" id="MAT_032" permissions="open">
-        <bitstream permissions="open">Nodegoat/Video.csv</bitstream>
+        <bitstream permissions="open">nodegoat/Video.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_032</text>
         </text-prop>
@@ -828,7 +827,7 @@
         </text-prop>
     </resource>
     <resource label="VideoSegment.csv" restype="metadata:Material" id="MAT_033" permissions="open">
-        <bitstream permissions="open">Nodegoat/VideoSegment.csv</bitstream>
+        <bitstream permissions="open">nodegoat/VideoSegment.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_033</text>
         </text-prop>
@@ -853,7 +852,7 @@
         </text-prop>
     </resource>
     <resource label="AudioSegment.csv" restype="metadata:Material" id="MAT_034" permissions="open">
-        <bitstream permissions="open">Nodegoat/AudioSegment.csv</bitstream>
+        <bitstream permissions="open">nodegoat/AudioSegment.csv</bitstream>
         <text-prop name="metadata:hasID">
             <text permissions="open" encoding="utf8">MAT_034</text>
         </text-prop>

@@ -50,19 +50,19 @@ Although Alice returns to her world with a token from DaSCHland, the experience 
             <date permissions="open">GREGORIAN:CE:1865-07-04:CE:1865-07-04</date>
         </date-prop>
         <resptr-prop name=":linkToBookChapter">
-            <resptr permissions="open">BC_01</resptr>
-            <resptr permissions="open">BC_02</resptr>
-            <resptr permissions="open">BC_03</resptr>
-            <resptr permissions="open">BC_04</resptr>
-            <resptr permissions="open">BC_05</resptr>
-            <resptr permissions="open">BC_06</resptr>
-            <resptr permissions="open">BC_07</resptr>
-            <resptr permissions="open">BC_08</resptr>
-            <resptr permissions="open">BC_09</resptr>
-            <resptr permissions="open">BC_10</resptr>
-            <resptr permissions="open">BC_11</resptr>
-            <resptr permissions="open">BC_12</resptr>
-            <resptr permissions="open">BC_13</resptr>
+            <resptr permissions="open">BCH_001</resptr>
+            <resptr permissions="open">BCH_002</resptr>
+            <resptr permissions="open">BCH_003</resptr>
+            <resptr permissions="open">BCH_004</resptr>
+            <resptr permissions="open">BCH_005</resptr>
+            <resptr permissions="open">BCH_006</resptr>
+            <resptr permissions="open">BCH_007</resptr>
+            <resptr permissions="open">BCH_008</resptr>
+            <resptr permissions="open">BCH_009</resptr>
+            <resptr permissions="open">BCH_010</resptr>
+            <resptr permissions="open">BCH_011</resptr>
+            <resptr permissions="open">BCH_012</resptr>
+            <resptr permissions="open">BCH_013</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToBookEdition">
             <resptr permissions="open">BE_001</resptr>
@@ -71,10 +71,10 @@ Although Alice returns to her world with a token from DaSCHland, the experience 
             <resptr permissions="open">V_01</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToBookCover">
-            <resptr permissions="open">BC_001</resptr>
-            <resptr permissions="open">BC_002</resptr>
-            <resptr permissions="open">BC_003</resptr>
-            <resptr permissions="open">BC_004</resptr>
+            <resptr permissions="open">BCO_001</resptr>
+            <resptr permissions="open">BCO_002</resptr>
+            <resptr permissions="open">BCO_003</resptr>
+            <resptr permissions="open">BCO_004</resptr>
         </resptr-prop>
     </resource>
     <resource label="Through the Looking-Glass and what Alice found there" restype=":Book" id="BK_002" permissions="open">
@@ -99,22 +99,22 @@ In this new environment, Alice embarks on another adventure filled with enigmati
             <date permissions="open">GREGORIAN:CE:1871-12-27:CE:1871-12-27</date>
         </date-prop>
         <resptr-prop name=":linkToBookChapter">
-            <resptr permissions="open">BC_14</resptr>
-            <resptr permissions="open">BC_15</resptr>
-            <resptr permissions="open">BC_16</resptr>
-            <resptr permissions="open">BC_17</resptr>
-            <resptr permissions="open">BC_18</resptr>
-            <resptr permissions="open">BC_19</resptr>
-            <resptr permissions="open">BC_20</resptr>
-            <resptr permissions="open">BC_21</resptr>
-            <resptr permissions="open">BC_22</resptr>
-            <resptr permissions="open">BC_23</resptr>
-            <resptr permissions="open">BC_24</resptr>
-            <resptr permissions="open">BC_25</resptr>
-            <resptr permissions="open">BC_26</resptr>
-            <resptr permissions="open">BC_27</resptr>
-            <resptr permissions="open">BC_28</resptr>
-            <resptr permissions="open">BC_29</resptr>
+            <resptr permissions="open">BCH_014</resptr>
+            <resptr permissions="open">BCH_015</resptr>
+            <resptr permissions="open">BCH_016</resptr>
+            <resptr permissions="open">BCH_017</resptr>
+            <resptr permissions="open">BCH_018</resptr>
+            <resptr permissions="open">BCH_019</resptr>
+            <resptr permissions="open">BCH_020</resptr>
+            <resptr permissions="open">BCH_021</resptr>
+            <resptr permissions="open">BCH_022</resptr>
+            <resptr permissions="open">BCH_023</resptr>
+            <resptr permissions="open">BCH_024</resptr>
+            <resptr permissions="open">BCH_025</resptr>
+            <resptr permissions="open">BCH_026</resptr>
+            <resptr permissions="open">BCH_027</resptr>
+            <resptr permissions="open">BCH_028</resptr>
+            <resptr permissions="open">BCH_029</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToBookEdition">
             <resptr permissions="open">BE_002</resptr>
@@ -123,9 +123,9 @@ In this new environment, Alice embarks on another adventure filled with enigmati
             <resptr permissions="open">V_01</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToBookCover">
-            <resptr permissions="open">BC_005</resptr>
-            <resptr permissions="open">BC_006</resptr>
-            <resptr permissions="open">BC_007</resptr>
+            <resptr permissions="open">BCO_005</resptr>
+            <resptr permissions="open">BCO_006</resptr>
+            <resptr permissions="open">BCO_007</resptr>
         </resptr-prop>
     </resource>
 </knora>

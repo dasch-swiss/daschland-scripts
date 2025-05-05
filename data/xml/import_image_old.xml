@@ -38,7 +38,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book8.jpg</text>
@@ -65,7 +65,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book25.jpg</text>
@@ -92,7 +92,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book31.jpg</text>
@@ -119,7 +119,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book44.jpg</text>
@@ -146,7 +146,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book12.jpg</text>
@@ -173,7 +173,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book10.jpg</text>
@@ -200,7 +200,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book7.jpg</text>
@@ -227,7 +227,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book18.jpg</text>
@@ -254,7 +254,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book17.jpg</text>
@@ -281,7 +281,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book4.jpg</text>
@@ -308,7 +308,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book39.jpg</text>
@@ -335,7 +335,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book2.jpg</text>
@@ -362,7 +362,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book3.jpg</text>
@@ -389,7 +389,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book4.jpg</text>
@@ -416,7 +416,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book35.jpg</text>
@@ -443,7 +443,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book29.jpg</text>
@@ -470,7 +470,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book3.jpg</text>
@@ -497,7 +497,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book21.jpg</text>
@@ -524,7 +524,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book27.jpg</text>
@@ -551,7 +551,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book41.jpg</text>
@@ -578,7 +578,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book49.jpg</text>
@@ -605,7 +605,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book10.jpg</text>
@@ -632,7 +632,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book6.jpg</text>
@@ -659,7 +659,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book46.jpg</text>
@@ -686,7 +686,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book36.jpg</text>
@@ -713,7 +713,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book28.jpg</text>
@@ -740,7 +740,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book48.jpg</text>
@@ -767,7 +767,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book47.jpg</text>
@@ -794,7 +794,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book13.jpg</text>
@@ -821,7 +821,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book24.jpg</text>
@@ -848,7 +848,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book6.jpg</text>
@@ -875,7 +875,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book39.jpg</text>
@@ -902,7 +902,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book2.jpg</text>
@@ -929,7 +929,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book11.jpg</text>
@@ -956,7 +956,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book12.jpg</text>
@@ -983,7 +983,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book1.jpg</text>
@@ -1010,7 +1010,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book16.jpg</text>
@@ -1037,7 +1037,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book27.jpg</text>
@@ -1064,7 +1064,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book41.jpg</text>
@@ -1091,7 +1091,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book14.jpg</text>
@@ -1118,7 +1118,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book23.jpg</text>
@@ -1145,7 +1145,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book22.jpg</text>
@@ -1172,7 +1172,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book11.jpg</text>
@@ -1199,7 +1199,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book5.jpg</text>
@@ -1226,7 +1226,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book26.jpg</text>
@@ -1253,7 +1253,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book20.jpg</text>
@@ -1280,7 +1280,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book30.jpg</text>
@@ -1307,7 +1307,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book18.jpg</text>
@@ -1334,7 +1334,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book17.jpg</text>
@@ -1361,7 +1361,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book15.jpg</text>
@@ -1388,7 +1388,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book16.jpg</text>
@@ -1415,7 +1415,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book19.jpg</text>
@@ -1442,7 +1442,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book32.jpg</text>
@@ -1469,7 +1469,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book33.jpg</text>
@@ -1496,7 +1496,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book34.jpg</text>
@@ -1523,7 +1523,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book26.jpg</text>
@@ -1550,7 +1550,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book38.jpg</text>
@@ -1577,7 +1577,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book37.jpg</text>
@@ -1604,7 +1604,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book25.jpg</text>
@@ -1631,7 +1631,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book29.jpg</text>
@@ -1658,7 +1658,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book31.jpg</text>
@@ -1685,7 +1685,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book30.jpg</text>
@@ -1712,7 +1712,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book8.jpg</text>
@@ -1739,7 +1739,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book0.jpg</text>
@@ -1766,7 +1766,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book40.jpg</text>
@@ -1793,7 +1793,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book35.jpg</text>
@@ -1820,7 +1820,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book34.jpg</text>
@@ -1847,7 +1847,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book33.jpg</text>
@@ -1874,7 +1874,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book9.jpg</text>
@@ -1901,7 +1901,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book45.jpg</text>
@@ -1928,7 +1928,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book28.jpg</text>
@@ -1955,7 +1955,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book22.jpg</text>
@@ -1982,7 +1982,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book37.jpg</text>
@@ -2009,7 +2009,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book42.jpg</text>
@@ -2036,7 +2036,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book43.jpg</text>
@@ -2063,7 +2063,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book14.jpg</text>
@@ -2090,7 +2090,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book15.jpg</text>
@@ -2117,7 +2117,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book13.jpg</text>
@@ -2144,7 +2144,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book7.jpg</text>
@@ -2171,7 +2171,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book9.jpg</text>
@@ -2198,7 +2198,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book24.jpg</text>
@@ -2225,7 +2225,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book23.jpg</text>
@@ -2252,7 +2252,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book21.jpg</text>
@@ -2279,7 +2279,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book20.jpg</text>
@@ -2306,7 +2306,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book19.jpg</text>
@@ -2333,7 +2333,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book32.jpg</text>
@@ -2360,7 +2360,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book38.jpg</text>
@@ -2387,7 +2387,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book0.jpg</text>
@@ -2414,7 +2414,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_2book40.jpg</text>
@@ -2441,7 +2441,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book36.jpg</text>
@@ -2468,7 +2468,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book1.jpg</text>
@@ -2495,7 +2495,7 @@
             <text permissions="open" encoding="utf8">Public Domain</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasFileName">
             <text permissions="open" encoding="utf8">IMG_1book5.jpg</text>

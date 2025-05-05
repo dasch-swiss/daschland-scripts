@@ -44,7 +44,9 @@
             <text permissions="open" encoding="utf8">VID_AliceInWonderland_1915.mp4</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="open" encoding="xml">Movie adaptation of the book Alice in Wonderland, dating to 1915. The film combines the chapters from Through the Looking-Glass with those of Alice’s Adventures in Wonderland. However, most of the looking-glass portion is lost.</text>
+            <text permissions="open" encoding="xml">Movie adaptation of the book Alice in Wonderland, dating to 1915. 
+The film combines the chapters from Through the Looking-Glass with those of Alice’s Adventures in Wonderland. 
+However, most of the looking-glass portion is lost.</text>
         </text-prop>
         <text-prop name=":hasCast">
             <text permissions="open" encoding="xml">Alice - Viola Savoy

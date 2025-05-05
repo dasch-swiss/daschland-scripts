@@ -26,9 +26,9 @@
         <allow group="UnknownUser">RV</allow>
         <allow group="KnownUser">RV</allow>
     </permissions>
-    <resource label="Alice in Wonderland - Chapter nan - Poem: “All in the golden afternoon”" restype=":BookChapter" id="BC_01" permissions="open">
+    <resource label="Alice in Wonderland - Chapter nan - Poem: “All in the golden afternoon”" restype=":BookChapter" id="BCH_001" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_01</text>
+            <text permissions="open" encoding="utf8">BCH_001</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Poem: “All in the golden afternoon”</text>
@@ -111,9 +111,9 @@ Pluck’d in a far-off land.</text>
             <list permissions="open">K_052</list>
         </list-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 1 - Down the Rabbit-Hole" restype=":BookChapter" id="BC_02" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 1 - Down the Rabbit-Hole" restype=":BookChapter" id="BCH_002" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_02</text>
+            <text permissions="open" encoding="utf8">BCH_002</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Down the Rabbit-Hole</text>
@@ -234,9 +234,9 @@ So she set to work, and very soon finished off the cake.
             <resptr permissions="open">L_002</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 2 - The Pool of Tears" restype=":BookChapter" id="BC_03" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 2 - The Pool of Tears" restype=":BookChapter" id="BCH_003" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_03</text>
+            <text permissions="open" encoding="utf8">BCH_003</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">The Pool of Tears</text>
@@ -344,9 +344,9 @@ It was high time to go, for the pool was getting quite crowded with the birds an
             <resptr permissions="open">L_011</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 3 - A Caucus-Race and a long Tale" restype=":BookChapter" id="BC_04" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 3 - A Caucus-Race and a long Tale" restype=":BookChapter" id="BCH_004" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_04</text>
+            <text permissions="open" encoding="utf8">BCH_004</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">A Caucus-Race and a long Tale</text>
@@ -577,9 +577,9 @@ This speech caused a remarkable sensation among the party. Some of the birds hur
             <resptr permissions="open">L_008</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 4 - The Rabbit sends in a little Bill" restype=":BookChapter" id="BC_05" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 4 - The Rabbit sends in a little Bill" restype=":BookChapter" id="BCH_005" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_05</text>
+            <text permissions="open" encoding="utf8">BCH_005</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">The Rabbit sends in a little Bill</text>
@@ -707,9 +707,9 @@ She stretched herself up on tiptoe, and peeped over the edge of the mushroom, an
             <resptr permissions="open">EV_031</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 5 - Advice from a Caterpillar" restype=":BookChapter" id="BC_06" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 5 - Advice from a Caterpillar" restype=":BookChapter" id="BCH_006" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_06</text>
+            <text permissions="open" encoding="utf8">BCH_006</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Advice from a Caterpillar</text>
@@ -938,9 +938,9 @@ It was so long since she had been anything near the right size, that it felt qui
             <resptr permissions="open">EV_035</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 6 - Pig and Pepper" restype=":BookChapter" id="BC_07" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 6 - Pig and Pepper" restype=":BookChapter" id="BCH_007" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_07</text>
+            <text permissions="open" encoding="utf8">BCH_007</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Pig and Pepper</text>
@@ -1161,9 +1161,9 @@ She had not gone much farther before she came in sight of the house of the March
             <resptr permissions="open">L_014</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 7 - A Mad Tea-Party" restype=":BookChapter" id="BC_08" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 7 - A Mad Tea-Party" restype=":BookChapter" id="BCH_008" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_08</text>
+            <text permissions="open" encoding="utf8">BCH_008</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">A Mad Tea-Party</text>
@@ -1422,9 +1422,9 @@ Once more she found herself in the long hall, and close to the little glass tabl
             <resptr permissions="open">EV_008</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 8 - The Queen’s Croquet-Ground" restype=":BookChapter" id="BC_09" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 8 - The Queen’s Croquet-Ground" restype=":BookChapter" id="BCH_009" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_09</text>
+            <text permissions="open" encoding="utf8">BCH_009</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">The Queen’s Croquet-Ground</text>
@@ -1614,9 +1614,9 @@ The Cat’s head began fading away the moment he was gone, and, by the time he h
             <resptr permissions="open">EV_028</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 9 - The Mock Turtle’s Story" restype=":BookChapter" id="BC_10" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 9 - The Mock Turtle’s Story" restype=":BookChapter" id="BCH_010" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_10</text>
+            <text permissions="open" encoding="utf8">BCH_010</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">The Mock Turtle’s Story</text>
@@ -1857,9 +1857,9 @@ This was quite a new idea to Alice, and she thought it over a little before she 
             <resptr permissions="open">EV_010</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 10 - The Lobster Quadrille" restype=":BookChapter" id="BC_11" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 10 - The Lobster Quadrille" restype=":BookChapter" id="BCH_011" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_11</text>
+            <text permissions="open" encoding="utf8">BCH_011</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">The Lobster Quadrille</text>
@@ -2114,9 +2114,9 @@ Soo—oop of the e—e—evening,
             <resptr permissions="open">EV_010</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 11 - Who stole the Tarts?" restype=":BookChapter" id="BC_12" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 11 - Who stole the Tarts?" restype=":BookChapter" id="BCH_012" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_12</text>
+            <text permissions="open" encoding="utf8">BCH_012</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Who stole the Tarts?</text>
@@ -2313,9 +2313,9 @@ Alice watched the White Rabbit as he fumbled over the list, feeling very curious
             <resptr permissions="open">EV_011</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 12 - Alice’s Evidence" restype=":BookChapter" id="BC_13" permissions="open">
+    <resource label="Alice in Wonderland - Chapter 12 - Alice’s Evidence" restype=":BookChapter" id="BCH_013" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_13</text>
+            <text permissions="open" encoding="utf8">BCH_013</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Alice’s Evidence</text>
@@ -2534,9 +2534,9 @@ THE END.</text>
             <resptr permissions="open">EV_036</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Dramatis Personae and chessboard" restype=":BookChapter" id="BC_14" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Dramatis Personae and chessboard" restype=":BookChapter" id="BCH_014" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_14</text>
+            <text permissions="open" encoding="utf8">BCH_014</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Dramatis Personae and chessboard</text>
@@ -2583,9 +2583,9 @@ to Q.’s 4th (Tweedledum and Tweedledee) 	232
             <resptr permissions="open">A_14</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Preface" restype=":BookChapter" id="BC_15" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Preface" restype=":BookChapter" id="BCH_015" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_15</text>
+            <text permissions="open" encoding="utf8">BCH_015</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Preface</text>
@@ -2622,9 +2622,9 @@ The new words, in the poem Jabberwocky (see p. 202), have given rise to some dif
             <list permissions="open">K_019</list>
         </list-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Poem: “Child of the pure unclouded brow”" restype=":BookChapter" id="BC_16" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Poem: “Child of the pure unclouded brow”" restype=":BookChapter" id="BCH_016" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_16</text>
+            <text permissions="open" encoding="utf8">BCH_016</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Poem: “Child of the pure unclouded brow”</text>
@@ -2705,9 +2705,9 @@ The pleasance of our fairy-tale.</text>
             <list permissions="open">K_052</list>
         </list-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 1 - Looking-Glass House" restype=":BookChapter" id="BC_17" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 1 - Looking-Glass House" restype=":BookChapter" id="BCH_017" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_17</text>
+            <text permissions="open" encoding="utf8">BCH_017</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Looking-Glass House</text>
@@ -2879,9 +2879,9 @@ And the mome raths outgrabe.
             <resptr permissions="open">EV_013</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 2 - The Garden of Live Flowers" restype=":BookChapter" id="BC_18" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 2 - The Garden of Live Flowers" restype=":BookChapter" id="BCH_018" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_18</text>
+            <text permissions="open" encoding="utf8">BCH_018</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">The Garden of Live Flowers</text>
@@ -3101,9 +3101,9 @@ How it happened, Alice never knew, but exactly as she came to the last peg, she 
             <resptr permissions="open">EV_029</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 3 - Looking-Glass Insects" restype=":BookChapter" id="BC_19" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 3 - Looking-Glass Insects" restype=":BookChapter" id="BCH_019" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_19</text>
+            <text permissions="open" encoding="utf8">BCH_019</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Looking-Glass Insects</text>
@@ -3325,9 +3325,9 @@ But this did not seem likely to happen. She went on and on, a long way, but wher
             <resptr permissions="open">EV_039</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 4 - Tweedledum and Tweedledee" restype=":BookChapter" id="BC_20" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 4 - Tweedledum and Tweedledee" restype=":BookChapter" id="BCH_020" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_20</text>
+            <text permissions="open" encoding="utf8">BCH_020</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Tweedledum and Tweedledee</text>
@@ -3689,9 +3689,9 @@ Alice ran a little way into the wood, and stopped under a large tree. ‘It can 
             <resptr permissions="open">EV_016</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 5 - Wool and Water" restype=":BookChapter" id="BC_21" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 5 - Wool and Water" restype=":BookChapter" id="BCH_021" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_21</text>
+            <text permissions="open" encoding="utf8">BCH_021</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Wool and Water</text>
@@ -3966,9 +3966,9 @@ So she went on, wondering more and more at every step, as everything turned into
             <resptr permissions="open">EV_017</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 6 - Humpty Dumpty" restype=":BookChapter" id="BC_22" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 6 - Humpty Dumpty" restype=":BookChapter" id="BCH_022" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_22</text>
+            <text permissions="open" encoding="utf8">BCH_022</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Humpty Dumpty</text>
@@ -4324,9 +4324,9 @@ Alice waited a minute to see if he would speak again, but as he never opened his
             <resptr permissions="open">EV_026</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 7 - The Lion and the Unicorn" restype=":BookChapter" id="BC_23" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 7 - The Lion and the Unicorn" restype=":BookChapter" id="BCH_023" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_23</text>
+            <text permissions="open" encoding="utf8">BCH_023</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">The Lion and the Unicorn</text>
@@ -4577,9 +4577,9 @@ and had just time to see the Lion and the Unicorn rise to their feet, with angry
             <resptr permissions="open">EV_019</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 8 - “It’s my own Invention”" restype=":BookChapter" id="BC_24" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 8 - “It’s my own Invention”" restype=":BookChapter" id="BCH_024" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_24</text>
+            <text permissions="open" encoding="utf8">BCH_024</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">“It’s my own Invention”</text>
@@ -4933,9 +4933,9 @@ It was a golden crown.</text>
             <resptr permissions="open">EV_020</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 9 - Queen Alice" restype=":BookChapter" id="BC_25" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 9 - Queen Alice" restype=":BookChapter" id="BCH_025" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_25</text>
+            <text permissions="open" encoding="utf8">BCH_025</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Queen Alice</text>
@@ -5300,9 +5300,9 @@ At any other time, Alice would have felt surprised at this, but she was far too 
             <resptr permissions="open">EV_023</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 10 - Shaking" restype=":BookChapter" id="BC_26" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 10 - Shaking" restype=":BookChapter" id="BCH_026" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_26</text>
+            <text permissions="open" encoding="utf8">BCH_026</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Shaking</text>
@@ -5346,9 +5346,9 @@ The Red Queen made no resistance whatever; only her face grew very small, and he
             <resptr permissions="open">EV_022</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 11 - Waking" restype=":BookChapter" id="BC_27" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 11 - Waking" restype=":BookChapter" id="BCH_027" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_27</text>
+            <text permissions="open" encoding="utf8">BCH_027</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Waking</text>
@@ -5378,9 +5378,9 @@ This unexpected transformation added to the whimsy and confusion of the scene, a
             <resptr permissions="open">EV_037</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 12 - Which dreamed it?" restype=":BookChapter" id="BC_28" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 12 - Which dreamed it?" restype=":BookChapter" id="BCH_028" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_28</text>
+            <text permissions="open" encoding="utf8">BCH_028</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Which dreamed it?</text>
@@ -5447,9 +5447,9 @@ Which do you think it was?</text>
             <resptr permissions="open">EV_024</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Poem: “A boat beneath a sunny sky”" restype=":BookChapter" id="BC_29" permissions="open">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter nan - Poem: “A boat beneath a sunny sky”" restype=":BookChapter" id="BCH_029" permissions="open">
         <text-prop name=":hasID">
-            <text permissions="open" encoding="utf8">BC_29</text>
+            <text permissions="open" encoding="utf8">BCH_029</text>
         </text-prop>
         <text-prop name=":hasName">
             <text permissions="open" encoding="utf8">Poem: “A boat beneath a sunny sky”</text>
