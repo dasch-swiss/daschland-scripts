@@ -110,7 +110,7 @@
             <text permissions="open" encoding="utf8">DaSCHland FAQ.pdf</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal permissions="open">0.529</decimal>
+            <decimal permissions="open">0.778</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasCopyright">
             <text permissions="open" encoding="utf8">DaSCH</text>

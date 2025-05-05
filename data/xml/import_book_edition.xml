@@ -47,7 +47,7 @@ Book Virtual Edition, true to the typesetting of the original version.</text>
             <text permissions="open" encoding="utf8">BookVirtual Corp. U.S. Patent Pending.</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasAuthorship">
             <text permissions="open" encoding="utf8">Lewis Carroll</text>
@@ -74,7 +74,7 @@ illustrated by Peter Newell</text>
             <text permissions="open" encoding="utf8">Harper &amp; Brothers</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasAuthorship">
             <text permissions="open" encoding="utf8">Lewis Carroll</text>
@@ -101,7 +101,7 @@ with fifty illustrations by John Tenniel</text>
             <text permissions="open" encoding="utf8">MacMillan and Co.</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasAuthorship">
             <text permissions="open" encoding="utf8">Lewis Carroll</text>
@@ -129,7 +129,7 @@ illustrated by Peter Newell</text>
             <text permissions="open" encoding="utf8">Harper &amp; Brothers</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasAuthorship">
             <text permissions="open" encoding="utf8">Lewis Carroll</text>
@@ -156,7 +156,7 @@ with forty-two illustrations by John Tenniel</text>
             <text permissions="open" encoding="utf8">MacMillan and Co.</text>
         </text-prop>
         <list-prop list="License" name=":hasLicenseList">
-            <list permissions="open">LIC_001</list>
+            <list permissions="open">LIC_009</list>
         </list-prop>
         <text-prop name=":hasAuthorship">
             <text permissions="open" encoding="utf8">Lewis Carroll</text>
