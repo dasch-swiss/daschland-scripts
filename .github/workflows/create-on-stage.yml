@@ -2,9 +2,7 @@
 name: Create Alice on Stage after Deployment
 
 on:
-  repository_dispatch:
-    types:
-      - webhook
+  workflow_dispatch:
 
 jobs:
   create:
