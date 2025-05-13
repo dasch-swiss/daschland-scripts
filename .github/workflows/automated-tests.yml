@@ -6,6 +6,7 @@ on:
 
 jobs:
   lint:
+    name: Lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -13,6 +14,8 @@ jobs:
         with:
           lfs: 'false'  # take care not to exceed the monthly quota 
           # https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage
+      - name: Install just
+        uses: taiki-e/install-action@just
       - name: Install uv
         uses: astral-sh/setup-uv@v5
         with:
@@ -21,13 +24,14 @@ jobs:
         run: uv sync --all-extras --dev
         shell: bash
       - name: Linting with ruff
-        run: uv run ruff check . --output-format=github
+        run: just ruff-check --output-format=github
       - name: Check formatting with ruff
-        run: uv run ruff format --check .
+        run: just ruff-format-check
       - name: Linting with mypy
-        run: uv run mypy . --exclude "src/excel2xml"
+        run: just mypy
 
   tests:
+    name: Generate and upload XML file
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -35,6 +39,8 @@ jobs:
         with:
           lfs: 'false'  # take care not to exceed the monthly quota 
           # https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage
+      - name: Install just
+        uses: taiki-e/install-action@just
       - name: Install uv
         uses: astral-sh/setup-uv@v5
         with:
@@ -45,4 +51,4 @@ jobs:
       - name: Install ExifTool
         run: sudo apt-get update && sudo apt-get install -y exiftool
       - name: Run tests
-        run: uv run pytest -s
+        run: just test -s
