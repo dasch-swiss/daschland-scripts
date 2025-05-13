@@ -10,21 +10,6 @@ format:
     just ruff-check --fix
 
 
-# Rebuild the virtual environment (must be run before `just lint`, otherwise several tools will try to do it in parallel)
-[no-exit-message]
-uv-sync:
-    uv sync
-
-
-# Run all linters in parallel (see https://just.systems/man/en/running-tasks-in-parallel.html)
-[no-exit-message]
-lint: uv-sync
-    #!/usr/bin/env -S parallel --shebang --ungroup --jobs {{ num_cpus() }}
-    just ruff-check
-    just ruff-format-check
-    just mypy
-
-
 # Check Python files to detect bad coding habits
 [no-exit-message]
 ruff-check *FLAGS:
@@ -41,6 +26,14 @@ ruff-format-check:
 [no-exit-message]
 mypy:
     uv run mypy . --exclude "src/excel2xml"
+
+
+# Run all linters at once
+[no-exit-message]
+lint:
+    just ruff-check
+    just ruff-format-check
+    just mypy
 
 
 # Run the unit tests
