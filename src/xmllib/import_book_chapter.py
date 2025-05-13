@@ -45,9 +45,10 @@ def main() -> list[Resource]:
         resource = Resource.create_new(
             res_id=row["ID"],
             restype=":BookChapter",
-            label=f"{book} - Chapter {row['Chapter Number']} - {row['Name']}" if pd.notna(row["Chapter Number"]) else f"{book} - {row['Name']}"
+            label=f"{book} - Chapter {row['Chapter Number']} - {row['Name']}"
+            if pd.notna(row["Chapter Number"])
+            else f"{book} - {row['Name']}",
         )
-
 
         # add properties to resource
         resource.add_simpletext(":hasID", row["ID"])
