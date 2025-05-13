@@ -6,7 +6,6 @@ on:
 
 jobs:
   lint:
-    name: Lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -31,7 +30,6 @@ jobs:
         run: just mypy
 
   tests:
-    name: Generate and upload XML file
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
