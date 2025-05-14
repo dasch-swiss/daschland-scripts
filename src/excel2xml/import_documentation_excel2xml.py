@@ -77,7 +77,6 @@ def main():
     root.extend(all_resources)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/xml/import_documentation.xml")
     return all_resources
 
 
