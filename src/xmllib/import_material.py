@@ -30,7 +30,7 @@ def main() -> list[Resource]:
 
     # iterate through rows of dataframe:
     for _, row in material_df.iterrows():
-        originals_path = f"{row['Directory']}{row['File Name']}"
+        originals_path = f"{row['Directory']}{row['File Name']}" if pd.notna(row["Directory"]) else row["File Name"]
         timestamp_value = get_media_file_creation_time(originals_path)
         file_size_value = get_media_file_size(originals_path)
         license_name = list_lookup.get_node_via_list_name(node_label=row["License List"], list_name="License")

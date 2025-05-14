@@ -50,7 +50,6 @@ def main():
     root.extend(all_segments)
 
     # write root to xml file
-    excel2xml.write_xml(root, "data/xml/import_video_segment.xml")
     return all_segments
 
 
