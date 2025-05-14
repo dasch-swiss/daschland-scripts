@@ -36,6 +36,14 @@ To execute the scripts, you'll also need [ExifTool](https://exiftool.org/):
 brew install exiftool
 ```
 
+If you want to use the handy `just` commands, you need to install it with
+
+```bash
+brew install just
+```
+
+Type `just` to get an overview of available recipes.
+
 
 ## Project Structure
 
