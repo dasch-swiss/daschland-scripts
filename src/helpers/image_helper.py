@@ -90,22 +90,21 @@ def _convert_media_creation_time_to_dsp_time(time: str) -> str | None:
 
 
 def get_media_file_size(file_path: str) -> Optional[float]:
-    with ExifToolHelper() as et:
-        metadata_list = et.get_metadata(file_path)
-        if metadata_list:
-            metadata = metadata_list[0]
-            file_size = None
-            for key, value in metadata.items():
-                if key.endswith("Size"):
-                    file_size = value
-                    break
-        else:
+    try:
+        with ExifToolHelper() as et:
+            metadata_list = et.get_metadata(file_path)
+            if metadata_list:
+                # Extract the first available size field (e.g., File:FileSize)
+                file_size = next(
+                    (value for key, value in metadata_list[0].items() if key.endswith("Size")),
+                    None
+                )
+                if file_size:
+                    # Convert and round to 3 decimal places
+                    return round(_convert_bytes_to_mb(file_size), 3)
             return None
-
-    if file_size:
-        size_mb = _convert_bytes_to_mb(file_size)
-        return round(size_mb, 3)
-    else:
+    except Exception as e:  # noqa: BLE001
+        print(f"Error reading metadata: {e}")
         return None
 
 
