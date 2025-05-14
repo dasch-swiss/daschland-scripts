@@ -95,10 +95,7 @@ def get_media_file_size(file_path: str) -> Optional[float]:
             metadata_list = et.get_metadata(file_path)
             if metadata_list:
                 # Extract the first available size field (e.g., File:FileSize)
-                file_size = next(
-                    (value for key, value in metadata_list[0].items() if key.endswith("Size")),
-                    None
-                )
+                file_size = next((value for key, value in metadata_list[0].items() if key.endswith("Size")), None)
                 if file_size:
                     # Convert and round to 3 decimal places
                     return round(_convert_bytes_to_mb(file_size), 3)
