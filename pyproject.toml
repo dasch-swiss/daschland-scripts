@@ -93,4 +93,4 @@ pythonpath = [".", "src", "test"]
 
 
 [tool.vulture]
-paths = ["src"]
+paths = ["src", ".vulture_whitelist.py"]

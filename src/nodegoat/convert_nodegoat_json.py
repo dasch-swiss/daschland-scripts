@@ -5,10 +5,6 @@ from typing import Any
 with open("Daschland_Nodegoat.json", "r") as file:
     nodegoat_data = json.load(file)
 
-# Load the target schema structure (daschland.json)
-with open("daschland.json", "r") as file:
-    daschland_schema = json.load(file)
-
 
 # Function to transform the nodegoat data to match daschland schema
 def transform_to_daschland(nodegoat_data: dict[str, Any]) -> dict[str, Any]:
