@@ -36,6 +36,7 @@ dev = [
     "pytest>=8.3.5",
     "types-lxml>=2025.3.30",
     "types-regex>=2024.11.6.20250403",
+    "vulture>=2.14",
 ]
 
 
@@ -89,3 +90,7 @@ ignore_missing_imports = true
 addopts = ["--import-mode=importlib"]
 # see https://docs.pytest.org/en/latest/explanation/goodpractices.html#tests-outside-application-code
 pythonpath = [".", "src", "test"]
+
+
+[tool.vulture]
+paths = ["src"]

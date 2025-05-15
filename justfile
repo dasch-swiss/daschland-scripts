@@ -42,6 +42,12 @@ test *FLAGS:
     uv run pytest {{FLAGS}}
 
 
+# Run vulture, dead code analysis
+[no-exit-message]
+vulture:
+    uv run vulture
+
+
 # Remove artifact files
 [no-exit-message]
 clean:
