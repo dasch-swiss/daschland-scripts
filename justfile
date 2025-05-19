@@ -28,12 +28,19 @@ mypy:
     uv run mypy . --exclude "src/excel2xml"
 
 
+# Run vulture, dead code analysis
+[no-exit-message]
+vulture:
+    uv run vulture
+
+
 # Run all linters at once
 [no-exit-message]
 lint:
     just ruff-check
     just ruff-format-check
     just mypy
+    just vulture
 
 
 # Run the unit tests
