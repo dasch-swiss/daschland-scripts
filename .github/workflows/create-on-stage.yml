@@ -13,16 +13,15 @@ jobs:
         with:
           lfs: 'true'  # take care not to exceed the monthly quota 
           # https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
+      - name: Install python
+        uses: actions/setup-python@v5
         with:
-          enable-cache: true
-      - name: Install Python dependencies (uv will install python automatically, if no appropriate version is installed)
-        run: uv sync --all-extras --dev
-        shell: bash
+          python-version: '3.13'
+      - name: Install DSP-TOOLS
+        run: pip3 install dsp-tools
       - name: Create project
-        run: uv run dsp-tools create -s api.stage.dasch.swiss -u dasch@dasch.swiss -p "$PW" daschland.json
+        run: dsp-tools --suppress-update-prompt create -s api.stage.dasch.swiss -u dasch@dasch.swiss -p "$PW" daschland.json
         env:
           PW: ${{ secrets.DASCH_USER_PW_PROD }}
       - name: Upload data
-        run: uv run dsp-tools xmlupload -s api.stage.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
+        run: dsp-tools xmlupload --suppress-update-prompt -s api.stage.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
