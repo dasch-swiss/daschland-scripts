@@ -40,4 +40,3 @@ def test_xml_has_not_changed(stashed_original_xml: Path) -> None:
     )
     if not filecmp.cmp(ORIG_XML_FILE, stashed_original_xml, shallow=False):
         pytest.fail(fail_msg)
-    print(f"Just to test: The message would be: {fail_msg}")
