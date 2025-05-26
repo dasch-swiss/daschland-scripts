@@ -2,6 +2,7 @@ import filecmp
 import os
 import shutil
 import warnings
+from difflib import context_diff
 from pathlib import Path
 
 import pytest
@@ -9,15 +10,15 @@ from dsp_tools.error.xmllib_warnings import XmllibInputInfo
 
 from src.xmllib.main import main
 
-ORIG_XML_FILE = Path("daschland_data.xml")
+XML_FILE = Path("daschland_data.xml")
 ENV_VARS = ["XMLLIB_SORT_RESOURCES", "XMLLIB_SORT_PROPERTIES", "XMLLIB_AUTHORSHIP_ID_WITH_INTEGERS"]
 LIST_SEP = "\n - "
 
 
 @pytest.fixture
 def stashed_original_xml(tmp_path: Path) -> Path:
-    dst = tmp_path / ORIG_XML_FILE.name
-    shutil.copy(ORIG_XML_FILE, dst)
+    dst = tmp_path / XML_FILE.name
+    shutil.copy(XML_FILE, dst)
     return dst
 
 
@@ -38,5 +39,9 @@ def test_xml_has_not_changed(stashed_original_xml: Path) -> None:
         "Make sure that your .env file contains the following environment variables:\n"
         + "\n".join([f"{x}=true" for x in ENV_VARS])
     )
-    if not filecmp.cmp(ORIG_XML_FILE, stashed_original_xml, shallow=False):
+    if not filecmp.cmp(XML_FILE, stashed_original_xml, shallow=False):
+        orig = Path(stashed_original_xml).read_text().splitlines(keepends=True)
+        generated = Path(XML_FILE).read_text().splitlines(keepends=True)
+        diff = context_diff(orig, generated)
+        fail_msg += "\n\nDIFF\n****\n\n" + "".join(diff)
         pytest.fail(fail_msg)
