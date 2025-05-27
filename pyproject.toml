@@ -33,6 +33,7 @@ packages = ["src"]
 dev = [
     "lxml-stubs",
     "pandas-stubs",
+    "pre-commit",
     "pytest",
     "types-lxml",
     "types-regex",

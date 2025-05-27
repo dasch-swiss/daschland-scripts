@@ -44,6 +44,12 @@ brew install just
 
 Type `just` to get an overview of available recipes.
 
+Before making commits, you must install the pre-commit-hooks:
+
+```bash
+pre-commit install
+```
+
 
 ## Project Structure
 
