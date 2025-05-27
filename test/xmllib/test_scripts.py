@@ -58,7 +58,7 @@ def _is_diff_legitimate(diff: list[str]) -> bool:
     result = all(
         (
             len(diff) == num_of_diff_lines_if_only_video_size_changed,
-            len([re.search(r"! +<decimal>\d+\.\d+</decimal>", x) for x in diff]) == num_of_changed_lines,
+            sum([1 if re.search(r"! +<decimal>\d+\.\d+</decimal>", x) else 0 for x in diff]) == num_of_changed_lines,
         )
     )
     return result
