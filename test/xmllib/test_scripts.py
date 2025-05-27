@@ -13,7 +13,6 @@ from src.xmllib.main import main
 
 XML_FILE = Path("daschland_data.xml")
 ENV_VARS = ["XMLLIB_SORT_RESOURCES", "XMLLIB_SORT_PROPERTIES", "XMLLIB_AUTHORSHIP_ID_WITH_INTEGERS"]
-LIST_SEP = "\n - "
 
 
 @pytest.fixture
