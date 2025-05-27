@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import Permissions, Resource, find_date_in_string
+from dsp_tools.xmllib import Permissions, Resource, find_dates_in_string
 
 from src.helpers.cleaning_df_tools import create_list
 
@@ -13,7 +13,7 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
         # define variables
-        date_published = find_date_in_string(row["Date Published"])
+        dates_published = find_dates_in_string(row["Date Published"])
         file_permissions = Permissions.RESTRICTED
         book_chapter_ids = create_list(row["Book Chapter ID"])
         book_edition_ids = create_list(row["Book Edition ID"])
@@ -33,7 +33,7 @@ def main() -> list[Resource]:
             value=row["Alternative Description"],
             permissions=file_permissions,
         )
-        resource.add_date_optional(":hasDate", date_published)
+        resource.add_date_multiple(":hasDate", dates_published)
         resource.add_link_multiple(":linkToBookChapter", book_chapter_ids)
         resource.add_link_multiple(":linkToBookEdition", book_edition_ids)
         resource.add_link_multiple(":linkToVideo", video_ids)
