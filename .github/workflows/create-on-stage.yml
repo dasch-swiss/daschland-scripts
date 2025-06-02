@@ -19,8 +19,6 @@ jobs:
           enable-cache: true
       - name: Install Python & dependencies (allow upgrade, in order to get most up-to-date DSP-TOOLS)
         run: uv sync --all-extras --upgrade
-      - name: Upgrade DSP-TOOLS
-        run: uv add --upgrade dsp-tools
       - name: Create project
         run: |
           uv run dsp-tools create \
