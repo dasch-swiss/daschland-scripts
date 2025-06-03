@@ -1,4 +1,0 @@
-curl -H "Authorization: Bearer D55ErENJ2UtPksb8ZTXEOzhBoNQwUv7jXaWqmkMcrFSWXfjtSGd" "https://api.nodegoat.dasch.swiss/project/2994/model/type/11587,11578,11583,11593,11579,11584,11585,11589,11586,11588,11581,11596,11580,11582?mode=read&output=template" > DaSCHland_Nodegoat.json
-
-curl -H "Authorization: Bearer D55ErENJ2UtPksb8ZTXEOzhBoNQwUv7jXaWqmkMcrFSWXfjtSGd" "https://api.nodegoat.dasch.swiss/project/2994/data/type/11587?&search=A" > DaSCHland_Nodegoat_data.txt
-
