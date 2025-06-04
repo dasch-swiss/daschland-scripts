@@ -31,7 +31,7 @@ def _add_exif_data_to_df(df: pd.DataFrame) -> pd.DataFrame:
 def _add_full_file_path_to_df(df: pd.DataFrame) -> pd.DataFrame:
     df_copy = df.copy()
     df_copy.loc[:, "File Path"] = df_copy.apply(
-        lambda row: f"{row['Directory']}{row['File Name']}" if not pd.isna(row['Directory']) else row['File Name'],
+        lambda row: f"{row['Directory']}{row['File Name']}" if not pd.isna(row["Directory"]) else row["File Name"],
         axis=1,
     )
     return df_copy
