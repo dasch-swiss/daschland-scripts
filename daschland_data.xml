@@ -10467,7 +10467,7 @@
             <text encoding="utf8">daschland_data.xml</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.847</decimal>
+            <decimal>0.849</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_001</text>
