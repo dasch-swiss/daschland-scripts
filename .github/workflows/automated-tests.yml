@@ -71,7 +71,7 @@ jobs:
         run: uv sync --all-extras --dev
         shell: bash
       - name: Upgrade DSP-TOOLS
-        run: uv add --upgrade dsp-tools
+        run: uv add git+https://github.com/dasch-swiss/dsp-tools@wip/log-start-stack
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Generate dummy MP4 with ffmpeg
