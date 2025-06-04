@@ -1,0 +1,20 @@
+ID,Description,File Name,Directory,Copyright,License List,URI DaSCH,Authorship,File Path,Time Stamp,File Size
+MAT_001,xml file used for the import of data on DSP,daschland_data.xml,,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",nandaschland_data.xml,,
+MAT_002,csv file for Nodegoat import for Archive class,Archive.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Archive.csv,,0.0
+MAT_003,csv file for Nodegoat import for Audio class,Audio.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Audio.csv,,0.03
+MAT_004,csv file for Nodegoat import for Book class,Book.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Book.csv,,0.002
+MAT_005,csv file for Nodegoat import for Book Chapter class,BookChapter.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/BookChapter.csv,,0.348
+MAT_006,csv file for Nodegoat import for Book Edition class,BookEdition.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/BookEdition.csv,,0.002
+MAT_007,csv file for Nodegoat import for Character class,Character.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Character.csv,,0.078
+MAT_008,csv file for Nodegoat import for Documentation class,Documentation.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Documentation.csv,,0.001
+MAT_009,csv file for Nodegoat import for Event class,Event.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Event.csv,,0.011
+MAT_010,csv file for Nodegoat import for Image class,Image.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Image.csv,,0.026
+MAT_011,csv file for Nodegoat import for Event Type list,List_Event_Type.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/List_Event_Type.csv,,0.002
+MAT_012,csv file for Nodegoat import for License list class,List_License.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/List_License.csv,,0.0
+MAT_013,csv file for Nodegoat import for Role list class,List_Role.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/List_Role.csv,,0.0
+MAT_014,csv file for Nodegoat import for Location class,Location.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Location.csv,,0.007
+MAT_015,csv file for Nodegoat import for Material class,Material.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Material.csv,,0.003
+MAT_016,csv file for Nodegoat import for Region of Image class,Region.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Region.csv,,0.0
+MAT_017,csv file for Nodegoat import for Video class,Video.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Video.csv,,0.001
+MAT_018,csv file for Nodegoat import for Segment of Video class,VideoSegment.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/VideoSegment.csv,,0.0
+MAT_019,csv file for Nodegoat import for Segment of Audio class,AudioSegment.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/AudioSegment.csv,,0.001

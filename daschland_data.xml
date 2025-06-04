@@ -10477,7 +10477,7 @@
         </list-prop>
     </resource>
     <resource label="Archive.csv" id="MAT_002" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Archive.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Archive.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10501,7 +10501,7 @@
         </list-prop>
     </resource>
     <resource label="Audio.csv" id="MAT_003" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Audio.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Audio.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10525,7 +10525,7 @@
         </list-prop>
     </resource>
     <resource label="Book.csv" id="MAT_004" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Book.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Book.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10549,7 +10549,7 @@
         </list-prop>
     </resource>
     <resource label="BookChapter.csv" id="MAT_005" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/BookChapter.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/BookChapter.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10573,7 +10573,7 @@
         </list-prop>
     </resource>
     <resource label="BookEdition.csv" id="MAT_006" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/BookEdition.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/BookEdition.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10597,7 +10597,7 @@
         </list-prop>
     </resource>
     <resource label="Character.csv" id="MAT_007" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Character.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Character.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10621,7 +10621,7 @@
         </list-prop>
     </resource>
     <resource label="Documentation.csv" id="MAT_008" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Documentation.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Documentation.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10645,7 +10645,7 @@
         </list-prop>
     </resource>
     <resource label="Event.csv" id="MAT_009" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Event.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Event.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10669,7 +10669,7 @@
         </list-prop>
     </resource>
     <resource label="Image.csv" id="MAT_010" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Image.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Image.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10693,7 +10693,7 @@
         </list-prop>
     </resource>
     <resource label="List_Event_Type.csv" id="MAT_011" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/List_Event_Type.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/List_Event_Type.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10717,7 +10717,7 @@
         </list-prop>
     </resource>
     <resource label="List_License.csv" id="MAT_012" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/List_License.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/List_License.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10741,7 +10741,7 @@
         </list-prop>
     </resource>
     <resource label="List_Role.csv" id="MAT_013" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/List_Role.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/List_Role.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10765,7 +10765,7 @@
         </list-prop>
     </resource>
     <resource label="Location.csv" id="MAT_014" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Location.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Location.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10789,7 +10789,7 @@
         </list-prop>
     </resource>
     <resource label="Material.csv" id="MAT_015" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Material.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Material.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10813,7 +10813,7 @@
         </list-prop>
     </resource>
     <resource label="Region.csv" id="MAT_016" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Region.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Region.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10837,7 +10837,7 @@
         </list-prop>
     </resource>
     <resource label="Video.csv" id="MAT_017" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/Video.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Video.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10861,7 +10861,7 @@
         </list-prop>
     </resource>
     <resource label="VideoSegment.csv" id="MAT_018" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/VideoSegment.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/VideoSegment.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
@@ -10885,7 +10885,7 @@
         </list-prop>
     </resource>
     <resource label="AudioSegment.csv" id="MAT_019" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">nodegoat/AudioSegment.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/AudioSegment.csv</bitstream>
         <text-prop name="metadata:hasAuthorship">
             <text encoding="utf8">Daniela Subotic, Noémi Villars-Amberg</text>
         </text-prop>
