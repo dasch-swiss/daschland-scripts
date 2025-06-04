@@ -52,9 +52,9 @@ Type `just` to get an overview of available recipes.
 - `daschland.json` The JSON file containing the data model for the project.
 - `data` The folder containing the project data.
   - `multimedia` The folder containing the multimedia data (video, audio, ...) for the project, in subfolders according to the project classes.
+  - `nodegoat` The folder containing all data to create the mirror project on Nodegoat.
   - `spreadsheets` The folder containing the spreadsheet data for the project. Each resource class has a separate spreadsheet file.
   - `xml` The folder containing the XML data for the project.
-- `nodegoat` The folder containing all data to create the mirror project on Nodegoat.
 - `pyproject.toml` The Python project file containing all dependencies for the project.
 - `src` The folder containing the Python scripts for the project. 
   - `excel2xml` The scripts to convert the spreadsheet data to XML, using the old module "dsp-tools excel2xml".
