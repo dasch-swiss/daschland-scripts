@@ -71,9 +71,11 @@ jobs:
         run: uv sync --all-extras --dev
         shell: bash
       - name: Upgrade DSP-TOOLS
-        run: uv add git+https://github.com/dasch-swiss/dsp-tools@wip/log-start-stack
-      - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+        run: uv add --upgrade dsp-tools
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+        id: setup-ffmpeg
+        with:
+          ffmpeg-version: 7.0.2  # pin this, so that we always profit from the cache (https://johnvansickle.com/ffmpeg/)
       - name: Generate dummy MP4 with ffmpeg
         run: |
           rm data/multimedia/video/VID_AliceInWonderland_1915.mp4  # remove the pointer file (small text file)
