@@ -54,3 +54,40 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y exiftool
       - name: Run tests
         run: just test -s
+
+  xmlupload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          lfs: false  # take care not to exceed the monthly quota 
+          # https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Install Python dependencies (uv will install python automatically, if no appropriate version is installed)
+        run: uv sync --all-extras --dev
+      - name: Upgrade DSP-TOOLS
+        run: uv add --upgrade dsp-tools
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+        with:
+          ffmpeg-version: 7.0.2  # pin this, so that we always profit from the cache (version: see https://johnvansickle.com/ffmpeg/)
+      - name: Generate dummy MP4 with ffmpeg
+        run: |
+          rm data/multimedia/video/VID_AliceInWonderland_1915.mp4  # remove the pointer file (small text file)
+          ffmpeg -f lavfi -i color=c=black:s=320x240:d=1 -c:v libx264 -t 1 -pix_fmt yuv420p data/multimedia/video/VID_AliceInWonderland_1915.mp4
+      - name: Start stack
+        run: uv run dsp-tools start-stack --suppress-update-prompt --no-prune
+      - name: Create JSON project
+        run: uv run dsp-tools create --suppress-update-prompt daschland.json
+      - name: Xmlupload
+        run: uv run dsp-tools xmlupload --suppress-update-prompt -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
+      - name: make logging file available
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: logging.log
+          path: /home/runner/.dsp-tools/logging.log
+          compression-level: 0
