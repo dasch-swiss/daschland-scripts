@@ -66,6 +66,15 @@ This project heavily relies on DSP-TOOLS for data model creation and upload work
 - Authentication required for project creation and data upload
 - XML files must conform to DSP ontology structure
 
+## Development Workflow
+
+### Pull Request Reviews
+
+PRs in this repository are typically reviewed by:
+- [@Notheturtle](https://github.com/Notheturtle)
+- [@jnussbaum](https://github.com/jnussbaum)
+- [@Nora-Olivia-Ammann](https://github.com/Nora-Olivia-Ammann)
+
 ## Architecture Overview
 
 This is a DaSCH Service Platform (DSP) example project called "Alice in DaSCHland"
