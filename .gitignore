@@ -138,3 +138,6 @@ cython_debug/
 /id2iri_*.json
 daschland_data_excel2xml.xml
 upload_protocol.txt
+
+# Claude Code
+.claude/
