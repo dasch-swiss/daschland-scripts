@@ -94,6 +94,3 @@ pythonpath = [".", "src", "test"]
 
 [tool.vulture]
 paths = ["src"]
-
-[tool.uv.sources]
-dsp-tools = { git = "https://github.com/dasch-swiss/dsp-tools", rev = "wip/DEV-5071-slow-start-stack" }
