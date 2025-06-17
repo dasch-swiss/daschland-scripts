@@ -68,6 +68,7 @@ select = [
 ignore = [
     "UP007", # don't use Optional[X], Union[X, Y]
     "UP015", # unnecessary mode argument
+    "UP045", # typing: use "|" instead of Optional/Union
     "PLR0912", # too many branches
     "PLR0915", # too many statements
 ]
