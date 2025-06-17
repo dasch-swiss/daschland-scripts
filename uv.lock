@@ -127,7 +127,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "dsp-tools" },
+    { name = "dsp-tools", git = "https://github.com/dasch-swiss/dsp-tools?rev=wip%2FDEV-5071-slow-start-stack" },
     { name = "icecream" },
     { name = "mypy" },
     { name = "pandas" },
@@ -169,8 +169,8 @@ wheels = [
 
 [[package]]
 name = "dsp-tools"
-version = "15.0.0.post23"
-source = { registry = "https://pypi.org/simple" }
+version = "15.1.0"
+source = { git = "https://github.com/dasch-swiss/dsp-tools?rev=wip%2FDEV-5071-slow-start-stack#869b3993f4950e1c907c95fa59d9a7d8db4312eb" }
 dependencies = [
     { name = "argparse" },
     { name = "dotenv" },
@@ -192,10 +192,6 @@ dependencies = [
     { name = "rustworkx" },
     { name = "tqdm" },
     { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/c6/40/54f70c8ef54687c2d177fe79c5dd6e00fda10ba41fbf443d79da09e9c56d/dsp_tools-15.0.0.post23.tar.gz", hash = "sha256:ffca403220e0d3d8db093fbc840a79ac882ea5dbe26e1a084aa4d6e02d7e134e", size = 7306820, upload-time = "2025-06-02T13:47:47.628Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/df/3e/63927e34229ef2f9fe52e84707d90e9f21b6582c3f23ce8397f5d0f0fcc9/dsp_tools-15.0.0.post23-py3-none-any.whl", hash = "sha256:5b0d8745a1c42616f5e7e3b0ff75999966f478af293e39afc2188c1673db7d42", size = 340045, upload-time = "2025-06-02T13:47:45.208Z" },
 ]
 
 [[package]]
