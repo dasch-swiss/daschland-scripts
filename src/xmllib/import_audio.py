@@ -1,10 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import (
-    LicenseRecommended,
-    ListLookup,
-    Resource,
-    create_list_from_string,
-)
+from dsp_tools.xmllib import LicenseRecommended, ListLookup, Permissions, Resource, create_list_from_string
 
 from src.helpers.image_helper import (
     get_media_file_creation_time,
@@ -46,6 +41,7 @@ def main() -> list[Resource]:
             license=LicenseRecommended.DSP.PUBLIC_DOMAIN,
             copyright_holder=row["Copyright"],
             authorship=authors,
+            permissions=Permissions.OPEN,
         )
 
         # add properties to resource

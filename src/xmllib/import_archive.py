@@ -4,6 +4,7 @@ from dsp_tools.xmllib import (
     ListLookup,
     Resource,
     create_list_from_string,
+    Permissions
 )
 
 from src.helpers.image_helper import (
@@ -19,7 +20,7 @@ def main() -> list[Resource]:
     path_to_json = "daschland.json"
 
     # define dataframe
-    archive_df = pd.read_excel("data/spreadsheets/Archive.xlsx")
+    archive_df = pd.read_excel("data/spreadsheets/Archive.xlsx", dtype="str")
 
     # create list mapping
     list_lookup = ListLookup.create_new(
@@ -44,6 +45,7 @@ def main() -> list[Resource]:
             license=LicenseRecommended.CC.BY,
             copyright_holder=row["Copyright"],
             authorship=authors,
+            permissions=Permissions.OPEN
         )
 
         # add properties to resource
