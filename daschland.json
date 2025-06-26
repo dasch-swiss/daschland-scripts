@@ -40,6 +40,7 @@
             "Visualisation des données",
             "Vorzeigeprojekt"
         ],
+        "default_permissions": "public",
         "users": [
             {
                 "username": "Alice",
