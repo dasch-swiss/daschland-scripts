@@ -4,8 +4,7 @@ name: Tests on Push
 on:
   pull_request:
   schedule:
-    - cron: '0 0 * * *'
-
+    - cron: "0 0 * * *"
 
 jobs:
   xmlupload:
@@ -14,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          lfs: false  # take care not to exceed the monthly quota 
+          lfs: false # take care not to exceed the monthly quota
           # https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage
       - name: Install uv
         uses: astral-sh/setup-uv@v5
@@ -26,7 +25,7 @@ jobs:
         run: uv add --upgrade dsp-tools
       - uses: FedericoCarboni/setup-ffmpeg@v3
         with:
-          ffmpeg-version: 7.0.2  # pin this, so that we always profit from the cache (version: see https://johnvansickle.com/ffmpeg/)
+          ffmpeg-version: 7.0.2 # pin this, so that we always profit from the cache (version: see https://johnvansickle.com/ffmpeg/)
       - name: Generate dummy MP4 with ffmpeg
         run: |
           rm data/multimedia/video/VID_AliceInWonderland_1915.mp4  # remove the pointer file (small text file)
