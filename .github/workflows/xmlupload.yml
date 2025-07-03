@@ -1,5 +1,5 @@
 ---
-name: Tests on Push
+name: xmlupload
 
 on:
   pull_request:
