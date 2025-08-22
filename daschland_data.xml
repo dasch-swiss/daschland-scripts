@@ -16,43 +16,43 @@
         <allow group="ProjectMember">D</allow>
         <allow group="ProjectAdmin">CR</allow>
     </permissions>
-    <authorship id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">
+    <authorship id="authorship_1">
         <author>Arielle Lipshaw (Editor)</author>
         <author>Elizabeth Klett (Meta Coordinator &amp; Editor)</author>
         <author>Lewis Carroll (Text)</author>
         <author>Lucy Perry (Book Coordinator)</author>
     </authorship>
-    <authorship id="authorship_683e4212-8d67-4890-91c2-335163500ff0">
+    <authorship id="authorship_2">
         <author>Daniela Subotic</author>
         <author>Noémi Villars-Amberg</author>
     </authorship>
-    <authorship id="authorship_7fdcbe09-9e9d-4eef-ad63-feb7c9f6f606">
+    <authorship id="authorship_3">
         <author>David Goldfarb (Book Coordinator &amp; Editor)</author>
         <author>Elizabeth Klett (Meta Coordinator)</author>
         <author>Lewis Carroll (Text)</author>
     </authorship>
-    <authorship id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">
+    <authorship id="authorship_4">
         <author>John Tenniel</author>
     </authorship>
-    <authorship id="authorship_61b2deef-3660-4b65-a7de-fd89a347ee12">
+    <authorship id="authorship_5">
         <author>John Tenniel</author>
         <author>Lewis Carroll</author>
     </authorship>
-    <authorship id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">
+    <authorship id="authorship_6">
         <author>Lewis Carroll</author>
     </authorship>
-    <authorship id="authorship_02a11672-883e-4f77-975c-bf650dc39027">
+    <authorship id="authorship_7">
         <author>Lewis Carroll</author>
         <author>Peter Newell</author>
     </authorship>
-    <authorship id="authorship_6ce9be03-f50e-4a53-8443-d82f04af9a10">
+    <authorship id="authorship_8">
         <author>Noémi Villars-Amberg</author>
     </authorship>
-    <authorship id="authorship_528ee6cd-7178-4233-9f55-9a1bf27d0742">
+    <authorship id="authorship_9">
         <author>W.W. Young (direction and screenplay)</author>
     </authorship>
     <resource label="Spreadsheet_Data.zip" id="AR_001" restype="metadata:Archive">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/multimedia/archive/Spreadsheet_Data.zip</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/multimedia/archive/Spreadsheet_Data.zip</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -144,7 +144,7 @@
         <hasKeyword>Outro</hasKeyword>
     </audio-segment>
     <resource label="Dramatis Personae" id="A_01" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_00.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_00.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -174,7 +174,7 @@
         </list-prop>
     </resource>
     <resource label="Down the Rabbit-Hole" id="A_02" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_01.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_01.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -204,7 +204,7 @@
         </list-prop>
     </resource>
     <resource label="The Pool of Tears" id="A_03" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_02.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_02.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -234,7 +234,7 @@
         </list-prop>
     </resource>
     <resource label="A Caucus-Race and Long Tale" id="A_04" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_03.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_03.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -264,7 +264,7 @@
         </list-prop>
     </resource>
     <resource label="The Rabbit Sends in a Little Bill" id="A_05" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_04.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_04.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -294,7 +294,7 @@
         </list-prop>
     </resource>
     <resource label="Advice From a Caterpillar" id="A_06" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_05.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_05.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -324,7 +324,7 @@
         </list-prop>
     </resource>
     <resource label="Pig and Pepper" id="A_07" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_06.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_06.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -354,7 +354,7 @@
         </list-prop>
     </resource>
     <resource label="The Mad Tea-Party" id="A_08" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_07.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_07.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -384,7 +384,7 @@
         </list-prop>
     </resource>
     <resource label="The Queen's Croquet-Ground" id="A_09" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_08.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_08.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -414,7 +414,7 @@
         </list-prop>
     </resource>
     <resource label="The Mock Turtle's Story" id="A_10" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_09.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_09.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -444,7 +444,7 @@
         </list-prop>
     </resource>
     <resource label="The Lobster Quadrille" id="A_11" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_10.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_10.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -474,7 +474,7 @@
         </list-prop>
     </resource>
     <resource label="Who Stole the Tarts?" id="A_12" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_11.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_11.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -504,7 +504,7 @@
         </list-prop>
     </resource>
     <resource label="Alice's Evidence" id="A_13" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_aliceinwonderland_12.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_12.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -534,7 +534,7 @@
         </list-prop>
     </resource>
     <resource label="Dramatis Personae" id="A_14" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7fdcbe09-9e9d-4eef-ad63-feb7c9f6f606">data/multimedia/audio/AUD_throughthelookingglass_00.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_3">data/multimedia/audio/AUD_throughthelookingglass_00.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -562,7 +562,7 @@
         </list-prop>
     </resource>
     <resource label="Looking-Glass House" id="A_15" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_8cffdd58-f3c5-445c-adb6-5e10ae64ba51">data/multimedia/audio/AUD_throughthelookingglass_01.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_throughthelookingglass_01.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -590,7 +590,7 @@
         </list-prop>
     </resource>
     <resource label="The Garden of Live Flowers" id="A_16" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">data/multimedia/audio/AUD_throughthelookingglass_02.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_02.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -618,7 +618,7 @@
         </list-prop>
     </resource>
     <resource label="Looking-Glass Insects" id="A_17" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">data/multimedia/audio/AUD_throughthelookingglass_03.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_03.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -646,7 +646,7 @@
         </list-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" id="A_18" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">data/multimedia/audio/AUD_throughthelookingglass_04.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_04.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -674,7 +674,7 @@
         </list-prop>
     </resource>
     <resource label="Wool and Water" id="A_19" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">data/multimedia/audio/AUD_throughthelookingglass_05.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_05.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -702,7 +702,7 @@
         </list-prop>
     </resource>
     <resource label="Humpty Dumpty" id="A_20" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">data/multimedia/audio/AUD_throughthelookingglass_06.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_06.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -730,7 +730,7 @@
         </list-prop>
     </resource>
     <resource label="The Lion and the Unicorn" id="A_21" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">data/multimedia/audio/AUD_throughthelookingglass_07.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_07.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -758,7 +758,7 @@
         </list-prop>
     </resource>
     <resource label="It's my own Invention" id="A_22" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">data/multimedia/audio/AUD_throughthelookingglass_08.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_08.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -786,7 +786,7 @@
         </list-prop>
     </resource>
     <resource label="Queen Alice, Shaking and Waking" id="A_23" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">data/multimedia/audio/AUD_throughthelookingglass_09.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_09.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -814,7 +814,7 @@
         </list-prop>
     </resource>
     <resource label="Which Dreamed it?" id="A_24" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">data/multimedia/audio/AUD_throughthelookingglass_10.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_10.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4286,7 +4286,7 @@
         </text-prop>
     </resource>
     <resource label="Alice's adventures in Wonderland, 1928" id="BCO_001" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No known restrictions; no copyright renewal found, Jul 24 2019" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_25:alicesadventures00carr_25_0001/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No known restrictions; no copyright renewal found, Jul 24 2019" authorship-id="authorship_6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_25:alicesadventures00carr_25_0001/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4308,7 +4308,7 @@
         </uri-prop>
     </resource>
     <resource label="Alice's adventures in Wonderland, 1916" id="BCO_002" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No information." authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">https://tile.loc.gov/image-services/iiif/service:gdc:gdclccn:16:01:47:24:16014724:0001/full/pct:100/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No information." authorship-id="authorship_6">https://tile.loc.gov/image-services/iiif/service:gdc:gdclccn:16:01:47:24:16014724:0001/full/pct:100/0/default.jpg</iiif-uri>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4330,7 +4330,7 @@
         </uri-prop>
     </resource>
     <resource label="Alice in Wonderland; a dramatization of Lewis Carroll's &quot;Alice's adventures in Wonderland&quot; and &quot;Through the looking glass,&quot;" id="BCO_003" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aliceinwonderlan00gers:aliceinwonderlan00gers_0011/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aliceinwonderlan00gers:aliceinwonderlan00gers_0011/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4352,7 +4352,7 @@
         </uri-prop>
     </resource>
     <resource label="Alice's adventures in Wonderland and Through the looking-glass, 1921" id="BCO_004" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_23:alicesadventures00carr_23_0011/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_23:alicesadventures00carr_23_0011/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4374,7 +4374,7 @@
         </uri-prop>
     </resource>
     <resource label="Through the looking glass, 1913" id="BCO_005" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_2:throughlookinggl00carr_2_0001/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_2:throughlookinggl00carr_2_0001/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4396,7 +4396,7 @@
         </uri-prop>
     </resource>
     <resource label="Through the looking-glass and what Alice found there, 1900" id="BCO_006" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_3:throughlookinggl00carr_3_0009/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_3:throughlookinggl00carr_3_0009/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4418,7 +4418,7 @@
         </uri-prop>
     </resource>
     <resource label="Through the looking-glass, and what Alice found there, 1899" id="BCO_007" restype=":BookCover">
-        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_140e80ae-d327-49d6-8fb6-cb7d5255c876">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_4:throughlookinggl00carr_4_0001/full/pct:100.0/0/default.jpg</iiif-uri>
+        <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_6">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_4:throughlookinggl00carr_4_0001/full/pct:100.0/0/default.jpg</iiif-uri>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4440,7 +4440,7 @@
         </uri-prop>
     </resource>
     <resource label="BE_Alice_in_Wonderland.pdf" id="BE_001" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="BookVirtual Corp. U.S. Patent Pending." authorship-id="authorship_61b2deef-3660-4b65-a7de-fd89a347ee12">data/multimedia/book/BE_Alice_in_Wonderland.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="BookVirtual Corp. U.S. Patent Pending." authorship-id="authorship_5">data/multimedia/book/BE_Alice_in_Wonderland.pdf</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4465,7 +4465,7 @@
         </time-prop>
     </resource>
     <resource label="BE_Through_the_Looking_Glass.pdf" id="BE_002" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_02a11672-883e-4f77-975c-bf650dc39027">data/multimedia/book/BE_Through_the_Looking_Glass.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_7">data/multimedia/book/BE_Through_the_Looking_Glass.pdf</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4490,7 +4490,7 @@
         </time-prop>
     </resource>
     <resource label="BE_throughlooking00carr.pdf" id="BE_003" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_61b2deef-3660-4b65-a7de-fd89a347ee12">data/multimedia/book/BE_throughlooking00carr.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_5">data/multimedia/book/BE_throughlooking00carr.pdf</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4515,7 +4515,7 @@
         </time-prop>
     </resource>
     <resource label="BE_adventuresalices00carrrich.pdf" id="BE_004" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_02a11672-883e-4f77-975c-bf650dc39027">data/multimedia/book/BE_adventuresalices00carrrich.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_7">data/multimedia/book/BE_adventuresalices00carrrich.pdf</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4540,7 +4540,7 @@
         </time-prop>
     </resource>
     <resource label="BE_alicesadventur00carr.pdf" id="BE_005" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_61b2deef-3660-4b65-a7de-fd89a347ee12">data/multimedia/book/BE_alicesadventur00carr.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_5">data/multimedia/book/BE_alicesadventur00carr.pdf</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -7087,7 +7087,7 @@
         </resptr-prop>
     </resource>
     <resource label="DaSCHland_Data_Model.pdf" id="DOC_001" restype=":Documentation">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_6ce9be03-f50e-4a53-8443-d82f04af9a10">data/multimedia/documentation/DaSCHland_Data_Model.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_8">data/multimedia/documentation/DaSCHland_Data_Model.pdf</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -7112,7 +7112,7 @@
         </list-prop>
     </resource>
     <resource label="DaSCHland_Data_Model_Links.pdf" id="DOC_002" restype=":Documentation">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_6ce9be03-f50e-4a53-8443-d82f04af9a10">data/multimedia/documentation/DaSCHland_Data_Model_Links.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_8">data/multimedia/documentation/DaSCHland_Data_Model_Links.pdf</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -7137,7 +7137,7 @@
         </list-prop>
     </resource>
     <resource label="DaSCHland_Data_Model_Legend.pdf" id="DOC_003" restype=":Documentation">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_6ce9be03-f50e-4a53-8443-d82f04af9a10">data/multimedia/documentation/DaSCHland_Data_Model_Legend.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_8">data/multimedia/documentation/DaSCHland_Data_Model_Legend.pdf</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -7162,7 +7162,7 @@
         </list-prop>
     </resource>
     <resource label="DaSCHland FAQ.pdf" id="DOC_004" restype=":Documentation">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_6ce9be03-f50e-4a53-8443-d82f04af9a10">data/multimedia/documentation/DaSCHland FAQ.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_8">data/multimedia/documentation/DaSCHland FAQ.pdf</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8783,7 +8783,7 @@
         </text-prop>
     </resource>
     <resource label="King and Queen of Hearts sitting on their throne in court" id="I_001" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book0.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book0.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8811,7 +8811,7 @@
         </resptr-prop>
     </resource>
     <resource label="White Rabbit looking at his watch" id="I_002" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book1.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book1.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8839,7 +8839,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice finding a little door" id="I_003" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book2.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book2.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8867,7 +8867,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice holding the &quot;Drink Me&quot; bottle" id="I_004" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book3.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book3.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8895,7 +8895,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice growing taller" id="I_005" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book4.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book4.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8923,7 +8923,7 @@
         </resptr-prop>
     </resource>
     <resource label="White Rabbit skurrying away from Alice" id="I_006" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book5.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book5.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8951,7 +8951,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice swimming in the Pool of tears" id="I_007" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book6.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book6.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8979,7 +8979,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice and the Mouse swimming in the Pool of tears" id="I_008" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book7.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book7.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9007,7 +9007,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice accepting a thimble from Dodo" id="I_009" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book8.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book8.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9035,7 +9035,7 @@
         </resptr-prop>
     </resource>
     <resource label="Mouse telling its tale to Alice and creatures" id="I_010" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book9.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book9.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9063,7 +9063,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice outgrowing White Rabbit's house" id="I_011" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book10.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book10.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9091,7 +9091,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice's hand reaching for White Rabbit" id="I_012" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book11.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book11.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9119,7 +9119,7 @@
         </resptr-prop>
     </resource>
     <resource label="Bill the lizzard rocketting out of the chimney" id="I_013" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book12.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book12.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9147,7 +9147,7 @@
         </resptr-prop>
     </resource>
     <resource label="The puppy looking at Alice" id="I_014" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book13.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book13.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9175,7 +9175,7 @@
         </resptr-prop>
     </resource>
     <resource label="Caterpillar questionning Alice" id="I_015" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book14.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book14.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9203,7 +9203,7 @@
         </resptr-prop>
     </resource>
     <resource label="Father William standing on his head" id="I_016" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book15.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book15.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9231,7 +9231,7 @@
         </resptr-prop>
     </resource>
     <resource label="Father William turning a back-sommersault" id="I_017" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book16.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book16.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9259,7 +9259,7 @@
         </resptr-prop>
     </resource>
     <resource label="Father William sitting at a table" id="I_018" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book17.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book17.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9287,7 +9287,7 @@
         </resptr-prop>
     </resource>
     <resource label="Father William balancing an eel" id="I_019" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book18.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book18.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9315,7 +9315,7 @@
         </resptr-prop>
     </resource>
     <resource label="Frog-Footman and Fish-Footman holding an invitation" id="I_020" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book19.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book19.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9343,7 +9343,7 @@
         </resptr-prop>
     </resource>
     <resource label="Dutchess nursing the baby" id="I_021" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book20.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book20.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9371,7 +9371,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice holding the pig baby" id="I_022" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book21.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book21.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9399,7 +9399,7 @@
         </resptr-prop>
     </resource>
     <resource label="Cheshire-Cat grinning at Alice" id="I_023" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book22.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book22.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9427,7 +9427,7 @@
         </resptr-prop>
     </resource>
     <resource label="Cheshire-Cat disappearing" id="I_024" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book23.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book23.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9455,7 +9455,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice sitting at a mad tea-party" id="I_025" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book24.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book24.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9483,7 +9483,7 @@
         </resptr-prop>
     </resource>
     <resource label="Hatter singing" id="I_026" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book25.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book25.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9511,7 +9511,7 @@
         </resptr-prop>
     </resource>
     <resource label="Dormouse being put in a teapot" id="I_027" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book26.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book26.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9539,7 +9539,7 @@
         </resptr-prop>
     </resource>
     <resource label="Card-gardeners painting roses" id="I_028" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book27.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book27.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9567,7 +9567,7 @@
         </resptr-prop>
     </resource>
     <resource label="Queen of Hearts pointing at Alice" id="I_029" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book28.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book28.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9595,7 +9595,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice holding her Flamingo" id="I_030" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book29.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book29.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9623,7 +9623,7 @@
         </resptr-prop>
     </resource>
     <resource label="Executioners and crowd collecting round Cheshire-Cat" id="I_031" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book30.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book30.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9651,7 +9651,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice and Duchess walking" id="I_032" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book31.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book31.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9679,7 +9679,7 @@
         </resptr-prop>
     </resource>
     <resource label="Gryphon sleeping" id="I_033" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book32.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book32.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9707,7 +9707,7 @@
         </resptr-prop>
     </resource>
     <resource label="Mock Turtle telling his story to Gryphon and Alice" id="I_034" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book33.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book33.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9735,7 +9735,7 @@
         </resptr-prop>
     </resource>
     <resource label="Mock Turtle and Gryphon dancing round Alice" id="I_035" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book34.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book34.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9763,7 +9763,7 @@
         </resptr-prop>
     </resource>
     <resource label="Lobster turning out his toes " id="I_036" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book35.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book35.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9791,7 +9791,7 @@
         </resptr-prop>
     </resource>
     <resource label="White Rabbit as herald blowing a trumpet" id="I_037" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book36.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book36.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9819,7 +9819,7 @@
         </resptr-prop>
     </resource>
     <resource label="Hatter shaking off his shoes" id="I_038" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book37.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book37.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9847,7 +9847,7 @@
         </resptr-prop>
     </resource>
     <resource label="Hatter running" id="I_039" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book38.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book38.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9875,7 +9875,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice tipping over the jury-box" id="I_040" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book39.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book39.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9903,7 +9903,7 @@
         </resptr-prop>
     </resource>
     <resource label="King of Hearts pointing to the tarts in court" id="I_041" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book40.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book40.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9931,7 +9931,7 @@
         </resptr-prop>
     </resource>
     <resource label="Cards flying down upon Alice" id="I_042" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_1book41.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book41.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9959,7 +9959,7 @@
         </resptr-prop>
     </resource>
     <resource label="White knight riding his horse" id="I_043" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book0.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book0.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9987,7 +9987,7 @@
         </resptr-prop>
     </resource>
     <resource label="Black kitten playing" id="I_044" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book1.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book1.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10015,7 +10015,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice winding worsted in an arm-chair" id="I_045" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book2.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book2.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10043,7 +10043,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice going through the looking-glass" id="I_046" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book3.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book3.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10071,7 +10071,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice coming through the looking-glass" id="I_047" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book4.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book4.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10099,7 +10099,7 @@
         </resptr-prop>
     </resource>
     <resource label="Chessmen walking" id="I_048" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book5.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book5.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10127,7 +10127,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice picking up White King" id="I_049" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book6.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book6.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10155,7 +10155,7 @@
         </resptr-prop>
     </resource>
     <resource label="The White Knight sliding down a poker" id="I_050" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book7.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book7.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10183,7 +10183,7 @@
         </resptr-prop>
     </resource>
     <resource label="Jabberwork" id="I_051" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book8.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book8.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10211,7 +10211,7 @@
         </resptr-prop>
     </resource>
     <resource label="Tiger-Lily and Alice talking" id="I_052" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book9.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book9.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10239,7 +10239,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice and Red Queen talking" id="I_053" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book10.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book10.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10267,7 +10267,7 @@
         </resptr-prop>
     </resource>
     <resource label="Chessboard-like country" id="I_054" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book11.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book11.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10295,7 +10295,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice and Red Queen running" id="I_055" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book12.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book12.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10323,7 +10323,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice sittin in a train carriage" id="I_056" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book13.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book13.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10351,7 +10351,7 @@
         </resptr-prop>
     </resource>
     <resource label="Rocking-horse-fly" id="I_057" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book14.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book14.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10379,7 +10379,7 @@
         </resptr-prop>
     </resource>
     <resource label="Snap-dragon-fly" id="I_058" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book15.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book15.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10407,7 +10407,7 @@
         </resptr-prop>
     </resource>
     <resource label="Bread-and-butter-fly" id="I_059" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book16.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book16.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10435,7 +10435,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice clasping her arms round Fawn" id="I_060" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book17.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book17.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10463,7 +10463,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice calling on Tweedledum and Tweeldee" id="I_061" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book18.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book18.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10491,7 +10491,7 @@
         </resptr-prop>
     </resource>
     <resource label="Walrus and Carpenter walking" id="I_062" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book19.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book19.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10519,7 +10519,7 @@
         </resptr-prop>
     </resource>
     <resource label="Walrus and Carpenter resting" id="I_063" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book20.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book20.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10547,7 +10547,7 @@
         </resptr-prop>
     </resource>
     <resource label="Walrus and Carpenter eating" id="I_064" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book21.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book21.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10575,7 +10575,7 @@
         </resptr-prop>
     </resource>
     <resource label="Red King snoring" id="I_065" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book22.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book22.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10603,7 +10603,7 @@
         </resptr-prop>
     </resource>
     <resource label="Tweedledum crying in a fury" id="I_066" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book23.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book23.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10631,7 +10631,7 @@
         </resptr-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" id="I_067" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book24.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book24.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10659,7 +10659,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice adressing White Queen" id="I_068" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book25.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book25.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10687,7 +10687,7 @@
         </resptr-prop>
     </resource>
     <resource label="Hatta sitting in prison" id="I_069" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book26.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book26.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10715,7 +10715,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice leaning on counter in Sheep's shop" id="I_070" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book27.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book27.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10743,7 +10743,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice rowing a boat" id="I_071" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book28.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book28.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10771,7 +10771,7 @@
         </resptr-prop>
     </resource>
     <resource label="Humpty Dumpty offering Alice his hand" id="I_072" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book29.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book29.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10799,7 +10799,7 @@
         </resptr-prop>
     </resource>
     <resource label="Jabberwocky creatures" id="I_073" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book30.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book30.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10827,7 +10827,7 @@
         </resptr-prop>
     </resource>
     <resource label="Humpty Dumpty sending a message" id="I_074" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book31.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book31.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10855,7 +10855,7 @@
         </resptr-prop>
     </resource>
     <resource label="White King soldiers and horses stumbling" id="I_075" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book32.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book32.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10883,7 +10883,7 @@
         </resptr-prop>
     </resource>
     <resource label="Haigha handing a ham sandwich to the White King" id="I_076" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book33.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book33.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10911,7 +10911,7 @@
         </resptr-prop>
     </resource>
     <resource label="Hatta drinking tea" id="I_077" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book34.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book34.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10939,7 +10939,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice holding a plum cake" id="I_078" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book35.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book35.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10967,7 +10967,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice putting her hands over her ears" id="I_079" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book36.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book36.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10995,7 +10995,7 @@
         </resptr-prop>
     </resource>
     <resource label="Red Knight and White Knight fighting" id="I_080" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book37.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book37.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11023,7 +11023,7 @@
         </resptr-prop>
     </resource>
     <resource label="White Knight falling off his horse" id="I_081" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book38.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book38.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11051,7 +11051,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice dragging White Knight out off a ditch" id="I_082" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book39.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book39.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11079,7 +11079,7 @@
         </resptr-prop>
     </resource>
     <resource label="White Knight shaking an aged man" id="I_083" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book40.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book40.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11107,7 +11107,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice lifting off a golden crown" id="I_084" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book41.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book41.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11135,7 +11135,7 @@
         </resptr-prop>
     </resource>
     <resource label="Red Queen and White Queen sitting with Alice" id="I_085" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book42.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book42.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11163,7 +11163,7 @@
         </resptr-prop>
     </resource>
     <resource label="Red Queen and White Queen sleeping on Alice" id="I_086" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book43.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book43.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11191,7 +11191,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice and Frog standing before a door" id="I_087" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book44.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book44.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11219,7 +11219,7 @@
         </resptr-prop>
     </resource>
     <resource label="Mutton making a little bow" id="I_088" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book45.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book45.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11247,7 +11247,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice pulling a table cloth" id="I_089" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book46.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book46.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11275,7 +11275,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice shaking Red Queen" id="I_090" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book47.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book47.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11303,7 +11303,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice shaking Kitty" id="I_091" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book48.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book48.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11331,7 +11331,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice looking over her shoulder at White Kitten" id="I_092" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_7ea9c960-6087-4b11-a626-79f2bc951389">data/multimedia/image/IMG_2book49.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book49.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12218,7 +12218,7 @@
         </text-prop>
     </resource>
     <resource label="daschland_data.xml" id="MAT_001" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">daschland_data.xml</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">daschland_data.xml</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12243,7 +12243,7 @@
         </list-prop>
     </resource>
     <resource label="Archive.csv" id="MAT_002" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Archive.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Archive.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12268,7 +12268,7 @@
         </list-prop>
     </resource>
     <resource label="Audio.csv" id="MAT_003" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Audio.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Audio.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12293,7 +12293,7 @@
         </list-prop>
     </resource>
     <resource label="Book.csv" id="MAT_004" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Book.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Book.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12318,7 +12318,7 @@
         </list-prop>
     </resource>
     <resource label="BookChapter.csv" id="MAT_005" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/BookChapter.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/BookChapter.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12343,7 +12343,7 @@
         </list-prop>
     </resource>
     <resource label="BookEdition.csv" id="MAT_006" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/BookEdition.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/BookEdition.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12368,7 +12368,7 @@
         </list-prop>
     </resource>
     <resource label="Character.csv" id="MAT_007" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Character.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Character.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12393,7 +12393,7 @@
         </list-prop>
     </resource>
     <resource label="Documentation.csv" id="MAT_008" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Documentation.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Documentation.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12418,7 +12418,7 @@
         </list-prop>
     </resource>
     <resource label="Event.csv" id="MAT_009" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Event.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Event.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12443,7 +12443,7 @@
         </list-prop>
     </resource>
     <resource label="Image.csv" id="MAT_010" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Image.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Image.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12468,7 +12468,7 @@
         </list-prop>
     </resource>
     <resource label="List_Event_Type.csv" id="MAT_011" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/List_Event_Type.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/List_Event_Type.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12493,7 +12493,7 @@
         </list-prop>
     </resource>
     <resource label="List_License.csv" id="MAT_012" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/List_License.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/List_License.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12518,7 +12518,7 @@
         </list-prop>
     </resource>
     <resource label="List_Role.csv" id="MAT_013" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/List_Role.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/List_Role.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12543,7 +12543,7 @@
         </list-prop>
     </resource>
     <resource label="Location.csv" id="MAT_014" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Location.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Location.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12568,7 +12568,7 @@
         </list-prop>
     </resource>
     <resource label="Material.csv" id="MAT_015" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Material.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Material.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12593,7 +12593,7 @@
         </list-prop>
     </resource>
     <resource label="Region.csv" id="MAT_016" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Region.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Region.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12618,7 +12618,7 @@
         </list-prop>
     </resource>
     <resource label="Video.csv" id="MAT_017" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/Video.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/Video.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12643,7 +12643,7 @@
         </list-prop>
     </resource>
     <resource label="VideoSegment.csv" id="MAT_018" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/VideoSegment.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/VideoSegment.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12668,7 +12668,7 @@
         </list-prop>
     </resource>
     <resource label="AudioSegment.csv" id="MAT_019" restype="metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_683e4212-8d67-4890-91c2-335163500ff0">data/nodegoat/AudioSegment.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_2">data/nodegoat/AudioSegment.csv</bitstream>
         <text-prop name="metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -12809,7 +12809,7 @@
         <hasKeyword>Outro</hasKeyword>
     </video-segment>
     <resource label="Alice in Wonderland 1915" id="V_01" restype=":Video">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_528ee6cd-7178-4233-9f55-9a1bf27d0742">data/multimedia/video/VID_AliceInWonderland_1915.mp4</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_9">data/multimedia/video/VID_AliceInWonderland_1915.mp4</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
