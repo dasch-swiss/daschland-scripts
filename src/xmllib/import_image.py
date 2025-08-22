@@ -1,7 +1,6 @@
 import pandas as pd
 from dsp_tools.xmllib import (
     LicenseRecommended,
-    ListLookup,
     Permissions,
     Resource,
     create_list_from_input,
@@ -14,18 +13,8 @@ from src.helpers.image_helper import get_image_creation_time, get_media_file_siz
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
-    # define json file path
-    path_to_json = "daschland.json"
-
     # define dataframe
     image_df = pd.read_excel("data/spreadsheets/Image.xlsx", dtype="str")
-
-    # create list mapping
-    list_lookup = ListLookup.create_new(
-        project_json_path=path_to_json,
-        language_of_label="en",
-        default_ontology="daschland",
-    )
 
     # iterate through rows of dataframe:
     for _, row in image_df.iterrows():
@@ -33,7 +22,6 @@ def main() -> list[Resource]:
         image_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_image_creation_time(image_path)
         file_size_value = get_media_file_size(image_path)
-        license_name = list_lookup.get_node_via_list_name(node_label=row["License List"], list_name="License")
         book_id = create_list(row["Book ID"])
         file_permissions = (
             Permissions.LIMITED_VIEW if row["Permission"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
