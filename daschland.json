@@ -861,7 +861,7 @@
                         "gui_element": "TimeStamp"
                     },
                     {
-                        "name": "hasAuthorship",
+                        "name": "hasAuthorshipResource",
                         "super": [
                             "hasValue",
                             "foaf:person",
@@ -870,15 +870,64 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Authorship",
-                            "de": "Urheber:in",
-                            "fr": "Auteur·ice",
-                            "it": "Autore"
+                            "en": "Author of the resource",
+                            "de": "Autor der Resource",
+                            "fr": "Auteur·rice de la ressource",
+                            "it": "Autore della risorsa",
+                            "rm": "Author of the resource"
                         },
                         "comments": {
-                            "en": "Author or creator of the file"
+                            "en": "Autor der Resource",
+                            "de": "Auteur·rice de la ressource",
+                            "fr": "Autore della risorsa"
                         },
                         "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasCopyrightResource",
+                        "super": [
+                            "hasValue",
+                            "schema:copyrightHolder",
+                            "crm:P105_right_held_by"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Copyright of the resource",
+                            "de": "Urheberrecht der Resource",
+                            "fr": "Droits d'auteur de la ressource",
+                            "it": "Copyright della risorsa",
+                            "rm": "Copyright of the resource"
+                        },
+                        "comments": {
+                            "en": "Urheberrecht der Resource",
+                            "de": "Droits d'auteur de la ressource",
+                            "fr": "Copyright della risorsa"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasLicenseResource",
+                        "super": [
+                            "hasValue",
+                            "schema:license"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "License of the resource",
+                            "de": "Lizenz der Resource",
+                            "fr": "Licence de la ressource",
+                            "it": "Licenza della risorsa",
+                            "rm": "License of the resource"
+                        },
+                        "comments": {
+                            "en": "Lizenz der Resource",
+                            "de": "Licence de la ressource",
+                            "fr": "Licenza della risorsa"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "License"
+                        }
                     }
                 ],
                 "resources": [
@@ -928,17 +977,17 @@
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasCopyright",
+                                "propname": ":hasCopyrightResource",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasLicenseList",
+                                "propname": ":hasLicenseResource",
                                 "cardinality": "1",
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasAuthorship",
+                                "propname": ":hasAuthorshipResource",
                                 "cardinality": "1-n",
                                 "gui_order": 3
                             }
@@ -990,12 +1039,12 @@
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasCopyright",
+                                "propname": ":hasCopyrightResource",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasLicenseList",
+                                "propname": ":hasLicenseResource",
                                 "cardinality": "1",
                                 "gui_order": 2
                             },
