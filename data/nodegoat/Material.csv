@@ -1,5 +1,5 @@
 ID,Description,File Name,Directory,Copyright,License List,URI DaSCH,Authorship,Authorship Resource,File Path,Time Stamp,File Size
-MAT_001,xml file used for the import of data on DSP,daschland_data.xml,,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",daschland_data.xml,,0.925
+MAT_001,xml file used for the import of data on DSP,daschland_data.xml,,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",daschland_data.xml,,0.929
 MAT_002,csv file for Nodegoat import for Archive class,Archive.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Archive.csv,,0.0
 MAT_003,csv file for Nodegoat import for Audio class,Audio.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Audio.csv,,0.031
 MAT_004,csv file for Nodegoat import for Book class,Book.csv,data/nodegoat/,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",data/nodegoat/Book.csv,,0.002

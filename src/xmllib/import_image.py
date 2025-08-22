@@ -27,6 +27,7 @@ def main() -> list[Resource]:
             Permissions.LIMITED_VIEW if row["Permission"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
         )
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
+        authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id
         resource = Resource.create_new(
@@ -48,9 +49,9 @@ def main() -> list[Resource]:
         resource.add_simpletext(value=row["ID"], prop_name=":hasID")
         resource.add_time_optional(value=timestamp_value, prop_name=":hasTimeStamp")
         resource.add_decimal_optional(value=file_size_value, prop_name=":hasFileSize")
-        resource.add_simpletext("metadata:hasCopyright", "DaSCH")
-        resource.add_list("metadata:hasLicenseList", "License", "CC BY 4.0")
-        resource.add_simpletext_multiple("metadata:hasAuthorship", "Noémi Villars, Daniela Subotic")
+        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
+        resource.add_list(":hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
         resource.add_simpletext(":hasFileName", row["File Name"])
         resource.add_link_multiple(":isPartOfBook", book_id)
         resource.add_integer(":hasSeqnum", row["Seqnum"])
