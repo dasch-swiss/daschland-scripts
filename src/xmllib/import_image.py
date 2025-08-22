@@ -4,7 +4,7 @@ from dsp_tools.xmllib import (
     ListLookup,
     Permissions,
     Resource,
-    create_list_from_string,
+    create_list_from_input,
 )
 
 from src.helpers.cleaning_df_tools import create_list
@@ -36,9 +36,9 @@ def main() -> list[Resource]:
         license_name = list_lookup.get_node_via_list_name(node_label=row["License List"], list_name="License")
         book_id = create_list(row["Book ID"])
         file_permissions = (
-            Permissions.RESTRICTED_VIEW if row["Permission"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
+            Permissions.LIMITED_VIEW if row["Permission"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
         )
-        authors = create_list_from_string(string=row["Authorship"], separator=",")
+        authors = create_list_from_input(input_value=row["Authorship"], separator=",")
 
         # create resource, label and id
         resource = Resource.create_new(
@@ -60,12 +60,12 @@ def main() -> list[Resource]:
         resource.add_simpletext(value=row["ID"], prop_name=":hasID")
         resource.add_time_optional(value=timestamp_value, prop_name=":hasTimeStamp")
         resource.add_decimal_optional(value=file_size_value, prop_name=":hasFileSize")
-        resource.add_simpletext(":hasCopyright", row["Copyright"])
-        resource.add_list(":hasLicenseList", "License", license_name)
+        resource.add_simpletext("metadata:hasCopyright", "DaSCH")
+        resource.add_list("metadata:hasLicenseList", "License", "CC BY 4.0")
+        resource.add_simpletext_multiple("metadata:hasAuthorship", "Noémi Villars, Daniela Subotic")
         resource.add_simpletext(":hasFileName", row["File Name"])
         resource.add_link_multiple(":isPartOfBook", book_id)
         resource.add_integer(":hasSeqnum", row["Seqnum"])
-        resource.add_simpletext_multiple(":hasAuthorship", row["Authorship"])
 
         # append resource to list
         all_resources.append(resource)

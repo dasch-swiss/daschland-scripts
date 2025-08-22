@@ -1,6 +1,6 @@
 import pandas as pd
 from dsp_tools.xmllib import ListLookup, Permissions, Resource
-from dsp_tools.xmllib.helpers import create_footnote_string
+from dsp_tools.xmllib.helpers import create_footnote_string, create_list_from_input
 
 from src.helpers.cleaning_df_tools import create_list
 from src.helpers.helper import select_footnote_text
@@ -43,6 +43,7 @@ def main() -> list[Resource]:
             description = description_raw.replace(f"*{footnote_text}*", footnote)
         else:
             description = description_raw
+        authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id
         resource = Resource.create_new(res_id=row["ID"], restype=":Character", label=row["Name EN"])
@@ -55,13 +56,15 @@ def main() -> list[Resource]:
         resource.add_richtext_optional(
             prop_name=":hasDescriptionAlternative",
             value=row["Alternative Description"],
-            permissions=Permissions.RESTRICTED,
+            permissions=Permissions.PRIVATE,
         )
         resource.add_list_multiple(prop_name=":hasRoleList", list_name="Role", values=roles)
         resource.add_richtext_optional(":hasQuote", row["Quote"])
         resource.add_link_multiple(":linkToImage", image_ids)
         resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names)
-
+        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
+        resource.add_list(":hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
         # append resource to list
         all_resources.append(resource)
 

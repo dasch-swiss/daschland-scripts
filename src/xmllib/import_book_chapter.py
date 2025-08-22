@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import ListLookup, Permissions, Resource
+from dsp_tools.xmllib import ListLookup, Permissions, Resource, create_list_from_input
 
 from src.helpers.cleaning_df_tools import create_list
 from src.helpers.helper import make_cols_mapping_with_columns
@@ -28,7 +28,7 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in book_chapter_df.iterrows():
         # define variables
-        permissions = Permissions.RESTRICTED
+        permissions = Permissions.PRIVATE
 
         keywords_names_raw = create_list(row["Keyword"])
         keyword_names = [
@@ -40,6 +40,7 @@ def main() -> list[Resource]:
         audio_ids = create_list(row["Audio ID"])
         event_ids = create_list(row["Event ID"])
         location_ids = create_list(row["Location ID"])
+        authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id
         resource = Resource.create_new(
@@ -70,7 +71,9 @@ def main() -> list[Resource]:
         resource.add_link_multiple(":linkToAudio", audio_ids)
         resource.add_link_multiple(":linkToEvent", event_ids)
         resource.add_link_multiple(":linkToLocation", location_ids)
-
+        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
+        resource.add_list(":hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
         # append resource to list
         all_resources.append(resource)
 
