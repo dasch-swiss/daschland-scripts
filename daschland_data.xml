@@ -67,7 +67,7 @@
             <text encoding="utf8">Spreadsheet_Data.zip</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.316</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">AR_001</text>
@@ -164,7 +164,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_00.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>1.82</decimal>
+            <decimal>1.8</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_01</text>
@@ -194,7 +194,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_01.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>5.649</decimal>
+            <decimal>5.6</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_02</text>
@@ -224,7 +224,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_02.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>5.245</decimal>
+            <decimal>5.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_03</text>
@@ -254,7 +254,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_03.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>4.479</decimal>
+            <decimal>4.5</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_04</text>
@@ -284,7 +284,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_04.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>6.173</decimal>
+            <decimal>6.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_05</text>
@@ -314,7 +314,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_05.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>5.716</decimal>
+            <decimal>5.7</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_06</text>
@@ -344,7 +344,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_06.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>7.217</decimal>
+            <decimal>7.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_07</text>
@@ -374,7 +374,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_07.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>6.646</decimal>
+            <decimal>6.6</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_08</text>
@@ -404,7 +404,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_08.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>6.159</decimal>
+            <decimal>6.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_09</text>
@@ -434,7 +434,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_09.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>6.606</decimal>
+            <decimal>6.6</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_10</text>
@@ -464,7 +464,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_10.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>6.867</decimal>
+            <decimal>6.9</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_11</text>
@@ -494,7 +494,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_11.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>4.787</decimal>
+            <decimal>4.8</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_12</text>
@@ -524,7 +524,7 @@
             <text encoding="utf8">AUD_aliceinwonderland_12.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>5.579</decimal>
+            <decimal>5.6</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_13</text>
@@ -552,7 +552,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_00.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>1.347</decimal>
+            <decimal>1.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_14</text>
@@ -580,7 +580,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_01.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>9.119</decimal>
+            <decimal>9.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_15</text>
@@ -608,7 +608,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_02.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>8.271</decimal>
+            <decimal>8.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_16</text>
@@ -636,7 +636,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_03.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>7.928</decimal>
+            <decimal>7.9</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_17</text>
@@ -664,7 +664,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_04.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>8.207</decimal>
+            <decimal>8.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_18</text>
@@ -692,7 +692,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_05.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>8.52</decimal>
+            <decimal>8.5</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_19</text>
@@ -720,7 +720,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_06.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>8.942</decimal>
+            <decimal>8.9</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_20</text>
@@ -748,7 +748,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_07.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>7.703</decimal>
+            <decimal>7.7</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_21</text>
@@ -776,7 +776,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_08.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>11.919</decimal>
+            <decimal>11.9</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_22</text>
@@ -804,7 +804,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_09.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>12.491</decimal>
+            <decimal>12.5</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_23</text>
@@ -832,7 +832,7 @@
             <text encoding="utf8">AUD_throughthelookingglass_10.mp3</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>2.329</decimal>
+            <decimal>2.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">A_24</text>
@@ -7102,7 +7102,7 @@
             <text encoding="utf8">DaSCHland_Data_Model.pdf</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.806</decimal>
+            <decimal>0.8</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">DOC_001</text>
@@ -7152,7 +7152,7 @@
             <text encoding="utf8">DaSCHland_Data_Model_Legend.pdf</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.192</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">DOC_003</text>
@@ -7177,7 +7177,7 @@
             <text encoding="utf8">DaSCHland FAQ.pdf</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.778</decimal>
+            <decimal>0.8</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">DOC_004</text>
@@ -8795,7 +8795,7 @@
             <text encoding="utf8">IMG_1book0.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.22</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_001</text>
@@ -8823,7 +8823,7 @@
             <text encoding="utf8">IMG_1book1.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.12</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_002</text>
@@ -8851,7 +8851,7 @@
             <text encoding="utf8">IMG_1book2.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.12</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_003</text>
@@ -8879,7 +8879,7 @@
             <text encoding="utf8">IMG_1book3.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.112</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_004</text>
@@ -8907,7 +8907,7 @@
             <text encoding="utf8">IMG_1book4.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.193</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_005</text>
@@ -8935,7 +8935,7 @@
             <text encoding="utf8">IMG_1book5.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.298</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_006</text>
@@ -8963,7 +8963,7 @@
             <text encoding="utf8">IMG_1book6.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.114</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_007</text>
@@ -8991,7 +8991,7 @@
             <text encoding="utf8">IMG_1book7.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.184</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_008</text>
@@ -9019,7 +9019,7 @@
             <text encoding="utf8">IMG_1book8.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.298</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_009</text>
@@ -9047,7 +9047,7 @@
             <text encoding="utf8">IMG_1book9.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.234</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_010</text>
@@ -9075,7 +9075,7 @@
             <text encoding="utf8">IMG_1book10.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.259</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_011</text>
@@ -9103,7 +9103,7 @@
             <text encoding="utf8">IMG_1book11.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.136</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_012</text>
@@ -9131,7 +9131,7 @@
             <text encoding="utf8">IMG_1book12.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.18</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_013</text>
@@ -9159,7 +9159,7 @@
             <text encoding="utf8">IMG_1book13.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.338</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_014</text>
@@ -9187,7 +9187,7 @@
             <text encoding="utf8">IMG_1book14.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.221</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_015</text>
@@ -9215,7 +9215,7 @@
             <text encoding="utf8">IMG_1book15.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.237</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_016</text>
@@ -9243,7 +9243,7 @@
             <text encoding="utf8">IMG_1book16.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.267</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_017</text>
@@ -9271,7 +9271,7 @@
             <text encoding="utf8">IMG_1book17.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.235</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_018</text>
@@ -9299,7 +9299,7 @@
             <text encoding="utf8">IMG_1book18.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.243</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_019</text>
@@ -9327,7 +9327,7 @@
             <text encoding="utf8">IMG_1book19.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.277</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_020</text>
@@ -9355,7 +9355,7 @@
             <text encoding="utf8">IMG_1book20.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.304</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_021</text>
@@ -9383,7 +9383,7 @@
             <text encoding="utf8">IMG_1book21.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.139</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_022</text>
@@ -9411,7 +9411,7 @@
             <text encoding="utf8">IMG_1book22.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.318</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_023</text>
@@ -9439,7 +9439,7 @@
             <text encoding="utf8">IMG_1book23.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.202</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_024</text>
@@ -9467,7 +9467,7 @@
             <text encoding="utf8">IMG_1book24.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.236</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_025</text>
@@ -9495,7 +9495,7 @@
             <text encoding="utf8">IMG_1book25.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.087</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_026</text>
@@ -9523,7 +9523,7 @@
             <text encoding="utf8">IMG_1book26.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.139</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_027</text>
@@ -9551,7 +9551,7 @@
             <text encoding="utf8">IMG_1book27.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.138</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_028</text>
@@ -9579,7 +9579,7 @@
             <text encoding="utf8">IMG_1book28.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.418</decimal>
+            <decimal>0.4</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_029</text>
@@ -9607,7 +9607,7 @@
             <text encoding="utf8">IMG_1book29.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.117</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_030</text>
@@ -9635,7 +9635,7 @@
             <text encoding="utf8">IMG_1book30.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.281</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_031</text>
@@ -9663,7 +9663,7 @@
             <text encoding="utf8">IMG_1book31.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.163</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_032</text>
@@ -9691,7 +9691,7 @@
             <text encoding="utf8">IMG_1book32.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.175</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_033</text>
@@ -9719,7 +9719,7 @@
             <text encoding="utf8">IMG_1book33.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.349</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_034</text>
@@ -9747,7 +9747,7 @@
             <text encoding="utf8">IMG_1book34.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.213</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_035</text>
@@ -9775,7 +9775,7 @@
             <text encoding="utf8">IMG_1book35.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.156</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_036</text>
@@ -9803,7 +9803,7 @@
             <text encoding="utf8">IMG_1book36.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.125</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_037</text>
@@ -9831,7 +9831,7 @@
             <text encoding="utf8">IMG_1book37.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.085</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_038</text>
@@ -9859,7 +9859,7 @@
             <text encoding="utf8">IMG_1book38.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.096</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_039</text>
@@ -9887,7 +9887,7 @@
             <text encoding="utf8">IMG_1book39.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.297</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_040</text>
@@ -9915,7 +9915,7 @@
             <text encoding="utf8">IMG_1book40.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.264</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_041</text>
@@ -9943,7 +9943,7 @@
             <text encoding="utf8">IMG_1book41.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.324</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_042</text>
@@ -9971,7 +9971,7 @@
             <text encoding="utf8">IMG_2book0.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.385</decimal>
+            <decimal>0.4</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_043</text>
@@ -9999,7 +9999,7 @@
             <text encoding="utf8">IMG_2book1.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.217</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_044</text>
@@ -10027,7 +10027,7 @@
             <text encoding="utf8">IMG_2book2.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.375</decimal>
+            <decimal>0.4</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_045</text>
@@ -10055,7 +10055,7 @@
             <text encoding="utf8">IMG_2book3.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.338</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_046</text>
@@ -10083,7 +10083,7 @@
             <text encoding="utf8">IMG_2book4.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.343</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_047</text>
@@ -10111,7 +10111,7 @@
             <text encoding="utf8">IMG_2book5.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.353</decimal>
+            <decimal>0.4</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_048</text>
@@ -10139,7 +10139,7 @@
             <text encoding="utf8">IMG_2book6.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.255</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_049</text>
@@ -10167,7 +10167,7 @@
             <text encoding="utf8">IMG_2book7.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.234</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_050</text>
@@ -10223,7 +10223,7 @@
             <text encoding="utf8">IMG_2book9.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.327</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_052</text>
@@ -10251,7 +10251,7 @@
             <text encoding="utf8">IMG_2book10.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.328</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_053</text>
@@ -10279,7 +10279,7 @@
             <text encoding="utf8">IMG_2book11.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.286</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_054</text>
@@ -10307,7 +10307,7 @@
             <text encoding="utf8">IMG_2book12.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.249</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_055</text>
@@ -10335,7 +10335,7 @@
             <text encoding="utf8">IMG_2book13.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.367</decimal>
+            <decimal>0.4</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_056</text>
@@ -10363,7 +10363,7 @@
             <text encoding="utf8">IMG_2book14.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.21</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_057</text>
@@ -10391,7 +10391,7 @@
             <text encoding="utf8">IMG_2book15.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.201</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_058</text>
@@ -10419,7 +10419,7 @@
             <text encoding="utf8">IMG_2book16.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.203</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_059</text>
@@ -10447,7 +10447,7 @@
             <text encoding="utf8">IMG_2book17.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.314</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_060</text>
@@ -10475,7 +10475,7 @@
             <text encoding="utf8">IMG_2book18.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.319</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_061</text>
@@ -10503,7 +10503,7 @@
             <text encoding="utf8">IMG_2book19.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.179</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_062</text>
@@ -10531,7 +10531,7 @@
             <text encoding="utf8">IMG_2book20.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.233</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_063</text>
@@ -10559,7 +10559,7 @@
             <text encoding="utf8">IMG_2book21.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.231</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_064</text>
@@ -10587,7 +10587,7 @@
             <text encoding="utf8">IMG_2book22.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.247</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_065</text>
@@ -10615,7 +10615,7 @@
             <text encoding="utf8">IMG_2book23.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.273</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_066</text>
@@ -10643,7 +10643,7 @@
             <text encoding="utf8">IMG_2book24.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.309</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_067</text>
@@ -10671,7 +10671,7 @@
             <text encoding="utf8">IMG_2book25.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.294</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_068</text>
@@ -10699,7 +10699,7 @@
             <text encoding="utf8">IMG_2book26.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.276</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_069</text>
@@ -10727,7 +10727,7 @@
             <text encoding="utf8">IMG_2book27.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.41</decimal>
+            <decimal>0.4</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_070</text>
@@ -10755,7 +10755,7 @@
             <text encoding="utf8">IMG_2book28.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.393</decimal>
+            <decimal>0.4</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_071</text>
@@ -10783,7 +10783,7 @@
             <text encoding="utf8">IMG_2book29.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.234</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_072</text>
@@ -10811,7 +10811,7 @@
             <text encoding="utf8">IMG_2book30.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.305</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_073</text>
@@ -10839,7 +10839,7 @@
             <text encoding="utf8">IMG_2book31.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.207</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_074</text>
@@ -10895,7 +10895,7 @@
             <text encoding="utf8">IMG_2book33.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.295</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_076</text>
@@ -10923,7 +10923,7 @@
             <text encoding="utf8">IMG_2book34.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.35</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_077</text>
@@ -10951,7 +10951,7 @@
             <text encoding="utf8">IMG_2book35.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.328</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_078</text>
@@ -10979,7 +10979,7 @@
             <text encoding="utf8">IMG_2book36.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.281</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_079</text>
@@ -11007,7 +11007,7 @@
             <text encoding="utf8">IMG_2book37.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.356</decimal>
+            <decimal>0.4</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_080</text>
@@ -11035,7 +11035,7 @@
             <text encoding="utf8">IMG_2book38.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.321</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_081</text>
@@ -11063,7 +11063,7 @@
             <text encoding="utf8">IMG_2book39.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.264</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_082</text>
@@ -11091,7 +11091,7 @@
             <text encoding="utf8">IMG_2book40.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.318</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_083</text>
@@ -11119,7 +11119,7 @@
             <text encoding="utf8">IMG_2book41.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.207</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_084</text>
@@ -11147,7 +11147,7 @@
             <text encoding="utf8">IMG_2book42.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.234</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_085</text>
@@ -11175,7 +11175,7 @@
             <text encoding="utf8">IMG_2book43.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.215</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_086</text>
@@ -11203,7 +11203,7 @@
             <text encoding="utf8">IMG_2book44.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.288</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_087</text>
@@ -11231,7 +11231,7 @@
             <text encoding="utf8">IMG_2book45.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.22</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_088</text>
@@ -11259,7 +11259,7 @@
             <text encoding="utf8">IMG_2book46.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.305</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_089</text>
@@ -11287,7 +11287,7 @@
             <text encoding="utf8">IMG_2book47.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.168</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_090</text>
@@ -11315,7 +11315,7 @@
             <text encoding="utf8">IMG_2book48.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.199</decimal>
+            <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_091</text>
@@ -11343,7 +11343,7 @@
             <text encoding="utf8">IMG_2book49.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>0.305</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">I_092</text>
@@ -12233,7 +12233,7 @@
             <text encoding="utf8">daschland_data.xml</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.929</decimal>
+            <decimal>0.9</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_001</text>
@@ -12283,7 +12283,7 @@
             <text encoding="utf8">Audio.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.031</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_003</text>
@@ -12308,7 +12308,7 @@
             <text encoding="utf8">Book.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.002</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_004</text>
@@ -12333,7 +12333,7 @@
             <text encoding="utf8">BookChapter.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.349</decimal>
+            <decimal>0.3</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_005</text>
@@ -12358,7 +12358,7 @@
             <text encoding="utf8">BookEdition.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.003</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_006</text>
@@ -12383,7 +12383,7 @@
             <text encoding="utf8">Character.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.08</decimal>
+            <decimal>0.1</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_007</text>
@@ -12408,7 +12408,7 @@
             <text encoding="utf8">Documentation.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.001</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_008</text>
@@ -12433,7 +12433,7 @@
             <text encoding="utf8">Event.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.013</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_009</text>
@@ -12458,7 +12458,7 @@
             <text encoding="utf8">Image.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.029</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_010</text>
@@ -12483,7 +12483,7 @@
             <text encoding="utf8">List_Event_Type.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.002</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_011</text>
@@ -12558,7 +12558,7 @@
             <text encoding="utf8">Location.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.009</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_014</text>
@@ -12583,7 +12583,7 @@
             <text encoding="utf8">Material.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.004</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_015</text>
@@ -12633,7 +12633,7 @@
             <text encoding="utf8">Video.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.001</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_017</text>
@@ -12683,7 +12683,7 @@
             <text encoding="utf8">AudioSegment.csv</text>
         </text-prop>
         <decimal-prop name="metadata:hasFileSize">
-            <decimal>0.002</decimal>
+            <decimal>0.0</decimal>
         </decimal-prop>
         <text-prop name="metadata:hasID">
             <text encoding="utf8">MAT_019</text>
@@ -12827,7 +12827,7 @@
             <text encoding="utf8">VID_AliceInWonderland_1915.mp4</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
-            <decimal>172.837</decimal>
+            <decimal>172.8</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">V_01</text>

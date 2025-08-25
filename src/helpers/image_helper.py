@@ -98,7 +98,7 @@ def get_media_file_size(file_path: str) -> Optional[float]:
                 file_size = next((value for key, value in metadata_list[0].items() if key.endswith("Size")), None)
                 if file_size:
                     # Convert and round to 3 decimal places
-                    return round(_convert_bytes_to_mb(file_size), 3)
+                    return round(_convert_bytes_to_mb(file_size), 1)
             return None
     except Exception as e:  # noqa: BLE001
         print(f"Error reading metadata: {e}")
