@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import Resource
+from dsp_tools.xmllib import Resource, create_list_from_input
 
 from src.helpers.cleaning_df_tools import create_list
 
@@ -23,6 +23,7 @@ def main() -> list[Resource]:
         ]
         descriptions = [description for description in descriptions if pd.notna(description)]
         image_ids = create_list(row["Image ID"])
+        authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id
         if row["Location Type List"] == "Real World":
@@ -38,6 +39,9 @@ def main() -> list[Resource]:
         resource.add_richtext_multiple(prop_name=":hasDescription", values=descriptions)
         resource.add_link_multiple(":linkToImage", image_ids)
         resource.add_geoname_optional(":hasGeoname", row["Geoname ID"])
+        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
+        resource.add_list(":hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
 
         # append resource to list
         all_resources.append(resource)
