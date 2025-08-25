@@ -1,9 +1,8 @@
 import pandas as pd
 from dsp_tools.xmllib import (
     LicenseRecommended,
-    ListLookup,
     Resource,
-    create_list_from_string,
+    create_list_from_input,
 )
 
 from src.helpers.image_helper import get_media_file_creation_time
@@ -12,26 +11,16 @@ from src.helpers.image_helper import get_media_file_creation_time
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
-    # define json file path
-    path_to_json = "daschland.json"
-
     # define dataframe
     book_df = pd.read_excel("data/spreadsheets/BookEdition.xlsx", dtype="str")
-
-    # create list mapping
-    list_lookup = ListLookup.create_new(
-        project_json_path=path_to_json,
-        language_of_label="en",
-        default_ontology="daschland",
-    )
 
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
         # define variables
         book_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_media_file_creation_time(book_path)
-        license_name = list_lookup.get_node_via_list_name(node_label=row["License List"], list_name="License")
-        authors = create_list_from_string(string=row["Authorship"], separator=",")
+        authors = create_list_from_input(input_value=row["Authorship"], separator=",")
+        authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id
         resource = Resource.create_new(res_id=row["ID"], restype=":BookEdition", label=row["File Name"])
@@ -49,9 +38,9 @@ def main() -> list[Resource]:
         resource.add_simpletext(":hasFileName", row["File Name"])
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_time_optional(":hasTimeStamp", timestamp_value)
-        resource.add_simpletext(":hasCopyright", row["Copyright"])
-        resource.add_list(":hasLicenseList", "License", license_name)
-        resource.add_simpletext_multiple(":hasAuthorship", row["Authorship"])
+        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
+        resource.add_list(":hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
 
         # append resource to list
         all_resources.append(resource)

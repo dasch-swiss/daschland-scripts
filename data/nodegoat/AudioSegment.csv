@@ -1,11 +1,11 @@
-ID,Label,Audio ID,Segment Start,Segment End,Title,Comment,Description,Keyword,Relates To ID
-AUS_001,Alice in Wonderland - Dramatis Personae - Intro,A_01,0,15,Intro,,Introduction to the Dramatis Personae of Alice in Wonderland,Intro,
-AUS_002,Alice in Wonderland - Dramatis Personae - Poem,A_01,15,101,Poem,Read by the cast,Poem All in the golden afternoon,Poem,BCH_001
-AUS_003,Alice in Wonderland - Dramatis Personae - Outro,A_01,101,104,Outro,,Outroduction to the Dramatis Personae of Alice in Wonderland,Outro,
-AUS_004,Alice in Wonderland - Dramatis Personae - Cast presentation,A_01,104,239,Cast presentation,Read by the cast,The cast members present themselves,Cast,
-AUS_005,Alice in Wonderland - Chapter 1 - Intro,A_02,0,14,Intro,,"Introduction to the Chapter 1 of Alice in Wonderland, with explanation about reading and copyright",Intro,
-AUS_006,Alice in Wonderland - Chapter 1,A_02,14,733,Chapter 1,Read by the cast,Chapter 1 of Alice in Wonderland,Chapter,BCH_002
-AUS_007,Alice in Wonderland - Chapter 1 - Outro,A_02,734,740,Outro,,Outroduction to the Chapter 1 of Alice in Wonderland,Outro,
-AUS_008,Alice in Wonderland - Chapter 2 - Intro,A_03,0,13,Intro,,"Introduction to the Chapter 2 of Alice in Wonderland, with explanation about reading and copyright",Intro,
-AUS_009,Alice in Wonderland - Chapter 2,A_03,13,671,Chapter 2,Read by the cast,Chapter 2 of Alice in Wonderland,Chapter,BCH_003
-AUS_010,Alice in Wonderland - Chapter 2 - Outro,A_03,671,677,Outro,,Outroduction to the Chapter 2 of Alice in Wonderland,Outro,
+ID,Label,Audio ID,Segment Start,Segment End,Title,Comment,Description,Keyword,Relates To ID,Authorship Resource
+AUS_001,Alice in Wonderland - Dramatis Personae - Intro,A_01,0,15,Intro,,Introduction to the Dramatis Personae of Alice in Wonderland,Intro,,"Daniela Subotic, Noémi Villars-Amberg"
+AUS_002,Alice in Wonderland - Dramatis Personae - Poem,A_01,15,101,Poem,Read by the cast,Poem All in the golden afternoon,Poem,BCH_001,"Daniela Subotic, Noémi Villars-Amberg"
+AUS_003,Alice in Wonderland - Dramatis Personae - Outro,A_01,101,104,Outro,,Outroduction to the Dramatis Personae of Alice in Wonderland,Outro,,"Daniela Subotic, Noémi Villars-Amberg"
+AUS_004,Alice in Wonderland - Dramatis Personae - Cast presentation,A_01,104,239,Cast presentation,Read by the cast,The cast members present themselves,Cast,,"Daniela Subotic, Noémi Villars-Amberg"
+AUS_005,Alice in Wonderland - Chapter 1 - Intro,A_02,0,14,Intro,,"Introduction to the Chapter 1 of Alice in Wonderland, with explanation about reading and copyright",Intro,,"Daniela Subotic, Noémi Villars-Amberg"
+AUS_006,Alice in Wonderland - Chapter 1,A_02,14,733,Chapter 1,Read by the cast,Chapter 1 of Alice in Wonderland,Chapter,BCH_002,"Daniela Subotic, Noémi Villars-Amberg"
+AUS_007,Alice in Wonderland - Chapter 1 - Outro,A_02,734,740,Outro,,Outroduction to the Chapter 1 of Alice in Wonderland,Outro,,"Daniela Subotic, Noémi Villars-Amberg"
+AUS_008,Alice in Wonderland - Chapter 2 - Intro,A_03,0,13,Intro,,"Introduction to the Chapter 2 of Alice in Wonderland, with explanation about reading and copyright",Intro,,"Daniela Subotic, Noémi Villars-Amberg"
+AUS_009,Alice in Wonderland - Chapter 2,A_03,13,671,Chapter 2,Read by the cast,Chapter 2 of Alice in Wonderland,Chapter,BCH_003,"Daniela Subotic, Noémi Villars-Amberg"
+AUS_010,Alice in Wonderland - Chapter 2 - Outro,A_03,671,677,Outro,,Outroduction to the Chapter 2 of Alice in Wonderland,Outro,,"Daniela Subotic, Noémi Villars-Amberg"
