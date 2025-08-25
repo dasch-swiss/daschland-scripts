@@ -2854,6 +2854,13 @@
                     }
                 ]
             }
-        ]
+        ],
+        "default_permissions_overrule": {
+            "private": [
+                "daschland:EventAlternative",
+                "daschland:hasDescriptionAlternative"
+            ],
+            "limited_view": []
+        }
     }
 }
