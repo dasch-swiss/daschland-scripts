@@ -46,6 +46,13 @@
             "http://rdfh.ch/licenses/public-domain"
         ],
         "default_permissions": "public",
+        "default_permissions_overrule": {
+            "private": [
+                "daschland:EventAlternative",
+                "daschland:hasDescriptionAlternative"
+            ],
+            "limited_view": []
+        },
         "users": [
             {
                 "username": "Alice",
@@ -2854,13 +2861,6 @@
                     }
                 ]
             }
-        ],
-        "default_permissions_overrule": {
-            "private": [
-                "daschland:EventAlternative",
-                "daschland:hasDescriptionAlternative"
-            ],
-            "limited_view": []
-        }
+        ]
     }
 }
