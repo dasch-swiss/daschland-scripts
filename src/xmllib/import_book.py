@@ -28,6 +28,7 @@ def main() -> list[Resource]:
         resource.add_simpletext(":hasName", row["Name"])
         resource.add_simpletext_multiple(":hasAuthorship", row["Authorship"])
         resource.add_richtext(":hasDescription", row["Description"])
+        resource.add_richtext(prop_name=":hasDescriptionAlternative", value=row["Alternative Description"])
         resource.add_date_multiple(":hasDate", dates_published)
         resource.add_link_multiple(":linkToBookChapter", book_chapter_ids)
         resource.add_link_multiple(":linkToBookEdition", book_edition_ids)
