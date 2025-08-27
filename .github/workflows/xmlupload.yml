@@ -23,7 +23,7 @@ jobs:
         run: uv sync --all-extras --dev
       - name: Upgrade DSP-TOOLS
         run: uv add --upgrade dsp-tools
-      - name: Setup FFmpeg
+      - name: Setup FFmpeg  # FedericoCarboni/setup-ffmpeg (with built-in caching) is considerably faster, but less reliable
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Generate dummy MP4 with ffmpeg
         run: |
