@@ -18,6 +18,7 @@ from src.xmllib import (
     import_event,
     import_image,
     import_image_region,
+    import_link_object,
     import_location,
     import_material,
     import_video,
@@ -93,6 +94,10 @@ def main() -> None:
     all_video_segments = import_video_segment.main()
     root = root.add_resource_multiple(all_video_segments)
     ic(len(all_video_segments))
+
+    all_links = import_link_object.main()
+    root = root.add_resource_multiple(all_links)
+    ic(len(all_links))
 
     # write the root to a xml file
     root.write_file("daschland_data.xml")

@@ -23,8 +23,9 @@ def main() -> list[Resource]:
         timestamp_value = get_image_creation_time(image_path)
         file_size_value = get_media_file_size(image_path)
         book_id = create_list(row["Book ID"])
+        character_id = create_list_from_input(row["Character ID"], separator=",")
         file_permissions = (
-            Permissions.LIMITED_VIEW if row["Permission"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
+            Permissions.LIMITED_VIEW if row["Restricted view"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
         )
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
@@ -54,6 +55,7 @@ def main() -> list[Resource]:
         resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
         resource.add_simpletext(":hasFileName", row["File Name"])
         resource.add_link_multiple(":isPartOfBook", book_id)
+        resource.add_link_multiple(":isPartOfCharacter", character_id)
         resource.add_integer(":hasSeqnum", row["Seqnum"])
 
         # append resource to list

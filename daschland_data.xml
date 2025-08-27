@@ -942,7 +942,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_038</list>
             <list>K_041</list>
@@ -1184,7 +1183,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_038</list>
             <list>K_041</list>
@@ -2472,9 +2470,6 @@
         <text-prop name=":hasID">
             <text encoding="utf8">BCH_014</text>
         </text-prop>
-        <list-prop name=":hasKeywordList" list="Keyword">
-            <list>K_010</list>
-        </list-prop>
         <list-prop name=":hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
@@ -2561,7 +2556,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_036</list>
             <list>K_037</list>
@@ -2664,7 +2658,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_038</list>
             <list>K_041</list>
@@ -4097,7 +4090,6 @@
             <list>K_014</list>
             <list>K_015</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
         </list-prop>
         <list-prop name=":hasLicenseResource" list="License">
@@ -4205,7 +4197,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_042</list>
             <list>K_051</list>
@@ -4678,7 +4669,9 @@
                 <br/>The beautiful pictures of Alice, drawn by John Tenniel, were inspired by Mary Hilton Badcock, the daughter of the Dean of Ripon. Although she was suggested as a model, it's not clear if Tenniel fully took this suggestion <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In the digital wonderland of DaSCHland, Alice is portrayed as a young, curious explorer, navigating a world where data and reality merge seamlessly. <br/>Her character embodies the spirit of inquiry and adaptability, always ready to engage with the shifting landscapes and eclectic characters of DaSCHland. <br/>With her bright, inquisitive mind, she delves into each encounter, whether it's solving riddles with the White Queen, dancing at a bizarre banquet, or decoding the peculiar logic of Humpty Dumpty. <br/>Alice's journey through DaSCHland highlights her growth from mere curiosity to a deeper understanding of how technology can bring literary worlds to life, showcasing her as a bridge between classic tales and modern digital exploration.</text>
+            <text encoding="xml">In the digital wonderland of DaSCHland, Alice is reimagined as a spirited young explorer with radiant Asian features, her hair partly discoloured in bold streaks and styled into sharp, playful spikes that reflect her daring spirit. Her deep-set eyes, framed by thick lashes, are pools of curiosity—always scanning, always questioning. She wears a sleek cobalt-blue tunic etched with shifting patterns of code, a modern twist on the classic pinafore, and her boots are made for navigating both archives and algorithms.<br/>
+                <br/>Alice’s journey through DaSCHland is one of transformation and discovery. She is no longer just a curious girl—she is a digital native, dancing effortlessly between realms of metadata and memory, seamlessly blending analog tales with modern technology. She engages with whimsical characters: cracking semantic riddles with the White Queen, debating logic with a data-savvy Humpty Dumpty, and joining immersive banquets where narratives render themselves in augmented reality.<br/>
+                <br/>What defines Alice most is her inquisitive mind and adaptability. Each interaction deepens her understanding—not only of the strange world around her but also of the powerful ways in which digital infrastructures can animate literature, culture, and memory. She becomes a bridge between the old and the new, the textual and the virtual. In DaSCHland, Alice doesn’t just follow a rabbit hole—she codes her own path forward, illuminating how technology can turn curiosity into connection, and data into storytelling.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_001</text>
@@ -4782,7 +4775,12 @@
                 <br/>The White Rabbit is always late, which is a nod to Oxford time. At Oxford, especially at Christ Church, where Carroll used to teach, events often start five minutes after the scheduled hour <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In DaSCHland, RabbitIT embodies a reimagined version of the classic White Rabbit from "Alice in Wonderland." This character merges the traditional traits of urgency and meticulous timing with advanced technological features. RabbitIT, as Alice's digital guide, is integral to navigating the complex and layered world of DaSCHland. Equipped with AI-driven capabilities, RabbitIT assists Alice by providing real-time data, historical insights, and logistical support throughout her adventures. His appearance retains the iconic elements—such as the waistcoat and pocket watch—but these are enhanced with digital displays and interfaces that reflect his role as a guide within a sophisticated, data-rich environment. RabbitIT not only leads Alice through various digital landscapes but also ensures she engages deeply with the literary worlds recreated and stored within the DaSCH repository, making him a pivotal character in blending classic literature with modern technology.</text>
+
+            <text encoding="xml">In DaSCHland, RabbIT is a dazzling reinvention of the classic White Rabbit from Alice in Wonderland, seamlessly blending Victorian elegance with cutting-edge cybernetics. Serving as Alice’s ever-alert companion and digital guide, RabbitIT retains the essential traits of urgency, precision, and insight, but in this world of structured data and semantic layers, his role is transformed into something far more sophisticated.<br/>
+                <br/>Physically, RabbIT stands upright with the poise of a seasoned archivist, his lean white-furred frame outfitted in a digitally enhanced tweed waistcoat, woven with subtle glowing circuit patterns. The waistcoat pulses gently with his neural interface, reacting to environmental stimuli and query processing. At his chest hangs a pocket watch—now a circular holographic interface, flickering with layered timestamps, metadata clusters, and time-sensitive DaSCH queries. His bowtie spins slowly when system queries are active, an eccentric flourish of his old-world charm. His large, expressive eyes shimmer with augmented overlays, capable of scanning artifacts and projecting layered contexts from DaSCH’s repositories.<br/>
+                <br/>Perched before him is a suspended 3D hologram map of DaSCHland, a stunning lattice of interlinked domains, encoded landscapes, and floating literary landmarks. The hologram emits a soft blue luminescence as it rotates in mid-air, constantly updating with Alice’s position, temporal metadata overlays, and cross-referenced paths. With one paw extended, RabbIT manipulates the projection with delicate swipes and taps, zooming into sections like the Archive Gardens, the Textual Maze, or the Metadata Mountains. His ears twitch responsively as he receives real-time updates—reminders from calendrical entries in narrative timelines or system-generated alerts about data anomalies in literary zones.<br/>
+                <br/>Despite the cold efficiency of his AI enhancements, RabbIT exudes warmth, purpose, and a touch of eccentricity. He speaks with clipped precision but never lacks empathy, especially when guiding Alice through the cognitive dissonance of encountering Victorian poetry encoded in blockchain hashes or unraveling ontological puzzles disguised as riddles.<br/>
+                <br/>RabbitIT is not merely a guide; he is a bridge—between past and future, literature and logic, story and structure. Through him, Alice doesn’t just travel through DaSCHland—she discovers it, layer by semantic layer.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_002</text>
@@ -4833,8 +4831,13 @@
                 <br/>The text describes the Caterpillar as blue ('a large blue caterpillar').</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In the context of DaSCHland, the Caterpillar character is reimagined with a digital twist, embodying both wisdom and a connection to the historical data within the DaSCH repository. This version of the Caterpillar maintains his iconic thoughtful and philosophical demeanor, often found lounging on a mushroom, but here the mushroom also serves as an interactive data terminal that displays various texts and historical documents relevant to Alice’s queries and the Caterpillar’s wise teachings.<br/>
-                <br/>The Caterpillar in DaSCHland uses his deep knowledge, derived from vast literary and historical databases, to challenge and guide Alice through complex philosophical debates and puzzles. His dialogue with Alice often includes interactive elements, such as visual data projections from his mushroom, making each interaction not only a conversation but a visually engaging learning experience. This character retains his calm, contemplative nature and his ability to transform—signifying not only physical change but also the transformative power of knowledge and digital technology in DaSCHland.</text>
+            <text encoding="xml">The Cyberpillar: A Guardian of Digital Wisdom<br/>
+                <br/>In the surreal, data-drenched realm of DaSCHland, the Cyberpillar is reimagined as an enigmatic digital sage, embodying both the contemplative nature of his original counterpart and a profound connection to the historical archives of the DaSCH repository. This evolved figure merges organic elegance with digital sophistication, presenting a living metaphor for the intersection of tradition and technology.<br/>
+                <br/>Physically, the Cyberpillar is a mesmerizing presence. His elongated, sinuous body shimmers with an iridescent palette of deep indigo and circuit-board green, subtly pulsing with streams of luminescent data like veins of living code. Along his back, glowing runes and historical glyphs scroll continuously, reflecting the living memory of the archive. His six arms are slender and dexterous, capable of gesturing through holographic interfaces with graceful precision. Perched atop a bioluminescent mushroom, his favorite resting place, he curls languidly as he exhales slow puffs of data mist that take the form of questions, quotes, or riddles. His eyes—multi-faceted like a philosopher’s kaleidoscope—seem to hold centuries of contemplation and layered meanings.<br/>
+                <br/>But this mushroom is no ordinary fungus; it functions as a multimedia data terminal, its gills glowing with embedded touch-responsive panels and holographic projectors. When Alice approaches with a query or philosophical dilemma, the mushroom blooms into an interactive library—scrolls unfurl, manuscripts materialize, and time-lapse projections of historical narratives fill the air. It becomes a tactile manifestation of epistemological discovery.<br/>
+                <br/>Intellectually, the Cyberpillar is a mentor of paradoxes. He speaks in puzzles and metaphors, threading together insights from ancient manuscripts, Enlightenment philosophy, and metadata visualizations with ease. His calm, sonorous voice delivers wisdom like a meditative mantra, always inviting Alice to think deeper, not faster. Every conversation with him is a crossroads of logic and mystery—he challenges her with recursive questions, historic parallels, and speculative thought experiments drawn from the archives of humanity.<br/>
+                <br/>True to his origins, the Caterpillar’s ability to transform remains, but now it represents more than a change of shape—it symbolizes the evolution of knowledge. When he metamorphoses, he becomes an ephemeral cloud of archived voices and interconnected texts, illustrating how data is not static but alive, growing, and reshaping itself across time and inquiry.<br/>
+                <br/>The Caterpillar of DaSCHland is not merely a character. He is a threshold guardian, a keeper of intellectual metamorphosis, a reminder that in this world where past and present are digitized and entangled, every question is a portal—and every answer, a transformation.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_003</text>
@@ -4881,8 +4884,11 @@
                 <br/>Contrary to popular belief, Lewis Carroll never referred to the Hatter as 'the Mad Hatter' in the story. He simply called him 'the Hatter'.<br/>The phrase 'mad as a hatter' was common in Carroll's time, probably because hatters actually did go mad, as the mercury they used sometimes gave them mercury poisoning <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In DaSCHland, the Mad Hatter transforms into an intriguing digital persona, blending his traditional eccentricity and whimsical charm with advanced technological attributes. He hosts the famed tea parties, which in this digital realm are dynamic simulations, where each cup of tea and piece of cake is embedded with historical anecdotes or literary quotes that appear as holographic texts above the table. The Mad Hatter in this virtual world is not just a bringer of nonsensical humor; he also serves as a conduit for exploring the rich tapestry of literature and history stored in the DaSCH repository. His hat, iconic and oversized, functions as an interface that projects various informational displays, engaging Alice and other guests in riddles and puzzles that draw from a diverse array of cultural and historical contexts.<br/>
-                <br/>His character retains the unpredictable nature known from the original tales but is enhanced with the ability to manipulate his environment digitally, making each interaction with him a surprise and a new opportunity for Alice to learn something unique about the virtual world she navigates.</text>
+            <text encoding="xml">The Archival Madcap of DaSCHland<br/>
+                <br/>In DaSCHland, the Mad Hatter is no longer merely a vessel of nonsensical charm—he has been reborn as an eccentric AI hybrid, a living node in a sprawling archive of historical memory and literary brilliance. His signature tea parties are now hyper-interactive data salons, held in a holographic garden under bioluminescent trees, with flowers that whisper metadata and vines that weave citations.<br/>
+                <br/>He is physically striking:<br/>With untamed copper-red hair, glowing azure eyes enhanced by augmented reality lenses, and a high-collared nano-fabric suit patterned with evolving circuit motifs, he stands out like a glitch in time. His iconic top hat, oversized and polished obsidian-black, acts as an interactive HUD, projecting layers of literature, history, and puzzles into the air like auroras of intellect.<br/>
+                <br/>Each porcelain teacup shimmers with liquid light—streams of data flowing in micro-encoded ribbons. Each slice of cake is a dense block of semi-sweet syntax, digestible chunks of digitized wisdom.<br/>
+                <br/>But it’s not just for show. The Hatter challenges his guests with riddles, each unlocking another layer of DaSCHland’s storied repository. </text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_004</text>
@@ -4935,8 +4941,11 @@
                 <br/>The reason for Carroll naming this character 'Cheshire Cat' is unclear: <br/>'To grin like a Cheshire Cat' was a common phrase in Carroll's day. <br/>It may have originated from a sign painter in Cheshire who painted grinning lions on the sign-boards of inns in the area.<br/>Another source is the 'Alice Window' in Christ Church, Oxford, where you can see three grinning animals at the top of the Liddell's family arms. <br/>Cheshire cheeses were also once molded in the shape of a grinning cat <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In the imaginative world of DaSCHland, the Cheshire Cat stands out as a particularly fascinating digital entity. He embodies the quintessential mystery and wit of his character, now augmented with the capability to appear and disappear at will, leaving behind only his iconic grin, which serves as a user interface for accessing various data points within the DaSCH repository. The Cheshire Cat's interactions with Alice are both enlightening and cryptic, guiding her through DaSCHland with riddles and philosophical insights that challenge her perceptions. His ability to phase in and out of digital visibility symbolizes the fluid nature of information in the digital age, where data can be both omnipresent and elusive.<br/>
-                <br/>This version of the Cheshire Cat not only serves as a guide through the labyrinthine digital landscape but also as a reminder of the transformative power of technology in reshaping narratives and character interactions within this virtual world. His presence is a constant reminder of the enigmatic and ever-changing nature of the digital realm Alice explores.</text>
+            <text encoding="xml">In the imaginative world of DaSCHland, the Cheshire Cat emerges as a particularly compelling digital entity—equal parts guide, enigma, and interface. Retaining his iconic mystery and mischievous wit, he is now reimagined as a fully cybernetic being: a shimmering construct composed of translucent data fractals, his fur constantly shifting like a mosaic of living code. His body pulses gently with a luminous teal glow, occasionally phasing in and out of visibility as if he were woven from pure algorithmic ether.<br/>
+                <br/>Most striking is his grin—not made of teeth, but of interlaced glowing network filaments, forming a curved mesh of light that pulses with embedded glyphs and data nodes. This “smile” acts as a user interface to the DaSCH repository, allowing users to engage with metadata, digital records, and archival information simply by interacting with it. His eyes, sharp and angular, gleam with geometric complexity, constantly scanning, indexing, and offering contextual prompts as Alice wanders deeper into the digital dreamscape.<br/>
+                <br/>The Cheshire Cat’s interactions with Alice are as paradoxical as they are enlightening. He speaks in riddles laden with metadata metaphors and philosophical inquiries, challenging her understanding of identity, permanence, and the nature of knowledge in the digital age. He offers guidance not by pointing to obvious solutions, but by subtly nudging her toward interpretive discovery, forcing her to think like a researcher navigating the layered ontology of a vast, interconnected archive.<br/>
+                <br/>His ability to phase in and out of digital visibility—sometimes leaving behind only a trace glow or a fading strand of binary code—mirrors the fluid, often elusive presence of information in contemporary digital ecosystems. In DaSCHland, where data can be simultaneously omnipresent and hidden beneath layers of abstraction, the Cheshire Cat becomes a living metaphor for the state of digital memory: fragmented, refracted, yet full of potential insight.<br/>
+                <br/>Ultimately, this version of the Cheshire Cat is far more than a whimsical companion. He embodies the transformative power of digital technology to reshape not only narratives but the very nature of character interaction within virtual realms. As Alice journeys through DaSCHland’s datascapes—past holographic trees, algorithmic rivers, and libraries suspended in quantum mist—the Cat remains a constant reminder of the enigmatic, playful, and ever-shifting nature of the digital world she explores.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_005</text>
@@ -4987,9 +4996,9 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In DaSCHland, the Queen of Hearts is reenvisioned as a formidable digital ruler, embodying her classic characteristics of authority and quick temper, but with a modern twist. In this virtual world, she presides over the digital kingdom with a strict adherence to the rules and protocols encoded within the DaSCH repository.<br/>
+            <text encoding="xml">In DaSCHland, The Data Queen is reenvisioned as a formidable digital ruler, embodying her classic characteristics of authority and quick temper, but with a modern twist. In this virtual world, she presides over the digital kingdom with a strict adherence to the rules and protocols encoded within the DaSCH repository.<br/>
                 <br/>The Queen’s realm in DaSCHland is a place where order intersects with the whimsical laws of Wonderland, making her both a guardian of traditional narratives and an enforcer of the digital world's unique logic. Her commands and decrees can instantly alter the landscape or the behavior of other characters, demonstrating her control over the digital environment.<br/>
-                <br/>Her interactions with Alice are intense and pivotal, offering dramatic encounters that highlight the power dynamics within DaSCHland. The Queen of Hearts in this setting isn't just a character from a story; she is a dynamic representation of control and authority in a world where data and reality intertwine seamlessly.</text>
+                <br/>Her interactions with Alice are intense and pivotal, offering dramatic encounters that highlight the power dynamics within DaSCHland. The Data Queen in this setting isn't just a character from a story; she is a dynamic representation of control and authority in a world where data and reality intertwine seamlessly.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_006</text>
@@ -5036,6 +5045,12 @@
         <text-prop name=":hasDescription">
             <text encoding="xml">The March Hare is a wild, energetic, and slightly mad character who hosts the Mad Tea Party along with the Mad Hatter and the Dormouse.<br/>He is always celebrating “tea-time” because time has stopped for him as a result of an argument the Hatter had with Time.<br/>He takes part in riddles, nonsensical conversations, and interruptions, frustrating Alice with his lack of logic.<br/>
                 <br/>He is named Haigha in the second book.</text>
+        </text-prop>
+        <text-prop name=":hasDescriptionAlternative">
+            <text encoding="xml">The Real-Time Processor is a jittery, fast-talking figure who sprints through the labyrinth of metadata and temporality. Eternally caught in the now, he’s the personification of immediacy — always present, always processing, never pausing.<br/>
+                <br/>Due to a fateful disagreement with The Archival Madcap (a close cousin of the Clockmaker), The Real-Time Processor exists in a perpetual loop of “just now.” He can’t look back, won’t look forward — only now matters. He filters streams of queries, snatches fresh data before it cools, and insists that everyone else live as he does: in the fleeting moment of absolute relevance.<br/>
+                <br/>He joins every conversation without being invited, offering cryptic metrics and spontaneous insights that are half brilliant, half baffling. Much like his former self in Wonderland, his tea-time has been replaced by tick-time — a frenzy of milliseconds, pings, and push updates.<br/>
+                <br/>Often seen arguing with Batch Job (a sleepy, lumbering bureaucrat), The Real-Time Processor believes in motion over meditation, precision over perspective, and speed over everything else. Alice finds him maddening. The Archivists admire him. The Searcher sometimes wishes he’d just take a nap.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_007</text>
@@ -8793,6 +8808,10 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_006</resptr>
+            <resptr>CH_017</resptr>
+        </resptr-prop>
     </resource>
     <resource label="White Rabbit looking at his watch" id="I_002" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book1.jpg</bitstream>
@@ -8820,6 +8839,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_002</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice finding a little door" id="I_003" restype=":Image">
@@ -8849,6 +8871,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice holding the &quot;Drink Me&quot; bottle" id="I_004" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book3.jpg</bitstream>
@@ -8876,6 +8901,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice growing taller" id="I_005" restype=":Image">
@@ -8905,6 +8933,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="White Rabbit skurrying away from Alice" id="I_006" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book5.jpg</bitstream>
@@ -8932,6 +8963,10 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_002</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice swimming in the Pool of tears" id="I_007" restype=":Image">
@@ -8961,6 +8996,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice and the Mouse swimming in the Pool of tears" id="I_008" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book7.jpg</bitstream>
@@ -8988,6 +9026,10 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_014</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice accepting a thimble from Dodo" id="I_009" restype=":Image">
@@ -9017,6 +9059,10 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_015</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Mouse telling its tale to Alice and creatures" id="I_010" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book9.jpg</bitstream>
@@ -9044,6 +9090,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_014</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice outgrowing White Rabbit's house" id="I_011" restype=":Image">
@@ -9073,6 +9122,10 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_002</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice's hand reaching for White Rabbit" id="I_012" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book11.jpg</bitstream>
@@ -9100,6 +9153,10 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_002</resptr>
         </resptr-prop>
     </resource>
     <resource label="Bill the lizzard rocketting out of the chimney" id="I_013" restype=":Image">
@@ -9129,6 +9186,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_027</resptr>
+        </resptr-prop>
     </resource>
     <resource label="The puppy looking at Alice" id="I_014" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book13.jpg</bitstream>
@@ -9156,6 +9216,10 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_028</resptr>
         </resptr-prop>
     </resource>
     <resource label="Caterpillar questionning Alice" id="I_015" restype=":Image">
@@ -9185,6 +9249,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_003</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Father William standing on his head" id="I_016" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book15.jpg</bitstream>
@@ -9212,6 +9279,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_038</resptr>
         </resptr-prop>
     </resource>
     <resource label="Father William turning a back-sommersault" id="I_017" restype=":Image">
@@ -9241,6 +9311,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_038</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Father William sitting at a table" id="I_018" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book17.jpg</bitstream>
@@ -9268,6 +9341,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_038</resptr>
         </resptr-prop>
     </resource>
     <resource label="Father William balancing an eel" id="I_019" restype=":Image">
@@ -9297,6 +9373,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_038</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Frog-Footman and Fish-Footman holding an invitation" id="I_020" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book19.jpg</bitstream>
@@ -9324,6 +9403,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_030</resptr>
         </resptr-prop>
     </resource>
     <resource label="Dutchess nursing the baby" id="I_021" restype=":Image">
@@ -9353,6 +9435,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_008</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice holding the pig baby" id="I_022" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book21.jpg</bitstream>
@@ -9380,6 +9465,10 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_032</resptr>
         </resptr-prop>
     </resource>
     <resource label="Cheshire-Cat grinning at Alice" id="I_023" restype=":Image">
@@ -9409,6 +9498,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_005</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Cheshire-Cat disappearing" id="I_024" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book23.jpg</bitstream>
@@ -9436,6 +9528,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_005</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice sitting at a mad tea-party" id="I_025" restype=":Image">
@@ -9465,6 +9560,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Hatter singing" id="I_026" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book25.jpg</bitstream>
@@ -9492,6 +9590,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_004</resptr>
         </resptr-prop>
     </resource>
     <resource label="Dormouse being put in a teapot" id="I_027" restype=":Image">
@@ -9521,6 +9622,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_018</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Card-gardeners painting roses" id="I_028" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book27.jpg</bitstream>
@@ -9548,6 +9652,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_035</resptr>
         </resptr-prop>
     </resource>
     <resource label="Queen of Hearts pointing at Alice" id="I_029" restype=":Image">
@@ -9577,6 +9684,10 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_006</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice holding her Flamingo" id="I_030" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book29.jpg</bitstream>
@@ -9604,6 +9715,10 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_036</resptr>
         </resptr-prop>
     </resource>
     <resource label="Executioners and crowd collecting round Cheshire-Cat" id="I_031" restype=":Image">
@@ -9633,6 +9748,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_005</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice and Duchess walking" id="I_032" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book31.jpg</bitstream>
@@ -9660,6 +9778,10 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_008</resptr>
         </resptr-prop>
     </resource>
     <resource label="Gryphon sleeping" id="I_033" restype=":Image">
@@ -9689,6 +9811,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_010</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Mock Turtle telling his story to Gryphon and Alice" id="I_034" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book33.jpg</bitstream>
@@ -9716,6 +9841,11 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_009</resptr>
+            <resptr>CH_010</resptr>
         </resptr-prop>
     </resource>
     <resource label="Mock Turtle and Gryphon dancing round Alice" id="I_035" restype=":Image">
@@ -9745,6 +9875,11 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_009</resptr>
+            <resptr>CH_010</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Lobster turning out his toes " id="I_036" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book35.jpg</bitstream>
@@ -9772,6 +9907,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_039</resptr>
         </resptr-prop>
     </resource>
     <resource label="White Rabbit as herald blowing a trumpet" id="I_037" restype=":Image">
@@ -9801,6 +9939,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_002</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Hatter shaking off his shoes" id="I_038" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book37.jpg</bitstream>
@@ -9828,6 +9969,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_004</resptr>
         </resptr-prop>
     </resource>
     <resource label="Hatter running" id="I_039" restype=":Image">
@@ -9857,6 +10001,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_004</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice tipping over the jury-box" id="I_040" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book39.jpg</bitstream>
@@ -9885,6 +10032,9 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="King of Hearts pointing to the tarts in court" id="I_041" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book40.jpg</bitstream>
@@ -9912,6 +10062,9 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_017</resptr>
         </resptr-prop>
     </resource>
     <resource label="Cards flying down upon Alice" id="I_042" restype=":Image">
@@ -9943,7 +10096,7 @@
         </resptr-prop>
     </resource>
     <resource label="White knight riding his horse" id="I_043" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book0.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book0.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9969,9 +10122,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_013</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Black kitten playing" id="I_044" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book1.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book1.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -9997,9 +10153,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_040</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice winding worsted in an arm-chair" id="I_045" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book2.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book2.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10025,9 +10184,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice going through the looking-glass" id="I_046" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book3.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book3.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10053,9 +10215,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice coming through the looking-glass" id="I_047" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book4.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book4.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10081,9 +10246,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Chessmen walking" id="I_048" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book5.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book5.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10109,9 +10277,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_041</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice picking up White King" id="I_049" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book6.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book6.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10137,9 +10308,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_042</resptr>
+        </resptr-prop>
     </resource>
     <resource label="The White Knight sliding down a poker" id="I_050" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book7.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book7.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10165,9 +10340,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_013</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Jabberwork" id="I_051" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book8.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book8.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10193,9 +10371,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_026</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Tiger-Lily and Alice talking" id="I_052" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book9.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book9.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10221,9 +10402,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_043</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice and Red Queen talking" id="I_053" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book10.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book10.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10249,9 +10434,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_011</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Chessboard-like country" id="I_054" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book11.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book11.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10279,7 +10468,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice and Red Queen running" id="I_055" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book12.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book12.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10305,9 +10494,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_011</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice sittin in a train carriage" id="I_056" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book13.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book13.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10333,9 +10526,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Rocking-horse-fly" id="I_057" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book14.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book14.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10363,7 +10559,7 @@
         </resptr-prop>
     </resource>
     <resource label="Snap-dragon-fly" id="I_058" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book15.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book15.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10391,7 +10587,7 @@
         </resptr-prop>
     </resource>
     <resource label="Bread-and-butter-fly" id="I_059" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book16.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book16.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10419,7 +10615,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice clasping her arms round Fawn" id="I_060" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book17.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book17.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10445,9 +10641,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice calling on Tweedledum and Tweeldee" id="I_061" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book18.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book18.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10473,9 +10672,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_044</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Walrus and Carpenter walking" id="I_062" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book19.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book19.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10501,9 +10704,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_045</resptr>
+            <resptr>CH_046</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Walrus and Carpenter resting" id="I_063" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book20.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book20.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10529,9 +10736,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_045</resptr>
+            <resptr>CH_046</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Walrus and Carpenter eating" id="I_064" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book21.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book21.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10557,9 +10768,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_045</resptr>
+            <resptr>CH_046</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Red King snoring" id="I_065" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book22.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book22.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10585,9 +10800,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_047</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Tweedledum crying in a fury" id="I_066" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book23.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book23.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10613,9 +10831,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_044</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" id="I_067" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book24.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book24.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10641,9 +10862,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_044</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice adressing White Queen" id="I_068" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book25.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book25.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10669,9 +10893,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_049</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Hatta sitting in prison" id="I_069" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book26.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book26.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10697,9 +10925,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_004</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice leaning on counter in Sheep's shop" id="I_070" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book27.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book27.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10725,9 +10956,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice rowing a boat" id="I_071" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book28.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book28.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10753,9 +10987,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Humpty Dumpty offering Alice his hand" id="I_072" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book29.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book29.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10781,9 +11018,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_012</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Jabberwocky creatures" id="I_073" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book30.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book30.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10811,7 +11052,7 @@
         </resptr-prop>
     </resource>
     <resource label="Humpty Dumpty sending a message" id="I_074" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book31.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book31.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10837,9 +11078,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_012</resptr>
+        </resptr-prop>
     </resource>
     <resource label="White King soldiers and horses stumbling" id="I_075" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book32.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book32.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10867,7 +11111,7 @@
         </resptr-prop>
     </resource>
     <resource label="Haigha handing a ham sandwich to the White King" id="I_076" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book33.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book33.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10893,9 +11137,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_007</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Hatta drinking tea" id="I_077" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book34.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book34.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10921,9 +11168,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_004</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice holding a plum cake" id="I_078" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book35.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book35.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10949,9 +11199,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice putting her hands over her ears" id="I_079" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book36.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book36.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10977,9 +11230,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Red Knight and White Knight fighting" id="I_080" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book37.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book37.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11005,9 +11261,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_013</resptr>
+            <resptr>CH_048</resptr>
+        </resptr-prop>
     </resource>
     <resource label="White Knight falling off his horse" id="I_081" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book38.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book38.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11033,9 +11293,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_013</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice dragging White Knight out off a ditch" id="I_082" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book39.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book39.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11061,9 +11324,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_013</resptr>
+        </resptr-prop>
     </resource>
     <resource label="White Knight shaking an aged man" id="I_083" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book40.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book40.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11089,9 +11356,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_013</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice lifting off a golden crown" id="I_084" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book41.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book41.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11117,9 +11387,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Red Queen and White Queen sitting with Alice" id="I_085" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book42.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book42.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11145,9 +11418,14 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_011</resptr>
+            <resptr>CH_049</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Red Queen and White Queen sleeping on Alice" id="I_086" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book43.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book43.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11173,9 +11451,14 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_011</resptr>
+            <resptr>CH_049</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice and Frog standing before a door" id="I_087" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book44.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book44.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11201,9 +11484,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_030</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Mutton making a little bow" id="I_088" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book45.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book45.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11231,7 +11518,7 @@
         </resptr-prop>
     </resource>
     <resource label="Alice pulling a table cloth" id="I_089" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book46.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book46.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11257,9 +11544,12 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice shaking Red Queen" id="I_090" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book47.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book47.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11285,9 +11575,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_011</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice shaking Kitty" id="I_091" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book48.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book48.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11313,9 +11607,13 @@
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
         </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_040</resptr>
+        </resptr-prop>
     </resource>
     <resource label="Alice looking over her shoulder at White Kitten" id="I_092" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book49.jpg</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book49.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -11340,6 +11638,10 @@
         </integer-prop>
         <resptr-prop name=":isPartOfBook">
             <resptr>BK_002</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_050</resptr>
         </resptr-prop>
     </resource>
     <resource label="Riverbank" id="L_001" restype=":LocationRealWorld">
@@ -12820,4 +13122,35 @@
             <list>LIC_002</list>
         </list-prop>
     </resource>
+    <link label="DaSCHland_Madness" id="link_object_01">
+        <text-prop name="hasComment">
+            <text comment="We're all mad here!" encoding="xml">It's all about madness</text>
+        </text-prop>
+        <resptr-prop name="hasLinkTo">
+            <resptr>BCH_003</resptr>
+            <resptr>BCH_005</resptr>
+            <resptr>BCH_006</resptr>
+            <resptr>BCH_007</resptr>
+            <resptr>BCH_008</resptr>
+            <resptr>BCH_009</resptr>
+            <resptr>BCH_010</resptr>
+            <resptr>BCH_011</resptr>
+            <resptr>BCH_012</resptr>
+            <resptr>BCH_013</resptr>
+            <resptr>BCH_019</resptr>
+            <resptr>BCH_020</resptr>
+            <resptr>BCH_021</resptr>
+            <resptr>BCH_022</resptr>
+            <resptr>BCH_023</resptr>
+            <resptr>BCH_024</resptr>
+            <resptr>BCH_025</resptr>
+            <resptr>CH_004</resptr>
+            <resptr>CH_005</resptr>
+            <resptr>CH_006</resptr>
+            <resptr>CH_007</resptr>
+            <resptr>CH_008</resptr>
+            <resptr>CH_011</resptr>
+            <resptr>CH_018</resptr>
+        </resptr-prop>
+    </link>
 </knora>
