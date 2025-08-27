@@ -1,6 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import ListLookup, Resource
-from dsp_tools.xmllib.helpers import create_footnote_string, create_list_from_input
+from dsp_tools.xmllib import ListLookup, Resource, create_footnote_string, create_list_from_input
 
 from src.helpers.cleaning_df_tools import create_list
 from src.helpers.helper import select_footnote_text
