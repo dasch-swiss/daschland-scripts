@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import ListLookup, Permissions, Resource, create_list_from_input
+from dsp_tools.xmllib import ListLookup, Resource, create_list_from_input
 
 from src.helpers.cleaning_df_tools import create_list
 from src.helpers.helper import make_cols_mapping_with_columns
@@ -28,8 +28,6 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in book_chapter_df.iterrows():
         # define variables
-        permissions = Permissions.PRIVATE
-
         keywords_names_raw = create_list(row["Keyword"])
         keyword_names = [
             list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw
@@ -54,16 +52,8 @@ def main() -> list[Resource]:
         # add properties to resource
         resource.add_simpletext(":hasID", row["ID"])
         resource.add_simpletext(":hasName", row["Name"])
-        resource.add_richtext(
-            prop_name=":hasDescription",
-            value=row["Description"],
-            comment=row["Comment"],
-        )
-        resource.add_richtext(
-            prop_name=":hasDescriptionAlternative",
-            value=row["Alternative Description"],
-            permissions=permissions,
-        )
+        resource.add_richtext(prop_name=":hasDescription", value=row["Description"], comment=row["Comment"])
+        resource.add_richtext(prop_name=":hasDescriptionAlternative", value=row["Alternative Description"])
         resource.add_integer_optional(":hasChapterNumber", row["Chapter Number"])
         resource.add_uri_optional(":hasUrl", row["URL"])
         resource.add_richtext(":hasFullText", row["Full Text"])

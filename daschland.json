@@ -1616,6 +1616,28 @@
                         "gui_element": "Searchbox"
                     },
                     {
+                        "name": "isPartOfCharacter",
+                        "super": [
+                            "isPartOf",
+                            "schema:isPartOf",
+                            "crm:P5i_forms_part_of"
+                        ],
+                        "object": ":Character",
+                        "labels": {
+                            "en": "Character(s) on the image",
+                            "de": "Charakter(e) auf dem Bild",
+                            "fr": "Personnage(s) sur l'image",
+                            "it": "Personaggio/i nell'immagine"
+                        },
+                        "comments": {
+                            "en": "Character(s) on the image",
+                            "de": "Charakter(e) auf dem Bild",
+                            "fr": "Personnage(s) sur l'image",
+                            "it": "Personaggio/i nell'immagine"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
                         "name": "linkToAudio",
                         "super": [
                             "hasLinkTo",
@@ -2521,11 +2543,6 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 7
-                            },
-                            {
                                 "propname": ":hasFileName",
                                 "cardinality": "0-1",
                                 "gui_order": 1
@@ -2553,22 +2570,32 @@
                             {
                                 "propname": ":hasSeqnum",
                                 "cardinality": "0-1",
-                                "gui_order": 6
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 8
                             },
                             {
                                 "propname": ":hasAuthorshipResource",
                                 "cardinality": "0-n",
-                                "gui_order": 8
+                                "gui_order": 9
                             },
                             {
                                 "propname": ":hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 9
+                                "gui_order": 10
                             },
                             {
                                 "propname": ":hasLicenseResource",
                                 "cardinality": "0-1",
-                                "gui_order": 10
+                                "gui_order": 11
+                            },
+                            {
+                                "propname": ":isPartOfCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 6
                             }
                         ]
                     },
