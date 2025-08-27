@@ -23,9 +23,8 @@ jobs:
         run: uv sync --all-extras --dev
       - name: Upgrade DSP-TOOLS
         run: uv add --upgrade dsp-tools
-      - uses: AnimMouse/setup-ffmpeg@v1
-        with:
-          version: 8.0 # pin this, so that we always profit from the cache
+      - name: Setup FFmpeg
+        run: sudo apt update && sudo apt install -y ffmpeg
       - name: Generate dummy MP4 with ffmpeg
         run: |
           rm data/multimedia/video/VID_AliceInWonderland_1915.mp4  # remove the pointer file (small text file)
