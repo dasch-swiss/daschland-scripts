@@ -958,7 +958,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_038</list>
             <list>K_041</list>
@@ -1200,7 +1199,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_038</list>
             <list>K_041</list>
@@ -2488,9 +2486,6 @@
         <text-prop name=":hasID">
             <text encoding="utf8">BCH_014</text>
         </text-prop>
-        <list-prop name=":hasKeywordList" list="Keyword">
-            <list>K_010</list>
-        </list-prop>
         <list-prop name=":hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
@@ -2577,7 +2572,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_036</list>
             <list>K_037</list>
@@ -2680,7 +2674,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_038</list>
             <list>K_041</list>
@@ -4113,7 +4106,6 @@
             <list>K_014</list>
             <list>K_015</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
         </list-prop>
         <list-prop name=":hasLicenseResource" list="License">
@@ -4221,7 +4213,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_042</list>
             <list>K_051</list>
@@ -13117,4 +13108,35 @@
             <list>LIC_002</list>
         </list-prop>
     </resource>
+    <link label="DaSCHland_Madness" id="link_object_01">
+        <text-prop name="hasComment">
+            <text comment="We're all mad here!" encoding="xml">It's all about madness</text>
+        </text-prop>
+        <resptr-prop name="hasLinkTo">
+            <resptr>BCH_003</resptr>
+            <resptr>BCH_005</resptr>
+            <resptr>BCH_006</resptr>
+            <resptr>BCH_007</resptr>
+            <resptr>BCH_008</resptr>
+            <resptr>BCH_009</resptr>
+            <resptr>BCH_010</resptr>
+            <resptr>BCH_011</resptr>
+            <resptr>BCH_012</resptr>
+            <resptr>BCH_013</resptr>
+            <resptr>BCH_019</resptr>
+            <resptr>BCH_020</resptr>
+            <resptr>BCH_021</resptr>
+            <resptr>BCH_022</resptr>
+            <resptr>BCH_023</resptr>
+            <resptr>BCH_024</resptr>
+            <resptr>BCH_025</resptr>
+            <resptr>CH_004</resptr>
+            <resptr>CH_005</resptr>
+            <resptr>CH_006</resptr>
+            <resptr>CH_007</resptr>
+            <resptr>CH_008</resptr>
+            <resptr>CH_011</resptr>
+            <resptr>CH_018</resptr>
+        </resptr-prop>
+    </link>
 </knora>
