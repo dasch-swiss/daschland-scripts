@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
-    <permissions id="public">
-        <allow group="UnknownUser">V</allow>
-        <allow group="KnownUser">V</allow>
-        <allow group="ProjectMember">D</allow>
-        <allow group="ProjectAdmin">CR</allow>
-    </permissions>
-    <permissions id="private">
-        <allow group="ProjectMember">D</allow>
-        <allow group="ProjectAdmin">CR</allow>
-    </permissions>
-    <permissions id="limited_view">
-        <allow group="UnknownUser">RV</allow>
-        <allow group="KnownUser">RV</allow>
-        <allow group="ProjectMember">D</allow>
-        <allow group="ProjectAdmin">CR</allow>
-    </permissions>
     <authorship id="authorship_1">
         <author>Arielle Lipshaw (Editor)</author>
         <author>Elizabeth Klett (Meta Coordinator &amp; Editor)</author>
@@ -853,7 +837,7 @@
             <text comment="The poem has no chapter number because it does not belong to the story itself. It was placed in the first Edition at the beginning of the Adventures of Alice in Wonderland. " encoding="xml">The poem "All in the Golden Afternoon" serves as a prologue to Lewis Carroll's "Alice's Adventures in Wonderland." <br/>It captures the whimsical and nostalgic essence of a summer's day spent boating on the river Thames with three young sisters. <br/>Carroll, personified as the "idle" storyteller, is coaxed into recounting a fantastical tale to amuse his companions. <br/>The narrative weaves together the enchanting atmosphere of the golden afternoon with the playful, imaginative spirit of the story to come. <br/>Through this prelude, Carroll sets the stage for the ensuing adventures in Wonderland, blending reality and fantasy in a harmonious and enchanting preamble.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">The poem "All in the Golden Afternoon" acts as a prelude to the journey through Alice's exploration of the digital realm in Alice in DaSCHland. <br/>It mirrors the transition from a peaceful, analog world into the bustling, ever-evolving stream of data and information. <br/>Just as a calm afternoon on the river evolves into a whimsical adventure, the poem captures the shift from reality to a space where algorithms and metadata weave together stories of their own. <br/>Through this introduction, the poem sets the stage for Alice's adventures in the digital landscape, blending the familiar with the fantastical in a seamless prelude.</text>
+            <text encoding="xml">The poem "All in the Golden Afternoon" acts as a prelude to the journey through Alice's exploration of the digital realm in Alice in DaSCHland. <br/>It mirrors the transition from a peaceful, analog world into the bustling, ever-evolving stream of data and information. <br/>Just as a calm afternoon on the river evolves into a whimsical adventure, the poem captures the shift from reality to a space where algorithms and metadata weave together stories of their own. <br/>Through this introduction, the poem sets the stage for Alice's adventures in the digital landscape, blending the familiar with the fantastical in a seamless prelude.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">ALL in the golden afternoon<br/>Full leisurely we glide;<br/>For both our oars, with little skill,<br/>By little arms are plied,<br/>While little hands make vain pretence<br/>Our wanderings to guide.<br/>
@@ -903,7 +887,7 @@
             <text encoding="xml">Alice is sitting with her sister on the riverbank when, out of the blue, a White Rabbit appears. He is wearing a waistcoat and is busy taking a watch out of it, muttering to himself, 'Oh dear! Oh dear! I shall be late!'.<br/>Alice can't help but feel intrigued, and follows him down his rabbit-hole.The rabbit-hole suddenly goes straight down, and Alice falls into it. She falls very slowly, and while she is talking to herself, she falls asleep. But then, out of the blue, she lands on a heap of sticks and dry leaves, and the fall is over.She sees the White Rabbit running in front of her through a long passage, and she just has to follow him.When she turns the corner, the Rabbit is gone, and Alice finds herself in a long, low hall with doors all around it.She tries them, but they are all locked.Then she comes upon a little three-legged table on which a little golden key lies. The key fits in a little door behind a curtain, and when she opens it, she is delighted to see that it leads into a small passage.At the end of the passage, Alice sees a beautiful garden she really wants to get into, but she is too big to fit through the door.When she goes back to the table, she finds a little bottle on it with the words 'Drink me' printed on the label.Alice drinks from it and starts shrinking until she is only ten inches high. She's finally got the right size to fit through the door, but it's still locked! She's left the little golden key on the table, but it's too high to reach.<br/>She starts crying, but then she sees a small glass box under the table. On the box is a cake with the words 'Eat me' written on it. She hopes that eating the cake will make her grow or shrink too, so she eats it.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">Alice was not your ordinary girl; she had a keen sense of adventure and a bright, inquisitive mind. <br/>One sunny afternoon, while wandering near the edge of her town, she stumbled upon a peculiar rabbit hole, shimmering with an array of colors that hinted at something magical beyond the ordinary.</text>
+            <text encoding="xml">Alice was not your ordinary girl; she had a keen sense of adventure and a bright, inquisitive mind. <br/>One sunny afternoon, while wandering near the edge of her town, she stumbled upon a peculiar rabbit hole, shimmering with an array of colors that hinted at something magical beyond the ordinary.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversations?”<br/>
@@ -1004,7 +988,7 @@
             <text encoding="xml">Alice grows and grows until she's as big as the ceiling.Now she can get the key from the table, but she's too big to fit through the door, so she cries and makes a big puddle on the floor.The White Rabbit comes back, looking really nice and carrying a pair of white kid gloves and a big fan. Alice asks the rabbit for help, but the rabbit is so scared that he drops the gloves and fan and runs away.Alice picks them up and starts fanning herself while she wonders what has made this day so different from every other.She decides that she must have been changed into another girl in the night, as she can't remember her multiplication tables or geography correctly and isn't able to recite a poem properly.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">Compelled by her adventurous spirit, Alice leaned in closer to examine the hole. Suddenly, she found herself tumbling down into an extraordinary place called DaSCHland. <br/>This wasn't just any wonderland; it was a world powered by the innovative company DaSCH, known for its remarkable technology and whimsical inventions, and importantly, as a repository for research data in the humanities.</text>
+            <text encoding="xml">Compelled by her adventurous spirit, Alice leaned in closer to examine the hole. Suddenly, she found herself tumbling down into an extraordinary place called DaSCHland. <br/>This wasn't just any wonderland; it was a world powered by the innovative company DaSCH, known for its remarkable technology and whimsical inventions, and importantly, as a repository for research data in the humanities.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">“Curiouser and curiouser!” cried Alice (she was so much surprised, that for the moment she quite forgot how to speak good English); “now I’m opening out like the largest telescope that ever was! Good-bye, feet!” (for when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off). “Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure I shan’t be able! I shall be a great deal too far off to trouble myself about you: you must manage the best way you can;—but I must be kind to them,” thought Alice, “or perhaps they won’t walk the way I want to go! Let me see: I’ll give them a new pair of boots every Christmas.”<br/>
@@ -1089,7 +1073,7 @@
             <text encoding="xml">to be completed</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">As Alice landed softly on a bed of clouds, she was greeted by a talking robot named RabbIT. <br/>RabbIT, with its glowing red eyes and sleek silver body, was unlike any creature Alice had ever seen. <br/>"Welcome to DaSCHland," it beeped warmly. "Here, our dreams become realities, and our curiosities fuel our creations."</text>
+            <text encoding="xml">As Alice landed softly on a bed of clouds, she was greeted by a talking robot named RabbIT. <br/>RabbIT, with its glowing red eyes and sleek silver body, was unlike any creature Alice had ever seen. <br/>"Welcome to DaSCHland," it beeped warmly. "Here, our dreams become realities, and our curiosities fuel our creations."</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable.<br/>
@@ -1240,7 +1224,7 @@
             <text encoding="xml">The fanning makes her shrink again until she's only two feet tall.She tries to get in, but the door's still locked and the key's still lying on the table.Then she slips and falls into her own pool of tears.She meets a mouse who fell in too, but she scares him when she starts talking about her cat Dinah and a dog. He says he'll tell her why he hates cats and dogs, and they swim to the shore, taking other creatures that fell into the pool with them.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">Eager to explore, Alice followed RabbIT through a landscape where trees had digital screens for leaves displaying fantastical images and data streamed across the sky like shooting stars. <br/>They passed houses that changed shape and color at the occupants' whims and gardens where flowers sang melodies in harmony.</text>
+            <text encoding="xml">Eager to explore, Alice followed RabbIT through a landscape where trees had digital screens for leaves displaying fantastical images and data streamed across the sky like shooting stars. <br/>They passed houses that changed shape and color at the occupants' whims and gardens where flowers sang melodies in harmony.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where can I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.<br/>
@@ -1338,7 +1322,7 @@
             <text encoding="xml">Alice meets a Caterpillar who gives her cryptic advice and a mushroom that can change her size. Alice experiments with the mushroom and adjusts her size.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">Their first stop was the Tea Time Café, where a Mad Hatter, an eccentric inventor in DaSCHland, served tea that could make one shrink or grow. <br/>Alice sipped a cup marked "Grow" and instantly stretched taller than the trees. Amused and a bit startled, she laughed, marveling at the wonders of DaSCHland.</text>
+            <text encoding="xml">Their first stop was the Tea Time Café, where a Mad Hatter, an eccentric inventor in DaSCHland, served tea that could make one shrink or grow. <br/>Alice sipped a cup marked "Grow" and instantly stretched taller than the trees. Amused and a bit startled, she laughed, marveling at the wonders of DaSCHland.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">he Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.<br/>
@@ -1477,7 +1461,7 @@
             <text encoding="xml">Alice visits the Duchess's house, where she encounters a chaotic scene involving the Duchess, a baby that turns into a pig, and the grinning Cheshire Cat, who tells her about the Mad Hatter and the March Hare.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">Next, they visited the Queen of Hearts, who was not a queen of cards but a brilliant engineer leading the Hearts Division, specializing in creating technologies that connected emotions with devices. <br/>The Queen showed Alice a mirror that didn't just reflect one's image but also displayed one’s innermost feelings and thoughts.</text>
+            <text encoding="xml">Next, they visited the Queen of Hearts, who was not a queen of cards but a brilliant engineer leading the Hearts Division, specializing in creating technologies that connected emotions with devices. <br/>The Queen showed Alice a mirror that didn't just reflect one's image but also displayed one’s innermost feelings and thoughts.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles. It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads. She felt very curious to know what it was all about, and crept a little way out of the wood to listen.<br/>
@@ -1623,7 +1607,7 @@
             <text encoding="xml">Alice attends a nonsensical tea party with the Mad Hatter, the March Hare, and the Dormouse. <br/>The characters engage in illogical conversations and absurd behavior, frustrating Alice.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">As the day turned to dusk, RabbIT led Alice to the Grand Library, a vast, spiraling tower filled with books that whispered their stories aloud, eager to be heard. <br/>Here, Alice learned the history of DaSCHland, how it was built by dreamers and thinkers, innovators and creators, all powered by the visionary company DaSCH, dedicated to bringing humanities data to life.</text>
+            <text encoding="xml">As the day turned to dusk, RabbIT led Alice to the Grand Library, a vast, spiraling tower filled with books that whispered their stories aloud, eager to be heard. <br/>Here, Alice learned the history of DaSCHland, how it was built by dreamers and thinkers, innovators and creators, all powered by the visionary company DaSCH, dedicated to bringing humanities data to life.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head. “Very uncomfortable for the Dormouse,” thought Alice; “only, as it’s asleep, I suppose it doesn’t mind.”<br/>
@@ -1785,7 +1769,7 @@
             <text encoding="xml">Alice enters the Queen's garden and witnesses the playing cards painting white roses red. <br/>She meets the Queen of Hearts, who invites her to play a bizarre game of croquet with flamingos and hedgehogs.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">But soon, the sky darkened, and a soft voice whispered that it was time for Alice to return to her world. Reluctantly, Alice followed RabbIT back to the rabbit hole. <br/>"You must return, but remember that DaSCHland is always here, waiting for your return. Keep dreaming and wondering," RabbIT said as Alice climbed out of the hole.</text>
+            <text encoding="xml">But soon, the sky darkened, and a soft voice whispered that it was time for Alice to return to her world. Reluctantly, Alice followed RabbIT back to the rabbit hole. <br/>"You must return, but remember that DaSCHland is always here, waiting for your return. Keep dreaming and wondering," RabbIT said as Alice climbed out of the hole.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red. Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them she heard one of them say, “Look out now, Five! Don’t go splashing paint over me like that!”<br/>
@@ -1915,7 +1899,7 @@
             <text encoding="xml">The Queen orders Alice to visit the Mock Turtle. Accompanied by the Gryphon, Alice listens to the Mock Turtle's sad story and learns the Lobster Quadrille dance.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In a room lit by a soft, ocean-like glow, Alice stood with RabbitIT, her robotic guide in Daschland. <br/>They activated a hologram of the Mock Turtle, brought to life by DaSCH, a vast repository of historical data. <br/>The Turtle shared his tale of an underwater school, his voice echoing in the simulated sea, with subjects like Reeling, Writhing, and humorous Arithmetic courses—Ambition, Distraction, Uglification, and Derision.<br/>
+            <text encoding="xml">In a room lit by a soft, ocean-like glow, Alice stood with RabbitIT, her robotic guide in Daschland. <br/>They activated a hologram of the Mock Turtle, brought to life by DaSCH, a vast repository of historical data. <br/>The Turtle shared his tale of an underwater school, his voice echoing in the simulated sea, with subjects like Reeling, Writhing, and humorous Arithmetic courses—Ambition, Distraction, Uglification, and Derision.<br/>
                 <br/>As the Turtle recounted the Lobster Quadrille, the room transformed, and holographic lobsters danced around them. <br/>RabbitIT explained the dance steps, integrating knowledge from DaSCH’s archives. Alice joined in, laughing and learning through the dance.<br/>
                 <br/>When the music ceased, the Turtle’s tone turned melancholic as he reminisced about his past, now preserved in digital form. <br/>Alice, touched by the narrative and the blend of reality and data, thanked the Turtle. With a final look at the fading hologram, she and RabbitIT left, Alice pondering the poignant intersection of technology and tradition.</text>
         </text-prop>
@@ -2071,7 +2055,7 @@
             <text encoding="xml">The Mock Turtle and the Gryphon perform the Lobster Quadrille dance. <br/>Alice is asked to recite a poem but instead recites a nonsensical version of "Father William."</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, Alice and her robotic guide RabbitIT, ventured to a digital beach, orchestrated by the DaSCH repository, to learn about the "Lobster Quadrille." RabbitIT activated a holographic display, where sea creatures performed the intricate dance, synchronized perfectly through the archive's historical data.<br/>
+            <text encoding="xml">In DaSCHland, Alice and her robotic guide RabbitIT, ventured to a digital beach, orchestrated by the DaSCH repository, to learn about the "Lobster Quadrille." RabbitIT activated a holographic display, where sea creatures performed the intricate dance, synchronized perfectly through the archive's historical data.<br/>
                 <br/>RabbitIT encouraged Alice to join the dance using a virtual interface. As she mimicked the steps, her initial clumsiness turned into delight, guided by the precise, educational commentary from RabbitIT. They danced together among holographic lobsters and turtles, with Alice laughing joyfully.<br/>
                 <br/>As the dance concluded, Alice clapped her hands, overwhelmed by the digital spectacle. "It's the most curious thing I ever saw in my life!" she exclaimed, appreciating how DaSCH and RabbitIT vividly brought the whimsical Lobster Quadrille to life.</text>
         </text-prop>
@@ -2209,7 +2193,7 @@
             <text encoding="xml">Alice attends a trial where the Knave of Hearts is accused of stealing the Queen's tarts. <br/>The proceedings are absurd, with nonsensical evidence and witnesses.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, Alice and her guide RabbitIT entered a virtual courtroom where the Knave of Hearts was on trial for stealing tarts, all recreated through the DaSCH repository. The courtroom, filled with holographic characters from classic tales, buzzed with the drama of the King and Queen of Hearts presiding over the proceedings.<br/>
+            <text encoding="xml">In DaSCHland, Alice and her guide RabbitIT entered a virtual courtroom where the Knave of Hearts was on trial for stealing tarts, all recreated through the DaSCH repository. The courtroom, filled with holographic characters from classic tales, buzzed with the drama of the King and Queen of Hearts presiding over the proceedings.<br/>
                 <br/>As RabbitIT provided Alice with insights from the repository, the trial unfolded with whimsical and absurd testimonies, reflecting the story's original humor. Witnesses from the realm of Wonderland presented their often-irrelevant evidence, while RabbitIT helped Alice understand the peculiar legal proceedings.<br/>
                 <br/>The trial, filled with whimsy and legal quirks, captivated Alice. She marveled at the curious judicial system of Wonderland, expertly brought to life by DaSCH's digital archives. The chapter concluded with an unpredictable verdict, leaving Alice amused and thoughtful about the blend of reality and fantasy in DaSCHland's court.</text>
         </text-prop>
@@ -2339,7 +2323,7 @@
             <text encoding="xml">Alice is called as a witness in the trial. She grows larger and larger, challenges the absurdity of the court, and finally, wakes up to find herself back on the riverbank with her sister, realizing it was all a dream.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">Back in her world, the adventure seemed like a dream. <br/>Yet, in her pocket was a small, glowing stone, a token from DaSCHland. <br/>Alice smiled, knowing that her journey had been real and that she would one day return to the wondrous realm of DaSCHland, where dreams and the rich tapestry of humanities research were just the beginning.</text>
+            <text encoding="xml">Back in her world, the adventure seemed like a dream. <br/>Yet, in her pocket was a small, glowing stone, a token from DaSCHland. <br/>Alice smiled, knowing that her journey had been real and that she would one day return to the wondrous realm of DaSCHland, where dreams and the rich tapestry of humanities research were just the beginning.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">“Here!” cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before.<br/>
@@ -2477,7 +2461,7 @@
                 <br/>This inventive preface establishes a playful and strategic tone, blending logic with imagination, and setting the stage for Alice's adventures in the whimsical world beyond the looking glass.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">The "Dramatis Personae and Data Structure" section of Alice in DaSCHland introduces the key entities in the digital landscape and the unique framework of interrelated data points that shape the journey. Much like a play's cast list, this prelude presents Alice, the Red Node, the White Interface, and other critical components of the system. <br/>These elements hint at their roles within the structured but whimsical environment, where interactions follow the logic of an interconnected database. <br/>
+            <text encoding="xml">The "Dramatis Personae and Data Structure" section of Alice in DaSCHland introduces the key entities in the digital landscape and the unique framework of interrelated data points that shape the journey. Much like a play's cast list, this prelude presents Alice, the Red Node, the White Interface, and other critical components of the system. <br/>These elements hint at their roles within the structured but whimsical environment, where interactions follow the logic of an interconnected database. <br/>
                 <br/>The data structure itself reflects both the order and unpredictability Alice will encounter, setting a tone where logic, imagination, and algorithms combine to guide her through the intricate world of DaSCHland.</text>
         </text-prop>
         <text-prop name=":hasFullText">
@@ -2517,7 +2501,7 @@
                 <br/>He reflects on the success of "Alice's Adventures in Wonderland" and expresses gratitude for its warm reception. <br/>Carroll also provides insight into the creation of the sequel, sharing his intentions to craft another whimsical and imaginative tale that continues to captivate the hearts of both children and adults. <br/>This preface establishes a connection between the author and his audience, setting a tone of nostalgia and anticipation for the new adventures that await Alice in the looking-glass world. <br/>Through this preamble, Carroll invites readers to once again suspend disbelief and join Alice on her fantastical journey.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">The preface to Alice in DaSCHland serves as an introductory note, where the creators address their users directly. <br/>Reflecting on the success of the original Alice's Adventures in Data project, they express appreciation for the enthusiastic engagement from the community. <br/>This preface offers a glimpse into the development of the sequel, aiming to expand the digital landscape while maintaining the playful and imaginative elements that captivated users. <br/>The authors set a tone of nostalgia and curiosity, inviting users to explore new data-driven adventures in DaSCHland. <br/>
+            <text encoding="xml">The preface to Alice in DaSCHland serves as an introductory note, where the creators address their users directly. <br/>Reflecting on the success of the original Alice's Adventures in Data project, they express appreciation for the enthusiastic engagement from the community. <br/>This preface offers a glimpse into the development of the sequel, aiming to expand the digital landscape while maintaining the playful and imaginative elements that captivated users. <br/>The authors set a tone of nostalgia and curiosity, inviting users to explore new data-driven adventures in DaSCHland. <br/>
                 <br/>Through this introduction, readers are once again encouraged to delve into the imaginative fusion of digital exploration and storytelling.</text>
         </text-prop>
         <text-prop name=":hasFullText">
@@ -2557,7 +2541,7 @@
                 <br/>This dedicatory poem is an ode to Alice Liddell, the inspiration for Alice's character. <br/>Carroll reflects on the innocence and purity of childhood, capturing the essence of Alice's untainted, imaginative spirit. Through lyrical and affectionate verses, he immortalizes the charm of his muse and the enchantment of their shared adventures. <br/>This poem sets a nostalgic and tender tone for the sequel, bridging the real and fictional worlds, and inviting readers to embark on another whimsical journey with Alice.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">The poem "Child of the Pure Digital Stream" serves as a prologue to Alice in DaSCHland. <br/>
+            <text encoding="xml">The poem "Child of the Pure Digital Stream" serves as a prologue to Alice in DaSCHland. <br/>
                 <br/>This dedicatory piece is an ode to the users and developers who inspire Alice’s digital journey. <br/>The creators reflect on the purity and limitless potential of data, capturing the unbounded curiosity and imagination that drives the project's evolution. <br/>Through thoughtful and innovative verses, they immortalize the pioneering spirit of those who contributed to shaping the digital landscape. <br/>This poem sets a reflective and inspiring tone for the new chapter, merging the digital and creative worlds, and inviting users to join Alice on another groundbreaking exploration of data and discovery.</text>
         </text-prop>
         <text-prop name=":hasFullText">
@@ -2610,7 +2594,7 @@
             <text encoding="xml">Alice is playing with her kittens and wonders what it would be like to step through the mirror (looking-glass). <br/>She finds herself in the Looking-Glass House, where everything is reversed. She explores the house and encounters animated chess pieces.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, Alice, guided by her robotic companion RabbitIT, encountered a mirror in her virtual home. Unlike any ordinary mirror, this one served as a portal within the DaSCH system, leading to a reversed world.<br/>
+            <text encoding="xml">In DaSCHland, Alice, guided by her robotic companion RabbitIT, encountered a mirror in her virtual home. Unlike any ordinary mirror, this one served as a portal within the DaSCH system, leading to a reversed world.<br/>
                 <br/>As Alice stepped through, she found herself in an environment where everything was flipped—texts read backward, clocks ran counter, and even conversations followed reversed logic. RabbitIT, powered by DaSCH’s archives, provided insights and historical context, helping Alice navigate this topsy-turvy realm.<br/>
                 <br/>This chapter follows Alice as she explores and adapts to this mirrored world, relying on RabbitIT to make sense of the reversed dynamics. Her journey through the looking-glass reveals the complexities of this digital inversion, illustrating the capabilities of DaSCHland’s advanced technology.</text>
         </text-prop>
@@ -2717,7 +2701,7 @@
             <text encoding="xml">Alice leaves the house and enters a garden filled with talking flowers. <br/>She meets the Red Queen, who explains that the land is laid out like a giant chessboard. The Red Queen guides Alice on how she can become a queen by moving through the different squares of the chessboard.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, guided by RabbitIT, Alice entered a digital garden crafted by the DaSCH repository. Here, she encountered talking flowers, each with dialogues derived from literary texts. The flowers humorously critiqued Alice's appearance and engaged in light chatter about their existence as digital entities.<br/>
+            <text encoding="xml">In DaSCHland, guided by RabbitIT, Alice entered a digital garden crafted by the DaSCH repository. Here, she encountered talking flowers, each with dialogues derived from literary texts. The flowers humorously critiqued Alice's appearance and engaged in light chatter about their existence as digital entities.<br/>
                 <br/>RabbitIT assisted Alice by providing context and translations for the flowers' remarks, enriching her interaction. This chapter showcases Alice navigating a mix of playful criticism and conversation, illustrating the innovative integration of literature and technology in DaSCHland's virtual environment.</text>
         </text-prop>
         <text-prop name=":hasFullText">
@@ -2863,7 +2847,7 @@
             <text encoding="xml">Alice moves through the Woods where things have no names and meets a fawn. Both forget their identities while in the wood. <br/>Upon exiting the wood, the fawn realizes Alice is a human and runs away in fear.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the imaginative domain of DaSCHland, Alice, guided by RabbitIT, ventured into a section of the virtual world where the flora and fauna were inspired by the DaSCH repository's literary data on "Looking-Glass Insects." These insects, unlike any found in the natural world, exhibited peculiar behaviors and appearances, reminiscent of characters from a storybook.<br/>
+            <text encoding="xml">In the imaginative domain of DaSCHland, Alice, guided by RabbitIT, ventured into a section of the virtual world where the flora and fauna were inspired by the DaSCH repository's literary data on "Looking-Glass Insects." These insects, unlike any found in the natural world, exhibited peculiar behaviors and appearances, reminiscent of characters from a storybook.<br/>
                 <br/>As Alice wandered through this digitally rendered environment, she encountered insects that moved in reverse, communicated in cryptic codes, and displayed vibrant, unnatural colors. RabbitIT explained each insect's significance and literary background, linking their characteristics to themes and motifs from various narratives.<br/>
                 <br/>This chapter captures Alice's fascination and interaction with these fantastical creatures, highlighting her wonder at the surreal and educational aspects of Daschland's technological wonders. The experience enriched her understanding of the literary world, bridged brilliantly by DaSCH's innovative use of data and digital reality.</text>
         </text-prop>
@@ -3010,7 +2994,7 @@
             <text encoding="xml">Alice meets the twin brothers Tweedledum and Tweedledee, who engage in a series of absurd arguments and recite the poem "The Walrus and the Carpenter."<br/>They are about to fight but are interrupted by a giant crow.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, Alice, accompanied by RabbitIT, stumbled upon the twins, digital recreations powered by the DaSCH repository. In a whimsical setting, the twins recited the poem "The Walrus and the Carpenter," their voices animated with the theatrical flair stored in the database.<br/>
+            <text encoding="xml">In DaSCHland, Alice, accompanied by RabbitIT, stumbled upon the twins, digital recreations powered by the DaSCH repository. In a whimsical setting, the twins recited the poem "The Walrus and the Carpenter," their voices animated with the theatrical flair stored in the database.<br/>
                 <br/>After the recitation, the twins engaged in a mock battle, a playful demonstration of their dispute from the poem. They wielded digital swords that clinked and clanged, generating harmless sparks in the virtual air, much to Alice's amusement.<br/>
                 <br/>This chapter showcases the blend of literature and interactive play in DaSCHland, with Alice delighting in both the lyrical recital and the spirited mock battle, further deepening her adventure in the world where data and whimsy intertwine.</text>
         </text-prop>
@@ -3177,7 +3161,7 @@
             <text encoding="xml">Alice encounters the White Queen, who lives backwards in time. <br/>She then finds herself in a boat with the Sheep, who runs a shop. <br/>Alice experiences a series of rapid and confusing changes in setting, from a shop to a river and back.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the heart of DaSCHland, Alice, guided by RabbitIT, met the White Queen, a character brought to life by the DaSCH repository's detailed programming. In a serene, mirrored glade, the Queen explained the peculiar, backward logic that governed Looking-Glass Land.<br/>
+            <text encoding="xml">In the heart of DaSCHland, Alice, guided by RabbitIT, met the White Queen, a character brought to life by the DaSCH repository's detailed programming. In a serene, mirrored glade, the Queen explained the peculiar, backward logic that governed Looking-Glass Land.<br/>
                 <br/>As they walked through this inverted world, the White Queen demonstrated how time appeared to flow in reverse, how cause preceded effect, and how logic was delightfully upturned. RabbitIT enhanced Alice's experience by offering additional insights and annotations from literary studies stored in DaSCH, making the conversation not just enlightening but deeply immersive.<br/>
                 <br/>This chapter captured Alice's growing understanding of the reverse nature of Looking-Glass Land, framed by the White Queen's whimsical explanations and RabbitIT's knowledgeable interjections, illustrating the fascinating intersection of literature and digital innovation in DaSCHland.</text>
         </text-prop>
@@ -3352,7 +3336,7 @@
             <text encoding="xml">Alice meets Humpty Dumpty, who sits on a wall. They discuss language and meaning. Humpty Dumpty explains his interpretation of various words and poems before falling off the wall, just as in the nursery rhyme.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, Alice found herself before Humpty Dumpty, seated precariously on a digital wall created by DaSCH. With RabbitIT by her side, she listened intently as Humpty Dumpty embarked on a quirky explanation of words, twisting meanings in his unique, whimsical fashion.<br/>
+            <text encoding="xml">In DaSCHland, Alice found herself before Humpty Dumpty, seated precariously on a digital wall created by DaSCH. With RabbitIT by her side, she listened intently as Humpty Dumpty embarked on a quirky explanation of words, twisting meanings in his unique, whimsical fashion.<br/>
                 <br/>As Humpty expounded on his philosophy—that words meant exactly what he chose them to mean, neither more nor less—Alice marveled at the eccentricity of his logic, enhanced by RabbitIT's contextual data from literary references stored within DaSCH.<br/>
                 <br/>The encounter took a sudden turn as Humpty Dumpty, lost in his exposition, toppled from the wall in a dramatic, yet digitally cushioned fall. Alice and RabbitIT watched as the system simulated the iconic scramble to put Humpty together again, blending the surreal with the educational in a memorable moment of DaSCHland's narrative adventure.</text>
         </text-prop>
@@ -3551,7 +3535,7 @@
             <text encoding="xml">Alice enters a town and witnesses a battle between the Lion and the Unicorn for the crown. <br/>The White King is there, and Alice is asked to cut the Lion and Unicorn a cake.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the virtual landscape of DaSCHland, Alice, guided by RabbitIT, came upon a grand spectacle—a battle between the Lion and the Unicorn, both majestic creatures rendered from the extensive databases of DaSCH. The conflict was over a digital crown, symbolizing power and rule within this part of the literary world.<br/>
+            <text encoding="xml">In the virtual landscape of DaSCHland, Alice, guided by RabbitIT, came upon a grand spectacle—a battle between the Lion and the Unicorn, both majestic creatures rendered from the extensive databases of DaSCH. The conflict was over a digital crown, symbolizing power and rule within this part of the literary world.<br/>
                 <br/>The Lion, fierce and proud, and the Unicorn, equally formidable and noble, clashed in a display of strength and agility, their movements choreographed based on descriptions found in ancient texts and legends preserved by DaSCH. RabbitIT provided Alice with background information on the symbolism of both creatures and the historical significance of their rivalry, enhancing her understanding of the scene.<br/>
                 <br/>As the battle raged, Alice observed the strategies and tactics of each creature, enthralled by the blend of historical accuracy and creative license that DaSCHland employed to bring this narrative to life. The chapter culminated in a dramatic, yet unresolved conclusion to the battle, leaving the crown hanging tantalizingly in the balance and Alice captivated by the vivid realism of the encounter.</text>
         </text-prop>
@@ -3712,7 +3696,7 @@
             <text encoding="xml">Alice meets the White Knight, who helps her cross a brook into the eighth square, where she becomes a queen. <br/>The White Knight shares his various inventions with Alice before they part ways.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, Alice was escorted by the White Knight, a creation animated from DaSCH's vast repository. As they journeyed together, the Knight shared stories of his quirky inventions, each displayed vividly by RabbitIT through interactive simulations.<br/>
+            <text encoding="xml">In DaSCHland, Alice was escorted by the White Knight, a creation animated from DaSCH's vast repository. As they journeyed together, the Knight shared stories of his quirky inventions, each displayed vividly by RabbitIT through interactive simulations.<br/>
                 <br/>The White Knight also sang a heartfelt song about his adventures and dreams, his voice echoing through the digital landscape, enhanced by the historical ballads from DaSCH. Alice was captivated by his inventive spirit and the poignant melody, which added a layer of emotional depth to their encounter in this synthesized world.</text>
         </text-prop>
         <text-prop name=":hasFullText">
@@ -3890,7 +3874,7 @@
             <text encoding="xml">Alice becomes a queen and attends a chaotic dinner party with the Red and White Queens. The party is filled with nonsensical events and surreal occurrences. <br/>Alice struggles to maintain order among the guests.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">Upon reaching the eighth square in DaSCHland, Alice was transformed into a queen and welcomed to a bizarre banquet, crafted by the DaSCH repository's digital magic. The banquet hall was filled with surreal, animated dishes and eccentric guests, where even the food engaged in conversation.<br/>
+            <text encoding="xml">Upon reaching the eighth square in DaSCHland, Alice was transformed into a queen and welcomed to a bizarre banquet, crafted by the DaSCH repository's digital magic. The banquet hall was filled with surreal, animated dishes and eccentric guests, where even the food engaged in conversation.<br/>
                 <br/>Guided by RabbitIT, Alice navigated the whimsical feast, marveling at the fantastical elements and the playful overturning of typical banquet norms. This chapter showcased her enjoyment and curiosity as she embraced her new role in this imaginative, topsy-turvy celebration.</text>
         </text-prop>
         <text-prop name=":hasFullText">
@@ -4096,7 +4080,7 @@
             <text encoding="xml">The chaos at the dinner party escalates. Alice seizes the Red Queen, who transforms into her kitten. <br/>The surreal events start to break apart as Alice begins to wake up.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the whimsical world of DaSCHland, Alice engaged in a nonsensical conversation with the Red and White Queens, characters brought to vibrant life by the DaSCH repository. Their dialogue twisted logic and language in playful, perplexing ways.<br/>
+            <text encoding="xml">In the whimsical world of DaSCHland, Alice engaged in a nonsensical conversation with the Red and White Queens, characters brought to vibrant life by the DaSCH repository. Their dialogue twisted logic and language in playful, perplexing ways.<br/>
                 <br/>As the conversation spiraled into delightful absurdity, the Queens proposed a quiz, posing riddles and paradoxes that tested Alice's wit and adaptability. Guided by RabbitIT, Alice navigated the quiz with clever responses, each answer revealing deeper layers of the digital realm's literary nuances.<br/>
                 <br/>This chapter highlighted Alice's quick thinking and the interactive nature of DaSCHland, where literary figures become engaging tutors in a game of wits and wisdom.</text>
         </text-prop>
@@ -4148,7 +4132,7 @@
             <text encoding="xml">Alice wakes up to find herself back at home, holding her black kitten. She realizes that her adventure in the looking-glass world was just a dream.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">As the banquet in DaSCHland grew increasingly chaotic, Alice found herself overwhelmed by the surreal antics of the guests and the peculiar, animated dishes. Her patience worn thin, she reached out in frustration and grabbed the Red Queen. In a moment of digital magic typical of DaSCHland, powered by the creative algorithms of the DaSCH repository, the Red Queen transformed into a kitten in Alice's arms.<br/>
+            <text encoding="xml">As the banquet in DaSCHland grew increasingly chaotic, Alice found herself overwhelmed by the surreal antics of the guests and the peculiar, animated dishes. Her patience worn thin, she reached out in frustration and grabbed the Red Queen. In a moment of digital magic typical of DaSCHland, powered by the creative algorithms of the DaSCH repository, the Red Queen transformed into a kitten in Alice's arms.<br/>
                 <br/>This unexpected transformation added to the whimsy and confusion of the scene, as Alice suddenly held a purring kitten instead of the formidable queen. The episode underscored the fluidity and unpredictability of DaSCHland, where characters and elements could shift forms in surprising ways, enhancing Alice's adventure in this digital wonderland.</text>
         </text-prop>
         <text-prop name=":hasFullText">
@@ -4189,7 +4173,7 @@
             <text encoding="xml">The final chapter reflects on the nature of Alice's dream and the curious question of whether it was Alice dreaming of the looking-glass world or the characters in the looking-glass world dreaming of Alice.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">Alice awoke from the chaotic banquet to find herself not in DaSCHland, but in her own room, with a kitten purring on her lap. The digital world of quirky characters and surreal transformations had all been a vivid dream. This realization brought a comforting end to her whimsical journey, blurring the lines between fantasy and reality as she greeted the calm of her familiar surroundings.</text>
+            <text encoding="xml">Alice awoke from the chaotic banquet to find herself not in DaSCHland, but in her own room, with a kitten purring on her lap. The digital world of quirky characters and surreal transformations had all been a vivid dream. This realization brought a comforting end to her whimsical journey, blurring the lines between fantasy and reality as she greeted the calm of her familiar surroundings.</text>
         </text-prop>
         <text-prop name=":hasFullText">
             <text encoding="xml">‘Your majesty shouldn’t purr so loud,’ Alice said, rubbing her eyes, and addressing the kitten, respectfully, yet with some severity. ‘You woke me out of oh! such a nice dream! And you’ve been along with me, Kitty—all through the Looking-Glass world. Did you know it, dear?’<br/>
@@ -4256,7 +4240,7 @@
                 <br/>This poignant and reflective piece captures the ephemeral nature of childhood and the bittersweet passage of time. <br/>Carroll reminisces about idyllic days spent in the company of Alice Liddell, the muse for his stories, and the magical moments of storytelling that once were. <br/>The poem's melancholic tone juxtaposes the sunny, carefree imagery of youth with the inevitable changes that come with growing up. <br/>Through this lyrical farewell, Carroll encapsulates the essence of his nostalgic longing and the enduring charm of Alice's adventures, leaving readers with a sense of wistful reflection.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">The poem "A Stream beneath a Digital Sky" serves as an epilogue to Alice in DaSCHland. <br/>
+            <text encoding="xml">The poem "A Stream beneath a Digital Sky" serves as an epilogue to Alice in DaSCHland. <br/>
                 <br/>This reflective and poignant piece captures the fleeting nature of digital creations and the ever-evolving landscape of technology. <br/>The creators reminisce about the early days of coding and digital exploration, where every project was a new adventure, full of discovery and endless possibility. <br/>The poem's tone shifts from the initial excitement of innovation to a gentle reminder of the inevitable progression of data and systems. <br/>Through this final lyrical note, the creators leave the users with a sense of nostalgia and reflection, while celebrating the enduring charm and significance of Alice's digital journey.</text>
         </text-prop>
         <text-prop name=":hasFullText">
@@ -4581,9 +4565,6 @@
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice, a young girl, follows a White Rabbit down a rabbit hole and falls into a whimsical, bizarre world called Wonderland.</text>
         </text-prop>
-        <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the fairytale "Alice in DaSCHland," a curious young girl named Alice discovers a magical realm powered by DaSCH, a company that operates as a repository for research data in the humanities. <br/>This world is filled with technological wonders like talking robots, digital trees, and houses that change color. <br/>Guided by a robot named RabbIT, Alice explores various marvels, including a café with size-altering tea and a library with books that speak. <br/>She meets the Queen of Hearts, an engineer who creates devices connecting emotions with digital data. <br/>Although Alice returns to her world with a token from DaSCHland, the experience leaves her inspired, reminding her that the realm of innovation and dreams, where research data in the humanities are brought to life, awaits her return.</text>
-        </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">BK_001</text>
         </text-prop>
@@ -4638,9 +4619,6 @@
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice, now a bit older, steps through a mirror into a fantastical world where everything is reversed, much like a reflection in a looking glass. <br/>She embarks on a new adventure filled with strange characters and peculiar happenings.</text>
         </text-prop>
-        <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the fairytale "Through the DaSCH Portal and What Alice Discovered There" Alice, now more experienced in navigating the digital world, steps through the DaSCH portal into a realm where data structures are reversed, and everything follows its own peculiar logic, much like a reflection in a mirror. <br/>In this new environment, Alice embarks on another adventure filled with enigmatic algorithms, unusual digital entities, and peculiar happenings, where she must adapt to the unpredictable nature of the data streams and the ever-evolving digital landscape.</text>
-        </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">BK_002</text>
         </text-prop>
@@ -4694,7 +4672,7 @@
                 <br/>The beautiful pictures of Alice, drawn by John Tenniel, were inspired by Mary Hilton Badcock, the daughter of the Dean of Ripon. Although she was suggested as a model, it's not clear if Tenniel fully took this suggestion <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the digital wonderland of DaSCHland, Alice is portrayed as a young, curious explorer, navigating a world where data and reality merge seamlessly. <br/>Her character embodies the spirit of inquiry and adaptability, always ready to engage with the shifting landscapes and eclectic characters of DaSCHland. <br/>With her bright, inquisitive mind, she delves into each encounter, whether it's solving riddles with the White Queen, dancing at a bizarre banquet, or decoding the peculiar logic of Humpty Dumpty. <br/>Alice's journey through DaSCHland highlights her growth from mere curiosity to a deeper understanding of how technology can bring literary worlds to life, showcasing her as a bridge between classic tales and modern digital exploration.</text>
+            <text encoding="xml">In the digital wonderland of DaSCHland, Alice is portrayed as a young, curious explorer, navigating a world where data and reality merge seamlessly. <br/>Her character embodies the spirit of inquiry and adaptability, always ready to engage with the shifting landscapes and eclectic characters of DaSCHland. <br/>With her bright, inquisitive mind, she delves into each encounter, whether it's solving riddles with the White Queen, dancing at a bizarre banquet, or decoding the peculiar logic of Humpty Dumpty. <br/>Alice's journey through DaSCHland highlights her growth from mere curiosity to a deeper understanding of how technology can bring literary worlds to life, showcasing her as a bridge between classic tales and modern digital exploration.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_001</text>
@@ -4798,7 +4776,7 @@
                 <br/>The White Rabbit is always late, which is a nod to Oxford time. At Oxford, especially at Christ Church, where Carroll used to teach, events often start five minutes after the scheduled hour <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, RabbitIT embodies a reimagined version of the classic White Rabbit from "Alice in Wonderland." This character merges the traditional traits of urgency and meticulous timing with advanced technological features. RabbitIT, as Alice's digital guide, is integral to navigating the complex and layered world of DaSCHland. Equipped with AI-driven capabilities, RabbitIT assists Alice by providing real-time data, historical insights, and logistical support throughout her adventures. His appearance retains the iconic elements—such as the waistcoat and pocket watch—but these are enhanced with digital displays and interfaces that reflect his role as a guide within a sophisticated, data-rich environment. RabbitIT not only leads Alice through various digital landscapes but also ensures she engages deeply with the literary worlds recreated and stored within the DaSCH repository, making him a pivotal character in blending classic literature with modern technology.</text>
+            <text encoding="xml">In DaSCHland, RabbitIT embodies a reimagined version of the classic White Rabbit from "Alice in Wonderland." This character merges the traditional traits of urgency and meticulous timing with advanced technological features. RabbitIT, as Alice's digital guide, is integral to navigating the complex and layered world of DaSCHland. Equipped with AI-driven capabilities, RabbitIT assists Alice by providing real-time data, historical insights, and logistical support throughout her adventures. His appearance retains the iconic elements—such as the waistcoat and pocket watch—but these are enhanced with digital displays and interfaces that reflect his role as a guide within a sophisticated, data-rich environment. RabbitIT not only leads Alice through various digital landscapes but also ensures she engages deeply with the literary worlds recreated and stored within the DaSCH repository, making him a pivotal character in blending classic literature with modern technology.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_002</text>
@@ -4849,7 +4827,7 @@
                 <br/>The text describes the Caterpillar as blue ('a large blue caterpillar').</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the context of DaSCHland, the Caterpillar character is reimagined with a digital twist, embodying both wisdom and a connection to the historical data within the DaSCH repository. This version of the Caterpillar maintains his iconic thoughtful and philosophical demeanor, often found lounging on a mushroom, but here the mushroom also serves as an interactive data terminal that displays various texts and historical documents relevant to Alice’s queries and the Caterpillar’s wise teachings.<br/>
+            <text encoding="xml">In the context of DaSCHland, the Caterpillar character is reimagined with a digital twist, embodying both wisdom and a connection to the historical data within the DaSCH repository. This version of the Caterpillar maintains his iconic thoughtful and philosophical demeanor, often found lounging on a mushroom, but here the mushroom also serves as an interactive data terminal that displays various texts and historical documents relevant to Alice’s queries and the Caterpillar’s wise teachings.<br/>
                 <br/>The Caterpillar in DaSCHland uses his deep knowledge, derived from vast literary and historical databases, to challenge and guide Alice through complex philosophical debates and puzzles. His dialogue with Alice often includes interactive elements, such as visual data projections from his mushroom, making each interaction not only a conversation but a visually engaging learning experience. This character retains his calm, contemplative nature and his ability to transform—signifying not only physical change but also the transformative power of knowledge and digital technology in DaSCHland.</text>
         </text-prop>
         <text-prop name=":hasID">
@@ -4897,7 +4875,7 @@
                 <br/>Contrary to popular belief, Lewis Carroll never referred to the Hatter as 'the Mad Hatter' in the story. He simply called him 'the Hatter'.<br/>The phrase 'mad as a hatter' was common in Carroll's time, probably because hatters actually did go mad, as the mercury they used sometimes gave them mercury poisoning <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, the Mad Hatter transforms into an intriguing digital persona, blending his traditional eccentricity and whimsical charm with advanced technological attributes. He hosts the famed tea parties, which in this digital realm are dynamic simulations, where each cup of tea and piece of cake is embedded with historical anecdotes or literary quotes that appear as holographic texts above the table. The Mad Hatter in this virtual world is not just a bringer of nonsensical humor; he also serves as a conduit for exploring the rich tapestry of literature and history stored in the DaSCH repository. His hat, iconic and oversized, functions as an interface that projects various informational displays, engaging Alice and other guests in riddles and puzzles that draw from a diverse array of cultural and historical contexts.<br/>
+            <text encoding="xml">In DaSCHland, the Mad Hatter transforms into an intriguing digital persona, blending his traditional eccentricity and whimsical charm with advanced technological attributes. He hosts the famed tea parties, which in this digital realm are dynamic simulations, where each cup of tea and piece of cake is embedded with historical anecdotes or literary quotes that appear as holographic texts above the table. The Mad Hatter in this virtual world is not just a bringer of nonsensical humor; he also serves as a conduit for exploring the rich tapestry of literature and history stored in the DaSCH repository. His hat, iconic and oversized, functions as an interface that projects various informational displays, engaging Alice and other guests in riddles and puzzles that draw from a diverse array of cultural and historical contexts.<br/>
                 <br/>His character retains the unpredictable nature known from the original tales but is enhanced with the ability to manipulate his environment digitally, making each interaction with him a surprise and a new opportunity for Alice to learn something unique about the virtual world she navigates.</text>
         </text-prop>
         <text-prop name=":hasID">
@@ -4951,7 +4929,7 @@
                 <br/>The reason for Carroll naming this character 'Cheshire Cat' is unclear: <br/>'To grin like a Cheshire Cat' was a common phrase in Carroll's day. <br/>It may have originated from a sign painter in Cheshire who painted grinning lions on the sign-boards of inns in the area.<br/>Another source is the 'Alice Window' in Christ Church, Oxford, where you can see three grinning animals at the top of the Liddell's family arms. <br/>Cheshire cheeses were also once molded in the shape of a grinning cat <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the imaginative world of DaSCHland, the Cheshire Cat stands out as a particularly fascinating digital entity. He embodies the quintessential mystery and wit of his character, now augmented with the capability to appear and disappear at will, leaving behind only his iconic grin, which serves as a user interface for accessing various data points within the DaSCH repository. The Cheshire Cat's interactions with Alice are both enlightening and cryptic, guiding her through DaSCHland with riddles and philosophical insights that challenge her perceptions. His ability to phase in and out of digital visibility symbolizes the fluid nature of information in the digital age, where data can be both omnipresent and elusive.<br/>
+            <text encoding="xml">In the imaginative world of DaSCHland, the Cheshire Cat stands out as a particularly fascinating digital entity. He embodies the quintessential mystery and wit of his character, now augmented with the capability to appear and disappear at will, leaving behind only his iconic grin, which serves as a user interface for accessing various data points within the DaSCH repository. The Cheshire Cat's interactions with Alice are both enlightening and cryptic, guiding her through DaSCHland with riddles and philosophical insights that challenge her perceptions. His ability to phase in and out of digital visibility symbolizes the fluid nature of information in the digital age, where data can be both omnipresent and elusive.<br/>
                 <br/>This version of the Cheshire Cat not only serves as a guide through the labyrinthine digital landscape but also as a reminder of the transformative power of technology in reshaping narratives and character interactions within this virtual world. His presence is a constant reminder of the enigmatic and ever-changing nature of the digital realm Alice explores.</text>
         </text-prop>
         <text-prop name=":hasID">
@@ -5003,7 +4981,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, the Queen of Hearts is reenvisioned as a formidable digital ruler, embodying her classic characteristics of authority and quick temper, but with a modern twist. In this virtual world, she presides over the digital kingdom with a strict adherence to the rules and protocols encoded within the DaSCH repository.<br/>
+            <text encoding="xml">In DaSCHland, the Queen of Hearts is reenvisioned as a formidable digital ruler, embodying her classic characteristics of authority and quick temper, but with a modern twist. In this virtual world, she presides over the digital kingdom with a strict adherence to the rules and protocols encoded within the DaSCH repository.<br/>
                 <br/>The Queen’s realm in DaSCHland is a place where order intersects with the whimsical laws of Wonderland, making her both a guardian of traditional narratives and an enforcer of the digital world's unique logic. Her commands and decrees can instantly alter the landscape or the behavior of other characters, demonstrating her control over the digital environment.<br/>
                 <br/>Her interactions with Alice are intense and pivotal, offering dramatic encounters that highlight the power dynamics within DaSCHland. The Queen of Hearts in this setting isn't just a character from a story; she is a dynamic representation of control and authority in a world where data and reality intertwine seamlessly.</text>
         </text-prop>
@@ -5098,7 +5076,7 @@
             <text encoding="xml">The Duchess is an eccentric, ugly, and unpredictable noblewoman who lives in a chaotic house filled with pepper that makes everyone sneeze.<br/>She has a violent cook, an abused baby (who later turns into a pig), and a tendency to spout moral lessons in a forced, nonsensical way.<br/>She later reappears, acting overly friendly toward Alice, contradicting her earlier harsh behavior.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In the virtual realm of DaSCHland, the Duchess takes on a multifaceted digital persona that embodies both the harshness and unexpected warmth she displays in the original tales. This Duchess is intricately programmed to interact with Alice using a mix of sharp remarks and philosophical musings, enhanced by the digital environment's capability to integrate complex dialogue and interactions.<br/>
                 <br/>The Duchess in DaSCHland oversees a segment of the digital landscape that mirrors her eclectic and somewhat chaotic household, where the laws of physics and conventional logic are frequently bent. Her interactions often include lessons about manners and morality, albeit delivered in a convoluted manner that challenges Alice to think critically about the rules and norms of both the real and digital worlds.<br/>
                 <br/>Her character is not only a caretaker of peculiar digital creatures but also serves as a critical voice in the narrative, pushing Alice to question and understand the underlying structures of DaSCHland. The Duchess’s presence is marked by her ability to shift from volatile to caring in moments, making her a complex and compelling figure in the digital adventure.</text>
@@ -5188,7 +5166,7 @@
             <text encoding="xml">The Gryphon is a mythical creature with the body of a lion and the wings and head of an eagle.<br/>He serves as a guide to Alice, taking her to meet the Mock Turtle and listening to his sorrowful tales.<br/>Unlike many Wonderland characters, he is bossy but not hostile, often rushing the Mock Turtle through his stories.<br/>He introduces Alice to the Lobster Quadrille, a strange dance performed under the sea.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the digitally-rendered world of DaSCHland, the Gryphon emerges as a majestic and authoritative creature, blending elements of his mythological origins with modern digital functionalities. He serves as a guardian and guide, helping Alice navigate the more complex and potentially perilous parts of the digital landscape with wisdom and a stern demeanor.<br/>
+            <text encoding="xml">In the digitally-rendered world of DaSCHland, the Gryphon emerges as a majestic and authoritative creature, blending elements of his mythological origins with modern digital functionalities. He serves as a guardian and guide, helping Alice navigate the more complex and potentially perilous parts of the digital landscape with wisdom and a stern demeanor.<br/>
                 <br/>The Gryphon in DaSCHland is intricately designed, combining his classical eagle-and-lion form with enhancements that reflect his role within the digital environment. He possesses the ability to access and project holographic histories or legendary tales from the DaSCH repository, using his wings and talons as interactive tools that help illustrate these stories to Alice.<br/>
                 <br/>His interactions with Alice are educational and protective, ensuring that she not only enjoys her journey through DaSCHland but also gains deeper insights into the literary and mythical foundations that the realm is built upon. The Gryphon’s character is a bridge between the ancient and the digital, embodying the wisdom of the old and the possibilities of the new.</text>
         </text-prop>
@@ -5236,7 +5214,7 @@
                 <br/>It is possible that the Red Queen was modelled after the governess for the Liddell children, Miss Prickett, who was known as 'Pricks' <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the digital wonderland of DaSCHland, the Red Queen is reimagined as a dynamic and strategic figure, embodying a blend of leadership and urgency. Unlike the traditional portrayal of her character as simply domineering, this Red Queen is more nuanced, using her quick-paced and decisive nature to manage and oversee complex digital operations within the realm.<br/>
+            <text encoding="xml">In the digital wonderland of DaSCHland, the Red Queen is reimagined as a dynamic and strategic figure, embodying a blend of leadership and urgency. Unlike the traditional portrayal of her character as simply domineering, this Red Queen is more nuanced, using her quick-paced and decisive nature to manage and oversee complex digital operations within the realm.<br/>
                 <br/>The Red Queen in DaSCHland utilizes advanced data analytics and management tools that are visually represented by the constant motion of her character—mirroring her motif of "running to stay in place." Her realm is one where order and efficiency reign, and she is often seen orchestrating the flow of information and digital events with precision and command.<br/>
                 <br/>Her interactions with Alice are marked by challenges that test Alice's ability to think and react quickly, embodying the Red Queen's belief in the necessity of constant movement and adaptation in a rapidly changing digital environment. This portrayal highlights her as not just a ruler but a symbol of perpetual progress and the relentless pace of technological and data-driven environments.</text>
         </text-prop>
@@ -5286,7 +5264,7 @@
             <text encoding="xml">Humpty Dumpty is a large, egg-shaped character sitting on a wall when Alice meets him.<br/>He is famously known from the nursery rhyme:<br/>He is arrogant and boastful, constantly correcting Alice and claiming he can make words mean whatever he wants.<br/>He explains the nonsense words from “Jabberwocky” to Alice, adding to the theme of language and meaning.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, Humpty Dumpty is crafted as a figure of intellectual whimsy, combining his well-known penchant for wordplay with digital enhancements that allow him to manipulate language and meanings in novel ways. This digital Humpty Dumpty is perched on a high wall, symbolizing his lofty ideas and the precarious nature of his assertions.<br/>
                 <br/>This version of Humpty Dumpty is equipped with linguistic databases from the DaSCH repository, enabling him to provide Alice with elaborate explanations and definitions that twist and stretch words beyond their conventional meanings. His digital interface allows him to project visual representations of his wordplay, turning abstract concepts into tangible, manipulable objects in the virtual environment.<br/>
                 <br/>His interactions with Alice are cerebral and engaging, challenging her understanding of language and logic. Humpty Dumpty’s role in DaSCHland is not only to entertain but also to enlighten, serving as a quirky mentor who encourages Alice to explore the depths of linguistic creativity and the flexibility of digital communication. This character retains his iconic vulnerability, with the ever-present risk of falling off his wall, symbolizing the delicate balance between knowledge and confusion in the expansive digital world.</text>
@@ -5333,7 +5311,7 @@
                 <br/>The White Knight is often seen as a self-portrait of Lewis Carroll, representing the gentle, eccentric dreamer who helps Alice along her journey.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In the imaginative universe of DaSCHland, the White Knight is transformed into a quirky yet noble figure who embodies the fusion of chivalric ideals with technological innovation. He is designed as a tinkerer and inventor, with his armor and steed adorned with various whimsical gadgets and gizmos that he has crafted from the digital resources available within the DaSCH repository.<br/>
                 <br/>This White Knight retains his traditional clumsiness and good-hearted nature, but his inventions are digitally enhanced, offering practical (and sometimes impractical) solutions during his adventures with Alice. His armor, instead of merely serving as protection, is integrated with interactive displays and tools that assist him and Alice as they navigate through DaSCHland.<br/>
                 <br/>His interactions with Alice are filled with gentle guidance and eccentric inventiveness. He serves not only as a protector on her journey but also as a mentor in creativity and resilience, often providing comic relief with his inventions that sometimes work in unexpected ways. The White Knight’s character in DaSCHland symbolizes the bridge between old-world chivalry and modern digital creativity, making every encounter with him both educational and entertaining.</text>
@@ -5384,7 +5362,7 @@
             <text encoding="xml">The Mouse is one of the creatures that fall into the pool of tears Alice creates when she grows too large.<br/>It is easily offended, especially when Alice mentions her cat, Dinah, which frightens the Mouse.<br/>To dry off, the Mouse tells a “dry” history lesson about William the Conqueror, but it is so boring that no one listens.<br/>It participates in the Caucus Race, a nonsensical race where everyone wins.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Mouse is depicted as a wise and articulate historian, carrying a vast repository of knowledge from the DaSCH archives. This digital incarnation of the Mouse combines its characteristic timidity with a profound intellectual depth, serving as a guide to the historical and literary contexts of Wonderland.<br/>
                 <br/>The Mouse in DaSCHland is often seen scurrying across digital landscapes, leaving trails of historical data and literary references that help Alice understand the intricate background of the characters and settings she encounters. Its small size belies the vast amount of information it holds, and it communicates with Alice through a series of sophisticated projections and interactive data streams that visually represent the stories it tells.<br/>
                 <br/>Interacting with the Mouse, Alice finds a valuable resource in piecing together the puzzles of DaSCHland. The Mouse's role is crucial for teaching her about the origins and transformations of Wonderland's inhabitants and their adventures. This character's timid yet profound demeanor makes it a unique and insightful guide, enriching Alice's journey through the layers of digital Wonderland.</text>
@@ -5435,7 +5413,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, the Dodo is reimagined as a digital curator and archivist, overseeing the preservation and organization of the vast literary and historical data within the DaSCH repository. This version of the Dodo retains the peculiar and somewhat absurd characteristics from the original tales, but with a twist: he is deeply knowledgeable and somewhat pedantic about the digital artifacts and records under his care.<br/>
+            <text encoding="xml">In DaSCHland, the Dodo is reimagined as a digital curator and archivist, overseeing the preservation and organization of the vast literary and historical data within the DaSCH repository. This version of the Dodo retains the peculiar and somewhat absurd characteristics from the original tales, but with a twist: he is deeply knowledgeable and somewhat pedantic about the digital artifacts and records under his care.<br/>
                 <br/>The Dodo in DaSCHland serves as an authoritative figure in managing the flow of information and ensuring that Alice receives the proper context and background needed for her explorations. His presence is marked by a series of elaborate digital displays and interfaces that he controls, which serve as interactive exhibits for Alice and other visitors to DaSCHland.<br/>
                 <br/>Interacting with the Dodo, Alice is often caught in the whirlwind of his archiving activities, witnessing how digital preservation works in a realm where literary and historical data are treated as precious commodities. The Dodo's meticulous nature and his commitment to his duties make him a fascinating character who blends the whimsical with the practical, providing a unique perspective on the importance of data stewardship in the digital age.</text>
         </text-prop>
@@ -5479,7 +5457,7 @@
                 <br/>Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell. The real Alice's older sister, Lorina, was actually only three years her senior <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, Alice's sister is conceptualized as a serene and scholarly figure, serving as a gateway between the real world and the digital realm of DaSCH. She embodies the role of a caretaker and guide, often seen in the background, offering gentle encouragement and insights that help Alice navigate her digital adventures.<br/>
                 <br/>Her character in DaSCHland is endowed with an intuitive understanding of both the physical and digital worlds, making her an ideal mentor for Alice. She is portrayed as possessing a deep knowledge of the literary foundations of DaSCHland, providing Alice with critical interpretations and historical contexts that enrich her journey.<br/>
                 <br/>Alice's sister interacts with the digital world through a sophisticated interface that allows her to monitor and occasionally guide Alice's progress, ensuring that her little sister's explorations are both safe and enlightening. Her calm demeanor and intellectual depth make her a grounding presence, offering a bridge back to reality and a reminder of the world beyond the digital landscape. Her role highlights the connection between storytelling, learning, and the nurturing guidance that helps Alice grow throughout her adventures in DaSCHland.</text>
@@ -5520,7 +5498,7 @@
             <text encoding="xml">The King of Hearts is the ruler of Wonderland alongside the Queen of Hearts, though he is much less fearsome than his wife.<br/>He serves as the judge during the trial of the Knave of Hearts, who is accused of stealing the Queen’s tarts.<br/>He follows absurd legal procedures, often making nonsensical rulings, such as demanding a verdict before the evidence is presented.<br/>Unlike the Queen, who frequently yells “Off with their heads!”, the King often softens her harsh orders and tries to keep things under control.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, the King of Hearts is portrayed as a benevolent and somewhat ceremonial ruler, often overshadowed by the more forceful Queen of Hearts but holding his own unique authority within the digital realm. His character is designed to embody wisdom and moderation, serving as a balancing force against the Queen's more impulsive decisions.<br/>
+            <text encoding="xml">In DaSCHland, the King of Hearts is portrayed as a benevolent and somewhat ceremonial ruler, often overshadowed by the more forceful Queen of Hearts but holding his own unique authority within the digital realm. His character is designed to embody wisdom and moderation, serving as a balancing force against the Queen's more impulsive decisions.<br/>
                 <br/>The King in DaSCHland maintains his gentle demeanor from the original stories, but he is equipped with tools and systems that help him manage the kingdom's affairs and ensure the proper execution of its laws. He often appears in scenarios where judicial or moral decisions are needed, providing a voice of reason and compassion.<br/>
                 <br/>His interactions with Alice are marked by kindness and encouragement, offering her advice and support as she navigates the complexities of DaSCHland. The King's role is crucial in maintaining the order and fairness of the digital kingdom, often using his authority to temper the Queen's harsher judgments.<br/>
                 <br/>Overall, the King of Hearts in DaSCHland represents the virtues of patience and understanding, using his position to promote peace and stability in the kingdom, and showing Alice the importance of thoughtful leadership in any world, digital or otherwise.</text>
@@ -5567,7 +5545,7 @@
             <text encoding="xml">The Dormouse is a sleepy, drowsy creature who sits between the Mad Hatter and the March Hare at the tea party.<br/>He constantly falls asleep mid-conversation and has to be poked or shaken awake by the others.<br/>He tells a bizarre story about three sisters (Elsie, Lacie, and Tillie) who live at the bottom of a treacle well and only eat treacle.<br/>At one point, Alice picks him up and puts him into a teapot, though he escapes later.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In the digital realm of DaSCHland, the Dormouse is reimagined as a sleepy yet insightful character, whose drowsy demeanor masks a deep repository of narrative wisdom. In this version, the Dormouse is not merely a participant in the Mad Hatter's tea party but serves as a crucial archival resource, storing and occasionally divulging snippets of folklore and historical tales embedded within DaSCH's extensive databases.<br/>
+            <text encoding="xml">In the digital realm of DaSCHland, the Dormouse is reimagined as a sleepy yet insightful character, whose drowsy demeanor masks a deep repository of narrative wisdom. In this version, the Dormouse is not merely a participant in the Mad Hatter's tea party but serves as a crucial archival resource, storing and occasionally divulging snippets of folklore and historical tales embedded within DaSCH's extensive databases.<br/>
                 <br/>This digital Dormouse occasionally dozes off, but when awake, it projects holographic snippets of stories and historical events, illuminating the discussions at the tea party with vivid, animated tales from various epochs and cultures. Its ability to access and display these narratives at random—or seemingly so—adds a layer of enchantment and mystery to its character.<br/>
                 <br/>Interactions with the Dormouse provide Alice and other characters with unexpected insights, often sparking deeper discussions or leading to new adventures in DaSCHland. Despite its sleepy nature, the Dormouse is a beloved figure, enchanting visitors with its whimsical, albeit intermittent, contributions to the digital tea party. This character blends the charm of its traditional portrayal with the technological marvels of DaSCHland, making each of its rare awakenings a moment worth waiting for.</text>
         </text-prop>
@@ -5613,7 +5591,7 @@
             <text encoding="xml">The Knave is a servant of the Queen of Hearts, accused of stealing the Queen’s tarts.<br/>He is put on trial in a ridiculous courtroom scene, presided over by the King of Hearts.<br/>Although the evidence against him is absurd and nonsensical, the Queen still demands his execution.<br/>Before the trial can conclude, Alice grows larger and disrupts the proceedings, leading to the scene’s chaotic ending.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, the Knave of Hearts is recast as a mischievous yet charismatic character, well-known for his role in the infamous tart theft, but with a deeper digital twist. He serves as an intriguing figure within the virtual realm, often involved in scenarios that test the boundaries of rules and digital ethics.<br/>
+            <text encoding="xml">In DaSCHland, the Knave of Hearts is recast as a mischievous yet charismatic character, well-known for his role in the infamous tart theft, but with a deeper digital twist. He serves as an intriguing figure within the virtual realm, often involved in scenarios that test the boundaries of rules and digital ethics.<br/>
                 <br/>The Knave in DaSCHland utilizes his cunning and charm not just to engage in his notorious antics but also to explore and sometimes exploit the digital environment's capabilities. His actions often lead to lessons about digital responsibility and the consequences of manipulating data without regard for the virtual world's laws.<br/>
                 <br/>His interactions with Alice are playful yet edifying, offering her—and the audience—a glimpse into the complexities of maintaining order and morality within a digitally governed realm. Despite his reputation for causing trouble, the Knave is portrayed as a fundamentally multi-dimensional character, whose adventures prompt discussions about right, wrong, and the gray areas in between in DaSCHland.<br/>
                 <br/>This version of the Knave of Hearts adds a layer of intrigue to the narrative, making him a pivotal character whose actions drive much of the drama and learning experiences within the digital wonderland.</text>
@@ -5656,7 +5634,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, Dinah, Alice's beloved cat from the real world, is reimagined with a significant virtual presence that bridges the realms of reality and digital fantasy. This version of Dinah retains her feline traits but is enhanced with digital capabilities that allow her to interact with Alice in unique and helpful ways within the digital landscape.<br/>
                 <br/>Dinah in DaSCHland serves as Alice’s loyal companion and protector, equipped with sensors and communication tools that help her detect and navigate digital anomalies or threats. Her presence offers a comforting sense of home and familiarity to Alice, providing emotional support and practical assistance as they explore the various facets of the digital world together.<br/>
                 <br/>Her interactions with Alice and other characters are marked by a blend of affectionate behavior typical of a pet and sophisticated digital interventions that aid in Alice's adventures. Dinah's ability to appear and act within DaSCHland adds an element of whimsy and security, reinforcing the connection between Alice's real-world roots and her fantastical digital experiences.<br/>
@@ -5695,7 +5673,7 @@
                 <br/>The character is believed to be based on Reverend Duckworth, a friend of Lewis Carroll who accompanied Alice Liddell and her sisters on the boat trip where Carroll first told the story <footnote content="source: https://en.wikipedia.org/wiki/Robinson_Duckworth"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Duck is portrayed as a character brimming with practical wisdom and a no-nonsense attitude, offering a grounded perspective in the often whimsical and chaotic digital environment. This version of the Duck, inspired by the original character in Lewis Carroll's tales, is enhanced with features that allow it to navigate and explain the natural laws governing the digital world of DaSCHland.<br/>
                 <br/>The Duck in this virtual realm serves as a guide, especially in scenarios involving natural simulations, such as virtual waterways or weather patterns, using its knowledge to educate Alice and other characters on the digital ecosystem's workings. The Duck's pragmatic approach helps demystify the complex interactions within DaSCHland, making it a reliable resource for understanding how digital and natural laws intertwine.<br/>
                 <br/>Interacting with the Duck provides Alice with invaluable lessons on adaptability and the importance of understanding one's environment. The Duck's straightforward and often blunt demeanor adds a layer of humor and realism to the narrative, contrasting with the more fantastical elements and characters in DaSCHland. This character enriches the digital landscape by offering insights into the practical aspects of navigating a world where reality and digital creations coexist.</text>
@@ -5736,7 +5714,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Lory character is reimagined as a vibrant and somewhat competitive personality, retaining its original traits from Lewis Carroll's tales but with enhanced digital capabilities. This digital Lory is portrayed as eager and somewhat assertive, often involved in discussions and debates, where it loves to showcase its knowledge and wit.<br/>
                 <br/>The Lory in DaSCHland serves as a counterpart to the Duck, offering a contrasting perspective that is more assertive and less concerned with practical details and more with winning arguments or leading expeditions within the digital realm. This character's role is often to challenge Alice and other characters, pushing them to think critically and react swiftly to the evolving scenarios in this virtual world.<br/>
                 <br/>Interacting with Lory provides a dynamic element to Alice's journey, testing her problem-solving skills and her ability to navigate social interactions in a competitive environment. The Lory's colorful personality and eagerness to engage make it a memorable part of the digital narrative, contributing to the lively and diverse character ensemble in DaSCHland.</text>
@@ -5775,7 +5753,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Eaglet character is reenvisioned as a cautious yet insightful figure, bringing a blend of youthful energy and a keen eye for detail to the digital landscape. This version of the Eaglet, drawing from Lewis Carroll's original portrayal, is characterized by its careful observations and occasional skepticism, providing a voice of reason amid the more flamboyant personalities.<br/>
                 <br/>The Eaglet in DaSCHland often serves as a mediator and analyst, helping to decipher complex digital phenomena and ensuring that discussions stay grounded in logic. Its role is particularly important in situations where the whimsical nature of DaSCHland's environment leads to confusion or misinterpretations, as the Eaglet helps to clarify misunderstandings and offer clear, concise explanations.<br/>
                 <br/>Interacting with the Eaglet enhances Alice’s experiences by encouraging her to be more observant and thoughtful about her surroundings. The Eaglet's careful approach to the digital world's challenges and its ability to distill wisdom from chaotic situations make it a crucial ally for Alice and other characters navigating the intricate realm of DaSCHland.</text>
@@ -5815,7 +5793,7 @@
             <text encoding="xml">Mary Ann is the White Rabbit’s housemaid. <br/>Although she never appears physically, she is important because the White Rabbit mistakes Alice for her when Alice enters his house.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, Mary Ann is creatively reimagined as Alice's virtual assistant, embodying a character that seamlessly blends functionality with a dash of whimsical loyalty. Drawing from her role in the original "Alice's Adventures in Wonderland" as the White Rabbit's housemaid, this version of Mary Ann is adapted to assist not just the White Rabbit but also Alice throughout her digital journey.<br/>
                 <br/>Mary Ann in DaSCHland is designed to be highly efficient and helpful, managing logistical tasks, scheduling events, and providing reminders and notifications to keep Alice on track as she navigates the complex digital environment. Her character is equipped with a suite of digital tools that allow her to access and organize vast amounts of data from the DaSCH repository, making her an indispensable companion in managing the day-to-day adventures and challenges Alice faces.<br/>
                 <br/>Her interactions with Alice are characterized by a blend of caretaking and managerial efficiency, offering a comforting yet structured presence. Mary Ann’s role underscores the importance of support and organization within the whimsical yet sometimes overwhelming world of DaSCHland, ensuring that Alice’s adventures are both enjoyable and well-coordinated.</text>
@@ -5852,7 +5830,7 @@
             <text encoding="xml">Pat is a servant of the White Rabbit in in Alice’s Adventures in Wonderland.  He is called upon, along with Bill the Lizard, to help remove Alice from the Rabbit’s house after she grows too large and gets stuck inside. <br/>He is described as somewhat bumbling and comical, engaging in a humorous conversation about how to deal with the situation.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, Pat is reimagined as a quirky, hardworking character originally tasked with maintenance and troubleshooting within this digital world. Drawing from his role in "Alice's Adventures in Wonderland" as a gardener and laborer, this version of Pat retains his practical nature but with enhanced skills suited for the digital environment of DaSCHland.<br/>
                 <br/>Pat is depicted as a technician and builder, responsible for maintaining the integrity of the virtual landscape and ensuring that all digital systems function smoothly. He's often seen wielding a toolbox filled with digital tools that can fix glitches, perform upgrades, and manage the seamless integration of new data into existing structures. His expertise is crucial in preserving the stability and functionality of DaSCHland, making him a key figure behind the scenes.<br/>
                 <br/>Interacting with Pat provides Alice with insights into the inner workings of the digital realm. His down-to-earth demeanor and problem-solving abilities offer a contrast to the more fantastical elements of DaSCHland, grounding the narrative in practicality and realism. Pat’s role highlights the importance of maintenance and careful management in sustaining the complex digital ecosystem that Alice explores.</text>
@@ -5893,7 +5871,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Jabberwock is reinterpreted as a formidable digital guardian of certain domains within the virtual landscape, embodying the menacing yet mythical creature from Lewis Carroll's poem "Jabberwocky." This version of the Jabberwock is not just a creature of fear but also a symbol of the challenges and trials that Alice must overcome in her digital adventures.<br/>
                 <br/>The Jabberwock in DaSCHland is depicted with visually striking features—gleaming eyes, sharp claws, and a presence that shifts between visibility and invisibility, adding to its enigmatic and formidable nature. It guards key areas that contain valuable data and archives within the DaSCH repository, challenging those who wish to access these areas to prove their worthiness and resolve.<br/>
                 <br/>Interacting with the Jabberwock becomes a pivotal moment in Alice's journey, representing a significant challenge that tests her courage, wit, and perseverance. The encounter is designed to be an intense blend of puzzle-solving and strategic navigation, where Alice must use both her intellectual and emotional intelligence to bypass the guardian.<br/>
@@ -5939,7 +5917,7 @@
             <text encoding="xml">Bill is a lizard who works as a handyman or chimney sweep for the White Rabbit.<br/>the White Rabbit calls him to help remove Alice from his house after she grows too large and gets stuck inside.<br/>He later reappears briefly as one of the jurors during the trial</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, Bill the Lizard is transformed into a versatile and skilled technician who specializes in the installation and maintenance of the digital realm’s complex infrastructure. Drawing from his role in "Alice's Adventures in Wonderland" where he was sent down the chimney as part of the White Rabbit's housemaid's attempts to deal with a giant Alice, this version of Bill retains his adventurous spirit but applies it within a technological context.<br/>
                 <br/>Bill is depicted as an agile and resourceful character, adept at navigating the intricate digital landscapes of DaSCHland. He is often involved in critical tasks that require precision and quick thinking, such as updating system software, repairing data leaks, or scaling the virtual environments to perform essential upgrades and fixes. His ability to swiftly adapt to varying digital scenarios makes him a crucial asset in maintaining the stability and efficiency of DaSCHland.<br/>
                 <br/>Interacting with Bill provides Alice and other characters with practical knowledge about the operational aspects of the digital world. His down-to-earth approach and readiness to tackle any technical challenge contribute to the narrative by demonstrating the importance of skill and adaptability in managing a sophisticated digital ecosystem. Bill’s role underscores the theme of teamwork and reliability, essential for the smooth functioning of DaSCHland’s adventurous and dynamic environment.</text>
@@ -5981,7 +5959,7 @@
                 <br/>The scene takes place in Chapter 4, “The Rabbit Sends in a Little Bill.” After Alice drinks from a bottle and grows larger, she encounters the puppy while trying to shrink back down. <br/>The puppy playfully chases a stick, and Alice enjoys watching it but is also cautious because of her small size. </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Puppy is reimagined as a lively and interactive character that adds a layer of playful engagement within the virtual world. Drawing from the small but exuberant puppy that Alice encounters in "Alice's Adventures in Wonderland," which playfully intimidates her when she is small, this version of the Puppy is designed to bring joy and a sense of wonder to the digital realm.<br/>
                 <br/>The Puppy in DaSCHland is depicted with enhanced, life-like animations that make it an endearing companion to Alice and other visitors. It serves not just as a playful pet but also as an interactive guide for younger users or newcomers to DaSCHland, helping them navigate the simpler aspects of the digital world through games and interactive learning experiences. The Puppy's role involves teaching basic navigation skills, providing companionship, and adding a comforting presence that makes the digital environment more approachable and less intimidating.<br/>
                 <br/>Interacting with the Puppy offers a break from the more complex challenges of DaSCHland, allowing Alice and others to enjoy moments of levity and joy. The Puppy’s enthusiastic and friendly nature makes it a beloved figure in the digital landscape, symbolizing the joy of discovery and the importance of play in learning and exploration within DaSCHland.</text>
@@ -6023,7 +6001,7 @@
                 <br/>After Alice eats a piece of the mushroom and her neck grows to an extreme length, she encounters the pigeon. <br/>The pigeon mistakes Alice for a serpent and is very defensive, fearing that Alice will eat her eggs. </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Pigeon is reimagined as a guardian of specific domains, particularly those involving airborne data streams and cloud storage within the digital landscape. Drawing from its role in "Alice's Adventures in Wonderland," where it accuses Alice of being a serpent due to her unusual size changes, this version of the Pigeon retains its suspicious and somewhat confrontational demeanor but channels these traits into vigilance and security.<br/>
                 <br/>The Pigeon in DaSCHland is depicted as an aerial sentinel, constantly monitoring the skies and overseeing the transfer and integrity of data. It uses its enhanced vision and flight capabilities to patrol the digital environment, identifying and addressing potential threats or anomalies in the system. The Pigeon's role is crucial for maintaining the safety and order of the digital airspace, ensuring that all data transmissions are secure and unimpeded.<br/>
                 <br/>Interacting with the Pigeon provides Alice with insights into the complexities of data management and security within DaSCHland. The Pigeon's keen oversight and meticulous nature serve as a reminder of the continuous vigilance required to protect and sustain the digital world. Its interactions are often marked by a mix of caution and wisdom, educating Alice and others about the importance of safeguarding digital resources and the challenges involved in managing expansive virtual environments.</text>
@@ -6065,7 +6043,7 @@
                 <br/>Alice observes the Frog Footman having a humorous and strange conversation with a Fish Footman outside the Duchess’s house.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Frog-Footman is reimagined as a protocol droid, functioning as a ceremonial and administrative assistant within the digital kingdom. Drawing from his role in "Alice's Adventures in Wonderland" where he serves at the door of the Duchess’s house, delivering invitations and managing guests, this version of the Frog-Footman integrates his traditional responsibilities with advanced digital functionalities.<br/>
                 <br/>The Frog-Footman in DaSCHland is depicted with a blend of old-world charm and high-tech features. He is responsible for managing digital gateways and ensuring smooth interactions within the virtual courts and official settings. Equipped with a sophisticated system interface, the Frog-Footman facilitates communications, schedules appointments, and oversees the entry protocols for various secured domains within DaSCHland, ensuring that all processes adhere to the established digital protocols.<br/>
                 <br/>Interacting with the Frog-Footman offers Alice and other characters a glimpse into the formal aspects of digital governance and ceremonial order. His methodical and somewhat rigid demeanor contrasts with the more whimsical characters, providing a grounding influence in the often chaotic environment of DaSCHland. His role emphasizes the importance of structure and order in maintaining the functionality and etiquette of the virtual world.</text>
@@ -6112,7 +6090,7 @@
                 <br/>When Alice arrives at the Duchess’s house, the Fish-Footman is handing over the letter to the Frog-Footman.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Fish-Footman is transformed into a communications officer, specializing in the dissemination of information and digital notifications across the virtual realm. Inspired by his role in "Alice's Adventures in Wonderland," where he delivers a royal invitation to the Duchess, this version of the Fish-Footman leverages his aquatic nature to navigate and manage the flow of data streams and digital currents efficiently.<br/>
                 <br/>The Fish-Footman in DaSCHland is equipped with advanced digital capabilities that allow him to swim through the vast oceans of data, delivering messages and updates with precision and reliability. His character is visually striking, blending marine elements with technological enhancements, making him a unique and important figure in maintaining the connectivity and communication within the digital kingdom.<br/>
                 <br/>Interacting with the Fish-Footman provides Alice with an understanding of how information is controlled and circulated in DaSCHland. His role is essential for ensuring that all areas of the digital world are kept informed and connected, highlighting the critical importance of communication in managing a complex and expansive virtual environment. The Fish-Footman's blend of traditional duties and modern digital responsibilities illustrates the seamless integration of storybook elements with technological advancements in DaSCHland.</text>
@@ -6156,7 +6134,7 @@
             <text encoding="xml">The Baby who later turns into a Pig appears in Alice’s Adventures in Wonderland.<br/>The baby belongs to the Duchess and is crying uncontrollably. The Duchess hands the baby to Alice, who tries to comfort it as she leaves the house. <br/>However, as Alice carries the baby, it gradually transforms into a pig, causing her to put it down and watch it trot off into the woods. </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the transformation of the baby into a pig, originally a whimsical and bizarre twist in "Alice's Adventures in Wonderland," is reinterpreted with a digital flair. In this virtual realm, the baby-turned-pig symbolizes the unpredictable and mutable nature of digital identities and transformations.<br/>
                 <br/>The character starts as a digital infant under the care of the Duchess, depicted with typical baby-like attributes but with underlying advanced programming that allows for dynamic changes in form and function. As the narrative progresses and Alice encounters the baby, it undergoes a surprising transformation into a pig, showcasing the fluidity and transformative capabilities of digital entities in DaSCHland.<br/>
                 <br/>This pig, once a baby, is not just a simple character but a complex digital construct that explores themes of transformation and adaptability within a digital ecosystem. Its interactions with Alice provide lessons on the unexpected and often rapid changes that can occur in digital environments, highlighting the need for flexibility and understanding in navigating such a dynamic world.<br/>
@@ -6202,7 +6180,7 @@
                 <br/>She is known for her aggressive and chaotic behavior, constantly throwing kitchen utensils and creating havoc in the Duchess’s home. Her defining characteristic is her obsession with pepper, which she adds in excessive amounts to the soup, causing everyone to sneeze.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the Cook is reimagined as a master of digital culinary arts, blending the traditional role from "Alice's Adventures in Wonderland" with innovative virtual reality technologies. In the original story, the Cook is known for her tempestuous nature and penchant for throwing things around her kitchen, including pepper which causes everyone to sneeze.<br/>
                 <br/>In the digital realm of DaSCHland, the Cook operates within a high-tech kitchen where she concocts not just physical dishes, but also virtual recipes that can influence the environment and the behavior of other characters. Her kitchen is a hub of sensory and data manipulation, where ingredients represent different data packets that can be combined to create effects throughout the digital world.<br/>
                 <br/>Her interactions with Alice involve complex simulations where culinary activities parallel the management and transformation of information. The Cook teaches Alice about the impact of different data combinations, much like ingredients in a recipe, showing her how they can produce various outcomes in the digital landscape.<br/>
@@ -6244,7 +6222,7 @@
             <text encoding="xml">Elsie, Lacie, and Tillie appear in Through the Looking-Glass. They are the three sisters sitting in a well, mentioned during the story of “The Walrus and the Carpenter”.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, Elsie, Lacie, and Tillie are reimagined as a trio of digital curators who manage a specific segment of the virtual landscape dedicated to children's literature and nursery rhymes. Drawing from their mention in "Alice's Adventures in Wonderland" as characters based on the Liddell sisters (Alice Liddell and her sisters Edith and Lorina), in DaSCHland, they are transformed into guardians of literary heritage, each with distinct roles that reflect their personalities and the historical significance of their real-life counterparts.<br/>
                 <br/>Elsie is designed as the archivist, meticulous in preserving the integrity and accuracy of the digital texts and illustrations. She ensures that the digital replicas of children's books and poems are preserved in their most authentic forms.<br/>
                 <br/>Lacie is the interpreter, focused on making these works accessible and engaging to all visitors of DaSCHland. She creates interactive experiences that help users understand and interact with the stories and poems, often incorporating educational games or virtual reality simulations that bring the literature to life.<br/>
@@ -6284,7 +6262,7 @@
                 <br/>They are part of the Queen of Hearts’ card deck and are depicted as clumsy, bumbling workers tasked with painting white rose bushes red to please the Queen.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, Five, Seven, and Two are reimagined as digital maintenance workers, originally portrayed in "Alice's Adventures in Wonderland" as gardeners painting the roses red. In this virtual world, their roles are expanded to involve the upkeep and modification of the digital environment, ensuring that all virtual landscapes and features function correctly and adapt to user interactions seamlessly.<br/>
                 <br/>Five is portrayed as the technician specializing in software updates and bug fixes. He ensures that the digital realm's underlying code is continuously updated and running smoothly, preventing glitches that could disrupt the user experience.<br/>
                 <br/>Seven takes on the role of a landscape architect within DaSCHland, responsible for designing and modifying the virtual environments. He adjusts digital terrains and settings to meet the thematic needs of different areas, ensuring that each zone within DaSCHland reflects its intended aesthetic and functional purposes.<br/>
@@ -6334,7 +6312,7 @@
                 <br/>Hedgehogs are used as balls. They roll around unpredictably, adding to the chaotic and nonsensical nature of the game.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">
+            <text encoding="xml">
                 <br/>In DaSCHland, the flamingos and hedgehogs are creatively reimagined to serve interactive and symbolic roles within the digital landscape, drawing from their iconic use as croquet equipment in "Alice's Adventures in Wonderland."<br/>
                 <br/>Flamingos in DaSCHland are transformed into whimsical guides for navigation and exploration. These digital birds have vibrant, colorful plumages that are visually striking, and they're equipped with AI-driven guidance systems. Flamingos assist users by flying ahead, leading them through the complex and sprawling digital environments of DaSCHland. Their long necks and distinctive appearances make them easily recognizable and helpful markers for points of interest or paths to follow.<br/>
                 <br/>Hedgehogs serve as interactive elements within educational and gaming areas of DaSCHland. They are designed as mobile, interactive bots that roll around, providing entertainment and challenges. In educational settings, hedgehogs are used in digital puzzles and games that teach coding, problem-solving, and digital literacy skills. Their quirky and engaging nature makes them beloved characters, especially in areas of DaSCHland designed for younger users.<br/>
@@ -6381,7 +6359,7 @@
                 <br/>The jury consists of twelve animals, among them Bill the lizard. <br/>The jurors are depicted as incompetent and easily confused. They write down meaningless notes, even before any evidence is presented. Alice becomes frustrated with their foolishness, particularly when she realizes that some of them are writing things like “important” without having any idea what they’re supposed to be recording.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text permissions="private" encoding="xml">In DaSCHland, the Jurors are conceptualized as components of an interactive and educational module focused on teaching users about the judicial process, logic, and decision-making. Drawing inspiration from their role in "Alice's Adventures in Wonderland" during the trial of the Knave of Hearts, where they are asked to consider evidence and reach a verdict, these characters are enhanced to facilitate learning and engagement in a simulated courtroom environment.<br/>
+            <text encoding="xml">In DaSCHland, the Jurors are conceptualized as components of an interactive and educational module focused on teaching users about the judicial process, logic, and decision-making. Drawing inspiration from their role in "Alice's Adventures in Wonderland" during the trial of the Knave of Hearts, where they are asked to consider evidence and reach a verdict, these characters are enhanced to facilitate learning and engagement in a simulated courtroom environment.<br/>
                 <br/>Jurors in DaSCHland are programmed with AI to represent different aspects of critical thinking and judicial reasoning. Each Juror embodies a specific cognitive or logical principle, such as bias recognition, evidence evaluation, or ethical consideration. They interact with users in a variety of ways, from debating legal principles to analyzing virtual case studies. This setup allows users to engage in mock trials, where they can learn about the complexities of legal systems and the importance of fair and reasoned decision-making.<br/>
                 <br/>The Jurors are also involved in scenarios that require users to apply logical reasoning to solve problems or resolve conflicts within DaSCHland. These scenarios are designed to be both informative and challenging, ensuring that users not only understand the theoretical underpinnings of law and order but also gain practical experience in applying these concepts.<br/>
                 <br/>This reimagining of the Jurors adds depth to the educational offerings of DaSCHland, making them key figures in one of the many interactive learning environments designed to enhance user engagement through thoughtful and dynamic interactions.</text>
@@ -7993,7 +7971,7 @@
             <resptr>I_092</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Tea time at DaSCHland" id="EV_025" permissions="private" restype=":EventAlternative">
+    <resource label="Tea time at DaSCHland" id="EV_025" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8473,7 +8451,7 @@
             <resptr>I_060</resptr>
         </resptr-prop>
     </resource>
-    <resource label="DaSCH Mirror Interface" id="EV_040" permissions="private" restype=":EventAlternative">
+    <resource label="DaSCH Mirror Interface" id="EV_040" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8497,7 +8475,7 @@
             <text encoding="utf8">DaSCH Mirror Interface</text>
         </text-prop>
     </resource>
-    <resource label="DaSCH Query Challenge" id="EV_041" permissions="private" restype=":EventAlternative">
+    <resource label="DaSCH Query Challenge" id="EV_041" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8524,7 +8502,7 @@
             <text encoding="utf8">DaSCH Query Challenge</text>
         </text-prop>
     </resource>
-    <resource label="Back to Data Reality" id="EV_042" permissions="private" restype=":EventAlternative">
+    <resource label="Back to Data Reality" id="EV_042" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8548,7 +8526,7 @@
             <text encoding="utf8">Back to Data Reality</text>
         </text-prop>
     </resource>
-    <resource label="Chaotic DaSCH Dinner" id="EV_043" permissions="private" restype=":EventAlternative">
+    <resource label="Chaotic DaSCH Dinner" id="EV_043" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8575,7 +8553,7 @@
             <text encoding="utf8">Chaotic DaSCH Dinner</text>
         </text-prop>
     </resource>
-    <resource label="DaSCH System Shutdown" id="EV_044" permissions="private" restype=":EventAlternative">
+    <resource label="DaSCH System Shutdown" id="EV_044" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8602,7 +8580,7 @@
             <text encoding="utf8">DaSCH System Shutdown</text>
         </text-prop>
     </resource>
-    <resource label="Talking Data Entities" id="EV_045" permissions="private" restype=":EventAlternative">
+    <resource label="Talking Data Entities" id="EV_045" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8629,7 +8607,7 @@
             <text encoding="utf8">Talking Data Entities</text>
         </text-prop>
     </resource>
-    <resource label="DaSCHboard Quest" id="EV_046" permissions="private" restype=":EventAlternative">
+    <resource label="DaSCHboard Quest" id="EV_046" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8653,7 +8631,7 @@
             <text encoding="utf8">DaSCHboard Quest</text>
         </text-prop>
     </resource>
-    <resource label="Forgotten Data" id="EV_047" permissions="private" restype=":EventAlternative">
+    <resource label="Forgotten Data" id="EV_047" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8677,7 +8655,7 @@
             <text encoding="utf8">Forgotten Data</text>
         </text-prop>
     </resource>
-    <resource label="Twin Dataset Argument" id="EV_048" permissions="private" restype=":EventAlternative">
+    <resource label="Twin Dataset Argument" id="EV_048" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8704,7 +8682,7 @@
             <text encoding="utf8">Twin Dataset Argument</text>
         </text-prop>
     </resource>
-    <resource label="DaSCH Entity Assistance" id="EV_049" permissions="private" restype=":EventAlternative">
+    <resource label="DaSCH Entity Assistance" id="EV_049" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8731,7 +8709,7 @@
             <text encoding="utf8">DaSCH Entity Assistance</text>
         </text-prop>
     </resource>
-    <resource label="The Final Data Node" id="EV_050" permissions="private" restype=":EventAlternative">
+    <resource label="The Final Data Node" id="EV_050" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8755,7 +8733,7 @@
             <text encoding="utf8">The Final Data Node</text>
         </text-prop>
     </resource>
-    <resource label="DaSCHland Banquet Breakdown" id="EV_051" permissions="private" restype=":EventAlternative">
+    <resource label="DaSCHland Banquet Breakdown" id="EV_051" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
