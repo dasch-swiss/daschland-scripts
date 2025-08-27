@@ -42,7 +42,7 @@ def main() -> list[Resource]:
         elif row["Event Type"] == "Adventure":
             resource = Resource.create_new(res_id=resource_id, restype=":EventAdventure", label=resource_label)
         elif row["Event Type"] == "Alternative":
-            resource = Resource.create_new(res_id=resource_id,restype=":EventAlternative",label=resource_label)
+            resource = Resource.create_new(res_id=resource_id, restype=":EventAlternative", label=resource_label)
         else:
             continue
 

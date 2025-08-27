@@ -27,7 +27,6 @@ def main() -> list[Resource]:
 
     # iterate through rows of dataframe:
     for _, row in book_chapter_df.iterrows():
-
         # define variables
         keywords_names_raw = create_list(row["Keyword"])
         keyword_names = [
