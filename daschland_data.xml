@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
+    <permissions id="public">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="private">
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="limited_view">
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">RV</allow>
+        <allow group="ProjectMember">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
     <authorship id="authorship_1">
         <author>Arielle Lipshaw (Editor)</author>
         <author>Elizabeth Klett (Meta Coordinator &amp; Editor)</author>
@@ -4775,7 +4791,6 @@
                 <br/>The White Rabbit is always late, which is a nod to Oxford time. At Oxford, especially at Christ Church, where Carroll used to teach, events often start five minutes after the scheduled hour <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-
             <text encoding="xml">In DaSCHland, RabbIT is a dazzling reinvention of the classic White Rabbit from Alice in Wonderland, seamlessly blending Victorian elegance with cutting-edge cybernetics. Serving as Alice’s ever-alert companion and digital guide, RabbitIT retains the essential traits of urgency, precision, and insight, but in this world of structured data and semantic layers, his role is transformed into something far more sophisticated.<br/>
                 <br/>Physically, RabbIT stands upright with the poise of a seasoned archivist, his lean white-furred frame outfitted in a digitally enhanced tweed waistcoat, woven with subtle glowing circuit patterns. The waistcoat pulses gently with his neural interface, reacting to environmental stimuli and query processing. At his chest hangs a pocket watch—now a circular holographic interface, flickering with layered timestamps, metadata clusters, and time-sensitive DaSCH queries. His bowtie spins slowly when system queries are active, an eccentric flourish of his old-world charm. His large, expressive eyes shimmer with augmented overlays, capable of scanning artifacts and projecting layered contexts from DaSCH’s repositories.<br/>
                 <br/>Perched before him is a suspended 3D hologram map of DaSCHland, a stunning lattice of interlinked domains, encoded landscapes, and floating literary landmarks. The hologram emits a soft blue luminescence as it rotates in mid-air, constantly updating with Alice’s position, temporal metadata overlays, and cross-referenced paths. With one paw extended, RabbIT manipulates the projection with delicate swipes and taps, zooming into sections like the Archive Gardens, the Textual Maze, or the Metadata Mountains. His ears twitch responsively as he receives real-time updates—reminders from calendrical entries in narrative timelines or system-generated alerts about data anomalies in literary zones.<br/>
