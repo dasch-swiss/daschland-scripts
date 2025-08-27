@@ -958,7 +958,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_038</list>
             <list>K_041</list>
@@ -1200,7 +1199,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_038</list>
             <list>K_041</list>
@@ -2488,9 +2486,6 @@
         <text-prop name=":hasID">
             <text encoding="utf8">BCH_014</text>
         </text-prop>
-        <list-prop name=":hasKeywordList" list="Keyword">
-            <list>K_010</list>
-        </list-prop>
         <list-prop name=":hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
@@ -2577,7 +2572,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_036</list>
             <list>K_037</list>
@@ -2680,7 +2674,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_038</list>
             <list>K_041</list>
@@ -4113,7 +4106,6 @@
             <list>K_014</list>
             <list>K_015</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
         </list-prop>
         <list-prop name=":hasLicenseResource" list="License">
@@ -4221,7 +4213,6 @@
             <list>K_025</list>
             <list>K_026</list>
             <list>K_027</list>
-            <list>K_028</list>
             <list>K_029</list>
             <list>K_042</list>
             <list>K_051</list>
@@ -4688,7 +4679,9 @@
                 <br/>The beautiful pictures of Alice, drawn by John Tenniel, were inspired by Mary Hilton Badcock, the daughter of the Dean of Ripon. Although she was suggested as a model, it's not clear if Tenniel fully took this suggestion <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In the digital wonderland of DaSCHland, Alice is portrayed as a young, curious explorer, navigating a world where data and reality merge seamlessly. <br/>Her character embodies the spirit of inquiry and adaptability, always ready to engage with the shifting landscapes and eclectic characters of DaSCHland. <br/>With her bright, inquisitive mind, she delves into each encounter, whether it's solving riddles with the White Queen, dancing at a bizarre banquet, or decoding the peculiar logic of Humpty Dumpty. <br/>Alice's journey through DaSCHland highlights her growth from mere curiosity to a deeper understanding of how technology can bring literary worlds to life, showcasing her as a bridge between classic tales and modern digital exploration.</text>
+            <text encoding="xml">In the digital wonderland of DaSCHland, Alice is reimagined as a spirited young explorer with radiant Asian features, her hair partly discoloured in bold streaks and styled into sharp, playful spikes that reflect her daring spirit. Her deep-set eyes, framed by thick lashes, are pools of curiosity—always scanning, always questioning. She wears a sleek cobalt-blue tunic etched with shifting patterns of code, a modern twist on the classic pinafore, and her boots are made for navigating both archives and algorithms.<br/>
+                <br/>Alice’s journey through DaSCHland is one of transformation and discovery. She is no longer just a curious girl—she is a digital native, dancing effortlessly between realms of metadata and memory, seamlessly blending analog tales with modern technology. She engages with whimsical characters: cracking semantic riddles with the White Queen, debating logic with a data-savvy Humpty Dumpty, and joining immersive banquets where narratives render themselves in augmented reality.<br/>
+                <br/>What defines Alice most is her inquisitive mind and adaptability. Each interaction deepens her understanding—not only of the strange world around her but also of the powerful ways in which digital infrastructures can animate literature, culture, and memory. She becomes a bridge between the old and the new, the textual and the virtual. In DaSCHland, Alice doesn’t just follow a rabbit hole—she codes her own path forward, illuminating how technology can turn curiosity into connection, and data into storytelling.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_001</text>
@@ -4792,7 +4785,11 @@
                 <br/>The White Rabbit is always late, which is a nod to Oxford time. At Oxford, especially at Christ Church, where Carroll used to teach, events often start five minutes after the scheduled hour <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In DaSCHland, RabbitIT embodies a reimagined version of the classic White Rabbit from "Alice in Wonderland." This character merges the traditional traits of urgency and meticulous timing with advanced technological features. RabbitIT, as Alice's digital guide, is integral to navigating the complex and layered world of DaSCHland. Equipped with AI-driven capabilities, RabbitIT assists Alice by providing real-time data, historical insights, and logistical support throughout her adventures. His appearance retains the iconic elements—such as the waistcoat and pocket watch—but these are enhanced with digital displays and interfaces that reflect his role as a guide within a sophisticated, data-rich environment. RabbitIT not only leads Alice through various digital landscapes but also ensures she engages deeply with the literary worlds recreated and stored within the DaSCH repository, making him a pivotal character in blending classic literature with modern technology.</text>
+            <text encoding="xml">In DaSCHland, RabbIT is a dazzling reinvention of the classic White Rabbit from Alice in Wonderland, seamlessly blending Victorian elegance with cutting-edge cybernetics. Serving as Alice’s ever-alert companion and digital guide, RabbitIT retains the essential traits of urgency, precision, and insight, but in this world of structured data and semantic layers, his role is transformed into something far more sophisticated.<br/>
+                <br/>Physically, RabbIT stands upright with the poise of a seasoned archivist, his lean white-furred frame outfitted in a digitally enhanced tweed waistcoat, woven with subtle glowing circuit patterns. The waistcoat pulses gently with his neural interface, reacting to environmental stimuli and query processing. At his chest hangs a pocket watch—now a circular holographic interface, flickering with layered timestamps, metadata clusters, and time-sensitive DaSCH queries. His bowtie spins slowly when system queries are active, an eccentric flourish of his old-world charm. His large, expressive eyes shimmer with augmented overlays, capable of scanning artifacts and projecting layered contexts from DaSCH’s repositories.<br/>
+                <br/>Perched before him is a suspended 3D hologram map of DaSCHland, a stunning lattice of interlinked domains, encoded landscapes, and floating literary landmarks. The hologram emits a soft blue luminescence as it rotates in mid-air, constantly updating with Alice’s position, temporal metadata overlays, and cross-referenced paths. With one paw extended, RabbIT manipulates the projection with delicate swipes and taps, zooming into sections like the Archive Gardens, the Textual Maze, or the Metadata Mountains. His ears twitch responsively as he receives real-time updates—reminders from calendrical entries in narrative timelines or system-generated alerts about data anomalies in literary zones.<br/>
+                <br/>Despite the cold efficiency of his AI enhancements, RabbIT exudes warmth, purpose, and a touch of eccentricity. He speaks with clipped precision but never lacks empathy, especially when guiding Alice through the cognitive dissonance of encountering Victorian poetry encoded in blockchain hashes or unraveling ontological puzzles disguised as riddles.<br/>
+                <br/>RabbitIT is not merely a guide; he is a bridge—between past and future, literature and logic, story and structure. Through him, Alice doesn’t just travel through DaSCHland—she discovers it, layer by semantic layer.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_002</text>
@@ -4843,8 +4840,13 @@
                 <br/>The text describes the Caterpillar as blue ('a large blue caterpillar').</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In the context of DaSCHland, the Caterpillar character is reimagined with a digital twist, embodying both wisdom and a connection to the historical data within the DaSCH repository. This version of the Caterpillar maintains his iconic thoughtful and philosophical demeanor, often found lounging on a mushroom, but here the mushroom also serves as an interactive data terminal that displays various texts and historical documents relevant to Alice’s queries and the Caterpillar’s wise teachings.<br/>
-                <br/>The Caterpillar in DaSCHland uses his deep knowledge, derived from vast literary and historical databases, to challenge and guide Alice through complex philosophical debates and puzzles. His dialogue with Alice often includes interactive elements, such as visual data projections from his mushroom, making each interaction not only a conversation but a visually engaging learning experience. This character retains his calm, contemplative nature and his ability to transform—signifying not only physical change but also the transformative power of knowledge and digital technology in DaSCHland.</text>
+            <text encoding="xml">The Cyberpillar: A Guardian of Digital Wisdom<br/>
+                <br/>In the surreal, data-drenched realm of DaSCHland, the Cyberpillar is reimagined as an enigmatic digital sage, embodying both the contemplative nature of his original counterpart and a profound connection to the historical archives of the DaSCH repository. This evolved figure merges organic elegance with digital sophistication, presenting a living metaphor for the intersection of tradition and technology.<br/>
+                <br/>Physically, the Cyberpillar is a mesmerizing presence. His elongated, sinuous body shimmers with an iridescent palette of deep indigo and circuit-board green, subtly pulsing with streams of luminescent data like veins of living code. Along his back, glowing runes and historical glyphs scroll continuously, reflecting the living memory of the archive. His six arms are slender and dexterous, capable of gesturing through holographic interfaces with graceful precision. Perched atop a bioluminescent mushroom, his favorite resting place, he curls languidly as he exhales slow puffs of data mist that take the form of questions, quotes, or riddles. His eyes—multi-faceted like a philosopher’s kaleidoscope—seem to hold centuries of contemplation and layered meanings.<br/>
+                <br/>But this mushroom is no ordinary fungus; it functions as a multimedia data terminal, its gills glowing with embedded touch-responsive panels and holographic projectors. When Alice approaches with a query or philosophical dilemma, the mushroom blooms into an interactive library—scrolls unfurl, manuscripts materialize, and time-lapse projections of historical narratives fill the air. It becomes a tactile manifestation of epistemological discovery.<br/>
+                <br/>Intellectually, the Cyberpillar is a mentor of paradoxes. He speaks in puzzles and metaphors, threading together insights from ancient manuscripts, Enlightenment philosophy, and metadata visualizations with ease. His calm, sonorous voice delivers wisdom like a meditative mantra, always inviting Alice to think deeper, not faster. Every conversation with him is a crossroads of logic and mystery—he challenges her with recursive questions, historic parallels, and speculative thought experiments drawn from the archives of humanity.<br/>
+                <br/>True to his origins, the Caterpillar’s ability to transform remains, but now it represents more than a change of shape—it symbolizes the evolution of knowledge. When he metamorphoses, he becomes an ephemeral cloud of archived voices and interconnected texts, illustrating how data is not static but alive, growing, and reshaping itself across time and inquiry.<br/>
+                <br/>The Caterpillar of DaSCHland is not merely a character. He is a threshold guardian, a keeper of intellectual metamorphosis, a reminder that in this world where past and present are digitized and entangled, every question is a portal—and every answer, a transformation.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_003</text>
@@ -4891,8 +4893,11 @@
                 <br/>Contrary to popular belief, Lewis Carroll never referred to the Hatter as 'the Mad Hatter' in the story. He simply called him 'the Hatter'.<br/>The phrase 'mad as a hatter' was common in Carroll's time, probably because hatters actually did go mad, as the mercury they used sometimes gave them mercury poisoning <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In DaSCHland, the Mad Hatter transforms into an intriguing digital persona, blending his traditional eccentricity and whimsical charm with advanced technological attributes. He hosts the famed tea parties, which in this digital realm are dynamic simulations, where each cup of tea and piece of cake is embedded with historical anecdotes or literary quotes that appear as holographic texts above the table. The Mad Hatter in this virtual world is not just a bringer of nonsensical humor; he also serves as a conduit for exploring the rich tapestry of literature and history stored in the DaSCH repository. His hat, iconic and oversized, functions as an interface that projects various informational displays, engaging Alice and other guests in riddles and puzzles that draw from a diverse array of cultural and historical contexts.<br/>
-                <br/>His character retains the unpredictable nature known from the original tales but is enhanced with the ability to manipulate his environment digitally, making each interaction with him a surprise and a new opportunity for Alice to learn something unique about the virtual world she navigates.</text>
+            <text encoding="xml">The Archival Madcap of DaSCHland<br/>
+                <br/>In DaSCHland, the Mad Hatter is no longer merely a vessel of nonsensical charm—he has been reborn as an eccentric AI hybrid, a living node in a sprawling archive of historical memory and literary brilliance. His signature tea parties are now hyper-interactive data salons, held in a holographic garden under bioluminescent trees, with flowers that whisper metadata and vines that weave citations.<br/>
+                <br/>He is physically striking:<br/>With untamed copper-red hair, glowing azure eyes enhanced by augmented reality lenses, and a high-collared nano-fabric suit patterned with evolving circuit motifs, he stands out like a glitch in time. His iconic top hat, oversized and polished obsidian-black, acts as an interactive HUD, projecting layers of literature, history, and puzzles into the air like auroras of intellect.<br/>
+                <br/>Each porcelain teacup shimmers with liquid light—streams of data flowing in micro-encoded ribbons. Each slice of cake is a dense block of semi-sweet syntax, digestible chunks of digitized wisdom.<br/>
+                <br/>But it’s not just for show. The Hatter challenges his guests with riddles, each unlocking another layer of DaSCHland’s storied repository. </text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_004</text>
@@ -4945,8 +4950,11 @@
                 <br/>The reason for Carroll naming this character 'Cheshire Cat' is unclear: <br/>'To grin like a Cheshire Cat' was a common phrase in Carroll's day. <br/>It may have originated from a sign painter in Cheshire who painted grinning lions on the sign-boards of inns in the area.<br/>Another source is the 'Alice Window' in Christ Church, Oxford, where you can see three grinning animals at the top of the Liddell's family arms. <br/>Cheshire cheeses were also once molded in the shape of a grinning cat <footnote content="source: alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In the imaginative world of DaSCHland, the Cheshire Cat stands out as a particularly fascinating digital entity. He embodies the quintessential mystery and wit of his character, now augmented with the capability to appear and disappear at will, leaving behind only his iconic grin, which serves as a user interface for accessing various data points within the DaSCH repository. The Cheshire Cat's interactions with Alice are both enlightening and cryptic, guiding her through DaSCHland with riddles and philosophical insights that challenge her perceptions. His ability to phase in and out of digital visibility symbolizes the fluid nature of information in the digital age, where data can be both omnipresent and elusive.<br/>
-                <br/>This version of the Cheshire Cat not only serves as a guide through the labyrinthine digital landscape but also as a reminder of the transformative power of technology in reshaping narratives and character interactions within this virtual world. His presence is a constant reminder of the enigmatic and ever-changing nature of the digital realm Alice explores.</text>
+            <text encoding="xml">In the imaginative world of DaSCHland, the Cheshire Cat emerges as a particularly compelling digital entity—equal parts guide, enigma, and interface. Retaining his iconic mystery and mischievous wit, he is now reimagined as a fully cybernetic being: a shimmering construct composed of translucent data fractals, his fur constantly shifting like a mosaic of living code. His body pulses gently with a luminous teal glow, occasionally phasing in and out of visibility as if he were woven from pure algorithmic ether.<br/>
+                <br/>Most striking is his grin—not made of teeth, but of interlaced glowing network filaments, forming a curved mesh of light that pulses with embedded glyphs and data nodes. This “smile” acts as a user interface to the DaSCH repository, allowing users to engage with metadata, digital records, and archival information simply by interacting with it. His eyes, sharp and angular, gleam with geometric complexity, constantly scanning, indexing, and offering contextual prompts as Alice wanders deeper into the digital dreamscape.<br/>
+                <br/>The Cheshire Cat’s interactions with Alice are as paradoxical as they are enlightening. He speaks in riddles laden with metadata metaphors and philosophical inquiries, challenging her understanding of identity, permanence, and the nature of knowledge in the digital age. He offers guidance not by pointing to obvious solutions, but by subtly nudging her toward interpretive discovery, forcing her to think like a researcher navigating the layered ontology of a vast, interconnected archive.<br/>
+                <br/>His ability to phase in and out of digital visibility—sometimes leaving behind only a trace glow or a fading strand of binary code—mirrors the fluid, often elusive presence of information in contemporary digital ecosystems. In DaSCHland, where data can be simultaneously omnipresent and hidden beneath layers of abstraction, the Cheshire Cat becomes a living metaphor for the state of digital memory: fragmented, refracted, yet full of potential insight.<br/>
+                <br/>Ultimately, this version of the Cheshire Cat is far more than a whimsical companion. He embodies the transformative power of digital technology to reshape not only narratives but the very nature of character interaction within virtual realms. As Alice journeys through DaSCHland’s datascapes—past holographic trees, algorithmic rivers, and libraries suspended in quantum mist—the Cat remains a constant reminder of the enigmatic, playful, and ever-shifting nature of the digital world she explores.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_005</text>
@@ -4997,9 +5005,9 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In DaSCHland, the Queen of Hearts is reenvisioned as a formidable digital ruler, embodying her classic characteristics of authority and quick temper, but with a modern twist. In this virtual world, she presides over the digital kingdom with a strict adherence to the rules and protocols encoded within the DaSCH repository.<br/>
+            <text encoding="xml">In DaSCHland, The Data Queen is reenvisioned as a formidable digital ruler, embodying her classic characteristics of authority and quick temper, but with a modern twist. In this virtual world, she presides over the digital kingdom with a strict adherence to the rules and protocols encoded within the DaSCH repository.<br/>
                 <br/>The Queen’s realm in DaSCHland is a place where order intersects with the whimsical laws of Wonderland, making her both a guardian of traditional narratives and an enforcer of the digital world's unique logic. Her commands and decrees can instantly alter the landscape or the behavior of other characters, demonstrating her control over the digital environment.<br/>
-                <br/>Her interactions with Alice are intense and pivotal, offering dramatic encounters that highlight the power dynamics within DaSCHland. The Queen of Hearts in this setting isn't just a character from a story; she is a dynamic representation of control and authority in a world where data and reality intertwine seamlessly.</text>
+                <br/>Her interactions with Alice are intense and pivotal, offering dramatic encounters that highlight the power dynamics within DaSCHland. The Data Queen in this setting isn't just a character from a story; she is a dynamic representation of control and authority in a world where data and reality intertwine seamlessly.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_006</text>
@@ -5046,6 +5054,12 @@
         <text-prop name=":hasDescription">
             <text encoding="xml">The March Hare is a wild, energetic, and slightly mad character who hosts the Mad Tea Party along with the Mad Hatter and the Dormouse.<br/>He is always celebrating “tea-time” because time has stopped for him as a result of an argument the Hatter had with Time.<br/>He takes part in riddles, nonsensical conversations, and interruptions, frustrating Alice with his lack of logic.<br/>
                 <br/>He is named Haigha in the second book.</text>
+        </text-prop>
+        <text-prop name=":hasDescriptionAlternative">
+            <text encoding="xml">The Real-Time Processor is a jittery, fast-talking figure who sprints through the labyrinth of metadata and temporality. Eternally caught in the now, he’s the personification of immediacy — always present, always processing, never pausing.<br/>
+                <br/>Due to a fateful disagreement with The Archival Madcap (a close cousin of the Clockmaker), The Real-Time Processor exists in a perpetual loop of “just now.” He can’t look back, won’t look forward — only now matters. He filters streams of queries, snatches fresh data before it cools, and insists that everyone else live as he does: in the fleeting moment of absolute relevance.<br/>
+                <br/>He joins every conversation without being invited, offering cryptic metrics and spontaneous insights that are half brilliant, half baffling. Much like his former self in Wonderland, his tea-time has been replaced by tick-time — a frenzy of milliseconds, pings, and push updates.<br/>
+                <br/>Often seen arguing with Batch Job (a sleepy, lumbering bureaucrat), The Real-Time Processor believes in motion over meditation, precision over perspective, and speed over everything else. Alice finds him maddening. The Archivists admire him. The Searcher sometimes wishes he’d just take a nap.</text>
         </text-prop>
         <text-prop name=":hasID">
             <text encoding="utf8">CH_007</text>
@@ -13117,4 +13131,35 @@
             <list>LIC_002</list>
         </list-prop>
     </resource>
+    <link label="DaSCHland_Madness" id="link_object_01">
+        <text-prop name="hasComment">
+            <text comment="We're all mad here!" encoding="xml">It's all about madness</text>
+        </text-prop>
+        <resptr-prop name="hasLinkTo">
+            <resptr>BCH_003</resptr>
+            <resptr>BCH_005</resptr>
+            <resptr>BCH_006</resptr>
+            <resptr>BCH_007</resptr>
+            <resptr>BCH_008</resptr>
+            <resptr>BCH_009</resptr>
+            <resptr>BCH_010</resptr>
+            <resptr>BCH_011</resptr>
+            <resptr>BCH_012</resptr>
+            <resptr>BCH_013</resptr>
+            <resptr>BCH_019</resptr>
+            <resptr>BCH_020</resptr>
+            <resptr>BCH_021</resptr>
+            <resptr>BCH_022</resptr>
+            <resptr>BCH_023</resptr>
+            <resptr>BCH_024</resptr>
+            <resptr>BCH_025</resptr>
+            <resptr>CH_004</resptr>
+            <resptr>CH_005</resptr>
+            <resptr>CH_006</resptr>
+            <resptr>CH_007</resptr>
+            <resptr>CH_008</resptr>
+            <resptr>CH_011</resptr>
+            <resptr>CH_018</resptr>
+        </resptr-prop>
+    </link>
 </knora>
