@@ -25,7 +25,8 @@ def main() -> list[Resource]:
         book_id = create_list(row["Book ID"])
         character_id = create_list_from_input(row["Character ID"], separator=",")
         file_permissions = (
-            Permissions.LIMITED_VIEW if row["Restricted view"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS)
+            Permissions.LIMITED_VIEW if row["Restricted view"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
+        )
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
