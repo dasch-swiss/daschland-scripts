@@ -178,8 +178,7 @@ wheels = [
 
 [[package]]
 name = "dsp-tools"
-version = "16.8.0.post7"
-
+version = "16.9.0.post1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "argparse" },
@@ -203,10 +202,10 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-
 sdist = { url = "https://files.pythonhosted.org/packages/f1/83/6dd59f43986037bb65194989c8436d2ed197cacbd60863f0ca89b6bbb937/dsp_tools-16.9.0.post1.tar.gz", hash = "sha256:7fb394416b107397ff25c81ce729e26ca281cc3ed75627e75b054fd2c21869a1", size = 7184602, upload-time = "2025-08-27T13:34:27.545Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/2e/8c/7b9a202dd3abc7b768e7af6179f27c0338b12612b77e46a0fbf1790e86f0/dsp_tools-16.9.0.post1-py3-none-any.whl", hash = "sha256:509758490d2b424958daf451a32a55bf10df19b0a2e654848d8627bba5e7eaea", size = 380860, upload-time = "2025-08-27T13:34:25.397Z" },
+]
 
 [[package]]
 name = "et-xmlfile"
