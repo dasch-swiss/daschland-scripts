@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import ListLookup, Permissions, Resource
+from dsp_tools.xmllib import ListLookup, Resource
 from dsp_tools.xmllib.helpers import create_footnote_string, create_list_from_input
 
 from src.helpers.cleaning_df_tools import create_list
@@ -53,11 +53,7 @@ def main() -> list[Resource]:
         resource.add_simpletext_multiple(":hasName", names)
         resource.add_richtext(":hasDescription", description)
 
-        resource.add_richtext_optional(
-            prop_name=":hasDescriptionAlternative",
-            value=row["Alternative Description"],
-            permissions=Permissions.PRIVATE,
-        )
+        resource.add_richtext_optional(prop_name=":hasDescriptionAlternative", value=row["Alternative Description"])
         resource.add_list_multiple(prop_name=":hasRoleList", list_name="Role", values=roles)
         resource.add_richtext_optional(":hasQuote", row["Quote"])
         resource.add_link_multiple(":linkToImage", image_ids)
