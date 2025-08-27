@@ -108,75 +108,75 @@
             {
                 "name": "License",
                 "labels": {
-                    "en": "License",
-                    "fr": "Licence"
+                    "fr": "Licence",
+                    "en": "License"
                 },
                 "comments": {
-                    "en": "License",
-                    "fr": "Licence"
+                    "fr": "Licence",
+                    "en": "License"
                 },
                 "nodes": [
                     {
                         "name": "LIC_001",
                         "labels": {
-                            "en": "CC0 1.0",
-                            "fr": "CC0 1.0"
+                            "fr": "CC0 1.0",
+                            "en": "CC0 1.0"
                         }
                     },
                     {
                         "name": "LIC_002",
                         "labels": {
-                            "en": "CC BY 4.0",
-                            "fr": "CC BY 4.0"
+                            "fr": "CC BY 4.0",
+                            "en": "CC BY 4.0"
                         }
                     },
                     {
                         "name": "LIC_003",
                         "labels": {
-                            "en": "CC BY-SA 4.0",
-                            "fr": "CC BY-SA 4.0"
+                            "fr": "CC BY-SA 4.0",
+                            "en": "CC BY-SA 4.0"
                         }
                     },
                     {
                         "name": "LIC_004",
                         "labels": {
-                            "en": "CC BY-NC 4.0",
-                            "fr": "CC BY-NC 4.0"
+                            "fr": "CC BY-NC 4.0",
+                            "en": "CC BY-NC 4.0"
                         }
                     },
                     {
                         "name": "LIC_005",
                         "labels": {
-                            "en": "CC BY-NC-SA 4.0",
-                            "fr": "CC BY-NC-SA 4.0"
+                            "fr": "CC BY-NC-SA 4.0",
+                            "en": "CC BY-NC-SA 4.0"
                         }
                     },
                     {
                         "name": "LIC_006",
                         "labels": {
-                            "en": "CC BY-ND 4.0",
-                            "fr": "CC BY-ND 4.0"
+                            "fr": "CC BY-ND 4.0",
+                            "en": "CC BY-ND 4.0"
                         }
                     },
                     {
                         "name": "LIC_007",
                         "labels": {
-                            "en": "CC BY-NC-ND 4.0",
-                            "fr": "CC BY-NC-ND 4.0"
+                            "fr": "CC BY-NC-ND 4.0",
+                            "en": "CC BY-NC-ND 4.0"
                         }
                     },
                     {
                         "name": "LIC_008",
                         "labels": {
-                            "en": "PDM 1.0",
-                            "fr": "PDM 1.0"
+                            "fr": "PDM 1.0",
+                            "en": "PDM 1.0"
                         }
                     },
                     {
                         "name": "LIC_009",
                         "labels": {
-                            "en": "Public Domain",
-                            "fr": "Domaine Public"
+                            "fr": "Domaine Public",
+                            "en": "Public Domain"
                         }
                     }
                 ]
@@ -184,54 +184,54 @@
             {
                 "name": "Event Type",
                 "labels": {
-                    "en": "Event Type",
-                    "fr": "Type d'événement"
+                    "fr": "Type d'événement",
+                    "en": "Event Type"
                 },
                 "comments": {
-                    "en": "Event Type",
-                    "fr": "Type d'événement"
+                    "fr": "Type d'événement",
+                    "en": "Event Type"
                 },
                 "nodes": [
                     {
                         "name": "EVT_001",
                         "labels": {
-                            "en": "Adventure",
-                            "fr": "Aventure"
+                            "fr": "Aventure",
+                            "en": "Adventure"
                         },
                         "nodes": [
                             {
                                 "name": "EVT_002",
                                 "labels": {
-                                    "en": "Inciting Incident",
-                                    "fr": "Incident incitant"
+                                    "fr": "Incident incitant",
+                                    "en": "Inciting Incident"
                                 }
                             },
                             {
                                 "name": "EVT_003",
                                 "labels": {
-                                    "en": "Physical Transformation",
-                                    "fr": "Transformation physique"
+                                    "fr": "Transformation physique",
+                                    "en": "Physical Transformation"
                                 }
                             },
                             {
                                 "name": "EVT_004",
                                 "labels": {
-                                    "en": "Exploration",
-                                    "fr": "Exploration"
+                                    "fr": "Exploration",
+                                    "en": "Exploration"
                                 }
                             },
                             {
                                 "name": "EVT_005",
                                 "labels": {
-                                    "en": "Role Change",
-                                    "fr": "Changement de rôle"
+                                    "fr": "Changement de rôle",
+                                    "en": "Role Change"
                                 }
                             },
                             {
                                 "name": "EVT_006",
                                 "labels": {
-                                    "en": "Resolution",
-                                    "fr": "Résolution"
+                                    "fr": "Résolution",
+                                    "en": "Resolution"
                                 }
                             }
                         ]
@@ -239,29 +239,29 @@
                     {
                         "name": "EVT_007",
                         "labels": {
-                            "en": "Social",
-                            "fr": "Social"
+                            "fr": "Social",
+                            "en": "Social"
                         },
                         "nodes": [
                             {
                                 "name": "EVT_008",
                                 "labels": {
-                                    "en": "Encounter",
-                                    "fr": "Rencontre"
+                                    "fr": "Rencontre",
+                                    "en": "Encounter"
                                 }
                             },
                             {
                                 "name": "EVT_009",
                                 "labels": {
-                                    "en": "Assistance",
-                                    "fr": "Assistance"
+                                    "fr": "Assistance",
+                                    "en": "Assistance"
                                 }
                             },
                             {
                                 "name": "EVT_010",
                                 "labels": {
-                                    "en": "Challenge",
-                                    "fr": "Compétition"
+                                    "fr": "Compétition",
+                                    "en": "Challenge"
                                 }
                             }
                         ]
@@ -269,29 +269,29 @@
                     {
                         "name": "EVT_011",
                         "labels": {
-                            "en": "Conflict",
-                            "fr": "Conflit"
+                            "fr": "Conflit",
+                            "en": "Conflict"
                         },
                         "nodes": [
                             {
                                 "name": "EVT_012",
                                 "labels": {
-                                    "en": "Transformation",
-                                    "fr": "Transformation physique"
+                                    "fr": "Transformation physique",
+                                    "en": "Transformation"
                                 }
                             },
                             {
                                 "name": "EVT_013",
                                 "labels": {
-                                    "en": "Confrontation",
-                                    "fr": "Confrontation"
+                                    "fr": "Confrontation",
+                                    "en": "Confrontation"
                                 },
                                 "nodes": [
                                     {
                                         "name": "EVT_014",
                                         "labels": {
-                                            "en": "Confrontation and Transformation",
-                                            "fr": "Confrontation et transformation"
+                                            "fr": "Confrontation et transformation",
+                                            "en": "Confrontation and Transformation"
                                         }
                                     }
                                 ]
@@ -299,8 +299,8 @@
                             {
                                 "name": "EVT_015",
                                 "labels": {
-                                    "en": "Major Incident",
-                                    "fr": "Incident majeur"
+                                    "fr": "Incident majeur",
+                                    "en": "Major Incident"
                                 }
                             }
                         ]
@@ -308,8 +308,8 @@
                     {
                         "name": "EVT_016",
                         "labels": {
-                            "en": "Alternative",
-                            "fr": "Alternatif"
+                            "fr": "Alternatif",
+                            "en": "Alternative"
                         }
                     }
                 ]
@@ -317,26 +317,26 @@
             {
                 "name": "Role",
                 "labels": {
-                    "en": "Role",
-                    "fr": "Rôle"
+                    "fr": "Rôle",
+                    "en": "Role"
                 },
                 "comments": {
-                    "en": "Role",
-                    "fr": "Rôle"
+                    "fr": "Rôle",
+                    "en": "Role"
                 },
                 "nodes": [
                     {
                         "name": "R_01",
                         "labels": {
-                            "en": "Main Character",
-                            "fr": "Personnage principal"
+                            "fr": "Personnage principal",
+                            "en": "Main Character"
                         }
                     },
                     {
                         "name": "R_02",
                         "labels": {
-                            "en": "Secondary Character",
-                            "fr": "Personnage secondaire"
+                            "fr": "Personnage secondaire",
+                            "en": "Secondary Character"
                         }
                     }
                 ]
@@ -344,54 +344,54 @@
             {
                 "name": "Keyword",
                 "labels": {
-                    "en": "Keyword",
-                    "fr": "Mot-clé"
+                    "fr": "Mot-clé",
+                    "en": "Keyword"
                 },
                 "comments": {
-                    "en": "Keyword",
-                    "fr": "Mot-clé"
+                    "fr": "Mot-clé",
+                    "en": "Keyword"
                 },
                 "nodes": [
                     {
                         "name": "K_001",
                         "labels": {
-                            "en": "Theme",
-                            "fr": "Thématique"
+                            "fr": "Thématique",
+                            "en": "Theme"
                         },
                         "nodes": [
                             {
                                 "name": "K_002",
                                 "labels": {
-                                    "en": "Fantasy",
-                                    "fr": "Fantastique"
+                                    "fr": "Fantastique",
+                                    "en": "Fantasy"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_003",
                                         "labels": {
-                                            "en": "Surrealism",
-                                            "fr": "Surréalisme"
+                                            "fr": "Surréalisme",
+                                            "en": "Surrealism"
                                         }
                                     },
                                     {
                                         "name": "K_004",
                                         "labels": {
-                                            "en": "Imagination",
-                                            "fr": "Imagination"
+                                            "fr": "Imagination",
+                                            "en": "Imagination"
                                         }
                                     },
                                     {
                                         "name": "K_005",
                                         "labels": {
-                                            "en": "Contradiction",
-                                            "fr": "Contradiction"
+                                            "fr": "Contradiction",
+                                            "en": "Contradiction"
                                         }
                                     },
                                     {
                                         "name": "K_006",
                                         "labels": {
-                                            "en": "Fluidity of Space",
-                                            "fr": "Fluidité de l'espace"
+                                            "fr": "Fluidité de l'espace",
+                                            "en": "Fluidity of Space"
                                         }
                                     }
                                 ]
@@ -399,22 +399,22 @@
                             {
                                 "name": "K_007",
                                 "labels": {
-                                    "en": "Adventure",
-                                    "fr": "Aventure"
+                                    "fr": "Aventure",
+                                    "en": "Adventure"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_008",
                                         "labels": {
-                                            "en": "Journey",
-                                            "fr": "Voyage"
+                                            "fr": "Voyage",
+                                            "en": "Journey"
                                         }
                                     },
                                     {
                                         "name": "K_009",
                                         "labels": {
-                                            "en": "Exploration",
-                                            "fr": "Exploration"
+                                            "fr": "Exploration",
+                                            "en": "Exploration"
                                         }
                                     }
                                 ]
@@ -422,29 +422,29 @@
                             {
                                 "name": "K_010",
                                 "labels": {
-                                    "en": "Identity",
-                                    "fr": "Identité"
+                                    "fr": "Identité",
+                                    "en": "Identity"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_011",
                                         "labels": {
-                                            "en": "Growth",
-                                            "fr": "Croissance"
+                                            "fr": "Croissance",
+                                            "en": "Growth"
                                         },
                                         "nodes": [
                                             {
                                                 "name": "K_012",
                                                 "labels": {
-                                                    "en": "Physical Growth",
-                                                    "fr": "Croissance physique"
+                                                    "fr": "Croissance physique",
+                                                    "en": "Physical Growth"
                                                 }
                                             },
                                             {
                                                 "name": "K_013",
                                                 "labels": {
-                                                    "en": "Personal Growth",
-                                                    "fr": "Croissance personnelle"
+                                                    "fr": "Croissance personnelle",
+                                                    "en": "Personal Growth"
                                                 }
                                             }
                                         ]
@@ -452,15 +452,15 @@
                                     {
                                         "name": "K_014",
                                         "labels": {
-                                            "en": "Transformation",
-                                            "fr": "Transformation"
+                                            "fr": "Transformation",
+                                            "en": "Transformation"
                                         }
                                     },
                                     {
                                         "name": "K_015",
                                         "labels": {
-                                            "en": "Self-discovery",
-                                            "fr": "Découverte de soi"
+                                            "fr": "Découverte de soi",
+                                            "en": "Self-discovery"
                                         }
                                     }
                                 ]
@@ -468,29 +468,29 @@
                             {
                                 "name": "K_016",
                                 "labels": {
-                                    "en": "Authority",
-                                    "fr": "Autorité"
+                                    "fr": "Autorité",
+                                    "en": "Authority"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_017",
                                         "labels": {
-                                            "en": "Rules",
-                                            "fr": "Règles"
+                                            "fr": "Règles",
+                                            "en": "Rules"
                                         }
                                     },
                                     {
                                         "name": "K_018",
                                         "labels": {
-                                            "en": "Tyranny",
-                                            "fr": "Tyrannie"
+                                            "fr": "Tyrannie",
+                                            "en": "Tyranny"
                                         }
                                     },
                                     {
                                         "name": "K_019",
                                         "labels": {
-                                            "en": "Absurdity",
-                                            "fr": "Absurdité"
+                                            "fr": "Absurdité",
+                                            "en": "Absurdity"
                                         }
                                     }
                                 ]
@@ -498,29 +498,29 @@
                             {
                                 "name": "K_020",
                                 "labels": {
-                                    "en": "Logic",
-                                    "fr": "Logique"
+                                    "fr": "Logique",
+                                    "en": "Logic"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_021",
                                         "labels": {
-                                            "en": "Paradoxes",
-                                            "fr": "Paradoxe"
+                                            "fr": "Paradoxe",
+                                            "en": "Paradoxes"
                                         }
                                     },
                                     {
                                         "name": "K_022",
                                         "labels": {
-                                            "en": "Wordplay",
-                                            "fr": "Jeu de mots"
+                                            "fr": "Jeu de mots",
+                                            "en": "Wordplay"
                                         }
                                     },
                                     {
                                         "name": "K_023",
                                         "labels": {
-                                            "en": "Irony",
-                                            "fr": "Ironie"
+                                            "fr": "Ironie",
+                                            "en": "Irony"
                                         }
                                     }
                                 ]
@@ -528,22 +528,22 @@
                             {
                                 "name": "K_024",
                                 "labels": {
-                                    "en": "Time",
-                                    "fr": "Temps"
+                                    "fr": "Temps",
+                                    "en": "Time"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_025",
                                         "labels": {
-                                            "en": "Anxiety",
-                                            "fr": "Anxiété"
+                                            "fr": "Anxiété",
+                                            "en": "Anxiety"
                                         }
                                     },
                                     {
                                         "name": "K_026",
                                         "labels": {
-                                            "en": "Servitude",
-                                            "fr": "Servitude"
+                                            "fr": "Servitude",
+                                            "en": "Servitude"
                                         }
                                     }
                                 ]
@@ -551,22 +551,22 @@
                             {
                                 "name": "K_027",
                                 "labels": {
-                                    "en": "Chaos",
-                                    "fr": "Chaos"
+                                    "fr": "Chaos",
+                                    "en": "Chaos"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_028",
                                         "labels": {
-                                            "en": "Madness",
-                                            "fr": "Folie"
+                                            "fr": "Folie",
+                                            "en": "Madness"
                                         }
                                     },
                                     {
                                         "name": "K_029",
                                         "labels": {
-                                            "en": "Confusion",
-                                            "fr": "Confusion"
+                                            "fr": "Confusion",
+                                            "en": "Confusion"
                                         }
                                     }
                                 ]
@@ -574,22 +574,22 @@
                             {
                                 "name": "K_030",
                                 "labels": {
-                                    "en": "Wisdom",
-                                    "fr": "Sagesse"
+                                    "fr": "Sagesse",
+                                    "en": "Wisdom"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_031",
                                         "labels": {
-                                            "en": "Mystery",
-                                            "fr": "Mystère"
+                                            "fr": "Mystère",
+                                            "en": "Mystery"
                                         }
                                     },
                                     {
                                         "name": "K_032",
                                         "labels": {
-                                            "en": "Reflection",
-                                            "fr": "Réflexion"
+                                            "fr": "Réflexion",
+                                            "en": "Reflection"
                                         }
                                     }
                                 ]
@@ -597,22 +597,22 @@
                             {
                                 "name": "K_033",
                                 "labels": {
-                                    "en": "Violence",
-                                    "fr": "Violence"
+                                    "fr": "Violence",
+                                    "en": "Violence"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_034",
                                         "labels": {
-                                            "en": "Anger",
-                                            "fr": "Colère"
+                                            "fr": "Colère",
+                                            "en": "Anger"
                                         }
                                     },
                                     {
                                         "name": "K_035",
                                         "labels": {
-                                            "en": "Judgment",
-                                            "fr": "Jugement"
+                                            "fr": "Jugement",
+                                            "en": "Judgment"
                                         }
                                     }
                                 ]
@@ -620,15 +620,15 @@
                             {
                                 "name": "K_036",
                                 "labels": {
-                                    "en": "Justice",
-                                    "fr": "Justice"
+                                    "fr": "Justice",
+                                    "en": "Justice"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_037",
                                         "labels": {
-                                            "en": "Inverted Justice",
-                                            "fr": "Justice inversée"
+                                            "fr": "Justice inversée",
+                                            "en": "Inverted Justice"
                                         }
                                     }
                                 ]
@@ -636,15 +636,15 @@
                             {
                                 "name": "K_038",
                                 "labels": {
-                                    "en": "Domesticity",
-                                    "fr": "Domesticité"
+                                    "fr": "Domesticité",
+                                    "en": "Domesticity"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_039",
                                         "labels": {
-                                            "en": "Domestic chaos",
-                                            "fr": "Chaos domestique"
+                                            "fr": "Chaos domestique",
+                                            "en": "Domestic chaos"
                                         }
                                     }
                                 ]
@@ -654,36 +654,36 @@
                     {
                         "name": "K_040",
                         "labels": {
-                            "en": "Symbolism",
-                            "fr": "Symbolisme"
+                            "fr": "Symbolisme",
+                            "en": "Symbolism"
                         },
                         "nodes": [
                             {
                                 "name": "K_041",
                                 "labels": {
-                                    "en": "Animals",
-                                    "fr": "Animaux"
+                                    "fr": "Animaux",
+                                    "en": "Animals"
                                 }
                             },
                             {
                                 "name": "K_042",
                                 "labels": {
-                                    "en": "Time",
-                                    "fr": "Temps"
+                                    "fr": "Temps",
+                                    "en": "Time"
                                 }
                             },
                             {
                                 "name": "K_043",
                                 "labels": {
-                                    "en": "Desire",
-                                    "fr": "Désir"
+                                    "fr": "Désir",
+                                    "en": "Desire"
                                 }
                             },
                             {
                                 "name": "K_044",
                                 "labels": {
-                                    "en": "Beauty",
-                                    "fr": "Beauté"
+                                    "fr": "Beauté",
+                                    "en": "Beauty"
                                 }
                             }
                         ]
@@ -691,36 +691,36 @@
                     {
                         "name": "K_045",
                         "labels": {
-                            "en": "Literary Device",
-                            "fr": "Procédé littéraire"
+                            "fr": "Procédé littéraire",
+                            "en": "Literary Device"
                         },
                         "nodes": [
                             {
                                 "name": "K_046",
                                 "labels": {
-                                    "en": "Puns",
-                                    "fr": "Calembours"
+                                    "fr": "Calembours",
+                                    "en": "Puns"
                                 }
                             },
                             {
                                 "name": "K_047",
                                 "labels": {
-                                    "en": "Portmanteau",
-                                    "fr": "Mot-valise"
+                                    "fr": "Mot-valise",
+                                    "en": "Portmanteau"
                                 }
                             },
                             {
                                 "name": "K_048",
                                 "labels": {
-                                    "en": "Allegory",
-                                    "fr": "Allégorie"
+                                    "fr": "Allégorie",
+                                    "en": "Allegory"
                                 }
                             },
                             {
                                 "name": "K_049",
                                 "labels": {
-                                    "en": "Satire",
-                                    "fr": "Satire"
+                                    "fr": "Satire",
+                                    "en": "Satire"
                                 }
                             }
                         ]
@@ -728,22 +728,22 @@
                     {
                         "name": "K_050",
                         "labels": {
-                            "en": "Narrative Structure",
-                            "fr": "Structure narrative"
+                            "fr": "Structure narrative",
+                            "en": "Narrative Structure"
                         },
                         "nodes": [
                             {
                                 "name": "K_051",
                                 "labels": {
-                                    "en": "Episodic",
-                                    "fr": "Episodique"
+                                    "fr": "Episodique",
+                                    "en": "Episodic"
                                 }
                             },
                             {
                                 "name": "K_052",
                                 "labels": {
-                                    "en": "Dream-like",
-                                    "fr": "Onirique"
+                                    "fr": "Onirique",
+                                    "en": "Dream-like"
                                 }
                             }
                         ]
@@ -1612,6 +1612,28 @@
                             "de": "Gehört zu folgendem Buch",
                             "fr": "Appartient au livre suivant",
                             "it": "Appartiene al seguente libro"
+                        },
+                        "gui_element": "Searchbox"
+                    },
+                    {
+                        "name": "isPartOfCharacter",
+                        "super": [
+                            "isPartOf",
+                            "schema:isPartOf",
+                            "crm:P5i_forms_part_of"
+                        ],
+                        "object": ":Character",
+                        "labels": {
+                            "en": "Character(s) on the image",
+                            "de": "Charakter(e) auf dem Bild",
+                            "fr": "Personnage(s) sur l'image",
+                            "it": "Personaggio/i nell'immagine"
+                        },
+                        "comments": {
+                            "en": "Character(s) on the image",
+                            "de": "Charakter(e) auf dem Bild",
+                            "fr": "Personnage(s) sur l'image",
+                            "it": "Personaggio/i nell'immagine"
                         },
                         "gui_element": "Searchbox"
                     },
@@ -2521,11 +2543,6 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 7
-                            },
-                            {
                                 "propname": ":hasFileName",
                                 "cardinality": "0-1",
                                 "gui_order": 1
@@ -2553,22 +2570,32 @@
                             {
                                 "propname": ":hasSeqnum",
                                 "cardinality": "0-1",
-                                "gui_order": 6
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 8
                             },
                             {
                                 "propname": ":hasAuthorshipResource",
                                 "cardinality": "0-n",
-                                "gui_order": 8
+                                "gui_order": 9
                             },
                             {
                                 "propname": ":hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 9
+                                "gui_order": 10
                             },
                             {
                                 "propname": ":hasLicenseResource",
                                 "cardinality": "0-1",
-                                "gui_order": 10
+                                "gui_order": 11
+                            },
+                            {
+                                "propname": ":isPartOfCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 6
                             }
                         ]
                     },
