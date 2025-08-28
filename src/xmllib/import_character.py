@@ -1,7 +1,6 @@
 import pandas as pd
 from dsp_tools.xmllib import ListLookup, Resource, create_footnote_string, create_list_from_input
 
-from src.helpers.cleaning_df_tools import create_list
 from src.helpers.helper import select_footnote_text
 
 
@@ -27,10 +26,10 @@ def main() -> list[Resource]:
         names = {row["Name EN"], row["Name DE"], row["Name FR"], row["Name IT"]}
         names = {name for name in names if pd.notna(name)}
 
-        roles = create_list(row["Role List"])
-        image_ids = create_list(row["Image ID"])
+        roles = create_list_from_input(row["Role List"], separator=",")
+        image_ids = create_list_from_input(row["Image ID"], separator=",")
 
-        keywords_names_raw = create_list(row["Keyword"])
+        keywords_names_raw = create_list_from_input(row["Keyword"], separator=",")
         keyword_names = [
             list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw
         ]

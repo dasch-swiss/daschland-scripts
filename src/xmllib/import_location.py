@@ -22,7 +22,7 @@ def main() -> list[Resource]:
             row["Description IT"],
         ]
         descriptions = [description for description in descriptions if pd.notna(description)]
-        image_ids = create_list(row["Image ID"])
+        image_ids = create_list_from_input(row["Image ID"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id
