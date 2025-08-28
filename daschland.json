@@ -753,318 +753,6 @@
         ],
         "ontologies": [
             {
-                "name": "metadata",
-                "label": "Metadata",
-                "properties": [
-                    {
-                        "name": "hasCopyright",
-                        "super": [
-                            "hasValue",
-                            "schema:copyrightHolder",
-                            "crm:P105_right_held_by"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "en": "Copyright",
-                            "de": "Urheberrecht",
-                            "fr": "Droits d'auteur",
-                            "it": "Copyright"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasDescription",
-                        "super": [
-                            "hasValue",
-                            "schema:description",
-                            "crm:P190_has_symbolic_content"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "en": "Description",
-                            "de": "Beschreibung",
-                            "fr": "Description",
-                            "it": "Descrizione"
-                        },
-                        "gui_element": "Richtext"
-                    },
-                    {
-                        "name": "hasFileName",
-                        "super": [
-                            "hasValue",
-                            "schema:name"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "en": "File Name",
-                            "de": "Dateiname",
-                            "fr": "Nom de fichier",
-                            "it": "Nome del file"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasFileSize",
-                        "super": [
-                            "hasValue",
-                            "schema:size"
-                        ],
-                        "object": "DecimalValue",
-                        "labels": {
-                            "en": "File Size (Mb)",
-                            "de": "Dateigrösse (Mb)",
-                            "fr": "Taille du fichier (Mb)",
-                            "it": "Dimensioni del file (Mb)"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasID",
-                        "super": [
-                            "hasValue",
-                            "schema:identifier",
-                            "crm:P1_is_identified_by"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "en": "ID",
-                            "de": "ID",
-                            "fr": "ID",
-                            "it": "ID"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasLicenseList",
-                        "super": [
-                            "hasValue",
-                            "schema:license"
-                        ],
-                        "object": "ListValue",
-                        "labels": {
-                            "en": "License",
-                            "de": "Lizenz",
-                            "fr": "Licence",
-                            "it": "Licenza"
-                        },
-                        "gui_element": "List",
-                        "gui_attributes": {
-                            "hlist": "License"
-                        }
-                    },
-                    {
-                        "name": "hasTimeStamp",
-                        "super": [
-                            "hasValue",
-                            "schema:dateCreated"
-                        ],
-                        "object": "TimeValue",
-                        "labels": {
-                            "en": "Time Stamp",
-                            "de": "Zeitstempel",
-                            "fr": "Horodatage",
-                            "it": "Timestamp"
-                        },
-                        "gui_element": "TimeStamp"
-                    },
-                    {
-                        "name": "hasAuthorshipResource",
-                        "super": [
-                            "hasValue",
-                            "foaf:person",
-                            "schema:author",
-                            "crm:E21_Person"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "en": "Author of the resource",
-                            "de": "Autor der Resource",
-                            "fr": "Auteur·rice de la ressource",
-                            "it": "Autore della risorsa",
-                            "rm": "Author of the resource"
-                        },
-                        "comments": {
-                            "en": "Autor der Resource",
-                            "de": "Auteur·rice de la ressource",
-                            "fr": "Autore della risorsa"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasCopyrightResource",
-                        "super": [
-                            "hasValue",
-                            "schema:copyrightHolder",
-                            "crm:P105_right_held_by"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "en": "Copyright of the resource",
-                            "de": "Urheberrecht der Resource",
-                            "fr": "Droits d'auteur de la ressource",
-                            "it": "Copyright della risorsa",
-                            "rm": "Copyright of the resource"
-                        },
-                        "comments": {
-                            "en": "Urheberrecht der Resource",
-                            "de": "Droits d'auteur de la ressource",
-                            "fr": "Copyright della risorsa"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasLicenseResource",
-                        "super": [
-                            "hasValue",
-                            "schema:license"
-                        ],
-                        "object": "ListValue",
-                        "labels": {
-                            "en": "License of the resource",
-                            "de": "Lizenz der Resource",
-                            "fr": "Licence de la ressource",
-                            "it": "Licenza della risorsa",
-                            "rm": "License of the resource"
-                        },
-                        "comments": {
-                            "en": "Lizenz der Resource",
-                            "de": "Licence de la ressource",
-                            "fr": "Licenza della risorsa"
-                        },
-                        "gui_element": "List",
-                        "gui_attributes": {
-                            "hlist": "License"
-                        }
-                    }
-                ],
-                "resources": [
-                    {
-                        "name": "Archive",
-                        "super": [
-                            "ArchiveRepresentation",
-                            "schema:ArchiveComponent",
-                            "crm:E78_Curated_Holding"
-                        ],
-                        "labels": {
-                            "en": "Project Archive",
-                            "de": "Projekt-Archiv",
-                            "fr": "Projet - Archives",
-                            "it": "Progetto - Archivi"
-                        },
-                        "comments": {
-                            "en": "Zipped folder containing the scripts and other files from the project",
-                            "de": "Gepackter Ordner mit den Skripten und anderen Dateien des Projekts",
-                            "fr": "Dossier zippé contenant les scripts et autres fichiers du projet",
-                            "it": "Cartella zippata contenente gli script e gli altri file del progetto."
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 8
-                            },
-                            {
-                                "propname": ":hasFileName",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "1",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "1-n",
-                                "gui_order": 3
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Material",
-                        "super": [
-                            "TextRepresentation",
-                            "crm:E31_Document",
-                            "schema:DigitalDocument"
-                        ],
-                        "labels": {
-                            "en": "Project Material",
-                            "de": "Projekt-Material",
-                            "fr": "Projet - Matériel",
-                            "it": "Progetto - Materiale"
-                        },
-                        "comments": {
-                            "en": "XML and CSV files for the project.",
-                            "de": "XML- und CSV-Dateien des Projekts.",
-                            "fr": "Fichiers XML et CSV du projet.",
-                            "it": "File XML e CSV per il progetto."
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 8
-                            },
-                            {
-                                "propname": ":hasFileName",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "1",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "1-n",
-                                "gui_order": 3
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "daschland",
                 "label": "Alice in DaSCHland",
                 "properties": [
@@ -1945,68 +1633,6 @@
                 ],
                 "resources": [
                     {
-                        "name": "Documentation",
-                        "super": [
-                            "DocumentRepresentation",
-                            "crm:E31_Document",
-                            "schema:DigitalDocument"
-                        ],
-                        "labels": {
-                            "en": "# Project Documentation",
-                            "de": "# Projekt-Dokumentation",
-                            "fr": "# Projet - Documentation",
-                            "it": "# Progetto - Documentazione"
-                        },
-                        "comments": {
-                            "en": "Metadata about the project, Visualizations of the Data model",
-                            "de": "Metadaten über das Projekt, Visualisierungen des Datenmodells",
-                            "fr": "Métadonnées sur le projet, Visualisations du modèle de données",
-                            "it": "Metadati sul progetto, visualizzazioni del modello di dati"
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasFileName",
-                                "cardinality": "0-1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "1",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "1",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "1-n",
-                                "gui_order": 8
-                            }
-                        ]
-                    },
-                    {
                         "name": "Book",
                         "super": [
                             "Resource",
@@ -2885,6 +2511,380 @@
                             "fr": "Lieux situés dans le Pays des Merveilles, sous-classe.",
                             "it": "Luoghi nel Paese delle Meraviglie, sottoclasse."
                         }
+                    }
+                ]
+            },
+            {
+                "name": "project-metadata",
+                "label": "Project Metadata",
+                "properties": [
+                    {
+                        "name": "hasCopyright",
+                        "super": [
+                            "hasValue",
+                            "schema:copyrightHolder",
+                            "crm:P105_right_held_by"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Copyright",
+                            "de": "Urheberrecht",
+                            "fr": "Droits d'auteur",
+                            "it": "Copyright"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasDescription",
+                        "super": [
+                            "hasValue",
+                            "schema:description",
+                            "crm:P190_has_symbolic_content"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Description",
+                            "de": "Beschreibung",
+                            "fr": "Description",
+                            "it": "Descrizione"
+                        },
+                        "gui_element": "Richtext"
+                    },
+                    {
+                        "name": "hasFileName",
+                        "super": [
+                            "hasValue",
+                            "schema:name"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "File Name",
+                            "de": "Dateiname",
+                            "fr": "Nom de fichier",
+                            "it": "Nome del file"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasFileSize",
+                        "super": [
+                            "hasValue",
+                            "schema:size"
+                        ],
+                        "object": "DecimalValue",
+                        "labels": {
+                            "en": "File Size (Mb)",
+                            "de": "Dateigrösse (Mb)",
+                            "fr": "Taille du fichier (Mb)",
+                            "it": "Dimensioni del file (Mb)"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasID",
+                        "super": [
+                            "hasValue",
+                            "schema:identifier",
+                            "crm:P1_is_identified_by"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "ID",
+                            "de": "ID",
+                            "fr": "ID",
+                            "it": "ID"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasLicenseList",
+                        "super": [
+                            "hasValue",
+                            "schema:license"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "License",
+                            "de": "Lizenz",
+                            "fr": "Licence",
+                            "it": "Licenza"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "License"
+                        }
+                    },
+                    {
+                        "name": "hasTimeStamp",
+                        "super": [
+                            "hasValue",
+                            "schema:dateCreated"
+                        ],
+                        "object": "TimeValue",
+                        "labels": {
+                            "en": "Time Stamp",
+                            "de": "Zeitstempel",
+                            "fr": "Horodatage",
+                            "it": "Timestamp"
+                        },
+                        "gui_element": "TimeStamp"
+                    },
+                    {
+                        "name": "hasAuthorshipResource",
+                        "super": [
+                            "hasValue",
+                            "foaf:person",
+                            "schema:author",
+                            "crm:E21_Person"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Author of the resource",
+                            "de": "Autor der Resource",
+                            "fr": "Auteur·rice de la ressource",
+                            "it": "Autore della risorsa",
+                            "rm": "Author of the resource"
+                        },
+                        "comments": {
+                            "en": "Autor der Resource",
+                            "de": "Auteur·rice de la ressource",
+                            "fr": "Autore della risorsa"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasCopyrightResource",
+                        "super": [
+                            "hasValue",
+                            "schema:copyrightHolder",
+                            "crm:P105_right_held_by"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Copyright of the resource",
+                            "de": "Urheberrecht der Resource",
+                            "fr": "Droits d'auteur de la ressource",
+                            "it": "Copyright della risorsa",
+                            "rm": "Copyright of the resource"
+                        },
+                        "comments": {
+                            "en": "Urheberrecht der Resource",
+                            "de": "Droits d'auteur de la ressource",
+                            "fr": "Copyright della risorsa"
+                        },
+                        "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasLicenseResource",
+                        "super": [
+                            "hasValue",
+                            "schema:license"
+                        ],
+                        "object": "ListValue",
+                        "labels": {
+                            "en": "License of the resource",
+                            "de": "Lizenz der Resource",
+                            "fr": "Licence de la ressource",
+                            "it": "Licenza della risorsa",
+                            "rm": "License of the resource"
+                        },
+                        "comments": {
+                            "en": "Lizenz der Resource",
+                            "de": "Licence de la ressource",
+                            "fr": "Licenza della risorsa"
+                        },
+                        "gui_element": "List",
+                        "gui_attributes": {
+                            "hlist": "License"
+                        }
+                    }
+                ],
+                "resources": [
+                    {
+                        "name": "Archive",
+                        "super": [
+                            "ArchiveRepresentation",
+                            "schema:ArchiveComponent",
+                            "crm:E78_Curated_Holding"
+                        ],
+                        "labels": {
+                            "en": "Project Archive",
+                            "de": "Projekt-Archiv",
+                            "fr": "Projet - Archives",
+                            "it": "Progetto - Archivi"
+                        },
+                        "comments": {
+                            "en": "Zipped folder containing the scripts and other files from the project",
+                            "de": "Gepackter Ordner mit den Skripten und anderen Dateien des Projekts",
+                            "fr": "Dossier zippé contenant les scripts et autres fichiers du projet",
+                            "it": "Cartella zippata contenente gli script e gli altri file del progetto"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasCopyrightResource",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseResource",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorshipResource",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Material",
+                        "super": [
+                            "TextRepresentation",
+                            "crm:E31_Document",
+                            "schema:DigitalDocument"
+                        ],
+                        "labels": {
+                            "en": "Project Material",
+                            "de": "Projekt-Material",
+                            "fr": "Projet - Matériel",
+                            "it": "Progetto - Materiale"
+                        },
+                        "comments": {
+                            "en": "XML and CSV files for the project",
+                            "de": "XML- und CSV-Dateien des Projekts",
+                            "fr": "Fichiers XML et CSV du projet",
+                            "it": "File XML e CSV per il progetto"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasCopyrightResource",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasLicenseResource",
+                                "cardinality": "1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasAuthorshipResource",
+                                "cardinality": "1-n",
+                                "gui_order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ProjectDocumentation",
+                        "super": [
+                            "DocumentRepresentation",
+                            "crm:E31_Document",
+                            "schema:DigitalDocument"
+                        ],
+                        "labels": {
+                            "en": "Project Documentation",
+                            "de": "Projekt-Dokumentation",
+                            "fr": "Projet - Documentation",
+                            "it": "Progetto - Documentazione"
+                        },
+                        "comments": {
+                            "en": "Documentation about the project itself and the database as well as search guide",
+                            "de": "Dokumentation über das Projekt selbst und die Datenbank sowie Suchanleitung",
+                            "fr": "Documentation sur le projet lui-même et la base de données, ainsi qu'un guide de recherche",
+                            "it": "Documentazione relativa al progetto stesso e al database, nonché guida alla ricerca"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasCopyrightResource",
+                                "cardinality": "1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasLicenseResource",
+                                "cardinality": "1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasAuthorshipResource",
+                                "cardinality": "1-n",
+                                "gui_order": 8
+                            }
+                        ]
                     }
                 ]
             }
