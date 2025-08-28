@@ -7100,7 +7100,7 @@
             <resptr>I_078</resptr>
         </resptr-prop>
     </resource>
-    <resource label="DaSCHland_Data_Model.pdf" id="DOC_001" restype="project-metadata:Documentation">
+    <resource label="DaSCHland_Data_Model.pdf" id="DOC_001" restype="project-metadata:ProjectDocumentation">
         <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_8">data/multimedia/documentation/DaSCHland_Data_Model.pdf</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -7125,7 +7125,7 @@
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="DaSCHland_Data_Model_Links.pdf" id="DOC_002" restype="project-metadata:Documentation">
+    <resource label="DaSCHland_Data_Model_Links.pdf" id="DOC_002" restype="project-metadata:ProjectDocumentation">
         <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_8">data/multimedia/documentation/DaSCHland_Data_Model_Links.pdf</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -7150,7 +7150,7 @@
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="DaSCHland_Data_Model_Legend.pdf" id="DOC_003" restype="project-metadata:Documentation">
+    <resource label="DaSCHland_Data_Model_Legend.pdf" id="DOC_003" restype="project-metadata:ProjectDocumentation">
         <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_8">data/multimedia/documentation/DaSCHland_Data_Model_Legend.pdf</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -7175,7 +7175,7 @@
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="DaSCHland FAQ.pdf" id="DOC_004" restype="project-metadata:Documentation">
+    <resource label="DaSCHland FAQ.pdf" id="DOC_004" restype="project-metadata:ProjectDocumentation">
         <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_8">data/multimedia/documentation/DaSCHland FAQ.pdf</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>

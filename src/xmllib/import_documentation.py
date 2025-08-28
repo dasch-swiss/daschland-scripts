@@ -29,7 +29,7 @@ def main() -> list[Resource]:
         # create resource, label and id
         resource = Resource.create_new(
             res_id=row["ID"],
-            restype="project-metadata:Documentation",
+            restype="project-metadata:ProjectDocumentation",
             label=row["File Name"],
         )
 
