@@ -48,7 +48,7 @@
         "default_permissions": "public",
         "default_permissions_overrule": {
             "private": [
-                "daschland:EventAlternative",
+                "daschland:BookEdition",
                 "daschland:hasDescriptionAlternative"
             ],
             "limited_view": []
@@ -108,75 +108,75 @@
             {
                 "name": "License",
                 "labels": {
-                    "en": "License",
-                    "fr": "Licence"
+                    "fr": "Licence",
+                    "en": "License"
                 },
                 "comments": {
-                    "en": "License",
-                    "fr": "Licence"
+                    "fr": "Licence",
+                    "en": "License"
                 },
                 "nodes": [
                     {
                         "name": "LIC_001",
                         "labels": {
-                            "en": "CC0 1.0",
-                            "fr": "CC0 1.0"
+                            "fr": "CC0 1.0",
+                            "en": "CC0 1.0"
                         }
                     },
                     {
                         "name": "LIC_002",
                         "labels": {
-                            "en": "CC BY 4.0",
-                            "fr": "CC BY 4.0"
+                            "fr": "CC BY 4.0",
+                            "en": "CC BY 4.0"
                         }
                     },
                     {
                         "name": "LIC_003",
                         "labels": {
-                            "en": "CC BY-SA 4.0",
-                            "fr": "CC BY-SA 4.0"
+                            "fr": "CC BY-SA 4.0",
+                            "en": "CC BY-SA 4.0"
                         }
                     },
                     {
                         "name": "LIC_004",
                         "labels": {
-                            "en": "CC BY-NC 4.0",
-                            "fr": "CC BY-NC 4.0"
+                            "fr": "CC BY-NC 4.0",
+                            "en": "CC BY-NC 4.0"
                         }
                     },
                     {
                         "name": "LIC_005",
                         "labels": {
-                            "en": "CC BY-NC-SA 4.0",
-                            "fr": "CC BY-NC-SA 4.0"
+                            "fr": "CC BY-NC-SA 4.0",
+                            "en": "CC BY-NC-SA 4.0"
                         }
                     },
                     {
                         "name": "LIC_006",
                         "labels": {
-                            "en": "CC BY-ND 4.0",
-                            "fr": "CC BY-ND 4.0"
+                            "fr": "CC BY-ND 4.0",
+                            "en": "CC BY-ND 4.0"
                         }
                     },
                     {
                         "name": "LIC_007",
                         "labels": {
-                            "en": "CC BY-NC-ND 4.0",
-                            "fr": "CC BY-NC-ND 4.0"
+                            "fr": "CC BY-NC-ND 4.0",
+                            "en": "CC BY-NC-ND 4.0"
                         }
                     },
                     {
                         "name": "LIC_008",
                         "labels": {
-                            "en": "PDM 1.0",
-                            "fr": "PDM 1.0"
+                            "fr": "PDM 1.0",
+                            "en": "PDM 1.0"
                         }
                     },
                     {
                         "name": "LIC_009",
                         "labels": {
-                            "en": "Public Domain",
-                            "fr": "Domaine Public"
+                            "fr": "Domaine Public",
+                            "en": "Public Domain"
                         }
                     }
                 ]
@@ -184,54 +184,54 @@
             {
                 "name": "Event Type",
                 "labels": {
-                    "en": "Event Type",
-                    "fr": "Type d'événement"
+                    "fr": "Type d'événement",
+                    "en": "Event Type"
                 },
                 "comments": {
-                    "en": "Event Type",
-                    "fr": "Type d'événement"
+                    "fr": "Type d'événement",
+                    "en": "Event Type"
                 },
                 "nodes": [
                     {
                         "name": "EVT_001",
                         "labels": {
-                            "en": "Adventure",
-                            "fr": "Aventure"
+                            "fr": "Aventure",
+                            "en": "Adventure"
                         },
                         "nodes": [
                             {
                                 "name": "EVT_002",
                                 "labels": {
-                                    "en": "Inciting Incident",
-                                    "fr": "Incident incitant"
+                                    "fr": "Incident incitant",
+                                    "en": "Inciting Incident"
                                 }
                             },
                             {
                                 "name": "EVT_003",
                                 "labels": {
-                                    "en": "Physical Transformation",
-                                    "fr": "Transformation physique"
+                                    "fr": "Transformation physique",
+                                    "en": "Physical Transformation"
                                 }
                             },
                             {
                                 "name": "EVT_004",
                                 "labels": {
-                                    "en": "Exploration",
-                                    "fr": "Exploration"
+                                    "fr": "Exploration",
+                                    "en": "Exploration"
                                 }
                             },
                             {
                                 "name": "EVT_005",
                                 "labels": {
-                                    "en": "Role Change",
-                                    "fr": "Changement de rôle"
+                                    "fr": "Changement de rôle",
+                                    "en": "Role Change"
                                 }
                             },
                             {
                                 "name": "EVT_006",
                                 "labels": {
-                                    "en": "Resolution",
-                                    "fr": "Résolution"
+                                    "fr": "Résolution",
+                                    "en": "Resolution"
                                 }
                             }
                         ]
@@ -239,29 +239,29 @@
                     {
                         "name": "EVT_007",
                         "labels": {
-                            "en": "Social",
-                            "fr": "Social"
+                            "fr": "Social",
+                            "en": "Social"
                         },
                         "nodes": [
                             {
                                 "name": "EVT_008",
                                 "labels": {
-                                    "en": "Encounter",
-                                    "fr": "Rencontre"
+                                    "fr": "Rencontre",
+                                    "en": "Encounter"
                                 }
                             },
                             {
                                 "name": "EVT_009",
                                 "labels": {
-                                    "en": "Assistance",
-                                    "fr": "Assistance"
+                                    "fr": "Assistance",
+                                    "en": "Assistance"
                                 }
                             },
                             {
                                 "name": "EVT_010",
                                 "labels": {
-                                    "en": "Challenge",
-                                    "fr": "Compétition"
+                                    "fr": "Compétition",
+                                    "en": "Challenge"
                                 }
                             }
                         ]
@@ -269,29 +269,29 @@
                     {
                         "name": "EVT_011",
                         "labels": {
-                            "en": "Conflict",
-                            "fr": "Conflit"
+                            "fr": "Conflit",
+                            "en": "Conflict"
                         },
                         "nodes": [
                             {
                                 "name": "EVT_012",
                                 "labels": {
-                                    "en": "Transformation",
-                                    "fr": "Transformation physique"
+                                    "fr": "Transformation physique",
+                                    "en": "Transformation"
                                 }
                             },
                             {
                                 "name": "EVT_013",
                                 "labels": {
-                                    "en": "Confrontation",
-                                    "fr": "Confrontation"
+                                    "fr": "Confrontation",
+                                    "en": "Confrontation"
                                 },
                                 "nodes": [
                                     {
                                         "name": "EVT_014",
                                         "labels": {
-                                            "en": "Confrontation and Transformation",
-                                            "fr": "Confrontation et transformation"
+                                            "fr": "Confrontation et transformation",
+                                            "en": "Confrontation and Transformation"
                                         }
                                     }
                                 ]
@@ -299,8 +299,8 @@
                             {
                                 "name": "EVT_015",
                                 "labels": {
-                                    "en": "Major Incident",
-                                    "fr": "Incident majeur"
+                                    "fr": "Incident majeur",
+                                    "en": "Major Incident"
                                 }
                             }
                         ]
@@ -308,8 +308,8 @@
                     {
                         "name": "EVT_016",
                         "labels": {
-                            "en": "Alternative",
-                            "fr": "Alternatif"
+                            "fr": "Alternatif",
+                            "en": "Alternative"
                         }
                     }
                 ]
@@ -317,26 +317,26 @@
             {
                 "name": "Role",
                 "labels": {
-                    "en": "Role",
-                    "fr": "Rôle"
+                    "fr": "Rôle",
+                    "en": "Role"
                 },
                 "comments": {
-                    "en": "Role",
-                    "fr": "Rôle"
+                    "fr": "Rôle",
+                    "en": "Role"
                 },
                 "nodes": [
                     {
                         "name": "R_01",
                         "labels": {
-                            "en": "Main Character",
-                            "fr": "Personnage principal"
+                            "fr": "Personnage principal",
+                            "en": "Main Character"
                         }
                     },
                     {
                         "name": "R_02",
                         "labels": {
-                            "en": "Secondary Character",
-                            "fr": "Personnage secondaire"
+                            "fr": "Personnage secondaire",
+                            "en": "Secondary Character"
                         }
                     }
                 ]
@@ -344,54 +344,54 @@
             {
                 "name": "Keyword",
                 "labels": {
-                    "en": "Keyword",
-                    "fr": "Mot-clé"
+                    "fr": "Mot-clé",
+                    "en": "Keyword"
                 },
                 "comments": {
-                    "en": "Keyword",
-                    "fr": "Mot-clé"
+                    "fr": "Mot-clé",
+                    "en": "Keyword"
                 },
                 "nodes": [
                     {
                         "name": "K_001",
                         "labels": {
-                            "en": "Theme",
-                            "fr": "Thématique"
+                            "fr": "Thématique",
+                            "en": "Theme"
                         },
                         "nodes": [
                             {
                                 "name": "K_002",
                                 "labels": {
-                                    "en": "Fantasy",
-                                    "fr": "Fantastique"
+                                    "fr": "Fantastique",
+                                    "en": "Fantasy"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_003",
                                         "labels": {
-                                            "en": "Surrealism",
-                                            "fr": "Surréalisme"
+                                            "fr": "Surréalisme",
+                                            "en": "Surrealism"
                                         }
                                     },
                                     {
                                         "name": "K_004",
                                         "labels": {
-                                            "en": "Imagination",
-                                            "fr": "Imagination"
+                                            "fr": "Imagination",
+                                            "en": "Imagination"
                                         }
                                     },
                                     {
                                         "name": "K_005",
                                         "labels": {
-                                            "en": "Contradiction",
-                                            "fr": "Contradiction"
+                                            "fr": "Contradiction",
+                                            "en": "Contradiction"
                                         }
                                     },
                                     {
                                         "name": "K_006",
                                         "labels": {
-                                            "en": "Fluidity of Space",
-                                            "fr": "Fluidité de l'espace"
+                                            "fr": "Fluidité de l'espace",
+                                            "en": "Fluidity of Space"
                                         }
                                     }
                                 ]
@@ -399,22 +399,22 @@
                             {
                                 "name": "K_007",
                                 "labels": {
-                                    "en": "Adventure",
-                                    "fr": "Aventure"
+                                    "fr": "Aventure",
+                                    "en": "Adventure"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_008",
                                         "labels": {
-                                            "en": "Journey",
-                                            "fr": "Voyage"
+                                            "fr": "Voyage",
+                                            "en": "Journey"
                                         }
                                     },
                                     {
                                         "name": "K_009",
                                         "labels": {
-                                            "en": "Exploration",
-                                            "fr": "Exploration"
+                                            "fr": "Exploration",
+                                            "en": "Exploration"
                                         }
                                     }
                                 ]
@@ -422,29 +422,29 @@
                             {
                                 "name": "K_010",
                                 "labels": {
-                                    "en": "Identity",
-                                    "fr": "Identité"
+                                    "fr": "Identité",
+                                    "en": "Identity"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_011",
                                         "labels": {
-                                            "en": "Growth",
-                                            "fr": "Croissance"
+                                            "fr": "Croissance",
+                                            "en": "Growth"
                                         },
                                         "nodes": [
                                             {
                                                 "name": "K_012",
                                                 "labels": {
-                                                    "en": "Physical Growth",
-                                                    "fr": "Croissance physique"
+                                                    "fr": "Croissance physique",
+                                                    "en": "Physical Growth"
                                                 }
                                             },
                                             {
                                                 "name": "K_013",
                                                 "labels": {
-                                                    "en": "Personal Growth",
-                                                    "fr": "Croissance personnelle"
+                                                    "fr": "Croissance personnelle",
+                                                    "en": "Personal Growth"
                                                 }
                                             }
                                         ]
@@ -452,15 +452,15 @@
                                     {
                                         "name": "K_014",
                                         "labels": {
-                                            "en": "Transformation",
-                                            "fr": "Transformation"
+                                            "fr": "Transformation",
+                                            "en": "Transformation"
                                         }
                                     },
                                     {
                                         "name": "K_015",
                                         "labels": {
-                                            "en": "Self-discovery",
-                                            "fr": "Découverte de soi"
+                                            "fr": "Découverte de soi",
+                                            "en": "Self-discovery"
                                         }
                                     }
                                 ]
@@ -468,29 +468,29 @@
                             {
                                 "name": "K_016",
                                 "labels": {
-                                    "en": "Authority",
-                                    "fr": "Autorité"
+                                    "fr": "Autorité",
+                                    "en": "Authority"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_017",
                                         "labels": {
-                                            "en": "Rules",
-                                            "fr": "Règles"
+                                            "fr": "Règles",
+                                            "en": "Rules"
                                         }
                                     },
                                     {
                                         "name": "K_018",
                                         "labels": {
-                                            "en": "Tyranny",
-                                            "fr": "Tyrannie"
+                                            "fr": "Tyrannie",
+                                            "en": "Tyranny"
                                         }
                                     },
                                     {
                                         "name": "K_019",
                                         "labels": {
-                                            "en": "Absurdity",
-                                            "fr": "Absurdité"
+                                            "fr": "Absurdité",
+                                            "en": "Absurdity"
                                         }
                                     }
                                 ]
@@ -498,29 +498,29 @@
                             {
                                 "name": "K_020",
                                 "labels": {
-                                    "en": "Logic",
-                                    "fr": "Logique"
+                                    "fr": "Logique",
+                                    "en": "Logic"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_021",
                                         "labels": {
-                                            "en": "Paradoxes",
-                                            "fr": "Paradoxe"
+                                            "fr": "Paradoxe",
+                                            "en": "Paradoxes"
                                         }
                                     },
                                     {
                                         "name": "K_022",
                                         "labels": {
-                                            "en": "Wordplay",
-                                            "fr": "Jeu de mots"
+                                            "fr": "Jeu de mots",
+                                            "en": "Wordplay"
                                         }
                                     },
                                     {
                                         "name": "K_023",
                                         "labels": {
-                                            "en": "Irony",
-                                            "fr": "Ironie"
+                                            "fr": "Ironie",
+                                            "en": "Irony"
                                         }
                                     }
                                 ]
@@ -528,22 +528,22 @@
                             {
                                 "name": "K_024",
                                 "labels": {
-                                    "en": "Time",
-                                    "fr": "Temps"
+                                    "fr": "Temps",
+                                    "en": "Time"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_025",
                                         "labels": {
-                                            "en": "Anxiety",
-                                            "fr": "Anxiété"
+                                            "fr": "Anxiété",
+                                            "en": "Anxiety"
                                         }
                                     },
                                     {
                                         "name": "K_026",
                                         "labels": {
-                                            "en": "Servitude",
-                                            "fr": "Servitude"
+                                            "fr": "Servitude",
+                                            "en": "Servitude"
                                         }
                                     }
                                 ]
@@ -551,22 +551,22 @@
                             {
                                 "name": "K_027",
                                 "labels": {
-                                    "en": "Chaos",
-                                    "fr": "Chaos"
+                                    "fr": "Chaos",
+                                    "en": "Chaos"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_028",
                                         "labels": {
-                                            "en": "Madness",
-                                            "fr": "Folie"
+                                            "fr": "Folie",
+                                            "en": "Madness"
                                         }
                                     },
                                     {
                                         "name": "K_029",
                                         "labels": {
-                                            "en": "Confusion",
-                                            "fr": "Confusion"
+                                            "fr": "Confusion",
+                                            "en": "Confusion"
                                         }
                                     }
                                 ]
@@ -574,22 +574,22 @@
                             {
                                 "name": "K_030",
                                 "labels": {
-                                    "en": "Wisdom",
-                                    "fr": "Sagesse"
+                                    "fr": "Sagesse",
+                                    "en": "Wisdom"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_031",
                                         "labels": {
-                                            "en": "Mystery",
-                                            "fr": "Mystère"
+                                            "fr": "Mystère",
+                                            "en": "Mystery"
                                         }
                                     },
                                     {
                                         "name": "K_032",
                                         "labels": {
-                                            "en": "Reflection",
-                                            "fr": "Réflexion"
+                                            "fr": "Réflexion",
+                                            "en": "Reflection"
                                         }
                                     }
                                 ]
@@ -597,22 +597,22 @@
                             {
                                 "name": "K_033",
                                 "labels": {
-                                    "en": "Violence",
-                                    "fr": "Violence"
+                                    "fr": "Violence",
+                                    "en": "Violence"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_034",
                                         "labels": {
-                                            "en": "Anger",
-                                            "fr": "Colère"
+                                            "fr": "Colère",
+                                            "en": "Anger"
                                         }
                                     },
                                     {
                                         "name": "K_035",
                                         "labels": {
-                                            "en": "Judgment",
-                                            "fr": "Jugement"
+                                            "fr": "Jugement",
+                                            "en": "Judgment"
                                         }
                                     }
                                 ]
@@ -620,15 +620,15 @@
                             {
                                 "name": "K_036",
                                 "labels": {
-                                    "en": "Justice",
-                                    "fr": "Justice"
+                                    "fr": "Justice",
+                                    "en": "Justice"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_037",
                                         "labels": {
-                                            "en": "Inverted Justice",
-                                            "fr": "Justice inversée"
+                                            "fr": "Justice inversée",
+                                            "en": "Inverted Justice"
                                         }
                                     }
                                 ]
@@ -636,15 +636,15 @@
                             {
                                 "name": "K_038",
                                 "labels": {
-                                    "en": "Domesticity",
-                                    "fr": "Domesticité"
+                                    "fr": "Domesticité",
+                                    "en": "Domesticity"
                                 },
                                 "nodes": [
                                     {
                                         "name": "K_039",
                                         "labels": {
-                                            "en": "Domestic chaos",
-                                            "fr": "Chaos domestique"
+                                            "fr": "Chaos domestique",
+                                            "en": "Domestic chaos"
                                         }
                                     }
                                 ]
@@ -654,36 +654,36 @@
                     {
                         "name": "K_040",
                         "labels": {
-                            "en": "Symbolism",
-                            "fr": "Symbolisme"
+                            "fr": "Symbolisme",
+                            "en": "Symbolism"
                         },
                         "nodes": [
                             {
                                 "name": "K_041",
                                 "labels": {
-                                    "en": "Animals",
-                                    "fr": "Animaux"
+                                    "fr": "Animaux",
+                                    "en": "Animals"
                                 }
                             },
                             {
                                 "name": "K_042",
                                 "labels": {
-                                    "en": "Time",
-                                    "fr": "Temps"
+                                    "fr": "Temps",
+                                    "en": "Time"
                                 }
                             },
                             {
                                 "name": "K_043",
                                 "labels": {
-                                    "en": "Desire",
-                                    "fr": "Désir"
+                                    "fr": "Désir",
+                                    "en": "Desire"
                                 }
                             },
                             {
                                 "name": "K_044",
                                 "labels": {
-                                    "en": "Beauty",
-                                    "fr": "Beauté"
+                                    "fr": "Beauté",
+                                    "en": "Beauty"
                                 }
                             }
                         ]
@@ -691,36 +691,36 @@
                     {
                         "name": "K_045",
                         "labels": {
-                            "en": "Literary Device",
-                            "fr": "Procédé littéraire"
+                            "fr": "Procédé littéraire",
+                            "en": "Literary Device"
                         },
                         "nodes": [
                             {
                                 "name": "K_046",
                                 "labels": {
-                                    "en": "Puns",
-                                    "fr": "Calembours"
+                                    "fr": "Calembours",
+                                    "en": "Puns"
                                 }
                             },
                             {
                                 "name": "K_047",
                                 "labels": {
-                                    "en": "Portmanteau",
-                                    "fr": "Mot-valise"
+                                    "fr": "Mot-valise",
+                                    "en": "Portmanteau"
                                 }
                             },
                             {
                                 "name": "K_048",
                                 "labels": {
-                                    "en": "Allegory",
-                                    "fr": "Allégorie"
+                                    "fr": "Allégorie",
+                                    "en": "Allegory"
                                 }
                             },
                             {
                                 "name": "K_049",
                                 "labels": {
-                                    "en": "Satire",
-                                    "fr": "Satire"
+                                    "fr": "Satire",
+                                    "en": "Satire"
                                 }
                             }
                         ]
@@ -728,22 +728,22 @@
                     {
                         "name": "K_050",
                         "labels": {
-                            "en": "Narrative Structure",
-                            "fr": "Structure narrative"
+                            "fr": "Structure narrative",
+                            "en": "Narrative Structure"
                         },
                         "nodes": [
                             {
                                 "name": "K_051",
                                 "labels": {
-                                    "en": "Episodic",
-                                    "fr": "Episodique"
+                                    "fr": "Episodique",
+                                    "en": "Episodic"
                                 }
                             },
                             {
                                 "name": "K_052",
                                 "labels": {
-                                    "en": "Dream-like",
-                                    "fr": "Onirique"
+                                    "fr": "Onirique",
+                                    "en": "Dream-like"
                                 }
                             }
                         ]
@@ -765,8 +765,8 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Urheberrecht",
                             "en": "Copyright",
+                            "de": "Urheberrecht",
                             "fr": "Droits d'auteur",
                             "it": "Copyright"
                         },
@@ -781,8 +781,8 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Beschreibung",
                             "en": "Description",
+                            "de": "Beschreibung",
                             "fr": "Description",
                             "it": "Descrizione"
                         },
@@ -796,8 +796,8 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Dateiname",
                             "en": "File Name",
+                            "de": "Dateiname",
                             "fr": "Nom de fichier",
                             "it": "Nome del file"
                         },
@@ -811,8 +811,8 @@
                         ],
                         "object": "DecimalValue",
                         "labels": {
-                            "de": "Dateigrösse (Mb)",
                             "en": "File Size (Mb)",
+                            "de": "Dateigrösse (Mb)",
                             "fr": "Taille du fichier (Mb)",
                             "it": "Dimensioni del file (Mb)"
                         },
@@ -827,8 +827,8 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "ID",
                             "en": "ID",
+                            "de": "ID",
                             "fr": "ID",
                             "it": "ID"
                         },
@@ -842,8 +842,8 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "de": "Lizenz",
                             "en": "License",
+                            "de": "Lizenz",
                             "fr": "Licence",
                             "it": "Licenza"
                         },
@@ -860,8 +860,8 @@
                         ],
                         "object": "TimeValue",
                         "labels": {
-                            "de": "Zeitstempel",
                             "en": "Time Stamp",
+                            "de": "Zeitstempel",
                             "fr": "Horodatage",
                             "it": "Timestamp"
                         },
@@ -877,15 +877,15 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Autor der Resource",
                             "en": "Author of the resource",
+                            "de": "Autor der Resource",
                             "fr": "Auteur·rice de la ressource",
                             "it": "Autore della risorsa",
                             "rm": "Author of the resource"
                         },
                         "comments": {
-                            "de": "Auteur·rice de la ressource",
                             "en": "Autor der Resource",
+                            "de": "Auteur·rice de la ressource",
                             "fr": "Autore della risorsa"
                         },
                         "gui_element": "SimpleText"
@@ -899,15 +899,15 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Urheberrecht der Resource",
                             "en": "Copyright of the resource",
+                            "de": "Urheberrecht der Resource",
                             "fr": "Droits d'auteur de la ressource",
                             "it": "Copyright della risorsa",
                             "rm": "Copyright of the resource"
                         },
                         "comments": {
-                            "de": "Droits d'auteur de la ressource",
                             "en": "Urheberrecht der Resource",
+                            "de": "Droits d'auteur de la ressource",
                             "fr": "Copyright della risorsa"
                         },
                         "gui_element": "SimpleText"
@@ -920,15 +920,15 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "de": "Lizenz der Resource",
                             "en": "License of the resource",
+                            "de": "Lizenz der Resource",
                             "fr": "Licence de la ressource",
                             "it": "Licenza della risorsa",
                             "rm": "License of the resource"
                         },
                         "comments": {
-                            "de": "Licence de la ressource",
                             "en": "Lizenz der Resource",
+                            "de": "Licence de la ressource",
                             "fr": "Licenza della risorsa"
                         },
                         "gui_element": "List",
@@ -946,14 +946,14 @@
                             "crm:E78_Curated_Holding"
                         ],
                         "labels": {
-                            "de": "Projekt-Archiv",
                             "en": "Project Archive",
+                            "de": "Projekt-Archiv",
                             "fr": "Projet - Archives",
                             "it": "Progetto - Archivi"
                         },
                         "comments": {
-                            "de": "Gepackter Ordner mit den Skripten und anderen Dateien des Projekts",
                             "en": "Zipped folder containing the scripts and other files from the project",
+                            "de": "Gepackter Ordner mit den Skripten und anderen Dateien des Projekts",
                             "fr": "Dossier zippé contenant les scripts et autres fichiers du projet",
                             "it": "Cartella zippata contenente gli script e gli altri file del progetto."
                         },
@@ -1008,14 +1008,14 @@
                             "schema:DigitalDocument"
                         ],
                         "labels": {
-                            "de": "Projekt-Material",
                             "en": "Project Material",
+                            "de": "Projekt-Material",
                             "fr": "Projet - Matériel",
                             "it": "Progetto - Materiale"
                         },
                         "comments": {
-                            "de": "XML- und CSV-Dateien des Projekts.",
                             "en": "XML and CSV files for the project.",
+                            "de": "XML- und CSV-Dateien des Projekts.",
                             "fr": "Fichiers XML et CSV du projet.",
                             "it": "File XML e CSV per il progetto."
                         },
@@ -1078,14 +1078,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Urheber:in",
                             "en": "Authorship",
+                            "de": "Urheber:in",
                             "fr": "Auteur·rice",
                             "it": "Autore"
                         },
                         "comments": {
-                            "de": "Autor oder Urheber der Datei",
                             "en": "Author or creator of the file",
+                            "de": "Autor oder Urheber der Datei",
                             "fr": "Auteur ou créateur du fichier",
                             "it": "Autore o creatore del file"
                         },
@@ -1100,14 +1100,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Besetzung",
                             "en": "Cast",
+                            "de": "Besetzung",
                             "fr": "Distribution",
                             "it": "Getto"
                         },
                         "comments": {
-                            "de": "Darsteller, die in den Medien erscheinen",
                             "en": "Cast members who appear on the media",
+                            "de": "Darsteller, die in den Medien erscheinen",
                             "fr": "Membres de la distribution qui apparaissent sur le média",
                             "it": "Cast dei membri che compaiono nel media"
                         },
@@ -1121,14 +1121,14 @@
                         ],
                         "object": "IntValue",
                         "labels": {
-                            "de": "Kapitel Nummer",
                             "en": "Chapter Number",
+                            "de": "Kapitel Nummer",
                             "fr": "Numéro de chapitre",
                             "it": "Numero del capitolo"
                         },
                         "comments": {
-                            "de": "Nummer des Kapitels",
                             "en": "Number of the chapter",
+                            "de": "Nummer des Kapitels",
                             "fr": "Numéro du chapitre",
                             "it": "Numero del capitolo"
                         },
@@ -1142,14 +1142,14 @@
                         ],
                         "object": "ColorValue",
                         "labels": {
-                            "de": "Farbe",
                             "en": "Colour",
+                            "de": "Farbe",
                             "fr": "Couleur",
                             "it": "Colore"
                         },
                         "comments": {
-                            "de": "Farbe",
                             "en": "Colour",
+                            "de": "Farbe",
                             "fr": "Couleur",
                             "it": "Colore"
                         },
@@ -1164,14 +1164,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Urheberrecht",
                             "en": "Copyright",
+                            "de": "Urheberrecht",
                             "fr": "Droits d'auteur",
                             "it": "Copyright"
                         },
                         "comments": {
-                            "de": "Urheberrecht der Mediendatei",
                             "en": "Copyright of the media file",
+                            "de": "Urheberrecht der Mediendatei",
                             "fr": "Copyright du fichier média",
                             "it": "Copyright del file multimediale"
                         },
@@ -1186,14 +1186,14 @@
                         ],
                         "object": "DateValue",
                         "labels": {
-                            "de": "Datum der Veröffentlichung",
                             "en": "Publication Date",
+                            "de": "Datum der Veröffentlichung",
                             "fr": "Date de publication",
                             "it": "Data di pubblicazione"
                         },
                         "comments": {
-                            "de": "Veröffentlichungsdatum",
                             "en": "Date of publication",
+                            "de": "Veröffentlichungsdatum",
                             "fr": "Date de publication",
                             "it": "Data di pubblicazione"
                         },
@@ -1208,14 +1208,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Beschreibung",
                             "en": "Description",
+                            "de": "Beschreibung",
                             "fr": "Description",
                             "it": "Descrizione"
                         },
                         "comments": {
-                            "de": "Beschreibung",
                             "en": "Description",
+                            "de": "Beschreibung",
                             "fr": "Description de l'œuvre",
                             "it": "Descrizione"
                         },
@@ -1230,14 +1230,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "alternative Beschreibung",
                             "en": "Alternative Description",
+                            "de": "alternative Beschreibung",
                             "fr": "Description alternative",
                             "it": "Descrizione alternativa"
                         },
                         "comments": {
-                            "de": "Alternative Beschreibung, um ein Beispiel für einen eingeschränkten Wert zu geben",
                             "en": "Alternative description, made to provide an example of restricted value",
+                            "de": "Alternative Beschreibung, um ein Beispiel für einen eingeschränkten Wert zu geben",
                             "fr": "Description alternative, faite pour fournir un exemple de valeur restreinte",
                             "it": "Descrizione alternativa, fornita per fornire un esempio di valore limitato"
                         },
@@ -1252,14 +1252,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "de": "Ereignistyp",
                             "en": "Event Type",
+                            "de": "Ereignistyp",
                             "fr": "Type d'événement",
                             "it": "Tipo di evento"
                         },
                         "comments": {
-                            "de": "Art der Veranstaltung, anhand einer Liste festgelegt",
                             "en": "Type of the event, determined by a list",
+                            "de": "Art der Veranstaltung, anhand einer Liste festgelegt",
                             "fr": "Type d'événement, déterminé par une liste",
                             "it": "Tipo di evento, determinato da un elenco"
                         },
@@ -1276,14 +1276,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Dateiname",
                             "en": "File Name",
+                            "de": "Dateiname",
                             "fr": "Nom de fichier",
                             "it": "Nome del file"
                         },
                         "comments": {
-                            "de": "Name der Originaldatei",
                             "en": "Name of the original file",
+                            "de": "Name der Originaldatei",
                             "fr": "Nom du fichier original",
                             "it": "Nome del file originale"
                         },
@@ -1297,14 +1297,14 @@
                         ],
                         "object": "DecimalValue",
                         "labels": {
-                            "de": "Dateigrösse (Mb)",
                             "en": "File Size (Mb)",
+                            "de": "Dateigrösse (Mb)",
                             "fr": "Taille du fichier (Mb)",
                             "it": "Dimensioni del file (Mb)"
                         },
                         "comments": {
-                            "de": "Dateigröße in MB",
                             "en": "Size of the file in Mb",
+                            "de": "Dateigröße in MB",
                             "fr": "Taille du fichier en Mo",
                             "it": "Dimensione del file in Mb"
                         },
@@ -1318,14 +1318,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Text (Englisch)",
                             "en": "Text",
+                            "de": "Text (Englisch)",
                             "fr": "Texte (Anglais)",
                             "it": "Testo (Inglese)"
                         },
                         "comments": {
-                            "de": "Text in englischer Sprache",
                             "en": "Text in english",
+                            "de": "Text in englischer Sprache",
                             "fr": "Texte en anglais",
                             "it": "Testo in inglese"
                         },
@@ -1339,14 +1339,14 @@
                         ],
                         "object": "GeonameValue",
                         "labels": {
-                            "de": "Geoname",
                             "en": "Geoname",
+                            "de": "Geoname",
                             "fr": "Geoname",
                             "it": "Geoname"
                         },
                         "comments": {
-                            "de": "Link zum Ort auf der Geonames-Website",
                             "en": "Link to the Place on geonames website",
+                            "de": "Link zum Ort auf der Geonames-Website",
                             "fr": "Lien vers le lieu sur le site de geonames",
                             "it": "Link al luogo sul sito web geonames"
                         },
@@ -1360,14 +1360,14 @@
                         ],
                         "object": "IntValue",
                         "labels": {
-                            "de": "Anzahl der Gäste",
                             "en": "Amount of Guests",
+                            "de": "Anzahl der Gäste",
                             "fr": "Nombre d'invités",
                             "it": "Numero di ospiti"
                         },
                         "comments": {
-                            "de": "Anzahl der Gäste der Veranstaltung",
                             "en": "Amount of guests to the event",
+                            "de": "Anzahl der Gäste der Veranstaltung",
                             "fr": "Nombre d'invités à l'événement",
                             "it": "Numero di ospiti all'evento"
                         },
@@ -1382,14 +1382,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "ID",
                             "en": "ID",
+                            "de": "ID",
                             "fr": "ID",
                             "it": "ID"
                         },
                         "comments": {
-                            "de": "Eindeutige Kennung",
                             "en": "Unique identifier",
+                            "de": "Eindeutige Kennung",
                             "fr": "Identifiant unique",
                             "it": "Identificatore univoco"
                         },
@@ -1403,14 +1403,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "de": "Schlüsselwort",
                             "en": "Keyword",
+                            "de": "Schlüsselwort",
                             "fr": "Mot-clé",
                             "it": "Parola chiave"
                         },
                         "comments": {
-                            "de": "Mit dem Datensatz verbundene Schlüsselwörter",
                             "en": "Keywords associated to the record",
+                            "de": "Mit dem Datensatz verbundene Schlüsselwörter",
                             "fr": "Mots-clés associés à l'enregistrement",
                             "it": "Parole chiave associate alla scheda"
                         },
@@ -1427,14 +1427,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "de": "Lizenz",
                             "en": "License",
+                            "de": "Lizenz",
                             "fr": "Licence",
                             "it": "Licenza"
                         },
                         "comments": {
-                            "de": "Lizenz zur Nutzung der Mediendatei",
                             "en": "License of use of the Media file",
+                            "de": "Lizenz zur Nutzung der Mediendatei",
                             "fr": "Licence d'utilisation du fichier média",
                             "it": "Licenza d'uso del file multimediale"
                         },
@@ -1451,14 +1451,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Name",
                             "en": "Name",
+                            "de": "Name",
                             "fr": "Nom",
                             "it": "Nome"
                         },
                         "comments": {
-                            "de": "Name",
                             "en": "Name",
+                            "de": "Name",
                             "fr": "Nom",
                             "it": "Nome"
                         },
@@ -1472,14 +1472,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Angebot",
                             "en": "Quote",
+                            "de": "Angebot",
                             "fr": "Citation",
                             "it": "Preventivo"
                         },
                         "comments": {
-                            "de": "Zitat, wie im Originaltext geschrieben",
                             "en": "Quote, as written in the original story",
+                            "de": "Zitat, wie im Originaltext geschrieben",
                             "fr": "Citation, telle qu'elle est écrite dans l'histoire originale",
                             "it": "Citazione, come riportata nella storia originale"
                         },
@@ -1493,14 +1493,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "de": "Rolle",
                             "en": "Role",
+                            "de": "Rolle",
                             "fr": "Rôle",
                             "it": "Ruolo"
                         },
                         "comments": {
-                            "de": "Bedeutung der Figur in der Geschichte",
                             "en": "Importance of the character in the story",
+                            "de": "Bedeutung der Figur in der Geschichte",
                             "fr": "Importance du personnage dans l'histoire",
                             "it": "Importanza del personaggio nella storia"
                         },
@@ -1517,14 +1517,14 @@
                         ],
                         "object": "IntValue",
                         "labels": {
-                            "de": "Seqnum",
                             "en": "Seqnum",
+                            "de": "Seqnum",
                             "fr": "Seqnum",
                             "it": "Seqnum"
                         },
                         "comments": {
-                            "de": "Sequenznummer für zusammengesetzte Objekte",
                             "en": "Sequence number used for compound object",
+                            "de": "Sequenznummer für zusammengesetzte Objekte",
                             "fr": "Numéro de séquence utilisé pour l'objet composé",
                             "it": "Numero di sequenza utilizzato per oggetti composti"
                         },
@@ -1538,14 +1538,14 @@
                         ],
                         "object": "TimeValue",
                         "labels": {
-                            "de": "Zeitstempel",
                             "en": "Time Stamp",
+                            "de": "Zeitstempel",
                             "fr": "Horodatage",
                             "it": "Timestamp"
                         },
                         "comments": {
-                            "de": "Zeitstempel",
                             "en": "Time stamp",
+                            "de": "Zeitstempel",
                             "fr": "Horodatage",
                             "it": "Data e ora"
                         },
@@ -1559,14 +1559,14 @@
                         ],
                         "object": "UriValue",
                         "labels": {
-                            "de": "Mehr Informationen",
                             "en": "More Information",
+                            "de": "Mehr Informationen",
                             "fr": "Plus d'informations",
                             "it": "Ulteriori informazioni"
                         },
                         "comments": {
-                            "de": "URL zu einer externen Seite mit weiteren Informationen",
                             "en": "URL leading to an external page with more information",
+                            "de": "URL zu einer externen Seite mit weiteren Informationen",
                             "fr": "URL menant à une page externe contenant plus d'informations",
                             "it": "URL che rimanda a una pagina esterna con ulteriori informazioni"
                         },
@@ -1580,14 +1580,14 @@
                         ],
                         "object": "BooleanValue",
                         "labels": {
-                            "de": "Gefährlich",
                             "en": "Dangerous",
+                            "de": "Gefährlich",
                             "fr": "Dangereux",
                             "it": "Pericoloso"
                         },
                         "comments": {
-                            "de": "Ist das Ereignis gefährlich?",
                             "en": "Is the event dangerous?",
+                            "de": "Ist das Ereignis gefährlich?",
                             "fr": "L'événement est-il dangereux ?",
                             "it": "L'evento è pericoloso?"
                         },
@@ -1602,14 +1602,14 @@
                         ],
                         "object": ":Book",
                         "labels": {
-                            "de": "Teil des Buches",
                             "en": "Part of Book",
+                            "de": "Teil des Buches",
                             "fr": "Appartient au Livre",
                             "it": "Appartiene al libro"
                         },
                         "comments": {
-                            "de": "Gehört zu folgendem Buch",
                             "en": "Belongs to following book",
+                            "de": "Gehört zu folgendem Buch",
                             "fr": "Appartient au livre suivant",
                             "it": "Appartiene al seguente libro"
                         },
@@ -1624,14 +1624,14 @@
                         ],
                         "object": ":Character",
                         "labels": {
-                            "de": "Charakter(e) auf dem Bild",
                             "en": "Character(s) on the image",
+                            "de": "Charakter(e) auf dem Bild",
                             "fr": "Personnage(s) sur l'image",
                             "it": "Personaggio/i nell'immagine"
                         },
                         "comments": {
-                            "de": "Charakter(e) auf dem Bild",
                             "en": "Character(s) on the image",
+                            "de": "Charakter(e) auf dem Bild",
                             "fr": "Personnage(s) sur l'image",
                             "it": "Personaggio/i nell'immagine"
                         },
@@ -1645,14 +1645,14 @@
                         ],
                         "object": ":Audio",
                         "labels": {
-                            "de": "Audio",
                             "en": "Audio",
+                            "de": "Audio",
                             "fr": "Audio",
                             "it": "Audio"
                         },
                         "comments": {
-                            "de": "Interner Link zu Audio",
                             "en": "internal link to Audio",
+                            "de": "Interner Link zu Audio",
                             "fr": "lien interne vers les fichiers Audio",
                             "it": "link interno all'audio"
                         },
@@ -1667,14 +1667,14 @@
                         ],
                         "object": ":BookChapter",
                         "labels": {
-                            "de": "Buch-Kapitel",
                             "en": "Book Chapters",
+                            "de": "Buch-Kapitel",
                             "fr": "Chapitres du livre",
                             "it": "Capitoli del libro"
                         },
                         "comments": {
-                            "de": "Interner Link zu Buchkapiteln",
                             "en": "internal link to Book Chapters",
+                            "de": "Interner Link zu Buchkapiteln",
                             "fr": "lien interne vers les Chapitres du livre",
                             "it": "link interno ai capitoli del libro"
                         },
@@ -1688,14 +1688,14 @@
                         ],
                         "object": ":BookEdition",
                         "labels": {
-                            "de": "Ausgabe",
                             "en": "Edition",
+                            "de": "Ausgabe",
                             "fr": "Edition",
                             "it": "Edizione"
                         },
                         "comments": {
-                            "de": "Interner Link zu den Ausgaben",
                             "en": "internal link to the Edition(s)",
+                            "de": "Interner Link zu den Ausgaben",
                             "fr": "lien interne vers l'(les) édition(s)",
                             "it": "link interno all'edizione/alle edizioni"
                         },
@@ -1710,14 +1710,14 @@
                         ],
                         "object": ":Character",
                         "labels": {
-                            "de": "Charakter(e)",
                             "en": "Character(s)",
+                            "de": "Charakter(e)",
                             "fr": "Personnage(s)",
                             "it": "Personaggio/i"
                         },
                         "comments": {
-                            "de": "Interner Link zu Figur(en)",
                             "en": "internal link to Character(s)",
+                            "de": "Interner Link zu Figur(en)",
                             "fr": "lien interne vers le(s) personnage(s)",
                             "it": "link interno a Personaggio/i"
                         },
@@ -1732,14 +1732,14 @@
                         ],
                         "object": ":Character",
                         "labels": {
-                            "de": "Antagonist(en)",
                             "en": "Antagonist(s)",
+                            "de": "Antagonist(en)",
                             "fr": "Antagoniste(s)",
                             "it": "Antagonista/i"
                         },
                         "comments": {
-                            "de": "Interner Link zu Antagonist(en)",
                             "en": "internal link to Antagonist(s)",
+                            "de": "Interner Link zu Antagonist(en)",
                             "fr": "lien interne vers Antagoniste(s)",
                             "it": "link interno a Antagonista/i"
                         },
@@ -1754,14 +1754,14 @@
                         ],
                         "object": ":Character",
                         "labels": {
-                            "de": "Protagonist(en)",
                             "en": "Protagonist(s)",
+                            "de": "Protagonist(en)",
                             "fr": "Protagoniste(s)",
                             "it": "Protagonista/i"
                         },
                         "comments": {
-                            "de": "Interner Link zu Protagonist(en)",
                             "en": "internal link to Protagonist(s)",
+                            "de": "Interner Link zu Protagonist(en)",
                             "fr": "lien interne vers Protagoniste(s)",
                             "it": "link interno a Protagonista/i"
                         },
@@ -1775,14 +1775,14 @@
                         ],
                         "object": ":Event",
                         "labels": {
-                            "de": "Ereignis",
                             "en": "Event(s)",
+                            "de": "Ereignis",
                             "fr": "Evénement(s)",
                             "it": "Evento"
                         },
                         "comments": {
-                            "de": "Interner Link zu Ereignis(en)",
                             "en": "internal link to Event(s)",
+                            "de": "Interner Link zu Ereignis(en)",
                             "fr": "lien interne vers Événement(s)",
                             "it": "link interno a Evento/i"
                         },
@@ -1796,14 +1796,14 @@
                         ],
                         "object": ":Image",
                         "labels": {
-                            "de": "Bild",
                             "en": "Image(s)",
+                            "de": "Bild",
                             "fr": "Image(s) liée(s)",
                             "it": "Immagine"
                         },
                         "comments": {
-                            "de": "Interner Link zu Bild(ern)",
                             "en": "internal link to Image(s)",
+                            "de": "Interner Link zu Bild(ern)",
                             "fr": "lien interne vers Image(s)",
                             "it": "link interno a Immagine/i"
                         },
@@ -1818,14 +1818,14 @@
                         ],
                         "object": ":Location",
                         "labels": {
-                            "de": "Standort",
                             "en": "Location",
+                            "de": "Standort",
                             "fr": "Emplacement",
                             "it": "Luogo"
                         },
                         "comments": {
-                            "de": "Interner Link zu Ort(en)",
                             "en": "internal link to Location(s)",
+                            "de": "Interner Link zu Ort(en)",
                             "fr": "lien interne vers Lieu(x)",
                             "it": "link interno a Luogo/i"
                         },
@@ -1839,14 +1839,14 @@
                         ],
                         "object": ":Video",
                         "labels": {
-                            "de": "Video",
                             "en": "Video",
+                            "de": "Video",
                             "fr": "Vidéo",
                             "it": "Video"
                         },
                         "comments": {
-                            "de": "Interner Link zu Video(s)",
                             "en": "internal link to Video(s)",
+                            "de": "Interner Link zu Video(s)",
                             "fr": "lien interne vers Vidéo(s)",
                             "it": "link interno a Video/i"
                         },
@@ -1860,14 +1860,14 @@
                         ],
                         "object": ":BookCover",
                         "labels": {
-                            "de": "Einband",
                             "en": "Book Cover",
+                            "de": "Einband",
                             "fr": "Couverture",
                             "it": "Copertine"
                         },
                         "comments": {
-                            "de": "Interner Link zu Buchcover(s)",
                             "en": "internal link to Book Cover(s)",
+                            "de": "Interner Link zu Buchcover(s)",
                             "fr": "lien interne vers Couverture(s) de livre",
                             "it": "link interno a Copertina/e del libro"
                         },
@@ -1883,14 +1883,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Autor der Resource",
                             "en": "Author of the resource",
+                            "de": "Autor der Resource",
                             "fr": "Auteur·rice de la ressource",
                             "it": "Autore della risorsa"
                         },
                         "comments": {
-                            "de": "Autor der Resource",
                             "en": "Author of the resource",
+                            "de": "Autor der Resource",
                             "fr": "Auteur·rice de la ressource",
                             "it": "Autore della risorsa"
                         },
@@ -1905,14 +1905,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Urheberrecht der Resource",
                             "en": "Copyright of the resource",
+                            "de": "Urheberrecht der Resource",
                             "fr": "Droits d'auteur de la ressource",
                             "it": "Copyright della risorsa"
                         },
                         "comments": {
-                            "de": "Urheberrecht der Resource",
                             "en": "Copyright of the resource",
+                            "de": "Urheberrecht der Resource",
                             "fr": "Droits d'auteur de la ressource",
                             "it": "Copyright della risorsa"
                         },
@@ -1926,14 +1926,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "de": "Lizenz der Resource",
                             "en": "License of the resource",
+                            "de": "Lizenz der Resource",
                             "fr": "Licence de la ressource",
                             "it": "Licenza della risorsa"
                         },
                         "comments": {
-                            "de": "Lizenz der Resource",
                             "en": "License of the resource",
+                            "de": "Lizenz der Resource",
                             "fr": "Licence de la ressource",
                             "it": "Licenza della risorsa"
                         },
@@ -1945,28 +1945,33 @@
                 ],
                 "resources": [
                     {
-                        "name": "Audio",
+                        "name": "Documentation",
                         "super": [
-                            "AudioRepresentation",
-                            "schema:Audiobook",
-                            "crm:E73_Information_Object"
+                            "DocumentRepresentation",
+                            "crm:E31_Document",
+                            "schema:DigitalDocument"
                         ],
                         "labels": {
-                            "de": "Audio",
-                            "en": "Audio",
-                            "fr": "Audio",
-                            "it": "Audio"
+                            "en": "# Project Documentation",
+                            "de": "# Projekt-Dokumentation",
+                            "fr": "# Projet - Documentation",
+                            "it": "# Progetto - Documentazione"
                         },
                         "comments": {
-                            "de": "Audioversion von Alice im Wunderland, Kapitel für Kapitel",
-                            "en": "Audio version of Alice in Wonderland, chapter per chapter",
-                            "fr": "Version audio d'Alice au pays des merveilles, chapitre par chapitre",
-                            "it": "Versione audio di Alice nel Paese delle Meraviglie, capitolo per capitolo"
+                            "en": "Metadata about the project, Visualizations of the Data model",
+                            "de": "Metadaten über das Projekt, Visualisierungen des Datenmodells",
+                            "fr": "Métadonnées sur le projet, Visualisations du modèle de données",
+                            "it": "Metadati sul progetto, visualizzazioni del modello di dati"
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasFileName",
+                                "propname": ":hasID",
                                 "cardinality": "1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "0-1",
                                 "gui_order": 1
                             },
                             {
@@ -1975,39 +1980,29 @@
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasCast",
+                                "propname": ":hasTimeStamp",
                                 "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasTimeStamp",
+                                "propname": ":hasFileSize",
                                 "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasID",
+                                "propname": ":hasCopyrightResource",
                                 "cardinality": "1",
                                 "gui_order": 6
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "0-n",
+                                "propname": ":hasLicenseResource",
+                                "cardinality": "1",
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "0-1",
+                                "propname": ":hasAuthorshipResource",
+                                "cardinality": "1-n",
                                 "gui_order": 8
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "0-1",
-                                "gui_order": 9
                             }
                         ]
                     },
@@ -2019,14 +2014,14 @@
                             "crm:E89_Propositional_Object"
                         ],
                         "labels": {
-                            "de": "Geschichte",
-                            "en": "Story",
-                            "fr": "Histoire",
-                            "it": "Racconti"
+                            "en": "01. Story",
+                            "de": "01. Geschichte",
+                            "fr": "01. Histoire",
+                            "it": "01. Racconti"
                         },
                         "comments": {
-                            "de": "Die beiden Geschichten von Lewis Carroll",
                             "en": "The two stories written by Lewis Carroll",
+                            "de": "Die beiden Geschichten von Lewis Carroll",
                             "fr": "Les deux histoires écrits par Lewis Carroll",
                             "it": "I due racconti scritti da Lewis Carroll"
                         },
@@ -2106,14 +2101,14 @@
                             "crm:E89_Propositional_Object"
                         ],
                         "labels": {
-                            "de": "Buch Kapitel",
-                            "en": "Book Chapter",
-                            "fr": "Chapitre de livre",
-                            "it": "Capitolo del libro"
+                            "en": "02. Book Chapter",
+                            "de": "02. Buch Kapitel",
+                            "fr": "02. Chapitre de livre",
+                            "it": "02. Capitolo del libro"
                         },
                         "comments": {
-                            "de": "Die Kapitel der beiden Bücher enthielten Vorworte und Gedichte aus den Büchern, mit vollständigem Text",
                             "en": "Chapters of the two books included prefaces and poems from the books, with full text",
+                            "de": "Die Kapitel der beiden Bücher enthielten Vorworte und Gedichte aus den Büchern, mit vollständigem Text",
                             "fr": "Les chapitres des deux livres comprennent des préfaces et des poèmes tirés des livres, avec le texte intégral.",
                             "it": "I capitoli dei due libri comprendevano prefazioni e poesie tratte dai libri, con il testo completo."
                         },
@@ -2191,67 +2186,6 @@
                         ]
                     },
                     {
-                        "name": "BookEdition",
-                        "super": [
-                            "DocumentRepresentation",
-                            "crm:E22_Human-Made_Object"
-                        ],
-                        "labels": {
-                            "de": "Ausgabe",
-                            "en": "Edition",
-                            "fr": "Edition",
-                            "it": "Edizione"
-                        },
-                        "comments": {
-                            "de": "Ausgaben der Bücher",
-                            "en": "Editions of the books",
-                            "fr": "Editions des livres",
-                            "it": "Edizioni dei libri"
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasFileName",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "0-n",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "0-1",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "0-1",
-                                "gui_order": 8
-                            }
-                        ]
-                    },
-                    {
                         "name": "Character",
                         "super": [
                             "Resource",
@@ -2259,14 +2193,14 @@
                             "crm:E89_Propositional_Object"
                         ],
                         "labels": {
-                            "de": "Charakter",
-                            "en": "Character",
-                            "fr": "Personnage",
-                            "it": "Personaggio"
+                            "en": "03. Character",
+                            "de": "03. Charakter",
+                            "fr": "03. Personnage",
+                            "it": "03. Personaggio"
                         },
                         "comments": {
-                            "de": "In den Büchern vorkommende Figuren, unterteilt in Haupt- und Nebenfiguren",
                             "en": "Characters appearing in the books, divided into main and secondary characters",
+                            "de": "In den Büchern vorkommende Figuren, unterteilt in Haupt- und Nebenfiguren",
                             "fr": "Personnages apparaissant dans les livres, divisés en personnages principaux et secondaires",
                             "it": "ersonaggi che compaiono nei libri, suddivisi in principali e secondari"
                         },
@@ -2336,14 +2270,14 @@
                             "schema:Event"
                         ],
                         "labels": {
-                            "de": "Ereignis",
-                            "en": "Event",
-                            "fr": "Événement",
-                            "it": "Evento"
+                            "en": "04. Event",
+                            "de": "04. Ereignis",
+                            "fr": "04. Événement",
+                            "it": "04. Evento"
                         },
                         "comments": {
-                            "de": "Ereignisse, die in den beiden Geschichten stattfinden. Die Ereignisse sind in Unterklassen unterteilt, je nach ihrem Typ: Abenteuer, Konflikt und Soziales. Alternative Ereignisse sind eingeschränkt.",
                             "en": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are restricted.",
+                            "de": "Ereignisse, die in den beiden Geschichten stattfinden. Die Ereignisse sind in Unterklassen unterteilt, je nach ihrem Typ: Abenteuer, Konflikt und Soziales. Alternative Ereignisse sind eingeschränkt.",
                             "fr": "Événements se déroulant dans les deux histoires. Les événements sont divisés en sous-classes, selon leur type : Aventure, Conflit et Social. Les événements alternatifs sont limités.",
                             "it": "Eventi che si svolgono nelle due storie. Gli eventi sono suddivisi in Sottoclassi, a seconda del loro tipo: Avventura, Conflitto e Sociale. Gli eventi alternativi sono limitati."
                         },
@@ -2396,128 +2330,58 @@
                         ]
                     },
                     {
-                        "name": "EventAdventure",
+                        "name": "Location",
                         "super": [
                             "Resource",
-                            ":Event",
-                            "crm:E5_Event",
-                            "schema:Event"
+                            "crm:E53_Place",
+                            "schema:Place"
                         ],
                         "labels": {
-                            "de": "Ereignis Abenteuer",
-                            "en": "Event Adventure",
-                            "fr": "Événement Aventure",
-                            "it": "Evento di avventura"
+                            "en": "05. Location",
+                            "de": "05. Ort",
+                            "fr": "05. Lieu",
+                            "it": "05. Luogo"
                         },
                         "comments": {
-                            "de": "Unterklasse von Event, vom Typ Abenteuer",
-                            "en": "Subclass of Event, of type Adventure",
-                            "fr": "Sous-classe de Événement, de type Aventure",
-                            "it": "Sottoclasse di Evento, di tipo Avventura"
+                            "en": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland.",
+                            "de": "Orte, an denen die von Lewis Carroll erdachten Geschichten spielen, unterteilt in die reale Welt und das Wunderland.",
+                            "fr": "Lieux où se déroulent les histoires imaginées par Lewis Carroll, subdivisées selon qu'ils sont situés dans le monde réel ou dans le Pays des Merveilles",
+                            "it": "Luoghi in cui si svolgono le storie immaginate da Lewis Carroll, suddivisi a seconda che si trovino nel mondo reale o nel Paese delle Meraviglie."
                         },
                         "cardinalities": [
                             {
-                                "propname": ":linkToCharacter",
-                                "cardinality": "0-n",
-                                "gui_order": 7
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 1
                             },
                             {
-                                "propname": ":isDangerous",
+                                "propname": ":hasName",
                                 "cardinality": "0-1",
-                                "gui_order": 8
-                            }
-                        ]
-                    },
-                    {
-                        "name": "EventAlternative",
-                        "super": [
-                            "Resource",
-                            ":Event",
-                            "crm:E5_Event",
-                            "schema:Event"
-                        ],
-                        "labels": {
-                            "de": "Ereignis Alternativ",
-                            "en": "Event Alternative",
-                            "fr": "Événement alternatif",
-                            "it": "Evento alternativo"
-                        },
-                        "comments": {
-                            "de": "Unterklasse von Event, vom Typ Alternativ",
-                            "en": "Subclass of Event, of type Alternative",
-                            "fr": "Sous-classe d'événement, de type alternatif",
-                            "it": "Sottoclasse di Evento, di tipo Alternativo"
-                        },
-                        "cardinalities": [
+                                "gui_order": 2
+                            },
                             {
-                                "propname": ":hasGuestAmount",
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":linkToImage",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasAuthorshipResource",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 7
-                            }
-                        ]
-                    },
-                    {
-                        "name": "EventConflict",
-                        "super": [
-                            "Resource",
-                            ":Event",
-                            "crm:E5_Event",
-                            "schema:Event"
-                        ],
-                        "labels": {
-                            "de": "Ereignis Konflikt",
-                            "en": "Event Conflict",
-                            "fr": "Événement Conflit",
-                            "it": "Evento di conflitto"
-                        },
-                        "comments": {
-                            "de": "Unterklasse von Ereignis, vom Typ Konflikt",
-                            "en": "Subclass of Event, of type Conflict",
-                            "fr": "Sous-classe de Événement, de type Conflit",
-                            "it": "Sottoclasse di Evento, di tipo Conflitto"
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":linkToCharacterProtagonist",
-                                "cardinality": "0-n",
-                                "gui_order": 7
                             },
                             {
-                                "propname": ":linkToCharacterAntagonist",
-                                "cardinality": "0-n",
-                                "gui_order": 8
-                            }
-                        ]
-                    },
-                    {
-                        "name": "EventSocial",
-                        "super": [
-                            "Resource",
-                            ":Event",
-                            "crm:E5_Event",
-                            "schema:Event"
-                        ],
-                        "labels": {
-                            "de": "Ereignis Soziales",
-                            "en": "Event Social",
-                            "fr": "Événement Social",
-                            "it": "Evento sociale"
-                        },
-                        "comments": {
-                            "de": "Unterklasse von Event, vom Typ Sozial",
-                            "en": "Subclass of Event, of type Social",
-                            "fr": "Sous-classe d'événement, de type social",
-                            "it": "Sottoclasse di Evento, di tipo Sociale"
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":linkToCharacter",
-                                "cardinality": "0-n",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasGuestAmount",
-                                "cardinality": "0-n",
+                                "propname": ":hasLicenseResource",
+                                "cardinality": "0-1",
                                 "gui_order": 8
                             }
                         ]
@@ -2530,14 +2394,14 @@
                             "schema:ImageObject"
                         ],
                         "labels": {
-                            "de": "Bild",
-                            "en": "Image",
-                            "fr": "Image",
-                            "it": "Immagine"
+                            "en": "06. Image",
+                            "de": "06. Bild",
+                            "fr": "06. Image",
+                            "it": "06. Immagine"
                         },
                         "comments": {
-                            "de": "Originalillustrationen der ersten Ausgabe, gestaltet von John Tenniell",
                             "en": "Original illustrations from the first edition, created by John Tenniell",
+                            "de": "Originalillustrationen der ersten Ausgabe, gestaltet von John Tenniell",
                             "fr": "Illustrations originales de la première édition, créées par John Tenniell",
                             "it": "Illustrazioni originali della prima edizione, realizzate da John Tenniell"
                         },
@@ -2600,43 +2464,47 @@
                         ]
                     },
                     {
-                        "name": "Location",
+                        "name": "BookEdition",
                         "super": [
-                            "Resource",
-                            "crm:E53_Place",
-                            "schema:Place"
+                            "DocumentRepresentation",
+                            "crm:E22_Human-Made_Object"
                         ],
                         "labels": {
-                            "de": "Ort",
-                            "en": "Location",
-                            "fr": "Lieu",
-                            "it": "Luogo"
+                            "en": "07. Edition",
+                            "de": "07. Ausgabe",
+                            "fr": "07. Edition",
+                            "it": "07. Edizione"
                         },
                         "comments": {
-                            "de": "Orte, an denen die von Lewis Carroll erdachten Geschichten spielen, unterteilt in die reale Welt und das Wunderland.",
-                            "en": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland.",
-                            "fr": "Lieux où se déroulent les histoires imaginées par Lewis Carroll, subdivisées selon qu'ils sont situés dans le monde réel ou dans le Pays des Merveilles",
-                            "it": "Luoghi in cui si svolgono le storie immaginate da Lewis Carroll, suddivisi a seconda che si trovino nel mondo reale o nel Paese delle Meraviglie."
+                            "en": "Editions of the books",
+                            "de": "Ausgaben der Bücher",
+                            "fr": "Editions des livres",
+                            "it": "Edizioni dei libri"
                         },
                         "cardinalities": [
                             {
                                 "propname": ":hasID",
                                 "cardinality": "1",
-                                "gui_order": 1
+                                "gui_order": 5
                             },
                             {
-                                "propname": ":hasName",
-                                "cardinality": "0-1",
-                                "gui_order": 2
+                                "propname": ":hasFileName",
+                                "cardinality": "1",
+                                "gui_order": 1
                             },
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":linkToImage",
-                                "cardinality": "0-n",
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
@@ -2657,53 +2525,123 @@
                         ]
                     },
                     {
-                        "name": "LocationRealWorld",
+                        "name": "BookCover",
                         "super": [
-                            "Resource",
-                            ":Location",
-                            "crm:E53_Place",
-                            "schema:Place"
+                            "StillImageRepresentation",
+                            "crm:E73_Information_Object",
+                            "schema:ImageObject"
                         ],
                         "labels": {
-                            "de": "Ort reale Welt",
-                            "en": "Location Real World",
-                            "fr": "Lieu Monde réel",
-                            "it": "Luogo del mondo reale"
+                            "en": "08. Book Cover",
+                            "de": "08. Bucheinband",
+                            "fr": "08. Couverture de livre",
+                            "it": "08. Copertina del libro"
                         },
                         "comments": {
-                            "de": "Orte, die sich in der realen Welt befinden, Unterklasse.",
-                            "en": "Places in the real world, subclass.",
-                            "fr": "Lieux situés dans le monde réel, sous-classe.",
-                            "it": "Luoghi del mondo reale, sottoclasse."
+                            "en": "Book covers of several editions of the stories",
+                            "de": "Bucheinbände der verschiedenen Ausgaben der Erzählungen",
+                            "fr": "Couvertures de plusieurs éditions des histoires",
+                            "it": "Copertine di diverse edizioni dei racconti"
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasGeoname",
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasUrl",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasAuthorshipResource",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasLicenseResource",
+                                "cardinality": "0-1",
+                                "gui_order": 6
                             }
                         ]
                     },
                     {
-                        "name": "LocationWonderland",
+                        "name": "Audio",
                         "super": [
-                            "Resource",
-                            ":Location",
-                            "crm:E53_Place",
-                            "schema:Place"
+                            "AudioRepresentation",
+                            "schema:Audiobook",
+                            "crm:E73_Information_Object"
                         ],
                         "labels": {
-                            "de": "Ort Wunderland",
-                            "en": "Location Wonderland",
-                            "fr": "Lieu Pays des Merveilles",
-                            "it": "Luogo del Paese delle Meraviglie"
+                            "en": "09. Audio",
+                            "de": "09. Audio",
+                            "fr": "09. Audio",
+                            "it": "09. Audio"
                         },
                         "comments": {
-                            "de": "Orte im Wunderland, Unterklasse.",
-                            "en": "Places in Wonderland, subclass.",
-                            "fr": "Lieux situés dans le Pays des Merveilles, sous-classe.",
-                            "it": "Luoghi nel Paese delle Meraviglie, sottoclasse."
-                        }
+                            "en": "Audio version of Alice in Wonderland, chapter per chapter",
+                            "de": "Audioversion von Alice im Wunderland, Kapitel für Kapitel",
+                            "fr": "Version audio d'Alice au pays des merveilles, chapitre par chapitre",
+                            "it": "Versione audio di Alice nel Paese delle Meraviglie, capitolo per capitolo"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasFileName",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasCast",
+                                "cardinality": "0-1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":hasID",
+                                "cardinality": "1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasAuthorshipResource",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasCopyrightResource",
+                                "cardinality": "0-1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": ":hasLicenseResource",
+                                "cardinality": "0-1",
+                                "gui_order": 9
+                            }
+                        ]
                     },
                     {
                         "name": "Video",
@@ -2713,14 +2651,14 @@
                             "crm:E73_Information_Object"
                         ],
                         "labels": {
-                            "de": "Video",
-                            "en": "Video",
-                            "fr": "Vidéo",
-                            "it": "Video"
+                            "en": "10. Video",
+                            "de": "10. Video",
+                            "fr": "10. Vidéo",
+                            "it": "10. Video"
                         },
                         "comments": {
-                            "de": "Verfilmungen der beiden Geschichten.",
                             "en": "Film adaptations of the two stories.",
+                            "de": "Verfilmungen der beiden Geschichten.",
                             "fr": "Adaptations cinématographiques des deux histoires.",
                             "it": "Adattamenti cinematografici delle due storie."
                         },
@@ -2773,118 +2711,180 @@
                         ]
                     },
                     {
-                        "name": "BookCover",
+                        "name": "EventAdventure",
                         "super": [
-                            "StillImageRepresentation",
-                            "crm:E73_Information_Object",
-                            "schema:ImageObject"
+                            "Resource",
+                            ":Event",
+                            "crm:E5_Event",
+                            "schema:Event"
                         ],
                         "labels": {
-                            "de": "Bucheinband",
-                            "en": "Book Cover",
-                            "fr": "Couverture de livre",
-                            "it": "Copertina del libro"
+                            "en": "Event Adventure",
+                            "de": "Ereignis Abenteuer",
+                            "fr": "Événement Aventure",
+                            "it": "Evento di avventura"
                         },
                         "comments": {
-                            "de": "Bucheinbände der verschiedenen Ausgaben der Erzählungen",
-                            "en": "Book covers of several editions of the stories",
-                            "fr": "Couvertures de plusieurs éditions des histoires",
-                            "it": "Copertine di diverse edizioni dei racconti"
+                            "en": "Subclass of Event, of type Adventure",
+                            "de": "Unterklasse von Event, vom Typ Abenteuer",
+                            "fr": "Sous-classe de Événement, de type Aventure",
+                            "it": "Sottoclasse di Evento, di tipo Avventura"
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasDescription",
+                                "propname": ":linkToCharacter",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 7
                             },
                             {
-                                "propname": ":hasUrl",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "0-n",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
+                                "propname": ":isDangerous",
                                 "cardinality": "0-1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "0-1",
-                                "gui_order": 6
+                                "gui_order": 8
                             }
                         ]
                     },
                     {
-                        "name": "Documentation",
+                        "name": "EventAlternative",
                         "super": [
-                            "DocumentRepresentation",
-                            "crm:E31_Document",
-                            "schema:DigitalDocument"
+                            "Resource",
+                            ":Event",
+                            "crm:E5_Event",
+                            "schema:Event"
                         ],
                         "labels": {
-                            "de": "Projekt-Dokumentation",
-                            "en": "Project Documentation",
-                            "fr": "Projet - Documentation",
-                            "it": "Progetto - Documentazione"
+                            "en": "Event Alternative",
+                            "de": "Ereignis Alternativ",
+                            "fr": "Événement alternatif",
+                            "it": "Evento alternativo"
                         },
                         "comments": {
-                            "de": "Metadaten über das Projekt, Visualisierungen des Datenmodells",
-                            "en": "Metadata about the project, Visualizations of the Data model",
-                            "fr": "Métadonnées sur le projet, Visualisations du modèle de données",
-                            "it": "Metadati sul progetto, visualizzazioni del modello di dati"
+                            "en": "Subclass of Event, of type Alternative",
+                            "de": "Unterklasse von Event, vom Typ Alternativ",
+                            "fr": "Sous-classe d'événement, de type alternatif",
+                            "it": "Sottoclasse di Evento, di tipo Alternativo"
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasFileName",
+                                "propname": ":hasGuestAmount",
                                 "cardinality": "0-1",
-                                "gui_order": 1
-                            },
+                                "gui_order": 7
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EventConflict",
+                        "super": [
+                            "Resource",
+                            ":Event",
+                            "crm:E5_Event",
+                            "schema:Event"
+                        ],
+                        "labels": {
+                            "en": "Event Conflict",
+                            "de": "Ereignis Konflikt",
+                            "fr": "Événement Conflit",
+                            "it": "Evento di conflitto"
+                        },
+                        "comments": {
+                            "en": "Subclass of Event, of type Conflict",
+                            "de": "Unterklasse von Ereignis, vom Typ Konflikt",
+                            "fr": "Sous-classe de Événement, de type Conflit",
+                            "it": "Sottoclasse di Evento, di tipo Conflitto"
+                        },
+                        "cardinalities": [
                             {
-                                "propname": ":hasDescription",
+                                "propname": ":linkToCharacterProtagonist",
                                 "cardinality": "0-n",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "1",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "1",
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "1-n",
+                                "propname": ":linkToCharacterAntagonist",
+                                "cardinality": "0-n",
                                 "gui_order": 8
                             }
                         ]
+                    },
+                    {
+                        "name": "EventSocial",
+                        "super": [
+                            "Resource",
+                            ":Event",
+                            "crm:E5_Event",
+                            "schema:Event"
+                        ],
+                        "labels": {
+                            "en": "Event Social",
+                            "de": "Ereignis Soziales",
+                            "fr": "Événement Social",
+                            "it": "Evento sociale"
+                        },
+                        "comments": {
+                            "en": "Subclass of Event, of type Social",
+                            "de": "Unterklasse von Event, vom Typ Sozial",
+                            "fr": "Sous-classe d'événement, de type social",
+                            "it": "Sottoclasse di Evento, di tipo Sociale"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":linkToCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasGuestAmount",
+                                "cardinality": "0-n",
+                                "gui_order": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "LocationRealWorld",
+                        "super": [
+                            "Resource",
+                            ":Location",
+                            "crm:E53_Place",
+                            "schema:Place"
+                        ],
+                        "labels": {
+                            "en": "Location Real World",
+                            "de": "Ort reale Welt",
+                            "fr": "Lieu Monde réel",
+                            "it": "Luogo del mondo reale"
+                        },
+                        "comments": {
+                            "en": "Places in the real world, subclass.",
+                            "de": "Orte, die sich in der realen Welt befinden, Unterklasse.",
+                            "fr": "Lieux situés dans le monde réel, sous-classe.",
+                            "it": "Luoghi del mondo reale, sottoclasse."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasGeoname",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "LocationWonderland",
+                        "super": [
+                            "Resource",
+                            ":Location",
+                            "crm:E53_Place",
+                            "schema:Place"
+                        ],
+                        "labels": {
+                            "en": "Location Wonderland",
+                            "de": "Ort Wunderland",
+                            "fr": "Lieu Pays des Merveilles",
+                            "it": "Luogo del Paese delle Meraviglie"
+                        },
+                        "comments": {
+                            "en": "Places in Wonderland, subclass.",
+                            "de": "Orte im Wunderland, Unterklasse.",
+                            "fr": "Lieux situés dans le Pays des Merveilles, sous-classe.",
+                            "it": "Luoghi nel Paese delle Meraviglie, sottoclasse."
+                        }
                     }
                 ]
             }
