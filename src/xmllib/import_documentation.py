@@ -29,7 +29,7 @@ def main() -> list[Resource]:
         # create resource, label and id
         resource = Resource.create_new(
             res_id=row["ID"],
-            restype=":Documentation",
+            restype="project-medatada:Documentation",
             label=row["File Name"],
         )
 
@@ -39,14 +39,14 @@ def main() -> list[Resource]:
         )
 
         # add properties to resource
-        resource.add_simpletext(":hasID", row["ID"])
-        resource.add_richtext(":hasDescription", row["Description"])
-        resource.add_simpletext(":hasFileName", row["File Name"])
-        resource.add_time_optional(":hasTimeStamp", timestamp_value)
-        resource.add_decimal_optional(":hasFileSize", file_size_value)
-        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
-        resource.add_list(":hasLicenseResource", "License", "LIC_002")
-        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
+        resource.add_simpletext("project-medatada:hasID", row["ID"])
+        resource.add_richtext("project-medatada:hasDescription", row["Description"])
+        resource.add_simpletext("project-medatada:hasFileName", row["File Name"])
+        resource.add_time_optional("project-medatada:hasTimeStamp", timestamp_value)
+        resource.add_decimal_optional("project-medatada:hasFileSize", file_size_value)
+        resource.add_simpletext("project-medatada:hasCopyrightResource", "DaSCH")
+        resource.add_list("project-medatada:hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple("project-medatada:hasAuthorshipResource", authors_resource)
 
         # append resource to list
         all_resources.append(resource)
