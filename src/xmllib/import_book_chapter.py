@@ -1,7 +1,6 @@
 import pandas as pd
 from dsp_tools.xmllib import ListLookup, Resource, create_list_from_input
 
-from src.helpers.cleaning_df_tools import create_list
 from src.helpers.helper import make_cols_mapping_with_columns
 
 
@@ -28,16 +27,16 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in book_chapter_df.iterrows():
         # define variables
-        keywords_names_raw = create_list(row["Keyword"])
+        keywords_names_raw = create_list_from_input(row["Keyword"], separator=",")
         keyword_names = [
             list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw
         ]
         keyword_names = sorted(keyword_names)
 
         book = mapping_book_name[row["Book ID"]]
-        audio_ids = create_list(row["Audio ID"])
-        event_ids = create_list(row["Event ID"])
-        location_ids = create_list(row["Location ID"])
+        audio_ids = create_list_from_input(row["Audio ID"], separator=",")
+        event_ids = create_list_from_input(row["Event ID"], separator=",")
+        location_ids = create_list_from_input(row["Location ID"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id

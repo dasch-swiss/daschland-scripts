@@ -1,8 +1,6 @@
 import pandas as pd
 from dsp_tools.xmllib import ListLookup, Resource, create_list_from_input
 
-from src.helpers.cleaning_df_tools import create_list
-
 
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
@@ -26,12 +24,12 @@ def main() -> list[Resource]:
         resource_id = row["ID"]
         resource_label = row["Name"]
 
-        image_ids = create_list(row["Image ID"])
+        image_ids = create_list_from_input(row["Image ID"], separator=",")
         event_type = list_lookup.get_node_via_list_name(list_name="Event Type", node_label=row["Event Type List"])
-        guest_ids = create_list(row["Guest ID"])
-        protagonist_ids = create_list(row["Protagonist ID"])
-        adventure_character_ids = create_list(row["Adventure Character ID"])
-        antagonist_ids = create_list(row["Antagonist ID"])
+        guest_ids = create_list_from_input(row["Guest ID"], separator=",")
+        protagonist_ids = create_list_from_input(row["Protagonist ID"], separator=",")
+        adventure_character_ids = create_list_from_input(row["Adventure Character ID"], separator=",")
+        antagonist_ids = create_list_from_input(row["Antagonist ID"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id

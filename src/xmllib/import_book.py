@@ -1,8 +1,6 @@
 import pandas as pd
 from dsp_tools.xmllib import Resource, create_list_from_input, find_dates_in_string
 
-from src.helpers.cleaning_df_tools import create_list
-
 
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
@@ -14,10 +12,10 @@ def main() -> list[Resource]:
     for _, row in book_df.iterrows():
         # define variables
         dates_published = find_dates_in_string(row["Date Published"])
-        book_chapter_ids = create_list(row["Book Chapter ID"])
-        book_edition_ids = create_list(row["Book Edition ID"])
-        video_ids = create_list(row["Video ID"])
-        cover_ids = create_list(row["Book Cover ID"])
+        book_chapter_ids = create_list_from_input(row["Book Chapter ID"], separator=",")
+        book_edition_ids = create_list_from_input(row["Book Edition ID"], separator=",")
+        video_ids = create_list_from_input(row["Video ID"], separator=",")
+        cover_ids = create_list_from_input(row["Book Cover ID"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id

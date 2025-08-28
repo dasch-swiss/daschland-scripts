@@ -1,7 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import VideoSegmentResource
-
-from src.helpers.cleaning_df_tools import create_list
+from dsp_tools.xmllib import VideoSegmentResource, create_list_from_input
 
 
 def main() -> list[VideoSegmentResource]:
@@ -12,7 +10,7 @@ def main() -> list[VideoSegmentResource]:
 
     # iterate through rows of dataframe:
     for _, row in video_segment_df.iterrows():
-        relates_to_ids = create_list(row["Relates To ID"])
+        relates_to_ids = create_list_from_input(row["Relates To ID"], separator=",")
 
         # create segment, label and id
         video_segment = VideoSegmentResource.create_new(

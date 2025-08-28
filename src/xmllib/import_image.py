@@ -6,7 +6,6 @@ from dsp_tools.xmllib import (
     create_list_from_input,
 )
 
-from src.helpers.cleaning_df_tools import create_list
 from src.helpers.image_helper import get_image_creation_time, get_media_file_size
 
 
@@ -22,7 +21,7 @@ def main() -> list[Resource]:
         image_path = f"{row['Directory']}{row['File Name']}"
         timestamp_value = get_image_creation_time(image_path)
         file_size_value = get_media_file_size(image_path)
-        book_id = create_list(row["Book ID"])
+        book_id = create_list_from_input(row["Book ID"], separator=",")
         character_id = create_list_from_input(row["Character ID"], separator=",")
         file_permissions = (
             Permissions.LIMITED_VIEW if row["Restricted view"] == "x" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
