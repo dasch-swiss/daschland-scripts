@@ -1,8 +1,6 @@
 import pandas as pd
 from dsp_tools.xmllib import Resource, create_list_from_input
 
-from src.helpers.cleaning_df_tools import create_list
-
 
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
@@ -22,7 +20,7 @@ def main() -> list[Resource]:
             row["Description IT"],
         ]
         descriptions = [description for description in descriptions if pd.notna(description)]
-        image_ids = create_list(row["Image ID"])
+        image_ids = create_list_from_input(row["Image ID"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id
