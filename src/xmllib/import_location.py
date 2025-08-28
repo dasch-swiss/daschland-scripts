@@ -1,8 +1,6 @@
 import pandas as pd
 from dsp_tools.xmllib import Resource, create_list_from_input
 
-from src.helpers.cleaning_df_tools import create_list
-
 
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
