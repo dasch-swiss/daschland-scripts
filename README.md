@@ -24,6 +24,7 @@ Once you have cloned this repo, `cd` into it, and then get started with:
 
 ```bash
 uv sync
+pre-commit install
 ```
 
 This will select an appropriate Python interpreter
