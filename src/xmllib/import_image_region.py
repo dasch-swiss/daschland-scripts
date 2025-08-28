@@ -22,7 +22,7 @@ def main() -> list[RegionResource]:
         point2 = (row["Geometry X2"], row["Geometry Y2"])
 
         # add properties to region
-        region.add_rectangle(point1=point1, point2=point2)
+        region.add_rectangle(point1=point1, point2=point2, color=row["Color"], line_width=3)
 
         # add non-mandatory properties
         region.add_comment_optional(row["Comment"])

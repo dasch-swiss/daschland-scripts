@@ -20,6 +20,7 @@ def main() -> list[AudioSegmentResource]:
         )
 
         # add non-mandatory properties
+        audio_segment.add_title(row["Title"])
         audio_segment.add_comment_optional(row["Comment"])
         audio_segment.add_description(row["Description"])
         audio_segment.add_keyword(row["Keyword"])
