@@ -79,12 +79,14 @@
     <audio-segment label="Alice in Wonderland - Dramatis Personae - Intro" id="AUS_001">
         <isSegmentOf>A_01</isSegmentOf>
         <hasSegmentBounds segment_start="0" segment_end="15"/>
+        <hasTitle>Intro</hasTitle>
         <hasDescription>Introduction to the Dramatis Personae of Alice in Wonderland</hasDescription>
         <hasKeyword>Intro</hasKeyword>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Dramatis Personae - Poem" id="AUS_002">
         <isSegmentOf>A_01</isSegmentOf>
         <hasSegmentBounds segment_start="15" segment_end="101"/>
+        <hasTitle>Poem</hasTitle>
         <hasComment>Read by the cast</hasComment>
         <hasDescription>Poem All in the golden afternoon</hasDescription>
         <hasKeyword>Poem</hasKeyword>
@@ -93,12 +95,14 @@
     <audio-segment label="Alice in Wonderland - Dramatis Personae - Outro" id="AUS_003">
         <isSegmentOf>A_01</isSegmentOf>
         <hasSegmentBounds segment_start="101" segment_end="104"/>
+        <hasTitle>Outro</hasTitle>
         <hasDescription>Outroduction to the Dramatis Personae of Alice in Wonderland</hasDescription>
         <hasKeyword>Outro</hasKeyword>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Dramatis Personae - Cast presentation" id="AUS_004">
         <isSegmentOf>A_01</isSegmentOf>
         <hasSegmentBounds segment_start="104" segment_end="239"/>
+        <hasTitle>Cast presentation</hasTitle>
         <hasComment>Read by the cast</hasComment>
         <hasDescription>The cast members present themselves</hasDescription>
         <hasKeyword>Cast</hasKeyword>
@@ -106,12 +110,14 @@
     <audio-segment label="Alice in Wonderland - Chapter 1 - Intro" id="AUS_005">
         <isSegmentOf>A_02</isSegmentOf>
         <hasSegmentBounds segment_start="0" segment_end="14"/>
+        <hasTitle>Intro</hasTitle>
         <hasDescription>Introduction to the Chapter 1 of Alice in Wonderland, with explanation about reading and copyright</hasDescription>
         <hasKeyword>Intro</hasKeyword>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Chapter 1" id="AUS_006">
         <isSegmentOf>A_02</isSegmentOf>
         <hasSegmentBounds segment_start="14" segment_end="733"/>
+        <hasTitle>Chapter 1</hasTitle>
         <hasComment>Read by the cast</hasComment>
         <hasDescription>Chapter 1 of Alice in Wonderland</hasDescription>
         <hasKeyword>Chapter</hasKeyword>
@@ -120,18 +126,21 @@
     <audio-segment label="Alice in Wonderland - Chapter 1 - Outro" id="AUS_007">
         <isSegmentOf>A_02</isSegmentOf>
         <hasSegmentBounds segment_start="734" segment_end="740"/>
+        <hasTitle>Outro</hasTitle>
         <hasDescription>Outroduction to the Chapter 1 of Alice in Wonderland</hasDescription>
         <hasKeyword>Outro</hasKeyword>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Chapter 2 - Intro" id="AUS_008">
         <isSegmentOf>A_03</isSegmentOf>
         <hasSegmentBounds segment_start="0" segment_end="13"/>
+        <hasTitle>Intro</hasTitle>
         <hasDescription>Introduction to the Chapter 2 of Alice in Wonderland, with explanation about reading and copyright</hasDescription>
         <hasKeyword>Intro</hasKeyword>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Chapter 2" id="AUS_009">
         <isSegmentOf>A_03</isSegmentOf>
         <hasSegmentBounds segment_start="13" segment_end="671"/>
+        <hasTitle>Chapter 2</hasTitle>
         <hasComment>Read by the cast</hasComment>
         <hasDescription>Chapter 2 of Alice in Wonderland</hasDescription>
         <hasKeyword>Chapter</hasKeyword>
@@ -140,6 +149,7 @@
     <audio-segment label="Alice in Wonderland - Chapter 2 - Outro" id="AUS_010">
         <isSegmentOf>A_03</isSegmentOf>
         <hasSegmentBounds segment_start="671" segment_end="677"/>
+        <hasTitle>Outro</hasTitle>
         <hasDescription>Outroduction to the Chapter 2 of Alice in Wonderland</hasDescription>
         <hasKeyword>Outro</hasKeyword>
     </audio-segment>
@@ -150,7 +160,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -180,7 +228,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -210,7 +296,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -240,7 +364,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -270,7 +432,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -300,7 +500,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -330,7 +568,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -360,7 +636,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -390,7 +704,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -420,7 +772,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -450,7 +840,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -480,7 +908,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -510,7 +976,45 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Rabbit: BellonaTimes<br/>Mouse: cher0520<br/>Lory: Availle<br/>Duck: Jessamy Gloor<br/>Dodo: Tim Ferreira<br/>Eaglet: Dennis D.<br/>Old Crab: Joshua Logan<br/>Young Crab: Sonja<br/>Magpie: Lucy Perry<br/>Canary: ElleyKat<br/>Pat: Terence Taylor<br/>Bill: Aidan Brack<br/>Guinea Pig 1: Rat King<br/>Guinea Pig 2: Kelseigh<br/>Caterpillar: Algy Pug<br/>Pigeon: Kelseigh<br/>Fish-Footman: Terence<br/>Frog-Footman: Peter Yearsley<br/>Cook: Ana<br/>Baby: Elizabeth Klett<br/>Duchess: Heather Phillips<br/>Cheshire Cat: Elizabeth Klett<br/>March Hare: Denny Sayers<br/>Hatter: Arielle Lipshaw<br/>Dormouse: Ruth Golding<br/>Five: Neeru Iyer<br/>Two: Elli<br/>Seven: Henry Frigon<br/>Soldier 1: Dennis D.<br/>Soldier 2: Philbert<br/>Soldier 3: Lucy Perry<br/>Queen of Hearts: Nadine Eckert-Boulet<br/>King of Hearts: Peter Yearsley<br/>Gryphon: Algy Pug<br/>Mock Turtle: Kara Shallenberg<br/>Knave of Hearts: Levi Throckmorton<br/>Alice's Sister: Diana Majlinger</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Rabbit: BellonaTimes
+Mouse: cher0520
+Lory: Availle
+Duck: Jessamy Gloor
+Dodo: Tim Ferreira
+Eaglet: Dennis D.
+Old Crab: Joshua Logan
+Young Crab: Sonja
+Magpie: Lucy Perry
+Canary: ElleyKat
+Pat: Terence Taylor
+Bill: Aidan Brack
+Guinea Pig 1: Rat King
+Guinea Pig 2: Kelseigh
+Caterpillar: Algy Pug
+Pigeon: Kelseigh
+Fish-Footman: Terence
+Frog-Footman: Peter Yearsley
+Cook: Ana
+Baby: Elizabeth Klett
+Duchess: Heather Phillips
+Cheshire Cat: Elizabeth Klett
+March Hare: Denny Sayers
+Hatter: Arielle Lipshaw
+Dormouse: Ruth Golding
+Five: Neeru Iyer
+Two: Elli
+Seven: Henry Frigon
+Soldier 1: Dennis D.
+Soldier 2: Philbert
+Soldier 3: Lucy Perry
+Queen of Hearts: Nadine Eckert-Boulet
+King of Hearts: Peter Yearsley
+Gryphon: Algy Pug
+Mock Turtle: Kara Shallenberg
+Knave of Hearts: Levi Throckmorton
+Alice's Sister: Diana Majlinger</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -540,7 +1044,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -568,7 +1096,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -596,7 +1148,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -624,7 +1200,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -652,7 +1252,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -680,7 +1304,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -708,7 +1356,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -736,7 +1408,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -764,7 +1460,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -792,7 +1512,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -820,7 +1564,31 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Narrator: David Goldfarb<br/>Alice: Miss Avarice<br/>The White Queen/The Fawn: Elizabeth Klett<br/>The White King: Algy Pug<br/>The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla<br/>The Tiger-Lily: Cheri Gardner<br/>The Rose: breezyweezy<br/>A Daisy/The Pudding: Heather Phillips<br/>Another Daisy: Elli<br/>A Violet: Liz Bennington<br/>The Larkspur/A Horse: Malane<br/>The Red Queen: Availle<br/>The Guard/The White Knight: Peter Yearsley<br/>A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton<br/>A Goat/Someone: Chris Donnelly<br/>A Beetle/The Carpenter: Shea McNamara<br/>Gnat/The Moon: Amy Gramour<br/>Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford<br/>Tweedledum and Tweedledee: Peter Bishop<br/>The Walrus/The Unicorn: David Lawrence<br/>The Sheep/Hatta: Arielle Lipshaw<br/>Humpty Dumpty: Matthew Reece<br/>Haigha: Denny Sayers<br/>The Aged Man/The Frog: Martin Geeson<br/>Shrill Voice/The Fishes: Liberty Stump</text>
+            <text encoding="utf8">Narrator: David Goldfarb
+Alice: Miss Avarice
+The White Queen/The Fawn: Elizabeth Klett
+The White King: Algy Pug
+The Father/Gentle Voice/Oysters/The Lion: Vinnie Tesla
+The Tiger-Lily: Cheri Gardner
+The Rose: breezyweezy
+A Daisy/The Pudding: Heather Phillips
+Another Daisy: Elli
+A Violet: Liz Bennington
+The Larkspur/A Horse: Malane
+The Red Queen: Availle
+The Guard/The White Knight: Peter Yearsley
+A Gentleman/The Red Knight/Long-Beaked Creature: Levi Throckmorton
+A Goat/Someone: Chris Donnelly
+A Beetle/The Carpenter: Shea McNamara
+Gnat/The Moon: Amy Gramour
+Other Voices: Bill Mosley, Steve Belleguelle, Tom Crawford
+Tweedledum and Tweedledee: Peter Bishop
+The Walrus/The Unicorn: David Lawrence
+The Sheep/Hatta: Arielle Lipshaw
+Humpty Dumpty: Matthew Reece
+Haigha: Denny Sayers
+The Aged Man/The Frog: Martin Geeson
+Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -12995,7 +13763,7 @@
     </resource>
     <region label="White Rabbit Figure" id="R_001">
         <geometry-prop name="hasGeometry">
-            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 2, "points": [{"x": 0.02, "y": 0.1}, {"x": 0.22, "y": 0.5}]}</geometry>
+            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 3, "points": [{"x": 0.02, "y": 0.1}, {"x": 0.22, "y": 0.5}]}</geometry>
         </geometry-prop>
         <color-prop name="hasColor">
             <color>#5b24bf</color>
@@ -13009,7 +13777,7 @@
     </region>
     <region label="White Rabbit Figure" id="R_002">
         <geometry-prop name="hasGeometry">
-            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 2, "points": [{"x": 0.2, "y": 0.02}, {"x": 0.9, "y": 0.9}]}</geometry>
+            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 3, "points": [{"x": 0.2, "y": 0.02}, {"x": 0.9, "y": 0.9}]}</geometry>
         </geometry-prop>
         <color-prop name="hasColor">
             <color>#5b24bf</color>
@@ -13023,7 +13791,7 @@
     </region>
     <region label="White Rabbit Figure" id="R_003">
         <geometry-prop name="hasGeometry">
-            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 2, "points": [{"x": 0.02, "y": 0.5}, {"x": 0.3, "y": 0.8}]}</geometry>
+            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 3, "points": [{"x": 0.02, "y": 0.5}, {"x": 0.3, "y": 0.8}]}</geometry>
         </geometry-prop>
         <color-prop name="hasColor">
             <color>#5b24bf</color>
@@ -13037,7 +13805,7 @@
     </region>
     <region label="White Rabbit Figure" id="R_004">
         <geometry-prop name="hasGeometry">
-            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 2, "points": [{"x": 0.05, "y": 0.05}, {"x": 0.95, "y": 0.95}]}</geometry>
+            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 3, "points": [{"x": 0.05, "y": 0.05}, {"x": 0.95, "y": 0.95}]}</geometry>
         </geometry-prop>
         <color-prop name="hasColor">
             <color>#5b24bf</color>
@@ -13051,7 +13819,7 @@
     </region>
     <region label="White Rabbit Figure" id="R_005">
         <geometry-prop name="hasGeometry">
-            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 2, "points": [{"x": 0.05, "y": 0.5}, {"x": 0.95, "y": 0.8}]}</geometry>
+            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 3, "points": [{"x": 0.05, "y": 0.5}, {"x": 0.95, "y": 0.8}]}</geometry>
         </geometry-prop>
         <color-prop name="hasColor">
             <color>#5b24bf</color>
@@ -13065,10 +13833,10 @@
     </region>
     <region label="Flamingo" id="R_006">
         <geometry-prop name="hasGeometry">
-            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 2, "points": [{"x": 0.02, "y": 0.02}, {"x": 0.98, "y": 0.7}]}</geometry>
+            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 3, "points": [{"x": 0.02, "y": 0.02}, {"x": 0.98, "y": 0.7}]}</geometry>
         </geometry-prop>
         <color-prop name="hasColor">
-            <color>#5b24bf</color>
+            <color>#FF99AA</color>
         </color-prop>
         <text-prop name="hasComment">
             <text encoding="xml">Flamingo</text>
@@ -13079,10 +13847,10 @@
     </region>
     <region label="Flamingo" id="R_007">
         <geometry-prop name="hasGeometry">
-            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 2, "points": [{"x": 0.05, "y": 0.3}, {"x": 0.2, "y": 0.6}]}</geometry>
+            <geometry>{"status": "active", "type": "rectangle", "lineWidth": 3, "points": [{"x": 0.05, "y": 0.3}, {"x": 0.2, "y": 0.6}]}</geometry>
         </geometry-prop>
         <color-prop name="hasColor">
-            <color>#5b24bf</color>
+            <color>#FF99AA</color>
         </color-prop>
         <text-prop name="hasComment">
             <text encoding="xml">Flamingo</text>
@@ -13094,18 +13862,23 @@
     <video-segment label="Alice in Wonderland - Title sequence" id="VIS_001">
         <isSegmentOf>V_01</isSegmentOf>
         <hasSegmentBounds segment_start="0" segment_end="16"/>
+        <hasTitle>Title Sequence</hasTitle>
         <hasDescription>Title and Cast of the Movie</hasDescription>
         <hasKeyword>Intro</hasKeyword>
     </video-segment>
     <video-segment label="Alice in Wonderland - Movie" id="VIS_002">
         <isSegmentOf>V_01</isSegmentOf>
         <hasSegmentBounds segment_start="16" segment_end="2517"/>
+        <hasTitle>Movie</hasTitle>
         <hasDescription>Movie</hasDescription>
         <hasKeyword>Movie</hasKeyword>
+        <relatesTo>BE_001</relatesTo>
+        <relatesTo>BE_002</relatesTo>
     </video-segment>
     <video-segment label="Alice in Wonderland - Credits" id="VIS_003">
         <isSegmentOf>V_01</isSegmentOf>
         <hasSegmentBounds segment_start="2517" segment_end="2527"/>
+        <hasTitle>Credits</hasTitle>
         <hasDescription>Credits</hasDescription>
         <hasKeyword>Outro</hasKeyword>
     </video-segment>
@@ -13116,7 +13889,12 @@
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCast">
-            <text encoding="xml">Alice - Viola Savoy<br/>White Rabbit - Herbert Rice<br/>The Mad Hatter - William Tilden<br/>The Dormouse - Louis Merkle<br/>The Dodo - Harry Marks<br/>Alice's Mother - Lotta Savoy</text>
+            <text encoding="utf8">Alice - Viola Savoy
+White Rabbit - Herbert Rice
+The Mad Hatter - William Tilden
+The Dormouse - Louis Merkle
+The Dodo - Harry Marks
+Alice's Mother - Lotta Savoy</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
@@ -13166,6 +13944,20 @@
             <resptr>CH_008</resptr>
             <resptr>CH_011</resptr>
             <resptr>CH_018</resptr>
+        </resptr-prop>
+    </link>
+    <link label="Image_Annotations" id="link_object_02">
+        <text-prop name="hasComment">
+            <text encoding="xml">Images containing annotations</text>
+        </text-prop>
+        <resptr-prop name="hasLinkTo">
+            <resptr>I_001</resptr>
+            <resptr>I_002</resptr>
+            <resptr>I_006</resptr>
+            <resptr>I_012</resptr>
+            <resptr>I_030</resptr>
+            <resptr>I_032</resptr>
+            <resptr>I_037</resptr>
         </resptr-prop>
     </link>
 </knora>

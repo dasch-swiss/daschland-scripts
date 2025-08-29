@@ -22,6 +22,7 @@ def main() -> list[VideoSegmentResource]:
         )
 
         # add non-mandatory properties
+        video_segment.add_title(row["Title"])
         video_segment.add_comment_optional(row["Comment"])
         video_segment.add_description(row["Description"])
         video_segment.add_keyword(row["Keyword"])

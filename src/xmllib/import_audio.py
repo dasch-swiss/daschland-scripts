@@ -43,7 +43,7 @@ def main() -> list[Resource]:
         resource.add_decimal_optional(":hasFileSize", file_size_value)
         resource.add_simpletext(":hasFileName", row["File Name"])
         resource.add_richtext(":hasDescription", row["Description"])
-        resource.add_richtext_optional(":hasCast", row["Cast"])
+        resource.add_textarea_optional(":hasCast", row["Cast"])
         resource.add_simpletext(":hasCopyrightResource", "DaSCH")
         resource.add_list(":hasLicenseResource", "License", "LIC_002")
         resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)

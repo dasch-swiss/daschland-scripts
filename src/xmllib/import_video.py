@@ -51,7 +51,7 @@ def main() -> list[Resource]:
 
         resource.add_simpletext(":hasFileName", row["File Name"])
         resource.add_richtext(":hasDescription", row["Description"])
-        resource.add_richtext(":hasCast", row["Cast"])
+        resource.add_textarea_optional(":hasCast", row["Cast"])
 
         # append resource to list
         all_resources.append(resource)
