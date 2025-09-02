@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import ListLookup, Resource, create_list_from_input, convert_to_bool_string
+from dsp_tools.xmllib import ListLookup, Resource, convert_to_bool_string, create_list_from_input
 
 
 def main() -> list[Resource]:
