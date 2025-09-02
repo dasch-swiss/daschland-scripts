@@ -154,7 +154,7 @@
         <hasKeyword>Outro</hasKeyword>
     </audio-segment>
     <resource label="Dramatis Personae" id="A_01" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_00.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_00.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -222,7 +222,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Down the Rabbit-Hole" id="A_02" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_01.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_01.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -290,7 +290,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Pool of Tears" id="A_03" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_02.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_02.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -358,7 +358,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="A Caucus-Race and Long Tale" id="A_04" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_03.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_03.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -426,7 +426,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Rabbit Sends in a Little Bill" id="A_05" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_04.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_04.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -494,7 +494,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Advice From a Caterpillar" id="A_06" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_05.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_05.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -562,7 +562,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Pig and Pepper" id="A_07" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_06.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_06.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -630,7 +630,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Mad Tea-Party" id="A_08" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_07.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_07.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -698,7 +698,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Queen's Croquet-Ground" id="A_09" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_08.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_08.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -766,7 +766,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Mock Turtle's Story" id="A_10" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_09.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_09.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -834,7 +834,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Lobster Quadrille" id="A_11" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_10.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_10.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -902,7 +902,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Who Stole the Tarts?" id="A_12" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_11.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_11.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -970,7 +970,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Alice's Evidence" id="A_13" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_12.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_12.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1038,7 +1038,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Dramatis Personae" id="A_14" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_3">data/multimedia/audio/AUD_throughthelookingglass_00.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_3">data/multimedia/audio/AUD_throughthelookingglass_00.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1090,7 +1090,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Looking-Glass House" id="A_15" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_throughthelookingglass_01.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_throughthelookingglass_01.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1142,7 +1142,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="The Garden of Live Flowers" id="A_16" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_02.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_02.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1194,7 +1194,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Looking-Glass Insects" id="A_17" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_03.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_03.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1246,7 +1246,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" id="A_18" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_04.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_04.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1298,7 +1298,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Wool and Water" id="A_19" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_05.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_05.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1350,7 +1350,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Humpty Dumpty" id="A_20" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_06.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_06.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1402,7 +1402,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="The Lion and the Unicorn" id="A_21" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_07.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_07.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1454,7 +1454,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="It's my own Invention" id="A_22" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_08.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_08.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1506,7 +1506,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Queen Alice, Shaking and Waking" id="A_23" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_09.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_09.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1558,7 +1558,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Which Dreamed it?" id="A_24" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_10.mp3</bitstream>
+        <bitstream copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_10.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -8092,6 +8092,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Caucus Race</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_014</resptr>
@@ -8160,6 +8163,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Caterpillar’s Wisdom</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_003</resptr>
@@ -8227,6 +8233,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Mad Tea-Party</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_004</resptr>
@@ -8265,6 +8274,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Croquet game</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_006</resptr>
@@ -8302,6 +8314,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Turtle Tales and Dance</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_009</resptr>
@@ -8335,6 +8350,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Trial of the Tarts</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacterAntagonist">
             <resptr>CH_006</resptr>
         </resptr-prop>
@@ -8432,6 +8450,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Talking Flowers</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacterAntagonist">
             <resptr>CH_043</resptr>
         </resptr-prop>
@@ -8498,6 +8519,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Twins and Tales</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacterAntagonist">
             <resptr>CH_044</resptr>
         </resptr-prop>
@@ -8534,6 +8558,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Alice meets the White Queen</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_049</resptr>
@@ -8567,6 +8594,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Humpty Dumpty's fall</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacterAntagonist">
             <resptr>CH_012</resptr>
         </resptr-prop>
@@ -8597,6 +8627,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Royal battle</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacterAntagonist">
             <resptr>CH_054</resptr>
         </resptr-prop>
@@ -8633,6 +8666,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Knightly Assistance</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_013</resptr>
@@ -8700,6 +8736,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Queenly Quiz</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_011</resptr>
@@ -8732,6 +8771,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Banquet Bedlam</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_011</resptr>
@@ -8801,6 +8843,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Tea time at DaSCHland</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="Alice meets Humpty Dumpty" id="EV_026" restype=":EventSocial">
         <text-prop name=":hasAuthorshipResource">
@@ -8828,6 +8873,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Alice meets Humpty Dumpty</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_012</resptr>
@@ -8860,6 +8908,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Alice meets the Cheshire Cat</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_005</resptr>
@@ -8895,6 +8946,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Alice meets the Playing Cards</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_006</resptr>
@@ -8930,6 +8984,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Alice meets the Red Queen</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_011</resptr>
@@ -8964,6 +9021,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Alice meets the White King and his soldiers</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_047</resptr>
@@ -8995,6 +9055,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Alice meets the White Rabbit in his house</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_002</resptr>
@@ -9086,6 +9149,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Chaotic dinner party with the queens</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacterAntagonist">
             <resptr>CH_011</resptr>
             <resptr>CH_049</resptr>
@@ -9150,6 +9216,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Queen of Hearts gets challenged</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacterAntagonist">
             <resptr>CH_006</resptr>
         </resptr-prop>
@@ -9180,6 +9249,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Red Queen gets shaked into a kitten</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacterAntagonist">
             <resptr>CH_049</resptr>
         </resptr-prop>
@@ -9217,6 +9289,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">White Knight gets help</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
         <resptr-prop name=":linkToCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_013</resptr>
@@ -9278,6 +9353,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">DaSCH Mirror Interface</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="DaSCH Query Challenge" id="EV_041" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9305,6 +9383,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">DaSCH Query Challenge</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="Back to Data Reality" id="EV_042" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9329,6 +9410,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Back to Data Reality</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="Chaotic DaSCH Dinner" id="EV_043" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9356,6 +9440,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Chaotic DaSCH Dinner</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="DaSCH System Shutdown" id="EV_044" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9383,6 +9470,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">DaSCH System Shutdown</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="Talking Data Entities" id="EV_045" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9410,6 +9500,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Talking Data Entities</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="DaSCHboard Quest" id="EV_046" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9434,6 +9527,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">DaSCHboard Quest</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="Forgotten Data" id="EV_047" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9458,6 +9554,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Forgotten Data</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="Twin Dataset Argument" id="EV_048" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9485,6 +9584,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Twin Dataset Argument</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="DaSCH Entity Assistance" id="EV_049" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9512,6 +9614,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">DaSCH Entity Assistance</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="The Final Data Node" id="EV_050" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9536,6 +9641,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">The Final Data Node</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="DaSCHland Banquet Breakdown" id="EV_051" restype=":EventAlternative">
         <text-prop name=":hasAuthorshipResource">
@@ -9563,6 +9671,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">DaSCHland Banquet Breakdown</text>
         </text-prop>
+        <boolean-prop name=":isDangerous">
+            <boolean>false</boolean>
+        </boolean-prop>
     </resource>
     <resource label="King and Queen of Hearts sitting on their throne in court" id="I_001" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book0.jpg</bitstream>

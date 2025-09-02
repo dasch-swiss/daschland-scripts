@@ -21,7 +21,7 @@ def main() -> list[Resource]:
         file_size_value = get_media_file_size(audio_path)
         authors = create_list_from_input(row["Authorship"], separator=", ")
         authors_resource = create_list_from_input(row["Authorship Resource"], separator=", ")
-        file_license = find_license_in_string(row["License"])
+        file_license = find_license_in_string(row["License List"])
         # create resource, label and id
         resource = Resource.create_new(res_id=row["ID"], restype=":Audio", label=row["Name"])
 
