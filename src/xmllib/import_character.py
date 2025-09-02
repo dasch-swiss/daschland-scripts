@@ -5,7 +5,7 @@ from dsp_tools.xmllib import (
     create_footnote_string,
     create_list_from_input,
     create_standoff_link_to_uri,
-    get_list_nodes_from_string_via_list_name,
+    get_list_nodes_from_string_via_list_name, is_nonempty_value,
 )
 
 from src.helpers.helper import select_footnote_text
@@ -42,11 +42,12 @@ def main() -> list[Resource]:
         keyword_names = sorted(keyword_names)
         description_raw = row["Description"]
         footnote_text_raw = select_footnote_text(description_raw)
-        footnote_text = (
-            create_standoff_link_to_uri(uri=row["Footnote URI"], displayed_text=footnote_text_raw)
-            if not pd.isna(row["Footnote URI"])
-            else footnote_text_raw
-        )
+        if is_nonempty_value(footnote_text_raw):
+            footnote_text = (
+                create_standoff_link_to_uri(uri=row["Footnote URI"], displayed_text=str(footnote_text_raw))
+                if not pd.isna(row["Footnote URI"])
+                else footnote_text_raw
+                )
         if footnote_text:
             footnote = create_footnote_string(footnote_text=footnote_text)
             description = description_raw.replace(f"*{footnote_text_raw}*", footnote)
