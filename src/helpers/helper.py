@@ -20,4 +20,4 @@ def select_footnote_text(main_text: str) -> str:
 
     footnote_match = regex.search(r"\*(.+?)\*", string=main_text)
 
-    return footnote_match.group(1) if footnote_match else None
+    return footnote_match.group(1) if footnote_match else ""
