@@ -43,12 +43,11 @@ def main() -> list[Resource]:
         keyword_names = sorted(keyword_names)
         description_raw = row["Description"]
         footnote_text_raw = select_footnote_text(description_raw)
-        if is_nonempty_value(footnote_text_raw):
-            footnote_text = (
-                create_standoff_link_to_uri(uri=row["Footnote URI"], displayed_text=str(footnote_text_raw))
-                if not pd.isna(row["Footnote URI"])
-                else footnote_text_raw
-            )
+        footnote_text = (
+            create_standoff_link_to_uri(uri=row["Footnote URI"], displayed_text=footnote_text_raw)
+            if not pd.isna(row["Footnote URI"]) and is_nonempty_value(footnote_text_raw)
+            else footnote_text_raw
+        )
         if footnote_text:
             footnote = create_footnote_string(footnote_text=footnote_text)
             description = description_raw.replace(f"*{footnote_text_raw}*", footnote)
