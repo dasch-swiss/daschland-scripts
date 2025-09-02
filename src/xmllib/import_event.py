@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import ListLookup, Resource, convert_to_bool_string, create_list_from_input
+from dsp_tools.xmllib import ListLookup, Resource, convert_to_bool_string, create_list_from_input, is_nonempty_value
 
 
 def main() -> list[Resource]:
@@ -31,7 +31,7 @@ def main() -> list[Resource]:
         adventure_character_ids = create_list_from_input(row["Adventure Character ID"], separator=",")
         antagonist_ids = create_list_from_input(row["Antagonist ID"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
-        dangerous = convert_to_bool_string(row["Dangerous"])
+        dangerous = convert_to_bool_string(row["Dangerous"]) if is_nonempty_value(row["Dangerous"]) else ""
 
         # create resource, label and id
         if row["Event Type"] == "Social":
