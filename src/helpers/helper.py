@@ -13,7 +13,7 @@ def make_cols_mapping_with_columns(df: pd.DataFrame, value_column: str, key_colu
     return dict(zip(new_df[key_column], new_df[value_column]))
 
 
-def select_footnote_text(main_text: str) -> str | None:
+def select_footnote_text(main_text: str) -> str:
     """
     isolates the footnote text from the main text
     """
