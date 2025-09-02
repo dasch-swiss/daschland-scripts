@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import ListLookup, Resource, create_list_from_input
+from dsp_tools.xmllib import ListLookup, Resource, create_list_from_input, convert_to_bool_string
 
 
 def main() -> list[Resource]:
@@ -31,6 +31,7 @@ def main() -> list[Resource]:
         adventure_character_ids = create_list_from_input(row["Adventure Character ID"], separator=",")
         antagonist_ids = create_list_from_input(row["Antagonist ID"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
+        dangerous = convert_to_bool_string(row["Dangerous"])
 
         # create resource, label and id
         if row["Event Type"] == "Social":
@@ -61,7 +62,7 @@ def main() -> list[Resource]:
 
         # add properties for adventure event:
         resource.add_link_multiple(":linkToCharacter", adventure_character_ids)
-        resource.add_bool_optional(":isDangerous", row["Dangerous"])
+        resource.add_bool_optional(":isDangerous", dangerous)
         resource.add_simpletext(":hasCopyrightResource", "DaSCH")
         resource.add_list(":hasLicenseResource", "License", "LIC_002")
         resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)

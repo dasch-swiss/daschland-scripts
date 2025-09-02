@@ -1,5 +1,12 @@
 import pandas as pd
-from dsp_tools.xmllib import ListLookup, Resource, create_footnote_string, create_list_from_input
+from dsp_tools.xmllib import (
+    ListLookup,
+    Resource,
+    create_footnote_string,
+    create_list_from_input,
+    create_standoff_link_to_uri,
+    get_list_nodes_from_string_via_list_name,
+)
 
 from src.helpers.helper import select_footnote_text
 
@@ -29,16 +36,20 @@ def main() -> list[Resource]:
         roles = create_list_from_input(row["Role List"], separator=",")
         image_ids = create_list_from_input(row["Image ID"], separator=",")
 
-        keywords_names_raw = create_list_from_input(row["Keyword"], separator=",")
-        keyword_names = [
-            list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw
-        ]
+        keyword_names = get_list_nodes_from_string_via_list_name(
+            string_with_list_labels=row["Keyword"], label_separator=",", list_name="Keyword", list_lookup=list_lookup
+        )
         keyword_names = sorted(keyword_names)
         description_raw = row["Description"]
-        footnote_text = select_footnote_text(description_raw)
+        footnote_text_raw = select_footnote_text(description_raw)
+        footnote_text = (
+            create_standoff_link_to_uri(uri=row["Footnote URI"], displayed_text=footnote_text_raw)
+            if not pd.isna(row["Footnote URI"])
+            else footnote_text_raw
+        )
         if footnote_text:
             footnote = create_footnote_string(footnote_text=footnote_text)
-            description = description_raw.replace(f"*{footnote_text}*", footnote)
+            description = description_raw.replace(f"*{footnote_text_raw}*", footnote)
         else:
             description = description_raw
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")

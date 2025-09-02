@@ -3,6 +3,7 @@ from dsp_tools.xmllib import (
     LicenseRecommended,
     Resource,
     create_list_from_input,
+    is_nonempty_value
 )
 
 from src.helpers.image_helper import (
@@ -19,7 +20,7 @@ def main() -> list[Resource]:
 
     # iterate through rows of dataframe:
     for _, row in material_df.iterrows():
-        originals_path = f"{row['Directory']}{row['File Name']}" if pd.notna(row["Directory"]) else row["File Name"]
+        originals_path = f"{row['Directory']}{row['File Name']}" if is_nonempty_value(row["Directory"]) else row["File Name"]
         timestamp_value = get_media_file_creation_time(originals_path)
         file_size_value = get_media_file_size(originals_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
