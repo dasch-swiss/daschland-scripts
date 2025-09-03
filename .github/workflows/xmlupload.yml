@@ -23,12 +23,10 @@ jobs:
         run: uv sync --all-extras --dev
       - name: Upgrade DSP-TOOLS
         run: uv add --upgrade dsp-tools
-      - name: Setup FFmpeg  # FedericoCarboni/setup-ffmpeg (with built-in caching) is considerably faster, but less reliable
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - name: Generate dummy MP4 with ffmpeg
+      - name: Copy dummy MP4 to correct location
         run: |
           rm data/multimedia/video/VID_AliceInWonderland_1915.mp4  # remove the pointer file (small text file)
-          ffmpeg -f lavfi -i color=c=black:s=320x240:d=1 -c:v libx264 -t 1 -pix_fmt yuv420p data/multimedia/video/VID_AliceInWonderland_1915.mp4
+          cp testdata/dummy.mp4 data/multimedia/video/VID_AliceInWonderland_1915.mp4
       - name: Enable dsp-tools log file in cwd
         run: echo 'DSP_TOOLS_SAVE_ADDITIONAL_LOG_FILE_IN_CWD=true' >> .env
       - name: Start stack
