@@ -1283,24 +1283,24 @@
                         "gui_element": "Checkbox"
                     },
                     {
-                        "name": "isPartOfBook",
+                        "name": "isPartOfBookChapter",
                         "super": [
                             "isPartOf",
                             "schema:isPartOf",
                             "crm:P5i_forms_part_of"
                         ],
-                        "object": ":Book",
+                        "object": ":BookChapter",
                         "labels": {
-                            "de": "Teil des Buches",
-                            "en": "Part of Book",
-                            "fr": "Appartient au Livre",
-                            "it": "Appartiene al libro"
+                            "de": "Teil des Kapitels",
+                            "en": "Part of chapter",
+                            "fr": "Appartient au chapitre",
+                            "it": "Appartiene al capitolo"
                         },
                         "comments": {
-                            "de": "Gehört zu folgendem Buch",
-                            "en": "Belongs to following book",
-                            "fr": "Appartient au livre suivant",
-                            "it": "Appartiene al seguente libro"
+                            "de": "Gehört zu folgendem Kapitel",
+                            "en": "Belongs to following chapter",
+                            "fr": "Appartient au chapitre suivant",
+                            "it": "Appartiene al seguente capitolo"
                         },
                         "gui_element": "Searchbox"
                     },
@@ -2054,7 +2054,7 @@
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":isPartOfBook",
+                                "propname": ":isPartOfBookChapter",
                                 "cardinality": "0-1",
                                 "gui_order": 5
                             },

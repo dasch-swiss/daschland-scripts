@@ -198,7 +198,7 @@ wheels = [
 
 [[package]]
 name = "dsp-tools"
-version = "16.9.0.post3"
+version = "16.10.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "argparse" },
@@ -222,9 +222,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c5/74/2d13dffa5e7a5f0399094b79ff5f3d41a9274d1fc79227391c2a9610a10a/dsp_tools-16.9.0.post3.tar.gz", hash = "sha256:64d630bab278a7d58b2398a31abcd38530aa7374369ca2588ae6a1e0f1cde503", size = 7184797, upload-time = "2025-08-28T08:09:55.671Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/05/5b/a6446b19a77d92e64b74c123631c439efcabeb32b25863a8758828059756/dsp_tools-16.10.0.tar.gz", hash = "sha256:d88aba2b25b04c1a4c8c5118e8ecfc231b7344cb7934e0958b786f07e45a3a79", size = 7186535, upload-time = "2025-09-03T07:32:59.843Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e4/7c/bf2db52c024a2bb87bac57a5604f7324ee0d783effa28b840264e012413a/dsp_tools-16.9.0.post3-py3-none-any.whl", hash = "sha256:bd81ef273376776e03be1639a5ffdf7608b14c5f290ed9ff481adef751084d1e", size = 381021, upload-time = "2025-08-28T08:09:52.764Z" },
+    { url = "https://files.pythonhosted.org/packages/86/48/9c473e172e0e1d79b79b22d356208d028fb7e312acac5d753981b96ebbf3/dsp_tools-16.10.0-py3-none-any.whl", hash = "sha256:18e0f972b16b6c9d70da549501d99a15727e2af82f1b48b5a21016e2de82acdc", size = 380190, upload-time = "2025-09-03T07:32:57.234Z" },
 ]
 
 [[package]]
@@ -1161,11 +1161,11 @@ wheels = [
 
 [[package]]
 name = "types-regex"
-version = "2025.8.29.20250831"
+version = "2025.9.1.20250903"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/55/43/d2a11cc7bc8c99b8089691f4aa41902decb1d1495cd4e70d6947de410d0e/types_regex-2025.8.29.20250831.tar.gz", hash = "sha256:ff5641059617f91f8b2f039d60b52b8c55febc577439a35ecd50960648b54894", size = 12384, upload-time = "2025-08-31T03:00:24.772Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/67/4b/b190c989979ebc7efc6dd1f6fbc3a2a84d4aff0c2f0805814c2c51cf20f5/types_regex-2025.9.1.20250903.tar.gz", hash = "sha256:230116f64b5c08b06109d950086e55fc809b8a2a5d13e80218ac7cf34f9aac84", size = 12455, upload-time = "2025-09-03T02:47:33.951Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/af/6c/66f89dc07cae59948f3fec3137e3834a183ca2d06a1f89274c967632f45f/types_regex-2025.8.29.20250831-py3-none-any.whl", hash = "sha256:8fd7c4324558cb562c69a3099515e392a5308c75b3feec203d2d4665e14a23b1", size = 10359, upload-time = "2025-08-31T03:00:23.722Z" },
+    { url = "https://files.pythonhosted.org/packages/fd/3b/9ffd05ae4e99c369acd563d23754263884dc737fd67369d0eadf449e6055/types_regex-2025.9.1.20250903-py3-none-any.whl", hash = "sha256:93ce5eb3949e27fc9f329aaed47386dba6f16695650c61e55035e2d26497b8e7", size = 10347, upload-time = "2025-09-03T02:47:32.911Z" },
 ]
 
 [[package]]
