@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <knora xmlns="https://dasch.swiss/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd" shortcode="0854" default-ontology="daschland">
-    <permissions id="public">
-        <allow group="UnknownUser">V</allow>
-        <allow group="KnownUser">V</allow>
-        <allow group="ProjectMember">D</allow>
-        <allow group="ProjectAdmin">CR</allow>
-    </permissions>
-    <permissions id="private">
-        <allow group="ProjectMember">D</allow>
-        <allow group="ProjectAdmin">CR</allow>
-    </permissions>
-    <permissions id="limited_view">
-        <allow group="UnknownUser">RV</allow>
-        <allow group="KnownUser">RV</allow>
-        <allow group="ProjectMember">D</allow>
-        <allow group="ProjectAdmin">CR</allow>
-    </permissions>
     <authorship id="authorship_1">
         <author>Arielle Lipshaw (Editor)</author>
         <author>Elizabeth Klett (Meta Coordinator &amp; Editor)</author>
@@ -9564,7 +9548,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="utf8">DaSCHland Banquet Breakdown</text>
         </text-prop>
     </resource>
-    <resource label="King and Queen of Hearts sitting on their throne in court" id="I_001" restype=":Image">
+    <resource label="King and Queen of Hearts sitting on their throne in court" id="I_001" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book0.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9572,6 +9556,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">King and Queen of Hearts sitting on their throne in court</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book0.jpg</text>
@@ -9599,7 +9586,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_037</resptr>
         </resptr-prop>
     </resource>
-    <resource label="White Rabbit looking at his watch" id="I_002" restype=":Image">
+    <resource label="White Rabbit looking at his watch" id="I_002" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book1.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9607,6 +9594,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">White Rabbit looking at his watch</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book1.jpg</text>
@@ -9630,7 +9620,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_002</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice finding a little door" id="I_003" restype=":Image">
+    <resource label="Alice finding a little door" id="I_003" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book2.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9638,6 +9628,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice finding a little door</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book2.jpg</text>
@@ -9661,7 +9654,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice holding the &quot;Drink Me&quot; bottle" id="I_004" restype=":Image">
+    <resource label="Alice holding the &quot;Drink Me&quot; bottle" id="I_004" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book3.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9669,6 +9662,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice holding the "Drink Me" bottle</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book3.jpg</text>
@@ -9692,7 +9688,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice growing taller" id="I_005" restype=":Image">
+    <resource label="Alice growing taller" id="I_005" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book4.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9700,6 +9696,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice growing taller</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book4.jpg</text>
@@ -9723,7 +9722,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="White Rabbit skurrying away from Alice" id="I_006" restype=":Image">
+    <resource label="White Rabbit skurrying away from Alice" id="I_006" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book5.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9731,6 +9730,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">White Rabbit skurrying away from Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book5.jpg</text>
@@ -9755,7 +9757,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_002</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice swimming in the Pool of tears" id="I_007" restype=":Image">
+    <resource label="Alice swimming in the Pool of tears" id="I_007" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book6.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9763,6 +9765,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice swimming in the Pool of tears</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book6.jpg</text>
@@ -9786,7 +9791,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice and the Mouse swimming in the Pool of tears" id="I_008" restype=":Image">
+    <resource label="Alice and the Mouse swimming in the Pool of tears" id="I_008" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book7.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9794,6 +9799,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice and the Mouse swimming in the Pool of tears</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book7.jpg</text>
@@ -9818,7 +9826,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_014</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice accepting a thimble from Dodo" id="I_009" restype=":Image">
+    <resource label="Alice accepting a thimble from Dodo" id="I_009" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book9.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9826,6 +9834,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice accepting a thimble from Dodo</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book9.jpg</text>
@@ -9850,7 +9861,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_015</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Mouse telling its tale to Alice and creatures" id="I_010" restype=":Image">
+    <resource label="Mouse telling its tale to Alice and creatures" id="I_010" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book8.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9858,6 +9869,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Mouse telling its tale to Alice and creatures</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book8.jpg</text>
@@ -9883,7 +9897,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_015</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice outgrowing White Rabbit's house" id="I_011" restype=":Image">
+    <resource label="Alice outgrowing White Rabbit's house" id="I_011" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book10.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9891,6 +9905,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice outgrowing White Rabbit's house</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book10.jpg</text>
@@ -9914,7 +9931,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice's hand reaching for White Rabbit" id="I_012" restype=":Image">
+    <resource label="Alice's hand reaching for White Rabbit" id="I_012" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book11.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9922,6 +9939,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice's hand reaching for White Rabbit</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book11.jpg</text>
@@ -9946,7 +9966,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_002</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Bill the lizzard rocketting out of the chimney" id="I_013" restype=":Image">
+    <resource label="Bill the lizzard rocketting out of the chimney" id="I_013" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book12.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9954,6 +9974,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Bill the lizzard rocketting out of the chimney</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book12.jpg</text>
@@ -9977,7 +10000,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_027</resptr>
         </resptr-prop>
     </resource>
-    <resource label="The puppy looking at Alice" id="I_014" restype=":Image">
+    <resource label="The puppy looking at Alice" id="I_014" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book13.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9985,6 +10008,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The puppy looking at Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book13.jpg</text>
@@ -10009,7 +10035,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_028</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Caterpillar questionning Alice" id="I_015" restype=":Image">
+    <resource label="Caterpillar questionning Alice" id="I_015" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book14.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10017,6 +10043,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Caterpillar questionning Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book14.jpg</text>
@@ -10041,7 +10070,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_003</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Father William standing on his head" id="I_016" restype=":Image">
+    <resource label="Father William standing on his head" id="I_016" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book15.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10049,6 +10078,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Father William standing on his head</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book15.jpg</text>
@@ -10072,7 +10104,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_038</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Father William turning a back-sommersault" id="I_017" restype=":Image">
+    <resource label="Father William turning a back-sommersault" id="I_017" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book16.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10080,6 +10112,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Father William turning a back-sommersault</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book16.jpg</text>
@@ -10103,7 +10138,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_038</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Father William sitting at a table" id="I_018" restype=":Image">
+    <resource label="Father William sitting at a table" id="I_018" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book17.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10111,6 +10146,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Father William sitting at a table</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book17.jpg</text>
@@ -10134,7 +10172,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_038</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Father William balancing an eel" id="I_019" restype=":Image">
+    <resource label="Father William balancing an eel" id="I_019" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book18.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10142,6 +10180,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Father William balancing an eel</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book18.jpg</text>
@@ -10165,7 +10206,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_038</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Frog-Footman and Fish-Footman holding an invitation" id="I_020" restype=":Image">
+    <resource label="Frog-Footman and Fish-Footman holding an invitation" id="I_020" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book19.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10173,6 +10214,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Frog-Footman and Fish-Footman holding an invitation</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book19.jpg</text>
@@ -10196,7 +10240,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_030</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Dutchess nursing the baby" id="I_021" restype=":Image">
+    <resource label="Dutchess nursing the baby" id="I_021" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book20.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10204,6 +10248,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Dutchess nursing the baby</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book20.jpg</text>
@@ -10231,7 +10278,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_033</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice holding the pig baby" id="I_022" restype=":Image">
+    <resource label="Alice holding the pig baby" id="I_022" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book21.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10239,6 +10286,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice holding the pig baby</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book21.jpg</text>
@@ -10263,7 +10313,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_032</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Cheshire-Cat grinning at Alice" id="I_023" restype=":Image">
+    <resource label="Cheshire-Cat grinning at Alice" id="I_023" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book22.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10271,6 +10321,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Cheshire-Cat grinning at Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book22.jpg</text>
@@ -10295,7 +10348,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_005</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Cheshire-Cat disappearing" id="I_024" restype=":Image">
+    <resource label="Cheshire-Cat disappearing" id="I_024" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book23.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10303,6 +10356,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Cheshire-Cat disappearing</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book23.jpg</text>
@@ -10326,7 +10382,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_005</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice sitting at a mad tea-party" id="I_025" restype=":Image">
+    <resource label="Alice sitting at a mad tea-party" id="I_025" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book24.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10334,6 +10390,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice sitting at a mad tea-party</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book24.jpg</text>
@@ -10360,7 +10419,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_018</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Hatter singing" id="I_026" restype=":Image">
+    <resource label="Hatter singing" id="I_026" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book25.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10368,6 +10427,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Hatter singing</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book25.jpg</text>
@@ -10392,7 +10454,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_018</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Dormouse being put in a teapot" id="I_027" restype=":Image">
+    <resource label="Dormouse being put in a teapot" id="I_027" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book26.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10400,6 +10462,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Dormouse being put in a teapot</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book26.jpg</text>
@@ -10425,7 +10490,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_018</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Card-gardeners painting roses" id="I_028" restype=":Image">
+    <resource label="Card-gardeners painting roses" id="I_028" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book27.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10433,6 +10498,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Card-gardeners painting roses</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book27.jpg</text>
@@ -10456,7 +10524,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_035</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Queen of Hearts pointing at Alice" id="I_029" restype=":Image">
+    <resource label="Queen of Hearts pointing at Alice" id="I_029" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book28.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10464,6 +10532,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Queen of Hearts pointing at Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book28.jpg</text>
@@ -10489,7 +10560,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_017</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice holding her Flamingo" id="I_030" restype=":Image">
+    <resource label="Alice holding her Flamingo" id="I_030" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book29.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10497,6 +10568,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice holding her Flamingo</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book29.jpg</text>
@@ -10521,7 +10595,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_036</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Executioners and crowd collecting round Cheshire-Cat" id="I_031" restype=":Image">
+    <resource label="Executioners and crowd collecting round Cheshire-Cat" id="I_031" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book30.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10529,6 +10603,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Executioners and crowd collecting round Cheshire-Cat</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book30.jpg</text>
@@ -10555,7 +10632,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_017</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice and Duchess walking" id="I_032" restype=":Image">
+    <resource label="Alice and Duchess walking" id="I_032" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book31.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10563,6 +10640,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice and Duchess walking</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book31.jpg</text>
@@ -10588,7 +10668,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_036</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Gryphon sleeping" id="I_033" restype=":Image">
+    <resource label="Gryphon sleeping" id="I_033" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book32.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10596,6 +10676,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Gryphon sleeping</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book32.jpg</text>
@@ -10619,7 +10702,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_010</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Mock Turtle telling his story to Gryphon and Alice" id="I_034" restype=":Image">
+    <resource label="Mock Turtle telling his story to Gryphon and Alice" id="I_034" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book33.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10627,6 +10710,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Mock Turtle telling his story to Gryphon and Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book33.jpg</text>
@@ -10652,7 +10738,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_010</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Mock Turtle and Gryphon dancing round Alice" id="I_035" restype=":Image">
+    <resource label="Mock Turtle and Gryphon dancing round Alice" id="I_035" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book34.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10660,6 +10746,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Mock Turtle and Gryphon dancing round Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book34.jpg</text>
@@ -10685,7 +10774,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_010</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Lobster turning out his toes " id="I_036" restype=":Image">
+    <resource label="Lobster turning out his toes " id="I_036" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book35.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10693,6 +10782,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Lobster turning out his toes </text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book35.jpg</text>
@@ -10716,7 +10808,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_039</resptr>
         </resptr-prop>
     </resource>
-    <resource label="White Rabbit as herald blowing a trumpet" id="I_037" restype=":Image">
+    <resource label="White Rabbit as herald blowing a trumpet" id="I_037" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book36.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10724,6 +10816,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">White Rabbit as herald blowing a trumpet</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book36.jpg</text>
@@ -10747,7 +10842,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_002</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Hatter shaking off his shoes" id="I_038" restype=":Image">
+    <resource label="Hatter shaking off his shoes" id="I_038" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book37.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10755,6 +10850,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Hatter shaking off his shoes</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book37.jpg</text>
@@ -10778,7 +10876,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_004</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Hatter running" id="I_039" restype=":Image">
+    <resource label="Hatter running" id="I_039" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book38.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10786,6 +10884,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Hatter running</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book38.jpg</text>
@@ -10809,7 +10910,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_004</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice tipping over the jury-box" id="I_040" restype=":Image">
+    <resource label="Alice tipping over the jury-box" id="I_040" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book39.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10817,6 +10918,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice tipping over the jury-box</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book39.jpg</text>
@@ -10841,7 +10945,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_037</resptr>
         </resptr-prop>
     </resource>
-    <resource label="King of Hearts pointing to the tarts in court" id="I_041" restype=":Image">
+    <resource label="King of Hearts pointing to the tarts in court" id="I_041" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book40.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10849,6 +10953,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">King of Hearts pointing to the tarts in court</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book40.jpg</text>
@@ -10873,7 +10980,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_037</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Cards flying down upon Alice" id="I_042" restype=":Image">
+    <resource label="Cards flying down upon Alice" id="I_042" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book41.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -10881,6 +10988,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Cards flying down upon Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_1book41.jpg</text>
@@ -10904,14 +11014,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="White knight riding his horse" id="I_043" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book0.jpg</bitstream>
+    <resource label="White knight riding his horse" id="I_043" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book0.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">White knight riding his horse</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book0.jpg</text>
@@ -10936,14 +11049,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_013</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Black kitten playing" id="I_044" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book1.jpg</bitstream>
+    <resource label="Black kitten playing" id="I_044" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book1.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Black kitten playing</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book1.jpg</text>
@@ -10967,14 +11083,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_040</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice winding worsted in an arm-chair" id="I_045" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book2.jpg</bitstream>
+    <resource label="Alice winding worsted in an arm-chair" id="I_045" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book2.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice winding worsted in an arm-chair</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book2.jpg</text>
@@ -10999,14 +11118,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_040</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice going through the looking-glass" id="I_046" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book3.jpg</bitstream>
+    <resource label="Alice going through the looking-glass" id="I_046" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book3.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice going through the looking-glass</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book3.jpg</text>
@@ -11030,14 +11152,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice coming through the looking-glass" id="I_047" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book4.jpg</bitstream>
+    <resource label="Alice coming through the looking-glass" id="I_047" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book4.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice coming through the looking-glass</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book4.jpg</text>
@@ -11061,14 +11186,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Chessmen walking" id="I_048" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book5.jpg</bitstream>
+    <resource label="Chessmen walking" id="I_048" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book5.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Chessmen walking</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book5.jpg</text>
@@ -11092,14 +11220,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_041</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice picking up White King" id="I_049" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book6.jpg</bitstream>
+    <resource label="Alice picking up White King" id="I_049" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book6.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice picking up White King</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book6.jpg</text>
@@ -11124,14 +11255,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_042</resptr>
         </resptr-prop>
     </resource>
-    <resource label="The White Knight sliding down a poker" id="I_050" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book7.jpg</bitstream>
+    <resource label="The White Knight sliding down a poker" id="I_050" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book7.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">The White Knight sliding down a poker</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book7.jpg</text>
@@ -11155,14 +11289,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_013</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Jabberwork" id="I_051" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book8.jpg</bitstream>
+    <resource label="Jabberwork" id="I_051" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book8.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Jabberwork</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book8.jpg</text>
@@ -11186,14 +11323,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_026</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Tiger-Lily and Alice talking" id="I_052" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book9.jpg</bitstream>
+    <resource label="Tiger-Lily and Alice talking" id="I_052" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book9.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Tiger-Lily and Alice talking</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book9.jpg</text>
@@ -11218,14 +11358,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_043</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice and Red Queen talking" id="I_053" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book10.jpg</bitstream>
+    <resource label="Alice and Red Queen talking" id="I_053" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book10.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice and Red Queen talking</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book10.jpg</text>
@@ -11250,14 +11393,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_011</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Chessboard-like country" id="I_054" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book11.jpg</bitstream>
+    <resource label="Chessboard-like country" id="I_054" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book11.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Chessboard-like country</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book11.jpg</text>
@@ -11278,14 +11424,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>BCH_018</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice and Red Queen running" id="I_055" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book12.jpg</bitstream>
+    <resource label="Alice and Red Queen running" id="I_055" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book12.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice and Red Queen running</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book12.jpg</text>
@@ -11310,14 +11459,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_011</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice sittin in a train carriage" id="I_056" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book13.jpg</bitstream>
+    <resource label="Alice sittin in a train carriage" id="I_056" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book13.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice sittin in a train carriage</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book13.jpg</text>
@@ -11341,14 +11493,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Rocking-horse-fly" id="I_057" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book14.jpg</bitstream>
+    <resource label="Rocking-horse-fly" id="I_057" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book14.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Rocking-horse-fly</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book14.jpg</text>
@@ -11369,14 +11524,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>BCH_019</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Snap-dragon-fly" id="I_058" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book15.jpg</bitstream>
+    <resource label="Snap-dragon-fly" id="I_058" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book15.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Snap-dragon-fly</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book15.jpg</text>
@@ -11397,14 +11555,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>BCH_019</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Bread-and-butter-fly" id="I_059" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book16.jpg</bitstream>
+    <resource label="Bread-and-butter-fly" id="I_059" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book16.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Bread-and-butter-fly</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book16.jpg</text>
@@ -11425,14 +11586,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>BCH_019</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice clasping her arms round Fawn" id="I_060" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book17.jpg</bitstream>
+    <resource label="Alice clasping her arms round Fawn" id="I_060" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book17.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice clasping her arms round Fawn</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book17.jpg</text>
@@ -11456,14 +11620,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice calling on Tweedledum and Tweeldee" id="I_061" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book18.jpg</bitstream>
+    <resource label="Alice calling on Tweedledum and Tweeldee" id="I_061" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book18.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice calling on Tweedledum and Tweeldee</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book18.jpg</text>
@@ -11488,14 +11655,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_044</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Walrus and Carpenter walking" id="I_062" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book19.jpg</bitstream>
+    <resource label="Walrus and Carpenter walking" id="I_062" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book19.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Walrus and Carpenter walking</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book19.jpg</text>
@@ -11520,14 +11690,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_046</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Walrus and Carpenter resting" id="I_063" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book20.jpg</bitstream>
+    <resource label="Walrus and Carpenter resting" id="I_063" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book20.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Walrus and Carpenter resting</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book20.jpg</text>
@@ -11552,14 +11725,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_046</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Walrus and Carpenter eating" id="I_064" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book21.jpg</bitstream>
+    <resource label="Walrus and Carpenter eating" id="I_064" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book21.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Walrus and Carpenter eating</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book21.jpg</text>
@@ -11584,14 +11760,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_046</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Red King snoring" id="I_065" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book22.jpg</bitstream>
+    <resource label="Red King snoring" id="I_065" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book22.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Red King snoring</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book22.jpg</text>
@@ -11615,14 +11794,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_047</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Tweedledum crying in a fury" id="I_066" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book23.jpg</bitstream>
+    <resource label="Tweedledum crying in a fury" id="I_066" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book23.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Tweedledum crying in a fury</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book23.jpg</text>
@@ -11647,14 +11829,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_044</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Tweedledum and Tweedledee" id="I_067" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book24.jpg</bitstream>
+    <resource label="Tweedledum and Tweedledee" id="I_067" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book24.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Tweedledum and Tweedledee</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book24.jpg</text>
@@ -11679,14 +11864,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_044</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice adressing White Queen" id="I_068" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book25.jpg</bitstream>
+    <resource label="Alice adressing White Queen" id="I_068" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book25.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice adressing White Queen</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book25.jpg</text>
@@ -11711,14 +11899,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_049</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Hatta sitting in prison" id="I_069" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book26.jpg</bitstream>
+    <resource label="Hatta sitting in prison" id="I_069" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book26.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Hatta sitting in prison</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book26.jpg</text>
@@ -11742,14 +11933,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_004</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice leaning on counter in Sheep's shop" id="I_070" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book27.jpg</bitstream>
+    <resource label="Alice leaning on counter in Sheep's shop" id="I_070" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book27.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice leaning on counter in Sheep's shop</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book27.jpg</text>
@@ -11774,14 +11968,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_052</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice rowing a boat" id="I_071" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book28.jpg</bitstream>
+    <resource label="Alice rowing a boat" id="I_071" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book28.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice rowing a boat</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book28.jpg</text>
@@ -11806,14 +12003,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_052</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Humpty Dumpty offering Alice his hand" id="I_072" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book29.jpg</bitstream>
+    <resource label="Humpty Dumpty offering Alice his hand" id="I_072" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book29.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Humpty Dumpty offering Alice his hand</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book29.jpg</text>
@@ -11838,14 +12038,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_012</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Jabberwocky creatures" id="I_073" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book30.jpg</bitstream>
+    <resource label="Jabberwocky creatures" id="I_073" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book30.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Jabberwocky creatures</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book30.jpg</text>
@@ -11866,14 +12069,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>BCH_022</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Humpty Dumpty sending a message" id="I_074" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book31.jpg</bitstream>
+    <resource label="Humpty Dumpty sending a message" id="I_074" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book31.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Humpty Dumpty sending a message</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book31.jpg</text>
@@ -11897,14 +12103,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_012</resptr>
         </resptr-prop>
     </resource>
-    <resource label="White King soldiers and horses stumbling" id="I_075" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book32.jpg</bitstream>
+    <resource label="White King soldiers and horses stumbling" id="I_075" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book32.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">White King soldiers and horses stumbling</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book32.jpg</text>
@@ -11925,14 +12134,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>BCH_023</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Haigha handing a ham sandwich to the White King" id="I_076" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book33.jpg</bitstream>
+    <resource label="Haigha handing a ham sandwich to the White King" id="I_076" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book33.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Haigha handing a ham sandwich to the White King</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book33.jpg</text>
@@ -11958,14 +12170,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_042</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Hatta drinking tea" id="I_077" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book34.jpg</bitstream>
+    <resource label="Hatta drinking tea" id="I_077" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book34.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Hatta drinking tea</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book34.jpg</text>
@@ -11994,14 +12209,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_054</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice holding a plum cake" id="I_078" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book35.jpg</bitstream>
+    <resource label="Alice holding a plum cake" id="I_078" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book35.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice holding a plum cake</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book35.jpg</text>
@@ -12027,14 +12245,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_054</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice putting her hands over her ears" id="I_079" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book36.jpg</bitstream>
+    <resource label="Alice putting her hands over her ears" id="I_079" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book36.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice putting her hands over her ears</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book36.jpg</text>
@@ -12058,14 +12279,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Red Knight and White Knight fighting" id="I_080" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book37.jpg</bitstream>
+    <resource label="Red Knight and White Knight fighting" id="I_080" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book37.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Red Knight and White Knight fighting</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book37.jpg</text>
@@ -12091,14 +12315,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_048</resptr>
         </resptr-prop>
     </resource>
-    <resource label="White Knight falling off his horse" id="I_081" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book38.jpg</bitstream>
+    <resource label="White Knight falling off his horse" id="I_081" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book38.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">White Knight falling off his horse</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book38.jpg</text>
@@ -12123,14 +12350,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_013</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice dragging White Knight out off a ditch" id="I_082" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book39.jpg</bitstream>
+    <resource label="Alice dragging White Knight out off a ditch" id="I_082" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book39.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice dragging White Knight out off a ditch</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book39.jpg</text>
@@ -12155,14 +12385,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_013</resptr>
         </resptr-prop>
     </resource>
-    <resource label="White Knight shaking an aged man" id="I_083" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book40.jpg</bitstream>
+    <resource label="White Knight shaking an aged man" id="I_083" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book40.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">White Knight shaking an aged man</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book40.jpg</text>
@@ -12186,14 +12419,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_013</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice lifting off a golden crown" id="I_084" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book41.jpg</bitstream>
+    <resource label="Alice lifting off a golden crown" id="I_084" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book41.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice lifting off a golden crown</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book41.jpg</text>
@@ -12217,14 +12453,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Red Queen and White Queen sitting with Alice" id="I_085" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book42.jpg</bitstream>
+    <resource label="Red Queen and White Queen sitting with Alice" id="I_085" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book42.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Red Queen and White Queen sitting with Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book42.jpg</text>
@@ -12250,14 +12489,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_049</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Red Queen and White Queen sleeping on Alice" id="I_086" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book43.jpg</bitstream>
+    <resource label="Red Queen and White Queen sleeping on Alice" id="I_086" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book43.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Red Queen and White Queen sleeping on Alice</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book43.jpg</text>
@@ -12283,14 +12525,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_049</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice and Frog standing before a door" id="I_087" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book44.jpg</bitstream>
+    <resource label="Alice and Frog standing before a door" id="I_087" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book44.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice and Frog standing before a door</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book44.jpg</text>
@@ -12315,14 +12560,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_030</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Mutton making a little bow" id="I_088" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book45.jpg</bitstream>
+    <resource label="Mutton making a little bow" id="I_088" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book45.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Mutton making a little bow</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book45.jpg</text>
@@ -12343,14 +12591,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>BCH_025</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice pulling a table cloth" id="I_089" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book46.jpg</bitstream>
+    <resource label="Alice pulling a table cloth" id="I_089" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book46.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice pulling a table cloth</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book46.jpg</text>
@@ -12374,14 +12625,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice shaking Red Queen" id="I_090" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book47.jpg</bitstream>
+    <resource label="Alice shaking Red Queen" id="I_090" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book47.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice shaking Red Queen</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book47.jpg</text>
@@ -12406,14 +12660,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_011</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice shaking Kitty" id="I_091" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book48.jpg</bitstream>
+    <resource label="Alice shaking Kitty" id="I_091" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book48.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice shaking Kitty</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book48.jpg</text>
@@ -12438,14 +12695,17 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>CH_040</resptr>
         </resptr-prop>
     </resource>
-    <resource label="Alice looking over her shoulder at White Kitten" id="I_092" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4" permissions="limited_view">data/multimedia/image/IMG_2book49.jpg</bitstream>
+    <resource label="Alice looking over her shoulder at White Kitten" id="I_092" restype=":ImageOriginal">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_2book49.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
         </text-prop>
         <text-prop name=":hasCopyrightResource">
             <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice looking over her shoulder at White Kitten</text>
         </text-prop>
         <text-prop name=":hasFileName">
             <text encoding="utf8">IMG_2book49.jpg</text>
