@@ -9588,12 +9588,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>1</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_001</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_002</resptr>
             <resptr>CH_006</resptr>
             <resptr>CH_017</resptr>
+            <resptr>CH_035</resptr>
+            <resptr>CH_037</resptr>
         </resptr-prop>
     </resource>
     <resource label="White Rabbit looking at his watch" id="I_002" restype=":Image">
@@ -9620,8 +9623,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>2</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_002</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_002</resptr>
@@ -9651,8 +9654,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>3</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_002</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9682,8 +9685,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>4</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_002</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9713,8 +9716,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>5</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_003</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9744,8 +9747,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>6</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_003</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9776,8 +9779,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>7</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_003</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9807,8 +9810,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>8</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_003</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9816,38 +9819,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </resptr-prop>
     </resource>
     <resource label="Alice accepting a thimble from Dodo" id="I_009" restype=":Image">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book8.jpg</bitstream>
-        <text-prop name=":hasAuthorshipResource">
-            <text encoding="utf8">Daniela Subotic</text>
-            <text encoding="utf8">Noémi Villars-Amberg</text>
-        </text-prop>
-        <text-prop name=":hasCopyrightResource">
-            <text encoding="utf8">DaSCH</text>
-        </text-prop>
-        <text-prop name=":hasFileName">
-            <text encoding="utf8">IMG_1book8.jpg</text>
-        </text-prop>
-        <decimal-prop name=":hasFileSize">
-            <decimal>0.3</decimal>
-        </decimal-prop>
-        <text-prop name=":hasID">
-            <text encoding="utf8">I_009</text>
-        </text-prop>
-        <list-prop name=":hasLicenseResource" list="License">
-            <list>LIC_002</list>
-        </list-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>9</integer>
-        </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
-        </resptr-prop>
-        <resptr-prop name=":isPartOfCharacter">
-            <resptr>CH_001</resptr>
-            <resptr>CH_015</resptr>
-        </resptr-prop>
-    </resource>
-    <resource label="Mouse telling its tale to Alice and creatures" id="I_010" restype=":Image">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book9.jpg</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -9860,6 +9831,38 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="utf8">IMG_1book9.jpg</text>
         </text-prop>
         <decimal-prop name=":hasFileSize">
+            <decimal>0.3</decimal>
+        </decimal-prop>
+        <text-prop name=":hasID">
+            <text encoding="utf8">I_009</text>
+        </text-prop>
+        <list-prop name=":hasLicenseResource" list="License">
+            <list>LIC_002</list>
+        </list-prop>
+        <integer-prop name=":hasSeqnum">
+            <integer>10</integer>
+        </integer-prop>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_004</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_015</resptr>
+        </resptr-prop>
+    </resource>
+    <resource label="Mouse telling its tale to Alice and creatures" id="I_010" restype=":Image">
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_4">data/multimedia/image/IMG_1book8.jpg</bitstream>
+        <text-prop name=":hasAuthorshipResource">
+            <text encoding="utf8">Daniela Subotic</text>
+            <text encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <text-prop name=":hasCopyrightResource">
+            <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name=":hasFileName">
+            <text encoding="utf8">IMG_1book8.jpg</text>
+        </text-prop>
+        <decimal-prop name=":hasFileSize">
             <decimal>0.2</decimal>
         </decimal-prop>
         <text-prop name=":hasID">
@@ -9869,13 +9872,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>10</integer>
+            <integer>9</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_004</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_014</resptr>
+            <resptr>CH_015</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice outgrowing White Rabbit's house" id="I_011" restype=":Image">
@@ -9902,12 +9907,11 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>11</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_005</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
-            <resptr>CH_002</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice's hand reaching for White Rabbit" id="I_012" restype=":Image">
@@ -9934,8 +9938,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>12</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_005</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9966,8 +9970,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>13</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_005</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_027</resptr>
@@ -9997,8 +10001,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>14</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_005</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10029,10 +10033,11 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>15</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_003</resptr>
         </resptr-prop>
     </resource>
@@ -10060,8 +10065,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>16</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_038</resptr>
@@ -10091,8 +10096,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>17</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_038</resptr>
@@ -10122,8 +10127,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>18</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_038</resptr>
@@ -10153,8 +10158,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>19</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_038</resptr>
@@ -10184,8 +10189,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>20</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_030</resptr>
@@ -10215,11 +10220,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>21</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
+            <resptr>CH_005</resptr>
             <resptr>CH_008</resptr>
+            <resptr>CH_032</resptr>
+            <resptr>CH_033</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice holding the pig baby" id="I_022" restype=":Image">
@@ -10246,8 +10255,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>22</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10278,10 +10287,11 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>23</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_005</resptr>
         </resptr-prop>
     </resource>
@@ -10309,8 +10319,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>24</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_005</resptr>
@@ -10340,11 +10350,14 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>25</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_008</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
+            <resptr>CH_004</resptr>
+            <resptr>CH_007</resptr>
+            <resptr>CH_018</resptr>
         </resptr-prop>
     </resource>
     <resource label="Hatter singing" id="I_026" restype=":Image">
@@ -10371,11 +10384,12 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>26</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_008</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
+            <resptr>CH_018</resptr>
         </resptr-prop>
     </resource>
     <resource label="Dormouse being put in a teapot" id="I_027" restype=":Image">
@@ -10402,10 +10416,12 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>27</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_008</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_004</resptr>
+            <resptr>CH_007</resptr>
             <resptr>CH_018</resptr>
         </resptr-prop>
     </resource>
@@ -10433,8 +10449,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>28</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_009</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_035</resptr>
@@ -10464,12 +10480,13 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>29</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_009</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_006</resptr>
+            <resptr>CH_017</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice holding her Flamingo" id="I_030" restype=":Image">
@@ -10496,8 +10513,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>30</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_009</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10528,11 +10545,14 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>31</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_009</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_002</resptr>
             <resptr>CH_005</resptr>
+            <resptr>CH_006</resptr>
+            <resptr>CH_017</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice and Duchess walking" id="I_032" restype=":Image">
@@ -10559,12 +10579,13 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>32</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
             <resptr>CH_008</resptr>
+            <resptr>CH_036</resptr>
         </resptr-prop>
     </resource>
     <resource label="Gryphon sleeping" id="I_033" restype=":Image">
@@ -10591,8 +10612,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>33</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_010</resptr>
@@ -10622,8 +10643,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>34</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10655,8 +10676,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>35</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10688,8 +10709,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>36</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_011</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_039</resptr>
@@ -10719,8 +10740,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>37</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_012</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_002</resptr>
@@ -10750,8 +10771,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>38</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_012</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
@@ -10781,8 +10802,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>39</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_012</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
@@ -10812,11 +10833,12 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>40</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_013</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
+            <resptr>CH_037</resptr>
         </resptr-prop>
     </resource>
     <resource label="King of Hearts pointing to the tarts in court" id="I_041" restype=":Image">
@@ -10843,11 +10865,12 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>41</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_013</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_017</resptr>
+            <resptr>CH_037</resptr>
         </resptr-prop>
     </resource>
     <resource label="Cards flying down upon Alice" id="I_042" restype=":Image">
@@ -10874,8 +10897,11 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name=":hasSeqnum">
             <integer>42</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_001</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_013</resptr>
+        </resptr-prop>
+        <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
         </resptr-prop>
     </resource>
     <resource label="White knight riding his horse" id="I_043" restype=":Image">
@@ -10900,12 +10926,13 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>1</integer>
+            <integer>43</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_015</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_013</resptr>
         </resptr-prop>
     </resource>
@@ -10931,10 +10958,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>2</integer>
+            <integer>44</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_040</resptr>
@@ -10962,13 +10989,14 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>3</integer>
+            <integer>45</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
+            <resptr>CH_040</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice going through the looking-glass" id="I_046" restype=":Image">
@@ -10993,10 +11021,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>4</integer>
+            <integer>46</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11024,10 +11052,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>5</integer>
+            <integer>47</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11055,10 +11083,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>6</integer>
+            <integer>48</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_041</resptr>
@@ -11086,10 +11114,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>7</integer>
+            <integer>49</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11118,10 +11146,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>8</integer>
+            <integer>50</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_013</resptr>
@@ -11149,10 +11177,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>9</integer>
+            <integer>51</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_026</resptr>
@@ -11180,10 +11208,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>10</integer>
+            <integer>52</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_018</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11212,10 +11240,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>11</integer>
+            <integer>53</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_018</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11244,10 +11272,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>12</integer>
+            <integer>54</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_018</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice and Red Queen running" id="I_055" restype=":Image">
@@ -11272,10 +11300,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>13</integer>
+            <integer>55</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_018</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11304,10 +11332,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>14</integer>
+            <integer>56</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_019</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11335,10 +11363,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>15</integer>
+            <integer>57</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_019</resptr>
         </resptr-prop>
     </resource>
     <resource label="Snap-dragon-fly" id="I_058" restype=":Image">
@@ -11363,10 +11391,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>16</integer>
+            <integer>58</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_019</resptr>
         </resptr-prop>
     </resource>
     <resource label="Bread-and-butter-fly" id="I_059" restype=":Image">
@@ -11391,10 +11419,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>17</integer>
+            <integer>59</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_019</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice clasping her arms round Fawn" id="I_060" restype=":Image">
@@ -11419,10 +11447,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>18</integer>
+            <integer>60</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_019</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11450,10 +11478,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>19</integer>
+            <integer>61</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11482,10 +11510,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>20</integer>
+            <integer>62</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_045</resptr>
@@ -11514,10 +11542,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>21</integer>
+            <integer>63</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_045</resptr>
@@ -11546,10 +11574,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>22</integer>
+            <integer>64</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_045</resptr>
@@ -11578,10 +11606,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>23</integer>
+            <integer>65</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_047</resptr>
@@ -11609,12 +11637,13 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>24</integer>
+            <integer>66</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_044</resptr>
         </resptr-prop>
     </resource>
@@ -11640,12 +11669,13 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>25</integer>
+            <integer>67</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_044</resptr>
         </resptr-prop>
     </resource>
@@ -11671,10 +11701,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>26</integer>
+            <integer>68</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_021</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11703,10 +11733,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>27</integer>
+            <integer>69</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_021</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
@@ -11734,13 +11764,14 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>28</integer>
+            <integer>70</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_021</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
+            <resptr>CH_052</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice rowing a boat" id="I_071" restype=":Image">
@@ -11765,13 +11796,14 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>29</integer>
+            <integer>71</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_021</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
+            <resptr>CH_052</resptr>
         </resptr-prop>
     </resource>
     <resource label="Humpty Dumpty offering Alice his hand" id="I_072" restype=":Image">
@@ -11796,10 +11828,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>30</integer>
+            <integer>72</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_022</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11828,10 +11860,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>31</integer>
+            <integer>73</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_022</resptr>
         </resptr-prop>
     </resource>
     <resource label="Humpty Dumpty sending a message" id="I_074" restype=":Image">
@@ -11856,10 +11888,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>32</integer>
+            <integer>74</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_022</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_012</resptr>
@@ -11887,10 +11919,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>33</integer>
+            <integer>75</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_023</resptr>
         </resptr-prop>
     </resource>
     <resource label="Haigha handing a ham sandwich to the White King" id="I_076" restype=":Image">
@@ -11915,13 +11947,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>34</integer>
+            <integer>76</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_023</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_007</resptr>
+            <resptr>CH_042</resptr>
         </resptr-prop>
     </resource>
     <resource label="Hatta drinking tea" id="I_077" restype=":Image">
@@ -11946,13 +11980,18 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>35</integer>
+            <integer>77</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_023</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_004</resptr>
+            <resptr>CH_007</resptr>
+            <resptr>CH_042</resptr>
+            <resptr>CH_053</resptr>
+            <resptr>CH_054</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice holding a plum cake" id="I_078" restype=":Image">
@@ -11977,13 +12016,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>36</integer>
+            <integer>78</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_023</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
+            <resptr>CH_053</resptr>
+            <resptr>CH_054</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice putting her hands over her ears" id="I_079" restype=":Image">
@@ -12008,10 +12049,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>37</integer>
+            <integer>79</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_023</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12039,12 +12080,13 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>38</integer>
+            <integer>80</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_013</resptr>
             <resptr>CH_048</resptr>
         </resptr-prop>
@@ -12071,12 +12113,13 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>39</integer>
+            <integer>81</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
+            <resptr>CH_001</resptr>
             <resptr>CH_013</resptr>
         </resptr-prop>
     </resource>
@@ -12102,10 +12145,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>40</integer>
+            <integer>82</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12134,10 +12177,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>41</integer>
+            <integer>83</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_013</resptr>
@@ -12165,10 +12208,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>42</integer>
+            <integer>84</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12196,10 +12239,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>43</integer>
+            <integer>85</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_025</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12229,10 +12272,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>44</integer>
+            <integer>86</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_025</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12262,10 +12305,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>45</integer>
+            <integer>87</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_025</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12294,10 +12337,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>46</integer>
+            <integer>88</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_025</resptr>
         </resptr-prop>
     </resource>
     <resource label="Alice pulling a table cloth" id="I_089" restype=":Image">
@@ -12322,10 +12365,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>47</integer>
+            <integer>89</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_025</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12353,10 +12396,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>48</integer>
+            <integer>90</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_026</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12385,10 +12428,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>49</integer>
+            <integer>91</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_027</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12417,10 +12460,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
         <integer-prop name=":hasSeqnum">
-            <integer>50</integer>
+            <integer>92</integer>
         </integer-prop>
-        <resptr-prop name=":isPartOfBook">
-            <resptr>BK_002</resptr>
+        <resptr-prop name=":isPartOfBookChapter">
+            <resptr>BCH_028</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
