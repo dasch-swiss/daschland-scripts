@@ -52,7 +52,9 @@
                 "daschland:BookEdition",
                 "daschland:hasDescriptionAlternative"
             ],
-            "limited_view": []
+            "limited_view": [
+                "daschland:ImageAlternative"
+            ]
         },
         "users": [
             {
@@ -2027,21 +2029,16 @@
                             "it": "06. Immagine"
                         },
                         "comments": {
-                            "de": "Originalillustrationen der ersten Ausgabe, gestaltet von John Tenniell",
-                            "en": "Original illustrations from the first edition, created by John Tenniell",
-                            "fr": "Illustrations originales de la première édition, créées par John Tenniell",
-                            "it": "Illustrazioni originali della prima edizione, realizzate da John Tenniell"
+                            "de": "Bilder, die die ursprüngliche und die alternative Erzählung veranschaulichen",
+                            "en": "Images illustrating the original and the alternative stories",
+                            "fr": "Images illustrant les récits originaux et alternatifs",
+                            "it": "Immagini che illustrano la storia originale e quella alternativa"
                         },
                         "cardinalities": [
                             {
                                 "propname": ":hasFileName",
                                 "cardinality": "0-1",
                                 "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 2
                             },
                             {
                                 "propname": ":hasTimeStamp",
@@ -2052,11 +2049,6 @@
                                 "propname": ":hasFileSize",
                                 "cardinality": "0-1",
                                 "gui_order": 4
-                            },
-                            {
-                                "propname": ":isPartOfBookChapter",
-                                "cardinality": "0-1",
-                                "gui_order": 5
                             },
                             {
                                 "propname": ":hasSeqnum",
@@ -2512,6 +2504,67 @@
                             "fr": "Lieux situés dans le Pays des Merveilles, sous-classe.",
                             "it": "Luoghi nel Paese delle Meraviglie, sottoclasse."
                         }
+                    },
+                    {
+                        "name": "ImageOriginal",
+                        "super": [
+                            "StillImageRepresentation",
+                            ":Image",
+                            "crm:E73_Information_Object",
+                            "schema:ImageObject"
+                        ],
+                        "labels": {
+                            "de": "Bild Original",
+                            "en": "Image Original",
+                            "fr": "Image originale",
+                            "it": "Immagine originale"
+                        },
+                        "comments": {
+                            "de": "Originalillustrationen der ersten Ausgabe, gestaltet von John Tenniell",
+                            "en": "Original illustrations from the first edition, created by John Tenniell",
+                            "fr": "Illustrations originales de la première édition, créées par John Tenniell",
+                            "it": "Illustrazioni originali della prima edizione, realizzate da John Tenniell"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":isPartOfBookChapter",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ImageAlternative",
+                        "super": [
+                            "StillImageRepresentation",
+                            ":Image",
+                            "crm:E73_Information_Object",
+                            "schema:ImageObject"
+                        ],
+                        "labels": {
+                            "de": "Bild Alternativ",
+                            "en": "Image Alternative",
+                            "fr": "Image alternative",
+                            "it": "Immagine alternativa"
+                        },
+                        "comments": {
+                            "de": "Illustrationen aus der alternativen Geschichte, generiert mit einer KI",
+                            "en": "Illustrations from the alternative story, generated with an AI",
+                            "fr": "Illustrations tirées de l'histoire alternative, générées à l'aide d'une IA",
+                            "it": "Illustrazioni tratte dalla storia alternativa, generate con un'intelligenza artificiale"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasDescriptionAlternative",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            }
+                        ]
                     }
                 ]
             },
