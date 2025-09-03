@@ -1,5 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import ListLookup, Resource, create_list_from_input
+from dsp_tools.xmllib import ListLookup, Resource, create_list_from_input, get_list_nodes_from_string_via_list_name
 
 from src.helpers.helper import make_cols_mapping_with_columns
 
@@ -27,10 +27,9 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in book_chapter_df.iterrows():
         # define variables
-        keywords_names_raw = create_list_from_input(row["Keyword"], separator=",")
-        keyword_names = [
-            list_lookup.get_node_via_list_name(list_name="Keyword", node_label=x) for x in keywords_names_raw
-        ]
+        keyword_names = get_list_nodes_from_string_via_list_name(
+            string_with_list_labels=row["Keyword"], label_separator=",", list_name="Keyword", list_lookup=list_lookup
+        )
         keyword_names = sorted(keyword_names)
 
         book = mapping_book_name[row["Book ID"]]

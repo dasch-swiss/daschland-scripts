@@ -1,9 +1,5 @@
 import pandas as pd
-from dsp_tools.xmllib import (
-    LicenseRecommended,
-    Resource,
-    create_list_from_input,
-)
+from dsp_tools.xmllib import Resource, create_list_from_input, find_license_in_string
 
 from src.helpers.image_helper import (
     get_media_file_creation_time,
@@ -25,14 +21,14 @@ def main() -> list[Resource]:
         file_size_value = get_media_file_size(audio_path)
         authors = create_list_from_input(row["Authorship"], separator=", ")
         authors_resource = create_list_from_input(row["Authorship Resource"], separator=", ")
-
+        file_license = find_license_in_string(row["License List"])
         # create resource, label and id
         resource = Resource.create_new(res_id=row["ID"], restype=":Audio", label=row["Name"])
 
         # add file to resource
         resource.add_file(
             filename=audio_path,
-            license=LicenseRecommended.DSP.PUBLIC_DOMAIN,
+            license=file_license,
             copyright_holder=row["Copyright"],
             authorship=authors,
         )

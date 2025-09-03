@@ -154,7 +154,7 @@
         <hasKeyword>Outro</hasKeyword>
     </audio-segment>
     <resource label="Dramatis Personae" id="A_01" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_00.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_00.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -222,7 +222,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Down the Rabbit-Hole" id="A_02" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_01.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_01.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -290,7 +290,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Pool of Tears" id="A_03" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_02.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_02.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -358,7 +358,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="A Caucus-Race and Long Tale" id="A_04" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_03.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_03.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -426,7 +426,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Rabbit Sends in a Little Bill" id="A_05" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_04.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_04.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -494,7 +494,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Advice From a Caterpillar" id="A_06" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_05.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_05.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -562,7 +562,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Pig and Pepper" id="A_07" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_06.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_06.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -630,7 +630,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Mad Tea-Party" id="A_08" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_07.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_07.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -698,7 +698,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Queen's Croquet-Ground" id="A_09" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_08.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_08.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -766,7 +766,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Mock Turtle's Story" id="A_10" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_09.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_09.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -834,7 +834,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="The Lobster Quadrille" id="A_11" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_10.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_10.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -902,7 +902,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Who Stole the Tarts?" id="A_12" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_11.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_11.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -970,7 +970,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Alice's Evidence" id="A_13" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_12.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_aliceinwonderland_12.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1038,7 +1038,7 @@ Alice's Sister: Diana Majlinger</text>
         </list-prop>
     </resource>
     <resource label="Dramatis Personae" id="A_14" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_3">data/multimedia/audio/AUD_throughthelookingglass_00.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_3">data/multimedia/audio/AUD_throughthelookingglass_00.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1090,7 +1090,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Looking-Glass House" id="A_15" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_throughthelookingglass_01.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_1">data/multimedia/audio/AUD_throughthelookingglass_01.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1142,7 +1142,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="The Garden of Live Flowers" id="A_16" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_02.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_02.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1194,7 +1194,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Looking-Glass Insects" id="A_17" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_03.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_03.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1246,7 +1246,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" id="A_18" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_04.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_04.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1298,7 +1298,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Wool and Water" id="A_19" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_05.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_05.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1350,7 +1350,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Humpty Dumpty" id="A_20" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_06.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_06.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1402,7 +1402,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="The Lion and the Unicorn" id="A_21" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_07.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_07.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1454,7 +1454,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="It's my own Invention" id="A_22" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_08.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_08.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1506,7 +1506,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Queen Alice, Shaking and Waking" id="A_23" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_09.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_09.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -1558,7 +1558,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Which Dreamed it?" id="A_24" restype=":Audio">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_10.mp3</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_6">data/multimedia/audio/AUD_throughthelookingglass_10.mp3</bitstream>
         <text-prop name=":hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -5450,7 +5450,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice is a young English girl. She is the main protagonist of Alice’s Adventures in Wonderland and Through the Looking-Glass and What Alice Found There. She is a curious, imaginative, and bold young girl who finds herself in bizarre, dreamlike worlds filled with nonsense and eccentric characters.<br/>
                 <br/>Alice is a seven-year-old girl in Alice’s Adventures in Wonderland and slightly older in Through the Looking-Glass.<br/>She follows the White Rabbit down a rabbit hole, leading her into Wonderland, where she experiences strange adventures and meets absurd characters.<br/>In the Looking-Glass world, she plays through a giant chess game, moving from pawn to queen.<br/>
-                <br/>The beautiful pictures of Alice, drawn by John Tenniel, were inspired by Mary Hilton Badcock, the daughter of the Dean of Ripon. Although she was suggested as a model, it's not clear if Tenniel fully took this suggestion <footnote content="source: alice-in-wonderland.net"/>.</text>
+                <br/>The beautiful pictures of Alice, drawn by John Tenniel, were inspired by Mary Hilton Badcock, the daughter of the Dean of Ripon. Although she was suggested as a model, it's not clear if Tenniel fully took this suggestion <footnote content="alice-in-wonderland.net"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">In the digital wonderland of DaSCHland, Alice is reimagined as a spirited young explorer with radiant Asian features, her hair partly discoloured in bold streaks and styled into sharp, playful spikes that reflect her daring spirit. Her deep-set eyes, framed by thick lashes, are pools of curiosity—always scanning, always questioning. She wears a sleek cobalt-blue tunic etched with shifting patterns of code, a modern twist on the classic pinafore, and her boots are made for navigating both archives and algorithms.<br/>
@@ -5556,7 +5556,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The White Rabbit is a nervous, hurried character who serves as Alice’s initial guide into Wonderland.<br/>He is first seen checking his pocket watch and exclaiming, “Oh dear! Oh dear! I shall be late!” before disappearing down the rabbit hole.<br/>He works as a servant for the Queen of Hearts and is terrified of her temper.<br/>He mistakes Alice for his housemaid, Mary Ann, in Chapter 4 and panics when she grows giant inside his house.<br/>
-                <br/>The White Rabbit is always late, which is a nod to Oxford time. At Oxford, especially at Christ Church, where Carroll used to teach, events often start five minutes after the scheduled hour <footnote content="source: alice-in-wonderland.net"/>.</text>
+                <br/>The White Rabbit is always late, which is a nod to Oxford time. At Oxford, especially at Christ Church, where Carroll used to teach, events often start five minutes after the scheduled hour <footnote content="&lt;a href=&quot;alice-in-wonderland.net&quot;&gt;source: alice-in-wonderland.net&lt;/a&gt;"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">In DaSCHland, RabbIT is a dazzling reinvention of the classic White Rabbit from Alice in Wonderland, seamlessly blending Victorian elegance with cutting-edge cybernetics. Serving as Alice’s ever-alert companion and digital guide, RabbitIT retains the essential traits of urgency, precision, and insight, but in this world of structured data and semantic layers, his role is transformed into something far more sophisticated.<br/>
@@ -5588,7 +5588,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="utf8">weißes Kaninchen</text>
         </text-prop>
         <text-prop name=":hasQuote">
-            <text encoding="xml">Oh dear! Oh dear! I shall be too late!</text>
+            <text encoding="xml">Oh dear! Oh dear! I shall be late!</text>
         </text-prop>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_01</list>
@@ -5664,7 +5664,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Mad Hatter is a tea-obsessed, eccentric character who hosts the Mad Tea Party with the March Hare and the Dormouse.<br/>He is called “mad” because Time has punished him by stopping time at 6 o’clock, meaning it is always tea-time for him.<br/>He loves riddles and wordplay, famously asking Alice: “Why is a raven like a writing desk?”—a riddle with no real answer.<br/>He appears again at the trial of the Knave of Hearts, where he nervously testifies before the Queen of Hearts.<br/>
                 <br/>In 'Through the Looking-Glass', the Hatter returns in the form of the Anglo-Saxon messenger 'Hatta'.<br/>
-                <br/>Contrary to popular belief, Lewis Carroll never referred to the Hatter as 'the Mad Hatter' in the story. He simply called him 'the Hatter'.<br/>The phrase 'mad as a hatter' was common in Carroll's time, probably because hatters actually did go mad, as the mercury they used sometimes gave them mercury poisoning <footnote content="source: alice-in-wonderland.net"/>.</text>
+                <br/>Contrary to popular belief, Lewis Carroll never referred to the Hatter as 'the Mad Hatter' in the story. He simply called him 'the Hatter'.<br/>The phrase 'mad as a hatter' was common in Carroll's time, probably because hatters actually did go mad, as the mercury they used sometimes gave them mercury poisoning <footnote content="&lt;a href=&quot;alice-in-wonderland.net&quot;&gt;source: alice-in-wonderland.net&lt;/a&gt;"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">The Archival Madcap of DaSCHland<br/>
@@ -5721,7 +5721,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Cheshire Cat is a mischievous, grinning cat who gives philosophical advice to Alice.<br/>He has the ability to disappear and reappear at will, sometimes leaving only his grin behind.<br/>He guides Alice, explaining the madness of Wonderland and telling her “We’re all mad here.”<br/>He later appears at the Queen’s croquet game, where his floating head confuses the King and Queen of Hearts.<br/>He serves as a guide for Alice, offering riddles and cryptic advice but never direct answers.<br/>
-                <br/>The reason for Carroll naming this character 'Cheshire Cat' is unclear: <br/>'To grin like a Cheshire Cat' was a common phrase in Carroll's day. <br/>It may have originated from a sign painter in Cheshire who painted grinning lions on the sign-boards of inns in the area.<br/>Another source is the 'Alice Window' in Christ Church, Oxford, where you can see three grinning animals at the top of the Liddell's family arms. <br/>Cheshire cheeses were also once molded in the shape of a grinning cat <footnote content="source: alice-in-wonderland.net"/>.</text>
+                <br/>The reason for Carroll naming this character 'Cheshire Cat' is unclear: <br/>'To grin like a Cheshire Cat' was a common phrase in Carroll's day. <br/>It may have originated from a sign painter in Cheshire who painted grinning lions on the sign-boards of inns in the area.<br/>Another source is the 'Alice Window' in Christ Church, Oxford, where you can see three grinning animals at the top of the Liddell's family arms. <br/>Cheshire cheeses were also once molded in the shape of a grinning cat <footnote content="&lt;a href=&quot;alice-in-wonderland.net&quot;&gt;alice-in-wonderland.net&lt;/a&gt;"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">In the imaginative world of DaSCHland, the Cheshire Cat emerges as a particularly compelling digital entity—equal parts guide, enigma, and interface. Retaining his iconic mystery and mischievous wit, he is now reimagined as a fully cybernetic being: a shimmering construct composed of translucent data fractals, his fur constantly shifting like a mosaic of living code. His body pulses gently with a luminous teal glow, occasionally phasing in and out of visibility as if he were woven from pure algorithmic ether.<br/>
@@ -5775,7 +5775,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Queen of Hearts is the ruler of Wonderland, known for her explosive temper and frequent orders of “Off with their heads!”<br/>She is tyrannical, irrational, and quick to anger, though her executions are never actually carried out (likely because the King of Hearts quietly pardons everyone).<br/>She hosts a chaotic croquet game, where flamingos are used as mallets and hedgehogs as balls.<br/>
-                <br/>Carroll wrote the following about the Queen of Hearts:<br/>"I pictured the Queen of Hearts as a sort of embodiment of ungovernable passion – a blind and aimless Fury." <footnote content="source: alice-in-wonderland.net"/>
+                <br/>Carroll wrote the following about the Queen of Hearts:<br/>"I pictured the Queen of Hearts as a sort of embodiment of ungovernable passion – a blind and aimless Fury." <footnote content="&lt;a href=&quot;alice-in-wonderland.net&quot;&gt;alice-in-wonderland.net&lt;/a&gt;"/>
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
@@ -6015,7 +6015,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Red Queen is a chess piece on the Red side, known for being strict, commanding, and highly logical.<br/>She first meets Alice in Chapter 2 and explains the rules of the Looking-Glass world, where Alice must move like a pawn to reach the eighth square and become a queen.<br/>She later appears at Alice’s coronation banquet, where the event descends into chaos.<br/>
-                <br/>It is possible that the Red Queen was modelled after the governess for the Liddell children, Miss Prickett, who was known as 'Pricks' <footnote content="source: alice-in-wonderland.net"/>.</text>
+                <br/>It is possible that the Red Queen was modelled after the governess for the Liddell children, Miss Prickett, who was known as 'Pricks' <footnote content="&lt;a href=&quot;alice-in-wonderland.net&quot;&gt;alice-in-wonderland.net&lt;/a&gt;"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">In the digital wonderland of DaSCHland, the Red Queen is reimagined as a dynamic and strategic figure, embodying a blend of leadership and urgency. Unlike the traditional portrayal of her character as simply domineering, this Red Queen is more nuanced, using her quick-paced and decisive nature to manage and oversee complex digital operations within the realm.<br/>
@@ -6212,7 +6212,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Dodo is one of the animals that fall into the pool of tears with Alice.<br/>He organizes the Caucus Race, a nonsensical event where everyone runs in circles with no clear rules, and everyone wins.<br/>
                 <br/>The dodo, a flightless bird that once inhabited the island of Mauritius, located east of Madagascar in the Indian Ocean, became extinct in the mid-17th century during the colonisation of the island by the Dutch. <br/>
-                <br/>The character is believed to represent Lewis Carroll himself (Charles Dodgson), as “Dodo” is thought to be a reference to Dodgson’s own stammer, which made him pronounce his surname as “Do-do-Dodgson.” <footnote content="source: alice-in-wonderland.net"/>
+                <br/>The character is believed to represent Lewis Carroll himself (Charles Dodgson), as “Dodo” is thought to be a reference to Dodgson’s own stammer, which made him pronounce his surname as “Do-do-Dodgson.” <footnote content="&lt;a href=&quot;alice-in-wonderland.net&quot;&gt;alice-in-wonderland.net&lt;/a&gt;"/>
                 <br/>
             </text>
         </text-prop>
@@ -6258,7 +6258,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">She is an unnamed older sister of Alice, present at the beginning and end of the story.<br/>At the start, she sits with Alice by the riverbank, reading a book with “no pictures or conversations,” which bores Alice and leads her to daydream about Wonderland.<br/>At the end, after Alice wakes up from her dream, her sister gently sends her home and reflects on Alice’s adventures, imagining that Alice will one day grow up but still retain her childlike wonder.<br/>
-                <br/>Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell. The real Alice's older sister, Lorina, was actually only three years her senior <footnote content="source: alice-in-wonderland.net"/>.</text>
+                <br/>Her character is likely a fictionalized counterpart to Lorina Charlotte "Ina" Liddell (1849-1930), the real-life elder sister of Alice Liddell. The real Alice's older sister, Lorina, was actually only three years her senior <footnote content="&lt;a href=&quot;alice-in-wonderland.net&quot;&gt;alice-in-wonderland.net&lt;/a&gt;"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">
@@ -6474,7 +6474,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Duck is one of the animals that fall into the pool of tears with Alice.<br/>It participates in the Caucus Race, a nonsensical event where everyone wins.<br/>
-                <br/>The character is believed to be based on Reverend Duckworth, a friend of Lewis Carroll who accompanied Alice Liddell and her sisters on the boat trip where Carroll first told the story <footnote content="source: https://en.wikipedia.org/wiki/Robinson_Duckworth"/>.</text>
+                <br/>The character is believed to be based on Reverend Duckworth, a friend of Lewis Carroll who accompanied Alice Liddell and her sisters on the boat trip where Carroll first told the story <footnote content="&lt;a href=&quot;https://en.wikipedia.org/wiki/Robinson_Duckworth&quot;&gt;https://en.wikipedia.org/wiki/Robinson_Duckworth&lt;/a&gt;"/>.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">
@@ -6514,7 +6514,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="utf8">DaSCH</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text encoding="xml">The Lory is a talking bird that falls into the pool of tears along with Alice and other creatures.<br/>It participates in the Caucus Race, where everyone runs in circles and “wins.”<br/>The Lory is depicted as proud and argumentative, refusing to let Alice have the last word in their conversation.<br/>She is said to be modeled after Alice’s sister, Lorina <footnote content="source: alice-in-wonderland.net"/>
+            <text encoding="xml">The Lory is a talking bird that falls into the pool of tears along with Alice and other creatures.<br/>It participates in the Caucus Race, where everyone runs in circles and “wins.”<br/>The Lory is depicted as proud and argumentative, refusing to let Alice have the last word in their conversation.<br/>She is said to be modeled after Alice’s sister, Lorina <footnote content="&lt;a href=&quot;alice-in-wonderland.net&quot;&gt;alice-in-wonderland.net&lt;/a&gt;"/>
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
@@ -6553,7 +6553,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="utf8">DaSCH</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text encoding="xml">The Eaglet is one of the animals that fall into the pool of tears with Alice.<br/>It participates in the Caucus Race, a nonsensical race where everyone wins.<br/>The Eaglet is depicted as intelligent and somewhat critical, questioning the Dodo’s explanations.<br/>She is said to be modeled after Alice’s sister, Edith <footnote content="source: alice-in-wonderland.net"/>
+            <text encoding="xml">The Eaglet is one of the animals that fall into the pool of tears with Alice.<br/>It participates in the Caucus Race, a nonsensical race where everyone wins.<br/>The Eaglet is depicted as intelligent and somewhat critical, questioning the Dodo’s explanations.<br/>She is said to be modeled after Alice’s sister, Edith <footnote content="&lt;a href=&quot;alice-in-wonderland.net&quot;&gt;alice-in-wonderland.net&lt;/a&gt;"/>
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
@@ -6671,7 +6671,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasDescription">
             <text encoding="xml">The Jabberwock is a fictional monster featured in the poem “Jabberwocky,” which appears in Through the Looking-Glass.<br/>
                 <br/>The Jabberwock is a fearsome creature described in the nonsensical poem with features like “jaws that bite,” “claws that catch,” and “eyes of flame.”<br/>The poem tells the story of a hero who slays the Jabberwock with a “vorpal sword,” cutting off its head and triumphantly returning home.<br/>
-                <br/>In a letter to Mrs. Chataway, the mother of a child-friend, Carroll elucidates that the scene of the 'Snark' is "an island, frequented by the Jubjub and Bandersnatch – no doubt the very island where the Jabberwock was slain." <footnote content="source: Gardner, Martin. The Annotated Alice. The definitive edition, Penguin Books, 2001, p.161"/>
+                <br/>In a letter to Mrs. Chataway, the mother of a child-friend, Carroll elucidates that the scene of the 'Snark' is "an island, frequented by the Jubjub and Bandersnatch – no doubt the very island where the Jabberwock was slain." <footnote content="Gardner, Martin. The Annotated Alice. The definitive edition, Penguin Books, 2001, p.161"/>
             </text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
