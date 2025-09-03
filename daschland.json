@@ -42,6 +42,7 @@
         ],
         "enabled_licenses": [
             "http://rdfh.ch/licenses/ai-generated",
+            "http://rdfh.ch/licenses/cc-0-1.0",
             "http://rdfh.ch/licenses/cc-by-4.0",
             "http://rdfh.ch/licenses/public-domain"
         ],
@@ -766,14 +767,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Authorship",
                             "de": "Urheber:in",
+                            "en": "Authorship",
                             "fr": "Auteur·rice",
                             "it": "Autore"
                         },
                         "comments": {
-                            "en": "Author or creator of the file",
                             "de": "Autor oder Urheber der Datei",
+                            "en": "Author or creator of the file",
                             "fr": "Auteur ou créateur du fichier",
                             "it": "Autore o creatore del file"
                         },
@@ -788,14 +789,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Cast",
                             "de": "Besetzung",
+                            "en": "Cast",
                             "fr": "Distribution",
                             "it": "Getto"
                         },
                         "comments": {
-                            "en": "Cast members who appear on the media",
                             "de": "Darsteller, die in den Medien erscheinen",
+                            "en": "Cast members who appear on the media",
                             "fr": "Membres de la distribution qui apparaissent sur le média",
                             "it": "Cast dei membri che compaiono nel media"
                         },
@@ -809,14 +810,14 @@
                         ],
                         "object": "IntValue",
                         "labels": {
-                            "en": "Chapter Number",
                             "de": "Kapitel Nummer",
+                            "en": "Chapter Number",
                             "fr": "Numéro de chapitre",
                             "it": "Numero del capitolo"
                         },
                         "comments": {
-                            "en": "Number of the chapter",
                             "de": "Nummer des Kapitels",
+                            "en": "Number of the chapter",
                             "fr": "Numéro du chapitre",
                             "it": "Numero del capitolo"
                         },
@@ -830,14 +831,14 @@
                         ],
                         "object": "ColorValue",
                         "labels": {
-                            "en": "Colour",
                             "de": "Farbe",
+                            "en": "Colour",
                             "fr": "Couleur",
                             "it": "Colore"
                         },
                         "comments": {
-                            "en": "Colour",
                             "de": "Farbe",
+                            "en": "Colour",
                             "fr": "Couleur",
                             "it": "Colore"
                         },
@@ -852,14 +853,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Copyright",
                             "de": "Urheberrecht",
+                            "en": "Copyright",
                             "fr": "Droits d'auteur",
                             "it": "Copyright"
                         },
                         "comments": {
-                            "en": "Copyright of the media file",
                             "de": "Urheberrecht der Mediendatei",
+                            "en": "Copyright of the media file",
                             "fr": "Copyright du fichier média",
                             "it": "Copyright del file multimediale"
                         },
@@ -874,14 +875,14 @@
                         ],
                         "object": "DateValue",
                         "labels": {
-                            "en": "Publication Date",
                             "de": "Datum der Veröffentlichung",
+                            "en": "Publication Date",
                             "fr": "Date de publication",
                             "it": "Data di pubblicazione"
                         },
                         "comments": {
-                            "en": "Date of publication",
                             "de": "Veröffentlichungsdatum",
+                            "en": "Date of publication",
                             "fr": "Date de publication",
                             "it": "Data di pubblicazione"
                         },
@@ -896,14 +897,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Description",
                             "de": "Beschreibung",
+                            "en": "Description",
                             "fr": "Description",
                             "it": "Descrizione"
                         },
                         "comments": {
-                            "en": "Description",
                             "de": "Beschreibung",
+                            "en": "Description",
                             "fr": "Description de l'œuvre",
                             "it": "Descrizione"
                         },
@@ -918,14 +919,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Alternative Description",
                             "de": "alternative Beschreibung",
+                            "en": "Alternative Description",
                             "fr": "Description alternative",
                             "it": "Descrizione alternativa"
                         },
                         "comments": {
-                            "en": "Alternative description, made to provide an example of restricted value",
                             "de": "Alternative Beschreibung, um ein Beispiel für einen eingeschränkten Wert zu geben",
+                            "en": "Alternative description, made to provide an example of restricted value",
                             "fr": "Description alternative, faite pour fournir un exemple de valeur restreinte",
                             "it": "Descrizione alternativa, fornita per fornire un esempio di valore limitato"
                         },
@@ -940,14 +941,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "en": "Event Type",
                             "de": "Ereignistyp",
+                            "en": "Event Type",
                             "fr": "Type d'événement",
                             "it": "Tipo di evento"
                         },
                         "comments": {
-                            "en": "Type of the event, determined by a list",
                             "de": "Art der Veranstaltung, anhand einer Liste festgelegt",
+                            "en": "Type of the event, determined by a list",
                             "fr": "Type d'événement, déterminé par une liste",
                             "it": "Tipo di evento, determinato da un elenco"
                         },
@@ -964,14 +965,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "File Name",
                             "de": "Dateiname",
+                            "en": "File Name",
                             "fr": "Nom de fichier",
                             "it": "Nome del file"
                         },
                         "comments": {
-                            "en": "Name of the original file",
                             "de": "Name der Originaldatei",
+                            "en": "Name of the original file",
                             "fr": "Nom du fichier original",
                             "it": "Nome del file originale"
                         },
@@ -985,14 +986,14 @@
                         ],
                         "object": "DecimalValue",
                         "labels": {
-                            "en": "File Size (Mb)",
                             "de": "Dateigrösse (Mb)",
+                            "en": "File Size (Mb)",
                             "fr": "Taille du fichier (Mb)",
                             "it": "Dimensioni del file (Mb)"
                         },
                         "comments": {
-                            "en": "Size of the file in Mb",
                             "de": "Dateigröße in MB",
+                            "en": "Size of the file in Mb",
                             "fr": "Taille du fichier en Mo",
                             "it": "Dimensione del file in Mb"
                         },
@@ -1006,14 +1007,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Text",
                             "de": "Text (Englisch)",
+                            "en": "Text",
                             "fr": "Texte (Anglais)",
                             "it": "Testo (Inglese)"
                         },
                         "comments": {
-                            "en": "Text in english",
                             "de": "Text in englischer Sprache",
+                            "en": "Text in english",
                             "fr": "Texte en anglais",
                             "it": "Testo in inglese"
                         },
@@ -1027,14 +1028,14 @@
                         ],
                         "object": "GeonameValue",
                         "labels": {
-                            "en": "Geoname",
                             "de": "Geoname",
+                            "en": "Geoname",
                             "fr": "Geoname",
                             "it": "Geoname"
                         },
                         "comments": {
-                            "en": "Link to the Place on geonames website",
                             "de": "Link zum Ort auf der Geonames-Website",
+                            "en": "Link to the Place on geonames website",
                             "fr": "Lien vers le lieu sur le site de geonames",
                             "it": "Link al luogo sul sito web geonames"
                         },
@@ -1048,14 +1049,14 @@
                         ],
                         "object": "IntValue",
                         "labels": {
-                            "en": "Amount of Guests",
                             "de": "Anzahl der Gäste",
+                            "en": "Amount of Guests",
                             "fr": "Nombre d'invités",
                             "it": "Numero di ospiti"
                         },
                         "comments": {
-                            "en": "Amount of guests to the event",
                             "de": "Anzahl der Gäste der Veranstaltung",
+                            "en": "Amount of guests to the event",
                             "fr": "Nombre d'invités à l'événement",
                             "it": "Numero di ospiti all'evento"
                         },
@@ -1070,14 +1071,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "ID",
                             "de": "ID",
+                            "en": "ID",
                             "fr": "ID",
                             "it": "ID"
                         },
                         "comments": {
-                            "en": "Unique identifier",
                             "de": "Eindeutige Kennung",
+                            "en": "Unique identifier",
                             "fr": "Identifiant unique",
                             "it": "Identificatore univoco"
                         },
@@ -1091,14 +1092,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "en": "Keyword",
                             "de": "Schlüsselwort",
+                            "en": "Keyword",
                             "fr": "Mot-clé",
                             "it": "Parola chiave"
                         },
                         "comments": {
-                            "en": "Keywords associated to the record",
                             "de": "Mit dem Datensatz verbundene Schlüsselwörter",
+                            "en": "Keywords associated to the record",
                             "fr": "Mots-clés associés à l'enregistrement",
                             "it": "Parole chiave associate alla scheda"
                         },
@@ -1115,14 +1116,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "en": "License",
                             "de": "Lizenz",
+                            "en": "License",
                             "fr": "Licence",
                             "it": "Licenza"
                         },
                         "comments": {
-                            "en": "License of use of the Media file",
                             "de": "Lizenz zur Nutzung der Mediendatei",
+                            "en": "License of use of the Media file",
                             "fr": "Licence d'utilisation du fichier média",
                             "it": "Licenza d'uso del file multimediale"
                         },
@@ -1139,14 +1140,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Name",
                             "de": "Name",
+                            "en": "Name",
                             "fr": "Nom",
                             "it": "Nome"
                         },
                         "comments": {
-                            "en": "Name",
                             "de": "Name",
+                            "en": "Name",
                             "fr": "Nom",
                             "it": "Nome"
                         },
@@ -1160,14 +1161,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Quote",
                             "de": "Angebot",
+                            "en": "Quote",
                             "fr": "Citation",
                             "it": "Preventivo"
                         },
                         "comments": {
-                            "en": "Quote, as written in the original story",
                             "de": "Zitat, wie im Originaltext geschrieben",
+                            "en": "Quote, as written in the original story",
                             "fr": "Citation, telle qu'elle est écrite dans l'histoire originale",
                             "it": "Citazione, come riportata nella storia originale"
                         },
@@ -1181,14 +1182,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "en": "Role",
                             "de": "Rolle",
+                            "en": "Role",
                             "fr": "Rôle",
                             "it": "Ruolo"
                         },
                         "comments": {
-                            "en": "Importance of the character in the story",
                             "de": "Bedeutung der Figur in der Geschichte",
+                            "en": "Importance of the character in the story",
                             "fr": "Importance du personnage dans l'histoire",
                             "it": "Importanza del personaggio nella storia"
                         },
@@ -1205,14 +1206,14 @@
                         ],
                         "object": "IntValue",
                         "labels": {
-                            "en": "Seqnum",
                             "de": "Seqnum",
+                            "en": "Seqnum",
                             "fr": "Seqnum",
                             "it": "Seqnum"
                         },
                         "comments": {
-                            "en": "Sequence number used for compound object",
                             "de": "Sequenznummer für zusammengesetzte Objekte",
+                            "en": "Sequence number used for compound object",
                             "fr": "Numéro de séquence utilisé pour l'objet composé",
                             "it": "Numero di sequenza utilizzato per oggetti composti"
                         },
@@ -1226,14 +1227,14 @@
                         ],
                         "object": "TimeValue",
                         "labels": {
-                            "en": "Time Stamp",
                             "de": "Zeitstempel",
+                            "en": "Time Stamp",
                             "fr": "Horodatage",
                             "it": "Timestamp"
                         },
                         "comments": {
-                            "en": "Time stamp",
                             "de": "Zeitstempel",
+                            "en": "Time stamp",
                             "fr": "Horodatage",
                             "it": "Data e ora"
                         },
@@ -1247,14 +1248,14 @@
                         ],
                         "object": "UriValue",
                         "labels": {
-                            "en": "More Information",
                             "de": "Mehr Informationen",
+                            "en": "More Information",
                             "fr": "Plus d'informations",
                             "it": "Ulteriori informazioni"
                         },
                         "comments": {
-                            "en": "URL leading to an external page with more information",
                             "de": "URL zu einer externen Seite mit weiteren Informationen",
+                            "en": "URL leading to an external page with more information",
                             "fr": "URL menant à une page externe contenant plus d'informations",
                             "it": "URL che rimanda a una pagina esterna con ulteriori informazioni"
                         },
@@ -1268,14 +1269,14 @@
                         ],
                         "object": "BooleanValue",
                         "labels": {
-                            "en": "Dangerous",
                             "de": "Gefährlich",
+                            "en": "Dangerous",
                             "fr": "Dangereux",
                             "it": "Pericoloso"
                         },
                         "comments": {
-                            "en": "Is the event dangerous?",
                             "de": "Ist das Ereignis gefährlich?",
+                            "en": "Is the event dangerous?",
                             "fr": "L'événement est-il dangereux ?",
                             "it": "L'evento è pericoloso?"
                         },
@@ -1290,14 +1291,14 @@
                         ],
                         "object": ":Book",
                         "labels": {
-                            "en": "Part of Book",
                             "de": "Teil des Buches",
+                            "en": "Part of Book",
                             "fr": "Appartient au Livre",
                             "it": "Appartiene al libro"
                         },
                         "comments": {
-                            "en": "Belongs to following book",
                             "de": "Gehört zu folgendem Buch",
+                            "en": "Belongs to following book",
                             "fr": "Appartient au livre suivant",
                             "it": "Appartiene al seguente libro"
                         },
@@ -1312,14 +1313,14 @@
                         ],
                         "object": ":Character",
                         "labels": {
-                            "en": "Character(s) on the image",
                             "de": "Charakter(e) auf dem Bild",
+                            "en": "Character(s) on the image",
                             "fr": "Personnage(s) sur l'image",
                             "it": "Personaggio/i nell'immagine"
                         },
                         "comments": {
-                            "en": "Character(s) on the image",
                             "de": "Charakter(e) auf dem Bild",
+                            "en": "Character(s) on the image",
                             "fr": "Personnage(s) sur l'image",
                             "it": "Personaggio/i nell'immagine"
                         },
@@ -1333,14 +1334,14 @@
                         ],
                         "object": ":Audio",
                         "labels": {
-                            "en": "Audio",
                             "de": "Audio",
+                            "en": "Audio",
                             "fr": "Audio",
                             "it": "Audio"
                         },
                         "comments": {
-                            "en": "internal link to Audio",
                             "de": "Interner Link zu Audio",
+                            "en": "internal link to Audio",
                             "fr": "lien interne vers les fichiers Audio",
                             "it": "link interno all'audio"
                         },
@@ -1355,14 +1356,14 @@
                         ],
                         "object": ":BookChapter",
                         "labels": {
-                            "en": "Book Chapters",
                             "de": "Buch-Kapitel",
+                            "en": "Book Chapters",
                             "fr": "Chapitres du livre",
                             "it": "Capitoli del libro"
                         },
                         "comments": {
-                            "en": "internal link to Book Chapters",
                             "de": "Interner Link zu Buchkapiteln",
+                            "en": "internal link to Book Chapters",
                             "fr": "lien interne vers les Chapitres du livre",
                             "it": "link interno ai capitoli del libro"
                         },
@@ -1376,14 +1377,14 @@
                         ],
                         "object": ":BookEdition",
                         "labels": {
-                            "en": "Edition",
                             "de": "Ausgabe",
+                            "en": "Edition",
                             "fr": "Edition",
                             "it": "Edizione"
                         },
                         "comments": {
-                            "en": "internal link to the Edition(s)",
                             "de": "Interner Link zu den Ausgaben",
+                            "en": "internal link to the Edition(s)",
                             "fr": "lien interne vers l'(les) édition(s)",
                             "it": "link interno all'edizione/alle edizioni"
                         },
@@ -1398,14 +1399,14 @@
                         ],
                         "object": ":Character",
                         "labels": {
-                            "en": "Character(s)",
                             "de": "Charakter(e)",
+                            "en": "Character(s)",
                             "fr": "Personnage(s)",
                             "it": "Personaggio/i"
                         },
                         "comments": {
-                            "en": "internal link to Character(s)",
                             "de": "Interner Link zu Figur(en)",
+                            "en": "internal link to Character(s)",
                             "fr": "lien interne vers le(s) personnage(s)",
                             "it": "link interno a Personaggio/i"
                         },
@@ -1420,14 +1421,14 @@
                         ],
                         "object": ":Character",
                         "labels": {
-                            "en": "Antagonist(s)",
                             "de": "Antagonist(en)",
+                            "en": "Antagonist(s)",
                             "fr": "Antagoniste(s)",
                             "it": "Antagonista/i"
                         },
                         "comments": {
-                            "en": "internal link to Antagonist(s)",
                             "de": "Interner Link zu Antagonist(en)",
+                            "en": "internal link to Antagonist(s)",
                             "fr": "lien interne vers Antagoniste(s)",
                             "it": "link interno a Antagonista/i"
                         },
@@ -1442,14 +1443,14 @@
                         ],
                         "object": ":Character",
                         "labels": {
-                            "en": "Protagonist(s)",
                             "de": "Protagonist(en)",
+                            "en": "Protagonist(s)",
                             "fr": "Protagoniste(s)",
                             "it": "Protagonista/i"
                         },
                         "comments": {
-                            "en": "internal link to Protagonist(s)",
                             "de": "Interner Link zu Protagonist(en)",
+                            "en": "internal link to Protagonist(s)",
                             "fr": "lien interne vers Protagoniste(s)",
                             "it": "link interno a Protagonista/i"
                         },
@@ -1463,14 +1464,14 @@
                         ],
                         "object": ":Event",
                         "labels": {
-                            "en": "Event(s)",
                             "de": "Ereignis",
+                            "en": "Event(s)",
                             "fr": "Evénement(s)",
                             "it": "Evento"
                         },
                         "comments": {
-                            "en": "internal link to Event(s)",
                             "de": "Interner Link zu Ereignis(en)",
+                            "en": "internal link to Event(s)",
                             "fr": "lien interne vers Événement(s)",
                             "it": "link interno a Evento/i"
                         },
@@ -1484,14 +1485,14 @@
                         ],
                         "object": ":Image",
                         "labels": {
-                            "en": "Image(s)",
                             "de": "Bild",
+                            "en": "Image(s)",
                             "fr": "Image(s) liée(s)",
                             "it": "Immagine"
                         },
                         "comments": {
-                            "en": "internal link to Image(s)",
                             "de": "Interner Link zu Bild(ern)",
+                            "en": "internal link to Image(s)",
                             "fr": "lien interne vers Image(s)",
                             "it": "link interno a Immagine/i"
                         },
@@ -1506,14 +1507,14 @@
                         ],
                         "object": ":Location",
                         "labels": {
-                            "en": "Location",
                             "de": "Standort",
+                            "en": "Location",
                             "fr": "Emplacement",
                             "it": "Luogo"
                         },
                         "comments": {
-                            "en": "internal link to Location(s)",
                             "de": "Interner Link zu Ort(en)",
+                            "en": "internal link to Location(s)",
                             "fr": "lien interne vers Lieu(x)",
                             "it": "link interno a Luogo/i"
                         },
@@ -1527,14 +1528,14 @@
                         ],
                         "object": ":Video",
                         "labels": {
-                            "en": "Video",
                             "de": "Video",
+                            "en": "Video",
                             "fr": "Vidéo",
                             "it": "Video"
                         },
                         "comments": {
-                            "en": "internal link to Video(s)",
                             "de": "Interner Link zu Video(s)",
+                            "en": "internal link to Video(s)",
                             "fr": "lien interne vers Vidéo(s)",
                             "it": "link interno a Video/i"
                         },
@@ -1548,14 +1549,14 @@
                         ],
                         "object": ":BookCover",
                         "labels": {
-                            "en": "Book Cover",
                             "de": "Einband",
+                            "en": "Book Cover",
                             "fr": "Couverture",
                             "it": "Copertine"
                         },
                         "comments": {
-                            "en": "internal link to Book Cover(s)",
                             "de": "Interner Link zu Buchcover(s)",
+                            "en": "internal link to Book Cover(s)",
                             "fr": "lien interne vers Couverture(s) de livre",
                             "it": "link interno a Copertina/e del libro"
                         },
@@ -1571,14 +1572,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Author of the resource",
                             "de": "Autor der Resource",
+                            "en": "Author of the resource",
                             "fr": "Auteur·rice de la ressource",
                             "it": "Autore della risorsa"
                         },
                         "comments": {
-                            "en": "Author of the resource",
                             "de": "Autor der Resource",
+                            "en": "Author of the resource",
                             "fr": "Auteur·rice de la ressource",
                             "it": "Autore della risorsa"
                         },
@@ -1593,14 +1594,14 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Copyright of the resource",
                             "de": "Urheberrecht der Resource",
+                            "en": "Copyright of the resource",
                             "fr": "Droits d'auteur de la ressource",
                             "it": "Copyright della risorsa"
                         },
                         "comments": {
-                            "en": "Copyright of the resource",
                             "de": "Urheberrecht der Resource",
+                            "en": "Copyright of the resource",
                             "fr": "Droits d'auteur de la ressource",
                             "it": "Copyright della risorsa"
                         },
@@ -1614,14 +1615,14 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "en": "License of the resource",
                             "de": "Lizenz der Resource",
+                            "en": "License of the resource",
                             "fr": "Licence de la ressource",
                             "it": "Licenza della risorsa"
                         },
                         "comments": {
-                            "en": "License of the resource",
                             "de": "Lizenz der Resource",
+                            "en": "License of the resource",
                             "fr": "Licence de la ressource",
                             "it": "Licenza della risorsa"
                         },
@@ -1640,14 +1641,14 @@
                             "crm:E89_Propositional_Object"
                         ],
                         "labels": {
-                            "en": "01. Story",
                             "de": "01. Geschichte",
+                            "en": "01. Story",
                             "fr": "01. Histoire",
                             "it": "01. Racconti"
                         },
                         "comments": {
-                            "en": "The two stories written by Lewis Carroll",
                             "de": "Die beiden Geschichten von Lewis Carroll",
+                            "en": "The two stories written by Lewis Carroll",
                             "fr": "Les deux histoires écrits par Lewis Carroll",
                             "it": "I due racconti scritti da Lewis Carroll"
                         },
@@ -1727,14 +1728,14 @@
                             "crm:E89_Propositional_Object"
                         ],
                         "labels": {
-                            "en": "02. Book Chapter",
                             "de": "02. Buch Kapitel",
+                            "en": "02. Book Chapter",
                             "fr": "02. Chapitre de livre",
                             "it": "02. Capitolo del libro"
                         },
                         "comments": {
-                            "en": "Chapters of the two books included prefaces and poems from the books, with full text",
                             "de": "Die Kapitel der beiden Bücher enthielten Vorworte und Gedichte aus den Büchern, mit vollständigem Text",
+                            "en": "Chapters of the two books included prefaces and poems from the books, with full text",
                             "fr": "Les chapitres des deux livres comprennent des préfaces et des poèmes tirés des livres, avec le texte intégral.",
                             "it": "I capitoli dei due libri comprendevano prefazioni e poesie tratte dai libri, con il testo completo."
                         },
@@ -1819,14 +1820,14 @@
                             "crm:E89_Propositional_Object"
                         ],
                         "labels": {
-                            "en": "03. Character",
                             "de": "03. Charakter",
+                            "en": "03. Character",
                             "fr": "03. Personnage",
                             "it": "03. Personaggio"
                         },
                         "comments": {
-                            "en": "Characters appearing in the books, divided into main and secondary characters",
                             "de": "In den Büchern vorkommende Figuren, unterteilt in Haupt- und Nebenfiguren",
+                            "en": "Characters appearing in the books, divided into main and secondary characters",
                             "fr": "Personnages apparaissant dans les livres, divisés en personnages principaux et secondaires",
                             "it": "ersonaggi che compaiono nei libri, suddivisi in principali e secondari"
                         },
@@ -1896,14 +1897,14 @@
                             "schema:Event"
                         ],
                         "labels": {
-                            "en": "04. Event",
                             "de": "04. Ereignis",
+                            "en": "04. Event",
                             "fr": "04. Événement",
                             "it": "04. Evento"
                         },
                         "comments": {
-                            "en": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are restricted.",
                             "de": "Ereignisse, die in den beiden Geschichten stattfinden. Die Ereignisse sind in Unterklassen unterteilt, je nach ihrem Typ: Abenteuer, Konflikt und Soziales. Alternative Ereignisse sind eingeschränkt.",
+                            "en": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are restricted.",
                             "fr": "Événements se déroulant dans les deux histoires. Les événements sont divisés en sous-classes, selon leur type : Aventure, Conflit et Social. Les événements alternatifs sont limités.",
                             "it": "Eventi che si svolgono nelle due storie. Gli eventi sono suddivisi in Sottoclassi, a seconda del loro tipo: Avventura, Conflitto e Sociale. Gli eventi alternativi sono limitati."
                         },
@@ -1963,14 +1964,14 @@
                             "schema:Place"
                         ],
                         "labels": {
-                            "en": "05. Location",
                             "de": "05. Ort",
+                            "en": "05. Location",
                             "fr": "05. Lieu",
                             "it": "05. Luogo"
                         },
                         "comments": {
-                            "en": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland.",
                             "de": "Orte, an denen die von Lewis Carroll erdachten Geschichten spielen, unterteilt in die reale Welt und das Wunderland.",
+                            "en": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland.",
                             "fr": "Lieux où se déroulent les histoires imaginées par Lewis Carroll, subdivisées selon qu'ils sont situés dans le monde réel ou dans le Pays des Merveilles",
                             "it": "Luoghi in cui si svolgono le storie immaginate da Lewis Carroll, suddivisi a seconda che si trovino nel mondo reale o nel Paese delle Meraviglie."
                         },
@@ -2020,14 +2021,14 @@
                             "schema:ImageObject"
                         ],
                         "labels": {
-                            "en": "06. Image",
                             "de": "06. Bild",
+                            "en": "06. Image",
                             "fr": "06. Image",
                             "it": "06. Immagine"
                         },
                         "comments": {
-                            "en": "Original illustrations from the first edition, created by John Tenniell",
                             "de": "Originalillustrationen der ersten Ausgabe, gestaltet von John Tenniell",
+                            "en": "Original illustrations from the first edition, created by John Tenniell",
                             "fr": "Illustrations originales de la première édition, créées par John Tenniell",
                             "it": "Illustrazioni originali della prima edizione, realizzate da John Tenniell"
                         },
@@ -2096,14 +2097,14 @@
                             "crm:E22_Human-Made_Object"
                         ],
                         "labels": {
-                            "en": "07. Edition",
                             "de": "07. Ausgabe",
+                            "en": "07. Edition",
                             "fr": "07. Edition",
                             "it": "07. Edizione"
                         },
                         "comments": {
-                            "en": "Editions of the books",
                             "de": "Ausgaben der Bücher",
+                            "en": "Editions of the books",
                             "fr": "Editions des livres",
                             "it": "Edizioni dei libri"
                         },
@@ -2158,14 +2159,14 @@
                             "schema:ImageObject"
                         ],
                         "labels": {
-                            "en": "08. Book Cover",
                             "de": "08. Bucheinband",
+                            "en": "08. Book Cover",
                             "fr": "08. Couverture de livre",
                             "it": "08. Copertina del libro"
                         },
                         "comments": {
-                            "en": "Book covers of several editions of the stories",
                             "de": "Bucheinbände der verschiedenen Ausgaben der Erzählungen",
+                            "en": "Book covers of several editions of the stories",
                             "fr": "Couvertures de plusieurs éditions des histoires",
                             "it": "Copertine di diverse edizioni dei racconti"
                         },
@@ -2210,14 +2211,14 @@
                             "crm:E73_Information_Object"
                         ],
                         "labels": {
-                            "en": "09. Audio",
                             "de": "09. Audio",
+                            "en": "09. Audio",
                             "fr": "09. Audio",
                             "it": "09. Audio"
                         },
                         "comments": {
-                            "en": "Audio version of Alice in Wonderland, chapter per chapter",
                             "de": "Audioversion von Alice im Wunderland, Kapitel für Kapitel",
+                            "en": "Audio version of Alice in Wonderland, chapter per chapter",
                             "fr": "Version audio d'Alice au pays des merveilles, chapitre par chapitre",
                             "it": "Versione audio di Alice nel Paese delle Meraviglie, capitolo per capitolo"
                         },
@@ -2277,14 +2278,14 @@
                             "crm:E73_Information_Object"
                         ],
                         "labels": {
-                            "en": "10. Video",
                             "de": "10. Video",
+                            "en": "10. Video",
                             "fr": "10. Vidéo",
                             "it": "10. Video"
                         },
                         "comments": {
-                            "en": "Film adaptations of the two stories.",
                             "de": "Verfilmungen der beiden Geschichten.",
+                            "en": "Film adaptations of the two stories.",
                             "fr": "Adaptations cinématographiques des deux histoires.",
                             "it": "Adattamenti cinematografici delle due storie."
                         },
@@ -2345,14 +2346,14 @@
                             "schema:Event"
                         ],
                         "labels": {
-                            "en": "Event Adventure",
                             "de": "Ereignis Abenteuer",
+                            "en": "Event Adventure",
                             "fr": "Événement Aventure",
                             "it": "Evento di avventura"
                         },
                         "comments": {
-                            "en": "Subclass of Event, of type Adventure",
                             "de": "Unterklasse von Event, vom Typ Abenteuer",
+                            "en": "Subclass of Event, of type Adventure",
                             "fr": "Sous-classe de Événement, de type Aventure",
                             "it": "Sottoclasse di Evento, di tipo Avventura"
                         },
@@ -2378,14 +2379,14 @@
                             "schema:Event"
                         ],
                         "labels": {
-                            "en": "Event Alternative",
                             "de": "Ereignis Alternativ",
+                            "en": "Event Alternative",
                             "fr": "Événement alternatif",
                             "it": "Evento alternativo"
                         },
                         "comments": {
-                            "en": "Subclass of Event, of type Alternative",
                             "de": "Unterklasse von Event, vom Typ Alternativ",
+                            "en": "Subclass of Event, of type Alternative",
                             "fr": "Sous-classe d'événement, de type alternatif",
                             "it": "Sottoclasse di Evento, di tipo Alternativo"
                         },
@@ -2406,14 +2407,14 @@
                             "schema:Event"
                         ],
                         "labels": {
-                            "en": "Event Conflict",
                             "de": "Ereignis Konflikt",
+                            "en": "Event Conflict",
                             "fr": "Événement Conflit",
                             "it": "Evento di conflitto"
                         },
                         "comments": {
-                            "en": "Subclass of Event, of type Conflict",
                             "de": "Unterklasse von Ereignis, vom Typ Konflikt",
+                            "en": "Subclass of Event, of type Conflict",
                             "fr": "Sous-classe de Événement, de type Conflit",
                             "it": "Sottoclasse di Evento, di tipo Conflitto"
                         },
@@ -2439,14 +2440,14 @@
                             "schema:Event"
                         ],
                         "labels": {
-                            "en": "Event Social",
                             "de": "Ereignis Soziales",
+                            "en": "Event Social",
                             "fr": "Événement Social",
                             "it": "Evento sociale"
                         },
                         "comments": {
-                            "en": "Subclass of Event, of type Social",
                             "de": "Unterklasse von Event, vom Typ Sozial",
+                            "en": "Subclass of Event, of type Social",
                             "fr": "Sous-classe d'événement, de type social",
                             "it": "Sottoclasse di Evento, di tipo Sociale"
                         },
@@ -2472,14 +2473,14 @@
                             "schema:Place"
                         ],
                         "labels": {
-                            "en": "Location Real World",
                             "de": "Ort reale Welt",
+                            "en": "Location Real World",
                             "fr": "Lieu Monde réel",
                             "it": "Luogo del mondo reale"
                         },
                         "comments": {
-                            "en": "Places in the real world, subclass.",
                             "de": "Orte, die sich in der realen Welt befinden, Unterklasse.",
+                            "en": "Places in the real world, subclass.",
                             "fr": "Lieux situés dans le monde réel, sous-classe.",
                             "it": "Luoghi del mondo reale, sottoclasse."
                         },
@@ -2500,14 +2501,14 @@
                             "schema:Place"
                         ],
                         "labels": {
-                            "en": "Location Wonderland",
                             "de": "Ort Wunderland",
+                            "en": "Location Wonderland",
                             "fr": "Lieu Pays des Merveilles",
                             "it": "Luogo del Paese delle Meraviglie"
                         },
                         "comments": {
-                            "en": "Places in Wonderland, subclass.",
                             "de": "Orte im Wunderland, Unterklasse.",
+                            "en": "Places in Wonderland, subclass.",
                             "fr": "Lieux situés dans le Pays des Merveilles, sous-classe.",
                             "it": "Luoghi nel Paese delle Meraviglie, sottoclasse."
                         }
@@ -2527,8 +2528,8 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Copyright",
                             "de": "Urheberrecht",
+                            "en": "Copyright",
                             "fr": "Droits d'auteur",
                             "it": "Copyright"
                         },
@@ -2543,8 +2544,8 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Description",
                             "de": "Beschreibung",
+                            "en": "Description",
                             "fr": "Description",
                             "it": "Descrizione"
                         },
@@ -2558,8 +2559,8 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "File Name",
                             "de": "Dateiname",
+                            "en": "File Name",
                             "fr": "Nom de fichier",
                             "it": "Nome del file"
                         },
@@ -2573,8 +2574,8 @@
                         ],
                         "object": "DecimalValue",
                         "labels": {
-                            "en": "File Size (Mb)",
                             "de": "Dateigrösse (Mb)",
+                            "en": "File Size (Mb)",
                             "fr": "Taille du fichier (Mb)",
                             "it": "Dimensioni del file (Mb)"
                         },
@@ -2589,8 +2590,8 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "ID",
                             "de": "ID",
+                            "en": "ID",
                             "fr": "ID",
                             "it": "ID"
                         },
@@ -2604,8 +2605,8 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "en": "License",
                             "de": "Lizenz",
+                            "en": "License",
                             "fr": "Licence",
                             "it": "Licenza"
                         },
@@ -2622,8 +2623,8 @@
                         ],
                         "object": "TimeValue",
                         "labels": {
-                            "en": "Time Stamp",
                             "de": "Zeitstempel",
+                            "en": "Time Stamp",
                             "fr": "Horodatage",
                             "it": "Timestamp"
                         },
@@ -2639,15 +2640,15 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Author of the resource",
                             "de": "Autor der Resource",
+                            "en": "Author of the resource",
                             "fr": "Auteur·rice de la ressource",
                             "it": "Autore della risorsa",
                             "rm": "Author of the resource"
                         },
                         "comments": {
-                            "en": "Autor der Resource",
                             "de": "Auteur·rice de la ressource",
+                            "en": "Autor der Resource",
                             "fr": "Autore della risorsa"
                         },
                         "gui_element": "SimpleText"
@@ -2661,15 +2662,15 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "en": "Copyright of the resource",
                             "de": "Urheberrecht der Resource",
+                            "en": "Copyright of the resource",
                             "fr": "Droits d'auteur de la ressource",
                             "it": "Copyright della risorsa",
                             "rm": "Copyright of the resource"
                         },
                         "comments": {
-                            "en": "Urheberrecht der Resource",
                             "de": "Droits d'auteur de la ressource",
+                            "en": "Urheberrecht der Resource",
                             "fr": "Copyright della risorsa"
                         },
                         "gui_element": "SimpleText"
@@ -2682,15 +2683,15 @@
                         ],
                         "object": "ListValue",
                         "labels": {
-                            "en": "License of the resource",
                             "de": "Lizenz der Resource",
+                            "en": "License of the resource",
                             "fr": "Licence de la ressource",
                             "it": "Licenza della risorsa",
                             "rm": "License of the resource"
                         },
                         "comments": {
-                            "en": "Lizenz der Resource",
                             "de": "Licence de la ressource",
+                            "en": "Lizenz der Resource",
                             "fr": "Licenza della risorsa"
                         },
                         "gui_element": "List",
@@ -2708,14 +2709,14 @@
                             "crm:E78_Curated_Holding"
                         ],
                         "labels": {
-                            "en": "Project Archive",
                             "de": "Projekt-Archiv",
+                            "en": "Project Archive",
                             "fr": "Projet - Archives",
                             "it": "Progetto - Archivi"
                         },
                         "comments": {
-                            "en": "Zipped folder containing the scripts and other files from the project",
                             "de": "Gepackter Ordner mit den Skripten und anderen Dateien des Projekts",
+                            "en": "Zipped folder containing the scripts and other files from the project",
                             "fr": "Dossier zippé contenant les scripts et autres fichiers du projet",
                             "it": "Cartella zippata contenente gli script e gli altri file del progetto"
                         },
@@ -2770,14 +2771,14 @@
                             "schema:DigitalDocument"
                         ],
                         "labels": {
-                            "en": "Project Material",
                             "de": "Projekt-Material",
+                            "en": "Project Material",
                             "fr": "Projet - Matériel",
                             "it": "Progetto - Materiale"
                         },
                         "comments": {
-                            "en": "XML and CSV files for the project",
                             "de": "XML- und CSV-Dateien des Projekts",
+                            "en": "XML and CSV files for the project",
                             "fr": "Fichiers XML et CSV du projet",
                             "it": "File XML e CSV per il progetto"
                         },
@@ -2832,14 +2833,14 @@
                             "schema:DigitalDocument"
                         ],
                         "labels": {
-                            "en": "Project Documentation",
                             "de": "Projekt-Dokumentation",
+                            "en": "Project Documentation",
                             "fr": "Projet - Documentation",
                             "it": "Progetto - Documentazione"
                         },
                         "comments": {
-                            "en": "Documentation about the project itself and the database as well as search guide",
                             "de": "Dokumentation über das Projekt selbst und die Datenbank sowie Suchanleitung",
+                            "en": "Documentation about the project itself and the database as well as search guide",
                             "fr": "Documentation sur le projet lui-même et la base de données, ainsi qu'un guide de recherche",
                             "it": "Documentazione relativa al progetto stesso e al database, nonché guida alla ricerca"
                         },
