@@ -29,10 +29,19 @@ def main() -> list[Resource]:
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
+        if row["Limited View"] == "yes":
+            restype = ":ImageAlternative"
+            description = row["DescriptionAlternative"]
+            description_property = ":hasDescriptionAlternative"
+        else:
+            restype = ":ImageOriginal"
+            description = row["Description"]
+            description_property = ":hasDescription"
+
         # create resource, label and id
         resource = Resource.create_new(
             res_id=row["ID"],
-            restype=":Image",
+            restype=restype,
             label=row["Description"],
         )
 
@@ -56,7 +65,7 @@ def main() -> list[Resource]:
         resource.add_link_multiple(":isPartOfBookChapter", chapter_id)
         resource.add_link_multiple(":isPartOfCharacter", character_id)
         resource.add_integer(":hasSeqnum", row["Seqnum"])
-
+        resource.add_richtext_optional(prop_name=description_property, value=description)
         # append resource to list
         all_resources.append(resource)
 
