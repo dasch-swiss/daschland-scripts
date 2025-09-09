@@ -2051,6 +2051,16 @@
                                 "gui_order": 4
                             },
                             {
+                                "propname": ":isPartOfBookChapter",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":isPartOfCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
                                 "propname": ":hasSeqnum",
                                 "cardinality": "0-1",
                                 "gui_order": 7
@@ -2074,11 +2084,6 @@
                                 "propname": ":hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 11
-                            },
-                            {
-                                "propname": ":isPartOfCharacter",
-                                "cardinality": "0-n",
-                                "gui_order": 6
                             }
                         ]
                     },
@@ -2530,11 +2535,6 @@
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
                                 "gui_order": 2
-                            },
-                            {
-                                "propname": ":isPartOfBookChapter",
-                                "cardinality": "0-1",
-                                "gui_order": 5
                             }
                         ]
                     },
