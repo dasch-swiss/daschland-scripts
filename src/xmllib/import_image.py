@@ -39,11 +39,7 @@ def main() -> list[Resource]:
             description_property = ":hasDescription"
 
         # create resource, label and id
-        resource = Resource.create_new(
-            res_id=row["ID"],
-            restype=restype,
-            label=description
-        )
+        resource = Resource.create_new(res_id=row["ID"], restype=restype, label=description)
 
         # add file to resource
         resource.add_file(
