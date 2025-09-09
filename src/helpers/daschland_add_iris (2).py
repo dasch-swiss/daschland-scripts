@@ -7,7 +7,7 @@ from lxml import etree
 
 
 def main() -> None:
-    root = _read_xml_file_to_root_remove_comments(Path("daschland_data.xml"))
+    root = _read_xml_file_to_root_remove_comments(Path("data_daschland.xml"))
     id_dict = _read_json_to_dic(Path("daschland_id2iri.json"))
     replaced = _add_iris(root, id_dict)
     _write_file(replaced)

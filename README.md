@@ -48,7 +48,7 @@ Type `just` to get an overview of available recipes.
 
 ## Project Structure
 
-- `daschland_data.xml` The XML file containing the data for the project.
+- `data_daschland.xml` The XML file containing the data for the project.
 - `daschland_ontology` The ontology folder containing the Excel files used to create the JSON ontology file.
 - `daschland.json` The JSON file containing the data model for the project.
 - `data` The folder containing the project data.
@@ -83,12 +83,12 @@ Please use the project admin account "CheshireCat" to upload data to the DSP-API
 
 ```bash
 dsp-tools create daschland.json
-dsp-tools xmlupload -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
+dsp-tools xmlupload -u cheshire.cat@dasch.swiss -p 'alice9548' data_daschland.xml
 ```
 
 ### Uploading Data to rdu-08 Test Server
 
 ```bash
 dsp-tools create -s https://api.rdu-08.dasch.swiss -u root@example.com -p 'xxxx' daschland.json
-dsp-tools xmlupload -s https://api.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
+dsp-tools xmlupload -s https://api.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' data_daschland.xml
 ```

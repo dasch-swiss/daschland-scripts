@@ -34,7 +34,7 @@ jobs:
       - name: Create JSON project
         run: uv run dsp-tools create --suppress-update-prompt daschland.json
       - name: Xmlupload
-        run: uv run dsp-tools xmlupload --suppress-update-prompt -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
+        run: uv run dsp-tools xmlupload --suppress-update-prompt -u cheshire.cat@dasch.swiss -p 'alice9548' data_daschland.xml
       - name: make logging file available
         uses: actions/upload-artifact@v4
         if: always()

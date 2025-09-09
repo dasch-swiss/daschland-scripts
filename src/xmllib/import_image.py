@@ -31,7 +31,7 @@ def main() -> list[Resource]:
 
         if row["Limited View"] == "yes":
             restype = ":ImageAlternative"
-            description = row["DescriptionAlternative"]
+            description = row["Description Alternative"]
             description_property = ":hasDescriptionAlternative"
         else:
             restype = ":ImageOriginal"
@@ -39,11 +39,7 @@ def main() -> list[Resource]:
             description_property = ":hasDescription"
 
         # create resource, label and id
-        resource = Resource.create_new(
-            res_id=row["ID"],
-            restype=restype,
-            label=row["Description"],
-        )
+        resource = Resource.create_new(res_id=row["ID"], restype=restype, label=description)
 
         # add file to resource
         resource.add_file(

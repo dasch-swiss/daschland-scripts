@@ -38,4 +38,4 @@ jobs:
           -s api.stage.dasch.swiss \
           -u cheshire.cat@dasch.swiss \
           -p 'alice9548' \
-          daschland_data.xml
+          data_daschland.xml
