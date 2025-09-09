@@ -21,7 +21,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### Data Generation
 
-- `uv run src/xmllib/main.py` - Generate the main XML file (daschland_data.xml) using new xmllib
+- `uv run src/xmllib/main.py` - Generate the main XML file (data_daschland.xml) using new xmllib
 - `uv run src/excel2xml/main_excel2xml.py` - Generate XML using legacy excel2xml module
 
 ### DSP-API Upload
@@ -30,14 +30,14 @@ Local upload:
 
 ```bash
 dsp-tools create daschland.json
-dsp-tools xmlupload -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
+dsp-tools xmlupload -u cheshire.cat@dasch.swiss -p 'alice9548' data_daschland.xml
 ```
 
 Test server (rdu-08):
 
 ```bash
 dsp-tools create -s https://api.rdu-08.dasch.swiss -u root@example.com -p 'xxxx' daschland.json
-dsp-tools xmlupload -s https://api.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' daschland_data.xml
+dsp-tools xmlupload -s https://api.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' data_daschland.xml
 ```
 
 ## DSP-TOOLS Overview
@@ -48,7 +48,7 @@ This project heavily relies on DSP-TOOLS for data model creation and upload work
 ### Key DSP-TOOLS Commands Used
 
 - `dsp-tools create` - Creates project data model on DSP server from JSON definition (`daschland.json`)
-- `dsp-tools xmlupload` - Uploads resources and metadata from XML file (`daschland_data.xml`)
+- `dsp-tools xmlupload` - Uploads resources and metadata from XML file (`data_daschland.xml`)
 - `dsp-tools excel2json` - Converts Excel ontology files to JSON project definition (used for `daschland.json`)
 - `dsp-tools validate-data` - Validates XML data against server ontology before upload
 

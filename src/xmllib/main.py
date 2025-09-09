@@ -100,7 +100,7 @@ def main() -> None:
     ic(len(all_links))
 
     # write the root to a xml file
-    root.write_file("daschland_data.xml")
+    root.write_file("data_daschland.xml")
 
     # update nodegoat files
     nodegoat_files_update.main()

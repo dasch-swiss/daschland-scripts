@@ -14008,8 +14008,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="utf8">Chessboard's Final Square</text>
         </text-prop>
     </resource>
-    <resource label="daschland_data.xml" id="MAT_001" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">daschland_data.xml</bitstream>
+    <resource label="data_daschland.xml" id="MAT_001" restype="project-metadata:Material">
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data_daschland.xml</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14021,7 +14021,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">xml file used for the import of data on DSP</text>
         </text-prop>
         <text-prop name="project-metadata:hasFileName">
-            <text encoding="utf8">daschland_data.xml</text>
+            <text encoding="utf8">data_daschland.xml</text>
         </text-prop>
         <decimal-prop name="project-metadata:hasFileSize">
             <decimal>1.0</decimal>
