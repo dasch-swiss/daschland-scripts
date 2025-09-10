@@ -46,7 +46,7 @@ def main() -> list[Resource]:
             continue
 
         # add properties to resource
-        resource.add_simpletext(":hasID", resource_id)
+        resource.add_simpletext("project-metadata:hasID", resource_id)
         resource.add_simpletext(":hasName", row["Name"])
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_link_multiple(":linkToImage", image_ids)

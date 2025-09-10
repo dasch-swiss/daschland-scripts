@@ -981,27 +981,6 @@
                         "gui_element": "SimpleText"
                     },
                     {
-                        "name": "hasFileSize",
-                        "super": [
-                            "hasValue",
-                            "schema:size"
-                        ],
-                        "object": "DecimalValue",
-                        "labels": {
-                            "de": "Dateigrösse (Mb)",
-                            "en": "File Size (Mb)",
-                            "fr": "Taille du fichier (Mb)",
-                            "it": "Dimensioni del file (Mb)"
-                        },
-                        "comments": {
-                            "de": "Dateigröße in MB",
-                            "en": "Size of the file in Mb",
-                            "fr": "Taille du fichier en Mo",
-                            "it": "Dimensione del file in Mb"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
                         "name": "hasFullText",
                         "super": [
                             "hasValue",
@@ -1220,27 +1199,6 @@
                             "it": "Numero di sequenza utilizzato per oggetti composti"
                         },
                         "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasTimeStamp",
-                        "super": [
-                            "hasValue",
-                            "schema:dateCreated"
-                        ],
-                        "object": "TimeValue",
-                        "labels": {
-                            "de": "Zeitstempel",
-                            "en": "Time Stamp",
-                            "fr": "Horodatage",
-                            "it": "Timestamp"
-                        },
-                        "comments": {
-                            "de": "Zeitstempel",
-                            "en": "Time stamp",
-                            "fr": "Horodatage",
-                            "it": "Data e ora"
-                        },
-                        "gui_element": "TimeStamp"
                     },
                     {
                         "name": "hasUrl",
@@ -1563,75 +1521,6 @@
                             "it": "link interno a Copertina/e del libro"
                         },
                         "gui_element": "Searchbox"
-                    },
-                    {
-                        "name": "hasAuthorshipResource",
-                        "super": [
-                            "hasValue",
-                            "foaf:person",
-                            "schema:author",
-                            "crm:E21_Person"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "de": "Autor der Resource",
-                            "en": "Author of the resource",
-                            "fr": "Auteur·rice de la ressource",
-                            "it": "Autore della risorsa"
-                        },
-                        "comments": {
-                            "de": "Autor der Resource",
-                            "en": "Author of the resource",
-                            "fr": "Auteur·rice de la ressource",
-                            "it": "Autore della risorsa"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasCopyrightResource",
-                        "super": [
-                            "hasValue",
-                            "schema:copyrightHolder",
-                            "crm:P105_right_held_by"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "de": "Urheberrecht der Resource",
-                            "en": "Copyright of the resource",
-                            "fr": "Droits d'auteur de la ressource",
-                            "it": "Copyright della risorsa"
-                        },
-                        "comments": {
-                            "de": "Urheberrecht der Resource",
-                            "en": "Copyright of the resource",
-                            "fr": "Droits d'auteur de la ressource",
-                            "it": "Copyright della risorsa"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasLicenseResource",
-                        "super": [
-                            "hasValue",
-                            "schema:license"
-                        ],
-                        "object": "ListValue",
-                        "labels": {
-                            "de": "Lizenz der Resource",
-                            "en": "License of the resource",
-                            "fr": "Licence de la ressource",
-                            "it": "Licenza della risorsa"
-                        },
-                        "comments": {
-                            "de": "Lizenz der Resource",
-                            "en": "License of the resource",
-                            "fr": "Licence de la ressource",
-                            "it": "Licenza della risorsa"
-                        },
-                        "gui_element": "List",
-                        "gui_attributes": {
-                            "hlist": "License"
-                        }
                     }
                 ],
                 "resources": [
@@ -1656,7 +1545,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -1706,17 +1595,17 @@
                                 "gui_order": 10
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 11
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 12
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 13
                             }
@@ -1743,7 +1632,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -1798,17 +1687,17 @@
                                 "gui_order": 11
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 12
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 13
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 14
                             }
@@ -1835,7 +1724,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -1875,17 +1764,17 @@
                                 "gui_order": 8
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 9
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 10
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 11
                             }
@@ -1912,7 +1801,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -1942,17 +1831,17 @@
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 9
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 10
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 11
                             }
@@ -1979,7 +1868,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -1999,17 +1888,17 @@
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 6
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 8
                             }
@@ -2036,17 +1925,17 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasFileName",
+                                "propname": "project-metadata:hasFileName",
                                 "cardinality": "0-1",
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasTimeStamp",
+                                "propname": "project-metadata:hasTimeStamp",
                                 "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasFileSize",
+                                "propname": "project-metadata:hasFileSize",
                                 "cardinality": "0-1",
                                 "gui_order": 4
                             },
@@ -2066,22 +1955,22 @@
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 8
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 9
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 10
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 11
                             }
@@ -2107,12 +1996,12 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 5
                             },
                             {
-                                "propname": ":hasFileName",
+                                "propname": "project-metadata:hasFileName",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -2122,27 +2011,27 @@
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasTimeStamp",
+                                "propname": "project-metadata:hasTimeStamp",
                                 "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasFileSize",
+                                "propname": "project-metadata:hasFileSize",
                                 "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 6
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 8
                             }
@@ -2169,7 +2058,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 3
                             },
@@ -2184,17 +2073,17 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 5
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 6
                             }
@@ -2221,7 +2110,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasFileName",
+                                "propname": "project-metadata:hasFileName",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -2236,32 +2125,32 @@
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasTimeStamp",
+                                "propname": "project-metadata:hasTimeStamp",
                                 "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasFileSize",
+                                "propname": "project-metadata:hasFileSize",
                                 "cardinality": "0-1",
                                 "gui_order": 5
                             },
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 6
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 8
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 9
                             }
@@ -2288,7 +2177,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasFileName",
+                                "propname": "project-metadata:hasFileName",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -2303,32 +2192,32 @@
                                 "gui_order": 3
                             },
                             {
-                                "propname": ":hasTimeStamp",
+                                "propname": "project-metadata:hasTimeStamp",
                                 "cardinality": "0-1",
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasFileSize",
+                                "propname": "project-metadata:hasFileSize",
                                 "cardinality": "0-1",
                                 "gui_order": 5
                             },
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 6
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 8
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 9
                             }
@@ -2573,23 +2462,7 @@
                 "label": "Project Metadata",
                 "properties": [
                     {
-                        "name": "hasCopyright",
-                        "super": [
-                            "hasValue",
-                            "schema:copyrightHolder",
-                            "crm:P105_right_held_by"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "de": "Urheberrecht",
-                            "en": "Copyright",
-                            "fr": "Droits d'auteur",
-                            "it": "Copyright"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasDescription",
+                        "name": "hasFileDescription",
                         "super": [
                             "hasValue",
                             "schema:description",
@@ -2597,10 +2470,10 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Beschreibung",
-                            "en": "Description",
-                            "fr": "Description",
-                            "it": "Descrizione"
+                            "de": "Dateibeschreibung",
+                            "en": "File Description",
+                            "fr": "Description du fichier",
+                            "it": "Descrizione del file"
                         },
                         "gui_element": "Richtext"
                     },
@@ -2617,6 +2490,12 @@
                             "fr": "Nom de fichier",
                             "it": "Nome del file"
                         },
+                        "comments": {
+                            "de": "Name der Originaldatei",
+                            "en": "Name of the original file",
+                            "fr": "Nom du fichier original",
+                            "it": "Nome del file originale"
+                        },
                         "gui_element": "SimpleText"
                     },
                     {
@@ -2631,6 +2510,12 @@
                             "en": "File Size (Mb)",
                             "fr": "Taille du fichier (Mb)",
                             "it": "Dimensioni del file (Mb)"
+                        },
+                        "comments": {
+                            "de": "Dateigröße in MB",
+                            "en": "Size of the file in Mb",
+                            "fr": "Taille du fichier en Mo",
+                            "it": "Dimensione del file in Mb"
                         },
                         "gui_element": "SimpleText"
                     },
@@ -2648,25 +2533,13 @@
                             "fr": "ID",
                             "it": "ID"
                         },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasLicenseList",
-                        "super": [
-                            "hasValue",
-                            "schema:license"
-                        ],
-                        "object": "ListValue",
-                        "labels": {
-                            "de": "Lizenz",
-                            "en": "License",
-                            "fr": "Licence",
-                            "it": "Licenza"
+                        "comments": {
+                            "de": "Eindeutige Kennung",
+                            "en": "Unique identifier",
+                            "fr": "Identifiant unique",
+                            "it": "Identificatore univoco"
                         },
-                        "gui_element": "List",
-                        "gui_attributes": {
-                            "hlist": "License"
-                        }
+                        "gui_element": "SimpleText"
                     },
                     {
                         "name": "hasTimeStamp",
@@ -2680,6 +2553,12 @@
                             "en": "Time Stamp",
                             "fr": "Horodatage",
                             "it": "Timestamp"
+                        },
+                        "comments": {
+                            "de": "Zeitstempel",
+                            "en": "Time stamp",
+                            "fr": "Horodatage",
+                            "it": "Data e ora"
                         },
                         "gui_element": "TimeStamp"
                     },
@@ -2696,13 +2575,13 @@
                             "de": "Autor der Resource",
                             "en": "Author of the resource",
                             "fr": "Auteur·rice de la ressource",
-                            "it": "Autore della risorsa",
-                            "rm": "Author of the resource"
+                            "it": "Autore della risorsa"
                         },
                         "comments": {
-                            "de": "Auteur·rice de la ressource",
-                            "en": "Autor der Resource",
-                            "fr": "Autore della risorsa"
+                            "de": "Autor der Resource",
+                            "en": "Author of the resource",
+                            "fr": "Auteur·rice de la ressource",
+                            "it": "Autore della risorsa"
                         },
                         "gui_element": "SimpleText"
                     },
@@ -2718,13 +2597,13 @@
                             "de": "Urheberrecht der Resource",
                             "en": "Copyright of the resource",
                             "fr": "Droits d'auteur de la ressource",
-                            "it": "Copyright della risorsa",
-                            "rm": "Copyright of the resource"
+                            "it": "Copyright della risorsa"
                         },
                         "comments": {
-                            "de": "Droits d'auteur de la ressource",
-                            "en": "Urheberrecht der Resource",
-                            "fr": "Copyright della risorsa"
+                            "de": "Urheberrecht der Resource",
+                            "en": "Copyright of the resource",
+                            "fr": "Droits d'auteur de la ressource",
+                            "it": "Copyright della risorsa"
                         },
                         "gui_element": "SimpleText"
                     },
@@ -2739,13 +2618,13 @@
                             "de": "Lizenz der Resource",
                             "en": "License of the resource",
                             "fr": "Licence de la ressource",
-                            "it": "Licenza della risorsa",
-                            "rm": "License of the resource"
+                            "it": "Licenza della risorsa"
                         },
                         "comments": {
-                            "de": "Licence de la ressource",
-                            "en": "Lizenz der Resource",
-                            "fr": "Licenza della risorsa"
+                            "de": "Lizenz der Resource",
+                            "en": "License of the resource",
+                            "fr": "Licence de la ressource",
+                            "it": "Licenza della risorsa"
                         },
                         "gui_element": "List",
                         "gui_attributes": {
@@ -2785,7 +2664,7 @@
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasDescription",
+                                "propname": ":hasFileDescription",
                                 "cardinality": "0-n",
                                 "gui_order": 5
                             },
@@ -2847,7 +2726,7 @@
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasDescription",
+                                "propname": ":hasFileDescription",
                                 "cardinality": "0-n",
                                 "gui_order": 5
                             },
@@ -2909,7 +2788,7 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasDescription",
+                                "propname": ":hasFileDescription",
                                 "cardinality": "0-n",
                                 "gui_order": 2
                             },

@@ -40,7 +40,7 @@ def main() -> list[Resource]:
 
         # add properties to resource
         resource.add_simpletext("project-metadata:hasID", row["ID"])
-        resource.add_richtext("project-metadata:hasDescription", row["Description"])
+        resource.add_richtext("project-metadata:hasFileDescription", row["Description"])
         resource.add_simpletext("project-metadata:hasFileName", row["File Name"])
         resource.add_time_optional("project-metadata:hasTimeStamp", timestamp_value)
         resource.add_decimal_optional("project-metadata:hasFileSize", file_size_value)

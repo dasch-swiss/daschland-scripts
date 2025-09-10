@@ -34,11 +34,11 @@ def main() -> list[Resource]:
             copyright_holder=copyright_string,
             authorship=authors,
         )
-        resource.add_simpletext(":hasID", row["ID"])
+        resource.add_simpletext("project-metadata:hasID", row["ID"])
         resource.add_richtext(":hasDescription", row["Description"])
-        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
-        resource.add_list(":hasLicenseResource", "License", "LIC_002")
-        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
+        resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
+        resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)
         resource.add_uri(":hasUrl", row["Source"])
 
         # append resource to list

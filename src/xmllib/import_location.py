@@ -32,14 +32,14 @@ def main() -> list[Resource]:
             resource = Resource.create_new(res_id=resource_id, restype=":Location", label=resource_label)
 
         # add properties to resource
-        resource.add_simpletext(":hasID", resource_id)
+        resource.add_simpletext("project-metadata:hasID", resource_id)
         resource.add_simpletext(":hasName", row["Name"])
         resource.add_richtext_multiple(prop_name=":hasDescription", values=descriptions)
         resource.add_link_multiple(":linkToImage", image_ids)
         resource.add_geoname_optional(":hasGeoname", row["Geoname ID"])
-        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
-        resource.add_list(":hasLicenseResource", "License", "LIC_002")
-        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
+        resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
+        resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)
 
         # append resource to list
         all_resources.append(resource)
