@@ -22,7 +22,7 @@ def main() -> list[Resource]:
         resource = Resource.create_new(res_id=row["ID"], restype=":Book", label=row["Name"])
 
         # add properties to resource
-        resource.add_simpletext(":hasID", row["ID"])
+        resource.add_simpletext("project-metadata:hasID", row["ID"])
         resource.add_simpletext(":hasName", row["Name"])
         resource.add_simpletext_multiple(":hasAuthorship", row["Authorship"])
         resource.add_richtext(":hasDescription", row["Description"])
@@ -32,9 +32,9 @@ def main() -> list[Resource]:
         resource.add_link_multiple(":linkToBookEdition", book_edition_ids)
         resource.add_link_multiple(":linkToVideo", video_ids)
         resource.add_link_multiple(":linkToBookCover", cover_ids)
-        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
-        resource.add_list(":hasLicenseResource", "License", "LIC_002")
-        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
+        resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
+        resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)
 
         # append resource to list
         all_resources.append(resource)

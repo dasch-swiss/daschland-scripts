@@ -46,7 +46,7 @@ def main() -> list[Resource]:
             continue
 
         # add properties to resource
-        resource.add_simpletext(":hasID", resource_id)
+        resource.add_simpletext("project-metadata:hasID", resource_id)
         resource.add_simpletext(":hasName", row["Name"])
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_link_multiple(":linkToImage", image_ids)
@@ -63,9 +63,9 @@ def main() -> list[Resource]:
         # add properties for adventure event:
         resource.add_link_multiple(":linkToCharacter", adventure_character_ids)
         resource.add_bool_optional(":isDangerous", dangerous)
-        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
-        resource.add_list(":hasLicenseResource", "License", "LIC_002")
-        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
+        resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
+        resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)
 
         # add resource to list
         all_resources.append(resource)

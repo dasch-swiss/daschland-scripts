@@ -59,7 +59,7 @@ def main() -> list[Resource]:
         resource = Resource.create_new(res_id=row["ID"], restype=":Character", label=row["Name EN"])
 
         # add properties to resource
-        resource.add_simpletext(":hasID", row["ID"])
+        resource.add_simpletext("project-metadata:hasID", row["ID"])
         resource.add_simpletext_multiple(":hasName", names)
         resource.add_richtext(":hasDescription", description)
 
@@ -68,9 +68,9 @@ def main() -> list[Resource]:
         resource.add_richtext_optional(":hasQuote", row["Quote"])
         resource.add_link_multiple(":linkToImage", image_ids)
         resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names)
-        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
-        resource.add_list(":hasLicenseResource", "License", "LIC_002")
-        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
+        resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
+        resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)
         # append resource to list
         all_resources.append(resource)
 

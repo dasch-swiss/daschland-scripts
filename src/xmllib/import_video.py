@@ -42,14 +42,14 @@ def main() -> list[Resource]:
         )
 
         # add properties to resource
-        resource.add_simpletext(":hasID", row["ID"])
-        resource.add_time_optional(":hasTimeStamp", timestamp_value)
-        resource.add_decimal_optional(":hasFileSize", file_size_value)
-        resource.add_simpletext(":hasCopyrightResource", "DaSCH")
-        resource.add_list(":hasLicenseResource", "License", "LIC_002")
-        resource.add_simpletext_multiple(":hasAuthorshipResource", authors_resource)
+        resource.add_simpletext("project-metadata:hasID", row["ID"])
+        resource.add_time_optional("project-metadata:hasTimeStamp", timestamp_value)
+        resource.add_decimal_optional("project-metadata:hasFileSize", file_size_value)
+        resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
+        resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
+        resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)
 
-        resource.add_simpletext(":hasFileName", row["File Name"])
+        resource.add_simpletext("project-metadata:hasFileName", row["File Name"])
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_textarea_optional(":hasCast", row["Cast"])
 

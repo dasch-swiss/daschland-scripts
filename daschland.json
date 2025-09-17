@@ -49,7 +49,7 @@
         "default_permissions": "public",
         "default_permissions_overrule": {
             "private": [
-                "daschland:EventAlternative",
+                "daschland:BookEdition",
                 "daschland:hasDescriptionAlternative"
             ],
             "limited_view": [
@@ -981,27 +981,6 @@
                         "gui_element": "SimpleText"
                     },
                     {
-                        "name": "hasFileSize",
-                        "super": [
-                            "hasValue",
-                            "schema:size"
-                        ],
-                        "object": "DecimalValue",
-                        "labels": {
-                            "de": "Dateigrösse (Mb)",
-                            "en": "File Size (Mb)",
-                            "fr": "Taille du fichier (Mb)",
-                            "it": "Dimensioni del file (Mb)"
-                        },
-                        "comments": {
-                            "de": "Dateigröße in MB",
-                            "en": "Size of the file in Mb",
-                            "fr": "Taille du fichier en Mo",
-                            "it": "Dimensione del file in Mb"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
                         "name": "hasFullText",
                         "super": [
                             "hasValue",
@@ -1220,27 +1199,6 @@
                             "it": "Numero di sequenza utilizzato per oggetti composti"
                         },
                         "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasTimeStamp",
-                        "super": [
-                            "hasValue",
-                            "schema:dateCreated"
-                        ],
-                        "object": "TimeValue",
-                        "labels": {
-                            "de": "Zeitstempel",
-                            "en": "Time Stamp",
-                            "fr": "Horodatage",
-                            "it": "Timestamp"
-                        },
-                        "comments": {
-                            "de": "Zeitstempel",
-                            "en": "Time stamp",
-                            "fr": "Horodatage",
-                            "it": "Data e ora"
-                        },
-                        "gui_element": "TimeStamp"
                     },
                     {
                         "name": "hasUrl",
@@ -1563,145 +1521,9 @@
                             "it": "link interno a Copertina/e del libro"
                         },
                         "gui_element": "Searchbox"
-                    },
-                    {
-                        "name": "hasAuthorshipResource",
-                        "super": [
-                            "hasValue",
-                            "foaf:person",
-                            "schema:author",
-                            "crm:E21_Person"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "de": "Autor der Resource",
-                            "en": "Author of the resource",
-                            "fr": "Auteur·rice de la ressource",
-                            "it": "Autore della risorsa"
-                        },
-                        "comments": {
-                            "de": "Autor der Resource",
-                            "en": "Author of the resource",
-                            "fr": "Auteur·rice de la ressource",
-                            "it": "Autore della risorsa"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasCopyrightResource",
-                        "super": [
-                            "hasValue",
-                            "schema:copyrightHolder",
-                            "crm:P105_right_held_by"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "de": "Urheberrecht der Resource",
-                            "en": "Copyright of the resource",
-                            "fr": "Droits d'auteur de la ressource",
-                            "it": "Copyright della risorsa"
-                        },
-                        "comments": {
-                            "de": "Urheberrecht der Resource",
-                            "en": "Copyright of the resource",
-                            "fr": "Droits d'auteur de la ressource",
-                            "it": "Copyright della risorsa"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasLicenseResource",
-                        "super": [
-                            "hasValue",
-                            "schema:license"
-                        ],
-                        "object": "ListValue",
-                        "labels": {
-                            "de": "Lizenz der Resource",
-                            "en": "License of the resource",
-                            "fr": "Licence de la ressource",
-                            "it": "Licenza della risorsa"
-                        },
-                        "comments": {
-                            "de": "Lizenz der Resource",
-                            "en": "License of the resource",
-                            "fr": "Licence de la ressource",
-                            "it": "Licenza della risorsa"
-                        },
-                        "gui_element": "List",
-                        "gui_attributes": {
-                            "hlist": "License"
-                        }
                     }
                 ],
                 "resources": [
-                    {
-                        "name": "Audio",
-                        "super": [
-                            "AudioRepresentation",
-                            "schema:Audiobook",
-                            "crm:E73_Information_Object"
-                        ],
-                        "labels": {
-                            "de": "09. Audio",
-                            "en": "09. Audio",
-                            "fr": "09. Audio",
-                            "it": "09. Audio"
-                        },
-                        "comments": {
-                            "de": "Audioversion von Alice im Wunderland, Kapitel für Kapitel. Jedes Kapitel der Geschichte ist mit seiner Audioversion verlinkt.",
-                            "en": "Audio version of Alice in Wonderland, chapter per chapter. Each Chapter of the story is linked with its audio version.",
-                            "fr": "Audio version of Alice in Wonderland, chapter per chapter. Each Chapter of the story is linked with its audio version.",
-                            "it": "Versione audio di Alice nel Paese delle Meraviglie, capitolo per capitolo. Ogni capitolo della storia è collegato alla sua versione audio."
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasFileName",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasCast",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "0-n",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "0-1",
-                                "gui_order": 8
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "0-1",
-                                "gui_order": 9
-                            }
-                        ]
-                    },
                     {
                         "name": "Book",
                         "super": [
@@ -1716,14 +1538,14 @@
                             "it": "01. Racconti"
                         },
                         "comments": {
-                            "de": "Die beiden Geschichten von Lewis Carroll. Jede Geschichte enthält Links zu Buchausgaben und Buchcovern. Jede Geschichte besteht aus Kapiteln, die miteinander verlinkt sind. Außerdem ist ein Video (Film) mit der Geschichte verlinkt.",
-                            "en": "The two stories written by Lewis Carroll. Each story has links to book editions and book covers. Each story contains chapters, which are linked with it. A video (film) is also linked to the story.",
-                            "fr": "Les deux histoires écrites par Lewis Carroll. Chaque histoire comporte des liens vers des éditions et des couvertures de livres. Chaque histoire contient des chapitres, qui sont liés à celle-ci. Une vidéo (film) est également liée à l'histoire.",
-                            "it": "Le due storie scritte da Lewis Carroll. Ogni storia contiene link alle edizioni dei libri e alle copertine. Ogni storia è suddivisa in capitoli, ai quali sono collegati dei link. Alla storia è collegato anche un video (film)."
+                            "de": "Die beiden Geschichten von Lewis Carroll",
+                            "en": "The two stories written by Lewis Carroll",
+                            "fr": "Les deux histoires écrits par Lewis Carroll",
+                            "it": "I due racconti scritti da Lewis Carroll"
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -1773,17 +1595,17 @@
                                 "gui_order": 10
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 11
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 12
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 13
                             }
@@ -1803,14 +1625,14 @@
                             "it": "02. Capitolo del libro"
                         },
                         "comments": {
-                            "de": "Kapitel der beiden Geschichten, einschließlich Vorworte und Gedichte aus den Büchern, mit vollständigem Text. Jedes Kapitel ist mit seiner Geschichte verlinkt. Audioaufnahmen zu jedem Kapitel sind ebenfalls verlinkt. Zu jedem Kapitel gibt es einen Link zu den Orten, an denen die Handlung des Kapitels stattfindet, sowie zu den Ereignissen, die während der Kapitel stattfinden.",
-                            "en": "Chapters of the two stories, including prefaces and poems from the books, with full text. Each chapter is linked to its story. Audio recordings of each chapter are also linked. For each chapter, a link towards the location(s) where the action of the chapter is provided, as well as the events taking place during the chapters.",
-                            "fr": "Chapitres des deux récits, y compris les préfaces et les poèmes tirés des livres, avec texte intégral. Chaque chapitre est lié à son récit. Des enregistrements audio de chaque chapitre sont également disponibles. Pour chaque chapitre, un lien vers le ou les lieux où se déroule l'action du chapitre est fourni, ainsi que les événements qui s'y déroulent.",
-                            "it": "Capitoli delle due storie, comprese prefazioni e poesie tratte dai libri, con testo completo. Ogni capitolo è collegato alla sua storia. Sono presenti anche registrazioni audio di ogni capitolo. Per ogni capitolo è fornito un link alla località o alle località in cui si svolge l'azione del capitolo, nonché agli eventi che hanno luogo durante i capitoli."
+                            "de": "Die Kapitel der beiden Bücher enthielten Vorworte und Gedichte aus den Büchern, mit vollständigem Text",
+                            "en": "Chapters of the two books included prefaces and poems from the books, with full text",
+                            "fr": "Les chapitres des deux livres comprennent des préfaces et des poèmes tirés des livres, avec le texte intégral.",
+                            "it": "I capitoli dei due libri comprendevano prefazioni e poesie tratte dai libri, con il testo completo."
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -1865,132 +1687,19 @@
                                 "gui_order": 11
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 12
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 13
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 14
-                            }
-                        ]
-                    },
-                    {
-                        "name": "BookCover",
-                        "super": [
-                            "StillImageRepresentation",
-                            "crm:E73_Information_Object",
-                            "schema:ImageObject"
-                        ],
-                        "labels": {
-                            "de": "08. Bucheinband",
-                            "en": "08. Book Cover",
-                            "fr": "08. Couverture de livre",
-                            "it": "08. Copertina del libro"
-                        },
-                        "comments": {
-                            "de": "Bucheinbände mehrerer Ausgaben der Geschichten. Die Einbände sind auf externen iiif-Servern gespeichert. Jede Instanz ist mit der Geschichte verknüpft, die in dem Buch enthalten ist, das sie illustriert.",
-                            "en": "Book covers of several editions of the stories. The covers are stored on external iiif-servers. Each instance is linked to the story contained in the book they illustrate.",
-                            "fr": "Book covers of several editions of the stories. The covers are stored on external iiif-servers. Each instance is linked to the story contained in the book they illustrate.",
-                            "it": "Copertine di diverse edizioni delle storie. Le copertine sono archiviate su server iiif esterni. Ogni istanza è collegata alla storia contenuta nel libro che illustra."
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasUrl",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "0-n",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "0-1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "0-1",
-                                "gui_order": 6
-                            }
-                        ]
-                    },
-                    {
-                        "name": "BookEdition",
-                        "super": [
-                            "DocumentRepresentation",
-                            "crm:E22_Human-Made_Object"
-                        ],
-                        "labels": {
-                            "de": "07. Ausgabe",
-                            "en": "07. Edition",
-                            "fr": "07. Edition",
-                            "it": "07. Edizione"
-                        },
-                        "comments": {
-                            "de": "Ausgaben der Geschichten. Jede Ausgabe ist mit der darin enthaltenen Geschichte verknüpft.",
-                            "en": "Editions of the stories. Each edition is linked to the story they contain.",
-                            "fr": "Éditions des récits. Chaque édition est liée au récit qu'elle contient.",
-                            "it": "Edizioni delle storie. Ogni edizione è collegata alla storia che contiene."
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasFileName",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "0-n",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "0-1",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "0-1",
-                                "gui_order": 8
                             }
                         ]
                     },
@@ -2008,14 +1717,14 @@
                             "it": "03. Personaggio"
                         },
                         "comments": {
-                            "de": "Die Charaktere in den Büchern lassen sich in zwei Gruppen einteilen: Hauptcharaktere und Nebencharaktere. Sie sind mit Bildern verknüpft, die sie zeigen und die direkt auf der Charakterebene erscheinen. Dies hängt auch mit den Ereignissen zusammen, die in den verschiedenen Teilen der Geschichten stattfinden.",
-                            "en": "Characters in the books can be divided into two groups: main characters and secondary characters. They are linked with images that show them, and which appear directly at character level. This is also connected to the Events that happen in the different parts of the stories.",
-                            "fr": "Les personnages des livres peuvent être divisés en deux groupes : les personnages principaux et les personnages secondaires. Ils sont associés à des images qui les représentent et qui apparaissent directement au niveau des personnages. Ils sont également liés aux événements qui se produisent dans les différentes parties des histoires.",
-                            "it": "I personaggi dei libri possono essere divisi in due gruppi: personaggi principali e personaggi secondari. Sono collegati alle immagini che li raffigurano e che appaiono direttamente a livello di personaggio. Questo è anche collegato agli eventi che accadono nelle diverse parti delle storie."
+                            "de": "In den Büchern vorkommende Figuren, unterteilt in Haupt- und Nebenfiguren",
+                            "en": "Characters appearing in the books, divided into main and secondary characters",
+                            "fr": "Personnages apparaissant dans les livres, divisés en personnages principaux et secondaires",
+                            "it": "ersonaggi che compaiono nei libri, suddivisi in principali e secondari"
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -2055,17 +1764,17 @@
                                 "gui_order": 8
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 9
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 10
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 11
                             }
@@ -2085,14 +1794,14 @@
                             "it": "04. Evento"
                         },
                         "comments": {
-                            "de": "Ereignisse, die in den beiden Geschichten stattfinden. Ereignisse sind entsprechend ihrer Art in Unterklassen unterteilt: Abenteuer, Konflikt und Soziales. Alternative Ereignisse sind privat. Alle Ereignisse sind direkt mit dem Kapitel verknüpft, in dem sie stattfinden. Einige Ereignisse sind entsprechend ihrer Art mit Charakteren verknüpft. Die Eigenschaft „Beschreibung” enthält Stand-off-Links zu einer Klasse „Ort” und dem Charakter Alice.",
-                            "en": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are private. All events are directly linked to the chapter in which they take place. Some events are linked to characters, according to their type. The property \"Description\" contains stand-off links toward Location a class and Alice character",
-                            "fr": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are private. All events are directly linked to the chapter in which they take place. Some events are linked to characters, according to their type. The property \"Description\" contains stand-off links toward Location a class and Alice character",
-                            "it": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are private. All events are directly linked to the chapter in which they take place. Some events are linked to characters, according to their type. The property \"Description\" contains stand-off links toward Location a class and Alice character"
+                            "de": "Ereignisse, die in den beiden Geschichten stattfinden. Die Ereignisse sind in Unterklassen unterteilt, je nach ihrem Typ: Abenteuer, Konflikt und Soziales. Alternative Ereignisse sind eingeschränkt.",
+                            "en": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are restricted.",
+                            "fr": "Événements se déroulant dans les deux histoires. Les événements sont divisés en sous-classes, selon leur type : Aventure, Conflit et Social. Les événements alternatifs sont limités.",
+                            "it": "Eventi che si svolgono nelle due storie. Gli eventi sono suddivisi in Sottoclassi, a seconda del loro tipo: Avventura, Conflitto e Sociale. Gli eventi alternativi sono limitati."
                         },
                         "cardinalities": [
                             {
-                                "propname": ":hasID",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
                                 "gui_order": 1
                             },
@@ -2122,19 +1831,395 @@
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 9
                             },
                             {
-                                "propname": ":hasCopyrightResource",
+                                "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
                                 "gui_order": 10
                             },
                             {
-                                "propname": ":hasLicenseResource",
+                                "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 11
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Location",
+                        "super": [
+                            "Resource",
+                            "crm:E53_Place",
+                            "schema:Place"
+                        ],
+                        "labels": {
+                            "de": "05. Ort",
+                            "en": "05. Location",
+                            "fr": "05. Lieu",
+                            "it": "05. Luogo"
+                        },
+                        "comments": {
+                            "de": "Orte, an denen die von Lewis Carroll erdachten Geschichten spielen, unterteilt in die reale Welt und das Wunderland.",
+                            "en": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland.",
+                            "fr": "Lieux où se déroulent les histoires imaginées par Lewis Carroll, subdivisées selon qu'ils sont situés dans le monde réel ou dans le Pays des Merveilles",
+                            "it": "Luoghi in cui si svolgono le storie immaginate da Lewis Carroll, suddivisi a seconda che si trovino nel mondo reale o nel Paese delle Meraviglie."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasName",
+                                "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":linkToImage",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": "project-metadata:hasAuthorshipResource",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": "project-metadata:hasCopyrightResource",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": "project-metadata:hasLicenseResource",
+                                "cardinality": "0-1",
+                                "gui_order": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Image",
+                        "super": [
+                            "StillImageRepresentation",
+                            "crm:E73_Information_Object",
+                            "schema:ImageObject"
+                        ],
+                        "labels": {
+                            "de": "06. Bild",
+                            "en": "06. Image",
+                            "fr": "06. Image",
+                            "it": "06. Immagine"
+                        },
+                        "comments": {
+                            "de": "Bilder, die die ursprüngliche und die alternative Erzählung veranschaulichen",
+                            "en": "Images illustrating the original and the alternative stories",
+                            "fr": "Images illustrant les récits originaux et alternatifs",
+                            "it": "Immagini che illustrano la storia originale e quella alternativa"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": "project-metadata:hasFileName",
+                                "cardinality": "0-1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": "project-metadata:hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": "project-metadata:hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": ":isPartOfBookChapter",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": ":isPartOfCharacter",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": ":hasSeqnum",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": "project-metadata:hasAuthorshipResource",
+                                "cardinality": "0-n",
+                                "gui_order": 9
+                            },
+                            {
+                                "propname": "project-metadata:hasCopyrightResource",
+                                "cardinality": "0-1",
+                                "gui_order": 10
+                            },
+                            {
+                                "propname": "project-metadata:hasLicenseResource",
+                                "cardinality": "0-1",
+                                "gui_order": 11
+                            }
+                        ]
+                    },
+                    {
+                        "name": "BookEdition",
+                        "super": [
+                            "DocumentRepresentation",
+                            "crm:E22_Human-Made_Object"
+                        ],
+                        "labels": {
+                            "de": "07. Ausgabe",
+                            "en": "07. Edition",
+                            "fr": "07. Edition",
+                            "it": "07. Edizione"
+                        },
+                        "comments": {
+                            "de": "Ausgaben der Bücher",
+                            "en": "Editions of the books",
+                            "fr": "Editions des livres",
+                            "it": "Edizioni dei libri"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": "project-metadata:hasFileName",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": "project-metadata:hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": "project-metadata:hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": "project-metadata:hasAuthorshipResource",
+                                "cardinality": "0-n",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": "project-metadata:hasCopyrightResource",
+                                "cardinality": "0-1",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": "project-metadata:hasLicenseResource",
+                                "cardinality": "0-1",
+                                "gui_order": 8
+                            }
+                        ]
+                    },
+                    {
+                        "name": "BookCover",
+                        "super": [
+                            "StillImageRepresentation",
+                            "crm:E73_Information_Object",
+                            "schema:ImageObject"
+                        ],
+                        "labels": {
+                            "de": "08. Bucheinband",
+                            "en": "08. Book Cover",
+                            "fr": "08. Couverture de livre",
+                            "it": "08. Copertina del libro"
+                        },
+                        "comments": {
+                            "de": "Bucheinbände der verschiedenen Ausgaben der Erzählungen",
+                            "en": "Book covers of several editions of the stories",
+                            "fr": "Couvertures de plusieurs éditions des histoires",
+                            "it": "Copertine di diverse edizioni dei racconti"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasUrl",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": "project-metadata:hasAuthorshipResource",
+                                "cardinality": "0-n",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": "project-metadata:hasCopyrightResource",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": "project-metadata:hasLicenseResource",
+                                "cardinality": "0-1",
+                                "gui_order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Audio",
+                        "super": [
+                            "AudioRepresentation",
+                            "schema:Audiobook",
+                            "crm:E73_Information_Object"
+                        ],
+                        "labels": {
+                            "de": "09. Audio",
+                            "en": "09. Audio",
+                            "fr": "09. Audio",
+                            "it": "09. Audio"
+                        },
+                        "comments": {
+                            "de": "Audioversion von Alice im Wunderland, Kapitel für Kapitel",
+                            "en": "Audio version of Alice in Wonderland, chapter per chapter",
+                            "fr": "Version audio d'Alice au pays des merveilles, chapitre par chapitre",
+                            "it": "Versione audio di Alice nel Paese delle Meraviglie, capitolo per capitolo"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": "project-metadata:hasFileName",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasCast",
+                                "cardinality": "0-1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": "project-metadata:hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": "project-metadata:hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": "project-metadata:hasAuthorshipResource",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": "project-metadata:hasCopyrightResource",
+                                "cardinality": "0-1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": "project-metadata:hasLicenseResource",
+                                "cardinality": "0-1",
+                                "gui_order": 9
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Video",
+                        "super": [
+                            "MovingImageRepresentation",
+                            "schema:Movie",
+                            "crm:E73_Information_Object"
+                        ],
+                        "labels": {
+                            "de": "10. Video",
+                            "en": "10. Video",
+                            "fr": "10. Vidéo",
+                            "it": "10. Video"
+                        },
+                        "comments": {
+                            "de": "Verfilmungen der beiden Geschichten.",
+                            "en": "Film adaptations of the two stories.",
+                            "fr": "Adaptations cinématographiques des deux histoires.",
+                            "it": "Adattamenti cinematografici delle due storie."
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": "project-metadata:hasFileName",
+                                "cardinality": "1",
+                                "gui_order": 1
+                            },
+                            {
+                                "propname": ":hasDescription",
+                                "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasCast",
+                                "cardinality": "0-1",
+                                "gui_order": 3
+                            },
+                            {
+                                "propname": "project-metadata:hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 4
+                            },
+                            {
+                                "propname": "project-metadata:hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
+                                "gui_order": 6
+                            },
+                            {
+                                "propname": "project-metadata:hasAuthorshipResource",
+                                "cardinality": "0-n",
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": "project-metadata:hasCopyrightResource",
+                                "cardinality": "0-1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": "project-metadata:hasLicenseResource",
+                                "cardinality": "0-1",
+                                "gui_order": 9
                             }
                         ]
                     },
@@ -2153,10 +2238,10 @@
                             "it": "Evento di avventura"
                         },
                         "comments": {
-                            "de": "Unterklasse von „Event“ vom Typ „Abenteuer“. Die Protagonisten (Charaktere) der Ereignisse sind mit dieser Unterklasse verknüpft.",
-                            "en": "Subclass of Event, of type Adventure. Protagonists (characters) of the events are linked with this sub-class.",
-                            "fr": "Sous-classe de Événement, de type Aventure. Les protagonistes (personnages) des événements sont liés à cette sous-classe.",
-                            "it": "Sottoclasse di Evento, di tipo Avventura. I protagonisti (personaggi) degli eventi sono collegati a questa sottoclasse."
+                            "de": "Unterklasse von Event, vom Typ Abenteuer",
+                            "en": "Subclass of Event, of type Adventure",
+                            "fr": "Sous-classe de Événement, de type Aventure",
+                            "it": "Sottoclasse di Evento, di tipo Avventura"
                         },
                         "cardinalities": [
                             {
@@ -2186,10 +2271,10 @@
                             "it": "Evento alternativo"
                         },
                         "comments": {
-                            "de": "Unterklasse von „Event“ vom Typ „Alternative“. Diese Klasse ist privat zugänglich, wie alle alternativen Daten.",
-                            "en": "Subclass of Event, of type Alternative. This class is in private access, as are all alternative data.",
-                            "fr": "Sous-classe de Événement, de type Alternatif. Cette classe est en accès privé, comme toutes les données alternatives.",
-                            "it": "Sottoclasse di Event, di tipo Alternative. Questa classe è ad accesso privato, come tutti i dati alternativi."
+                            "de": "Unterklasse von Event, vom Typ Alternativ",
+                            "en": "Subclass of Event, of type Alternative",
+                            "fr": "Sous-classe d'événement, de type alternatif",
+                            "it": "Sottoclasse di Evento, di tipo Alternativo"
                         },
                         "cardinalities": [
                             {
@@ -2214,10 +2299,10 @@
                             "it": "Evento di conflitto"
                         },
                         "comments": {
-                            "de": "Unterklasse von Ereignis, vom Typ Konflikt. Protagonisten und Antagonisten (Charaktere) der Ereignisse sind mit dieser Unterklasse verknüpft.",
-                            "en": "Subclass of Event, of type Conflict. Protagonists and Antagonists (characters) of the events are linked with tis sub-class.",
-                            "fr": "Sous-classe de Événement, de type Conflit. Les protagonistes et antagonistes (personnages) des événements sont liés à cette sous-classe.",
-                            "it": "Sottoclasse di Evento, di tipo Conflitto. I protagonisti e gli antagonisti (personaggi) degli eventi sono collegati a questa sottoclasse."
+                            "de": "Unterklasse von Ereignis, vom Typ Konflikt",
+                            "en": "Subclass of Event, of type Conflict",
+                            "fr": "Sous-classe de Événement, de type Conflit",
+                            "it": "Sottoclasse di Evento, di tipo Conflitto"
                         },
                         "cardinalities": [
                             {
@@ -2247,10 +2332,10 @@
                             "it": "Evento sociale"
                         },
                         "comments": {
-                            "de": "Subclass of Event, of type Social. Characters taking part to the event are linked here.",
-                            "en": "Subclass of Event, of type Social. Characters taking part to the event are linked here.",
-                            "fr": "Sous-classe de Événement, de type Social. Les personnages participant à l'événement sont liés ici.",
-                            "it": "Sottoclasse di Evento, di tipo Sociale. I personaggi che partecipano all'evento sono collegati qui."
+                            "de": "Unterklasse von Event, vom Typ Sozial",
+                            "en": "Subclass of Event, of type Social",
+                            "fr": "Sous-classe d'événement, de type social",
+                            "it": "Sottoclasse di Evento, di tipo Sociale"
                         },
                         "cardinalities": [
                             {
@@ -2261,191 +2346,6 @@
                             {
                                 "propname": ":hasGuestAmount",
                                 "cardinality": "0-n",
-                                "gui_order": 8
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Image",
-                        "super": [
-                            "StillImageRepresentation",
-                            "crm:E73_Information_Object",
-                            "schema:ImageObject"
-                        ],
-                        "labels": {
-                            "de": "06. Bild",
-                            "en": "06. Image",
-                            "fr": "06. Image",
-                            "it": "06. Immagine"
-                        },
-                        "comments": {
-                            "de": "Bilder, die die ursprünglichen und alternativen Geschichten illustrieren. Diese Bilder sind mit den Kapiteln verknüpft, in denen sie vorkommen (in den Originalausgaben). Die Bilder sind auch mit den Figuren verknüpft, die in ihnen vorkommen. In beiden Fällen können die Bilder als zusammengesetzte Objekte auf Figuren- und Kapitelebene visualisiert werden.",
-                            "en": "Images that illustrate the original and alternative stories. These images are linked to the chapters in which they figure (in the original editions). The images are also linked to the characters that appear in them. In both cases, the images can be visualised as compound objects at character and chapter level.",
-                            "fr": "Images illustrant les récits originaux et alternatifs. Ces images sont liées aux chapitres dans lesquels elles apparaissent (dans les éditions originales). Elles sont également liées aux personnages qui y apparaissent. Dans les deux cas, les images peuvent être visualisées comme des objets composites au niveau des personnages et des chapitres.",
-                            "it": "Immagini che illustrano le storie originali e alternative. Queste immagini sono collegate ai capitoli in cui compaiono (nelle edizioni originali). Le immagini sono anche collegate ai personaggi che vi compaiono. In entrambi i casi, le immagini possono essere visualizzate come oggetti composti a livello di personaggio e di capitolo."
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasFileName",
-                                "cardinality": "0-1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":isPartOfBookChapter",
-                                "cardinality": "0-1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":isPartOfCharacter",
-                                "cardinality": "0-n",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasSeqnum",
-                                "cardinality": "0-1",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 8
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "0-n",
-                                "gui_order": 9
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "0-1",
-                                "gui_order": 10
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "0-1",
-                                "gui_order": 11
-                            }
-                        ]
-                    },
-                    {
-                        "name": "ImageAlternative",
-                        "super": [
-                            "StillImageRepresentation",
-                            ":Image",
-                            "crm:E73_Information_Object",
-                            "schema:ImageObject"
-                        ],
-                        "labels": {
-                            "de": "Bild Alternativ",
-                            "en": "Image Alternative",
-                            "fr": "Image alternative",
-                            "it": "Immagine alternativa"
-                        },
-                        "comments": {
-                            "de": "Unterklasse von Bild. Illustrationen aus der alternativen Geschichte, generiert mit einer KI. Bilder Alternative sind in eingeschränkter Ansicht zugänglich.",
-                            "en": "Subclass of Image. Illustrations from the alternative story, generated with an AI. Images Alternative are accessible in limited view.",
-                            "fr": "Sous-classe d'Image. Illustrations tirées de l'histoire alternative, générées à l'aide d'une IA. Les images alternatives sont accessibles en affichage limité.",
-                            "it": "Sottoclasse di Immagine. Illustrazioni tratte dalla storia alternativa, generate con un'intelligenza artificiale. Le immagini alternative sono accessibili in visualizzazione limitata."
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasDescriptionAlternative",
-                                "cardinality": "0-n",
-                                "gui_order": 2
-                            }
-                        ]
-                    },
-                    {
-                        "name": "ImageOriginal",
-                        "super": [
-                            "StillImageRepresentation",
-                            ":Image",
-                            "crm:E73_Information_Object",
-                            "schema:ImageObject"
-                        ],
-                        "labels": {
-                            "de": "Bild Original",
-                            "en": "Image Original",
-                            "fr": "Image originale",
-                            "it": "Immagine originale"
-                        },
-                        "comments": {
-                            "de": "Unterklasse von Bild. Originalillustrationen aus der ersten Ausgabe, erstellt von John Tenniell.",
-                            "en": "Subclass of Image. Original illustrations from the first edition, created by John Tenniell.",
-                            "fr": "Sous-classe de Image. Illustrations originales de la première édition, créées par John Tenniel.",
-                            "it": "Sottoclasse di Immagine. Illustrazioni originali della prima edizione, realizzate da John Tenniel."
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 2
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Location",
-                        "super": [
-                            "Resource",
-                            "crm:E53_Place",
-                            "schema:Place"
-                        ],
-                        "labels": {
-                            "de": "05. Ort",
-                            "en": "05. Location",
-                            "fr": "05. Lieu",
-                            "it": "05. Luogo"
-                        },
-                        "comments": {
-                            "de": "Orte, an denen die von Lewis Carroll erdachten Geschichten spielen, unterteilt danach, ob sie sich in der realen Welt oder im Wunderland befinden. Die Orte sind mit Bildern verknüpft.",
-                            "en": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland. Locations are linked to Images.",
-                            "fr": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland. Locations are linked to Images.",
-                            "it": "Luoghi in cui si svolgono le storie immaginate da Lewis Carroll, suddivisi a seconda che si trovino nel mondo reale o nel Paese delle Meraviglie. Le località sono collegate alle immagini."
-                        },
-                        "cardinalities": [
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": ":hasName",
-                                "cardinality": "0-1",
-                                "gui_order": 2
-                            },
-                            {
-                                "propname": ":hasDescription",
-                                "cardinality": "0-n",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":linkToImage",
-                                "cardinality": "0-n",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
-                                "cardinality": "0-n",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "0-1",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "0-1",
                                 "gui_order": 8
                             }
                         ]
@@ -2465,10 +2365,10 @@
                             "it": "Luogo del mondo reale"
                         },
                         "comments": {
-                            "de": "Unterklasse von „Location“. Orte, die in der realen Welt existieren und eine Eigenschaft mit Geonames-Referenzierung enthalten.",
-                            "en": "Subclass of Location. Places existing in the real world, containing a property with Geonames referencing.",
-                            "fr": "Sous-classe de Location. Lieux existant dans le monde réel, contenant une propriété avec référence Geonames.",
-                            "it": "Sottoclasse di Location. Luoghi esistenti nel mondo reale, contenenti una proprietà con riferimento a Geonames."
+                            "de": "Orte, die sich in der realen Welt befinden, Unterklasse.",
+                            "en": "Places in the real world, subclass.",
+                            "fr": "Lieux situés dans le monde réel, sous-classe.",
+                            "it": "Luoghi del mondo reale, sottoclasse."
                         },
                         "cardinalities": [
                             {
@@ -2493,76 +2393,65 @@
                             "it": "Luogo del Paese delle Meraviglie"
                         },
                         "comments": {
-                            "de": "Unterklasse von „Location“. Orte, die in Wonderland existieren.",
-                            "en": "Subclass of Location. Places in existing in Wonderland.",
-                            "fr": "Subclass of Location. Places in existing in Wonderland.",
-                            "it": "Sottoclasse di Posizione. Luoghi esistenti nel Paese delle Meraviglie."
+                            "de": "Orte im Wunderland, Unterklasse.",
+                            "en": "Places in Wonderland, subclass.",
+                            "fr": "Lieux situés dans le Pays des Merveilles, sous-classe.",
+                            "it": "Luoghi nel Paese delle Meraviglie, sottoclasse."
                         }
                     },
                     {
-                        "name": "Video",
+                        "name": "ImageOriginal",
                         "super": [
-                            "MovingImageRepresentation",
-                            "schema:Movie",
-                            "crm:E73_Information_Object"
+                            "StillImageRepresentation",
+                            ":Image",
+                            "crm:E73_Information_Object",
+                            "schema:ImageObject"
                         ],
                         "labels": {
-                            "de": "10. Video",
-                            "en": "10. Video",
-                            "fr": "10. Vidéo",
-                            "it": "10. Video"
+                            "de": "Bild Original",
+                            "en": "Image Original",
+                            "fr": "Image originale",
+                            "it": "Immagine originale"
                         },
                         "comments": {
-                            "de": "Film adaptations of the two stories. They are connected to the original stories.",
-                            "en": "Film adaptations of the two stories. They are connected to the original stories.",
-                            "fr": "Film adaptations of the two stories. They are connected to the original stories.",
-                            "it": "Adattamenti cinematografici delle due storie. Sono collegati alle storie originali."
+                            "de": "Originalillustrationen der ersten Ausgabe, gestaltet von John Tenniell",
+                            "en": "Original illustrations from the first edition, created by John Tenniell",
+                            "fr": "Illustrations originales de la première édition, créées par John Tenniell",
+                            "it": "Illustrazioni originali della prima edizione, realizzate da John Tenniell"
                         },
                         "cardinalities": [
-                            {
-                                "propname": ":hasFileName",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
                                 "gui_order": 2
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ImageAlternative",
+                        "super": [
+                            "StillImageRepresentation",
+                            ":Image",
+                            "crm:E73_Information_Object",
+                            "schema:ImageObject"
+                        ],
+                        "labels": {
+                            "de": "Bild Alternativ",
+                            "en": "Image Alternative",
+                            "fr": "Image alternative",
+                            "it": "Immagine alternativa"
+                        },
+                        "comments": {
+                            "de": "Illustrationen aus der alternativen Geschichte, generiert mit einer KI",
+                            "en": "Illustrations from the alternative story, generated with an AI",
+                            "fr": "Illustrations tirées de l'histoire alternative, générées à l'aide d'une IA",
+                            "it": "Illustrazioni tratte dalla storia alternativa, generate con un'intelligenza artificiale"
+                        },
+                        "cardinalities": [
                             {
-                                "propname": ":hasCast",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": ":hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
-                                "propname": ":hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 5
-                            },
-                            {
-                                "propname": ":hasID",
-                                "cardinality": "1",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasAuthorshipResource",
+                                "propname": ":hasDescriptionAlternative",
                                 "cardinality": "0-n",
-                                "gui_order": 7
-                            },
-                            {
-                                "propname": ":hasCopyrightResource",
-                                "cardinality": "0-1",
-                                "gui_order": 8
-                            },
-                            {
-                                "propname": ":hasLicenseResource",
-                                "cardinality": "0-1",
-                                "gui_order": 9
+                                "gui_order": 2
                             }
                         ]
                     }
@@ -2573,23 +2462,7 @@
                 "label": "Project Metadata",
                 "properties": [
                     {
-                        "name": "hasCopyright",
-                        "super": [
-                            "hasValue",
-                            "schema:copyrightHolder",
-                            "crm:P105_right_held_by"
-                        ],
-                        "object": "TextValue",
-                        "labels": {
-                            "de": "Urheberrecht",
-                            "en": "Copyright",
-                            "fr": "Droits d'auteur",
-                            "it": "Copyright"
-                        },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasDescription",
+                        "name": "hasFileDescription",
                         "super": [
                             "hasValue",
                             "schema:description",
@@ -2597,10 +2470,10 @@
                         ],
                         "object": "TextValue",
                         "labels": {
-                            "de": "Beschreibung",
-                            "en": "Description",
-                            "fr": "Description",
-                            "it": "Descrizione"
+                            "de": "Dateibeschreibung",
+                            "en": "File Description",
+                            "fr": "Description du fichier",
+                            "it": "Descrizione del file"
                         },
                         "gui_element": "Richtext"
                     },
@@ -2617,6 +2490,12 @@
                             "fr": "Nom de fichier",
                             "it": "Nome del file"
                         },
+                        "comments": {
+                            "de": "Name der Originaldatei",
+                            "en": "Name of the original file",
+                            "fr": "Nom du fichier original",
+                            "it": "Nome del file originale"
+                        },
                         "gui_element": "SimpleText"
                     },
                     {
@@ -2631,6 +2510,12 @@
                             "en": "File Size (Mb)",
                             "fr": "Taille du fichier (Mb)",
                             "it": "Dimensioni del file (Mb)"
+                        },
+                        "comments": {
+                            "de": "Dateigröße in MB",
+                            "en": "Size of the file in Mb",
+                            "fr": "Taille du fichier en Mo",
+                            "it": "Dimensione del file in Mb"
                         },
                         "gui_element": "SimpleText"
                     },
@@ -2648,25 +2533,13 @@
                             "fr": "ID",
                             "it": "ID"
                         },
-                        "gui_element": "SimpleText"
-                    },
-                    {
-                        "name": "hasLicenseList",
-                        "super": [
-                            "hasValue",
-                            "schema:license"
-                        ],
-                        "object": "ListValue",
-                        "labels": {
-                            "de": "Lizenz",
-                            "en": "License",
-                            "fr": "Licence",
-                            "it": "Licenza"
+                        "comments": {
+                            "de": "Eindeutige Kennung",
+                            "en": "Unique identifier",
+                            "fr": "Identifiant unique",
+                            "it": "Identificatore univoco"
                         },
-                        "gui_element": "List",
-                        "gui_attributes": {
-                            "hlist": "License"
-                        }
+                        "gui_element": "SimpleText"
                     },
                     {
                         "name": "hasTimeStamp",
@@ -2680,6 +2553,12 @@
                             "en": "Time Stamp",
                             "fr": "Horodatage",
                             "it": "Timestamp"
+                        },
+                        "comments": {
+                            "de": "Zeitstempel",
+                            "en": "Time stamp",
+                            "fr": "Horodatage",
+                            "it": "Data e ora"
                         },
                         "gui_element": "TimeStamp"
                     },
@@ -2696,13 +2575,13 @@
                             "de": "Autor der Resource",
                             "en": "Author of the resource",
                             "fr": "Auteur·rice de la ressource",
-                            "it": "Autore della risorsa",
-                            "rm": "Author of the resource"
+                            "it": "Autore della risorsa"
                         },
                         "comments": {
-                            "de": "Auteur·rice de la ressource",
-                            "en": "Autor der Resource",
-                            "fr": "Autore della risorsa"
+                            "de": "Autor der Resource",
+                            "en": "Author of the resource",
+                            "fr": "Auteur·rice de la ressource",
+                            "it": "Autore della risorsa"
                         },
                         "gui_element": "SimpleText"
                     },
@@ -2718,13 +2597,13 @@
                             "de": "Urheberrecht der Resource",
                             "en": "Copyright of the resource",
                             "fr": "Droits d'auteur de la ressource",
-                            "it": "Copyright della risorsa",
-                            "rm": "Copyright of the resource"
+                            "it": "Copyright della risorsa"
                         },
                         "comments": {
-                            "de": "Droits d'auteur de la ressource",
-                            "en": "Urheberrecht der Resource",
-                            "fr": "Copyright della risorsa"
+                            "de": "Urheberrecht der Resource",
+                            "en": "Copyright of the resource",
+                            "fr": "Droits d'auteur de la ressource",
+                            "it": "Copyright della risorsa"
                         },
                         "gui_element": "SimpleText"
                     },
@@ -2739,13 +2618,13 @@
                             "de": "Lizenz der Resource",
                             "en": "License of the resource",
                             "fr": "Licence de la ressource",
-                            "it": "Licenza della risorsa",
-                            "rm": "License of the resource"
+                            "it": "Licenza della risorsa"
                         },
                         "comments": {
-                            "de": "Licence de la ressource",
-                            "en": "Lizenz der Resource",
-                            "fr": "Licenza della risorsa"
+                            "de": "Lizenz der Resource",
+                            "en": "License of the resource",
+                            "fr": "Licence de la ressource",
+                            "it": "Licenza della risorsa"
                         },
                         "gui_element": "List",
                         "gui_attributes": {
@@ -2768,10 +2647,10 @@
                             "it": "Progetto - Archivi"
                         },
                         "comments": {
-                            "de": "Zip-Ordner mit den Importskripten und anderen Dateien aus dem Projekt, die nicht anderweitig archiviert werden können",
-                            "en": "Zipped folder containing the import scripts and other files from the project that cannot be archived otherwise",
-                            "fr": "Dossier compressé contenant les scripts d'importation et d'autres fichiers du projet qui ne peuvent être archivés autrement.",
-                            "it": "Cartella compressa contenente gli script di importazione e altri file del progetto che non possono essere archiviati in altro modo"
+                            "de": "Gepackter Ordner mit den Skripten und anderen Dateien des Projekts",
+                            "en": "Zipped folder containing the scripts and other files from the project",
+                            "fr": "Dossier zippé contenant les scripts et autres fichiers du projet",
+                            "it": "Cartella zippata contenente gli script e gli altri file del progetto"
                         },
                         "cardinalities": [
                             {
@@ -2785,7 +2664,7 @@
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasDescription",
+                                "propname": ":hasFileDescription",
                                 "cardinality": "0-n",
                                 "gui_order": 5
                             },
@@ -2830,10 +2709,10 @@
                             "it": "Progetto - Materiale"
                         },
                         "comments": {
-                            "de": "XML- und CSV-Dateien, die für die Erstellung des Projekts verwendet werden. Jede CSV-Datei entspricht einer Klasse und enthält alle Instanzen dieser Klasse sowie alle ihre Eigenschaftswerte. Die XML-Datei wurde für den XML-Upload des Projekts verwendet.",
-                            "en": "XML and CSV files used for the creation of the project. Each CSV file corresponds to one class and contains all of that class's instances, along with all of its property values. The XML file is the one used for the xml upload of the project.",
-                            "fr": "Fichiers XML et CSV utilisés pour la création du projet. Chaque fichier CSV correspond à une classe et contient toutes les instances de cette classe, ainsi que toutes les valeurs de ses propriétés. Le fichier XML est celui utilisé pour la mise en ligne du projet.",
-                            "it": "File XML e CSV utilizzati per la creazione del progetto. Ogni file CSV corrisponde a una classe e contiene tutte le istanze di quella classe, insieme a tutti i valori delle sue proprietà. Il file XML è quello utilizzato per il caricamento xml del progetto."
+                            "de": "XML- und CSV-Dateien des Projekts",
+                            "en": "XML and CSV files for the project",
+                            "fr": "Fichiers XML et CSV du projet",
+                            "it": "File XML e CSV per il progetto"
                         },
                         "cardinalities": [
                             {
@@ -2847,7 +2726,7 @@
                                 "gui_order": 4
                             },
                             {
-                                "propname": ":hasDescription",
+                                "propname": ":hasFileDescription",
                                 "cardinality": "0-n",
                                 "gui_order": 5
                             },
@@ -2909,7 +2788,7 @@
                                 "gui_order": 1
                             },
                             {
-                                "propname": ":hasDescription",
+                                "propname": ":hasFileDescription",
                                 "cardinality": "0-n",
                                 "gui_order": 2
                             },
