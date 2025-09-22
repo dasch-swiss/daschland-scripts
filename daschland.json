@@ -1547,67 +1547,67 @@
                             {
                                 "propname": "project-metadata:hasID",
                                 "cardinality": "1",
-                                "gui_order": 1
+                                "gui_order": 13
                             },
                             {
                                 "propname": ":hasName",
                                 "cardinality": "0-1",
-                                "gui_order": 2
+                                "gui_order": 1
                             },
                             {
                                 "propname": ":hasAuthorship",
                                 "cardinality": "0-n",
-                                "gui_order": 3
+                                "gui_order": 2
                             },
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 4
+                                "gui_order": 3
                             },
                             {
                                 "propname": ":hasDescriptionAlternative",
                                 "cardinality": "0-1",
-                                "gui_order": 5
+                                "gui_order": 4
                             },
                             {
                                 "propname": ":hasDate",
-                                "cardinality": "0-n",
-                                "gui_order": 6
+                                "cardinality": "0-1",
+                                "gui_order": 5
                             },
                             {
                                 "propname": ":linkToBookChapter",
                                 "cardinality": "0-n",
-                                "gui_order": 7
+                                "gui_order": 6
                             },
                             {
                                 "propname": ":linkToBookEdition",
                                 "cardinality": "0-n",
-                                "gui_order": 8
+                                "gui_order": 7
                             },
                             {
                                 "propname": ":linkToVideo",
                                 "cardinality": "0-n",
-                                "gui_order": 9
+                                "gui_order": 8
                             },
                             {
                                 "propname": ":linkToBookCover",
                                 "cardinality": "0-n",
-                                "gui_order": 10
+                                "gui_order": 9
                             },
                             {
                                 "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
-                                "gui_order": 11
+                                "gui_order": 10
                             },
                             {
                                 "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 12
+                                "gui_order": 11
                             },
                             {
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
-                                "gui_order": 13
+                                "gui_order": 12
                             }
                         ]
                     },
@@ -1634,72 +1634,72 @@
                             {
                                 "propname": "project-metadata:hasID",
                                 "cardinality": "1",
-                                "gui_order": 1
+                                "gui_order": 14
                             },
                             {
                                 "propname": ":hasName",
                                 "cardinality": "0-1",
-                                "gui_order": 2
+                                "gui_order": 1
                             },
                             {
                                 "propname": ":hasChapterNumber",
                                 "cardinality": "0-1",
-                                "gui_order": 3
+                                "gui_order": 2
                             },
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 4
+                                "gui_order": 3
                             },
                             {
                                 "propname": ":hasDescriptionAlternative",
                                 "cardinality": "0-n",
-                                "gui_order": 5
+                                "gui_order": 4
                             },
                             {
                                 "propname": ":linkToLocation",
                                 "cardinality": "0-n",
-                                "gui_order": 6
+                                "gui_order": 5
                             },
                             {
                                 "propname": ":hasUrl",
                                 "cardinality": "0-n",
-                                "gui_order": 7
+                                "gui_order": 6
                             },
                             {
                                 "propname": ":linkToAudio",
                                 "cardinality": "0-n",
-                                "gui_order": 8
+                                "gui_order": 7
                             },
                             {
                                 "propname": ":linkToEvent",
                                 "cardinality": "0-n",
-                                "gui_order": 9
+                                "gui_order": 8
                             },
                             {
                                 "propname": ":hasKeywordList",
                                 "cardinality": "0-n",
-                                "gui_order": 10
+                                "gui_order": 9
                             },
                             {
                                 "propname": ":hasFullText",
                                 "cardinality": "0-1",
-                                "gui_order": 11
+                                "gui_order": 10
                             },
                             {
                                 "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
-                                "gui_order": 12
+                                "gui_order": 11
                             },
                             {
                                 "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 13
+                                "gui_order": 12
                             },
                             {
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
-                                "gui_order": 14
+                                "gui_order": 13
                             }
                         ]
                     },
@@ -1726,12 +1726,12 @@
                             {
                                 "propname": "project-metadata:hasID",
                                 "cardinality": "1",
-                                "gui_order": 1
+                                "gui_order": 11
                             },
                             {
                                 "propname": ":hasName",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 1
                             },
                             {
                                 "propname": ":hasDescription",
@@ -1803,47 +1803,47 @@
                             {
                                 "propname": "project-metadata:hasID",
                                 "cardinality": "1",
-                                "gui_order": 1
+                                "gui_order": 11
                             },
                             {
                                 "propname": ":hasName",
                                 "cardinality": "0-1",
-                                "gui_order": 2
+                                "gui_order": 1
                             },
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": ":hasEventTypeList",
+                                "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
                                 "propname": ":linkToLocation",
                                 "cardinality": "0-1",
-                                "gui_order": 5
+                                "gui_order": 4
                             },
                             {
                                 "propname": ":linkToImage",
                                 "cardinality": "0-n",
-                                "gui_order": 6
-                            },
-                            {
-                                "propname": ":hasEventTypeList",
-                                "cardinality": "0-1",
-                                "gui_order": 4
+                                "gui_order": 5
                             },
                             {
                                 "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
-                                "gui_order": 9
+                                "gui_order": 8
                             },
                             {
                                 "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 10
+                                "gui_order": 9
                             },
                             {
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
-                                "gui_order": 11
+                                "gui_order": 10
                             }
                         ]
                     },
@@ -1870,37 +1870,37 @@
                             {
                                 "propname": "project-metadata:hasID",
                                 "cardinality": "1",
-                                "gui_order": 1
+                                "gui_order": 8
                             },
                             {
                                 "propname": ":hasName",
                                 "cardinality": "0-1",
-                                "gui_order": 2
+                                "gui_order": 1
                             },
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 3
+                                "gui_order": 2
                             },
                             {
                                 "propname": ":linkToImage",
                                 "cardinality": "0-n",
-                                "gui_order": 4
+                                "gui_order": 3
                             },
                             {
                                 "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
-                                "gui_order": 6
+                                "gui_order": 5
                             },
                             {
                                 "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 7
+                                "gui_order": 6
                             },
                             {
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
-                                "gui_order": 8
+                                "gui_order": 7
                             }
                         ]
                     },
@@ -1925,53 +1925,53 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": "project-metadata:hasFileName",
-                                "cardinality": "0-1",
-                                "gui_order": 1
-                            },
-                            {
-                                "propname": "project-metadata:hasTimeStamp",
-                                "cardinality": "0-1",
-                                "gui_order": 3
-                            },
-                            {
-                                "propname": "project-metadata:hasFileSize",
-                                "cardinality": "0-1",
-                                "gui_order": 4
-                            },
-                            {
                                 "propname": ":isPartOfBookChapter",
                                 "cardinality": "0-1",
-                                "gui_order": 5
+                                "gui_order": 2
                             },
                             {
                                 "propname": ":isPartOfCharacter",
                                 "cardinality": "0-n",
-                                "gui_order": 6
+                                "gui_order": 3
                             },
                             {
-                                "propname": ":hasSeqnum",
+                                "propname": "project-metadata:hasFileName",
                                 "cardinality": "0-1",
-                                "gui_order": 7
+                                "gui_order": 4
                             },
                             {
-                                "propname": "project-metadata:hasID",
-                                "cardinality": "1",
-                                "gui_order": 8
+                                "propname": "project-metadata:hasTimeStamp",
+                                "cardinality": "0-1",
+                                "gui_order": 5
+                            },
+                            {
+                                "propname": "project-metadata:hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 6
                             },
                             {
                                 "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
-                                "gui_order": 9
+                                "gui_order": 7
                             },
                             {
                                 "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 10
+                                "gui_order": 8
                             },
                             {
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
+                                "gui_order": 9
+                            },
+                            {
+                                "propname": "project-metadata:hasSeqnum",
+                                "cardinality": "0-1",
+                                "gui_order": 10
+                            },
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
                                 "gui_order": 11
                             }
                         ]
@@ -1996,11 +1996,6 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": "project-metadata:hasID",
-                                "cardinality": "1",
-                                "gui_order": 5
-                            },
-                            {
                                 "propname": "project-metadata:hasFileName",
                                 "cardinality": "1",
                                 "gui_order": 1
@@ -2011,14 +2006,19 @@
                                 "gui_order": 2
                             },
                             {
-                                "propname": "project-metadata:hasTimeStamp",
+                                "propname": ":hasDate",
                                 "cardinality": "0-1",
                                 "gui_order": 3
                             },
                             {
-                                "propname": "project-metadata:hasFileSize",
+                                "propname": "project-metadata:hasTimeStamp",
                                 "cardinality": "0-1",
                                 "gui_order": 4
+                            },
+                            {
+                                "propname": "project-metadata:hasFileSize",
+                                "cardinality": "0-1",
+                                "gui_order": 5
                             },
                             {
                                 "propname": "project-metadata:hasAuthorshipResource",
@@ -2034,6 +2034,11 @@
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 8
+                            },
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
+                                "gui_order": 9
                             }
                         ]
                     },
@@ -2058,9 +2063,9 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": "project-metadata:hasID",
+                                "propname": ":hasUrl",
                                 "cardinality": "1",
-                                "gui_order": 3
+                                "gui_order": 1
                             },
                             {
                                 "propname": ":hasDescription",
@@ -2068,9 +2073,14 @@
                                 "gui_order": 2
                             },
                             {
-                                "propname": ":hasUrl",
+                                "propname": "project-metadata:hasID",
                                 "cardinality": "1",
-                                "gui_order": 1
+                                "gui_order": 7
+                            },
+                            {
+                                "propname": ":hasDate",
+                                "cardinality": "0-1",
+                                "gui_order": 3
                             },
                             {
                                 "propname": "project-metadata:hasAuthorshipResource",
@@ -2110,18 +2120,18 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": "project-metadata:hasFileName",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 1
                             },
                             {
                                 "propname": ":hasCast",
                                 "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": "project-metadata:hasFileName",
+                                "cardinality": "1",
                                 "gui_order": 3
                             },
                             {
@@ -2135,23 +2145,23 @@
                                 "gui_order": 5
                             },
                             {
-                                "propname": "project-metadata:hasID",
-                                "cardinality": "1",
-                                "gui_order": 6
-                            },
-                            {
                                 "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
-                                "gui_order": 7
+                                "gui_order": 6
                             },
                             {
                                 "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 8
+                                "gui_order": 7
                             },
                             {
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
                                 "gui_order": 9
                             }
                         ]
@@ -2177,18 +2187,18 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": "project-metadata:hasFileName",
-                                "cardinality": "1",
-                                "gui_order": 1
-                            },
-                            {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 1
                             },
                             {
                                 "propname": ":hasCast",
                                 "cardinality": "0-1",
+                                "gui_order": 2
+                            },
+                            {
+                                "propname": "project-metadata:hasFileName",
+                                "cardinality": "1",
                                 "gui_order": 3
                             },
                             {
@@ -2202,23 +2212,23 @@
                                 "gui_order": 5
                             },
                             {
-                                "propname": "project-metadata:hasID",
-                                "cardinality": "1",
-                                "gui_order": 6
-                            },
-                            {
                                 "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
-                                "gui_order": 7
+                                "gui_order": 6
                             },
                             {
                                 "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 8
+                                "gui_order": 7
                             },
                             {
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
+                                "gui_order": 8
+                            },
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
                                 "gui_order": 9
                             }
                         ]
@@ -2247,12 +2257,12 @@
                             {
                                 "propname": ":linkToCharacter",
                                 "cardinality": "0-n",
-                                "gui_order": 7
+                                "gui_order": 6
                             },
                             {
                                 "propname": ":isDangerous",
                                 "cardinality": "0-1",
-                                "gui_order": 8
+                                "gui_order": 7
                             }
                         ]
                     },
@@ -2280,7 +2290,7 @@
                             {
                                 "propname": ":hasGuestAmount",
                                 "cardinality": "0-1",
-                                "gui_order": 7
+                                "gui_order": 6
                             }
                         ]
                     },
@@ -2308,12 +2318,12 @@
                             {
                                 "propname": ":linkToCharacterProtagonist",
                                 "cardinality": "0-n",
-                                "gui_order": 7
+                                "gui_order": 6
                             },
                             {
                                 "propname": ":linkToCharacterAntagonist",
                                 "cardinality": "0-n",
-                                "gui_order": 8
+                                "gui_order": 7
                             }
                         ]
                     },
@@ -2341,12 +2351,12 @@
                             {
                                 "propname": ":linkToCharacter",
                                 "cardinality": "0-n",
-                                "gui_order": 7
+                                "gui_order": 6
                             },
                             {
                                 "propname": ":hasGuestAmount",
                                 "cardinality": "0-n",
-                                "gui_order": 8
+                                "gui_order": 7
                             }
                         ]
                     },
@@ -2374,7 +2384,7 @@
                             {
                                 "propname": ":hasGeoname",
                                 "cardinality": "0-1",
-                                "gui_order": 5
+                                "gui_order": 4
                             }
                         ]
                     },
@@ -2423,7 +2433,7 @@
                             {
                                 "propname": ":hasDescription",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 1
                             }
                         ]
                     },
@@ -2451,7 +2461,7 @@
                             {
                                 "propname": ":hasDescriptionAlternative",
                                 "cardinality": "0-n",
-                                "gui_order": 2
+                                "gui_order": 1
                             }
                         ]
                     }
@@ -2549,10 +2559,10 @@
                         ],
                         "object": "TimeValue",
                         "labels": {
-                            "de": "Zeitstempel",
-                            "en": "Time Stamp",
-                            "fr": "Horodatage",
-                            "it": "Timestamp"
+                            "de": "Zeitstempel (Datei)",
+                            "en": "Time Stamp (file)",
+                            "fr": "Horodatage (fichier)",
+                            "it": "Timestamp (file)"
                         },
                         "comments": {
                             "de": "Zeitstempel",
@@ -2630,6 +2640,27 @@
                         "gui_attributes": {
                             "hlist": "License"
                         }
+                    },
+                    {
+                        "name": "hasSeqnum",
+                        "super": [
+                            "seqnum",
+                            "schema:position"
+                        ],
+                        "object": "IntValue",
+                        "labels": {
+                            "de": "Seqnum",
+                            "en": "Seqnum",
+                            "fr": "Seqnum",
+                            "it": "Seqnum"
+                        },
+                        "comments": {
+                            "de": "Sequenznummer für zusammengesetzte Objekte",
+                            "en": "Sequence number used for compound object",
+                            "fr": "Numéro de séquence utilisé pour l'objet composé",
+                            "it": "Numero di sequenza utilizzato per oggetti composti"
+                        },
+                        "gui_element": "SimpleText"
                     }
                 ],
                 "resources": [

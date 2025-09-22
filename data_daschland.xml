@@ -1764,7 +1764,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <integer>2</integer>
         </integer-prop>
         <text-prop name=":hasDescription">
-            <text encoding="xml">Alice grows and grows until she's as big as the ceiling.Now she can get the key from the table, but she's too big to fit through the door, so she cries and makes a big puddle on the floor.The White Rabbit comes back, looking really nice and carrying a pair of white kid gloves and a big fan. Alice asks the rabbit for help, but the rabbit is so scared that he drops the gloves and fan and runs away.Alice picks them up and starts fanning herself while she wonders what has made this day so different from every other.She decides that she must have been changed into another girl in the night, as she can't remember her multiplication tables or geography correctly and isn't able to recite a poem properly.</text>
+            <text encoding="xml">Alice grows and grows until she's as big as the ceiling.Now she can get the key from the table, but she's too big to fit through the door, so she cries and makes a big puddle on the floor.The White Rabbit comes back, looking really nice and carrying a pair of white kid gloves and a big fan. Alice asks the rabbit for help, but the rabbit is so scared that he drops the gloves and fan and runs away.Alice picks them up and starts fanning herself while she wonders what has made this day so different from every other.She decides that she must have been changed into another girl in the night, as she can't remember her multiplication tables or geography correctly and isn't able to recite a poem properly.<br/>The fanning makes her shrink again until she's only two feet tall. <br/>She tries to get in, but the door's still locked and the key's still lying on the table.<br/>Then she slips and falls into her own pool of tears.She meets a mouse who fell in too, but she scares him when she starts talking about her cat Dinah and a dog. <br/>He says he'll tell her why he hates cats and dogs, and they swim to the shore, taking other creatures that fell into the pool with them.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Compelled by her adventurous spirit, Alice leaned in closer to examine the hole. Suddenly, she found herself tumbling down into an extraordinary place called DaSCHland. <br/>This wasn't just any wonderland; it was a world powered by the innovative company DaSCH, known for its remarkable technology and whimsical inventions, and importantly, as a repository for research data in the humanities.</text>
@@ -1828,6 +1828,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>EV_003</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToLocation">
+            <resptr>L_008</resptr>
             <resptr>L_011</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
@@ -1888,50 +1889,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
                 <br/>“You promised to tell me your history, you know,” said Alice, “and why it is you hate—C and D,” she added in a whisper, half afraid that it would be offended again.<br/>
                 <br/>“Mine is a long and a sad tale!” said the Mouse, turning to Alice, and sighing.<br/>
                 <br/>“It is a long tail, certainly,” said Alice, looking down with wonder at the Mouse’s tail; “but why do you call it sad?” And she kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—<br/>
-                <br/>“Fury said to a<br/>
-                <br/>mouse, That he<br/>
-                <br/>met in the<br/>
-                <br/>house,<br/>
-                <br/>‘Let us<br/>
-                <br/>both go to<br/>
-                <br/>law: I will<br/>
-                <br/>prosecute<br/>
-                <br/>YOU. —Come,<br/>
-                <br/>I’ll take no<br/>
-                <br/>denial; We<br/>
-                <br/>must have a<br/>
-                <br/>trial: For<br/>
-                <br/>really this<br/>
-                <br/>morning I’ve<br/>
-                <br/>nothing<br/>
-                <br/>to do.’<br/>
-                <br/>Said the<br/>
-                <br/>mouse to the<br/>
-                <br/>cur, ‘Such<br/>
-                <br/>a trial,<br/>
-                <br/>dear Sir,<br/>
-                <br/>With<br/>
-                <br/>no jury<br/>
-                <br/>or judge,<br/>
-                <br/>would be<br/>
-                <br/>wasting<br/>
-                <br/>our<br/>
-                <br/>breath.’<br/>
-                <br/>‘I’ll be<br/>
-                <br/>judge, I’ll<br/>
-                <br/>be jury,’<br/>
-                <br/>Said<br/>
-                <br/>cunning<br/>
-                <br/>old Fury:<br/>
-                <br/>‘I’ll<br/>
-                <br/>try the<br/>
-                <br/>whole<br/>
-                <br/>cause,<br/>
-                <br/>and<br/>
-                <br/>condemn<br/>
-                <br/>you<br/>
-                <br/>to<br/>
-                <br/>death.’”<br/>
+                <br/>“Fury said to a mouse, That he met in the house, ‘Let us both go to law: I will prosecute YOU. —Come, I’ll take no denial; We must have a trial: For really this morning I’ve nothing to do.’ Said the mouse to the cur, ‘Such a trial, dear Sir, With no jury or judge, would be wasting our breath.’ ‘I’ll be judge, I’ll be jury,’ Said cunning old Fury: ‘I’ll try the whole cause, and condemn you to death.’”<br/>
                 <br/>“You are not attending!” said the Mouse to Alice severely. “What are you thinking of?”<br/>
                 <br/>“I beg your pardon,” said Alice very humbly: “you had got to the fifth bend, I think?”<br/>
                 <br/>“I had not!” cried the Mouse, sharply and very angrily.<br/>
@@ -1978,7 +1936,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>EV_004</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToLocation">
-            <resptr>L_008</resptr>
+            <resptr>L_005</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -1999,7 +1957,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <integer>4</integer>
         </integer-prop>
         <text-prop name=":hasDescription">
-            <text encoding="xml">The fanning makes her shrink again until she's only two feet tall.She tries to get in, but the door's still locked and the key's still lying on the table.Then she slips and falls into her own pool of tears.She meets a mouse who fell in too, but she scares him when she starts talking about her cat Dinah and a dog. He says he'll tell her why he hates cats and dogs, and they swim to the shore, taking other creatures that fell into the pool with them.</text>
+            <text encoding="xml">to be completed</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Eager to explore, Alice followed RabbIT through a landscape where trees had digital screens for leaves displaying fantastical images and data streamed across the sky like shooting stars. <br/>They passed houses that changed shape and color at the occupants' whims and gardens where flowers sang melodies in harmony.</text>
@@ -2077,6 +2035,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_005</resptr>
             <resptr>EV_031</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_004</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -2216,6 +2177,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_006</resptr>
             <resptr>EV_035</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_014</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -2361,7 +2325,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>EV_027</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToLocation">
-            <resptr>L_014</resptr>
+            <resptr>L_003</resptr>
+            <resptr>L_020</resptr>
+            <resptr>L_021</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -2525,6 +2491,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_008</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_007</resptr>
+        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2654,6 +2623,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_009</resptr>
             <resptr>EV_028</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_013</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -2811,6 +2783,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_010</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_018</resptr>
+        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2949,6 +2924,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_010</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_018</resptr>
+        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3078,6 +3056,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </resptr-prop>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_011</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_006</resptr>
+            <resptr>L_016</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -3217,6 +3199,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_012</resptr>
             <resptr>EV_036</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_001</resptr>
+            <resptr>L_016</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -3452,6 +3438,12 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_013</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_009</resptr>
+            <resptr>L_010</resptr>
+            <resptr>L_019</resptr>
+            <resptr>L_023</resptr>
+        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3597,6 +3589,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>EV_014</resptr>
             <resptr>EV_015</resptr>
             <resptr>EV_029</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_012</resptr>
+            <resptr>L_024</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -3744,6 +3740,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </resptr-prop>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_039</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_017</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -3911,6 +3910,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </resptr-prop>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_016</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_026</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -4086,6 +4088,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </resptr-prop>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_017</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_025</resptr>
+            <resptr>L_027</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -4286,6 +4292,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>EV_018</resptr>
             <resptr>EV_026</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_028</resptr>
+        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4446,6 +4455,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_019</resptr>
             <resptr>EV_030</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_029</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -4624,6 +4636,11 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_020</resptr>
             <resptr>EV_038</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_030</resptr>
+            <resptr>L_031</resptr>
+            <resptr>L_032</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -4831,6 +4848,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>EV_021</resptr>
             <resptr>EV_023</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_032</resptr>
+        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4882,6 +4902,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>EV_022</resptr>
             <resptr>EV_034</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_032</resptr>
+        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4922,6 +4945,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_034</resptr>
             <resptr>EV_037</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_019</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -4991,6 +5017,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <resptr-prop name=":linkToEvent">
             <resptr>EV_024</resptr>
         </resptr-prop>
+        <resptr-prop name=":linkToLocation">
+            <resptr>L_019</resptr>
+        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -5049,6 +5078,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="Alice's adventures in Wonderland, 1928" id="BCO_001" restype=":BookCover">
         <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No known restrictions; no copyright renewal found, Jul 24 2019" authorship-id="authorship_7">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_25:alicesadventures00carr_25_0001/full/pct:100.0/0/default.jpg</iiif-uri>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1928:CE:1928</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Chicago : A. Whitman, c1928. <br/>160 p. : ill. ; 21 cm. </text>
         </text-prop>
@@ -5071,6 +5103,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="Alice's adventures in Wonderland, 1916" id="BCO_002" restype=":BookCover">
         <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="No information." authorship-id="authorship_7">https://tile.loc.gov/image-services/iiif/service:gdc:gdclccn:16:01:47:24:16014724:0001/full/pct:100/0/default.jpg</iiif-uri>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1916:CE:1916</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">New York : S. Gabriel Sons &amp; Co., [c1916].<br/> 48 p. : col. front., ill., col. plates ; 22 cm. </text>
         </text-prop>
@@ -5091,8 +5126,11 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="Alice in Wonderland; a dramatization of Lewis Carroll's &quot;Alice's adventures in Wonderland&quot; and &quot;Through the looking glass,&quot;" id="BCO_003" restype=":BookCover">
+    <resource label="Alice in Wonderland - a dramatization of Lewis Carroll's &quot;Alice's adventures in Wonderland&quot; and &quot;Through the looking glass&quot;, 1915" id="BCO_003" restype=":BookCover">
         <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_7">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:aliceinwonderlan00gers:aliceinwonderlan00gers_0011/full/pct:100.0/0/default.jpg</iiif-uri>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1915:CE:1915</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Chicago, A. C. McClurg &amp; Co., 1915. <br/>5 p. l., 133 p. col. front., illus. (part col.) col. plates. 23 cm. </text>
         </text-prop>
@@ -5115,6 +5153,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="Alice's adventures in Wonderland and Through the looking-glass, 1921" id="BCO_004" restype=":BookCover">
         <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_7">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:alicesadventures00carr_23:alicesadventures00carr_23_0011/full/pct:100.0/0/default.jpg</iiif-uri>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1921:CE:1921</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">New York, The Macmillan company, 1921.</text>
         </text-prop>
@@ -5137,6 +5178,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="Through the looking glass, 1913" id="BCO_005" restype=":BookCover">
         <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_7">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_2:throughlookinggl00carr_2_0001/full/pct:100.0/0/default.jpg</iiif-uri>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1913:CE:1913</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">New York, Boston, H.M. Caldwell co. [1913] <br/>vi, 198 p. front. illus. 19 cm. </text>
         </text-prop>
@@ -5159,6 +5203,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="Through the looking-glass and what Alice found there, 1900" id="BCO_006" restype=":BookCover">
         <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_7">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_3:throughlookinggl00carr_3_0009/full/pct:100.0/0/default.jpg</iiif-uri>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1900:CE:1900</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Chicago, W. B. Conkey company [c1900] <br/>167 p. incl. front., illus. 16 cm.</text>
         </text-prop>
@@ -5181,6 +5228,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="Through the looking-glass, and what Alice found there, 1899" id="BCO_007" restype=":BookCover">
         <iiif-uri license="http://rdfh.ch/licenses/public-domain" copyright-holder="The books in this collection are in the public domain and are free to use and reuse. Credit Line: Library of Congress" authorship-id="authorship_7">https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:throughlookinggl00carr_4:throughlookinggl00carr_4_0001/full/pct:100.0/0/default.jpg</iiif-uri>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1899:CE:1899</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">New York, G.H. McKibbin, 1899. <br/> 1 p.l., [7]-192 p. col. front., col. illus. 17 cm. </text>
         </text-prop>
@@ -5203,6 +5253,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="BE_Alice_in_Wonderland.pdf" id="BE_001" restype=":BookEdition">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="BookVirtual Corp. U.S. Patent Pending." authorship-id="authorship_6">data/multimedia/book/BE_Alice_in_Wonderland.pdf</bitstream>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:2000:CE:2000</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice's Adventures in Wonderland<br/>by Lewis Carroll<br/>Illustrated by John Tenniel<br/>Book Virtual Edition, true to the typesetting of the original version.</text>
         </text-prop>
@@ -5228,6 +5281,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="BE_Through_the_Looking_Glass.pdf" id="BE_002" restype=":BookEdition">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_8">data/multimedia/book/BE_Through_the_Looking_Glass.pdf</bitstream>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1902:CE:1902</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Through the Looking-Glass and what Alice found there<br/>by Lewis Carroll<br/>illustrated by Peter Newell</text>
         </text-prop>
@@ -5253,6 +5309,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="BE_throughlooking00carr.pdf" id="BE_003" restype=":BookEdition">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_6">data/multimedia/book/BE_throughlooking00carr.pdf</bitstream>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1872:CE:1872</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Through the Looking-Glass and what Alice found there<br/>by Lewis Carroll<br/>with fifty illustrations by John Tenniel</text>
         </text-prop>
@@ -5278,6 +5337,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="BE_adventuresalices00carrrich.pdf" id="BE_004" restype=":BookEdition">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_8">data/multimedia/book/BE_adventuresalices00carrrich.pdf</bitstream>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1901:CE:1901</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice's Adventures in Wonderland<br/>by Lewis Carroll<br/>with an introduction by E.S. Martin<br/>illustrated by Peter Newell</text>
         </text-prop>
@@ -5303,6 +5365,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="BE_alicesadventur00carr.pdf" id="BE_005" restype=":BookEdition">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_6">data/multimedia/book/BE_alicesadventur00carr.pdf</bitstream>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1866:CE:1866</date>
+        </date-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice's Adventures in Wonderland<br/>by Lewis Carroll<br/>with forty-two illustrations by John Tenniel</text>
         </text-prop>
@@ -9642,9 +9707,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasDescription">
             <text encoding="xml">King and Queen of Hearts sitting on their throne in court</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>1</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_001</resptr>
         </resptr-prop>
@@ -9674,15 +9736,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>1</integer>
+        </integer-prop>
     </resource>
     <resource label="White Rabbit looking at his watch" id="I_002" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book1.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">White Rabbit looking at his watch</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>2</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_002</resptr>
         </resptr-prop>
@@ -9708,15 +9770,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>2</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice finding a little door" id="I_003" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book2.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice finding a little door</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>3</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_002</resptr>
         </resptr-prop>
@@ -9742,15 +9804,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>3</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice holding the &quot;Drink Me&quot; bottle" id="I_004" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book3.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice holding the "Drink Me" bottle</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>4</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_002</resptr>
         </resptr-prop>
@@ -9776,15 +9838,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>4</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice growing taller" id="I_005" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book4.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice growing taller</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>5</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_003</resptr>
         </resptr-prop>
@@ -9810,15 +9872,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>5</integer>
+        </integer-prop>
     </resource>
     <resource label="White Rabbit skurrying away from Alice" id="I_006" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book5.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">White Rabbit skurrying away from Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>6</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_003</resptr>
         </resptr-prop>
@@ -9845,15 +9907,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>6</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice swimming in the Pool of tears" id="I_007" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book6.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice swimming in the Pool of tears</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>7</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_003</resptr>
         </resptr-prop>
@@ -9879,15 +9941,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>7</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice and the Mouse swimming in the Pool of tears" id="I_008" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book7.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice and the Mouse swimming in the Pool of tears</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>8</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_003</resptr>
         </resptr-prop>
@@ -9914,15 +9976,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>8</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice accepting a thimble from Dodo" id="I_009" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book9.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice accepting a thimble from Dodo</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>10</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_004</resptr>
         </resptr-prop>
@@ -9949,15 +10011,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>10</integer>
+        </integer-prop>
     </resource>
     <resource label="Mouse telling its tale to Alice and creatures" id="I_010" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book8.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Mouse telling its tale to Alice and creatures</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>9</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_004</resptr>
         </resptr-prop>
@@ -9985,15 +10047,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>9</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice outgrowing White Rabbit's house" id="I_011" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book10.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice outgrowing White Rabbit's house</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>11</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_005</resptr>
         </resptr-prop>
@@ -10019,15 +10081,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>11</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice's hand reaching for White Rabbit" id="I_012" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book11.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice's hand reaching for White Rabbit</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>12</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_005</resptr>
         </resptr-prop>
@@ -10054,15 +10116,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>12</integer>
+        </integer-prop>
     </resource>
     <resource label="Bill the lizzard rocketting out of the chimney" id="I_013" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book12.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Bill the lizzard rocketting out of the chimney</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>13</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_005</resptr>
         </resptr-prop>
@@ -10088,15 +10150,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>13</integer>
+        </integer-prop>
     </resource>
     <resource label="The puppy looking at Alice" id="I_014" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book13.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">The puppy looking at Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>14</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_005</resptr>
         </resptr-prop>
@@ -10123,15 +10185,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>14</integer>
+        </integer-prop>
     </resource>
     <resource label="Caterpillar questionning Alice" id="I_015" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book14.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Caterpillar questionning Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>15</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_006</resptr>
         </resptr-prop>
@@ -10158,15 +10220,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>15</integer>
+        </integer-prop>
     </resource>
     <resource label="Father William standing on his head" id="I_016" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book15.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Father William standing on his head</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>16</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_006</resptr>
         </resptr-prop>
@@ -10192,15 +10254,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>16</integer>
+        </integer-prop>
     </resource>
     <resource label="Father William turning a back-sommersault" id="I_017" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book16.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Father William turning a back-sommersault</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>17</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_006</resptr>
         </resptr-prop>
@@ -10226,15 +10288,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>17</integer>
+        </integer-prop>
     </resource>
     <resource label="Father William sitting at a table" id="I_018" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book17.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Father William sitting at a table</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>18</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_006</resptr>
         </resptr-prop>
@@ -10260,15 +10322,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>18</integer>
+        </integer-prop>
     </resource>
     <resource label="Father William balancing an eel" id="I_019" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book18.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Father William balancing an eel</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>19</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_006</resptr>
         </resptr-prop>
@@ -10294,15 +10356,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>19</integer>
+        </integer-prop>
     </resource>
     <resource label="Frog-Footman and Fish-Footman holding an invitation" id="I_020" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book19.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Frog-Footman and Fish-Footman holding an invitation</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>20</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_007</resptr>
         </resptr-prop>
@@ -10328,15 +10390,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>20</integer>
+        </integer-prop>
     </resource>
     <resource label="Dutchess nursing the baby" id="I_021" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book20.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Dutchess nursing the baby</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>21</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_007</resptr>
         </resptr-prop>
@@ -10366,15 +10428,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>21</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice holding the pig baby" id="I_022" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book21.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice holding the pig baby</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>22</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_007</resptr>
         </resptr-prop>
@@ -10401,15 +10463,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>22</integer>
+        </integer-prop>
     </resource>
-    <resource label="Cheshire-Cat grinning at Alice" id="I_023" restype=":ImageOriginal">
+    <resource label="Cheshire Cat grinning at Alice" id="I_023" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book22.jpg</bitstream>
         <text-prop name=":hasDescription">
-            <text encoding="xml">Cheshire-Cat grinning at Alice</text>
+            <text encoding="xml">Cheshire Cat grinning at Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>23</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_007</resptr>
         </resptr-prop>
@@ -10436,15 +10498,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>23</integer>
+        </integer-prop>
     </resource>
-    <resource label="Cheshire-Cat disappearing" id="I_024" restype=":ImageOriginal">
+    <resource label="Cheshire Cat disappearing" id="I_024" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book23.jpg</bitstream>
         <text-prop name=":hasDescription">
-            <text encoding="xml">Cheshire-Cat disappearing</text>
+            <text encoding="xml">Cheshire Cat disappearing</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>24</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_007</resptr>
         </resptr-prop>
@@ -10470,15 +10532,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>24</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice sitting at a mad tea-party" id="I_025" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book24.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice sitting at a mad tea-party</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>25</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_008</resptr>
         </resptr-prop>
@@ -10507,15 +10569,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>25</integer>
+        </integer-prop>
     </resource>
     <resource label="Hatter singing" id="I_026" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book25.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Hatter singing</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>26</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_008</resptr>
         </resptr-prop>
@@ -10542,15 +10604,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>26</integer>
+        </integer-prop>
     </resource>
     <resource label="Dormouse being put in a teapot" id="I_027" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book26.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Dormouse being put in a teapot</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>27</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_008</resptr>
         </resptr-prop>
@@ -10578,15 +10640,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>27</integer>
+        </integer-prop>
     </resource>
     <resource label="Card-gardeners painting roses" id="I_028" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book27.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Card-gardeners painting roses</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>28</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_009</resptr>
         </resptr-prop>
@@ -10612,15 +10674,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>28</integer>
+        </integer-prop>
     </resource>
     <resource label="Queen of Hearts pointing at Alice" id="I_029" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book28.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Queen of Hearts pointing at Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>29</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_009</resptr>
         </resptr-prop>
@@ -10648,15 +10710,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>29</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice holding her Flamingo" id="I_030" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book29.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice holding her Flamingo</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>30</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_009</resptr>
         </resptr-prop>
@@ -10683,15 +10745,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>30</integer>
+        </integer-prop>
     </resource>
-    <resource label="Executioners and crowd collecting round Cheshire-Cat" id="I_031" restype=":ImageOriginal">
+    <resource label="Executioners and crowd collecting round Cheshire Cat" id="I_031" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book30.jpg</bitstream>
         <text-prop name=":hasDescription">
-            <text encoding="xml">Executioners and crowd collecting round Cheshire-Cat</text>
+            <text encoding="xml">Executioners and crowd collecting round Cheshire Cat</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>31</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_009</resptr>
         </resptr-prop>
@@ -10720,15 +10782,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>31</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice and Duchess walking" id="I_032" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book31.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice and Duchess walking</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>32</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_010</resptr>
         </resptr-prop>
@@ -10756,15 +10818,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>32</integer>
+        </integer-prop>
     </resource>
     <resource label="Gryphon sleeping" id="I_033" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book32.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Gryphon sleeping</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>33</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_010</resptr>
         </resptr-prop>
@@ -10790,15 +10852,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>33</integer>
+        </integer-prop>
     </resource>
     <resource label="Mock Turtle telling his story to Gryphon and Alice" id="I_034" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book33.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Mock Turtle telling his story to Gryphon and Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>34</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_010</resptr>
         </resptr-prop>
@@ -10826,15 +10888,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>34</integer>
+        </integer-prop>
     </resource>
     <resource label="Mock Turtle and Gryphon dancing round Alice" id="I_035" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book34.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Mock Turtle and Gryphon dancing round Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>35</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_010</resptr>
         </resptr-prop>
@@ -10862,15 +10924,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>35</integer>
+        </integer-prop>
     </resource>
     <resource label="Lobster turning out his toes " id="I_036" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book35.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Lobster turning out his toes </text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>36</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_011</resptr>
         </resptr-prop>
@@ -10896,15 +10958,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>36</integer>
+        </integer-prop>
     </resource>
     <resource label="White Rabbit as herald blowing a trumpet" id="I_037" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book36.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">White Rabbit as herald blowing a trumpet</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>37</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_012</resptr>
         </resptr-prop>
@@ -10930,15 +10992,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>37</integer>
+        </integer-prop>
     </resource>
     <resource label="Hatter shaking off his shoes" id="I_038" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book37.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Hatter shaking off his shoes</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>38</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_012</resptr>
         </resptr-prop>
@@ -10964,15 +11026,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>38</integer>
+        </integer-prop>
     </resource>
     <resource label="Hatter running" id="I_039" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book38.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Hatter running</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>39</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_012</resptr>
         </resptr-prop>
@@ -10998,15 +11060,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>39</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice tipping over the jury-box" id="I_040" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book39.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice tipping over the jury-box</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>40</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_013</resptr>
         </resptr-prop>
@@ -11033,15 +11095,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>40</integer>
+        </integer-prop>
     </resource>
     <resource label="King of Hearts pointing to the tarts in court" id="I_041" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book40.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">King of Hearts pointing to the tarts in court</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>41</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_013</resptr>
         </resptr-prop>
@@ -11068,15 +11130,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>41</integer>
+        </integer-prop>
     </resource>
     <resource label="Cards flying down upon Alice" id="I_042" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_1book41.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Cards flying down upon Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>42</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_013</resptr>
         </resptr-prop>
@@ -11102,15 +11164,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>42</integer>
+        </integer-prop>
     </resource>
     <resource label="White knight riding his horse" id="I_043" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book0.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">White knight riding his horse</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>43</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_015</resptr>
         </resptr-prop>
@@ -11137,15 +11199,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>43</integer>
+        </integer-prop>
     </resource>
     <resource label="Black kitten playing" id="I_044" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book1.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Black kitten playing</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>44</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_017</resptr>
         </resptr-prop>
@@ -11171,15 +11233,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>44</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice winding worsted in an arm-chair" id="I_045" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book2.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice winding worsted in an arm-chair</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>45</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_017</resptr>
         </resptr-prop>
@@ -11206,15 +11268,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>45</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice going through the looking-glass" id="I_046" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book3.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice going through the looking-glass</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>46</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_017</resptr>
         </resptr-prop>
@@ -11240,15 +11302,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>46</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice coming through the looking-glass" id="I_047" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book4.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice coming through the looking-glass</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>47</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_017</resptr>
         </resptr-prop>
@@ -11274,15 +11336,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>47</integer>
+        </integer-prop>
     </resource>
     <resource label="Chessmen walking" id="I_048" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book5.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Chessmen walking</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>48</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_017</resptr>
         </resptr-prop>
@@ -11308,15 +11370,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>48</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice picking up White King" id="I_049" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book6.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice picking up White King</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>49</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_017</resptr>
         </resptr-prop>
@@ -11343,15 +11405,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>49</integer>
+        </integer-prop>
     </resource>
     <resource label="The White Knight sliding down a poker" id="I_050" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book7.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">The White Knight sliding down a poker</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>50</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_017</resptr>
         </resptr-prop>
@@ -11377,15 +11439,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>50</integer>
+        </integer-prop>
     </resource>
     <resource label="Jabberwork" id="I_051" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book8.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Jabberwork</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>51</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_017</resptr>
         </resptr-prop>
@@ -11411,15 +11473,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>51</integer>
+        </integer-prop>
     </resource>
     <resource label="Tiger-Lily and Alice talking" id="I_052" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book9.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Tiger-Lily and Alice talking</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>52</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_018</resptr>
         </resptr-prop>
@@ -11446,15 +11508,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>52</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice and Red Queen talking" id="I_053" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book10.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice and Red Queen talking</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>53</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_018</resptr>
         </resptr-prop>
@@ -11481,15 +11543,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>53</integer>
+        </integer-prop>
     </resource>
     <resource label="Chessboard-like country" id="I_054" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book11.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Chessboard-like country</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>54</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_018</resptr>
         </resptr-prop>
@@ -11512,15 +11574,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>54</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice and Red Queen running" id="I_055" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book12.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice and Red Queen running</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>55</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_018</resptr>
         </resptr-prop>
@@ -11547,15 +11609,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>55</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice sittin in a train carriage" id="I_056" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book13.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice sittin in a train carriage</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>56</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_019</resptr>
         </resptr-prop>
@@ -11581,15 +11643,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>56</integer>
+        </integer-prop>
     </resource>
     <resource label="Rocking-horse-fly" id="I_057" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book14.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Rocking-horse-fly</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>57</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_019</resptr>
         </resptr-prop>
@@ -11612,15 +11674,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>57</integer>
+        </integer-prop>
     </resource>
     <resource label="Snap-dragon-fly" id="I_058" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book15.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Snap-dragon-fly</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>58</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_019</resptr>
         </resptr-prop>
@@ -11643,15 +11705,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>58</integer>
+        </integer-prop>
     </resource>
     <resource label="Bread-and-butter-fly" id="I_059" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book16.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Bread-and-butter-fly</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>59</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_019</resptr>
         </resptr-prop>
@@ -11674,15 +11736,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>59</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice clasping her arms round Fawn" id="I_060" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book17.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice clasping her arms round Fawn</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>60</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_019</resptr>
         </resptr-prop>
@@ -11708,15 +11770,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>60</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice calling on Tweedledum and Tweeldee" id="I_061" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book18.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice calling on Tweedledum and Tweeldee</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>61</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_020</resptr>
         </resptr-prop>
@@ -11743,15 +11805,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>61</integer>
+        </integer-prop>
     </resource>
     <resource label="Walrus and Carpenter walking" id="I_062" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book19.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Walrus and Carpenter walking</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>62</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_020</resptr>
         </resptr-prop>
@@ -11778,15 +11840,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>62</integer>
+        </integer-prop>
     </resource>
     <resource label="Walrus and Carpenter resting" id="I_063" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book20.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Walrus and Carpenter resting</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>63</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_020</resptr>
         </resptr-prop>
@@ -11813,15 +11875,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>63</integer>
+        </integer-prop>
     </resource>
     <resource label="Walrus and Carpenter eating" id="I_064" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book21.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Walrus and Carpenter eating</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>64</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_020</resptr>
         </resptr-prop>
@@ -11848,15 +11910,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>64</integer>
+        </integer-prop>
     </resource>
     <resource label="Red King snoring" id="I_065" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book22.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Red King snoring</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>65</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_020</resptr>
         </resptr-prop>
@@ -11882,15 +11944,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>65</integer>
+        </integer-prop>
     </resource>
     <resource label="Tweedledum crying in a fury" id="I_066" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book23.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Tweedledum crying in a fury</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>66</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_020</resptr>
         </resptr-prop>
@@ -11917,15 +11979,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>66</integer>
+        </integer-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" id="I_067" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book24.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Tweedledum and Tweedledee</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>67</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_020</resptr>
         </resptr-prop>
@@ -11952,15 +12014,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>67</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice adressing White Queen" id="I_068" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book25.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice adressing White Queen</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>68</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_021</resptr>
         </resptr-prop>
@@ -11987,15 +12049,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>68</integer>
+        </integer-prop>
     </resource>
     <resource label="Hatta sitting in prison" id="I_069" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book26.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Hatta sitting in prison</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>69</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_021</resptr>
         </resptr-prop>
@@ -12021,15 +12083,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>69</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice leaning on counter in Sheep's shop" id="I_070" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book27.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice leaning on counter in Sheep's shop</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>70</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_021</resptr>
         </resptr-prop>
@@ -12056,15 +12118,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>70</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice rowing a boat" id="I_071" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book28.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice rowing a boat</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>71</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_021</resptr>
         </resptr-prop>
@@ -12091,15 +12153,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>71</integer>
+        </integer-prop>
     </resource>
     <resource label="Humpty Dumpty offering Alice his hand" id="I_072" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book29.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Humpty Dumpty offering Alice his hand</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>72</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_022</resptr>
         </resptr-prop>
@@ -12126,15 +12188,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>72</integer>
+        </integer-prop>
     </resource>
     <resource label="Jabberwocky creatures" id="I_073" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book30.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Jabberwocky creatures</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>73</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_022</resptr>
         </resptr-prop>
@@ -12157,15 +12219,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>73</integer>
+        </integer-prop>
     </resource>
     <resource label="Humpty Dumpty sending a message" id="I_074" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book31.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Humpty Dumpty sending a message</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>74</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_022</resptr>
         </resptr-prop>
@@ -12191,15 +12253,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>74</integer>
+        </integer-prop>
     </resource>
     <resource label="White King soldiers and horses stumbling" id="I_075" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book32.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">White King soldiers and horses stumbling</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>75</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_023</resptr>
         </resptr-prop>
@@ -12222,15 +12284,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>75</integer>
+        </integer-prop>
     </resource>
     <resource label="Haigha handing a ham sandwich to the White King" id="I_076" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book33.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Haigha handing a ham sandwich to the White King</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>76</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_023</resptr>
         </resptr-prop>
@@ -12258,15 +12320,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>76</integer>
+        </integer-prop>
     </resource>
     <resource label="Hatta drinking tea" id="I_077" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book34.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Hatta drinking tea</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>77</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_023</resptr>
         </resptr-prop>
@@ -12297,15 +12359,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>77</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice holding a plum cake" id="I_078" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book35.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice holding a plum cake</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>78</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_023</resptr>
         </resptr-prop>
@@ -12333,15 +12395,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>78</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice putting her hands over her ears" id="I_079" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book36.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice putting her hands over her ears</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>79</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_023</resptr>
         </resptr-prop>
@@ -12367,15 +12429,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>79</integer>
+        </integer-prop>
     </resource>
     <resource label="Red Knight and White Knight fighting" id="I_080" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book37.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Red Knight and White Knight fighting</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>80</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_024</resptr>
         </resptr-prop>
@@ -12403,15 +12465,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>80</integer>
+        </integer-prop>
     </resource>
     <resource label="White Knight falling off his horse" id="I_081" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book38.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">White Knight falling off his horse</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>81</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_024</resptr>
         </resptr-prop>
@@ -12438,15 +12500,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>81</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice dragging White Knight out off a ditch" id="I_082" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book39.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice dragging White Knight out off a ditch</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>82</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_024</resptr>
         </resptr-prop>
@@ -12473,15 +12535,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>82</integer>
+        </integer-prop>
     </resource>
     <resource label="White Knight shaking an aged man" id="I_083" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book40.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">White Knight shaking an aged man</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>83</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_024</resptr>
         </resptr-prop>
@@ -12507,15 +12569,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>83</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice lifting off a golden crown" id="I_084" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book41.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice lifting off a golden crown</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>84</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_024</resptr>
         </resptr-prop>
@@ -12541,15 +12603,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>84</integer>
+        </integer-prop>
     </resource>
     <resource label="Red Queen and White Queen sitting with Alice" id="I_085" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book42.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Red Queen and White Queen sitting with Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>85</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_025</resptr>
         </resptr-prop>
@@ -12577,15 +12639,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>85</integer>
+        </integer-prop>
     </resource>
     <resource label="Red Queen and White Queen sleeping on Alice" id="I_086" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book43.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Red Queen and White Queen sleeping on Alice</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>86</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_025</resptr>
         </resptr-prop>
@@ -12613,15 +12675,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>86</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice and Frog standing before a door" id="I_087" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book44.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice and Frog standing before a door</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>87</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_025</resptr>
         </resptr-prop>
@@ -12648,15 +12710,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>87</integer>
+        </integer-prop>
     </resource>
     <resource label="Mutton making a little bow" id="I_088" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book45.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Mutton making a little bow</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>88</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_025</resptr>
         </resptr-prop>
@@ -12679,15 +12741,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>88</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice pulling a table cloth" id="I_089" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book46.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice pulling a table cloth</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>89</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_025</resptr>
         </resptr-prop>
@@ -12713,15 +12775,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>89</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice shaking Red Queen" id="I_090" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book47.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice shaking Red Queen</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>90</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_026</resptr>
         </resptr-prop>
@@ -12748,15 +12810,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>90</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice shaking Kitty" id="I_091" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book48.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice shaking Kitty</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>91</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_027</resptr>
         </resptr-prop>
@@ -12783,15 +12845,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>91</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice looking over her shoulder at White Kitten" id="I_092" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book49.jpg</bitstream>
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice looking over her shoulder at White Kitten</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>92</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_028</resptr>
         </resptr-prop>
@@ -12818,15 +12880,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>92</integer>
+        </integer-prop>
     </resource>
     <resource label="DaSCHland Alice navigating the RabbIT hole" id="I_093" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_Alice_1.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">DaSCHland Alice navigating the RabbIT hole</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>93</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_002</resptr>
         </resptr-prop>
@@ -12848,15 +12910,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>93</integer>
+        </integer-prop>
     </resource>
     <resource label="DaSCHland Alice navigating the RabbIT hole" id="I_094" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_Alice_2.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">DaSCHland Alice navigating the RabbIT hole</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>94</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_002</resptr>
         </resptr-prop>
@@ -12878,15 +12940,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>94</integer>
+        </integer-prop>
     </resource>
     <resource label="Archival Madcap drinking tea" id="I_095" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_Archival_Madcap.png</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Archival Madcap drinking tea</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>95</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_008</resptr>
         </resptr-prop>
@@ -12908,15 +12970,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>95</integer>
+        </integer-prop>
     </resource>
     <resource label="Cyberpillar on his mushroom" id="I_096" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_Cyberpillar_1.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Cyberpillar on his mushroom</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>96</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_006</resptr>
         </resptr-prop>
@@ -12938,15 +13000,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>96</integer>
+        </integer-prop>
     </resource>
     <resource label="Alice arriving at DaSCHland entrance" id="I_097" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_DaSCHland.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Alice arriving at DaSCHland entrance</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>97</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_001</resptr>
         </resptr-prop>
@@ -12968,15 +13030,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>97</integer>
+        </integer-prop>
     </resource>
     <resource label="Data Queen glowing red" id="I_098" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_Data_Queen.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Data Queen glowing red</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>98</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_009</resptr>
         </resptr-prop>
@@ -12998,15 +13060,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>98</integer>
+        </integer-prop>
     </resource>
     <resource label="Mock-up Data being obsolete" id="I_099" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_Mockup_Data.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Mock-up Data being obsolete</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>99</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_010</resptr>
         </resptr-prop>
@@ -13028,15 +13090,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>99</integer>
+        </integer-prop>
     </resource>
     <resource label="Quantum Cat appearing" id="I_100" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_Quantum_Cat.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Quantum Cat appearing</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>100</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_007</resptr>
         </resptr-prop>
@@ -13058,15 +13120,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>100</integer>
+        </integer-prop>
     </resource>
     <resource label="RabbIT looking at 3D Map of DaSCHland" id="I_101" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_RabbIT.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">RabbIT looking at 3D Map of DaSCHland</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>101</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_002</resptr>
         </resptr-prop>
@@ -13088,15 +13150,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>101</integer>
+        </integer-prop>
     </resource>
     <resource label="Real-Time Processor being in the now" id="I_102" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_Real-Time_Processor.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Real-Time Processor being in the now</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>102</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_008</resptr>
         </resptr-prop>
@@ -13118,15 +13180,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>102</integer>
+        </integer-prop>
     </resource>
     <resource label="System Protector looking over data" id="I_103" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_System_Protector.jpg</bitstream>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">System Protector looking over data</text>
         </text-prop>
-        <integer-prop name=":hasSeqnum">
-            <integer>103</integer>
-        </integer-prop>
         <resptr-prop name=":isPartOfBookChapter">
             <resptr>BCH_010</resptr>
         </resptr-prop>
@@ -13148,6 +13210,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name="project-metadata:hasLicenseResource" list="License">
             <list>LIC_002</list>
         </list-prop>
+        <integer-prop name="project-metadata:hasSeqnum">
+            <integer>103</integer>
+        </integer-prop>
     </resource>
     <resource label="Riverbank" id="L_001" restype=":LocationRealWorld">
         <text-prop name=":hasDescription">
@@ -13306,10 +13371,10 @@ Shrill Voice/The Fishes: Liberty Stump</text>
     </resource>
     <resource label="Mad Hatters's Tea Room" id="L_007" restype=":LocationWonderland">
         <text-prop name=":hasDescription">
-            <text encoding="xml">Die Umgebung im Freien, in der Alice die Gärtner der Königin trifft.</text>
-            <text encoding="xml">L'ambiente esterno dove Alice incontra i giardinieri della Regina.</text>
-            <text encoding="xml">Le décor extérieur où Alice rencontre les jardiniers de la reine.</text>
-            <text encoding="xml">The outdoor setting where Alice meets the Queen’s gardeners.</text>
+            <text encoding="xml">An open air Tea Room where Alice attends a weird tea party. </text>
+            <text encoding="xml">Ein Tearoom unter freiem Himmel, in dem Alice an einer seltsamen Teeparty teilnimmt.</text>
+            <text encoding="xml">Un salon de thé en plein air où Alice assiste à un étrange goûter.</text>
+            <text encoding="xml">Una sala da tè all'aperto dove Alice partecipa a uno strano tea party.</text>
         </text-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">Mad Hatters's Tea Room</text>
@@ -13473,7 +13538,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Der Garten der Königin.</text>
             <text encoding="xml">Il giardino della Regina.</text>
             <text encoding="xml">Le jardin de la Reine.</text>
-            <text encoding="xml">The Queen’s Garden.</text>
+            <text encoding="xml">The Queen’s Garden. The outdoor setting where Alice meets the Queen’s gardeners.</text>
         </text-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">Queen's Garden</text>
@@ -13631,7 +13696,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="Alice's home" id="L_019" restype=":LocationWonderland">
+    <resource label="Alice's home" id="L_019" restype=":LocationRealWorld">
         <text-prop name=":hasDescription">
             <text encoding="xml">Das Haus, in dem Alice und ihre Familie leben.</text>
             <text encoding="xml">La casa dove vivono Alice e la sua famiglia.</text>
