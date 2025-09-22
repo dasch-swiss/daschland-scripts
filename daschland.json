@@ -49,7 +49,7 @@
         "default_permissions": "public",
         "default_permissions_overrule": {
             "private": [
-                "daschland:BookEdition",
+                "daschland:EventAlternative",
                 "daschland:hasDescriptionAlternative"
             ],
             "limited_view": [
@@ -115,8 +115,8 @@
                     "fr": "Licence"
                 },
                 "comments": {
-                    "en": "License",
-                    "fr": "Licence"
+                    "en": "Licenses used in the project",
+                    "fr": "Licences en utilisation dans le projet"
                 },
                 "nodes": [
                     {
@@ -191,8 +191,8 @@
                     "fr": "Type d'événement"
                 },
                 "comments": {
-                    "en": "Event Type",
-                    "fr": "Type d'événement"
+                    "en": "The events of Alice in Wonderland are subdivised into four main types and their subdivisions. This list explores the possibility of hierarchical controlled vocabularies.",
+                    "fr": "Les événements d'Alice au Pays des Merveilles sont divisés en quatre types principaux et leurs subdivisions. Cette liste explore les possibilités de vocabulaire contrôlé hiérarchique."
                 },
                 "nodes": [
                     {
@@ -324,8 +324,8 @@
                     "fr": "Rôle"
                 },
                 "comments": {
-                    "en": "Role",
-                    "fr": "Rôle"
+                    "en": "Defines each character as either main or secondary",
+                    "fr": "Définit chaque personnage selon qu'il est principal ou secondaire"
                 },
                 "nodes": [
                     {
@@ -351,8 +351,8 @@
                     "fr": "Mot-clé"
                 },
                 "comments": {
-                    "en": "Keyword",
-                    "fr": "Mot-clé"
+                    "en": "Keywords associated with the universe created by Lewis Carroll. This list explores the possibilities of hierarchical controlled vocabulary.",
+                    "fr": "Mots-clés associés à l'univers créé par Lewis Carroll. Cette liste explore les possibilités de vocabulaire contrôlé hiérarchique"
                 },
                 "nodes": [
                     {
@@ -1796,8 +1796,8 @@
                         "comments": {
                             "de": "Ereignisse, die in den beiden Geschichten stattfinden. Ereignisse sind entsprechend ihrer Art in Unterklassen unterteilt: Abenteuer, Konflikt und Soziales. Alternative Ereignisse sind privat. Alle Ereignisse sind direkt mit dem Kapitel verknüpft, in dem sie stattfinden. Einige Ereignisse sind entsprechend ihrer Art mit Charakteren verknüpft. Die Eigenschaft „Beschreibung” enthält Stand-off-Links zu einer Klasse „Ort” und dem Charakter Alice.",
                             "en": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are private. All events are directly linked to the chapter in which they take place. Some events are linked to characters, according to their type. The property \"Description\" contains stand-off links toward Location a class and Alice character",
-                            "fr": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are private. All events are directly linked to the chapter in which they take place. Some events are linked to characters, according to their type. The property \"Description\" contains stand-off links toward Location a class and Alice character",
-                            "it": "Events taking place in the two stories. Events are divided in Subclasses, according to their type: Adventure, Conflict, and Social. Alternative Events are private. All events are directly linked to the chapter in which they take place. Some events are linked to characters, according to their type. The property \"Description\" contains stand-off links toward Location a class and Alice character"
+                            "fr": "Événements se déroulant dans les deux histoires. Les événements sont divisés en sous-classes, selon leur type : aventure, conflit et social. Les événements alternatifs sont privés. Tous les événements sont directement liés au chapitre dans lequel ils se déroulent. Certains événements sont liés à des personnages, selon leur type. La propriété « Description » contient des liens vers la classe Lieu et le personnage Alice.",
+                            "it": "Eventi che si verificano nelle due storie. Gli eventi sono suddivisi in sottoclassi, in base al loro tipo: Avventura, Conflitto e Sociale. Gli eventi alternativi sono privati. Tutti gli eventi sono direttamente collegati al capitolo in cui si verificano. Alcuni eventi sono collegati ai personaggi, in base al loro tipo. La proprietà “Descrizione” contiene collegamenti diretti alla classe Location e al personaggio Alice."
                         },
                         "cardinalities": [
                             {
@@ -1863,7 +1863,7 @@
                         "comments": {
                             "de": "Orte, an denen die von Lewis Carroll erdachten Geschichten spielen, unterteilt danach, ob sie sich in der realen Welt oder im Wunderland befinden. Die Orte sind mit Bildern verknüpft.",
                             "en": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland. Locations are linked to Images.",
-                            "fr": "Places where the stories imagined by Lewis Carroll take place, subdivided according to whether they are located in the real world or in Wonderland. Locations are linked to Images.",
+                            "fr": "Lieux où se déroulent les histoires imaginées par Lewis Carroll, subdivisés selon qu'ils se trouvent dans le monde réel ou au pays des merveilles. Les lieux sont liés à des images.",
                             "it": "Luoghi in cui si svolgono le storie immaginate da Lewis Carroll, suddivisi a seconda che si trovino nel mondo reale o nel Paese delle Meraviglie. Le località sono collegate alle immagini."
                         },
                         "cardinalities": [
@@ -2053,7 +2053,7 @@
                         "comments": {
                             "de": "Bucheinbände mehrerer Ausgaben der Geschichten. Die Einbände sind auf externen iiif-Servern gespeichert. Jede Instanz ist mit der Geschichte verknüpft, die in dem Buch enthalten ist, das sie illustriert.",
                             "en": "Book covers of several editions of the stories. The covers are stored on external iiif-servers. Each instance is linked to the story contained in the book they illustrate.",
-                            "fr": "Book covers of several editions of the stories. The covers are stored on external iiif-servers. Each instance is linked to the story contained in the book they illustrate.",
+                            "fr": "Couverture de plusieurs éditions des contes. Les couvertures sont stockées sur des serveurs iiif externes. Chaque instance est liée au conte contenu dans le livre qu'elle illustre.",
                             "it": "Copertine di diverse edizioni delle storie. Le copertine sono archiviate su server iiif esterni. Ogni istanza è collegata alla storia contenuta nel libro che illustra."
                         },
                         "cardinalities": [
@@ -2105,7 +2105,7 @@
                         "comments": {
                             "de": "Audioversion von Alice im Wunderland, Kapitel für Kapitel. Jedes Kapitel der Geschichte ist mit seiner Audioversion verlinkt.",
                             "en": "Audio version of Alice in Wonderland, chapter per chapter. Each Chapter of the story is linked with its audio version.",
-                            "fr": "Audio version of Alice in Wonderland, chapter per chapter. Each Chapter of the story is linked with its audio version.",
+                            "fr": "Version audio d'Alice au pays des merveilles, chapitre par chapitre. Chaque chapitre de l'histoire est lié à sa version audio.",
                             "it": "Versione audio di Alice nel Paese delle Meraviglie, capitolo per capitolo. Ogni capitolo della storia è collegato alla sua versione audio."
                         },
                         "cardinalities": [
@@ -2170,9 +2170,9 @@
                             "it": "10. Video"
                         },
                         "comments": {
-                            "de": "Film adaptations of the two stories. They are connected to the original stories.",
+                            "de": "Verfilmungen der beiden Geschichten. Sie stehen in Verbindung mit den Originalgeschichten.",
                             "en": "Film adaptations of the two stories. They are connected to the original stories.",
-                            "fr": "Film adaptations of the two stories. They are connected to the original stories.",
+                            "fr": "Adaptations cinématographiques des deux histoires. Elles sont liées aux histoires originales.",
                             "it": "Adattamenti cinematografici delle due storie. Sono collegati alle storie originali."
                         },
                         "cardinalities": [
@@ -2238,7 +2238,7 @@
                             "it": "Evento di avventura"
                         },
                         "comments": {
-                            "de": "Unterklasse von „Event“ vom Typ „Abenteuer“. Die Protagonisten (Charaktere) der Ereignisse sind mit dieser Unterklasse verknüpft.",
+                            "de": "Unterklasse von Ereignis, vom Typ Abenteuer. Die Protagonisten (Charaktere) der Ereignisse sind mit dieser Unterklasse verknüpft.",
                             "en": "Subclass of Event, of type Adventure. Protagonists (characters) of the events are linked with this sub-class.",
                             "fr": "Sous-classe de Événement, de type Aventure. Les protagonistes (personnages) des événements sont liés à cette sous-classe.",
                             "it": "Sottoclasse di Evento, di tipo Avventura. I protagonisti (personaggi) degli eventi sono collegati a questa sottoclasse."
@@ -2271,7 +2271,7 @@
                             "it": "Evento alternativo"
                         },
                         "comments": {
-                            "de": "Unterklasse von „Event“ vom Typ „Alternative“. Diese Klasse ist privat zugänglich, wie alle alternativen Daten.",
+                            "de": "Unterklasse von Ereignis, vom Typ Alternativ. Diese Klasse ist privat zugänglich, wie alle alternativen Daten.",
                             "en": "Subclass of Event, of type Alternative. This class is in private access, as are all alternative data.",
                             "fr": "Sous-classe de Événement, de type Alternatif. Cette classe est en accès privé, comme toutes les données alternatives.",
                             "it": "Sottoclasse di Event, di tipo Alternative. Questa classe è ad accesso privato, come tutti i dati alternativi."
@@ -2332,7 +2332,7 @@
                             "it": "Evento sociale"
                         },
                         "comments": {
-                            "de": "Subclass of Event, of type Social. Characters taking part to the event are linked here.",
+                            "de": "Unterklasse von Ereignis, vom Typ Sozial. Die an der Veranstaltung teilnehmenden Charaktere sind hier verlinkt.",
                             "en": "Subclass of Event, of type Social. Characters taking part to the event are linked here.",
                             "fr": "Sous-classe de Événement, de type Social. Les personnages participant à l'événement sont liés ici.",
                             "it": "Sottoclasse di Evento, di tipo Sociale. I personaggi che partecipano all'evento sono collegati qui."
@@ -2414,7 +2414,7 @@
                             "it": "Immagine originale"
                         },
                         "comments": {
-                            "de": "Unterklasse von „Location“. Orte, die in der realen Welt existieren und eine Eigenschaft mit Geonames-Referenzierung enthalten.",
+                            "de": "Unterklasse von Ort. Orte, die in der realen Welt existieren und eine Eigenschaft mit Geonames-Referenzierung enthalten.",
                             "en": "Subclass of Location. Places existing in the real world, containing a property with Geonames referencing.",
                             "fr": "Sous-classe de Location. Lieux existant dans le monde réel, contenant une propriété avec référence Geonames.",
                             "it": "Sottoclasse di Location. Luoghi esistenti nel mondo reale, contenenti una proprietà con riferimento a Geonames."
@@ -2442,7 +2442,7 @@
                             "it": "Immagine alternativa"
                         },
                         "comments": {
-                            "de": "Unterklasse von „Location“. Orte, die in Wonderland existieren.",
+                            "de": "Unterklasse von Ort. Orte, die in Wonderland existieren.",
                             "en": "Subclass of Location. Places in existing in Wonderland.",
                             "fr": "Subclass of Location. Places in existing in Wonderland.",
                             "it": "Sottoclasse di Posizione. Luoghi esistenti nel Paese delle Meraviglie."
