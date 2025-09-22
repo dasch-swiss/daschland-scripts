@@ -3,6 +3,7 @@ from dsp_tools.xmllib import (
     LicenseRecommended,
     Resource,
     create_list_from_input,
+    find_dates_in_string,
 )
 
 
@@ -20,6 +21,7 @@ def main() -> list[Resource]:
         copyright_stripped = row["Copyright"].split("\n")
         copyright_stripped = [c.strip() for c in copyright_stripped if c.strip()]
         copyright_string = " ".join(copyright_stripped)
+        date_published = find_dates_in_string(row["Date Published"])
         # create resource, label and id
         resource = Resource.create_new(
             res_id=row["ID"],
@@ -40,6 +42,7 @@ def main() -> list[Resource]:
         resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
         resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)
         resource.add_uri(":hasUrl", row["Source"])
+        resource.add_date_multiple(":hasDate", date_published)
 
         # append resource to list
         all_resources.append(resource)

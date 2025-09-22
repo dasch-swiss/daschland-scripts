@@ -3,6 +3,7 @@ from dsp_tools.xmllib import (
     LicenseRecommended,
     Resource,
     create_list_from_input,
+    find_dates_in_string,
 )
 
 from src.helpers.image_helper import get_media_file_creation_time
@@ -21,6 +22,7 @@ def main() -> list[Resource]:
         timestamp_value = get_media_file_creation_time(book_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
+        date_published = find_dates_in_string(row["Date Published"])
 
         # create resource, label and id
         resource = Resource.create_new(res_id=row["ID"], restype=":BookEdition", label=row["File Name"])
@@ -41,6 +43,7 @@ def main() -> list[Resource]:
         resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
         resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
         resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)
+        resource.add_date_multiple(":hasDate", date_published)
 
         # append resource to list
         all_resources.append(resource)
