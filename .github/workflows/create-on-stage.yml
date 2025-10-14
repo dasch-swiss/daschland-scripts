@@ -4,6 +4,9 @@ name: Create Alice on Stage after Deployment
 on:
   workflow_dispatch:
 
+env:
+  DSP_USER_PASSWORD: ${{ secrets.DASCH_USER_PW_PROD }}
+
 jobs:
   create:
     runs-on: ubuntu-latest
