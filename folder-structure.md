@@ -1,3 +1,7 @@
+General Remark: I would suggest to add the test data into the test folder.
+While this is not common practice in large repositories, it creates a large emphasis on something, 
+not many people will use extensively.
+
 # Suggestion 1
 
 - clear difference between data and documentation
