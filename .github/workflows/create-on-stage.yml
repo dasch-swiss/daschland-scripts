@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 env:
-  DSP_USER_PASSWORD: ${{ secrets.DASCH_USER_PW_PROD }}
+  DSP_USER_PASSWORD: ${{ secrets.USER_PASSWORD_CHESHIRE_CAT }}
 
 jobs:
   create:
@@ -40,5 +40,5 @@ jobs:
           --suppress-update-prompt \
           -s api.stage.dasch.swiss \
           -u cheshire.cat@dasch.swiss \
-          -p 'alice9548' \
+          -p "$DSP_USER_PASSWORD" \
           data_daschland.xml
