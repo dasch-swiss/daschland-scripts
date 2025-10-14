@@ -109,82 +109,6 @@
         ],
         "lists": [
             {
-                "name": "License",
-                "labels": {
-                    "en": "License",
-                    "fr": "Licence"
-                },
-                "comments": {
-                    "en": "Licenses used in the project",
-                    "fr": "Licences en utilisation dans le projet"
-                },
-                "nodes": [
-                    {
-                        "name": "LIC_001",
-                        "labels": {
-                            "en": "CC0 1.0",
-                            "fr": "CC0 1.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_002",
-                        "labels": {
-                            "en": "CC BY 4.0",
-                            "fr": "CC BY 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_003",
-                        "labels": {
-                            "en": "CC BY-SA 4.0",
-                            "fr": "CC BY-SA 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_004",
-                        "labels": {
-                            "en": "CC BY-NC 4.0",
-                            "fr": "CC BY-NC 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_005",
-                        "labels": {
-                            "en": "CC BY-NC-SA 4.0",
-                            "fr": "CC BY-NC-SA 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_006",
-                        "labels": {
-                            "en": "CC BY-ND 4.0",
-                            "fr": "CC BY-ND 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_007",
-                        "labels": {
-                            "en": "CC BY-NC-ND 4.0",
-                            "fr": "CC BY-NC-ND 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_008",
-                        "labels": {
-                            "en": "PDM 1.0",
-                            "fr": "PDM 1.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_009",
-                        "labels": {
-                            "en": "Public Domain",
-                            "fr": "Domaine Public"
-                        }
-                    }
-                ]
-            },
-            {
                 "name": "Event Type",
                 "labels": {
                     "en": "Event Type",
@@ -280,7 +204,7 @@
                                 "name": "EVT_012",
                                 "labels": {
                                     "en": "Transformation",
-                                    "fr": "Transformation physique"
+                                    "fr": "Transformation"
                                 }
                             },
                             {
@@ -318,33 +242,6 @@
                 ]
             },
             {
-                "name": "Role",
-                "labels": {
-                    "en": "Role",
-                    "fr": "Rôle"
-                },
-                "comments": {
-                    "en": "Defines each character as either main or secondary",
-                    "fr": "Définit chaque personnage selon qu'il est principal ou secondaire"
-                },
-                "nodes": [
-                    {
-                        "name": "R_01",
-                        "labels": {
-                            "en": "Main Character",
-                            "fr": "Personnage principal"
-                        }
-                    },
-                    {
-                        "name": "R_02",
-                        "labels": {
-                            "en": "Secondary Character",
-                            "fr": "Personnage secondaire"
-                        }
-                    }
-                ]
-            },
-            {
                 "name": "Keyword",
                 "labels": {
                     "en": "Keyword",
@@ -360,6 +257,10 @@
                         "labels": {
                             "en": "Theme",
                             "fr": "Thématique"
+                        },
+                        "comments": {
+                            "en": "Themes appearing in the text",
+                            "fr": "Thématiques abordées dans le texte"
                         },
                         "nodes": [
                             {
@@ -660,6 +561,10 @@
                             "en": "Symbolism",
                             "fr": "Symbolisme"
                         },
+                        "comments": {
+                            "en": "Type of symbols that appear in the text",
+                            "fr": "Type de symboles apparaissant dans le texte"
+                        },
                         "nodes": [
                             {
                                 "name": "K_041",
@@ -696,6 +601,10 @@
                         "labels": {
                             "en": "Literary Device",
                             "fr": "Procédé littéraire"
+                        },
+                        "comments": {
+                            "en": "Literary devices that are used in the text",
+                            "fr": "Figures de style utilisées dans le texte"
                         },
                         "nodes": [
                             {
@@ -750,6 +659,109 @@
                                 }
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "License",
+                "labels": {
+                    "en": "License",
+                    "fr": "Licence"
+                },
+                "comments": {
+                    "en": "Licenses used in the project",
+                    "fr": "Licences en utilisation dans le projet"
+                },
+                "nodes": [
+                    {
+                        "name": "LIC_001",
+                        "labels": {
+                            "en": "CC0 1.0",
+                            "fr": "CC0 1.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_002",
+                        "labels": {
+                            "en": "CC BY 4.0",
+                            "fr": "CC BY 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_003",
+                        "labels": {
+                            "en": "CC BY-SA 4.0",
+                            "fr": "CC BY-SA 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_004",
+                        "labels": {
+                            "en": "CC BY-NC 4.0",
+                            "fr": "CC BY-NC 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_005",
+                        "labels": {
+                            "en": "CC BY-NC-SA 4.0",
+                            "fr": "CC BY-NC-SA 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_006",
+                        "labels": {
+                            "en": "CC BY-ND 4.0",
+                            "fr": "CC BY-ND 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_007",
+                        "labels": {
+                            "en": "CC BY-NC-ND 4.0",
+                            "fr": "CC BY-NC-ND 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_008",
+                        "labels": {
+                            "en": "PDM 1.0",
+                            "fr": "PDM 1.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_009",
+                        "labels": {
+                            "en": "Public Domain",
+                            "fr": "Domaine Public"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Role",
+                "labels": {
+                    "en": "Role",
+                    "fr": "Rôle"
+                },
+                "comments": {
+                    "en": "Defines each character as either main or secondary",
+                    "fr": "Définit chaque personnage selon qu'il est principal ou secondaire"
+                },
+                "nodes": [
+                    {
+                        "name": "R_01",
+                        "labels": {
+                            "en": "Main Character",
+                            "fr": "Personnage principal"
+                        }
+                    },
+                    {
+                        "name": "R_02",
+                        "labels": {
+                            "en": "Secondary Character",
+                            "fr": "Personnage secondaire"
+                        }
                     }
                 ]
             }
@@ -1545,11 +1557,6 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": "project-metadata:hasID",
-                                "cardinality": "1",
-                                "gui_order": 13
-                            },
-                            {
                                 "propname": ":hasName",
                                 "cardinality": "0-1",
                                 "gui_order": 1
@@ -1608,6 +1615,11 @@
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
                                 "gui_order": 12
+                            },
+                            {
+                                "propname": "project-metadata:hasID",
+                                "cardinality": "1",
+                                "gui_order": 13
                             }
                         ]
                     },
