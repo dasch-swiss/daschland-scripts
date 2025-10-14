@@ -60,3 +60,14 @@ clean:
     -rm -rf ./*id2iri_mapping*.json
     -rm -rf ./*id2iri_[0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]*.json
     -rm -f ./warnings.log
+
+
+# create the project json
+[no-exit-message]
+daschland-excel2json *FLAGS:
+    dsp-tools excel2json daschland_ontology daschland.json
+
+# create the data xml
+[no-exit-message]
+daschland-xmllib *FLAGS:
+    uv run python src/xmllib/main.py

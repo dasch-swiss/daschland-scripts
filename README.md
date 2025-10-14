@@ -83,12 +83,20 @@ Please use the project admin account "CheshireCat" to upload data to the DSP-API
 
 ```bash
 dsp-tools create daschland.json
-dsp-tools xmlupload -u cheshire.cat@dasch.swiss -p 'alice9548' data_daschland.xml
+dsp-tools xmlupload data_daschland.xml
 ```
 
-### Uploading Data to rdu-08 Test Server
+### Uploading Data to a Test Server
+
+In order to keep the passwords secret you must set an environment variable in a `.env` file in your root directory.
+
+Sample content:
+
+```
+DSP_USER_PASSWORD="your_user_password"
+```
 
 ```bash
-dsp-tools create -s https://api.rdu-08.dasch.swiss -u root@example.com -p 'xxxx' daschland.json
-dsp-tools xmlupload -s https://api.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'alice9548' data_daschland.xml
+dsp-tools create -s https://api.rdu-08.dasch.swiss -u root@example.com -p 'predefined_root_password' daschland.json
+dsp-tools xmlupload -s https://api.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'your_user_password' data_daschland.xml
 ```
