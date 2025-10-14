@@ -4,6 +4,9 @@ name: Create Alice on Stage after Deployment
 on:
   workflow_dispatch:
 
+env:
+  DSP_USER_PASSWORD: ${{ secrets.USER_PASSWORD_CHESHIRE_CAT }}
+
 jobs:
   create:
     runs-on: ubuntu-latest
@@ -37,5 +40,5 @@ jobs:
           --suppress-update-prompt \
           -s api.stage.dasch.swiss \
           -u cheshire.cat@dasch.swiss \
-          -p 'alice9548' \
+          -p "$DSP_USER_PASSWORD" \
           data_daschland.xml
