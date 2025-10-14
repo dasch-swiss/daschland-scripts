@@ -67,10 +67,10 @@ Type `just` to get an overview of available recipes.
 
 ## Create the Project JSON File
 
-We use the `dsp-tools excel2json` command to generate the project definition.
-If you want to update information edit the files in `daschland_ontology`.
+We use the `dsp-tools excel2json` command to generate the JSON file with the project definition.
+If you want to update it, edit the Excel files in `daschland_ontology`.
 
-After that create the new the project JSON with `just daschland-excel2json`.
+After that, create the new the project JSON with `just daschland-excel2json`.
 
 ## Create the Import XML File
 
@@ -96,15 +96,18 @@ dsp-tools xmlupload data_daschland.xml
 
 ### Uploading Data to a Test Server
 
-In order to keep the passwords secret you must set an environment variable in a `.env` file in your root directory.
+The JSON project definition defines user accounts which are created by `dsp-tools create`.
+In order to keep their passwords secret, they are not specified in the JSON.
+Instead, you must set an environment variable in a `.env` file in your root directory.
+This will become the password for all user accounts in the JSON file.
 
 Sample content:
 
 ```
-DSP_USER_PASSWORD="your_user_password"
+DSP_USER_PASSWORD="some_random_password"
 ```
 
 ```bash
 dsp-tools create -s https://api.rdu-08.dasch.swiss -u root@example.com -p 'predefined_root_password' daschland.json
-dsp-tools xmlupload -s https://api.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'your_user_password' data_daschland.xml
+dsp-tools xmlupload -s https://api.rdu-08.dasch.swiss -u cheshire.cat@dasch.swiss -p 'some_random_password' data_daschland.xml
 ```
