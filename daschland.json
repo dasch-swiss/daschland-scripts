@@ -62,7 +62,7 @@
                 "email": "alice@dasch.swiss",
                 "givenName": "Alice Pleasance",
                 "familyName": "Liddell",
-                "password": "alice4322",
+                "password": null,
                 "lang": "en",
                 "status": true,
                 "projects": [
@@ -74,7 +74,7 @@
                 "email": "caterpillar@dasch.swiss",
                 "givenName": "Caterpillar",
                 "familyName": "Wonderland",
-                "password": "alice7652",
+                "password": null,
                 "lang": "de",
                 "status": true,
                 "projects": [
@@ -86,7 +86,7 @@
                 "email": "white.rabbit@dasch.swiss",
                 "givenName": "White",
                 "familyName": "Rabbit",
-                "password": "alice8711",
+                "password": null,
                 "lang": "fr",
                 "status": true,
                 "projects": [
@@ -98,7 +98,7 @@
                 "email": "cheshire.cat@dasch.swiss",
                 "givenName": "Cheshire",
                 "familyName": "Cat",
-                "password": "alice9548",
+                "password": null,
                 "lang": "en",
                 "status": true,
                 "projects": [
@@ -108,82 +108,6 @@
             }
         ],
         "lists": [
-            {
-                "name": "License",
-                "labels": {
-                    "en": "License",
-                    "fr": "Licence"
-                },
-                "comments": {
-                    "en": "Licenses used in the project",
-                    "fr": "Licences en utilisation dans le projet"
-                },
-                "nodes": [
-                    {
-                        "name": "LIC_001",
-                        "labels": {
-                            "en": "CC0 1.0",
-                            "fr": "CC0 1.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_002",
-                        "labels": {
-                            "en": "CC BY 4.0",
-                            "fr": "CC BY 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_003",
-                        "labels": {
-                            "en": "CC BY-SA 4.0",
-                            "fr": "CC BY-SA 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_004",
-                        "labels": {
-                            "en": "CC BY-NC 4.0",
-                            "fr": "CC BY-NC 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_005",
-                        "labels": {
-                            "en": "CC BY-NC-SA 4.0",
-                            "fr": "CC BY-NC-SA 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_006",
-                        "labels": {
-                            "en": "CC BY-ND 4.0",
-                            "fr": "CC BY-ND 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_007",
-                        "labels": {
-                            "en": "CC BY-NC-ND 4.0",
-                            "fr": "CC BY-NC-ND 4.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_008",
-                        "labels": {
-                            "en": "PDM 1.0",
-                            "fr": "PDM 1.0"
-                        }
-                    },
-                    {
-                        "name": "LIC_009",
-                        "labels": {
-                            "en": "Public Domain",
-                            "fr": "Domaine Public"
-                        }
-                    }
-                ]
-            },
             {
                 "name": "Event Type",
                 "labels": {
@@ -313,33 +237,6 @@
                         "labels": {
                             "en": "Alternative",
                             "fr": "Alternatif"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "Role",
-                "labels": {
-                    "en": "Role",
-                    "fr": "Rôle"
-                },
-                "comments": {
-                    "en": "Defines each character as either main or secondary",
-                    "fr": "Définit chaque personnage selon qu'il est principal ou secondaire"
-                },
-                "nodes": [
-                    {
-                        "name": "R_01",
-                        "labels": {
-                            "en": "Main Character",
-                            "fr": "Personnage principal"
-                        }
-                    },
-                    {
-                        "name": "R_02",
-                        "labels": {
-                            "en": "Secondary Character",
-                            "fr": "Personnage secondaire"
                         }
                     }
                 ]
@@ -750,6 +647,109 @@
                                 }
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "License",
+                "labels": {
+                    "en": "License",
+                    "fr": "Licence"
+                },
+                "comments": {
+                    "en": "Licenses used in the project",
+                    "fr": "Licences en utilisation dans le projet"
+                },
+                "nodes": [
+                    {
+                        "name": "LIC_001",
+                        "labels": {
+                            "en": "CC0 1.0",
+                            "fr": "CC0 1.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_002",
+                        "labels": {
+                            "en": "CC BY 4.0",
+                            "fr": "CC BY 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_003",
+                        "labels": {
+                            "en": "CC BY-SA 4.0",
+                            "fr": "CC BY-SA 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_004",
+                        "labels": {
+                            "en": "CC BY-NC 4.0",
+                            "fr": "CC BY-NC 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_005",
+                        "labels": {
+                            "en": "CC BY-NC-SA 4.0",
+                            "fr": "CC BY-NC-SA 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_006",
+                        "labels": {
+                            "en": "CC BY-ND 4.0",
+                            "fr": "CC BY-ND 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_007",
+                        "labels": {
+                            "en": "CC BY-NC-ND 4.0",
+                            "fr": "CC BY-NC-ND 4.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_008",
+                        "labels": {
+                            "en": "PDM 1.0",
+                            "fr": "PDM 1.0"
+                        }
+                    },
+                    {
+                        "name": "LIC_009",
+                        "labels": {
+                            "en": "Public Domain",
+                            "fr": "Domaine Public"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Role",
+                "labels": {
+                    "en": "Role",
+                    "fr": "Rôle"
+                },
+                "comments": {
+                    "en": "Defines each character as either main or secondary",
+                    "fr": "Définit chaque personnage selon qu'il est principal ou secondaire"
+                },
+                "nodes": [
+                    {
+                        "name": "R_01",
+                        "labels": {
+                            "en": "Main Character",
+                            "fr": "Personnage principal"
+                        }
+                    },
+                    {
+                        "name": "R_02",
+                        "labels": {
+                            "en": "Secondary Character",
+                            "fr": "Personnage secondaire"
+                        }
                     }
                 ]
             }
