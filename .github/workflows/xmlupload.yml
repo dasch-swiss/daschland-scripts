@@ -5,6 +5,8 @@ on:
   pull_request:
   schedule:
     - cron: "0 0 * * *"
+env:
+  DSP_USER_PASSWORD: ${{ secrets.USER_PASSWORD_CHESHIRE_CAT }}
 
 jobs:
   xmlupload:
@@ -34,7 +36,7 @@ jobs:
       - name: Create JSON project
         run: uv run dsp-tools create --suppress-update-prompt daschland.json
       - name: Xmlupload
-        run: uv run dsp-tools xmlupload --suppress-update-prompt -u cheshire.cat@dasch.swiss -p 'alice9548' data_daschland.xml
+        run: uv run dsp-tools xmlupload --suppress-update-prompt -u cheshire.cat@dasch.swiss -p "$DSP_USER_PASSWORD" data_daschland.xml
       - name: make logging file available
         uses: actions/upload-artifact@v4
         if: always()
