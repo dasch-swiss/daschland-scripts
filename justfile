@@ -64,10 +64,10 @@ clean:
 
 # create the project json
 [no-exit-message]
-daschland-excel2json *FLAGS:
+daschland-excel2json:
     dsp-tools excel2json daschland_ontology daschland.json
 
 # create the data xml
 [no-exit-message]
-daschland-xmllib *FLAGS:
+daschland-xmllib:
     uv run python src/xmllib/main.py
