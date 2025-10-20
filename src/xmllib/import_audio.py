@@ -1,6 +1,7 @@
 import pandas as pd
 from dsp_tools.xmllib import Resource, create_list_from_input, find_license_in_string
 
+from src.folder_paths import SPREADSHEETS_FOLDER
 from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -11,7 +12,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    audio_df = pd.read_excel("data/spreadsheets/Audio.xlsx", dtype="str")
+    audio_df = pd.read_excel(SPREADSHEETS_FOLDER / "Audio.xlsx", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in audio_df.iterrows():

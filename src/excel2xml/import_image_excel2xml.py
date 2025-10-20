@@ -1,6 +1,7 @@
 import pandas as pd
 from dsp_tools import excel2xml
 
+from src.folder_paths import SPREADSHEETS_FOLDER
 from src.helpers import helper_excel2xml
 from src.helpers.image_helper import get_image_creation_time, get_media_file_size
 
@@ -15,7 +16,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    image_df = pd.read_excel("data/spreadsheets/Image.xlsx", dtype="str")
+    image_df = pd.read_excel(SPREADSHEETS_FOLDER / "Image.xlsx", dtype="str")
 
     # create list mapping
     license_labels_to_names = excel2xml.create_json_list_mapping(

@@ -1,12 +1,14 @@
 import pandas as pd
 from dsp_tools.xmllib import AudioSegmentResource
 
+from src.folder_paths import SPREADSHEETS_FOLDER
+
 
 def main() -> list[AudioSegmentResource]:
     all_segments: list[AudioSegmentResource] = []
 
     # define dataframe
-    audio_segment_df = pd.read_excel("data/spreadsheets/AudioSegment.xlsx")
+    audio_segment_df = pd.read_excel(SPREADSHEETS_FOLDER / "AudioSegment.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in audio_segment_df.iterrows():

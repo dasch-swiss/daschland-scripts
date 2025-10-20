@@ -1,6 +1,7 @@
 import pandas as pd
 from dsp_tools import excel2xml
 
+from src.folder_paths import SPREADSHEETS_FOLDER
 from src.helpers import helper_excel2xml
 
 
@@ -14,7 +15,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    character_df = pd.read_excel("data/spreadsheets/Character.xlsx", dtype="str")
+    character_df = pd.read_excel(SPREADSHEETS_FOLDER / "Character.xlsx", dtype="str")
 
     # create list mapping
     keyword_labels_to_names = excel2xml.create_json_list_mapping(

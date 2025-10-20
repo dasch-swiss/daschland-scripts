@@ -1,6 +1,7 @@
 import pandas as pd
 from dsp_tools import excel2xml
 
+from src.folder_paths import SPREADSHEETS_FOLDER
 from src.helpers import helper_excel2xml
 from src.helpers.image_helper import (
     get_media_file_creation_time,
@@ -18,7 +19,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    documentation_df = pd.read_excel("data/spreadsheets/Documentation.xlsx", dtype="str")
+    documentation_df = pd.read_excel(SPREADSHEETS_FOLDER / "Documentation.xlsx", dtype="str")
 
     # create list mapping
     license_labels_to_names = excel2xml.create_json_list_mapping(

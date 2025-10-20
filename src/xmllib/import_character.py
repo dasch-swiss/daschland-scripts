@@ -9,6 +9,7 @@ from dsp_tools.xmllib import (
     is_nonempty_value,
 )
 
+from src.folder_paths import SPREADSHEETS_FOLDER
 from src.helpers.helper import select_footnote_text
 
 
@@ -19,7 +20,7 @@ def main() -> list[Resource]:
     path_to_json = "daschland.json"
 
     # define dataframe
-    character_df = pd.read_excel("data/spreadsheets/Character.xlsx", dtype="str")
+    character_df = pd.read_excel(SPREADSHEETS_FOLDER / "Character.xlsx", dtype="str")
 
     # create list mapping
     list_lookup = ListLookup.create_new(
