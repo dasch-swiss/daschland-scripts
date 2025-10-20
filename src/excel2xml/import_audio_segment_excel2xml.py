@@ -1,6 +1,7 @@
 import pandas as pd
 from dsp_tools import excel2xml
 
+from src.folder_paths import SPREADSHEETS_FOLDER
 from src.helpers import helper_excel2xml
 
 
@@ -11,7 +12,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    audio_segment_df = pd.read_excel("data/spreadsheets/AudioSegment.xlsx")
+    audio_segment_df = pd.read_excel(SPREADSHEETS_FOLDER / "AudioSegment.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in audio_segment_df.iterrows():
