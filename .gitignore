@@ -142,3 +142,5 @@ upload_protocol.txt
 
 # Claude Code
 .claude/
+logging.log
+warnings.log
