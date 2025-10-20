@@ -10,6 +10,7 @@ from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
 )
+from src.folder_paths import SPREADSHEETS_FOLDER
 
 
 def main() -> list[Resource]:
