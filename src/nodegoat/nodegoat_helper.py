@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pandas as pd
 
 from src.folder_paths import SPREADSHEETS_FOLDER
@@ -38,5 +40,5 @@ def _add_full_file_path_to_df(df: pd.DataFrame) -> pd.DataFrame:
     return df_copy
 
 
-def _write_df_to_csv(df: pd.DataFrame, path: str) -> None:
+def _write_df_to_csv(df: pd.DataFrame, path: Path) -> None:
     df.to_csv(path, index=False)
