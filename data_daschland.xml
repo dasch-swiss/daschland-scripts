@@ -14099,7 +14099,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Archive.csv" id="MAT_002" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Archive.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Archive.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14124,7 +14124,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Audio.csv" id="MAT_003" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Audio.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Audio.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14149,7 +14149,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Book.csv" id="MAT_004" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Book.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Book.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14174,7 +14174,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="BookChapter.csv" id="MAT_005" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/BookChapter.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/BookChapter.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14199,7 +14199,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="BookEdition.csv" id="MAT_006" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/BookEdition.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/BookEdition.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14224,7 +14224,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Character.csv" id="MAT_007" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Character.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Character.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14249,7 +14249,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Documentation.csv" id="MAT_008" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Documentation.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Documentation.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14274,7 +14274,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Event.csv" id="MAT_009" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Event.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Event.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14299,7 +14299,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Image.csv" id="MAT_010" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Image.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Image.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14324,7 +14324,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="List_Event_Type.csv" id="MAT_011" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/List_Event_Type.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/List_Event_Type.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14349,7 +14349,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="List_License.csv" id="MAT_012" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/List_License.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/List_License.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14374,7 +14374,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="List_Role.csv" id="MAT_013" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/List_Role.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/List_Role.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14399,7 +14399,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Location.csv" id="MAT_014" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Location.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Location.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14424,7 +14424,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Material.csv" id="MAT_015" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Material.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Material.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14449,7 +14449,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Region.csv" id="MAT_016" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Region.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Region.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14474,7 +14474,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="Video.csv" id="MAT_017" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/Video.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/Video.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14499,7 +14499,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="VideoSegment.csv" id="MAT_018" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/VideoSegment.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/VideoSegment.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -14524,7 +14524,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="AudioSegment.csv" id="MAT_019" restype="project-metadata:Material">
-        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/nodegoat/AudioSegment.csv</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/cc-by-4.0" copyright-holder="DaSCH" authorship-id="authorship_3">data/spreadsheets/AudioSegment.csv</bitstream>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
