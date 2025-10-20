@@ -28,7 +28,7 @@ jobs:
           -s api.stage.dasch.swiss \
           -u dasch@dasch.swiss \
           -p "$PW" \
-          daschland.json
+          output/daschland.json
         env:
           PW: ${{ secrets.DASCH_USER_PW_PROD }}
       - name: Upload data
@@ -38,4 +38,4 @@ jobs:
           -s api.stage.dasch.swiss \
           -u cheshire.cat@dasch.swiss \
           -p 'alice9548' \
-          data_daschland.xml
+          output/data_daschland.xml
