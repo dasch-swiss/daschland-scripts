@@ -9,13 +9,14 @@ from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
 )
+from src.folder_paths import SPREADSHEETS_FOLDER
 
 
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    archive_df = pd.read_excel("data/spreadsheets/Archive.xlsx")
+    archive_df = pd.read_excel(SPREADSHEETS_FOLDER / "Archive.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in archive_df.iterrows():
