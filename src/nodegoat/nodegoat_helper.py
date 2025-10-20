@@ -1,5 +1,8 @@
+from pathlib import Path
+
 import pandas as pd
 
+from src.folder_paths import NODEGOAT_FOLDER, SPREADSHEETS_FOLDER
 from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -7,17 +10,17 @@ from src.helpers.image_helper import (
 
 
 def update_spreadsheet_df(df_name: str) -> None:
-    df = pd.read_excel(f"data/spreadsheets/{df_name}.xlsx", dtype="str")
+    df = pd.read_excel(SPREADSHEETS_FOLDER / f"{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
-    _write_df_to_csv(df_cleaned, f"data/nodegoat/{df_name}.csv")
+    _write_df_to_csv(df_cleaned, NODEGOAT_FOLDER / f"{df_name}.csv")
 
 
 def update_multimedia_df(df_name: str) -> None:
-    df = pd.read_excel(f"data/spreadsheets/{df_name}.xlsx", dtype="str")
+    df = pd.read_excel(SPREADSHEETS_FOLDER / f"{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
     df_with_filepath = _add_full_file_path_to_df(df_cleaned)
     updated_df = _add_exif_data_to_df(df_with_filepath)
-    _write_df_to_csv(updated_df, f"data/nodegoat/{df_name}.csv")
+    _write_df_to_csv(updated_df, NODEGOAT_FOLDER / f"{df_name}.csv")
 
 
 def _add_exif_data_to_df(df: pd.DataFrame) -> pd.DataFrame:
@@ -37,5 +40,5 @@ def _add_full_file_path_to_df(df: pd.DataFrame) -> pd.DataFrame:
     return df_copy
 
 
-def _write_df_to_csv(df: pd.DataFrame, path: str) -> None:
+def _write_df_to_csv(df: pd.DataFrame, path: Path) -> None:
     df.to_csv(path, index=False)

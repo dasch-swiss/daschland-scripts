@@ -5,6 +5,7 @@ from dsp_tools.xmllib import (
     create_list_from_input,
 )
 
+from src.folder_paths import SPREADSHEETS_FOLDER
 from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -15,7 +16,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    documentation_df = pd.read_excel("data/spreadsheets/Documentation.xlsx", dtype="str")
+    documentation_df = pd.read_excel(SPREADSHEETS_FOLDER / "Documentation.xlsx", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in documentation_df.iterrows():

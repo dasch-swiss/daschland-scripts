@@ -4,12 +4,14 @@ from dsp_tools.xmllib import (
     create_list_from_input,
 )
 
+from src.folder_paths import SPREADSHEETS_FOLDER
+
 
 def main() -> list[LinkResource]:
     all_link_resources: list[LinkResource] = []
 
     # define dataframe
-    link_df = pd.read_excel("data/spreadsheets/LinkObject.xlsx", dtype="str")
+    link_df = pd.read_excel(SPREADSHEETS_FOLDER / "LinkObject.xlsx", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in link_df.iterrows():
