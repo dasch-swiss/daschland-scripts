@@ -1,7 +1,7 @@
 import pandas as pd
-from dsp_tools.xmllib import LicenseRecommended, Resource, create_list_from_input, is_nonempty_value
+from dsp_tools.xmllib import LicenseRecommended, Resource, create_list_from_input
 
-from src.folder_paths import SPREADSHEETS_FOLDER
+from src.folder_paths import RAW_FOLDER
 from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -12,15 +12,17 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    material_df = pd.read_excel(SPREADSHEETS_FOLDER / "Material.xlsx", dtype="str")
+    material_df = pd.read_excel(RAW_FOLDER / "Material.xlsx", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in material_df.iterrows():
-        originals_path = (
-            f"{row['Directory']}{row['File Name']}" if is_nonempty_value(row["Directory"]) else row["File Name"]
-        )
-        timestamp_value = get_media_file_creation_time(originals_path)
-        file_size_value = get_media_file_size(originals_path)
+        if row['File Name'].lower().endswith('.csv'):
+            material_path = f"{RAW_FOLDER / row['File Name']}"
+        else:
+            material_path = f"{row['File Name']}"
+
+        timestamp_value = get_media_file_creation_time(material_path)
+        file_size_value = get_media_file_size(material_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
@@ -29,7 +31,7 @@ def main() -> list[Resource]:
 
         # add file to resource
         resource.add_file(
-            originals_path, license=LicenseRecommended.CC.BY, copyright_holder=row["Copyright"], authorship=authors
+            material_path, license=LicenseRecommended.CC.BY, copyright_holder=row["Copyright"], authorship=authors
         )
 
         # add properties to resource

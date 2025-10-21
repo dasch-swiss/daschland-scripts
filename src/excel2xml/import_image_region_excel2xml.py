@@ -3,7 +3,7 @@ import json
 import pandas as pd
 from dsp_tools import excel2xml
 
-from src.folder_paths import SPREADSHEETS_FOLDER
+from src.folder_paths import RAW_FOLDER
 from src.helpers import helper_excel2xml
 
 
@@ -14,7 +14,7 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframe
-    archive_df = pd.read_excel(SPREADSHEETS_FOLDER / "Region.xlsx")
+    archive_df = pd.read_excel(RAW_FOLDER / "Region.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in archive_df.iterrows():
