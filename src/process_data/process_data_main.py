@@ -1,16 +1,11 @@
-import pandas as pd
-
 from src.folder_paths import (
     ARCHIVE_FOLDER,
     AUDIO_FOLDER,
     BOOK_EDITION_FOLDER,
     DOCUMENTATION_FOLDER,
-    IMAGE_ALTERNATIVE_FOLDER,
-    IMAGE_FOLDER,
     INPUT_FOLDER,
-    PROCESSED_FOLDER,
+    MULTIMEDIA_FOLDER,
     VIDEO_FOLDER,
-    MULTIMEDIA_FOLDER
 )
 from src.process_data.process_data_helper import (
     update_multimedia_df,

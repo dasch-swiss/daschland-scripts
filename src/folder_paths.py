@@ -1,6 +1,5 @@
 from pathlib import Path
 
-from PIL.JpegImagePlugin import RAWMODE
 
 INPUT_FOLDER = Path("data")
 

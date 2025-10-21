@@ -15,10 +15,12 @@ def update_spreadsheet_df(df_name: str) -> None:
     _write_df_to_csv(df_cleaned, PROCESSED_FOLDER / f"{df_name}.csv")
 
 
-def update_multimedia_df(df_name: str, default_multimedia_folder, alternative_column=None) -> None:
+def update_multimedia_df(df_name: str,multimedia_folder, alternative_column=None) -> None:
     df = pd.read_excel(RAW_FOLDER / f"{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
-    multimedia_folder = (default_multimedia_folder/df[alternative_column] if alternative_column is not None else default_multimedia_folder)
+    multimedia_folder = (
+        multimedia_folder/df[alternative_column] if alternative_column is not None else multimedia_folder
+    )
     updated_df = _add_exif_data_to_df(df_cleaned, multimedia_folder)
     _write_df_to_csv(df=updated_df, path=PROCESSED_FOLDER / f"{df_name}.csv")
 
