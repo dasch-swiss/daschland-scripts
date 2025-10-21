@@ -29,9 +29,11 @@ def update_multimedia_df(df_name: str, multimedia_folder: pathlib.Path, alternat
 def _add_exif_data_to_df(df: pd.DataFrame, multimedia_folder: pathlib.Path) -> pd.DataFrame:
     # Ensure you're working with a copy of the DataFrame
     df_copy = df.copy()
-    filepath = multimedia_folder / df_copy["File Name"]
-    df_copy.loc[:, "Time Stamp"] = filepath.apply(get_media_file_creation_time)
-    df_copy.loc[:, "File Size"] = filepath.apply(get_media_file_size)
+    # Construct a Series of Path objects
+    filepath_series = (multimedia_folder / df_copy["File Name"]).apply(lambda x: x)
+    # Now apply your functions to the Series
+    df_copy.loc[:, "Time Stamp"] = filepath_series.apply(get_media_file_creation_time)
+    df_copy.loc[:, "File Size"] = filepath_series.apply(get_media_file_size)
     return df_copy
 
 
