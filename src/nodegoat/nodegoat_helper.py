@@ -7,6 +7,7 @@ from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
 )
+from src.folder_paths import MULTIMEDIA_FOLDER
 
 
 def update_spreadsheet_df(df_name: str) -> None:
@@ -15,18 +16,19 @@ def update_spreadsheet_df(df_name: str) -> None:
     _write_df_to_csv(df_cleaned, RAW_FOLDER / f"{df_name}.csv")
 
 
-def update_multimedia_df(df_name: str) -> None:
+def update_multimedia_df(df_name: str, multimedia_folder) -> None:
     df = pd.read_excel(RAW_FOLDER / f"{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
-    updated_df = _add_exif_data_to_df(df_cleaned)
+    updated_df = _add_exif_data_to_df(df_cleaned, multimedia_folder)
     _write_df_to_csv(updated_df, RAW_FOLDER / f"{df_name}.csv")
 
 
-def _add_exif_data_to_df(df: pd.DataFrame) -> pd.DataFrame:
+def _add_exif_data_to_df(df: pd.DataFrame, multimedia_folder) -> pd.DataFrame:
     # Ensure you're working with a copy of the DataFrame
     df_copy = df.copy()
-    df_copy.loc[:, "Time Stamp"] = df_copy["File Path"].apply(get_media_file_creation_time)
-    df_copy.loc[:, "File Size"] = df_copy["File Path"].apply(get_media_file_size)
+    filepath = multimedia_folder/df_copy["File Name"]
+    df_copy.loc[:, "Time Stamp"] = filepath.apply(get_media_file_creation_time)
+    df_copy.loc[:, "File Size"] = filepath.apply(get_media_file_size)
     return df_copy
 
 

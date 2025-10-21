@@ -1,3 +1,13 @@
+from src.folder_paths import (
+    ARCHIVE_FOLDER,
+    AUDIO_FOLDER,
+    BOOK_EDITION_FOLDER,
+    DOCUMENTATION_FOLDER,
+    IMAGE_ALTERNATIVE_FOLDER,
+    IMAGE_FOLDER,
+    PROCESSED_FOLDER,
+    VIDEO_FOLDER,
+)
 from src.nodegoat.nodegoat_helper import (
     update_multimedia_df,
     update_spreadsheet_df,
@@ -6,25 +16,32 @@ from src.nodegoat.nodegoat_helper import (
 
 def main() -> None:
     archive_df_name = "Archive"
-    update_multimedia_df(archive_df_name)
+    multimedia_folder = ARCHIVE_FOLDER
+    update_multimedia_df(archive_df_name, multimedia_folder)
 
     audio_df_name = "Audio"
-    update_multimedia_df(audio_df_name)
+    multimedia_folder = AUDIO_FOLDER
+    update_multimedia_df(audio_df_name, multimedia_folder)
 
     book_edition_df_name = "BookEdition"
-    update_multimedia_df(book_edition_df_name)
+    multimedia_folder = AUDIO_FOLDER
+    update_multimedia_df(book_edition_df_name, multimedia_folder)
 
     documentation_df_name = "Documentation"
-    update_multimedia_df(documentation_df_name)
+    multimedia_folder = AUDIO_FOLDER
+    update_multimedia_df(documentation_df_name, multimedia_folder)
 
     image_df_name = "Image"
-    update_multimedia_df(image_df_name)
+    multimedia_folder = AUDIO_FOLDER
+    update_multimedia_df(image_df_name, multimedia_folder)
 
     material_df_name = "Material"
-    update_multimedia_df(material_df_name)
+    multimedia_folder = M
+    update_multimedia_df(material_df_name, multimedia_folder)
 
     video_df_name = "Video"
-    update_multimedia_df(video_df_name)
+    multimedia_folder = VIDEO_FOLDER
+    update_multimedia_df(video_df_name, multimedia_folder)
 
     book_df_name = "Book"
     update_spreadsheet_df(book_df_name)

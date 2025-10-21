@@ -5252,7 +5252,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </list-prop>
     </resource>
     <resource label="BE_Alice_in_Wonderland.pdf" id="BE_001" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="BookVirtual Corp. U.S. Patent Pending." authorship-id="authorship_6">data/multimedia/book/BE_Alice_in_Wonderland.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="BookVirtual Corp. U.S. Patent Pending." authorship-id="authorship_6">data/multimedia/book_edition/BE_Alice_in_Wonderland.pdf</bitstream>
         <date-prop name=":hasDate">
             <date>GREGORIAN:CE:2000:CE:2000</date>
         </date-prop>
@@ -5280,7 +5280,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </time-prop>
     </resource>
     <resource label="BE_Through_the_Looking_Glass.pdf" id="BE_002" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_8">data/multimedia/book/BE_Through_the_Looking_Glass.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_8">data/multimedia/book_edition/BE_Through_the_Looking_Glass.pdf</bitstream>
         <date-prop name=":hasDate">
             <date>GREGORIAN:CE:1902:CE:1902</date>
         </date-prop>
@@ -5308,7 +5308,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </time-prop>
     </resource>
     <resource label="BE_throughlooking00carr.pdf" id="BE_003" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_6">data/multimedia/book/BE_throughlooking00carr.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_6">data/multimedia/book_edition/BE_throughlooking00carr.pdf</bitstream>
         <date-prop name=":hasDate">
             <date>GREGORIAN:CE:1872:CE:1872</date>
         </date-prop>
@@ -5336,7 +5336,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </time-prop>
     </resource>
     <resource label="BE_adventuresalices00carrrich.pdf" id="BE_004" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_8">data/multimedia/book/BE_adventuresalices00carrrich.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Harper &amp; Brothers" authorship-id="authorship_8">data/multimedia/book_edition/BE_adventuresalices00carrrich.pdf</bitstream>
         <date-prop name=":hasDate">
             <date>GREGORIAN:CE:1901:CE:1901</date>
         </date-prop>
@@ -5364,7 +5364,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         </time-prop>
     </resource>
     <resource label="BE_alicesadventur00carr.pdf" id="BE_005" restype=":BookEdition">
-        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_6">data/multimedia/book/BE_alicesadventur00carr.pdf</bitstream>
+        <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="MacMillan and Co." authorship-id="authorship_6">data/multimedia/book_edition/BE_alicesadventur00carr.pdf</bitstream>
         <date-prop name=":hasDate">
             <date>GREGORIAN:CE:1866:CE:1866</date>
         </date-prop>
