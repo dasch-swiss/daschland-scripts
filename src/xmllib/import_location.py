@@ -1,14 +1,14 @@
 import pandas as pd
 from dsp_tools.xmllib import Resource, create_list_from_input
 
-from src.folder_paths import SPREADSHEETS_FOLDER
+from src.folder_paths import RAW_FOLDER
 
 
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    location_df = pd.read_excel(SPREADSHEETS_FOLDER / "Location.xlsx", dtype="str")
+    location_df = pd.read_excel(RAW_FOLDER / "Location.xlsx", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in location_df.iterrows():

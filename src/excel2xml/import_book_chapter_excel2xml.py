@@ -1,7 +1,7 @@
 import pandas as pd
 from dsp_tools import excel2xml
 
-from src.folder_paths import SPREADSHEETS_FOLDER
+from src.folder_paths import RAW_FOLDER
 from src.helpers import helper_excel2xml
 from src.helpers.helper import make_cols_mapping_with_columns
 
@@ -16,8 +16,8 @@ def main():
     root = helper_excel2xml.make_root()
 
     # define dataframes
-    book_chapter_df = pd.read_excel(SPREADSHEETS_FOLDER / "BookChapter.xlsx", dtype="str")
-    book_df = pd.read_excel(SPREADSHEETS_FOLDER / "Book.xlsx", dtype="str")
+    book_chapter_df = pd.read_excel(RAW_FOLDER / "BookChapter.xlsx", dtype="str")
+    book_df = pd.read_excel(RAW_FOLDER / "Book.xlsx", dtype="str")
 
     # create list mapping
     keyword_labels_to_names = excel2xml.create_json_list_mapping(

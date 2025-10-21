@@ -1,8 +1,6 @@
 from dsp_tools.xmllib import XMLRoot
 from icecream import ic
 
-from src.nodegoat import nodegoat_files_update
-
 # Import scripts
 # file names must not contain whitespaces
 from src.xmllib import (
@@ -29,6 +27,10 @@ from src.xmllib import (
 def main() -> None:
     # create the root element dsp-tools
     root = XMLRoot.create_new(shortcode="0854", default_ontology="daschland")
+
+    # update nodegoat files
+    nodegoat_files_update.main()
+    ic("nodegoat files updated")
 
     # import all resources
     all_archive = import_archive.main()
@@ -102,9 +104,7 @@ def main() -> None:
     # write the root to a xml file
     root.write_file("data_daschland.xml")
 
-    # update nodegoat files
-    nodegoat_files_update.main()
-    ic("nodegoat files updated")
+
 
 
 if __name__ == "__main__":
