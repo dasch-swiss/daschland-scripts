@@ -17,7 +17,9 @@ def update_spreadsheet_df(df_name: str) -> None:
     _write_df_to_csv(df_cleaned, PROCESSED_FOLDER / f"{df_name}.csv")
 
 
-def update_multimedia_df(df_name: str, multimedia_folder: pathlib.Path, alternative_column: Optional[str] = None) -> None:
+def update_multimedia_df(
+        df_name: str, multimedia_folder: pathlib.Path, alternative_column: Optional[str] = None
+) -> None:
     df = pd.read_excel(RAW_FOLDER / f"{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
     multimedia_folder = (
