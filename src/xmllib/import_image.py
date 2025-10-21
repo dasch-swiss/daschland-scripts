@@ -23,13 +23,13 @@ def main() -> list[Resource]:
             restype = ":ImageAlternative"
             description = row["Description Alternative"]
             description_property = ":hasDescriptionAlternative"
-            image_path = f"{IMAGE_ALTERNATIVE_FOLDER/row['File Name']}"
+            image_path = f"{IMAGE_ALTERNATIVE_FOLDER / row['File Name']}"
             file_permissions = Permissions.LIMITED_VIEW
         else:
             restype = ":ImageOriginal"
             description = row["Description"]
             description_property = ":hasDescription"
-            image_path = f"{IMAGE_FOLDER/row['File Name']}"
+            image_path = f"{IMAGE_FOLDER / row['File Name']}"
             file_permissions = Permissions.PROJECT_SPECIFIC_PERMISSIONS
 
         timestamp_value = get_image_creation_time(image_path)

@@ -3,7 +3,6 @@ from src.xmllib import xmllib_main
 
 
 def main() -> None:
-
     process_data_main.main()
     xmllib_main.main()
 

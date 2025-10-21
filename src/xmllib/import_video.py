@@ -21,7 +21,7 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in video_df.iterrows():
         # define variables
-        video_path = f"{VIDEO_FOLDER/row['File Name']}"
+        video_path = f"{VIDEO_FOLDER / row['File Name']}"
         timestamp_value = get_media_file_creation_time(video_path)
         file_size_value = get_media_file_size(video_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")

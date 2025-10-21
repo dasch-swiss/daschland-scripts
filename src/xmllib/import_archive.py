@@ -21,7 +21,7 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in archive_df.iterrows():
         # define variables
-        archive_path = f"{ARCHIVE_FOLDER/row['File Name']}"
+        archive_path = f"{ARCHIVE_FOLDER / row['File Name']}"
         timestamp_value = get_media_file_creation_time(archive_path)
         file_size_value = get_media_file_size(archive_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")

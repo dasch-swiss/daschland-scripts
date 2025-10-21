@@ -17,7 +17,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define json file path
-    path_to_json = OUTPUT_FOLDER/"daschland.json"
+    path_to_json = OUTPUT_FOLDER / "daschland.json"
 
     # define dataframe
     character_df = pd.read_excel(RAW_FOLDER / "Character.xlsx", dtype="str")

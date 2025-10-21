@@ -101,7 +101,5 @@ def main() -> None:
     root.write_file("data_daschland.xml")
 
 
-
-
 if __name__ == "__main__":
     main()

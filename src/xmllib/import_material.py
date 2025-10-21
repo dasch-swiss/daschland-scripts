@@ -16,10 +16,10 @@ def main() -> list[Resource]:
 
     # iterate through rows of dataframe:
     for _, row in material_df.iterrows():
-        if row['File Name'].lower().endswith('.csv'):
-            material_path = f"{PROCESSED_FOLDER/row['File Name']}"
+        if row["File Name"].lower().endswith(".csv"):
+            material_path = f"{PROCESSED_FOLDER / row['File Name']}"
         else:
-            material_path = f"{OUTPUT_FOLDER/row['File Name']}"
+            material_path = f"{OUTPUT_FOLDER / row['File Name']}"
 
         timestamp_value = get_media_file_creation_time(material_path)
         file_size_value = get_media_file_size(material_path)

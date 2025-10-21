@@ -17,7 +17,7 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in audio_df.iterrows():
         # define variables
-        audio_path = f"{AUDIO_FOLDER/row['File Name']}"
+        audio_path = f"{AUDIO_FOLDER / row['File Name']}"
         timestamp_value = get_media_file_creation_time(audio_path)
         file_size_value = get_media_file_size(audio_path)
         authors = create_list_from_input(row["Authorship"], separator=", ")

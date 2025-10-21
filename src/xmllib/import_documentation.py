@@ -21,7 +21,7 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in documentation_df.iterrows():
         # define variables
-        documentation_path = f"{DOCUMENTATION_FOLDER/row['File Name']}"
+        documentation_path = f"{DOCUMENTATION_FOLDER / row['File Name']}"
         timestamp_value = get_media_file_creation_time(documentation_path)
         file_size_value = get_media_file_size(documentation_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")

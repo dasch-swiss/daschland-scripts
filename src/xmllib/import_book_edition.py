@@ -19,7 +19,7 @@ def main() -> list[Resource]:
     # iterate through rows of dataframe:
     for _, row in book_edition_df.iterrows():
         # define variables
-        book_path = f"{BOOK_EDITION_FOLDER/row['File Name']}"
+        book_path = f"{BOOK_EDITION_FOLDER / row['File Name']}"
         timestamp_value = get_media_file_creation_time(book_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
