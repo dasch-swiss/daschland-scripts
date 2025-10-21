@@ -28,10 +28,6 @@ def main() -> None:
     # create the root element dsp-tools
     root = XMLRoot.create_new(shortcode="0854", default_ontology="daschland")
 
-    # update nodegoat files
-    nodegoat_files_update.main()
-    ic("nodegoat files updated")
-
     # import all resources
     all_archive = import_archive.main()
     root.add_resource_multiple(all_archive)

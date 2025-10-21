@@ -1,14 +1,14 @@
 import pandas as pd
 from dsp_tools.xmllib import ListLookup, Resource, convert_to_bool_string, create_list_from_input, is_nonempty_value
 
-from src.folder_paths import RAW_FOLDER
+from src.folder_paths import OUTPUT_FOLDER, RAW_FOLDER
 
 
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define json file path
-    path_to_json = "daschland.json"
+    path_to_json = OUTPUT_FOLDER/"daschland.json"
 
     # define dataframe
     event_df = pd.read_excel(RAW_FOLDER / "Event.xlsx", dtype="str")

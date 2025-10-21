@@ -1,3 +1,5 @@
+import pandas as pd
+
 from src.folder_paths import (
     ARCHIVE_FOLDER,
     AUDIO_FOLDER,
@@ -5,10 +7,12 @@ from src.folder_paths import (
     DOCUMENTATION_FOLDER,
     IMAGE_ALTERNATIVE_FOLDER,
     IMAGE_FOLDER,
+    INPUT_FOLDER,
     PROCESSED_FOLDER,
     VIDEO_FOLDER,
+    MULTIMEDIA_FOLDER
 )
-from src.nodegoat.nodegoat_helper import (
+from src.process_data.process_data_helper import (
     update_multimedia_df,
     update_spreadsheet_df,
 )
@@ -24,20 +28,18 @@ def main() -> None:
     update_multimedia_df(audio_df_name, multimedia_folder)
 
     book_edition_df_name = "BookEdition"
-    multimedia_folder = AUDIO_FOLDER
+    multimedia_folder = BOOK_EDITION_FOLDER
     update_multimedia_df(book_edition_df_name, multimedia_folder)
 
     documentation_df_name = "Documentation"
-    multimedia_folder = AUDIO_FOLDER
+    multimedia_folder = DOCUMENTATION_FOLDER
     update_multimedia_df(documentation_df_name, multimedia_folder)
 
     image_df_name = "Image"
-    multimedia_folder = AUDIO_FOLDER
-    update_multimedia_df(image_df_name, multimedia_folder)
+    update_multimedia_df(image_df_name, MULTIMEDIA_FOLDER, "Multimedia Folder")
 
     material_df_name = "Material"
-    multimedia_folder = M
-    update_multimedia_df(material_df_name, multimedia_folder)
+    update_multimedia_df(material_df_name, INPUT_FOLDER, "Multimedia Folder")
 
     video_df_name = "Video"
     multimedia_folder = VIDEO_FOLDER
