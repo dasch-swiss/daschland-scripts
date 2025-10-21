@@ -98,7 +98,7 @@ def main() -> None:
     ic(len(all_links))
 
     # write the root to a xml file
-    root.write_file("data_daschland.xml")
+    root.write_file("data/output/data_daschland.xml")
 
 
 if __name__ == "__main__":

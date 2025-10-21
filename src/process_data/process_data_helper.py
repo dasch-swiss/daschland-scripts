@@ -15,7 +15,7 @@ def update_spreadsheet_df(df_name: str) -> None:
     _write_df_to_csv(df_cleaned, PROCESSED_FOLDER / f"{df_name}.csv")
 
 
-def update_multimedia_df(df_name: str, multimedia_folder, alternative_column=None) -> None:
+def update_multimedia_df(df_name: str, multimedia_folder: Path, alternative_column=None) -> None:
     df = pd.read_excel(RAW_FOLDER / f"{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
     multimedia_folder = (
@@ -25,7 +25,7 @@ def update_multimedia_df(df_name: str, multimedia_folder, alternative_column=Non
     _write_df_to_csv(df=updated_df, path=PROCESSED_FOLDER / f"{df_name}.csv")
 
 
-def _add_exif_data_to_df(df: pd.DataFrame, multimedia_folder) -> pd.DataFrame:
+def _add_exif_data_to_df(df: pd.DataFrame, multimedia_folder: Path) -> pd.DataFrame:
     # Ensure you're working with a copy of the DataFrame
     df_copy = df.copy()
     filepath = multimedia_folder / df_copy["File Name"]
