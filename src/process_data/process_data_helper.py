@@ -1,5 +1,6 @@
 import pathlib
 from pathlib import Path
+from typing import Optional
 
 import pandas as pd
 
@@ -16,7 +17,7 @@ def update_spreadsheet_df(df_name: str) -> None:
     _write_df_to_csv(df_cleaned, PROCESSED_FOLDER / f"{df_name}.csv")
 
 
-def update_multimedia_df(df_name: str, multimedia_folder: pathlib.Path, alternative_column=None) -> None:
+def update_multimedia_df(df_name: str, multimedia_folder: pathlib.Path, alternative_column: Optional[str] = None) -> None:
     df = pd.read_excel(RAW_FOLDER / f"{df_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
     multimedia_folder = (
@@ -30,7 +31,7 @@ def _add_exif_data_to_df(df: pd.DataFrame, multimedia_folder: pathlib.Path) -> p
     # Ensure you're working with a copy of the DataFrame
     df_copy = df.copy()
     # Construct a Series of Path objects
-    filepath_series = (multimedia_folder / df_copy["File Name"]).apply(lambda x: x)
+    filepath_series = multimedia_folder / df_copy["File Name"]
     # Now apply your functions to the Series
     df_copy.loc[:, "Time Stamp"] = filepath_series.apply(get_media_file_creation_time)
     df_copy.loc[:, "File Size"] = filepath_series.apply(get_media_file_size)
