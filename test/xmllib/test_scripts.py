@@ -11,7 +11,7 @@ from dsp_tools.error.xmllib_warnings import XmllibInputInfo
 
 from src.xmllib.xmllib_main import main
 
-XML_FILE = Path("data_daschland.xml")
+XML_FILE = Path("data/output/data_daschland.xml")
 ENV_VARS = ["XMLLIB_SORT_RESOURCES", "XMLLIB_SORT_PROPERTIES", "XMLLIB_AUTHORSHIP_ID_WITH_INTEGERS"]
 
 
