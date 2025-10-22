@@ -48,14 +48,14 @@ def _add_absolute_file_paths_with_multiple_folders(
     df_copy = df.copy()
     df_copy["Multimedia Folder"] = df_copy["Multimedia Folder"].apply(lambda x: generic_multimedia_folder / x)
     for i, row in df_copy.iterrows():
-        df_copy.loc[i, "AbsoluteFilePath"] = row["Multimedia Folder"] / row["File Name"]
+        df_copy.loc[i, "AbsoluteFilePath"] = row["Multimedia Folder"] / row["File Name"]  # type: ignore[index]
     return df_copy
 
 
 def _add_exif_data_to_df(df: pd.DataFrame) -> pd.DataFrame:
     df_copy = df.copy()
-    df_copy.loc[:, "Time Stamp"] = df_copy["AbsoluteFilePath"].apply(get_media_file_creation_time)
-    df_copy.loc[:, "File Size"] = df_copy["AbsoluteFilePath"].apply(get_media_file_size)
+    df_copy["Time Stamp"] = df_copy["AbsoluteFilePath"].apply(get_media_file_creation_time)
+    df_copy["File Size"] = df_copy["AbsoluteFilePath"].apply(get_media_file_size)
     return df_copy
 
 
