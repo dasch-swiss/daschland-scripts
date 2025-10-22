@@ -22,22 +22,40 @@ def update_multimedia_df(
 ) -> None:
     df = pd.read_excel(RAW_FOLDER / f"{class_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
-    if alternative_column is not None:
-        multimedia_folder = df_cleaned[alternative_column].apply(lambda x: multimedia_folder / x)
-
-    updated_df = _add_exif_data_to_df(df_cleaned, multimedia_folder)
+    if alternative_column is None:
+        updated_df = _add_absolute_file_paths(df_cleaned, multimedia_folder)
+    else:
+        updated_df = _add_absolute_file_paths_with_multiple_folders(df_cleaned, multimedia_folder)
+    updated_df = _add_exif_data_to_df(updated_df)
+    # remove the temporary column as we do not want to save absolute paths in the file
+    updated_df.pop("AbsoluteFilePath")
     _write_df_to_csv(df=updated_df, path=PROCESSED_FOLDER / f"{class_name}.csv")
 
 
-def _add_exif_data_to_df(df: pd.DataFrame, multimedia_folder: pathlib.Path) -> pd.DataFrame:
+def _add_absolute_file_paths(df: pd.DataFrame, multimedia_folder: pathlib.Path) -> pd.DataFrame:
     # Ensure you're working with a copy of the DataFrame
     df_copy = df.copy()
     # Construct a Series of Path objects
-    filepath_series = df_copy["File Name"].apply(
-        lambda x: multimedia_folder / x
-    )    # Now apply your functions to the Series
-    df_copy.loc[:, "Time Stamp"] = filepath_series.apply(get_media_file_creation_time)
-    df_copy.loc[:, "File Size"] = filepath_series.apply(get_media_file_size)
+    df_copy["AbsoluteFilePath"] = df_copy["File Name"].apply(
+        lambda x: str(multimedia_folder / x)
+    )  # Now apply your functions to the Series
+    return df_copy
+
+
+def _add_absolute_file_paths_with_multiple_folders(
+    df: pd.DataFrame, generic_multimedia_folder: pathlib.Path
+) -> pd.DataFrame:
+    df_copy = df.copy()
+    df_copy["Multimedia Folder"] = df_copy["Multimedia Folder"].apply(lambda x: generic_multimedia_folder / x)
+    for i, row in df_copy.iterrows():
+        df_copy.loc[i, "AbsoluteFilePath"] = row["Multimedia Folder"] / row["File Name"]
+    return df_copy
+
+
+def _add_exif_data_to_df(df: pd.DataFrame) -> pd.DataFrame:
+    df_copy = df.copy()
+    df_copy.loc[:, "Time Stamp"] = df_copy["AbsoluteFilePath"].apply(get_media_file_creation_time)
+    df_copy.loc[:, "File Size"] = df_copy["AbsoluteFilePath"].apply(get_media_file_size)
     return df_copy
 
 
