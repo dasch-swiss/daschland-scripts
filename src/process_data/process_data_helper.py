@@ -11,22 +11,22 @@ from src.helpers.image_helper import (
 )
 
 
-def update_spreadsheet_df(df_name: str) -> None:
-    df = pd.read_excel(RAW_FOLDER / f"{df_name}.xlsx", dtype="str")
+def update_spreadsheet_df(class_name: str) -> None:
+    df = pd.read_excel(RAW_FOLDER / f"{class_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
-    _write_df_to_csv(df_cleaned, PROCESSED_FOLDER / f"{df_name}.csv")
+    _write_df_to_csv(df_cleaned, PROCESSED_FOLDER / f"{class_name}.csv")
 
 
 def update_multimedia_df(
-    df_name: str, multimedia_folder: pathlib.Path, alternative_column: Optional[str] = None
+    class_name: str, multimedia_folder: pathlib.Path, alternative_column: Optional[str] = None
 ) -> None:
-    df = pd.read_excel(RAW_FOLDER / f"{df_name}.xlsx", dtype="str")
+    df = pd.read_excel(RAW_FOLDER / f"{class_name}.xlsx", dtype="str")
     df_cleaned = df.dropna(how="all")
     if alternative_column is not None:
         multimedia_folder = df_cleaned[alternative_column].apply(lambda x: multimedia_folder / x)
 
     updated_df = _add_exif_data_to_df(df_cleaned, multimedia_folder)
-    _write_df_to_csv(df=updated_df, path=PROCESSED_FOLDER / f"{df_name}.csv")
+    _write_df_to_csv(df=updated_df, path=PROCESSED_FOLDER / f"{class_name}.csv")
 
 
 def _add_exif_data_to_df(df: pd.DataFrame, multimedia_folder: pathlib.Path) -> pd.DataFrame:
