@@ -1,14 +1,14 @@
 import pandas as pd
 from dsp_tools.xmllib import RegionResource
 
-from src.folder_paths import SPREADSHEETS_FOLDER
+from src.folder_paths import RAW_FOLDER
 
 
 def main() -> list[RegionResource]:
     all_resources: list[RegionResource] = []
 
     # define dataframe
-    archive_df = pd.read_excel(SPREADSHEETS_FOLDER / "Region.xlsx")
+    archive_df = pd.read_excel(RAW_FOLDER / "Region.xlsx")
 
     # iterate through rows of dataframe:
     for _, row in archive_df.iterrows():

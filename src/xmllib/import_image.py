@@ -6,7 +6,7 @@ from dsp_tools.xmllib import (
     create_list_from_input,
 )
 
-from src.folder_paths import SPREADSHEETS_FOLDER
+from src.folder_paths import IMAGE_ALTERNATIVE_FOLDER, IMAGE_FOLDER, RAW_FOLDER
 from src.helpers.image_helper import get_image_creation_time, get_media_file_size
 
 
@@ -14,30 +14,30 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    image_df = pd.read_excel(SPREADSHEETS_FOLDER / "Image.xlsx", dtype="str")
+    image_df = pd.read_excel(RAW_FOLDER / "Image.xlsx", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in image_df.iterrows():
         # define variables
-        image_path = f"{row['Directory']}{row['File Name']}"
-        timestamp_value = get_image_creation_time(image_path)
-        file_size_value = get_media_file_size(image_path)
-        chapter_id = create_list_from_input(row["Chapter ID"], separator=",")
-        character_id = create_list_from_input(row["Character ID"], separator=",")
-        file_permissions = (
-            Permissions.LIMITED_VIEW if row["Limited View"] == "yes" else Permissions.PROJECT_SPECIFIC_PERMISSIONS
-        )
-        authors = create_list_from_input(input_value=row["Authorship"], separator=",")
-        authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
-
         if row["Limited View"] == "yes":
             restype = ":ImageAlternative"
             description = row["Description Alternative"]
             description_property = ":hasDescriptionAlternative"
+            image_path = f"{IMAGE_ALTERNATIVE_FOLDER / row['File Name']}"
+            file_permissions = Permissions.LIMITED_VIEW
         else:
             restype = ":ImageOriginal"
             description = row["Description"]
             description_property = ":hasDescription"
+            image_path = f"{IMAGE_FOLDER / row['File Name']}"
+            file_permissions = Permissions.PROJECT_SPECIFIC_PERMISSIONS
+
+        timestamp_value = get_image_creation_time(image_path)
+        file_size_value = get_media_file_size(image_path)
+        chapter_id = create_list_from_input(row["Chapter ID"], separator=",")
+        character_id = create_list_from_input(row["Character ID"], separator=",")
+        authors = create_list_from_input(input_value=row["Authorship"], separator=",")
+        authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
         # create resource, label and id
         resource = Resource.create_new(res_id=row["ID"], restype=restype, label=description)

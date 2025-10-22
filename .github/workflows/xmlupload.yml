@@ -34,9 +34,9 @@ jobs:
       - name: Start stack
         run: uv run dsp-tools start-stack --suppress-update-prompt --no-prune
       - name: Create JSON project
-        run: uv run dsp-tools create --suppress-update-prompt daschland.json
+        run: uv run dsp-tools create --suppress-update-prompt data/output/daschland.json
       - name: Xmlupload
-        run: uv run dsp-tools xmlupload --suppress-update-prompt -u cheshire.cat@dasch.swiss -p "$DSP_USER_PASSWORD" data_daschland.xml
+        run: uv run dsp-tools xmlupload --suppress-update-prompt -u cheshire.cat@dasch.swiss -p "$DSP_USER_PASSWORD" data/output/data_daschland.xml
       - name: make logging file available
         uses: actions/upload-artifact@v4
         if: always()

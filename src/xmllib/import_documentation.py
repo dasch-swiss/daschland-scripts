@@ -5,7 +5,7 @@ from dsp_tools.xmllib import (
     create_list_from_input,
 )
 
-from src.folder_paths import SPREADSHEETS_FOLDER
+from src.folder_paths import DOCUMENTATION_FOLDER, RAW_FOLDER
 from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -16,12 +16,12 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    documentation_df = pd.read_excel(SPREADSHEETS_FOLDER / "Documentation.xlsx", dtype="str")
+    documentation_df = pd.read_excel(RAW_FOLDER / "Documentation.xlsx", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in documentation_df.iterrows():
         # define variables
-        documentation_path = f"{row['Directory']}{row['File Name']}"
+        documentation_path = f"{DOCUMENTATION_FOLDER / row['File Name']}"
         timestamp_value = get_media_file_creation_time(documentation_path)
         file_size_value = get_media_file_size(documentation_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
