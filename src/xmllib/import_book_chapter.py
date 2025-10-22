@@ -1,7 +1,7 @@
 import pandas as pd
 from dsp_tools.xmllib import ListLookup, Resource, create_list_from_input, get_list_nodes_from_string_via_list_name
 
-from src.folder_paths import OUTPUT_FOLDER, RAW_FOLDER
+from src.folder_paths import OUTPUT_FOLDER, PROCESSED_FOLDER
 from src.helpers.helper import make_cols_mapping_with_columns
 
 
@@ -12,8 +12,8 @@ def main() -> list[Resource]:
     path_to_json = OUTPUT_FOLDER / "daschland.json"
 
     # define dataframes
-    book_chapter_df = pd.read_excel(RAW_FOLDER / "BookChapter.xlsx", dtype="str")
-    book_df = pd.read_excel(RAW_FOLDER / "Book.xlsx", dtype="str")
+    book_chapter_df = pd.read_csv(PROCESSED_FOLDER / "BookChapter.csv", dtype="str")
+    book_df = pd.read_csv(PROCESSED_FOLDER / "Book.csv", dtype="str")
 
     # create list mapping
     list_lookup = ListLookup.create_new(

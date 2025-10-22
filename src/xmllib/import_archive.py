@@ -5,7 +5,7 @@ from dsp_tools.xmllib import (
     create_list_from_input,
 )
 
-from src.folder_paths import ARCHIVE_FOLDER, RAW_FOLDER
+from src.folder_paths import ARCHIVE_FOLDER, PROCESSED_FOLDER
 from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -16,7 +16,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    archive_df = pd.read_excel(RAW_FOLDER / "Archive.xlsx")
+    archive_df = pd.read_csv(PROCESSED_FOLDER / "Archive.csv")
 
     # iterate through rows of dataframe:
     for _, row in archive_df.iterrows():

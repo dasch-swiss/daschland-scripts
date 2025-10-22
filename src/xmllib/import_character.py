@@ -9,7 +9,7 @@ from dsp_tools.xmllib import (
     is_nonempty_value,
 )
 
-from src.folder_paths import OUTPUT_FOLDER, RAW_FOLDER
+from src.folder_paths import OUTPUT_FOLDER, PROCESSED_FOLDER
 from src.helpers.helper import select_footnote_text
 
 
@@ -20,7 +20,7 @@ def main() -> list[Resource]:
     path_to_json = OUTPUT_FOLDER / "daschland.json"
 
     # define dataframe
-    character_df = pd.read_excel(RAW_FOLDER / "Character.xlsx", dtype="str")
+    character_df = pd.read_csv(PROCESSED_FOLDER / "Character.csv", dtype="str")
 
     # create list mapping
     list_lookup = ListLookup.create_new(

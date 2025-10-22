@@ -1,7 +1,7 @@
 import pandas as pd
 from dsp_tools.xmllib import Resource, create_list_from_input, find_license_in_string
 
-from src.folder_paths import AUDIO_FOLDER, RAW_FOLDER
+from src.folder_paths import AUDIO_FOLDER, PROCESSED_FOLDER
 from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -12,7 +12,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    audio_df = pd.read_excel(RAW_FOLDER / "Audio.xlsx", dtype="str")
+    audio_df = pd.read_csv(PROCESSED_FOLDER/"Audio.csv", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in audio_df.iterrows():

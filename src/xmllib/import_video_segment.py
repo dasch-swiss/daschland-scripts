@@ -1,14 +1,14 @@
 import pandas as pd
 from dsp_tools.xmllib import VideoSegmentResource, create_list_from_input
 
-from src.folder_paths import RAW_FOLDER
+from src.folder_paths import PROCESSED_FOLDER
 
 
 def main() -> list[VideoSegmentResource]:
     all_segments: list[VideoSegmentResource] = []
 
     # define dataframe
-    video_segment_df = pd.read_excel(RAW_FOLDER / "VideoSegment.xlsx")
+    video_segment_df = pd.read_csv(PROCESSED_FOLDER / "VideoSegment.csv")
 
     # iterate through rows of dataframe:
     for _, row in video_segment_df.iterrows():

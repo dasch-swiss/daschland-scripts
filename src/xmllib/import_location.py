@@ -1,14 +1,14 @@
 import pandas as pd
 from dsp_tools.xmllib import Resource, create_list_from_input
 
-from src.folder_paths import RAW_FOLDER
+from src.folder_paths import PROCESSED_FOLDER
 
 
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    location_df = pd.read_excel(RAW_FOLDER / "Location.xlsx", dtype="str")
+    location_df = pd.read_csv(PROCESSED_FOLDER / "Location.csv", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in location_df.iterrows():

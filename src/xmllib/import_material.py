@@ -1,7 +1,7 @@
 import pandas as pd
 from dsp_tools.xmllib import LicenseRecommended, Resource, create_list_from_input
 
-from src.folder_paths import OUTPUT_FOLDER, PROCESSED_FOLDER, RAW_FOLDER
+from src.folder_paths import OUTPUT_FOLDER, PROCESSED_FOLDER
 from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -12,7 +12,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    material_df = pd.read_excel(RAW_FOLDER / "Material.xlsx", dtype="str")
+    material_df = pd.read_csv(PROCESSED_FOLDER / "Material.csv", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in material_df.iterrows():

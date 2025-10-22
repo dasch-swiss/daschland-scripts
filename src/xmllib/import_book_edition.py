@@ -6,7 +6,7 @@ from dsp_tools.xmllib import (
     find_dates_in_string,
 )
 
-from src.folder_paths import BOOK_EDITION_FOLDER, RAW_FOLDER
+from src.folder_paths import BOOK_EDITION_FOLDER, PROCESSED_FOLDER
 from src.helpers.image_helper import get_media_file_creation_time
 
 
@@ -14,7 +14,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    book_edition_df = pd.read_excel(RAW_FOLDER / "BookEdition.xlsx", dtype="str")
+    book_edition_df = pd.read_csv(PROCESSED_FOLDER / "BookEdition.csv", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in book_edition_df.iterrows():

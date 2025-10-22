@@ -6,14 +6,14 @@ from dsp_tools.xmllib import (
     find_dates_in_string,
 )
 
-from src.folder_paths import RAW_FOLDER
+from src.folder_paths import PROCESSED_FOLDER
 
 
 def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    book_df = pd.read_excel(RAW_FOLDER / "BookCover.xlsx", dtype="str")
+    book_df = pd.read_csv(PROCESSED_FOLDER / "BookCover.csv", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in book_df.iterrows():
