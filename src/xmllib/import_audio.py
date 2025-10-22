@@ -12,7 +12,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    audio_df = pd.read_csv(PROCESSED_FOLDER/"Audio.csv", dtype="str")
+    audio_df = pd.read_csv(PROCESSED_FOLDER / "Audio.csv", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in audio_df.iterrows():
