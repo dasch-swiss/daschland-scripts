@@ -77,7 +77,8 @@ def get_media_file_creation_timestamp(file_path: Path) -> str | None:
 def get_generic_media_file_creation_timestamp(file_path: Path) -> str | None:
     try:
         with ExifToolHelper() as et:
-            metadata_list = et.get_metadata(str(file_path))
+            filepath_str = file_path.as_posix()
+            metadata_list = et.get_metadata(filepath_str)
             if not metadata_list:
                 return None
 
