@@ -7,7 +7,6 @@ from dsp_tools.xmllib import (
 )
 
 from src.folder_paths import IMAGE_ALTERNATIVE_FOLDER, IMAGE_FOLDER, PROCESSED_FOLDER
-from src.helpers.image_helper import get_image_creation_time, get_media_file_size
 
 
 def main() -> list[Resource]:
@@ -32,8 +31,6 @@ def main() -> list[Resource]:
             image_path = f"{IMAGE_FOLDER / row['File Name']}"
             file_permissions = Permissions.PROJECT_SPECIFIC_PERMISSIONS
 
-        timestamp_value = get_image_creation_time(image_path)
-        file_size_value = get_media_file_size(image_path)
         chapter_id = create_list_from_input(row["Chapter ID"], separator=",")
         character_id = create_list_from_input(row["Character ID"], separator=",")
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
@@ -53,8 +50,8 @@ def main() -> list[Resource]:
 
         # add properties to resource
         resource.add_simpletext(value=row["ID"], prop_name="project-metadata:hasID")
-        resource.add_time_optional(value=timestamp_value, prop_name="project-metadata:hasTimeStamp")
-        resource.add_decimal_optional(value=file_size_value, prop_name="project-metadata:hasFileSize")
+        resource.add_time_optional("project-metadata:hasTimeStamp", row["Time Stamp"])
+        resource.add_decimal_optional("project-metadata:hasFileSize", row["File Size"])
         resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
         resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
         resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)

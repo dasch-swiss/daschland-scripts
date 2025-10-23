@@ -2,10 +2,6 @@ import pandas as pd
 from dsp_tools.xmllib import Resource, create_list_from_input, find_license_in_string
 
 from src.folder_paths import AUDIO_FOLDER, PROCESSED_FOLDER
-from src.helpers.image_helper import (
-    get_media_file_creation_time,
-    get_media_file_size,
-)
 
 
 def main() -> list[Resource]:
@@ -18,8 +14,6 @@ def main() -> list[Resource]:
     for _, row in audio_df.iterrows():
         # define variables
         audio_path = f"{AUDIO_FOLDER / row['File Name']}"
-        timestamp_value = get_media_file_creation_time(audio_path)
-        file_size_value = get_media_file_size(audio_path)
         authors = create_list_from_input(row["Authorship"], separator=", ")
         authors_resource = create_list_from_input(row["Authorship Resource"], separator=", ")
         file_license = find_license_in_string(row["License List"])
@@ -36,8 +30,8 @@ def main() -> list[Resource]:
 
         # add properties to resource
         resource.add_simpletext("project-metadata:hasID", row["ID"])
-        resource.add_time_optional("project-metadata:hasTimeStamp", timestamp_value)
-        resource.add_decimal_optional("project-metadata:hasFileSize", file_size_value)
+        resource.add_time_optional("project-metadata:hasTimeStamp", row["Time Stamp"])
+        resource.add_decimal_optional("project-metadata:hasFileSize", row["File Size"])
         resource.add_simpletext("project-metadata:hasFileName", row["File Name"])
         resource.add_richtext(":hasDescription", row["Description"])
         resource.add_textarea_optional(":hasCast", row["Cast"])
