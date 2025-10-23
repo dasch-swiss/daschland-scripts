@@ -2,10 +2,6 @@ import pandas as pd
 from dsp_tools.xmllib import LicenseRecommended, Resource, create_list_from_input
 
 from src.folder_paths import OUTPUT_FOLDER, PROCESSED_FOLDER
-from src.helpers.image_helper import (
-    get_media_file_creation_time,
-    get_media_file_size,
-)
 
 
 def main() -> list[Resource]:
@@ -21,8 +17,6 @@ def main() -> list[Resource]:
         else:
             material_path = f"{OUTPUT_FOLDER / row['File Name']}"
 
-        timestamp_value = get_media_file_creation_time(material_path)
-        file_size_value = get_media_file_size(material_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
@@ -38,8 +32,8 @@ def main() -> list[Resource]:
         resource.add_simpletext("project-metadata:hasID", row["ID"])
         resource.add_simpletext("project-metadata:hasFileName", row["File Name"])
         resource.add_richtext("project-metadata:hasFileDescription", row["Description"])
-        resource.add_time_optional("project-metadata:hasTimeStamp", timestamp_value)
-        resource.add_decimal_optional("project-metadata:hasFileSize", file_size_value)
+        resource.add_time_optional("project-metadata:hasTimeStamp", row["Time Stamp"])
+        resource.add_decimal_optional("project-metadata:hasFileSize", row["File Size"])
         resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
         resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
         resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)

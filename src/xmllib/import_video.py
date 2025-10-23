@@ -6,10 +6,6 @@ from dsp_tools.xmllib import (
 )
 
 from src.folder_paths import PROCESSED_FOLDER, VIDEO_FOLDER
-from src.helpers.image_helper import (
-    get_media_file_creation_time,
-    get_media_file_size,
-)
 
 
 def main() -> list[Resource]:
@@ -22,8 +18,6 @@ def main() -> list[Resource]:
     for _, row in video_df.iterrows():
         # define variables
         video_path = f"{VIDEO_FOLDER / row['File Name']}"
-        timestamp_value = get_media_file_creation_time(video_path)
-        file_size_value = get_media_file_size(video_path)
         authors = create_list_from_input(input_value=row["Authorship"], separator=",")
         authors_resource = create_list_from_input(input_value=row["Authorship Resource"], separator=",")
 
@@ -44,8 +38,8 @@ def main() -> list[Resource]:
 
         # add properties to resource
         resource.add_simpletext("project-metadata:hasID", row["ID"])
-        resource.add_time_optional("project-metadata:hasTimeStamp", timestamp_value)
-        resource.add_decimal_optional("project-metadata:hasFileSize", file_size_value)
+        resource.add_time_optional("project-metadata:hasTimeStamp", row["Time Stamp"])
+        resource.add_decimal_optional("project-metadata:hasFileSize", row["File Size"])
         resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
         resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
         resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)

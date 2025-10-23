@@ -5269,6 +5269,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_Alice_in_Wonderland.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>2.9</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_001</text>
         </text-prop>
@@ -5297,6 +5300,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_Through_the_Looking_Glass.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>39.5</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_002</text>
         </text-prop>
@@ -5325,6 +5331,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_throughlooking00carr.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>15.2</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_003</text>
         </text-prop>
@@ -5353,6 +5362,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_adventuresalices00carrrich.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>31.6</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_004</text>
         </text-prop>
@@ -5381,6 +5393,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_alicesadventur00carr.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>12.7</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_005</text>
         </text-prop>
@@ -11202,6 +11217,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>43</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:33:38-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Black kitten playing" id="I_044" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book1.jpg</bitstream>
@@ -11236,6 +11254,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>44</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:35:42-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice winding worsted in an arm-chair" id="I_045" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book2.jpg</bitstream>
@@ -11271,6 +11292,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>45</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:38:55-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice going through the looking-glass" id="I_046" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book3.jpg</bitstream>
@@ -11305,6 +11329,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>46</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:39:35-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice coming through the looking-glass" id="I_047" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book4.jpg</bitstream>
@@ -11339,6 +11366,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>47</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:41:23-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Chessmen walking" id="I_048" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book5.jpg</bitstream>
@@ -11373,6 +11403,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>48</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:42:30-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice picking up White King" id="I_049" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book6.jpg</bitstream>
@@ -11408,6 +11441,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>49</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:43:21-00:00</time>
+        </time-prop>
     </resource>
     <resource label="The White Knight sliding down a poker" id="I_050" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book7.jpg</bitstream>
@@ -11442,6 +11478,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>50</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:45:07-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Jabberwork" id="I_051" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book8.jpg</bitstream>
@@ -11476,6 +11515,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>51</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:46:13-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Tiger-Lily and Alice talking" id="I_052" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book9.jpg</bitstream>
@@ -11511,6 +11553,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>52</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:46:57-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice and Red Queen talking" id="I_053" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book10.jpg</bitstream>
@@ -11546,6 +11591,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>53</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:48:10-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Chessboard-like country" id="I_054" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book11.jpg</bitstream>
@@ -11577,6 +11625,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>54</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:48:53-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice and Red Queen running" id="I_055" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book12.jpg</bitstream>
@@ -11612,6 +11663,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>55</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:41:14-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice sittin in a train carriage" id="I_056" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book13.jpg</bitstream>
@@ -11646,6 +11700,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>56</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:49:20-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Rocking-horse-fly" id="I_057" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book14.jpg</bitstream>
@@ -11677,6 +11734,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>57</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:49:50-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Snap-dragon-fly" id="I_058" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book15.jpg</bitstream>
@@ -11708,6 +11768,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>58</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:50:17-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Bread-and-butter-fly" id="I_059" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book16.jpg</bitstream>
@@ -11739,6 +11802,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>59</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:51:03-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice clasping her arms round Fawn" id="I_060" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book17.jpg</bitstream>
@@ -11773,6 +11839,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>60</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:52:26-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice calling on Tweedledum and Tweeldee" id="I_061" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book18.jpg</bitstream>
@@ -11808,6 +11877,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>61</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:53:08-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Walrus and Carpenter walking" id="I_062" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book19.jpg</bitstream>
@@ -11843,6 +11915,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>62</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:51:36-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Walrus and Carpenter resting" id="I_063" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book20.jpg</bitstream>
@@ -11878,6 +11953,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>63</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:54:37-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Walrus and Carpenter eating" id="I_064" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book21.jpg</bitstream>
@@ -11913,6 +11991,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>64</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:55:28-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Red King snoring" id="I_065" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book22.jpg</bitstream>
@@ -11947,6 +12028,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>65</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:55:55-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Tweedledum crying in a fury" id="I_066" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book23.jpg</bitstream>
@@ -11982,6 +12066,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>66</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:56:27-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Tweedledum and Tweedledee" id="I_067" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book24.jpg</bitstream>
@@ -12017,6 +12104,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>67</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:57:05-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice adressing White Queen" id="I_068" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book25.jpg</bitstream>
@@ -12052,6 +12142,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>68</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:57:32-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Hatta sitting in prison" id="I_069" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book26.jpg</bitstream>
@@ -12086,6 +12179,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>69</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:58:28-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice leaning on counter in Sheep's shop" id="I_070" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book27.jpg</bitstream>
@@ -12121,6 +12217,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>70</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:58:56-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice rowing a boat" id="I_071" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book28.jpg</bitstream>
@@ -12156,6 +12255,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>71</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T21:59:24-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Humpty Dumpty offering Alice his hand" id="I_072" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book29.jpg</bitstream>
@@ -12191,6 +12293,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>72</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:00:02-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Jabberwocky creatures" id="I_073" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book30.jpg</bitstream>
@@ -12222,6 +12327,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>73</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:00:37-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Humpty Dumpty sending a message" id="I_074" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book31.jpg</bitstream>
@@ -12256,6 +12364,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>74</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:11:51-00:00</time>
+        </time-prop>
     </resource>
     <resource label="White King soldiers and horses stumbling" id="I_075" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book32.jpg</bitstream>
@@ -12287,6 +12398,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>75</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:11:19-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Haigha handing a ham sandwich to the White King" id="I_076" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book33.jpg</bitstream>
@@ -12323,6 +12437,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>76</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:12:56-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Hatta drinking tea" id="I_077" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book34.jpg</bitstream>
@@ -12362,6 +12479,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>77</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:13:33-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice holding a plum cake" id="I_078" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book35.jpg</bitstream>
@@ -12398,6 +12518,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>78</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:14:19-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice putting her hands over her ears" id="I_079" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book36.jpg</bitstream>
@@ -12432,6 +12555,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>79</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:15:29-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Red Knight and White Knight fighting" id="I_080" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book37.jpg</bitstream>
@@ -12468,6 +12594,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>80</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:16:20-00:00</time>
+        </time-prop>
     </resource>
     <resource label="White Knight falling off his horse" id="I_081" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book38.jpg</bitstream>
@@ -12503,6 +12632,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>81</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:17:06-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice dragging White Knight out off a ditch" id="I_082" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book39.jpg</bitstream>
@@ -12538,6 +12670,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>82</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:17:34-00:00</time>
+        </time-prop>
     </resource>
     <resource label="White Knight shaking an aged man" id="I_083" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book40.jpg</bitstream>
@@ -12572,6 +12707,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>83</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:18:07-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice lifting off a golden crown" id="I_084" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book41.jpg</bitstream>
@@ -12606,6 +12744,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>84</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:19:02-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Red Queen and White Queen sitting with Alice" id="I_085" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book42.jpg</bitstream>
@@ -12642,6 +12783,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>85</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:19:35-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Red Queen and White Queen sleeping on Alice" id="I_086" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book43.jpg</bitstream>
@@ -12678,6 +12822,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>86</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:20:01-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice and Frog standing before a door" id="I_087" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book44.jpg</bitstream>
@@ -12713,6 +12860,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>87</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:20:33-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Mutton making a little bow" id="I_088" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book45.jpg</bitstream>
@@ -12744,6 +12894,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>88</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:21:11-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice pulling a table cloth" id="I_089" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book46.jpg</bitstream>
@@ -12778,6 +12931,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>89</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:22:20-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice shaking Red Queen" id="I_090" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book47.jpg</bitstream>
@@ -12813,6 +12969,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>90</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:22:53-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice shaking Kitty" id="I_091" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book48.jpg</bitstream>
@@ -12848,6 +13007,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>91</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:23:23-00:00</time>
+        </time-prop>
     </resource>
     <resource label="Alice looking over her shoulder at White Kitten" id="I_092" restype=":ImageOriginal">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="Public Domain" authorship-id="authorship_5">data/multimedia/image/IMG_2book49.jpg</bitstream>
@@ -12883,6 +13045,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <integer-prop name="project-metadata:hasSeqnum">
             <integer>92</integer>
         </integer-prop>
+        <time-prop name="project-metadata:hasTimeStamp">
+            <time>2008-08-11T22:23:55-00:00</time>
+        </time-prop>
     </resource>
     <resource label="DaSCHland Alice navigating the RabbIT hole" id="I_093" restype=":ImageAlternative">
         <bitstream license="http://rdfh.ch/licenses/public-domain" copyright-holder="AI-Generated" authorship-id="authorship_1" permissions="limited_view">data/multimedia/image_alternative/IMGALT_Alice_1.jpg</bitstream>
