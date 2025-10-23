@@ -28,7 +28,7 @@ jobs:
       - name: Copy dummy MP4 to correct location
         run: |
           rm data/multimedia/video/VID_AliceInWonderland_1915.mp4  # remove the pointer file (small text file)
-          cp testdata/dummy.mp4 data/multimedia/video/VID_AliceInWonderland_1915.mp4
+          cp test/testdata/dummy.mp4 data/multimedia/video/VID_AliceInWonderland_1915.mp4
       - name: Enable dsp-tools log file in cwd
         run: echo 'DSP_TOOLS_SAVE_ADDITIONAL_LOG_FILE_IN_CWD=true' >> .env
       - name: Start stack
