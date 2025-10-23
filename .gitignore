@@ -139,6 +139,8 @@ cython_debug/
 daschland_data_excel2xml.xml
 upload_protocol.txt
 /data/multimedia/image_alternative/outdated/
+warnings.log
+logging.log
 
 # Claude Code
 .claude/
