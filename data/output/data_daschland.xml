@@ -5269,6 +5269,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_Alice_in_Wonderland.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>2.9</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_001</text>
         </text-prop>
@@ -5297,6 +5300,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_Through_the_Looking_Glass.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>39.5</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_002</text>
         </text-prop>
@@ -5325,6 +5331,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_throughlooking00carr.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>15.2</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_003</text>
         </text-prop>
@@ -5353,6 +5362,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_adventuresalices00carrrich.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>31.6</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_004</text>
         </text-prop>
@@ -5381,6 +5393,9 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name="project-metadata:hasFileName">
             <text encoding="utf8">BE_alicesadventur00carr.pdf</text>
         </text-prop>
+        <decimal-prop name="project-metadata:hasFileSize">
+            <decimal>12.7</decimal>
+        </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">BE_005</text>
         </text-prop>
