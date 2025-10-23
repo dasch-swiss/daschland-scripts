@@ -112,7 +112,7 @@ def _get_image_creation_time(image_path: str | pathlib.Path) -> str | None:
         return None
 
     # convert the creation time to CE time
-    time_conform = _convert_creation_time_to_dsp_time(date_time_raw)
+    time_conform = _convert_creation_time_to_dsp_time(str(date_time_raw))
     if time_conform:
         return time_conform
     else:
@@ -123,7 +123,7 @@ def _get_time_from_exif_data(exif_data: dict[int, str]) -> str | None:
     # Loop through the EXIF data to find the creation time
     for tag, value in exif_data.items():
         tag_name = TAGS.get(tag, tag)
-        if tag_name == "DateTimeOriginal":
+        if tag_name == "DateTimeOriginal" or "DateTime" in tag_name:
             return value
         else:
             continue
