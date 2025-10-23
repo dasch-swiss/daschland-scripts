@@ -46,9 +46,10 @@ def _add_absolute_file_paths_with_multiple_folders(
     df: pd.DataFrame, generic_multimedia_folder: pathlib.Path
 ) -> pd.DataFrame:
     df_copy = df.copy()
-    df_copy["Multimedia Folder"] = df_copy["Multimedia Folder"].apply(lambda x: generic_multimedia_folder / x)
+    df_copy["Multimedia Folder with path"] = df_copy["Multimedia Folder"].apply(lambda x: generic_multimedia_folder / x)
     for i, row in df_copy.iterrows():
-        df_copy.loc[i, "AbsoluteFilePath"] = row["Multimedia Folder"] / row["File Name"]  # type: ignore[index]
+        df_copy.loc[i, "AbsoluteFilePath"] = row["Multimedia Folder with path"] / row["File Name"]  # type: ignore[index]
+    df_copy.pop("Multimedia Folder with path")
     return df_copy
 
 

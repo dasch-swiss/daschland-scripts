@@ -5,7 +5,7 @@ from dsp_tools.xmllib import (
     create_list_from_input,
 )
 
-from src.folder_paths import RAW_FOLDER, VIDEO_FOLDER
+from src.folder_paths import PROCESSED_FOLDER, VIDEO_FOLDER
 from src.helpers.image_helper import (
     get_media_file_creation_time,
     get_media_file_size,
@@ -16,7 +16,7 @@ def main() -> list[Resource]:
     all_resources: list[Resource] = []
 
     # define dataframe
-    video_df = pd.read_excel(RAW_FOLDER / "Video.xlsx", dtype="str")
+    video_df = pd.read_csv(PROCESSED_FOLDER / "Video.csv", dtype="str")
 
     # iterate through rows of dataframe:
     for _, row in video_df.iterrows():

@@ -1,7 +1,7 @@
 import pandas as pd
 from dsp_tools.xmllib import ListLookup, Resource, convert_to_bool_string, create_list_from_input, is_nonempty_value
 
-from src.folder_paths import OUTPUT_FOLDER, RAW_FOLDER
+from src.folder_paths import OUTPUT_FOLDER, PROCESSED_FOLDER
 
 
 def main() -> list[Resource]:
@@ -11,7 +11,7 @@ def main() -> list[Resource]:
     path_to_json = OUTPUT_FOLDER / "daschland.json"
 
     # define dataframe
-    event_df = pd.read_excel(RAW_FOLDER / "Event.xlsx", dtype="str")
+    event_df = pd.read_csv(PROCESSED_FOLDER / "Event.csv", dtype="str")
 
     # create mapping for lists
     list_lookup = ListLookup.create_new(

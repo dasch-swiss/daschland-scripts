@@ -46,6 +46,8 @@ def main() -> None:
 
     update_spreadsheet_df("AudioSegment")
 
+    update_spreadsheet_df("LinkObject")
+
 
 if __name__ == "__main__":
     main()
