@@ -28,9 +28,9 @@ def main() -> None:
 
     update_multimedia_df("Video", VIDEO_FOLDER)
 
-    update_spreadsheet_df("Book")
+    update_spreadsheet_df("Story")
 
-    update_spreadsheet_df("BookChapter")
+    update_spreadsheet_df("StoryChapter")
 
     update_spreadsheet_df("Character")
 

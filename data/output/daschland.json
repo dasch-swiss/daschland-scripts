@@ -1255,13 +1255,13 @@
                         "gui_element": "Checkbox"
                     },
                     {
-                        "name": "isPartOfBookChapter",
+                        "name": "isPartOfStoryChapter",
                         "super": [
                             "isPartOf",
                             "schema:isPartOf",
                             "crm:P5i_forms_part_of"
                         ],
-                        "object": ":BookChapter",
+                        "object": ":StoryChapter",
                         "labels": {
                             "de": "Teil des Kapitels",
                             "en": "Part of chapter",
@@ -1320,13 +1320,13 @@
                         "gui_element": "Searchbox"
                     },
                     {
-                        "name": "linkToBookChapter",
+                        "name": "linkToStoryChapter",
                         "super": [
                             "hasLinkTo",
                             "schema:chapter",
                             "crm:P5_consists_of"
                         ],
-                        "object": ":BookChapter",
+                        "object": ":StoryChapter",
                         "labels": {
                             "de": "Buch-Kapitel",
                             "en": "Book Chapters",
@@ -1537,7 +1537,7 @@
                 ],
                 "resources": [
                     {
-                        "name": "Book",
+                        "name": "Story",
                         "super": [
                             "Resource",
                             "schema:Book",
@@ -1547,7 +1547,7 @@
                             "de": "01. Geschichte",
                             "en": "01. Story",
                             "fr": "01. Histoire",
-                            "it": "01. Racconti"
+                            "it": "01. Storia"
                         },
                         "comments": {
                             "de": "Die beiden Geschichten von Lewis Carroll. Jede Geschichte enthält Links zu Buchausgaben und Buchcovern. Jede Geschichte besteht aus Kapiteln, die miteinander verlinkt sind. Außerdem ist ein Video (Film) mit der Geschichte verlinkt.",
@@ -1582,7 +1582,7 @@
                                 "gui_order": 5
                             },
                             {
-                                "propname": ":linkToBookChapter",
+                                "propname": ":linkToStoryChapter",
                                 "cardinality": "0-n",
                                 "gui_order": 6
                             },
@@ -1624,17 +1624,17 @@
                         ]
                     },
                     {
-                        "name": "BookChapter",
+                        "name": "StoryChapter",
                         "super": [
                             "Resource",
                             "schema:Chapter",
                             "crm:E89_Propositional_Object"
                         ],
                         "labels": {
-                            "de": "02. Buch Kapitel",
-                            "en": "02. Book Chapter",
-                            "fr": "02. Chapitre de livre",
-                            "it": "02. Capitolo del libro"
+                            "de": "02. Geschichte Kapitel",
+                            "en": "02. Story Chapter",
+                            "fr": "02. Chapitre d'histoire",
+                            "it": "02. Capitolo della storia"
                         },
                         "comments": {
                             "de": "Kapitel der beiden Geschichten, einschließlich Vorworte und Gedichte aus den Büchern, mit vollständigem Text. Jedes Kapitel ist mit seiner Geschichte verlinkt. Audioaufnahmen zu jedem Kapitel sind ebenfalls verlinkt. Zu jedem Kapitel gibt es einen Link zu den Orten, an denen die Handlung des Kapitels stattfindet, sowie zu den Ereignissen, die während der Kapitel stattfinden.",
@@ -1937,7 +1937,7 @@
                         },
                         "cardinalities": [
                             {
-                                "propname": ":isPartOfBookChapter",
+                                "propname": ":isPartOfStoryChapter",
                                 "cardinality": "0-1",
                                 "gui_order": 2
                             },

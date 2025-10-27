@@ -56,7 +56,7 @@ def main() -> list[Resource]:
         resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
         resource.add_simpletext_multiple("project-metadata:hasAuthorshipResource", authors_resource)
         resource.add_simpletext("project-metadata:hasFileName", row["File Name"])
-        resource.add_link_multiple(":isPartOfBookChapter", chapter_id)
+        resource.add_link_multiple(":isPartOfStoryChapter", chapter_id)
         resource.add_link_multiple(":isPartOfCharacter", character_id)
         resource.add_integer("project-metadata:hasSeqnum", row["Seqnum"])
         resource.add_richtext_optional(prop_name=description_property, value=description)

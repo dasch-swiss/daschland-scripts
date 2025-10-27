@@ -7,8 +7,6 @@ from src.xmllib import (
     import_archive,
     import_audio,
     import_audio_segment,
-    import_book,
-    import_book_chapter,
     import_book_cover,
     import_book_edition,
     import_character,
@@ -19,6 +17,8 @@ from src.xmllib import (
     import_link_object,
     import_location,
     import_material,
+    import_story,
+    import_story_chapter,
     import_video,
     import_video_segment,
 )
@@ -41,7 +41,7 @@ def main() -> None:
     root = root.add_resource_multiple(all_audio_segments)
     ic(len(all_audio_segments))
 
-    all_books = import_book.main()
+    all_books = import_story.main()
     root = root.add_resource_multiple(all_books)
     ic(len(all_books))
 
@@ -53,7 +53,7 @@ def main() -> None:
     root = root.add_resource_multiple(all_book_editions)
     ic(len(all_book_editions))
 
-    all_book_chapters = import_book_chapter.main()
+    all_book_chapters = import_story_chapter.main()
     root = root.add_resource_multiple(all_book_chapters)
     ic(len(all_book_chapters))
 

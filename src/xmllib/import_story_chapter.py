@@ -12,8 +12,8 @@ def main() -> list[Resource]:
     path_to_json = OUTPUT_FOLDER / "daschland.json"
 
     # define dataframes
-    book_chapter_df = pd.read_csv(PROCESSED_FOLDER / "BookChapter.csv", dtype="str")
-    book_df = pd.read_csv(PROCESSED_FOLDER / "Book.csv", dtype="str")
+    book_chapter_df = pd.read_csv(PROCESSED_FOLDER / "StoryChapter.csv", dtype="str")
+    book_df = pd.read_csv(PROCESSED_FOLDER / "Story.csv", dtype="str")
 
     # create list mapping
     list_lookup = ListLookup.create_new(
@@ -33,7 +33,7 @@ def main() -> list[Resource]:
         )
         keyword_names = sorted(keyword_names)
 
-        book = mapping_book_name[row["Book ID"]]
+        story = mapping_book_name[row["Story ID"]]
         audio_ids = create_list_from_input(row["Audio ID"], separator=",")
         event_ids = create_list_from_input(row["Event ID"], separator=",")
         location_ids = create_list_from_input(row["Location ID"], separator=",")
@@ -42,10 +42,10 @@ def main() -> list[Resource]:
         # create resource, label and id
         resource = Resource.create_new(
             res_id=row["ID"],
-            restype=":BookChapter",
-            label=f"{book} - Chapter {row['Chapter Number']} - {row['Name']}"
+            restype=":StoryChapter",
+            label=f"{story} - Chapter {row['Chapter Number']} - {row['Name']}"
             if pd.notna(row["Chapter Number"])
-            else f"{book} - {row['Name']}",
+            else f"{story} - {row['Name']}",
         )
 
         # add properties to resource
