@@ -93,7 +93,7 @@
         <hasComment>Read by the cast</hasComment>
         <hasDescription>Poem All in the golden afternoon</hasDescription>
         <hasKeyword>Poem</hasKeyword>
-        <relatesTo>BCH_001</relatesTo>
+        <relatesTo>SCH_001</relatesTo>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Dramatis Personae - Outro" id="AUS_003">
         <isSegmentOf>A_01</isSegmentOf>
@@ -124,7 +124,7 @@
         <hasComment>Read by the cast</hasComment>
         <hasDescription>Chapter 1 of Alice in Wonderland</hasDescription>
         <hasKeyword>Chapter</hasKeyword>
-        <relatesTo>BCH_002</relatesTo>
+        <relatesTo>SCH_002</relatesTo>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Chapter 1 - Outro" id="AUS_007">
         <isSegmentOf>A_02</isSegmentOf>
@@ -147,7 +147,7 @@
         <hasComment>Read by the cast</hasComment>
         <hasDescription>Chapter 2 of Alice in Wonderland</hasDescription>
         <hasKeyword>Chapter</hasKeyword>
-        <relatesTo>BCH_003</relatesTo>
+        <relatesTo>SCH_003</relatesTo>
     </audio-segment>
     <audio-segment label="Alice in Wonderland - Chapter 2 - Outro" id="AUS_010">
         <isSegmentOf>A_03</isSegmentOf>
@@ -5406,122 +5406,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <time>2009-08-14T02:25:37-00:00</time>
         </time-prop>
     </resource>
-    <resource label="Alice in Wonderland" id="BK_001" restype=":Story">
-        <text-prop name=":hasAuthorship">
-            <text encoding="utf8">Lewis Carroll</text>
-        </text-prop>
-        <date-prop name=":hasDate">
-            <date>GREGORIAN:CE:1865-07-04:CE:1865-07-04</date>
-        </date-prop>
-        <text-prop name=":hasDescription">
-            <text encoding="xml">Alice, a young girl, follows a White Rabbit down a rabbit hole and falls into a whimsical, bizarre world called Wonderland.</text>
-        </text-prop>
-        <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In the fairytale "Alice in DaSCHland," a curious young girl named Alice discovers a magical realm powered by DaSCH, a company that operates as a repository for research data in the humanities. <br/>This world is filled with technological wonders like talking robots, digital trees, and houses that change color. <br/>Guided by a robot named RabbIT, Alice explores various marvels, including a café with size-altering tea and a library with books that speak. <br/>She meets the Queen of Hearts, an engineer who creates devices connecting emotions with digital data. <br/>Although Alice returns to her world with a token from DaSCHland, the experience leaves her inspired, reminding her that the realm of innovation and dreams, where research data in the humanities are brought to life, awaits her return.</text>
-        </text-prop>
-        <text-prop name=":hasName">
-            <text encoding="utf8">Alice in Wonderland</text>
-        </text-prop>
-        <resptr-prop name=":linkToBookCover">
-            <resptr>BCO_001</resptr>
-            <resptr>BCO_002</resptr>
-            <resptr>BCO_003</resptr>
-            <resptr>BCO_004</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToBookEdition">
-            <resptr>BE_001</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToStoryChapter">
-            <resptr>BCH_001</resptr>
-            <resptr>BCH_002</resptr>
-            <resptr>BCH_003</resptr>
-            <resptr>BCH_004</resptr>
-            <resptr>BCH_005</resptr>
-            <resptr>BCH_006</resptr>
-            <resptr>BCH_007</resptr>
-            <resptr>BCH_008</resptr>
-            <resptr>BCH_009</resptr>
-            <resptr>BCH_010</resptr>
-            <resptr>BCH_011</resptr>
-            <resptr>BCH_012</resptr>
-            <resptr>BCH_013</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToVideo">
-            <resptr>V_01</resptr>
-        </resptr-prop>
-        <text-prop name="project-metadata:hasAuthorshipResource">
-            <text encoding="utf8">Daniela Subotic</text>
-            <text encoding="utf8">Noémi Villars-Amberg</text>
-        </text-prop>
-        <text-prop name="project-metadata:hasCopyrightResource">
-            <text encoding="utf8">DaSCH</text>
-        </text-prop>
-        <text-prop name="project-metadata:hasID">
-            <text encoding="utf8">BK_001</text>
-        </text-prop>
-        <list-prop name="project-metadata:hasLicenseResource" list="License">
-            <list>LIC_002</list>
-        </list-prop>
-    </resource>
-    <resource label="Through the Looking-Glass and what Alice found there" id="BK_002" restype=":Story">
-        <text-prop name=":hasAuthorship">
-            <text encoding="utf8">Lewis Carroll</text>
-        </text-prop>
-        <date-prop name=":hasDate">
-            <date>GREGORIAN:CE:1871-12-27:CE:1871-12-27</date>
-        </date-prop>
-        <text-prop name=":hasDescription">
-            <text encoding="xml">Alice, now a bit older, steps through a mirror into a fantastical world where everything is reversed, much like a reflection in a looking glass. <br/>She embarks on a new adventure filled with strange characters and peculiar happenings.</text>
-        </text-prop>
-        <text-prop name=":hasDescriptionAlternative">
-            <text encoding="xml">In the fairytale "Through the DaSCH Portal and What Alice Discovered There" Alice, now more experienced in navigating the digital world, steps through the DaSCH portal into a realm where data structures are reversed, and everything follows its own peculiar logic, much like a reflection in a mirror. <br/>In this new environment, Alice embarks on another adventure filled with enigmatic algorithms, unusual digital entities, and peculiar happenings, where she must adapt to the unpredictable nature of the data streams and the ever-evolving digital landscape.</text>
-        </text-prop>
-        <text-prop name=":hasName">
-            <text encoding="utf8">Through the Looking-Glass and what Alice found there</text>
-        </text-prop>
-        <resptr-prop name=":linkToBookCover">
-            <resptr>BCO_005</resptr>
-            <resptr>BCO_006</resptr>
-            <resptr>BCO_007</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToBookEdition">
-            <resptr>BE_002</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToStoryChapter">
-            <resptr>BCH_014</resptr>
-            <resptr>BCH_015</resptr>
-            <resptr>BCH_016</resptr>
-            <resptr>BCH_017</resptr>
-            <resptr>BCH_018</resptr>
-            <resptr>BCH_019</resptr>
-            <resptr>BCH_020</resptr>
-            <resptr>BCH_021</resptr>
-            <resptr>BCH_022</resptr>
-            <resptr>BCH_023</resptr>
-            <resptr>BCH_024</resptr>
-            <resptr>BCH_025</resptr>
-            <resptr>BCH_026</resptr>
-            <resptr>BCH_027</resptr>
-            <resptr>BCH_028</resptr>
-            <resptr>BCH_029</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToVideo">
-            <resptr>V_01</resptr>
-        </resptr-prop>
-        <text-prop name="project-metadata:hasAuthorshipResource">
-            <text encoding="utf8">Daniela Subotic</text>
-            <text encoding="utf8">Noémi Villars-Amberg</text>
-        </text-prop>
-        <text-prop name="project-metadata:hasCopyrightResource">
-            <text encoding="utf8">DaSCH</text>
-        </text-prop>
-        <text-prop name="project-metadata:hasID">
-            <text encoding="utf8">BK_002</text>
-        </text-prop>
-        <list-prop name="project-metadata:hasLicenseResource" list="License">
-            <list>LIC_002</list>
-        </list-prop>
-    </resource>
     <resource label="Alice" id="CH_001" restype=":Character">
         <text-prop name=":hasDescription">
             <text encoding="xml">Alice is a young English girl. She is the main protagonist of Alice’s Adventures in Wonderland and Through the Looking-Glass and What Alice Found There. She is a curious, imaginative, and bold young girl who finds herself in bizarre, dreamlike worlds filled with nonsense and eccentric characters.<br/>
@@ -9723,7 +9607,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">King and Queen of Hearts sitting on their throne in court</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_001</resptr>
+            <resptr>SCH_001</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_002</resptr>
@@ -9761,7 +9645,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">White Rabbit looking at his watch</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_002</resptr>
+            <resptr>SCH_002</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_002</resptr>
@@ -9795,7 +9679,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice finding a little door</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_002</resptr>
+            <resptr>SCH_002</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9829,7 +9713,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice holding the "Drink Me" bottle</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_002</resptr>
+            <resptr>SCH_002</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9863,7 +9747,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice growing taller</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_003</resptr>
+            <resptr>SCH_003</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9897,7 +9781,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">White Rabbit skurrying away from Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_003</resptr>
+            <resptr>SCH_003</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9932,7 +9816,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice swimming in the Pool of tears</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_003</resptr>
+            <resptr>SCH_003</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -9966,7 +9850,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice and the Mouse swimming in the Pool of tears</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_003</resptr>
+            <resptr>SCH_003</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10001,7 +9885,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice accepting a thimble from Dodo</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_004</resptr>
+            <resptr>SCH_004</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10036,7 +9920,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Mouse telling its tale to Alice and creatures</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_004</resptr>
+            <resptr>SCH_004</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10072,7 +9956,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice outgrowing White Rabbit's house</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_005</resptr>
+            <resptr>SCH_005</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10106,7 +9990,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice's hand reaching for White Rabbit</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_005</resptr>
+            <resptr>SCH_005</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10141,7 +10025,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Bill the lizzard rocketting out of the chimney</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_005</resptr>
+            <resptr>SCH_005</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_027</resptr>
@@ -10175,7 +10059,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">The puppy looking at Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_005</resptr>
+            <resptr>SCH_005</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10210,7 +10094,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Caterpillar questionning Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_006</resptr>
+            <resptr>SCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10245,7 +10129,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Father William standing on his head</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_006</resptr>
+            <resptr>SCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_038</resptr>
@@ -10279,7 +10163,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Father William turning a back-sommersault</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_006</resptr>
+            <resptr>SCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_038</resptr>
@@ -10313,7 +10197,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Father William sitting at a table</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_006</resptr>
+            <resptr>SCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_038</resptr>
@@ -10347,7 +10231,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Father William balancing an eel</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_006</resptr>
+            <resptr>SCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_038</resptr>
@@ -10381,7 +10265,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Frog-Footman and Fish-Footman holding an invitation</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_007</resptr>
+            <resptr>SCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_030</resptr>
@@ -10415,7 +10299,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Dutchess nursing the baby</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_007</resptr>
+            <resptr>SCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10453,7 +10337,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice holding the pig baby</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_007</resptr>
+            <resptr>SCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10488,7 +10372,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Cheshire Cat grinning at Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_007</resptr>
+            <resptr>SCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10523,7 +10407,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Cheshire Cat disappearing</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_007</resptr>
+            <resptr>SCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_005</resptr>
@@ -10557,7 +10441,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice sitting at a mad tea-party</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_008</resptr>
+            <resptr>SCH_008</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10594,7 +10478,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Hatter singing</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_008</resptr>
+            <resptr>SCH_008</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
@@ -10629,7 +10513,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Dormouse being put in a teapot</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_008</resptr>
+            <resptr>SCH_008</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
@@ -10665,7 +10549,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Card-gardeners painting roses</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_009</resptr>
+            <resptr>SCH_009</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_035</resptr>
@@ -10699,7 +10583,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Queen of Hearts pointing at Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_009</resptr>
+            <resptr>SCH_009</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10735,7 +10619,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice holding her Flamingo</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_009</resptr>
+            <resptr>SCH_009</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10770,7 +10654,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Executioners and crowd collecting round Cheshire Cat</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_009</resptr>
+            <resptr>SCH_009</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_002</resptr>
@@ -10807,7 +10691,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice and Duchess walking</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_010</resptr>
+            <resptr>SCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10843,7 +10727,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Gryphon sleeping</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_010</resptr>
+            <resptr>SCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_010</resptr>
@@ -10877,7 +10761,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Mock Turtle telling his story to Gryphon and Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_010</resptr>
+            <resptr>SCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10913,7 +10797,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Mock Turtle and Gryphon dancing round Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_010</resptr>
+            <resptr>SCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -10949,7 +10833,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Lobster turning out his toes </text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_011</resptr>
+            <resptr>SCH_011</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_039</resptr>
@@ -10983,7 +10867,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">White Rabbit as herald blowing a trumpet</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_012</resptr>
+            <resptr>SCH_012</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_002</resptr>
@@ -11017,7 +10901,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Hatter shaking off his shoes</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_012</resptr>
+            <resptr>SCH_012</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
@@ -11051,7 +10935,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Hatter running</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_012</resptr>
+            <resptr>SCH_012</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
@@ -11085,7 +10969,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice tipping over the jury-box</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_013</resptr>
+            <resptr>SCH_013</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11120,7 +11004,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">King of Hearts pointing to the tarts in court</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_013</resptr>
+            <resptr>SCH_013</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_017</resptr>
@@ -11155,7 +11039,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Cards flying down upon Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_013</resptr>
+            <resptr>SCH_013</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11189,7 +11073,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">White knight riding his horse</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_015</resptr>
+            <resptr>SCH_015</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11227,7 +11111,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Black kitten playing</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_017</resptr>
+            <resptr>SCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_040</resptr>
@@ -11264,7 +11148,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice winding worsted in an arm-chair</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_017</resptr>
+            <resptr>SCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11302,7 +11186,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice going through the looking-glass</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_017</resptr>
+            <resptr>SCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11339,7 +11223,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice coming through the looking-glass</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_017</resptr>
+            <resptr>SCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11376,7 +11260,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Chessmen walking</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_017</resptr>
+            <resptr>SCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_041</resptr>
@@ -11413,7 +11297,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice picking up White King</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_017</resptr>
+            <resptr>SCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11451,7 +11335,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">The White Knight sliding down a poker</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_017</resptr>
+            <resptr>SCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_013</resptr>
@@ -11488,7 +11372,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Jabberwork</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_017</resptr>
+            <resptr>SCH_017</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_026</resptr>
@@ -11525,7 +11409,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Tiger-Lily and Alice talking</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_018</resptr>
+            <resptr>SCH_018</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11563,7 +11447,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice and Red Queen talking</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_018</resptr>
+            <resptr>SCH_018</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11601,7 +11485,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Chessboard-like country</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_018</resptr>
+            <resptr>SCH_018</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -11635,7 +11519,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice and Red Queen running</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_018</resptr>
+            <resptr>SCH_018</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11673,7 +11557,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice sittin in a train carriage</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_019</resptr>
+            <resptr>SCH_019</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11710,7 +11594,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Rocking-horse-fly</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_019</resptr>
+            <resptr>SCH_019</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -11744,7 +11628,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Snap-dragon-fly</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_019</resptr>
+            <resptr>SCH_019</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -11778,7 +11662,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Bread-and-butter-fly</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_019</resptr>
+            <resptr>SCH_019</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -11812,7 +11696,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice clasping her arms round Fawn</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_019</resptr>
+            <resptr>SCH_019</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11849,7 +11733,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice calling on Tweedledum and Tweeldee</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_020</resptr>
+            <resptr>SCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -11887,7 +11771,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Walrus and Carpenter walking</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_020</resptr>
+            <resptr>SCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_045</resptr>
@@ -11925,7 +11809,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Walrus and Carpenter resting</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_020</resptr>
+            <resptr>SCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_045</resptr>
@@ -11963,7 +11847,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Walrus and Carpenter eating</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_020</resptr>
+            <resptr>SCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_045</resptr>
@@ -12001,7 +11885,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Red King snoring</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_020</resptr>
+            <resptr>SCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_047</resptr>
@@ -12038,7 +11922,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Tweedledum crying in a fury</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_020</resptr>
+            <resptr>SCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12076,7 +11960,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Tweedledum and Tweedledee</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_020</resptr>
+            <resptr>SCH_020</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12114,7 +11998,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice adressing White Queen</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_021</resptr>
+            <resptr>SCH_021</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12152,7 +12036,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Hatta sitting in prison</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_021</resptr>
+            <resptr>SCH_021</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
@@ -12189,7 +12073,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice leaning on counter in Sheep's shop</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_021</resptr>
+            <resptr>SCH_021</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12227,7 +12111,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice rowing a boat</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_021</resptr>
+            <resptr>SCH_021</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12265,7 +12149,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Humpty Dumpty offering Alice his hand</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_022</resptr>
+            <resptr>SCH_022</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12303,7 +12187,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Jabberwocky creatures</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_022</resptr>
+            <resptr>SCH_022</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -12337,7 +12221,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Humpty Dumpty sending a message</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_022</resptr>
+            <resptr>SCH_022</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_012</resptr>
@@ -12374,7 +12258,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">White King soldiers and horses stumbling</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_023</resptr>
+            <resptr>SCH_023</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -12408,7 +12292,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Haigha handing a ham sandwich to the White King</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_023</resptr>
+            <resptr>SCH_023</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12447,7 +12331,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Hatta drinking tea</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_023</resptr>
+            <resptr>SCH_023</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12489,7 +12373,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice holding a plum cake</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_023</resptr>
+            <resptr>SCH_023</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12528,7 +12412,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice putting her hands over her ears</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_023</resptr>
+            <resptr>SCH_023</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12565,7 +12449,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Red Knight and White Knight fighting</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_024</resptr>
+            <resptr>SCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12604,7 +12488,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">White Knight falling off his horse</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_024</resptr>
+            <resptr>SCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12642,7 +12526,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice dragging White Knight out off a ditch</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_024</resptr>
+            <resptr>SCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12680,7 +12564,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">White Knight shaking an aged man</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_024</resptr>
+            <resptr>SCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_013</resptr>
@@ -12717,7 +12601,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice lifting off a golden crown</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_024</resptr>
+            <resptr>SCH_024</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12754,7 +12638,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Red Queen and White Queen sitting with Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_025</resptr>
+            <resptr>SCH_025</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12793,7 +12677,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Red Queen and White Queen sleeping on Alice</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_025</resptr>
+            <resptr>SCH_025</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12832,7 +12716,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice and Frog standing before a door</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_025</resptr>
+            <resptr>SCH_025</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12870,7 +12754,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Mutton making a little bow</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_025</resptr>
+            <resptr>SCH_025</resptr>
         </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -12904,7 +12788,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice pulling a table cloth</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_025</resptr>
+            <resptr>SCH_025</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12941,7 +12825,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice shaking Red Queen</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_026</resptr>
+            <resptr>SCH_026</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -12979,7 +12863,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice shaking Kitty</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_027</resptr>
+            <resptr>SCH_027</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -13017,7 +12901,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice looking over her shoulder at White Kitten</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_028</resptr>
+            <resptr>SCH_028</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -13055,7 +12939,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">DaSCHland Alice navigating the RabbIT hole</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_002</resptr>
+            <resptr>SCH_002</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -13089,7 +12973,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">DaSCHland Alice navigating the RabbIT hole</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_002</resptr>
+            <resptr>SCH_002</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_002</resptr>
@@ -13123,7 +13007,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Archival Madcap drinking tea</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_008</resptr>
+            <resptr>SCH_008</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_004</resptr>
@@ -13157,7 +13041,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Cyberpillar on his mushroom</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_006</resptr>
+            <resptr>SCH_006</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_003</resptr>
@@ -13191,7 +13075,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Alice arriving at DaSCHland entrance</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_001</resptr>
+            <resptr>SCH_001</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_001</resptr>
@@ -13225,7 +13109,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Data Queen glowing red</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_009</resptr>
+            <resptr>SCH_009</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_006</resptr>
@@ -13259,7 +13143,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Mock-up Data being obsolete</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_010</resptr>
+            <resptr>SCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_009</resptr>
@@ -13293,7 +13177,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Quantum Cat appearing</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_007</resptr>
+            <resptr>SCH_007</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_005</resptr>
@@ -13327,7 +13211,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">RabbIT looking at 3D Map of DaSCHland</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_002</resptr>
+            <resptr>SCH_002</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_002</resptr>
@@ -13361,7 +13245,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">Real-Time Processor being in the now</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_008</resptr>
+            <resptr>SCH_008</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_018</resptr>
@@ -13395,7 +13279,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="xml">System Protector looking over data</text>
         </text-prop>
         <resptr-prop name=":isPartOfBookChapter">
-            <resptr>BCH_010</resptr>
+            <resptr>SCH_010</resptr>
         </resptr-prop>
         <resptr-prop name=":isPartOfCharacter">
             <resptr>CH_010</resptr>
@@ -14855,6 +14739,122 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>I_032</resptr>
         </resptr-prop>
     </region>
+    <resource label="Alice in Wonderland" id="ST_001" restype=":Story">
+        <text-prop name=":hasAuthorship">
+            <text encoding="utf8">Lewis Carroll</text>
+        </text-prop>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1865-07-04:CE:1865-07-04</date>
+        </date-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice, a young girl, follows a White Rabbit down a rabbit hole and falls into a whimsical, bizarre world called Wonderland.</text>
+        </text-prop>
+        <text-prop name=":hasDescriptionAlternative">
+            <text encoding="xml">In the fairytale "Alice in DaSCHland," a curious young girl named Alice discovers a magical realm powered by DaSCH, a company that operates as a repository for research data in the humanities. <br/>This world is filled with technological wonders like talking robots, digital trees, and houses that change color. <br/>Guided by a robot named RabbIT, Alice explores various marvels, including a café with size-altering tea and a library with books that speak. <br/>She meets the Queen of Hearts, an engineer who creates devices connecting emotions with digital data. <br/>Although Alice returns to her world with a token from DaSCHland, the experience leaves her inspired, reminding her that the realm of innovation and dreams, where research data in the humanities are brought to life, awaits her return.</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text encoding="utf8">Alice in Wonderland</text>
+        </text-prop>
+        <resptr-prop name=":linkToBookCover">
+            <resptr>BCO_001</resptr>
+            <resptr>BCO_002</resptr>
+            <resptr>BCO_003</resptr>
+            <resptr>BCO_004</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToBookEdition">
+            <resptr>BE_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToStoryChapter">
+            <resptr>SCH_001</resptr>
+            <resptr>SCH_002</resptr>
+            <resptr>SCH_003</resptr>
+            <resptr>SCH_004</resptr>
+            <resptr>SCH_005</resptr>
+            <resptr>SCH_006</resptr>
+            <resptr>SCH_007</resptr>
+            <resptr>SCH_008</resptr>
+            <resptr>SCH_009</resptr>
+            <resptr>SCH_010</resptr>
+            <resptr>SCH_011</resptr>
+            <resptr>SCH_012</resptr>
+            <resptr>SCH_013</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToVideo">
+            <resptr>V_01</resptr>
+        </resptr-prop>
+        <text-prop name="project-metadata:hasAuthorshipResource">
+            <text encoding="utf8">Daniela Subotic</text>
+            <text encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <text-prop name="project-metadata:hasCopyrightResource">
+            <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name="project-metadata:hasID">
+            <text encoding="utf8">ST_001</text>
+        </text-prop>
+        <list-prop name="project-metadata:hasLicenseResource" list="License">
+            <list>LIC_002</list>
+        </list-prop>
+    </resource>
+    <resource label="Through the Looking-Glass and what Alice found there" id="ST_002" restype=":Story">
+        <text-prop name=":hasAuthorship">
+            <text encoding="utf8">Lewis Carroll</text>
+        </text-prop>
+        <date-prop name=":hasDate">
+            <date>GREGORIAN:CE:1871-12-27:CE:1871-12-27</date>
+        </date-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="xml">Alice, now a bit older, steps through a mirror into a fantastical world where everything is reversed, much like a reflection in a looking glass. <br/>She embarks on a new adventure filled with strange characters and peculiar happenings.</text>
+        </text-prop>
+        <text-prop name=":hasDescriptionAlternative">
+            <text encoding="xml">In the fairytale "Through the DaSCH Portal and What Alice Discovered There" Alice, now more experienced in navigating the digital world, steps through the DaSCH portal into a realm where data structures are reversed, and everything follows its own peculiar logic, much like a reflection in a mirror. <br/>In this new environment, Alice embarks on another adventure filled with enigmatic algorithms, unusual digital entities, and peculiar happenings, where she must adapt to the unpredictable nature of the data streams and the ever-evolving digital landscape.</text>
+        </text-prop>
+        <text-prop name=":hasName">
+            <text encoding="utf8">Through the Looking-Glass and what Alice found there</text>
+        </text-prop>
+        <resptr-prop name=":linkToBookCover">
+            <resptr>BCO_005</resptr>
+            <resptr>BCO_006</resptr>
+            <resptr>BCO_007</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToBookEdition">
+            <resptr>BE_002</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToStoryChapter">
+            <resptr>SCH_014</resptr>
+            <resptr>SCH_015</resptr>
+            <resptr>SCH_016</resptr>
+            <resptr>SCH_017</resptr>
+            <resptr>SCH_018</resptr>
+            <resptr>SCH_019</resptr>
+            <resptr>SCH_020</resptr>
+            <resptr>SCH_021</resptr>
+            <resptr>SCH_022</resptr>
+            <resptr>SCH_023</resptr>
+            <resptr>SCH_024</resptr>
+            <resptr>SCH_025</resptr>
+            <resptr>SCH_026</resptr>
+            <resptr>SCH_027</resptr>
+            <resptr>SCH_028</resptr>
+            <resptr>SCH_029</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToVideo">
+            <resptr>V_01</resptr>
+        </resptr-prop>
+        <text-prop name="project-metadata:hasAuthorshipResource">
+            <text encoding="utf8">Daniela Subotic</text>
+            <text encoding="utf8">Noémi Villars-Amberg</text>
+        </text-prop>
+        <text-prop name="project-metadata:hasCopyrightResource">
+            <text encoding="utf8">DaSCH</text>
+        </text-prop>
+        <text-prop name="project-metadata:hasID">
+            <text encoding="utf8">ST_002</text>
+        </text-prop>
+        <list-prop name="project-metadata:hasLicenseResource" list="License">
+            <list>LIC_002</list>
+        </list-prop>
+    </resource>
     <video-segment label="Alice in Wonderland - Title sequence" id="VIS_001">
         <isSegmentOf>V_01</isSegmentOf>
         <hasSegmentBounds segment_start="0" segment_end="16"/>
@@ -14916,23 +14916,6 @@ Alice's Mother - Lotta Savoy</text>
             <text comment="We're all mad here!" encoding="xml">It's all about madness</text>
         </text-prop>
         <resptr-prop name="hasLinkTo">
-            <resptr>BCH_003</resptr>
-            <resptr>BCH_005</resptr>
-            <resptr>BCH_006</resptr>
-            <resptr>BCH_007</resptr>
-            <resptr>BCH_008</resptr>
-            <resptr>BCH_009</resptr>
-            <resptr>BCH_010</resptr>
-            <resptr>BCH_011</resptr>
-            <resptr>BCH_012</resptr>
-            <resptr>BCH_013</resptr>
-            <resptr>BCH_019</resptr>
-            <resptr>BCH_020</resptr>
-            <resptr>BCH_021</resptr>
-            <resptr>BCH_022</resptr>
-            <resptr>BCH_023</resptr>
-            <resptr>BCH_024</resptr>
-            <resptr>BCH_025</resptr>
             <resptr>CH_004</resptr>
             <resptr>CH_005</resptr>
             <resptr>CH_006</resptr>
@@ -14940,6 +14923,23 @@ Alice's Mother - Lotta Savoy</text>
             <resptr>CH_008</resptr>
             <resptr>CH_011</resptr>
             <resptr>CH_018</resptr>
+            <resptr>SCH_003</resptr>
+            <resptr>SCH_005</resptr>
+            <resptr>SCH_006</resptr>
+            <resptr>SCH_007</resptr>
+            <resptr>SCH_008</resptr>
+            <resptr>SCH_009</resptr>
+            <resptr>SCH_010</resptr>
+            <resptr>SCH_011</resptr>
+            <resptr>SCH_012</resptr>
+            <resptr>SCH_013</resptr>
+            <resptr>SCH_019</resptr>
+            <resptr>SCH_020</resptr>
+            <resptr>SCH_021</resptr>
+            <resptr>SCH_022</resptr>
+            <resptr>SCH_023</resptr>
+            <resptr>SCH_024</resptr>
+            <resptr>SCH_025</resptr>
         </resptr-prop>
     </link>
     <link label="Image_Annotations" id="link_object_02">

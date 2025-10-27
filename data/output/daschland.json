@@ -1261,7 +1261,7 @@
                             "schema:isPartOf",
                             "crm:P5i_forms_part_of"
                         ],
-                        "object": ":BookChapter",
+                        "object": ":StoryChapter",
                         "labels": {
                             "de": "Teil des Kapitels",
                             "en": "Part of chapter",
@@ -1326,7 +1326,7 @@
                             "schema:chapter",
                             "crm:P5_consists_of"
                         ],
-                        "object": ":BookChapter",
+                        "object": ":StoryChapter",
                         "labels": {
                             "de": "Buch-Kapitel",
                             "en": "Book Chapters",
