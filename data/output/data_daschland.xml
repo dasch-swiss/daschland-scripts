@@ -5406,7 +5406,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <time>2009-08-14T02:25:37-00:00</time>
         </time-prop>
     </resource>
-    <resource label="Alice in Wonderland" id="BK_001" restype=":Book">
+    <resource label="Alice in Wonderland" id="BK_001" restype=":Story">
         <text-prop name=":hasAuthorship">
             <text encoding="utf8">Lewis Carroll</text>
         </text-prop>
@@ -5422,7 +5422,16 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Alice in Wonderland</text>
         </text-prop>
-        <resptr-prop name=":linkToBookChapter">
+        <resptr-prop name=":linkToBookCover">
+            <resptr>BCO_001</resptr>
+            <resptr>BCO_002</resptr>
+            <resptr>BCO_003</resptr>
+            <resptr>BCO_004</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToBookEdition">
+            <resptr>BE_001</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToStoryChapter">
             <resptr>BCH_001</resptr>
             <resptr>BCH_002</resptr>
             <resptr>BCH_003</resptr>
@@ -5436,15 +5445,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>BCH_011</resptr>
             <resptr>BCH_012</resptr>
             <resptr>BCH_013</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToBookCover">
-            <resptr>BCO_001</resptr>
-            <resptr>BCO_002</resptr>
-            <resptr>BCO_003</resptr>
-            <resptr>BCO_004</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToBookEdition">
-            <resptr>BE_001</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToVideo">
             <resptr>V_01</resptr>
@@ -5463,7 +5463,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there" id="BK_002" restype=":Book">
+    <resource label="Through the Looking-Glass and what Alice found there" id="BK_002" restype=":Story">
         <text-prop name=":hasAuthorship">
             <text encoding="utf8">Lewis Carroll</text>
         </text-prop>
@@ -5479,7 +5479,15 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Through the Looking-Glass and what Alice found there</text>
         </text-prop>
-        <resptr-prop name=":linkToBookChapter">
+        <resptr-prop name=":linkToBookCover">
+            <resptr>BCO_005</resptr>
+            <resptr>BCO_006</resptr>
+            <resptr>BCO_007</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToBookEdition">
+            <resptr>BE_002</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linkToStoryChapter">
             <resptr>BCH_014</resptr>
             <resptr>BCH_015</resptr>
             <resptr>BCH_016</resptr>
@@ -5496,14 +5504,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <resptr>BCH_027</resptr>
             <resptr>BCH_028</resptr>
             <resptr>BCH_029</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToBookCover">
-            <resptr>BCO_005</resptr>
-            <resptr>BCO_006</resptr>
-            <resptr>BCO_007</resptr>
-        </resptr-prop>
-        <resptr-prop name=":linkToBookEdition">
-            <resptr>BE_002</resptr>
         </resptr-prop>
         <resptr-prop name=":linkToVideo">
             <resptr>V_01</resptr>
