@@ -61,9 +61,9 @@ Type `just` to get an overview of available recipes.
   - `helpers` The helper scripts containing custom functions.
   - `process_data` The scripts to create the mirror project data on Nodegoat.
   - `xmllib` The scripts to convert the XML data to JSON, using the library "dsp-tools xmllib".
-- `test`
-- `CLAUDE.md`
-- `justfile`
+- `test`: Unit tests and e2e tests
+- `CLAUDE.md`: Instructions for Claude Code
+- `justfile`: Shorthand commands
 - `pyproject.toml` The Python project file containing all dependencies for the project.
 - `uv.lock` The lock file for the project, which is used to create a virtual environment for the project.
 
@@ -77,7 +77,7 @@ After that, create the project JSON again with `just daschland-excel2json`.
 
 ## Create the Import XML File
 
-The XML file used for the xmlupload can be generated through `just daschland-xmllib`
+The XML file used for the xmlupload can be generated with `just daschland-xmllib`
 or run the python file `src/xmllib/main.py` directly.
 
 Some log statements and infos will be printed to the console.
@@ -106,7 +106,7 @@ This will become the password for all user accounts in the JSON file.
 
 Sample content:
 
-```
+```bash
 DSP_USER_PASSWORD="some_random_password"
 ```
 
