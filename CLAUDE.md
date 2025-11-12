@@ -89,7 +89,7 @@ into formats suitable for the DSPplatform.
   Documentation, Event, Image, Location, Material, Region, Video, VideoSegment
 - **Data Sources**: Excel spreadsheets in `data/raw/`
 - **Multimedia Files**: Organized in `data/multimedia/` by type (audio, image, video, etc.)
-- **Ontology**: Defined in `daschland_ontology/` Excel files, compiled to `daschland.json`
+- **Ontology**: Defined in `data/daschland_ontology/` Excel files, compiled to `data/output/daschland.json`
 
 ### Important Notes
 
