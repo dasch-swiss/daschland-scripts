@@ -47,10 +47,10 @@ brew install just
 Type `just` to get an overview of available recipes.
 
 The JSON project definition defines user accounts which are created by `dsp-tools create`.
-In order to keep their passwords secret, they are not specified in the JSON.
+In order to keep their passwords secret, the JSON of this repo doesn't specify the passwords in the JSON.
 Instead, you must set an environment variable in a `.env` file in your root directory.
 This will become the password for all user accounts in the JSON file.
-Before creating the project locally or on a DSP server, you must set a random password in a `.env` file, e.g.:
+Before creating the project locally or on a DSP server, execute this in your terminal:
 
 ```bash
 echo DSP_USER_PASSWORD="$(openssl rand -base64 32)" >> .env
