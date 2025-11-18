@@ -48,20 +48,23 @@ Type `just` to get an overview of available recipes.
 
 ## Project Structure
 
-- `data_daschland.xml` The XML file containing the data for the project.
-- `daschland_ontology` The ontology folder containing the Excel files used to create the JSON ontology file.
-- `daschland.json` The JSON file containing the data model for the project.
 - `data` The folder containing the project data.
+  - `daschland_ontology` The ontology folder containing the Excel files used to create the JSON ontology file.
   - `multimedia` The folder containing the multimedia data (video, audio, ...) for the project, in subfolders according to the project classes.
-  - `nodegoat` The folder containing all data to create the mirror project on Nodegoat.
-  - `spreadsheets` The folder containing the spreadsheet data for the project. Each resource class has a separate spreadsheet file.
-  - `xml` The folder containing the XML data for the project.
-- `pyproject.toml` The Python project file containing all dependencies for the project.
-- `src` The folder containing the Python scripts for the project. 
-  - `excel2xml` The scripts to convert the spreadsheet data to XML, using the old module "dsp-tools excel2xml".
+  - `output`:
+    - `daschland.json` The JSON file containing the data model for the project.
+    - `data_daschland.xml` The XML file containing the data for the project.
+  - `processed` The folder containing all data to create the mirror project on Nodegoat.
+  - `raw` The folder containing the spreadsheet data for the project. Each resource class has a separate spreadsheet file.
+- `documentation`
+- `src` The folder containing the Python scripts for the project.
   - `helpers` The helper scripts containing custom functions.
-  - `nodegoat` The scripts to create the mirror project data on Nodegoat.
-  - `xmllib` The scripts to convert the XML data to JSON, using the new library "dsp-tools xmllib".
+  - `process_data` The scripts to create the mirror project data on Nodegoat.
+  - `xmllib` The scripts to convert the XML data to JSON, using the library "dsp-tools xmllib".
+- `test`: Unit tests and e2e tests
+- `CLAUDE.md`: Instructions for Claude Code
+- `justfile`: Shorthand commands
+- `pyproject.toml` The Python project file containing all dependencies for the project.
 - `uv.lock` The lock file for the project, which is used to create a virtual environment for the project.
 
 
@@ -70,11 +73,11 @@ Type `just` to get an overview of available recipes.
 We use the `dsp-tools excel2json` command to generate the JSON file with the project definition.
 If you want to update it, edit the Excel files in `daschland_ontology`.
 
-After that, create the new the project JSON with `just daschland-excel2json`.
+After that, create the project JSON again with `just daschland-excel2json`.
 
 ## Create the Import XML File
 
-The XML file used for the xmlupload can be generated through `just daschland-xmllib` 
+The XML file used for the xmlupload can be generated with `just daschland-xmllib`
 or run the python file `src/xmllib/main.py` directly.
 
 Some log statements and infos will be printed to the console.
@@ -103,7 +106,7 @@ This will become the password for all user accounts in the JSON file.
 
 Sample content:
 
-```
+```bash
 DSP_USER_PASSWORD="some_random_password"
 ```
 
