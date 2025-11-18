@@ -1,0 +1,17 @@
+ID (optional),en_1,fr_1,en_2,fr_2,en_3,fr_3,English,Francais
+EVT_001,Adventure,Aventure,,,,,Adventure,Aventure
+EVT_002,Adventure,Aventure,Inciting Incident,Incident incitant,,,Adventure − Inciting Incident,Aventure − Incident incitant
+EVT_003,Adventure,Aventure,Physical Transformation,Transformation physique,,,Adventure − Physical Transformation,Aventure − Transformation physique
+EVT_004,Adventure,Aventure,Exploration,Exploration,,,Adventure − Exploration,Aventure − Exploration
+EVT_005,Adventure,Aventure,Role Change,Changement de rôle,,,Adventure − Role Change,Aventure − Changement de rôle
+EVT_006,Adventure,Aventure,Resolution,Résolution,,,Adventure − Resolution,Aventure − Résolution
+EVT_007,Social,Social,,,,,Social,Social
+EVT_008,Social,Social,Encounter,Rencontre,,,Social − Encounter,Social − Rencontre
+EVT_009,Social,Social,Assistance,Assistance,,,Social − Assistance,Social − Assistance
+EVT_010,Social,Social,Challenge,Compétition,,,Social − Challenge,Social − Compétition
+EVT_011,Conflict,Conflit,,,,,Conflict,Conflit
+EVT_012,Conflict,Conflit,Transformation,Transformation physique,,,Conflict − Transformation,Conflit − Transformation physique
+EVT_013,Conflict,Conflit,Confrontation,Confrontation,,,Conflict − Confrontation,Conflit − Confrontation
+EVT_014,Conflict,Conflit,Confrontation,Confrontation,Confrontation and Transformation,Confrontation et transformation,Conflict − Confrontation − Confrontation and Transformation,Conflit − Confrontation − Confrontation et transformation
+EVT_015,Conflict,Conflit,Major Incident,Incident majeur,,,Conflict − Major Incident,Conflit − Incident majeur
+EVT_016,Alternative,Alternatif,,,,,Alternative,Alternatif

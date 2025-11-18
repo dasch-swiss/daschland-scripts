@@ -1,0 +1,56 @@
+---
+name: Automated Tests
+
+on:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          lfs: 'false'  # take care not to exceed the monthly quota 
+          # https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage
+      - name: Install just
+        uses: taiki-e/install-action@just
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Install Python dependencies (uv will install python automatically, if no appropriate version is installed)
+        run: uv sync --all-extras --dev
+        shell: bash
+      - name: Linting with ruff
+        run: just ruff-check --output-format=github
+      - name: Check formatting with ruff
+        run: just ruff-format-check
+      - name: Linting with mypy
+        run: just mypy
+      - name: Run vulture
+        run: just vulture
+
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          lfs: 'false'  # take care not to exceed the monthly quota 
+          # https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-git-large-file-storage
+      - name: Install just
+        uses: taiki-e/install-action@just
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Install Python dependencies (uv will install python automatically, if no appropriate version is installed)
+        run: uv sync --all-extras --dev
+        shell: bash
+      - name: Upgrade DSP-TOOLS
+        run: uv add --upgrade dsp-tools
+      - name: Install ExifTool
+        run: sudo apt-get update && sudo apt-get install -y exiftool
+      - name: Run tests
+        run: just test -s
