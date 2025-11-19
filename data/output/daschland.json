@@ -1766,29 +1766,24 @@
                                 "gui_order": 6
                             },
                             {
-                                "propname": ":linkToImage",
+                                "propname": ":hasKeywordList",
                                 "cardinality": "0-n",
                                 "gui_order": 7
                             },
                             {
-                                "propname": ":hasKeywordList",
+                                "propname": "project-metadata:hasAuthorshipResource",
                                 "cardinality": "0-n",
                                 "gui_order": 8
                             },
                             {
-                                "propname": "project-metadata:hasAuthorshipResource",
-                                "cardinality": "0-n",
-                                "gui_order": 9
-                            },
-                            {
                                 "propname": "project-metadata:hasCopyrightResource",
                                 "cardinality": "0-1",
-                                "gui_order": 10
+                                "gui_order": 9
                             },
                             {
                                 "propname": "project-metadata:hasLicenseResource",
                                 "cardinality": "0-1",
-                                "gui_order": 11
+                                "gui_order": 10
                             }
                         ]
                     },

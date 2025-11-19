@@ -67,7 +67,6 @@ def main() -> list[Resource]:
         resource.add_richtext_optional(prop_name=":hasDescriptionAlternative", value=row["Alternative Description"])
         resource.add_list_multiple(prop_name=":hasRoleList", list_name="Role", values=roles)
         resource.add_richtext_optional(":hasQuote", row["Quote"])
-        resource.add_link_multiple(":linkToImage", image_ids)
         resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names)
         resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
         resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
