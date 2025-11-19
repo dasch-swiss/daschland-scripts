@@ -56,6 +56,8 @@ Before creating the project locally or on a DSP server, execute this in your ter
 echo DSP_USER_PASSWORD="$(openssl rand -base64 32)" >> .env
 ```
 
+(The `openssl rand` command generates a random character sequence. Every time you call it, its output is different.)
+
 
 ## Project Structure
 
