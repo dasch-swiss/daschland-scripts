@@ -36,7 +36,6 @@ def main() -> list[Resource]:
         names = {name for name in names if pd.notna(name)}
 
         roles = create_list_from_input(row["Role List"], separator=",")
-        image_ids = create_list_from_input(row["Image ID"], separator=",")
 
         keyword_names = get_list_nodes_from_string_via_list_name(
             string_with_list_labels=row["Keyword"], label_separator=",", list_name="Keyword", list_lookup=list_lookup
