@@ -24,6 +24,7 @@ Once you have cloned this repo, `cd` into it, and then get started with:
 
 ```bash
 uv sync
+source .venv/bin/activate
 pre-commit install
 ```
 
@@ -44,6 +45,18 @@ brew install just
 ```
 
 Type `just` to get an overview of available recipes.
+
+The JSON project definition defines user accounts which are created by `dsp-tools create`.
+In order to keep their passwords secret, the JSON of this repo doesn't specify the passwords in the JSON.
+Instead, you must set an environment variable in a `.env` file in your root directory.
+This will become the password for all user accounts in the JSON file.
+Before creating the project locally or on a DSP server, execute this in your terminal:
+
+```bash
+echo DSP_USER_PASSWORD="$(openssl rand -base64 32)" >> .env
+```
+
+(The `openssl rand` command generates a random character sequence. Every time you call it, its output is different.)
 
 
 ## Project Structure
@@ -72,6 +85,7 @@ If you want to update it, edit the Excel files in `daschland_ontology`.
 
 After that, create the new the project JSON with `just daschland-excel2json`.
 
+
 ## Create the Import XML File
 
 The XML file used for the xmlupload can be generated through `just daschland-xmllib` 
@@ -80,32 +94,21 @@ or run the python file `src/xmllib/main.py` directly.
 Some log statements and infos will be printed to the console.
 They are informational, and can be ignored.
 
+
 ## Upload Protocol
 
 To upload data to a DSP-API server, use the [`dsp-tools`](https://pypi.org/project/dsp-tools/) command line tool.
 It is installed in the virtual environment.
 Please use the project admin account "CheshireCat" to upload data to the DSP-API server.
 
-
-### Uploading Data Locally
+Uploading data locally:
 
 ```bash
 dsp-tools create daschland.json
 dsp-tools xmlupload data_daschland.xml
 ```
 
-### Uploading Data to a Test Server
-
-The JSON project definition defines user accounts which are created by `dsp-tools create`.
-In order to keep their passwords secret, they are not specified in the JSON.
-Instead, you must set an environment variable in a `.env` file in your root directory.
-This will become the password for all user accounts in the JSON file.
-
-Sample content:
-
-```
-DSP_USER_PASSWORD="some_random_password"
-```
+Uploading data to a test server:
 
 ```bash
 dsp-tools create -s https://api.rdu-08.dasch.swiss -u root@example.com -p 'predefined_root_password' daschland.json
