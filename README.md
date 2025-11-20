@@ -54,12 +54,12 @@ Type `just` to get an overview of available recipes.
   - `output`:
     - `daschland.json` The JSON file containing the data model for the project.
     - `data_daschland.xml` The XML file containing the data for the project.
-  - `processed` The folder containing all data to create the mirror project on Nodegoat.
-  - `raw` The folder containing the spreadsheet data for the project. Each resource class has a separate spreadsheet file.
+  - `processed` The folder containing all data to import the project.
+  - `raw` The folder containing the raw data files of the project. Each resource class has a separate spreadsheet file.
 - `documentation`
 - `src` The folder containing the Python scripts for the project.
   - `helpers` The helper scripts containing custom functions.
-  - `process_data` The scripts to create the mirror project data on Nodegoat.
+  - `process_data` The scripts to process the files used for the import.
   - `xmllib` The scripts to convert the XML data to JSON, using the library "dsp-tools xmllib".
 - `test`: Unit tests and e2e tests
 - `CLAUDE.md`: Instructions for Claude Code
