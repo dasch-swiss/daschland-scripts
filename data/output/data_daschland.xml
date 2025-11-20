@@ -496,7 +496,7 @@ Alice's Sister: Diana Majlinger</text>
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="Advice From a Caterpillar" id="A_06" restype=":Audio">
+    <resource label="Advice from a Caterpillar" id="A_06" restype=":Audio">
         <bitstream license="http://rdfh.ch/licenses/cc-0-1.0" copyright-holder="Public Domain" authorship-id="authorship_2">data/multimedia/audio/AUD_aliceinwonderland_05.mp3</bitstream>
         <text-prop name=":hasCast">
             <text encoding="utf8">Narrator: David Goldfarb
@@ -1122,7 +1122,7 @@ The Aged Man/The Frog: Martin Geeson
 Shrill Voice/The Fishes: Liberty Stump</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text encoding="xml">Chapter 1, Looging-Glass House<br/>Genre(s): Dramatic Readings, Myths, Legends &amp; Fairy Tales<br/>Language: English</text>
+            <text encoding="xml">Chapter 1, Looking-Glass House<br/>Genre(s): Dramatic Readings, Myths, Legends &amp; Fairy Tales<br/>Language: English</text>
         </text-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
@@ -1978,63 +1978,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_01</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_003</resptr>
-            <resptr>I_004</resptr>
-            <resptr>I_005</resptr>
-            <resptr>I_006</resptr>
-            <resptr>I_007</resptr>
-            <resptr>I_008</resptr>
-            <resptr>I_009</resptr>
-            <resptr>I_010</resptr>
-            <resptr>I_011</resptr>
-            <resptr>I_012</resptr>
-            <resptr>I_014</resptr>
-            <resptr>I_015</resptr>
-            <resptr>I_021</resptr>
-            <resptr>I_022</resptr>
-            <resptr>I_023</resptr>
-            <resptr>I_025</resptr>
-            <resptr>I_029</resptr>
-            <resptr>I_030</resptr>
-            <resptr>I_032</resptr>
-            <resptr>I_034</resptr>
-            <resptr>I_035</resptr>
-            <resptr>I_040</resptr>
-            <resptr>I_042</resptr>
-            <resptr>I_043</resptr>
-            <resptr>I_045</resptr>
-            <resptr>I_046</resptr>
-            <resptr>I_047</resptr>
-            <resptr>I_049</resptr>
-            <resptr>I_052</resptr>
-            <resptr>I_053</resptr>
-            <resptr>I_055</resptr>
-            <resptr>I_056</resptr>
-            <resptr>I_060</resptr>
-            <resptr>I_061</resptr>
-            <resptr>I_066</resptr>
-            <resptr>I_067</resptr>
-            <resptr>I_068</resptr>
-            <resptr>I_070</resptr>
-            <resptr>I_071</resptr>
-            <resptr>I_072</resptr>
-            <resptr>I_076</resptr>
-            <resptr>I_077</resptr>
-            <resptr>I_078</resptr>
-            <resptr>I_079</resptr>
-            <resptr>I_080</resptr>
-            <resptr>I_081</resptr>
-            <resptr>I_082</resptr>
-            <resptr>I_084</resptr>
-            <resptr>I_085</resptr>
-            <resptr>I_086</resptr>
-            <resptr>I_087</resptr>
-            <resptr>I_089</resptr>
-            <resptr>I_090</resptr>
-            <resptr>I_091</resptr>
-            <resptr>I_092</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2074,8 +2017,8 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <text-prop name=":hasName">
             <text encoding="utf8">Coniglio bianco</text>
             <text encoding="utf8">Lapin blanc</text>
+            <text encoding="utf8">Weisses Kaninchen</text>
             <text encoding="utf8">White Rabbit</text>
-            <text encoding="utf8">weißes Kaninchen</text>
         </text-prop>
         <text-prop name=":hasQuote">
             <text encoding="xml">Oh dear! Oh dear! I shall be late!</text>
@@ -2083,13 +2026,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_01</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_001</resptr>
-            <resptr>I_002</resptr>
-            <resptr>I_006</resptr>
-            <resptr>I_012</resptr>
-            <resptr>I_037</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2139,9 +2075,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_01</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_015</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2183,7 +2116,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="utf8">Cappellaio Matto</text>
             <text encoding="utf8">Chapelier fou</text>
             <text encoding="utf8">Mad Hatter</text>
-            <text encoding="utf8">verrückter Hutmacher</text>
+            <text encoding="utf8">Verrückter Hutmacher</text>
         </text-prop>
         <text-prop name=":hasQuote">
             <text encoding="xml">Why is a raven like a writing-desk?</text>
@@ -2191,15 +2124,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_01</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_025</resptr>
-            <resptr>I_026</resptr>
-            <resptr>I_027</resptr>
-            <resptr>I_038</resptr>
-            <resptr>I_039</resptr>
-            <resptr>I_069</resptr>
-            <resptr>I_077</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2248,12 +2172,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_01</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_021</resptr>
-            <resptr>I_023</resptr>
-            <resptr>I_024</resptr>
-            <resptr>I_031</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2302,10 +2220,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_01</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_001</resptr>
-            <resptr>I_029</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2351,12 +2265,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_025</resptr>
-            <resptr>I_027</resptr>
-            <resptr>I_076</resptr>
-            <resptr>I_077</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2400,10 +2308,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_021</resptr>
-            <resptr>I_032</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2447,10 +2351,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_034</resptr>
-            <resptr>I_035</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2493,11 +2393,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_033</resptr>
-            <resptr>I_034</resptr>
-            <resptr>I_035</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2541,14 +2436,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_01</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_053</resptr>
-            <resptr>I_055</resptr>
-            <resptr>I_068</resptr>
-            <resptr>I_085</resptr>
-            <resptr>I_086</resptr>
-            <resptr>I_090</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2591,10 +2478,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_072</resptr>
-            <resptr>I_074</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2638,14 +2521,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_043</resptr>
-            <resptr>I_050</resptr>
-            <resptr>I_080</resptr>
-            <resptr>I_081</resptr>
-            <resptr>I_082</resptr>
-            <resptr>I_083</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2689,10 +2564,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_008</resptr>
-            <resptr>I_010</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2737,9 +2608,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_009</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2825,10 +2693,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_001</resptr>
-            <resptr>I_041</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -2872,9 +2736,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_027</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3191,9 +3052,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_051</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3231,9 +3089,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_013</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3272,9 +3127,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_014</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3358,10 +3210,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_020</resptr>
-            <resptr>I_087</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3403,9 +3251,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_020</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3446,10 +3291,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_021</resptr>
-            <resptr>I_022</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3489,9 +3330,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_021</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3574,9 +3412,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_028</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3619,10 +3454,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_030</resptr>
-            <resptr>I_032</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3666,10 +3497,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_040</resptr>
-            <resptr>I_041</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3709,12 +3536,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_016</resptr>
-            <resptr>I_017</resptr>
-            <resptr>I_018</resptr>
-            <resptr>I_019</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3754,9 +3575,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_036</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3795,11 +3613,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_044</resptr>
-            <resptr>I_045</resptr>
-            <resptr>I_091</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3837,9 +3650,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_048</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3881,11 +3691,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_049</resptr>
-            <resptr>I_076</resptr>
-            <resptr>I_077</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3930,9 +3735,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_052</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -3976,11 +3778,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_061</resptr>
-            <resptr>I_066</resptr>
-            <resptr>I_067</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4022,11 +3819,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_062</resptr>
-            <resptr>I_063</resptr>
-            <resptr>I_064</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4068,11 +3860,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_062</resptr>
-            <resptr>I_063</resptr>
-            <resptr>I_064</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4114,9 +3901,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_065</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4160,9 +3944,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_080</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4204,10 +3985,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_01</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_085</resptr>
-            <resptr>I_086</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4249,9 +4026,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_092</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4332,10 +4106,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_070</resptr>
-            <resptr>I_071</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4378,9 +4148,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_078</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -4424,9 +4191,6 @@ Shrill Voice/The Fishes: Liberty Stump</text>
         <list-prop name=":hasRoleList" list="Role">
             <list>R_02</list>
         </list-prop>
-        <resptr-prop name=":linkToImage">
-            <resptr>I_078</resptr>
-        </resptr-prop>
         <text-prop name="project-metadata:hasAuthorshipResource">
             <text encoding="utf8">Daniela Subotic</text>
             <text encoding="utf8">Noémi Villars-Amberg</text>
@@ -10818,7 +10582,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <text encoding="utf8">StoryChapter.csv</text>
         </text-prop>
         <decimal-prop name="project-metadata:hasFileSize">
-            <decimal>0.3</decimal>
+            <decimal>0.4</decimal>
         </decimal-prop>
         <text-prop name="project-metadata:hasID">
             <text encoding="utf8">MAT_005</text>
@@ -11327,7 +11091,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <integer>1</integer>
         </integer-prop>
         <text-prop name=":hasDescription">
-            <text encoding="xml">Alice is sitting with her sister on the riverbank when, out of the blue, a White Rabbit appears. He is wearing a waistcoat and is busy taking a watch out of it, muttering to himself, 'Oh dear! Oh dear! I shall be late!'.<br/>Alice can't help but feel intrigued, and follows him down his rabbit-hole.The rabbit-hole suddenly goes straight down, and Alice falls into it. She falls very slowly, and while she is talking to herself, she falls asleep. But then, out of the blue, she lands on a heap of sticks and dry leaves, and the fall is over.She sees the White Rabbit running in front of her through a long passage, and she just has to follow him.When she turns the corner, the Rabbit is gone, and Alice finds herself in a long, low hall with doors all around it.She tries them, but they are all locked.Then she comes upon a little three-legged table on which a little golden key lies. The key fits in a little door behind a curtain, and when she opens it, she is delighted to see that it leads into a small passage.At the end of the passage, Alice sees a beautiful garden she really wants to get into, but she is too big to fit through the door.When she goes back to the table, she finds a little bottle on it with the words 'Drink me' printed on the label.Alice drinks from it and starts shrinking until she is only ten inches high. She's finally got the right size to fit through the door, but it's still locked! She's left the little golden key on the table, but it's too high to reach.<br/>She starts crying, but then she sees a small glass box under the table. On the box is a cake with the words 'Eat me' written on it. She hopes that eating the cake will make her grow or shrink too, so she eats it.</text>
+            <text encoding="xml">Alice is sitting with her sister on the riverbank when, out of the blue, a White Rabbit appears. He is wearing a waistcoat and is busy taking a watch out of it, muttering to himself, 'Oh dear! Oh dear! I shall be late!'.<br/>Alice can't help but feel intrigued, and follows him down his rabbit-hole. The rabbit-hole suddenly goes straight down, and Alice falls into it. She falls very slowly, and while she is talking to herself, she falls asleep. But then, out of the blue, she lands on a heap of sticks and dry leaves, and the fall is over. She sees the White Rabbit running in front of her through a long passage, and she just has to follow him. When she turns the corner, the Rabbit is gone, and Alice finds herself in a long, low hall with doors all around it. She tries them, but they are all locked. Then she comes upon a little three-legged table on which a little golden key lies. The key fits in a little door behind a curtain, and when she opens it, she is delighted to see that it leads into a small passage. At the end of the passage, Alice sees a beautiful garden she really wants to get into, but she is too big to fit through the door. When she goes back to the table, she finds a little bottle on it with the words 'Drink me' printed on the label. Alice drinks from it and starts shrinking until she is only ten inches high. She's finally got the right size to fit through the door, but it's still locked! She's left the little golden key on the table, but it's too high to reach.<br/>She starts crying, but then she sees a small glass box under the table. On the box is a cake with the words 'Eat me' written on it. She hopes that eating the cake will make her grow or shrink too, so she eats it.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Alice was not your ordinary girl; she had a keen sense of adventure and a bright, inquisitive mind. <br/>One sunny afternoon, while wandering near the edge of her town, she stumbled upon a peculiar rabbit hole, shimmering with an array of colors that hinted at something magical beyond the ordinary.</text>
@@ -11427,7 +11191,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <integer>2</integer>
         </integer-prop>
         <text-prop name=":hasDescription">
-            <text encoding="xml">Alice grows and grows until she's as big as the ceiling.Now she can get the key from the table, but she's too big to fit through the door, so she cries and makes a big puddle on the floor.The White Rabbit comes back, looking really nice and carrying a pair of white kid gloves and a big fan. Alice asks the rabbit for help, but the rabbit is so scared that he drops the gloves and fan and runs away.Alice picks them up and starts fanning herself while she wonders what has made this day so different from every other.She decides that she must have been changed into another girl in the night, as she can't remember her multiplication tables or geography correctly and isn't able to recite a poem properly.<br/>The fanning makes her shrink again until she's only two feet tall. <br/>She tries to get in, but the door's still locked and the key's still lying on the table.<br/>Then she slips and falls into her own pool of tears.She meets a mouse who fell in too, but she scares him when she starts talking about her cat Dinah and a dog. <br/>He says he'll tell her why he hates cats and dogs, and they swim to the shore, taking other creatures that fell into the pool with them.</text>
+            <text encoding="xml">Alice grows and grows until she's as big as the ceiling. Now she can get the key from the table, but she's too big to fit through the door, so she cries and makes a big puddle on the floor. The White Rabbit comes back, looking really nice and carrying a pair of white kid gloves and a big fan. Alice asks the rabbit for help, but the rabbit is so scared that he drops the gloves and fan and runs away. Alice picks them up and starts fanning herself while she wonders what has made this day so different from every other. She decides that she must have been changed into another girl in the night, as she can't remember her multiplication tables or geography correctly and isn't able to recite a poem properly.<br/>The fanning makes her shrink again until she's only two feet tall. <br/>She tries to get in, but the door's still locked and the key's still lying on the table.<br/>Then she slips and falls into her own pool of tears. She meets a mouse who fell in too, but she scares him when she starts talking about her cat Dinah and a dog. <br/>He says he'll tell her why he hates cats and dogs, and they swim to the shore, taking other creatures that fell into the pool with them.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Compelled by her adventurous spirit, Alice leaned in closer to examine the hole. Suddenly, she found herself tumbling down into an extraordinary place called DaSCHland. <br/>This wasn't just any wonderland; it was a world powered by the innovative company DaSCH, known for its remarkable technology and whimsical inventions, and importantly, as a repository for research data in the humanities.</text>
@@ -11513,7 +11277,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <integer>3</integer>
         </integer-prop>
         <text-prop name=":hasDescription">
-            <text encoding="xml">to be completed</text>
+            <text encoding="xml">After everyone gets soaked in the pool, they gather on the bank to dry off. The Mouse, who seems to be in charge, tries to dry them by reciting a long, boring history lesson about William the Conqueror. Nobody's impressed—the Lory shivers, the Duck asks confusing questions, and the Eaglet complains that the words are too long. So the Dodo suggests a Caucus-race instead, which turns out to be a circular race with no real rules or finish line. After running for half an hour, everyone's dry, but nobody knows who won. The Dodo decides that everybody has won and everyone deserves prizes. Alice passes out the comfits from her pocket, and the Dodo grandly presents her with her own thimble. Then the Mouse promises to tell Alice his sad tale and why he hates cats and dogs, but Alice keeps mishearing him and thinking about his tail instead of his story. She accidentally insults him by talking about knots, and the Mouse gets so offended that he storms away. When Alice mentions her cat Dinah and how good she is at catching mice, all the birds panic and scatter, leaving Alice alone and wishing she'd never brought up Dinah at all.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">As Alice landed softly on a bed of clouds, she was greeted by a talking robot named RabbIT. <br/>RabbIT, with its glowing red eyes and sleek silver body, was unlike any creature Alice had ever seen. <br/>"Welcome to DaSCHland," it beeped warmly. "Here, our dreams become realities, and our curiosities fuel our creations."</text>
@@ -11615,12 +11379,12 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 4 - The Rabbit sends in a little Bill" id="SCH_005" restype=":StoryChapter">
+    <resource label="Alice in Wonderland - Chapter 4 - The Rabbit Sends in a Little Bill" id="SCH_005" restype=":StoryChapter">
         <integer-prop name=":hasChapterNumber">
             <integer>4</integer>
         </integer-prop>
         <text-prop name=":hasDescription">
-            <text encoding="xml">to be completed</text>
+            <text encoding="xml">Chapter 4: The Rabbit Sends in a Little Bill. Alice grows too large inside the White Rabbit's house, leading to chaos as the frightened rabbit tries to remove her.</text>
         </text-prop>
         <text-prop name=":hasDescriptionAlternative">
             <text encoding="xml">Eager to explore, Alice followed RabbIT through a landscape where trees had digital screens for leaves displaying fantastical images and data streamed across the sky like shooting stars. <br/>They passed houses that changed shape and color at the occupants' whims and gardens where flowers sang melodies in harmony.</text>
@@ -11687,7 +11451,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>K_042</list>
         </list-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">The Rabbit sends in a little Bill</text>
+            <text encoding="utf8">The Rabbit Sends in a Little Bill</text>
         </text-prop>
         <uri-prop name=":hasUrl">
             <uri>https://www.alice-in-wonderland.net/resources/chapters-script/alices-adventures-in-wonderland/chapter-4/</uri>
@@ -12604,7 +12368,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="Alice in Wonderland - Chapter 11 - Who stole the Tarts?" id="SCH_012" restype=":StoryChapter">
+    <resource label="Alice in Wonderland - Chapter 11 - Who Stole the Tarts?" id="SCH_012" restype=":StoryChapter">
         <integer-prop name=":hasChapterNumber">
             <integer>11</integer>
         </integer-prop>
@@ -12709,7 +12473,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>K_042</list>
         </list-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Who stole the Tarts?</text>
+            <text encoding="utf8">Who Stole the Tarts?</text>
         </text-prop>
         <uri-prop name=":hasUrl">
             <uri>https://www.alice-in-wonderland.net/resources/chapters-script/alices-adventures-in-wonderland/chapter-11/</uri>
@@ -14626,7 +14390,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>LIC_002</list>
         </list-prop>
     </resource>
-    <resource label="Through the Looking-Glass and what Alice found there - Chapter 12 - Which dreamed it?" id="SCH_028" restype=":StoryChapter">
+    <resource label="Through the Looking-Glass and what Alice found there - Chapter 12 - Which Dreamed It?" id="SCH_028" restype=":StoryChapter">
         <integer-prop name=":hasChapterNumber">
             <integer>12</integer>
         </integer-prop>
@@ -14669,7 +14433,7 @@ Shrill Voice/The Fishes: Liberty Stump</text>
             <list>K_052</list>
         </list-prop>
         <text-prop name=":hasName">
-            <text encoding="utf8">Which dreamed it?</text>
+            <text encoding="utf8">Which Dreamed It?</text>
         </text-prop>
         <uri-prop name=":hasUrl">
             <uri>https://www.alice-in-wonderland.net/resources/chapters-script/through-the-looking-glass/chapter-12/</uri>

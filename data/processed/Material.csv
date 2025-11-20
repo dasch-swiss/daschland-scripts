@@ -3,7 +3,7 @@ MAT_001,xml file used for the import of data on DSP,data_daschland.xml,DaSCH,CC 
 MAT_002,csv file for Nodegoat import for Archive class,Archive.csv,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",processed,,0.0
 MAT_003,csv file for Nodegoat import for Audio class,Audio.csv,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",processed,,0.0
 MAT_004,csv file for Nodegoat import for Book class,Story.csv,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",processed,,0.0
-MAT_005,csv file for Nodegoat import for Book Chapter class,StoryChapter.csv,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",processed,,0.3
+MAT_005,csv file for Nodegoat import for Book Chapter class,StoryChapter.csv,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",processed,,0.4
 MAT_006,csv file for Nodegoat import for Book Edition class,BookEdition.csv,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",processed,,0.0
 MAT_007,csv file for Nodegoat import for Character class,Character.csv,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",processed,,0.1
 MAT_008,csv file for Nodegoat import for Documentation class,Documentation.csv,DaSCH,CC BY 4.0,,"Daniela Subotic, Noémi Villars-Amberg","Daniela Subotic, Noémi Villars-Amberg",processed,,0.0

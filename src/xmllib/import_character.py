@@ -36,7 +36,6 @@ def main() -> list[Resource]:
         names = {name for name in names if pd.notna(name)}
 
         roles = create_list_from_input(row["Role List"], separator=",")
-        image_ids = create_list_from_input(row["Image ID"], separator=",")
 
         keyword_names = get_list_nodes_from_string_via_list_name(
             string_with_list_labels=row["Keyword"], label_separator=",", list_name="Keyword", list_lookup=list_lookup
@@ -67,7 +66,6 @@ def main() -> list[Resource]:
         resource.add_richtext_optional(prop_name=":hasDescriptionAlternative", value=row["Alternative Description"])
         resource.add_list_multiple(prop_name=":hasRoleList", list_name="Role", values=roles)
         resource.add_richtext_optional(":hasQuote", row["Quote"])
-        resource.add_link_multiple(":linkToImage", image_ids)
         resource.add_list_multiple(prop_name=":hasKeywordList", list_name="Keyword", values=keyword_names)
         resource.add_simpletext("project-metadata:hasCopyrightResource", "DaSCH")
         resource.add_list("project-metadata:hasLicenseResource", "License", "LIC_002")
